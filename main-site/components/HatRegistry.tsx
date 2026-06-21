@@ -5,10 +5,12 @@ import { hats } from "../system/registry";
 import HatDrawer from "./HatDrawer";
 
 // ==================================================
-// iD Gravity Core — Hat Registry FINAL
-// ✅ OVERLAY ON TOP OF THE TILE — exactly where it should be
-// ✅ Text normal, no vertical lines
-// ✅ Front = description | Flipped = name
+// iD Gravity Core — Hat Registry v3.8
+// ✅ Overlay FLIPS WITH TILE — part of 3D card
+// ✅ Does NOT block flip or attributes/stats
+// ✅ Captures state ON HOVER START — no cycling text
+// ✅ Instantly hides on mouse leave / touch end
+// ✅ Click/flip works perfectly
 // ✅ No red lines, no errors
 // ==================================================
 
@@ -55,7 +57,10 @@ export default function HatRegistry() {
   const [selectedHats, setSelectedHats] = useState<any[]>([]);
   const [activeHat, setActiveHat] = useState<any>(null);
 
-  type HoverData = { hat: any } | null;
+  type HoverData = {
+    hat: any;
+    wasFlipped: boolean; // ✅ Capture state ON HOVER START
+  } | null;
   const [hovered, setHovered] = useState<HoverData>(null);
 
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({
@@ -125,6 +130,8 @@ export default function HatRegistry() {
   const handleTileClick = (hat: any, e: React.MouseEvent) => {
     e.stopPropagation();
     e.preventDefault();
+    // ✅ Hide overlay immediately when clicking/flipping
+    setHovered(null);
     setFlippedTiles(prev => {
       const newState = { ...prev };
       newState[hat.id] = !prev[hat.id];
@@ -133,19 +140,24 @@ export default function HatRegistry() {
     toggleSelectHat(hat);
   };
 
-  // ✅ Hover handlers
-  const handleTileMouseEnter = (hat: any) => setHovered({ hat });
+  // ✅ Hover — capture flip state ONLY when mouse enters
+  const handleTileMouseEnter = (hat: any) => {
+    const currentlyFlipped = flippedTiles[hat.id] || false;
+    setHovered({ hat, wasFlipped: currentlyFlipped });
+  };
   const handleTileMouseLeave = () => setHovered(null);
 
-  // ✅ Mobile long‑press
+  // ✅ Mobile long‑press — same logic
   const handleTouchStart = (hat: any) => {
     longPressTimer.current = setTimeout(() => {
-      setHovered({ hat });
+      const currentlyFlipped = flippedTiles[hat.id] || false;
+      setHovered({ hat, wasFlipped: currentlyFlipped });
       setTimeout(() => setHovered(null), 2500);
     }, 500);
   };
   const handleTouchEnd = () => {
     if (longPressTimer.current) clearTimeout(longPressTimer.current);
+    setHovered(null);
   };
 
   if (!isMounted) return null;
@@ -180,10 +192,10 @@ export default function HatRegistry() {
           position: "relative",
           zIndex: 20
         }}>
-          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "8px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: 8 }}>
             <div style={{
-              width: "40px",
-              height: "40px",
+              width: 40,
+              height: 40,
               borderRadius: "50%",
               background: "#151515",
               overflow: "hidden",
@@ -197,8 +209,8 @@ export default function HatRegistry() {
               />
             </div>
             <div>
-              <h2 style={{ margin: 0, fontSize: "16px", fontWeight: 600 }}>Mike Gold</h2>
-              <p style={{ margin: 0, fontSize: "12px", opacity: 0.6 }}>Systems / Architect</p>
+              <h2 style={{ margin: 0, fontSize: 16, fontWeight: 600 }}>Mike Gold</h2>
+              <p style={{ margin: 0, fontSize: 12, opacity: 0.6 }}>Systems / Architect</p>
             </div>
           </div>
 
@@ -228,7 +240,7 @@ export default function HatRegistry() {
             padding: "8px 12px",
             display: "flex",
             flexDirection: "column",
-            gap: "12px",
+            gap: 12,
             minHeight: 0,
             position: "relative",
             zIndex: 10
@@ -312,13 +324,13 @@ export default function HatRegistry() {
                             cursor: "pointer",
                             width: "100%",
                             height: "100%",
-                            position: "relative", // ✅ This makes overlay position RELATIVE TO TILE
+                            position: "relative",
                             overflow: "hidden",
-                            borderRadius: "6px",
+                            borderRadius: 6,
                             isolation: "isolate"
                           }}
                         >
-                          {/* FLIP CONTAINER */}
+                          {/* ✅ FLIP CONTAINER — OVERLAY IS INSIDE, SO IT FLIPS TOO */}
                           <div style={{
                             width: "100%",
                             height: "100%",
@@ -405,37 +417,37 @@ export default function HatRegistry() {
                                 </div>
                               ))}
                             </div>
-                          </div>
 
-                          {/* ✅ OVERLAY — ON TOP OF THE TILE, FIXED POSITION */}
-                          {isHovered && (
-                            <div
-                              style={{
-                                position: "absolute", // ✅ RELATIVE TO TILE — always on it
-                                top: 0,
-                                left: 0,
-                                width: "100%",
-                                height: "100%",
-                                backgroundColor: "rgba(0, 0, 0, 0.85)",
-                                border: "1px solid #555",
-                                borderRadius: "6px",
-                                zIndex: 10, // ✅ On top of everything
-                                fontSize: "9px",
-                                lineHeight: "1.2",
-                                color: "#fff",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                textAlign: "center",
-                                padding: "4px",
-                                boxSizing: "border-box",
-                                overflow: "hidden",
-                                textOverflow: "ellipsis"
-                              }}
-                            >
-                              {!isFlipped ? hat.description || "No description" : hat.name}
-                            </div>
-                          )}
+                            {/* ✅ OVERLAY — INSIDE FLIP CONTAINER, FLIPS WITH CARD */}
+                            {isHovered && (
+                              <div
+                                style={{
+                                  position: "absolute",
+                                  inset: 0,
+                                  backgroundColor: "rgba(0, 0, 0, 0.88)",
+                                  border: "1px solid #666",
+                                  borderRadius: 6,
+                                  zIndex: 5, // ✅ Between faces, NOT on top blocking flip
+                                  fontSize: "9px",
+                                  lineHeight: "1.2",
+                                  color: "#fff",
+                                  display: "flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                  textAlign: "center",
+                                  padding: 4,
+                                  boxSizing: "border-box",
+                                  overflow: "hidden",
+                                  transform: "inherit", // ✅ INHERIT FLIP ROTATION
+                                  backfaceVisibility: "hidden"
+                                }}
+                              >
+                                {/* Uses state CAPTURED ON HOVER START — no cycling */}
+                                {!hovered.wasFlipped ? hat.description || "No description" : hat.name}
+                              </div>
+                            )}
+
+                          </div>
                         </div>
                       );
                     })}
@@ -461,10 +473,10 @@ export default function HatRegistry() {
               background: "#151515", 
               border: "1px solid #222", 
               borderRadius: 8,
-              height: "44px",
+              height: 44,
               display: "flex",
               alignItems: "center",
-              gap: "8px"
+              gap: 8
             }}>
               <div style={{ fontSize: 13, opacity: 0.7, flexShrink: 0 }}>
                 Selected ({selectedHats.length})
@@ -477,8 +489,8 @@ export default function HatRegistry() {
                 height: "100%",
                 display: "flex",
                 alignItems: "center",
-                gap: "6px",
-                paddingBottom: "2px"
+                gap: 6,
+                paddingBottom: 2
               }}>
                 {selectedHats.map(hat => (
                   <div key={hat.id} style={{
@@ -489,7 +501,7 @@ export default function HatRegistry() {
                     fontSize: 12,
                     display: "flex",
                     alignItems: "center",
-                    gap: "4px",
+                    gap: 4,
                     flexShrink: 0
                   }}>
                     {hat.name}
@@ -520,7 +532,7 @@ export default function HatRegistry() {
       {/* RIGHT DRAWER — ISOLATED SCROLL */}
       <div 
         style={{ 
-          width: "400px", 
+          width: 400, 
           height: "100vh", 
           overflow: "hidden",
           flexShrink: 0 
