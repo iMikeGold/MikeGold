@@ -5,8 +5,8 @@ import HatRegistry from "../components/HatRegistry";
 
 export default function Home() {
   return (
-    <main style={{ padding: 40 }}>
-      <h1>Creative Media & Design Engineering</h1>
+    <main style={{ padding: 10 }}>
+      
       <HatRegistry />
     </main>
   );

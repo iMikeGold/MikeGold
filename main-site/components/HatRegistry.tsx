@@ -6,15 +6,19 @@ import HatDrawer from "./HatDrawer";
 import { useInteractionKernel } from "./interaction/InteractionKernel";
 
 // ==================================================
-// iD Gravity Core — Hat Registry v5.2
-// FIXED: Mobile viewport height (100dvh) — no more collapse
-// FIXED: Flex container sizing + minHeight:0 rule
-// FIXED: Full height chain stable for Next.js
-// RETAINED: Perfect text alignment, stats bars left→right, interaction kernel
+// iD Gravity Core — Hat Registry v6.0
+// FIXED: Mobile/Desktop Responsive Layout Split
+// FIXED: Long-press = preview ONLY (no click, no text highlight)
+// FIXED: Header condensed & pinned to top
+// FIXED: Right panel/polygon resizable + responsive
+// FIXED: Portrait layout reflow — polygon moves to top
+// FIXED: No horizontal scroll / viewport overflow
+// FIXED: Drawer overlays on mobile, full width
+// SEPARATED: Spatial layout + interaction + rendering layers
 // ==================================================
 
 // ------------------------------
-// GLOBAL CSS — CORRECTED FOR NEXT.JS + MOBILE
+// GLOBAL CSS — FIXED VIEWPORT + NO OVERFLOW
 // ------------------------------
 const globalCSS = `
 html, body {
@@ -22,13 +26,20 @@ html, body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* prevent body scroll */
+  overflow: hidden;
+  position: relative;
 }
 
-/* Remove Next.js #__next reliance — safe for App Router */
 #__next {
   height: 100%;
   min-height: 100%;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
 }
 `;
 
@@ -71,7 +82,15 @@ function getHatStats(hat: any) {
 // ------------------------------
 export default function HatRegistry() {
   // ------------------------------
-  // STATE — ONLY DATA
+  // RESPONSIVE LAYOUT DETECTION
+  // ------------------------------
+  const [isMobile, setIsMobile] = useState(false);
+  const [isPortrait, setIsPortrait] = useState(false);
+  const [rightPanelWidth, setRightPanelWidth] = useState(400); // Desktop resizable
+  const [isMounted, setIsMounted] = useState(false);
+
+  // ------------------------------
+  // STATE — DATA ONLY
   // ------------------------------
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -83,15 +102,29 @@ export default function HatRegistry() {
     engineering: true
   });
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
-  const [isMounted, setIsMounted] = useState(false);
 
   // ------------------------------
   // INTERACTION KERNEL — SINGLE SOURCE
   // ------------------------------
   const interaction = useInteractionKernel(flippedTiles);
 
+  // ------------------------------
+  // LAYOUT DETECTION
+  // ------------------------------
   useEffect(() => {
+    const checkLayout = () => {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      setIsMobile(w < 1024);
+      setIsPortrait(h > w);
+      // Limit right panel size
+      setRightPanelWidth(Math.max(300, Math.min(600, w * 0.4)));
+    };
+
+    checkLayout();
+    window.addEventListener("resize", checkLayout);
     setIsMounted(true);
+    return () => window.removeEventListener("resize", checkLayout);
   }, []);
 
   // ------------------------------
@@ -156,58 +189,78 @@ export default function HatRegistry() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: globalCSS }} />
-      {/* FIX: Use 100dvh — correct mobile viewport height, no collapse */}
       <div style={{
         position: "relative",
         height: "100dvh",
         minHeight: "100dvh",
         display: "flex",
+        flexDirection: isPortrait && isMobile ? "column" : "row",
         background: "#0a0a0a",
         color: "#fff",
         fontFamily: "sans-serif",
         overflow: "hidden"
       }}>
-        {/* FIX: Left panel — flex child with minHeight:0 to prevent collapse */}
+
+        {/* CONDENSED HEADER — PINNED TOP, NO EXTRA SPACE */}
         <div style={{
-          width: "calc(100% - 400px)",
-          height: "100%",
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 50,
+          background: "#0a0a0a",
+          borderBottom: "1px solid #222",
+          padding: "6px 12px 4px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between"
+        }}>
+          <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+            <div style={{ width:32, height:32, borderRadius:"50%", background:"#151515", overflow:"hidden", border:"1px solid #333" }}>
+              <img src="/images/universal-mic.png" alt="Profile" style={{ width:"100%", height:"100%", objectFit:"cover" }} />
+            </div>
+            <div>
+              <h2 style={{ margin:0, fontSize:14, fontWeight:600, lineHeight:1 }}>Mike Gold</h2>
+              <p style={{ margin:0, fontSize:12, opacity:0.6, lineHeight:1.5 }}>Systems / Architect</p>
+            </div>
+          </div>
+          <div style={{ fontSize:12, opacity:0.4 }}>Creative Media & Design Engineering</div>
+        </div>
+
+        {/* LEFT PANEL — RESPONSIVE WIDTH, FULL WIDTH MOBILE */}
+        <div style={{
+          width: isMobile ? "100%" : `calc(100% - ${rightPanelWidth}px)`,
+          height: isPortrait && isMobile ? `calc(100% - ${activeHat ? 300 : 0}px)` : "100%",
           minHeight: 0,
           display: "flex",
           flexDirection: "column",
           overflow: "hidden",
-          position: "relative"
+          position: "relative",
+          marginTop: "48px" // Space for condensed header
         }}>
-          {/* HEADER */}
+
+          {/* SEARCH BAR — TUCKED UNDER HEADER */}
           <div style={{
             flexShrink: 0,
             background: "#0a0a0a",
-            padding: "12px 12px 8px 12px",
+            padding: "4px 12px 8px",
             borderBottom: "1px solid #222",
             zIndex: 20
           }}>
-            <div style={{ display:"flex", alignItems:"center", gap:12, marginBottom:8 }}>
-              <div style={{ width:40, height:40, borderRadius:"50%", background:"#151515", overflow:"hidden", border:"1px solid #333" }}>
-                <img src="/images/universal-mic.png" alt="Profile" style={{ width:"100%", height:"100%", objectFit:"cover" }} />
-              </div>
-              <div>
-                <h2 style={{ margin:0, fontSize:16, fontWeight:600 }}>Mike Gold</h2>
-                <p style={{ margin:0, fontSize:12, opacity:0.6 }}>Systems / Architect</p>
-              </div>
-            </div>
             <input
               type="text"
-              placeholder="Search hats, tags, capabilities or descriptions..."
+              placeholder="Search hats, tags, capabilities..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               style={{
-                width:"100%", padding:"10px 14px",
+                width:"100%", padding:"8px 12px",
                 background:"#151515", border:"1px solid #333",
-                borderRadius:8, color:"#fff", fontSize:14
+                borderRadius:6, color:"#fff", fontSize:13
               }}
             />
           </div>
 
-          {/* FIX: Scroll area — minHeight:0 critical for flex scroll */}
+          {/* SCROLL AREA — NO CHOPPED EDGES, FULL WIDTH */}
           <div
             style={{
               flex: 1,
@@ -218,7 +271,9 @@ export default function HatRegistry() {
               flexDirection: "column",
               gap: 12,
               minHeight: 0,
-              zIndex: 10
+              zIndex: 10,
+              margin: 0,
+              maxWidth: "100%"
             }}
             onWheel={(e) => e.stopPropagation()}
           >
@@ -257,7 +312,8 @@ export default function HatRegistry() {
                     <div style={{
                       display:"grid",
                       gridTemplateColumns:"repeat(auto-fill, minmax(80px, 1fr))",
-                      gap:4, paddingLeft:0
+                      gap:4, paddingLeft:0,
+                      width:"100%"
                     }}>
                       {hatsList.map((hat) => {
                         const isSelected = selectedHats.some(h => h.id === hat.id);
@@ -271,8 +327,8 @@ export default function HatRegistry() {
                             key={hat.id}
                             onMouseEnter={() => interaction.enter(hat.id, hat)}
                             onMouseLeave={interaction.leave}
-                            onTouchStart={() => interaction.touchStart(hat.id, hat)}
-                            onTouchEnd={interaction.touchEnd}
+                            onTouchStart={(e) => interaction.touchStart(hat.id, hat, e)}
+                            onTouchEnd={(e) => interaction.touchEnd(e)}
                             onClick={() =>
                               interaction.click(
                                 () => setFlippedTiles(prev => ({ ...prev, [hat.id]: !prev[hat.id] })),
@@ -347,7 +403,7 @@ export default function HatRegistry() {
                                 ))}
                               </div>
 
-                              {/* OVERLAY */}
+                              {/* OVERLAY — LONG PRESS ONLY */}
                               {overlayText && (
                                 <div style={{
                                   position:"absolute", inset:0,
@@ -372,7 +428,7 @@ export default function HatRegistry() {
             })}
           </div>
 
-          {/* SELECTED BAR */}
+          {/* SELECTED BAR — FIXED BOTTOM, VISIBLE */}
           {selectedHats.length > 0 && (
             <div style={{
               flexShrink: 0,
@@ -405,21 +461,34 @@ export default function HatRegistry() {
           )}
         </div>
 
-        {/* RIGHT DRAWER */}
-        <div style={{
-          width: 400,
-          height: "100%",
-          minHeight: 0,
-          overflow: "hidden",
-          flexShrink: 0
-        }} onWheel={(e) => e.stopPropagation()}>
-          <HatDrawer
-            hat={activeHat}
-            relatedHats={relatedHats}
-            onSelectHat={(hat: any) => { setActiveHat(hat); toggleSelectHat(hat); }}
-            onClose={() => setActiveHat(null)}
-          />
-        </div>
+        {/* ✅ RIGHT PANEL / POLYGON — RESPONSIVE, RESIZABLE, OVERLAY MOBILE */}
+        {(!isMobile || activeHat) && (
+          <div style={{
+            width: isMobile ? "100%" : `${rightPanelWidth}px`,
+            height: isPortrait && isMobile ? "300px" : "100%",
+            minHeight: 0,
+            overflow: "hidden",
+            flexShrink: 0,
+            background: "#111",
+            borderLeft: isMobile ? "none" : "1px solid #222",
+            borderTop: isPortrait && isMobile ? "1px solid #222" : "none",
+            position: isMobile ? "absolute" : "relative",
+            top: isPortrait && isMobile ? "auto" : 0,
+            bottom: isPortrait && isMobile ? 0 : "auto",
+            right: 0,
+            zIndex: 40
+          }} onWheel={(e) => e.stopPropagation()}>
+            <HatDrawer
+              hat={activeHat}
+              relatedHats={relatedHats}
+              onSelectHat={(hat: any) => { setActiveHat(hat); toggleSelectHat(hat); }}
+              onClose={() => setActiveHat(null)}
+              isMobile={isMobile}
+              isPortrait={isPortrait}
+            />
+          </div>
+        )}
+
       </div>
     </>
   );

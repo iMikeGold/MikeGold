@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 // ====================================================
-// iD Gravity Core — Tile Interacttion Kernel v1.0.0
+// iD Gravity Core — Tile Interacttion Kernel v1.1.0
 // Addressing mobile issues + separtion of logic
 // ====================================================
 
@@ -26,12 +26,11 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
 
   const longPress = useRef<NodeJS.Timeout | null>(null);
 
-  // Detect device type ONCE on mount
+  // Detect device ONCE
   useEffect(() => {
     const isTouch =
       typeof window !== "undefined" &&
       ("ontouchstart" in window || navigator.maxTouchPoints > 0);
-
     setMode(isTouch ? "touch" : "mouse");
   }, []);
 
@@ -40,10 +39,9 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     setOverlay(null);
   };
 
-  // Desktop: hover logic
+  // Desktop: hover = preview only
   const enter = (id: string, hat: any) => {
     if (mode === "touch") return;
-
     setActiveId(id);
     setOverlay({
       id,
@@ -56,9 +54,11 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     clear();
   };
 
-  // Mobile: long press = preview
-  const touchStart = (id: string, hat: any) => {
+  // Mobile: LONG PRESS = PREVIEW ONLY (NO CLICK / NO HIGHLIGHT)
+  const touchStart = (id: string, hat: any, e: React.TouchEvent) => {
     if (mode !== "touch") return;
+    // Stop text selection / native actions
+    e.preventDefault();
 
     longPress.current = setTimeout(() => {
       setActiveId(id);
@@ -69,19 +69,21 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     }, 450);
   };
 
-  const touchEnd = () => {
+  const touchEnd = (e: React.TouchEvent) => {
     if (longPress.current) clearTimeout(longPress.current);
     clear();
   };
 
-  // Click = always flip + select (both devices)
-  const click = (toggleFlip: () => void, toggleSelect: () => void) => {
+  // TAP = FLIP + SELECT ONLY (NO PREVIEW)
+  const click = (
+    toggleFlip: () => void,
+    toggleSelect: () => void
+  ) => {
     clear();
     toggleFlip();
     toggleSelect();
   };
 
-  // Single source of truth for tile visual state
   const getTileState = (
     id: string,
     isSelected: boolean,
