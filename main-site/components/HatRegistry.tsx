@@ -6,23 +6,29 @@ import HatDrawer from "./HatDrawer";
 import { useInteractionKernel } from "./interaction/InteractionKernel";
 
 // ==================================================
-// iD Gravity Core — Hat Registry v5.1
-// ONLY: InteractionKernel (single source of truth)
-// FIXED: Stats bars fill LEFT → RIGHT (no center start)
-// FIXED: Text perfectly CENTERED horizontally + vertically
-// FIXED: Mobile/desktop logic 100% consistent, no conflicts
-// NO extra files, NO broken imports, NO duplication
+// iD Gravity Core — Hat Registry v5.2
+// FIXED: Mobile viewport height (100dvh) — no more collapse
+// FIXED: Flex container sizing + minHeight:0 rule
+// FIXED: Full height chain stable for Next.js
+// RETAINED: Perfect text alignment, stats bars left→right, interaction kernel
 // ==================================================
 
 // ------------------------------
-// GLOBAL CSS — REQUIRED FOR LAYOUT
+// GLOBAL CSS — CORRECTED FOR NEXT.JS + MOBILE
 // ------------------------------
 const globalCSS = `
-html, body, #__next {
+html, body {
   height: 100%;
-  overflow: auto;
+  min-height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden; /* prevent body scroll */
+}
+
+/* Remove Next.js #__next reliance — safe for App Router */
+#__next {
+  height: 100%;
+  min-height: 100%;
 }
 `;
 
@@ -65,7 +71,7 @@ function getHatStats(hat: any) {
 // ------------------------------
 export default function HatRegistry() {
   // ------------------------------
-  // STATE — ONLY DATA, NO BEHAVIOUR HERE
+  // STATE — ONLY DATA
   // ------------------------------
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -80,7 +86,7 @@ export default function HatRegistry() {
   const [isMounted, setIsMounted] = useState(false);
 
   // ------------------------------
-  // INTERACTION KERNEL — ONLY ONE SOURCE OF TRUTH
+  // INTERACTION KERNEL — SINGLE SOURCE
   // ------------------------------
   const interaction = useInteractionKernel(flippedTiles);
 
@@ -124,7 +130,7 @@ export default function HatRegistry() {
   }, [activeHat]);
 
   // ------------------------------
-  // ACTIONS — ONLY DATA UPDATES
+  // ACTIONS
   // ------------------------------
   const toggleSelectHat = (hat: any) => {
     setSelectedHats(prev => {
@@ -144,27 +150,28 @@ export default function HatRegistry() {
   // RENDER
   // ------------------------------
   if (!isMounted) {
-    return <div style={{ color: "#fff", padding: 20, background:"#0a0a0a", height:"100%" }}>Loading...</div>;
+    return <div style={{ color: "#fff", padding: 20, background:"#0a0a0a", height:"100dvh" }}>Loading...</div>;
   }
 
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: globalCSS }} />
+      {/* FIX: Use 100dvh — correct mobile viewport height, no collapse */}
       <div style={{
         position: "relative",
-        height: "100%",
-        minHeight: "100%",
+        height: "100dvh",
+        minHeight: "100dvh",
         display: "flex",
         background: "#0a0a0a",
         color: "#fff",
         fontFamily: "sans-serif",
-        overflow: "visible"
+        overflow: "hidden"
       }}>
-        {/* LEFT PANEL */}
+        {/* FIX: Left panel — flex child with minHeight:0 to prevent collapse */}
         <div style={{
           width: "calc(100% - 400px)",
           height: "100%",
-          minHeight: "100%",
+          minHeight: 0,
           display: "flex",
           flexDirection: "column",
           overflow: "hidden",
@@ -178,8 +185,8 @@ export default function HatRegistry() {
             borderBottom: "1px solid #222",
             zIndex: 20
           }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
-                <div style={{ width:40, height:40, borderRadius:"50%", background:"#151515", overflow:"hidden", border:"1px solid #333" }}>
+            <div style={{ display:"flex", alignItems:"center", gap:12, marginBottom:8 }}>
+              <div style={{ width:40, height:40, borderRadius:"50%", background:"#151515", overflow:"hidden", border:"1px solid #333" }}>
                 <img src="/images/universal-mic.png" alt="Profile" style={{ width:"100%", height:"100%", objectFit:"cover" }} />
               </div>
               <div>
@@ -200,12 +207,18 @@ export default function HatRegistry() {
             />
           </div>
 
-          {/* SCROLL AREA */}
+          {/* FIX: Scroll area — minHeight:0 critical for flex scroll */}
           <div
             style={{
-              flex:1, overflowY:"auto", overflowX:"hidden",
-              padding:"8px 12px", display:"flex", flexDirection:"column",
-              gap:12, minHeight:0, zIndex:10
+              flex: 1,
+              overflowY: "auto",
+              overflowX: "hidden",
+              padding: "8px 12px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 12,
+              minHeight: 0,
+              zIndex: 10
             }}
             onWheel={(e) => e.stopPropagation()}
           >
@@ -251,14 +264,11 @@ export default function HatRegistry() {
                         const weightScore = calculateWeight(hat);
                         const stats = getHatStats(hat);
                         const isFlipped = flippedTiles[hat.id] || false;
-
-                        // ALL STATE FROM KERNEL
                         const overlayText = interaction.getOverlay(hat.id);
 
                         return (
                           <div
                             key={hat.id}
-                            // ALL INTERACTION FROM KERNEL
                             onMouseEnter={() => interaction.enter(hat.id, hat)}
                             onMouseLeave={interaction.leave}
                             onTouchStart={() => interaction.touchStart(hat.id, hat)}
@@ -288,7 +298,7 @@ export default function HatRegistry() {
                             }}>
                               <style>{`@keyframes shimmer { 0% {background-position:200% 0;} 100% {background-position:-200% 0;} }`}</style>
 
-                              {/* FRONT FACE — PERFECT CENTER BOTH WAYS */}
+                              {/* FRONT FACE — PERFECT CENTER */}
                               <div style={{
                                 position:"absolute", inset:0,
                                 background: isSelected ? "#2563eb22" : "#151515",
@@ -311,7 +321,7 @@ export default function HatRegistry() {
                                 </div>
                               </div>
 
-                              {/* BACK FACE — FIXED: STATS BARS FILL LEFT → RIGHT */}
+                              {/* BACK FACE — STATS LEFT→RIGHT */}
                               <div style={{
                                 position:"absolute", inset:0,
                                 background:"#1a1a1a", border:"1px solid #444",
@@ -337,7 +347,7 @@ export default function HatRegistry() {
                                 ))}
                               </div>
 
-                              {/* OVERLAY — ONLY FROM KERNEL STATE */}
+                              {/* OVERLAY */}
                               {overlayText && (
                                 <div style={{
                                   position:"absolute", inset:0,
@@ -365,9 +375,11 @@ export default function HatRegistry() {
           {/* SELECTED BAR */}
           {selectedHats.length > 0 && (
             <div style={{
-              flexShrink:0, background:"#0a0a0a",
-              padding:"8px 12px 12px", borderTop:"1px solid #222",
-              zIndex:20
+              flexShrink: 0,
+              background: "#0a0a0a",
+              padding: "8px 12px 12px",
+              borderTop: "1px solid #222",
+              zIndex: 20
             }}>
               <div style={{
                 padding:"8px 12px", background:"#151515",
@@ -395,8 +407,11 @@ export default function HatRegistry() {
 
         {/* RIGHT DRAWER */}
         <div style={{
-          width:400, height:"100%", minHeight:"100%",
-          overflow:"hidden", flexShrink:0
+          width: 400,
+          height: "100%",
+          minHeight: 0,
+          overflow: "hidden",
+          flexShrink: 0
         }} onWheel={(e) => e.stopPropagation()}>
           <HatDrawer
             hat={activeHat}
