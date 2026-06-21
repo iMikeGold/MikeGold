@@ -1,15 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import { hats } from "../system/registry";
 import HatDrawer from "./HatDrawer";
 
 // ==================================================
-// iD Gravity Core — Hat Registry v2.97
-// CARD FLIPS: 100% CONSISTENT — every card same flip
-// POLYGON: Fixed resize, no overlap, min size 160px
-// SCROLL: Isolated, no cross-panel
-// HEADER/SEARCH/CLEAR: Fixed, never move
+// iD Gravity Core — Hat Registry FINAL
+// ✅ OVERLAY ON TOP OF THE TILE — exactly where it should be
+// ✅ Text normal, no vertical lines
+// ✅ Front = description | Flipped = name
+// ✅ No red lines, no errors
 // ==================================================
 
 // ------------------------------
@@ -54,13 +54,23 @@ export default function HatRegistry() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedHats, setSelectedHats] = useState<any[]>([]);
   const [activeHat, setActiveHat] = useState<any>(null);
-  const [hovered, setHovered] = useState<{ hat: any; rect: DOMRect } | null>(null);
+
+  type HoverData = { hat: any } | null;
+  const [hovered, setHovered] = useState<HoverData>(null);
+
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({
     creative: true,
     design: true,
     engineering: true
   });
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
+
+  const longPressTimer = useRef<NodeJS.Timeout | null>(null);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const filteredHats = useMemo(() => {
     return hats.filter((hat) => {
@@ -123,6 +133,23 @@ export default function HatRegistry() {
     toggleSelectHat(hat);
   };
 
+  // ✅ Hover handlers
+  const handleTileMouseEnter = (hat: any) => setHovered({ hat });
+  const handleTileMouseLeave = () => setHovered(null);
+
+  // ✅ Mobile long‑press
+  const handleTouchStart = (hat: any) => {
+    longPressTimer.current = setTimeout(() => {
+      setHovered({ hat });
+      setTimeout(() => setHovered(null), 2500);
+    }, 500);
+  };
+  const handleTouchEnd = () => {
+    if (longPressTimer.current) clearTimeout(longPressTimer.current);
+  };
+
+  if (!isMounted) return null;
+
   return (
     <div style={{ 
       position: "fixed",
@@ -134,7 +161,7 @@ export default function HatRegistry() {
       color: "#fff",
       fontFamily: "sans-serif"
     }}>
-      {/* LEFT PANEL — FULLY SELF-CONTAINED */}
+      {/* LEFT PANEL — FULLY SELF‑CONTAINED */}
       <div style={{ 
         width: "calc(100% - 400px)", 
         height: "100vh",
@@ -268,36 +295,38 @@ export default function HatRegistry() {
                       const weightScore = calculateWeight(hat);
                       const stats = getHatStats(hat);
                       const isFlipped = flippedTiles[hat.id] || false;
+                      const isHovered = hovered?.hat.id === hat.id;
 
                       return (
                         <div
                           key={hat.id}
-                          onMouseEnter={(e) => setHovered({ hat, rect: e.currentTarget.getBoundingClientRect() })}
-                          onMouseLeave={() => setHovered(null)}
+                          onMouseEnter={() => handleTileMouseEnter(hat)}
+                          onMouseLeave={handleTileMouseLeave}
                           onClick={(e) => handleTileClick(hat, e)}
+                          onTouchStart={() => handleTouchStart(hat)}
+                          onTouchEnd={handleTouchEnd}
+                          onTouchCancel={handleTouchEnd}
                           style={{
                             aspectRatio: "1/1",
-                            perspective: "1200px", // FIXED DEPTH — same for all
+                            perspective: "1200px",
                             cursor: "pointer",
                             width: "100%",
                             height: "100%",
-                            position: "relative",
-                            zIndex: hovered?.hat.id === hat.id ? 30 : 1,
+                            position: "relative", // ✅ This makes overlay position RELATIVE TO TILE
                             overflow: "hidden",
                             borderRadius: "6px",
                             isolation: "isolate"
                           }}
                         >
-                          {/* CONSISTENT FLIP CONTAINER — identical transform for every card */}
+                          {/* FLIP CONTAINER */}
                           <div style={{
                             width: "100%",
                             height: "100%",
                             position: "relative",
                             transformStyle: "preserve-3d",
-                            transformOrigin: "center center", // FIXED ORIGIN
-                            transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)", // ✅ SAME SPEED/EASING
+                            transformOrigin: "center center",
+                            transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
                             transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
-                            // SHIMMER — no conflict
                             boxShadow: isSelected 
                               ? "0 0 10px #2563eb, inset 0 0 15px rgba(37, 99, 235, 0.4), 0 0 20px rgba(59, 130, 246, 0.2)" 
                               : "none",
@@ -314,7 +343,7 @@ export default function HatRegistry() {
                               }
                             `}</style>
 
-                            {/* FRONT FACE — fixed z-index + backface */}
+                            {/* FRONT FACE */}
                             <div style={{
                               position: "absolute",
                               inset: 0,
@@ -333,7 +362,7 @@ export default function HatRegistry() {
                               overflow: "hidden",
                               wordBreak: "break-word",
                               zIndex: 2,
-                              transform: "rotateY(0deg)" // FIXED
+                              transform: "rotateY(0deg)"
                             }}>
                               <strong style={{ fontSize: 11, marginBottom: 1, width: "100%" }}>
                                 {hat.name}
@@ -343,7 +372,7 @@ export default function HatRegistry() {
                               </div>
                             </div>
 
-                            {/* BACK FACE — identical transform for every card */}
+                            {/* BACK FACE */}
                             <div style={{
                               position: "absolute",
                               inset: 0,
@@ -352,7 +381,7 @@ export default function HatRegistry() {
                               borderRadius: 6,
                               padding: 4,
                               backfaceVisibility: "hidden",
-                              transform: "rotateY(180deg)", //  FIXED
+                              transform: "rotateY(180deg)",
                               display: "flex",
                               flexDirection: "column",
                               justifyContent: "space-around",
@@ -378,31 +407,33 @@ export default function HatRegistry() {
                             </div>
                           </div>
 
-                          {/* ✅ HOVER — no flip breakage */}
-                          {hovered?.hat.id === hat.id && (
+                          {/* ✅ OVERLAY — ON TOP OF THE TILE, FIXED POSITION */}
+                          {isHovered && (
                             <div
                               style={{
-                                position: "absolute",
-                                inset: 0,
-                                padding: "4px",
-                                backgroundColor: "rgba(0, 0, 0, 0.94)",
+                                position: "absolute", // ✅ RELATIVE TO TILE — always on it
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                backgroundColor: "rgba(0, 0, 0, 0.85)",
                                 border: "1px solid #555",
                                 borderRadius: "6px",
-                                zIndex: 40,
-                                fontSize: "8px",
-                                lineHeight: "1.15",
+                                zIndex: 10, // ✅ On top of everything
+                                fontSize: "9px",
+                                lineHeight: "1.2",
                                 color: "#fff",
-                                pointerEvents: "none",
-                                overflow: "hidden",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
                                 textAlign: "center",
-                                whiteSpace: "normal",
-                                wordBreak: "break-word"
+                                padding: "4px",
+                                boxSizing: "border-box",
+                                overflow: "hidden",
+                                textOverflow: "ellipsis"
                               }}
                             >
-                              {isFlipped ? hat.name : hat.description || ""}
+                              {!isFlipped ? hat.description || "No description" : hat.name}
                             </div>
                           )}
                         </div>
