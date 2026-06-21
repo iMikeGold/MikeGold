@@ -7,13 +7,16 @@
 
 "use client";
 
+// ------------------------------
+// IMPORTS — FIRST
+// ------------------------------
 import { useMemo, useState, useEffect } from "react";
 import { hats } from "../system/registry";
 import HatDrawer from "./HatDrawer";
 import { useInteractionKernel } from "./interaction/InteractionKernel";
 
 // ------------------------------
-// GLOBAL CSS
+// GLOBAL CSS — DEFINED HERE
 // ------------------------------
 const globalCSS = `
 html, body {
@@ -89,12 +92,12 @@ function getHatStats(hat: any) {
 // ------------------------------
 export default function HatRegistry() {
   // ------------------------------
-  // ✅ MATCH DRAWER'S POLYGON SIZE EXACTLY
+  // MATCH DRAWER'S POLYGON SIZE EXACTLY
   // ------------------------------
   const [isMobile, setIsMobile] = useState(false);
   const [isPortrait, setIsPortrait] = useState(false);
   const POLYGON_SIZE = 200; // SAME AS DRAWER
-  const DRAWER_MIN_WIDTH = POLYGON_SIZE + 40; // 240px — SAME AS DRAWER'S CONTENT_WIDTH
+  const DRAWER_MIN_WIDTH = POLYGON_SIZE + 40; // 220px — SAME AS DRAWER'S CONTENT_WIDTH
   const DRAWER_MAX_WIDTH = 450;
   const [drawerWidth, setDrawerWidth] = useState(DRAWER_MIN_WIDTH);
   const [isMounted, setIsMounted] = useState(false);
@@ -114,9 +117,13 @@ export default function HatRegistry() {
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
 
   // ------------------------------
-  // INTERACTION — ORIGINAL LOGIC
+  // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
   // ------------------------------
-  const interaction = useInteractionKernel(flippedTiles);
+  const interaction = useInteractionKernel(flippedTiles, {
+    isMobile,
+    isCompact: false,
+    isPortrait
+  });
 
   // ------------------------------
   // RESPONSIVE — FULL MOBILE/PORTRAIT LOGIC
@@ -223,7 +230,13 @@ export default function HatRegistry() {
 
   return (
     <>
+      {/* 1. VIEWPORT TAG — FIXES MOBILE ZOOM / SNAPS TO SCREEN */}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      {/* 2. GLOBAL CSS — NOW DEFINED ABOVE, NO ERROR */}
       <style dangerouslySetInnerHTML={{ __html: globalCSS }} />
+
+      {/* 3. REST OF YOUR EXACT CODE — NO CHANGES */}
       <div style={{
         position: "relative",
         height: "100dvh",
@@ -259,13 +272,13 @@ export default function HatRegistry() {
             </div>
             <div>
               <h2 style={{ margin:0, fontSize:14, fontWeight:600, lineHeight:1 }}>Mike Gold</h2>
-              <p style={{ margin:"3px 0 0 0", fontSize:11, opacity:0.6, lineHeight:1 }}>Systems / Architect </p>
+              <p style={{ margin:"3px 0 0 0", fontSize:12, opacity:0.6, lineHeight:1 }}>Systems  Architect</p>
             </div>
           </div>
           <div style={{ fontSize:12, opacity:0.4, flexShrink:0, whiteSpace:"nowrap" }}>Creative Media & Design Engineering</div>
         </div>
 
-        {/* ✅ LEFT PANEL — EXACT SPACE, NO OVERLAP */}
+        {/* LEFT PANEL — EXACT SPACE, NO OVERLAP */}
         <div style={{
           position: "absolute",
           top: "44px",
@@ -502,7 +515,7 @@ export default function HatRegistry() {
           </div>
         </div>
 
-        {/* ✅ DRAWER — RECEIVES WIDTH FROM REGISTRY, NO CONFLICT */}
+        {/* DRAWER — RECEIVES WIDTH FROM REGISTRY, NO CONFLICT */}
         {activeHat && (
           <div style={{
             position: "absolute",

@@ -1,18 +1,25 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+// ====================================================
+// iD Gravity Core — Tile Interaction Kernel v1.6
+// NOW LAYOUT AWARE: Desktop / Compact / Mobile
+// DIFFERENT BEHAVIOR PER MODE
+// ====================================================
 
-// ====================================================
-// iD Gravity Core — Tile Interaction Kernel v1.4
-// ✅ BLUE DOT / STUCK STATE 100% FIXED
-// ====================================================
+import { useEffect, useRef, useState } from "react";
 
 export type TileState = "idle" | "hovered" | "selected" | "flipped" | "preview";
 type Mode = "mouse" | "touch";
+type LayoutMode = "desktop" | "compact" | "mobile";
 type Overlay = { id: string; text: string } | null;
 
-export function useInteractionKernel(flippedMap: Record<string, boolean>) {
+// Make layout optional + safe fallback
+export function useInteractionKernel(
+  flippedMap: Record<string, boolean>,
+  layout?: { isMobile: boolean; isCompact: boolean; isPortrait: boolean }
+) {
   const [mode, setMode] = useState<Mode>("mouse");
+  const [layoutMode, setLayoutMode] = useState<LayoutMode>("desktop");
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlay, setOverlay] = useState<Overlay>(null);
   const longPress = useRef<NodeJS.Timeout | null>(null);
@@ -20,7 +27,17 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
   useEffect(() => {
     const isTouch = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
     setMode(isTouch ? "touch" : "mouse");
-  }, []);
+
+    // Safe check: if layout is missing, default to desktop
+    if (!layout) {
+      setLayoutMode("desktop");
+      return;
+    }
+
+    if (layout.isMobile || layout.isPortrait) setLayoutMode("mobile");
+    else if (layout.isCompact) setLayoutMode("compact");
+    else setLayoutMode("desktop");
+  }, [layout]);
 
   const clear = () => {
     setActiveId(null);
@@ -29,11 +46,13 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
 
   const enter = (id: string, hat: any) => {
     if (mode === "touch") return;
-    setActiveId(id);
-    setOverlay({
-      id,
-      text: flippedMap[id] ? hat.name : hat.description || hat.name
-    });
+    if (layoutMode === "desktop") {
+      setActiveId(id);
+      setOverlay({
+        id,
+        text: flippedMap[id] ? hat.name : hat.description || hat.name
+      });
+    }
   };
 
   const leave = () => {
@@ -58,8 +77,14 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
   const click = (toggleFlip: () => void, toggleSelect: () => void) => {
     clear();
     requestAnimationFrame(() => {
-      toggleFlip();
-      toggleSelect();
+      if (layoutMode === "desktop") {
+        toggleFlip();
+        toggleSelect();
+      } else if (layoutMode === "compact") {
+        toggleSelect();
+      } else {
+        toggleSelect();
+      }
     });
   };
 
@@ -73,5 +98,5 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
 
   const getOverlay = (id: string) => (overlay?.id === id ? overlay.text : null);
 
-  return { mode, enter, leave, touchStart, touchEnd, click, getTileState, getOverlay };
+  return { mode, layoutMode, enter, leave, touchStart, touchEnd, click, getTileState, getOverlay };
 }

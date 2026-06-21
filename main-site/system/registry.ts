@@ -1,12 +1,12 @@
 // ==================================================
-// iD Gravity CORE v2.1 — Hat Registry (HARDENED CANONICAL)
+// iD Gravity CORE v3.0 — Hat Registry (HARDENED CANONICAL)
 // SCHEMA: Weighted Semantic Graph | Directed Multigraph
 // STANDARD: Machine-Interpretable Ontology + Human Layer
 // UPDATED: 2026-06-20
 // ==================================================
 
 export const GRAVITY_META = {
-  version: "2.1",
+  version: "3.0",
   schema: "iD-Gravity-Core",
   scale: "0–1 Normalized",
   weight_model: {
@@ -406,6 +406,1038 @@ export const hats = [
       overview: "Working on recorded material to remove noise, fix errors, edit timing, add effects and polish the result. Take what was captured and turn it into a finished, professional product. Work with dialogue, music and effects. Ensure everything lines up, sounds natural and serves the story.",
       capabilities: ["audio editing", "restoration", "enhancement"],
       usedFor: ["film", "video", "podcasts"]
+    }
+  },
+
+    // ==================================================
+  // CREATIVE CATEGORY
+  // ==================================================
+
+  // --- Creative Systems ---
+  {
+    id: "creative-technologist",
+    name: "Creative Technologist",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.92,
+      experience: 0.88,
+      rarity: 0.70
+    },
+
+    tags: {
+      core: ["tech", "creativity", "purpose"],
+      adjacent: [],
+      meta: ["bridge", "innovation"]
+    },
+
+    description: "Uses technical capability to serve clear purpose or feeling.",
+    details: {
+      overview: "Bridges technical engineering and creative expression — applying tools, code and systems to build experiences that communicate, engage or move people. Every technical choice is driven by what the work needs to achieve, not just what is possible. Works across disciplines to turn abstract ideas into working reality. Ensures technology disappears behind the experience, so the audience feels the intent rather than the mechanism.",
+      capabilities: [
+        "tech-creative integration",
+        "concept realisation",
+        "experimental development"
+      ],
+      usedFor: [
+        "installations",
+        "interactive media",
+        "artistic technology"
+      ]
+    }
+  },
+  {
+    id: "creative-engineer",
+    name: "Creative Engineer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.94,
+      experience: 0.90,
+      rarity: 0.75
+    },
+
+    tags: {
+      core: ["build", "concept", "environment"],
+      adjacent: [],
+      meta: ["reliability", "vision"]
+    },
+
+    description: "Turns concept into working, repeatable environment.",
+    details: {
+      overview: "Designs and builds complete systems that deliver a specific creative result — whether a performance rig, exhibition space or production workflow. Balances vision with engineering discipline so the result is both powerful and reliable. Defines rules, behaviours and limits that keep the creative outcome consistent while allowing room for variation. Makes the complex feel intentional and controlled.",
+      capabilities: [
+        "system design for creativity",
+        "concept engineering",
+        "environment build"
+      ],
+      usedFor: [
+        "live productions",
+        "exhibitions",
+        "custom creative tools"
+      ]
+    }
+  },
+  {
+    id: "expression-systems-designer",
+    name: "Expression Systems Designer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.91,
+      experience: 0.87,
+      rarity: 0.72
+    },
+
+    tags: {
+      core: ["tone", "character", "framework"],
+      adjacent: [],
+      meta: ["consistency", "voice"]
+    },
+
+    description: "Builds frameworks for consistent character or tone.",
+    details: {
+      overview: "Creates rules and structures that ensure every output — sound, image, interaction — carries the same voice, mood or identity. Defines what fits and what does not, so the whole feels like one coherent work. Designs flexibility into the system so it can respond or evolve without breaking character. Used when expression must be consistent across many pieces or over time.",
+      capabilities: [
+        "style framework design",
+        "consistency engineering",
+        "character definition"
+      ],
+      usedFor: [
+        "branded experiences",
+        "series productions",
+        "long-form narratives"
+      ]
+    }
+  },
+  {
+    id: "narrative-systems-thinker",
+    name: "Narrative Systems Thinker",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.93,
+      experience: 0.89,
+      rarity: 0.78
+    },
+
+    tags: {
+      core: ["story", "flow", "meaning"],
+      adjacent: [],
+      meta: ["structure", "emotion"]
+    },
+
+    description: "Structures flow so meaning unfolds correctly.",
+    details: {
+      overview: "Organises information, events or media into a sequence that guides understanding or emotion. Plans how elements appear, change or connect so the audience follows the intended path naturally. Works with timing, context and relationship between parts. Ensures the system itself tells the story, not just the content inside it.",
+      capabilities: [
+        "flow architecture",
+        "story structure",
+        "meaning design"
+      ],
+      usedFor: [
+        "interactive stories",
+        "guided experiences",
+        "educational environments"
+      ]
+    }
+  },
+  {
+    id: "concept-engineer",
+    name: "Concept Engineer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.88,
+      experience: 0.84,
+      rarity: 0.68
+    },
+
+    tags: {
+      core: ["feasibility", "planning", "validation"],
+      adjacent: [],
+      meta: ["risk", "translation"]
+    },
+
+    description: "Checks feasibility before commitment.",
+    details: {
+      overview: "Takes early ideas and tests whether they can actually be built, run and delivered. Identifies technical limits, cost, time or quality risks early, and proposes adjustments that keep the vision intact while making it possible. Translates creative language into engineering terms and vice versa. Ensures everyone understands exactly what is possible and what is required.",
+      capabilities: [
+        "feasibility analysis",
+        "concept validation",
+        "requirement translation"
+      ],
+      usedFor: [
+        "project planning",
+        "new development",
+        "risk reduction"
+      ]
+    }
+  },
+  {
+    id: "world-building-engineer",
+    name: "World‑Building Engineer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.95,
+      experience: 0.91,
+      rarity: 0.80
+    },
+
+    tags: {
+      core: ["environment", "rules", "limits"],
+      adjacent: [],
+      meta: ["coherence", "immersion"]
+    },
+
+    description: "Designs rules and limits for complete environments.",
+    details: {
+      overview: "Defines the full logic of a space — physical, digital or mixed — including what exists, how things behave, what can happen and what cannot. Creates a complete internal consistency so the environment feels real and predictable. Builds systems that enforce these rules automatically. Used for installations, simulations or interactive spaces where immersion depends on coherence.",
+      capabilities: [
+        "environment logic design",
+        "rule engineering",
+        "consistency systems"
+      ],
+      usedFor: [
+        "immersive installations",
+        "simulations",
+        "theme environments"
+      ]
+    }
+  },
+  {
+    id: "symbol-systems-designer",
+    name: "Symbol Systems Designer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.89,
+      experience: 0.85,
+      rarity: 0.71
+    },
+
+    tags: {
+      core: ["language", "markers", "consistency"],
+      adjacent: [],
+      meta: ["communication", "recognition"]
+    },
+
+    description: "Uses visual/audio markers consistently.",
+    details: {
+      overview: "Creates a shared language of signs, sounds, colours or movements that carry specific meaning. Defines exactly what each symbol means, when it appears and how it changes — so users learn and recognise them instantly. Ensures meaning stays the same across every use. Symbols become a reliable way to communicate without words.",
+      capabilities: [
+        "language design",
+        "symbol definition",
+        "meaning consistency"
+      ],
+      usedFor: [
+        "control interfaces",
+        "branding",
+        "accessible communication"
+      ]
+    }
+  },
+  {
+    id: "meaning-architect",
+    name: "Meaning Architect",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.94,
+      experience: 0.90,
+      rarity: 0.77
+    },
+
+    tags: {
+      core: ["intent", "design", "message"],
+      adjacent: [],
+      meta: ["clarity", "purpose"]
+    },
+
+    description: "Ensures every technical choice serves the intended message.",
+    details: {
+      overview: "Reviews every decision — from equipment choice to signal routing to layout — through the question: does this help or change what we are trying to say? Ensures form follows function and function follows meaning. Removes anything that distracts or confuses. Every part of the system exists only to deliver the core message clearly and powerfully.",
+      capabilities: [
+        "intent alignment",
+        "message clarity",
+        "design discipline"
+      ],
+      usedFor: [
+        "high-impact productions",
+        "branded environments",
+        "artistic works"
+      ]
+    }
+  },
+
+  // --- Audio / Media / Experiential ---
+  {
+    id: "music-engineer",
+    name: "Music Engineer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.93,
+      experience: 0.89,
+      rarity: 0.66
+    },
+
+    tags: {
+      core: ["music", "dynamics", "space"],
+      adjacent: [],
+      meta: ["musicality", "tone"]
+    },
+
+    description: "Tunes dynamics and space for artistic intent.",
+    details: {
+      overview: "Specialised in working with music — understanding how instruments, voices and arrangements interact. Shapes tone, balance, depth and width to serve the performance, not just measure technical specs. Applies compression, EQ, reverb and other tools with musical judgement. Ensures the recording or performance feels natural, powerful and true to the artist’s vision.",
+      capabilities: [
+        "music production",
+        "dynamic processing",
+        "spatial tuning"
+      ],
+      usedFor: [
+        "album recording",
+        "concert sound",
+        "music media"
+      ]
+    }
+  },
+  {
+    id: "media-engineer",
+    name: "Media Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.87,
+      experience: 0.83,
+      rarity: 0.58
+    },
+
+    tags: {
+      core: ["transport", "video", "signal"],
+      adjacent: [],
+      meta: ["reliability", "sync"]
+    },
+
+    description: "Manages video/audio transport without drop‑out.",
+    details: {
+      overview: "Ensures media signals — audio, video, metadata — move reliably between devices, rooms or locations. Designs paths, formats, synchronisation and error handling so delivery is perfect every time. Works with SDI, HDMI, Dante, fibre, IP and file‑based workflows. Critical for broadcast, live events and complex installations where failure is not an option.",
+      capabilities: [
+        "media routing",
+        "format management",
+        "synchronisation"
+      ],
+      usedFor: [
+        "broadcast systems",
+        "live events",
+        "media distribution"
+      ]
+    }
+  },
+  {
+    id: "sound-systems-designer",
+    name: "Sound Systems Designer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.91,
+      experience: 0.87,
+      rarity: 0.69
+    },
+
+    tags: {
+      core: ["acoustics", "coverage", "power"],
+      adjacent: [],
+      meta: ["modelling", "tuning"]
+    },
+
+    description: "Calculates coverage, power and response for spaces.",
+    details: {
+      overview: "Designs complete sound systems matched exactly to the room, audience and purpose. Calculates speaker placement, power requirements, frequency response and coverage to ensure everyone hears the same high quality. Works with room acoustics, reflection and absorption. Models performance before build, then tunes and measures to prove it works as designed.",
+      capabilities: [
+        "system design",
+        "acoustic modelling",
+        "coverage planning"
+      ],
+      usedFor: [
+        "venues",
+        "theatres",
+        "large events"
+      ]
+    }
+  },
+  {
+    id: "signal-flow-designer",
+    name: "Signal Flow Designer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.86,
+      experience: 0.82,
+      rarity: 0.57
+    },
+
+    tags: {
+      core: ["routing", "path", "integrity"],
+      adjacent: [],
+      meta: ["cleanliness", "documentation"]
+    },
+
+    description: "Maps every connection path to avoid ground‑loops or loss.",
+    details: {
+      overview: "Plans exactly how signals travel from input to output — every cable, connector, device and switch. Eliminates unnecessary stages, avoids interference paths and ensures ground‑loops or noise cannot enter. Documents every connection clearly. A clean flow is the foundation of clean sound, and makes troubleshooting or expansion simple later.",
+      capabilities: [
+        "path mapping",
+        "noise elimination",
+        "integrity design"
+      ],
+      usedFor: [
+        "studio builds",
+        "live rigs",
+        "permanent installations"
+      ]
+    }
+  },
+  {
+    id: "performance-systems-engineer",
+    name: "Performance Systems Engineer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.90,
+      experience: 0.86,
+      rarity: 0.63
+    },
+
+    tags: {
+      core: ["live", "stability", "pressure"],
+      adjacent: [],
+      meta: ["redundancy", "robustness"]
+    },
+
+    description: "Builds rigs stable under live pressure.",
+    details: {
+      overview: "Designs systems specifically for live use — where there is no second chance. Builds redundancy, simple controls and robust connections so even if something goes wrong, the show continues. Tests every part under load and stress. Makes systems fast to set up, easy to operate and safe to change during performance.",
+      capabilities: [
+        "live system build",
+        "redundancy design",
+        "pressure testing"
+      ],
+      usedFor: [
+        "concerts",
+        "festivals",
+        "broadcast events"
+      ]
+    }
+  },
+  {
+    id: "live-systems-designer",
+    name: "Live Systems Designer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.85,
+      experience: 0.81,
+      rarity: 0.59
+    },
+
+    tags: {
+      core: ["speed", "reliability", "change"],
+      adjacent: [],
+      meta: ["standardisation", "efficiency"]
+    },
+
+    description: "Optimises for fast change and reliability.",
+    details: {
+      overview: "Creates systems that handle rapid changes — different acts, different setups, different formats — without confusion or error. Standardises connections, settings and layouts so switching is quick and safe. Designs clear, labelled layouts and simple controls. Reliability and speed are equal priorities in live work.",
+      capabilities: [
+        "fast-setup design",
+        "standardisation",
+        "change management"
+      ],
+      usedFor: [
+        "touring systems",
+        "multi-act events",
+        "broadcast studios"
+      ]
+    }
+  },
+  {
+    id: "experiential-engineer",
+    name: "Experiential Engineer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.92,
+      experience: 0.88,
+      rarity: 0.74
+    },
+
+    tags: {
+      core: ["sensory", "environment", "unified"],
+      adjacent: [],
+      meta: ["integration", "coordination"]
+    },
+
+    description: "Combines sound, light and control into unified effect.",
+    details: {
+      overview: "Designs complete environments where every element — sound, light, movement, touch — works together to create a specific feeling or effect. Ensures timing, intensity and behaviour are perfectly coordinated. Builds the control systems that link everything, so one command changes the whole experience. The audience perceives it as one thing, not separate parts.",
+      capabilities: [
+        "multi-domain integration",
+        "coordination design",
+        "sensory engineering"
+      ],
+      usedFor: [
+        "immersive spaces",
+        "theme parks",
+        "art installations"
+      ]
+    }
+  },
+  {
+    id: "sensory-design-engineer",
+    name: "Sensory Design Engineer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.91,
+      experience: 0.87,
+      rarity: 0.76
+    },
+
+    tags: {
+      core: ["perception", "calibration", "human"],
+      adjacent: [],
+      meta: ["comfort", "impact"]
+    },
+
+    description: "Tunes every input to match human perception exactly.",
+    details: {
+      overview: "Works with how people actually see, hear and feel. Adjusts levels, timing, colour and texture to fit human senses, not just technical measurements. Ensures the experience feels natural, balanced and powerful. Calibrates systems so what is intended is exactly what is perceived. Critical for comfort, clarity and emotional impact.",
+      capabilities: [
+        "perception tuning",
+        "calibration",
+        "human-centric design"
+      ],
+      usedFor: [
+        "high-fidelity systems",
+        "accessible environments",
+        "premium experiences"
+      ]
+    }
+  },
+  
+  {
+    id: "spatial-audio-engineer",
+    name: "Spatial Audio Engineer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.94,
+      experience: 0.90,
+      rarity: 0.79
+    },
+
+    tags: {
+      core: ["spatial", "3d", "immersion"],
+      adjacent: [],
+      meta: ["positioning", "dimension"]
+    },
+
+    description: "Designs sound that moves and surrounds the listener.",
+    details: {
+      overview: "Uses techniques like Ambisonics, Dolby Atmos or multi‑channel arrays to place sound anywhere in 3D space. Creates environments where sound comes from above, behind or around, making the experience immersive. Works with position, movement and distance. Spatial audio adds a new dimension to storytelling and feeling.",
+      capabilities: [
+        "3d audio design",
+        "spatial coding",
+        "immersion engineering"
+      ],
+      usedFor: [
+        "cinema",
+        "VR/AR",
+        "immersive installations"
+      ]
+    }
+  },
+  {
+    id: "media-workflow-designer",
+    name: "Media Workflow Designer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.84,
+      experience: 0.80,
+      rarity: 0.55
+    },
+
+    tags: {
+      core: ["workflow", "process", "media"],
+      adjacent: [],
+      meta: ["efficiency", "integration"]
+    },
+
+    description: "Designs efficient paths for media creation and delivery.",
+    details: {
+      overview: "Plans how media moves from capture through editing, processing, approval, storage and distribution. Removes bottlenecks, ensures quality is preserved and makes work faster and easier. Integrates tools, storage and people into one smooth process. A good workflow saves time and prevents mistakes.",
+      capabilities: [
+        "process design",
+        "tool integration",
+        "efficiency engineering"
+      ],
+      usedFor: [
+        "production houses",
+        "broadcast facilities",
+        "content teams"
+      ]
+    }
+  },
+  {
+    id: "format-standardisation-engineer",
+    name: "Format Standardisation Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.83,
+      experience: 0.79,
+      rarity: 0.53
+    },
+
+    tags: {
+      core: ["formats", "standards", "compatibility"],
+      adjacent: [],
+      meta: ["archiving", "future-proofing"]
+    },
+
+    description: "Defines consistent formats for all media.",
+    details: {
+      overview: "Chooses and enforces file types, resolutions, frame rates, sample rates and metadata standards. Ensures every file works everywhere, archives safely and can be used in future. Removes confusion and compatibility issues. Standardisation is the foundation of reliable media management.",
+      capabilities: [
+        "standard definition",
+        "compatibility design",
+        "format management"
+      ],
+      usedFor: [
+        "large archives",
+        "multi-platform delivery",
+        "long-term storage"
+      ]
+    }
+  },
+  {
+    id: "metadata-engineer",
+    name: "Metadata Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.82,
+      experience: 0.78,
+      rarity: 0.56
+    },
+
+    tags: {
+      core: ["metadata", "information", "organisation"],
+      adjacent: [],
+      meta: ["searchability", "management"]
+    },
+
+    description: "Organises information that describes media.",
+    details: {
+      overview: "Designs what information is stored with each file — title, creator, date, technical details, rights — and how it is structured. Makes media easy to find, manage and use correctly. Ensures metadata is consistent, complete and linked to the file securely. Without good metadata, media becomes lost or useless over time.",
+      capabilities: [
+        "metadata schema",
+        "information management",
+        "searchability"
+      ],
+      usedFor: [
+        "libraries",
+        "archives",
+        "media asset management"
+      ]
+    }
+  },
+  {
+    id: "media-distribution-engineer",
+    name: "Media Distribution Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.85,
+      experience: 0.81,
+      rarity: 0.60
+    },
+
+    tags: {
+      core: ["distribution", "delivery", "platforms"],
+      adjacent: [],
+      meta: ["optimisation", "security"]
+    },
+
+    description: "Gets media to the right place in the right form.",
+    details: {
+      overview: "Designs how media is delivered to audiences — online, broadcast, physical or download. Optimises quality, speed and reliability for each platform while keeping the creative intent intact. Manages encoding, packaging, security and delivery networks. Ensures the audience gets the best possible version for their device.",
+      capabilities: [
+        "delivery strategy",
+        "encoding optimisation",
+        "platform adaptation"
+      ],
+      usedFor: [
+        "streaming services",
+        "broadcast",
+        "digital distribution"
+      ]
+    }
+  },
+  {
+    id: "immersive-media-engineer",
+    name: "Immersive Media Engineer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.93,
+      experience: 0.89,
+      rarity: 0.77
+    },
+
+    tags: {
+      core: ["immersive", "vr", "ar"],
+      adjacent: [],
+      meta: ["presence", "tracking"]
+    },
+
+    description: "Builds media that surrounds or interacts with the user.",
+    details: {
+      overview: "Creates experiences where the user is inside or part of the media — VR, AR, projection mapping or interactive spaces. Combines audio, video, tracking and control to create presence. Ensures everything lines up perfectly — movement, sound, image — so the brain accepts it as real. Comfort and immersion are equal goals.",
+      capabilities: [
+        "immersive system design",
+        "tracking integration",
+        "presence engineering"
+      ],
+      usedFor: [
+        "virtual reality",
+        "augmented reality",
+        "projection installations"
+      ]
+    }
+  },
+  {
+    id: "interactive-media-engineer",
+    name: "Interactive Media Engineer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.90,
+      experience: 0.86,
+      rarity: 0.71
+    },
+
+    tags: {
+      core: ["interactive", "response", "control"],
+      adjacent: [],
+      meta: ["feedback", "dialogue"]
+    },
+
+    description: "Designs media that responds to user input.",
+    details: {
+      overview: "Builds systems where what happens next depends on what the user does — touch, movement, sound or choice. Creates a conversation between the user and the work. Ensures response is fast, clear and meaningful. Interaction should feel natural, not technical.",
+      capabilities: [
+        "response design",
+        "input integration",
+        "interactive logic"
+      ],
+      usedFor: [
+        "museums",
+        "exhibitions",
+        "games"
+      ]
+    }
+  },
+  {
+    id: "lighting-systems-designer",
+    name: "Lighting Systems Designer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.88,
+      experience: 0.84,
+      rarity: 0.65
+    },
+
+    tags: {
+      core: ["lighting", "atmosphere", "control"],
+      adjacent: [],
+      meta: ["mood", "integration"]
+    },
+
+    description: "Designs light as part of the overall experience.",
+    details: {
+      overview: "Uses light — brightness, colour, movement, timing — to create mood, focus attention or change atmosphere. Designs systems that are reliable, controllable and integrated with sound and other elements. Works with fixtures, control protocols and power. Light is a powerful storytelling tool when engineered well.",
+      capabilities: [
+        "lighting design",
+        "control system integration",
+        "atmosphere engineering"
+      ],
+      usedFor: [
+        "stages",
+        "events",
+        "installations"
+      ]
+    }
+  },
+  {
+    id: "projection-systems-engineer",
+    name: "Projection Systems Engineer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.89,
+      experience: 0.85,
+      rarity: 0.67
+    },
+
+    tags: {
+      core: ["projection", "mapping", "visual"],
+      adjacent: [],
+      meta: ["geometry", "brightness"]
+    },
+
+    description: "Projects images onto any surface accurately.",
+    details: {
+      overview: "Designs projection systems that fit perfectly onto buildings, stages or objects. Corrects for shape, angle and distance so the image looks correct and bright everywhere. Integrates media players, warping, blending and control. Projection turns any surface into a display.",
+      capabilities: [
+        "projection mapping",
+        "geometry correction",
+        "brightness optimisation"
+      ],
+      usedFor: [
+        "building projections",
+        "stage backdrops",
+        "exhibitions"
+      ]
+    }
+  },
+  {
+    id: "control-systems-designer",
+    name: "Control Systems Designer",
+    category: "creative",
+    type: "experiential",
+
+    weight: {
+      base: 0.91,
+      experience: 0.87,
+      rarity: 0.73
+    },
+
+    tags: {
+      core: ["control", "automation", "orchestration"],
+      adjacent: [],
+      meta: ["timing", "centralisation"]
+    },
+
+    description: "Orchestrates all elements from one place.",
+    details: {
+      overview: "Builds the system that controls everything — sound, light, video, movement. Creates simple, clear interfaces or automated sequences so one action changes the whole environment. Ensures timing is perfect and commands are reliable. Control is the brain that makes the experience work as one.",
+      capabilities: [
+        "orchestration design",
+        "control interface",
+        "timing engineering"
+      ],
+      usedFor: [
+        "live shows",
+        "installations",
+        "complex venues"
+      ]
+    }
+  },
+  {
+    id: "media-consultant",
+    name: "Media Consultant",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.78,
+      experience: 0.74,
+      rarity: 0.48
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["advice", "planning", "strategy"],
+      meta: ["guidance", "selection"]
+    },
+
+    description: "Advises on best use of media and technology.",
+    details: {
+      overview: "Brings experience to help plan projects — what technology to use, how to organise work, what quality to aim for. Helps avoid mistakes and choose the right path from the start. Translates technical possibilities into creative opportunities. Ensures investment delivers the intended result.",
+      capabilities: [
+        "strategy advice",
+        "technology selection",
+        "quality planning"
+      ],
+      usedFor: [
+        "project planning",
+        "system selection",
+        "creative direction"
+      ]
+    }
+  },
+  {
+    id: "media-archiving-engineer",
+    name: "Media Archiving Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.79,
+      experience: 0.75,
+      rarity: 0.51
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["archive", "preservation", "long-term"],
+      meta: ["safety", "accessibility"]
+    },
+
+    description: "Preserves media safely for future use.",
+    details: {
+      overview: "Designs systems to store media securely, reliably and accessibly over decades. Chooses formats, storage media and strategies that prevent loss or degradation. Organises and documents everything so it can be found and used easily in future. Preservation is as important as creation.",
+      capabilities: [
+        "preservation strategy",
+        "long-term storage",
+        "archive organisation"
+      ],
+      usedFor: [
+        "cultural archives",
+        "production libraries",
+        "historical records"
+      ]
+    }
+  },
+  {
+    id: "media-quality-engineer",
+    name: "Media Quality Engineer",
+    category: "creative",
+    type: "media",
+
+    weight: {
+      base: 0.80,
+      experience: 0.76,
+      rarity: 0.52
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["quality", "testing", "standards"],
+      meta: ["validation", "improvement"]
+    },
+
+    description: "Ensures media meets defined quality standards.",
+    details: {
+      overview: "Defines what good quality means for each project — technical and creative. Builds tests, checks and measurements to ensure every piece meets or exceeds that standard. Catches errors early and guides improvement. Quality is not just checked at the end, it is built in from the start.",
+      capabilities: [
+        "quality definition",
+        "testing design",
+        "improvement guidance"
+      ],
+      usedFor: [
+        "broadcast",
+        "distribution",
+        "premium productions"
+      ]
+    }
+  },
+  {
+    id: "audio-test-engineer",
+    name: "Audio Test Engineer",
+    category: "creative",
+    type: "audio",
+
+    weight: {
+      base: 0.81,
+      experience: 0.77,
+      rarity: 0.54
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["testing", "measurement", "validation"],
+      meta: ["diagnostics", "accuracy"]
+    },
+
+    description: "Measures and verifies audio performance.",
+    details: {
+      overview: "Uses tools and methods to measure frequency response, distortion, noise, timing and more. Proves that systems perform as designed and identifies exactly where or how they fall short. Turns subjective listening into objective data. Testing is how we know what is actually happening.",
+      capabilities: [
+        "measurement",
+        "performance validation",
+        "fault finding"
+      ],
+      usedFor: [
+        "system commissioning",
+        "product testing",
+        "quality assurance"
+      ]
+    }
+  },
+  {
+    id: "creative-project-engineer",
+    name: "Creative Project Engineer",
+    category: "creative",
+    type: "concept",
+
+    weight: {
+      base: 0.82,
+      experience: 0.78,
+      rarity: 0.50
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["project", "delivery", "coordination"],
+      meta: ["planning", "problem-solving"]
+    },
+
+    description: "Coordinates delivery of creative‑technical projects.",
+    details: {
+      overview: "Manages the overlap between creative vision and technical build. Ensures everyone understands what is needed, work proceeds smoothly and the result matches the intent. Solves problems quickly and keeps quality high. Makes sure creative ideas are delivered safely, on time and on budget.",
+      capabilities: [
+        "coordination",
+        "problem solving",
+        "delivery management"
+      ],
+      usedFor: [
+        "productions",
+        "installations",
+        "complex builds"
+      ]
     }
   },
 
@@ -1313,5 +2345,1170 @@ export const hats = [
       capabilities: ["application design", "integration", "workflow structuring"],
       usedFor: ["end-user applications", "system interfaces", "tooling layers"]
     }
-  }
+  },
+
+  // --- Systems & Infrastructure ---
+  {
+    id: "disaster-recovery-engineer",
+    name: "Disaster Recovery Engineer",
+    category: "engineering",
+    type: "systems",
+
+    weight: {
+      base: 0.78,
+      experience: 0.74,
+      rarity: 0.52
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["risk", "restoration", "continuity"],
+      meta: ["safety", "resilience"]
+    },
+
+    description: "Maps every risk point and defines exact recovery steps.",
+    details: {
+      overview: "Identifies every possible threat — hardware failure, power loss, corruption, attack — and creates a precise plan to restore service and data. Defines recovery time and data loss targets, then builds systems and procedures to meet them. Documents step-by-step actions, runs drills and keeps plans updated as systems change. Ensures that even in worst-case scenarios, continuity is guaranteed and nothing is lost permanently.",
+      capabilities: [
+        "risk assessment",
+        "recovery planning",
+        "business continuity"
+      ],
+      usedFor: [
+        "critical data systems",
+        "regulated environments",
+        "enterprise infrastructure"
+      ]
+    }
+  },
+
+  {
+    id: "backup-snapshot-engineer",
+    name: "Backup & Snapshot Engineer",
+    category: "engineering",
+    type: "systems",
+
+    weight: {
+      base: 0.76,
+      experience: 0.72,
+      rarity: 0.49
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["protection", "history", "restore"],
+      meta: ["safety", "retention"]
+    },
+
+    description: "Captures valid, restorable states at every necessary level.",
+    details: {
+      overview: "Designs how and when system state and data are saved — full backups, incremental changes, point-in-time snapshots. Ensures copies are consistent, secure, off-site and verifiable, so nothing is lost due to accident or corruption. Defines retention policies and rotation schedules, balancing storage cost against recovery needs. Tests restores regularly to prove that what is saved can actually be recovered completely.",
+      capabilities: [
+        "backup strategy",
+        "snapshot management",
+        "data protection"
+      ],
+      usedFor: [
+        "data security",
+        "version rollback",
+        "disaster recovery"
+      ]
+    }
+  },
+
+  {
+    id: "restore-migration-engineer",
+    name: "Restore & Migration Engineer",
+    category: "engineering",
+    type: "systems",
+
+    weight: {
+      base: 0.79,
+      experience: 0.75,
+      rarity: 0.54
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["movement", "integrity", "transfer"],
+      meta: ["reliability", "minimal-downtime"]
+    },
+
+    description: "Moves or reinstates systems with data integrity guaranteed.",
+    details: {
+      overview: "Plans and executes moving systems or data between locations, platforms or versions without loss or corruption. Verifies every step, comparing source and destination to ensure exact match. Handles conversion or translation safely where formats differ. Minimises downtime, plans rollback paths and validates operation before switching over permanently. Ensures that after move or restore, everything functions exactly as before.",
+      capabilities: [
+        "data migration",
+        "system transfer",
+        "integrity verification"
+      ],
+      usedFor: [
+        "platform upgrades",
+        "location changes",
+        "recovery operations"
+      ]
+    }
+  },
+
+  {
+    id: "configuration-engineer",
+    name: "Configuration Engineer",
+    category: "engineering",
+    type: "systems",
+
+    weight: {
+      base: 0.82,
+      experience: 0.78,
+      rarity: 0.57
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["settings", "standardisation", "consistency"],
+      meta: ["governance", "control"]
+    },
+
+    description: "Standardises settings so behaviour matches design everywhere.",
+    details: {
+      overview: "Defines and controls every setting that changes system behaviour — OS parameters, service options, feature flags, limits and paths. Ensures configuration is stored, versioned and applied consistently across all instances. Removes manual editing and drift, making changes predictable and reversible. Treats configuration as code, so every adjustment is tracked and tested like software.",
+      capabilities: [
+        "config management",
+        "standardisation",
+        "version control"
+      ],
+      usedFor: [
+        "large fleets",
+        "distributed systems",
+        "compliance control"
+      ]
+    }
+  },
+  {
+    id: "service-engineer",
+    name: "Service Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.91,
+      experience: 0.87,
+      rarity: 0.68
+    },
+
+    tags: {
+      core: ["persistent", "process", "availability"],
+      adjacent: [],
+      meta: ["resilience", "uptime"]
+    },
+
+    description: "Designs persistent, independent processes that respond reliably.",
+    details: {
+      overview: "Builds long‑running background services that operate continuously — processing, monitoring or waiting for requests. Ensures they start automatically, restart on failure, log clearly and remain available 24/7. Separates functions into independent services so each can be updated, scaled or restarted without affecting others. Defines how they communicate and what happens if one is temporarily unavailable.",
+      capabilities: [
+        "service design",
+        "process management",
+        "inter-service communication"
+      ],
+      usedFor: [
+        "media servers",
+        "control daemons",
+        "background processing"
+      ]
+    }
+  },
+  {
+    id: "runtime-systems-engineer",
+    name: "Runtime Systems Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.88,
+      experience: 0.84,
+      rarity: 0.64
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["execution", "efficiency", "memory"],
+      meta: ["optimisation", "performance"]
+    },
+
+    description: "Tunes execution efficiency and memory use in real conditions.",
+    details: {
+      overview: "Optimises how code runs once deployed — memory allocation, garbage collection, thread scheduling, I/O handling. Reduces latency and resource use while maintaining stability, especially important for real‑time or high‑volume work. Profiles behaviour under load, identifies bottlenecks and adjusts code or configuration. Ensures that what works in development performs exactly as well in production.",
+      capabilities: [
+        "performance profiling",
+        "memory optimisation",
+        "execution tuning"
+      ],
+      usedFor: [
+        "real-time systems",
+        "high-throughput processing",
+        "resource-limited environments"
+      ]
+    }
+  },
+  {
+    id: "python-engineer",
+    name: "Python Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.85,
+      experience: 0.81,
+      rarity: 0.59
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["python", "automation", "processing"],
+      meta: ["versatility", "ecosystem"]
+    },
+
+    description: "Implements automation, processing and control logic in standardised form.",
+    details: {
+      overview: "Uses Python as a primary tool for everything from small scripts to large systems. Builds reusable libraries, automation flows, data processors and control interfaces, always following clear, maintainable patterns. Leverages the ecosystem for media, signal processing, hardware control and web services. Ensures code is portable, documented and easy to extend or integrate.",
+      capabilities: [
+        "python development",
+        "scripting",
+        "library design"
+      ],
+      usedFor: [
+        "automation tools",
+        "data processing",
+        "system control"
+      ]
+    }
+  },
+  {
+    id: "asgi-service-runner-engineer",
+    name: "ASGI / Service Runner Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.86,
+      experience: 0.82,
+      rarity: 0.61
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["async", "serving", "concurrency"],
+      meta: ["responsiveness", "scalability"]
+    },
+
+    description: "Configures modern async‑capable serving stacks.",
+    details: {
+      overview: "Sets up and tunes ASGI‑compliant servers and frameworks to handle many concurrent connections efficiently. Ideal for real‑time media, streaming or control interfaces where responsiveness matters. Configures workers, timeouts, SSL, routing and process management. Ensures high availability and smooth scaling under variable load.",
+      capabilities: [
+        "asgi setup",
+        "async serving",
+        "concurrency tuning"
+      ],
+      usedFor: [
+        "streaming services",
+        "real-time APIs",
+        "high-concurrency applications"
+      ]
+    }
+  },
+  {
+    id: "process-lifecycle-engineer",
+    name: "Process Lifecycle Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.87,
+      experience: 0.83,
+      rarity: 0.62
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["lifecycle", "startup", "shutdown"],
+      meta: ["state-control", "integrity"]
+    },
+
+    description: "Defines start, run, pause, restart and shutdown rules.",
+    details: {
+      overview: "Specifies exactly how every process behaves through its whole life — how it initialises, what it does while running, how it handles pause or restart, and how it cleans up when stopping. Prevents orphaned processes or corrupted state. Ensures startup order is correct, dependencies are met and shutdown is graceful. Critical for systems that must never leave half‑written data or incomplete operations.",
+      capabilities: [
+        "lifecycle definition",
+        "process sequencing",
+        "state management"
+      ],
+      usedFor: [
+        "service management",
+        "controlled environments",
+        "data integrity systems"
+      ]
+    }
+  },
+  {
+    id: "state-management-engineer",
+    name: "State Management Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.89,
+      experience: 0.85,
+      rarity: 0.65
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["state", "context", "persistence"],
+      meta: ["consistency", "synchronisation"]
+    },
+
+    description: "Preserves or resets context exactly as required.",
+    details: {
+      overview: "Controls how information about current activity — settings, progress, connections — is stored, carried between steps or restored. Ensures state is consistent across all parts of the system and never lost unexpectedly. Decides what is kept in memory, what is saved to disk, and what is reset. Handles synchronisation between multiple users or processes so everyone sees the same truth.",
+      capabilities: [
+        "state tracking",
+        "context preservation",
+        "synchronisation"
+      ],
+      usedFor: [
+        "interactive systems",
+        "multi-step workflows",
+        "distributed applications"
+      ]
+    }
+  },
+  {
+    id: "error-handling-engineer",
+    name: "Error Handling Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.90,
+      experience: 0.86,
+      rarity: 0.67
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["errors", "recovery", "safety"],
+      meta: ["robustness", "fault-tolerance"]
+    },
+
+    description: "Anticipates faults and defines clear, safe responses.",
+    details: {
+      overview: "Designs how every possible error — missing data, bad input, lost connection, hardware fault — is detected, logged and handled. Ensures errors never crash the whole system or produce dangerous output. Builds fallbacks, retries, defaults and clear messages. Turns unexpected events into predictable, safe behaviour that operators can understand and fix quickly.",
+      capabilities: [
+        "fault detection",
+        "recovery logic",
+        "error reporting"
+      ],
+      usedFor: [
+        "robust applications",
+        "live systems",
+        "unattended operation"
+      ]
+    }
+  },
+  {
+    id: "debug-diagnostics-engineer",
+    name: "Debug & Diagnostics Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.84,
+      experience: 0.80,
+      rarity: 0.58
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["debug", "visibility", "troubleshooting"],
+      meta: ["observability", "root-cause-analysis"]
+    },
+
+    description: "Builds visibility tools to locate issues quickly.",
+    details: {
+      overview: "Inserts logging, metrics, tracing and inspection points throughout code and systems so internal behaviour is visible. Designs diagnostic outputs that are detailed enough to find root cause but clear enough to read. Builds tools to replay issues, compare behaviour and isolate problems. Turns troubleshooting from guesswork into precise investigation.",
+      capabilities: [
+        "diagnostic design",
+        "logging strategy",
+        "troubleshooting tools"
+      ],
+      usedFor: [
+        "complex systems",
+        "long-term maintenance",
+        "high-reliability environments"
+      ]
+    }
+  },
+  {
+    id: "refactor-engineer",
+    name: "Refactor Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.83,
+      experience: 0.79,
+      rarity: 0.56
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["structure", "maintenance", "clarity"],
+      meta: ["clean-code", "simplification"]
+    },
+
+    description: "Restructures existing code for clarity without breaking function.",
+    details: {
+      overview: "Improves the internal design of working software — simplifying, organising, removing duplication, adding comments and tests — while keeping external behaviour exactly the same. Makes code easier to understand, change and extend later. Works incrementally, verifying every change. Turns messy or complex code into clean, logical structure that new developers can work with safely.",
+      capabilities: [
+        "code improvement",
+        "structure simplification",
+        "maintenance optimisation"
+      ],
+      usedFor: [
+        "legacy systems",
+        "long-term projects",
+        "team collaboration"
+      ]
+    }
+  },
+  {
+    id: "legacy-aware-engineer",
+    name: "Legacy-Aware Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.88,
+      experience: 0.84,
+      rarity: 0.63
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["legacy", "compatibility", "integration"],
+      meta: ["migration", "interoperability"]
+    },
+
+    description: "Works alongside older systems until safe replacement.",
+    details: {
+      overview: "Understands how to integrate with or maintain older software, hardware or formats that cannot be replaced immediately. Preserves compatibility while adding new features or safety improvements. Plans migration paths so change happens gradually and without disruption. Ensures that old and new systems understand each other and data remains accessible.",
+      capabilities: [
+        "compatibility engineering",
+        "legacy integration",
+        "migration planning"
+      ],
+      usedFor: [
+        "system upgrades",
+        "historical data access",
+        "mixed environments"
+      ]
+    }
+  },
+  {
+    id: "boundary-engineer",
+    name: "Boundary Engineer",
+    category: "engineering",
+    type: "software",
+
+    weight: {
+      base: 0.90,
+      experience: 0.86,
+      rarity: 0.66
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["interfaces", "integration", "separation"],
+      meta: ["decoupling", "contracts"]
+    },
+
+    description: "Defines clean interfaces where different systems meet.",
+    details: {
+      overview: "Decides exactly how two systems, components or code modules talk to each other. Creates clear, documented contracts — what data is sent, what format, what happens if it changes. Keeps internals private while making connections safe and simple. Ensures that changing one side does not break the other. Reduces coupling so parts can evolve independently without risk.",
+      capabilities: [
+        "interface design",
+        "contract definition",
+        "integration management"
+      ],
+      usedFor: [
+        "modular systems",
+        "third-party integration",
+        "distributed architectures"
+      ]
+    }
+  },
+
+  // --- Automation & DevOps ---
+  {
+    id: "automation-engineer",
+    name: "Automation Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.87,
+      experience: 0.83,
+      rarity: 0.60
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["automation", "efficiency", "repeatability"],
+      meta: ["productivity", "error-reduction"]
+    },
+
+    description: "Replaces manual repetition with precise, scripted flow.",
+    details: {
+      overview: "Identifies every task done more than once and builds code or workflows to do it automatically. Ensures the result is identical every time, faster and without human error. Frees people to focus on design and improvement. Designs automation that is safe, observable and easy to adjust. Tests every script thoroughly so running it increases confidence, not risk.",
+      capabilities: [
+        "process automation",
+        "script development",
+        "workflow design"
+      ],
+      usedFor: [
+        "routine operations",
+        "build pipelines",
+        "repetitive tasks"
+      ]
+    }
+  },
+  {
+    id: "devops-engineer",
+    name: "DevOps Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.92,
+      experience: 0.88,
+      rarity: 0.69
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["devops", "integration", "delivery"],
+      meta: ["lifecycle", "collaboration"]
+    },
+
+    description: "Aligns build, test and run cycles as one continuous path.",
+    details: {
+      overview: "Connects development and operations so code moves smoothly from idea to live service. Builds culture and tooling where everyone owns the whole lifecycle. Removes walls between writing code and running it. Implements continuous integration, delivery and monitoring. Ensures changes are small, safe and reversible. Focuses on speed, quality and reliability together.",
+      capabilities: [
+        "lifecycle integration",
+        "toolchain design",
+        "delivery optimisation"
+      ],
+      usedFor: [
+        "agile delivery",
+        "frequent updates",
+        "collaborative environments"
+      ]
+    }
+  },
+  {
+    id: "pipeline-engineer",
+    name: "Pipeline Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.89,
+      experience: 0.85,
+      rarity: 0.64
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["pipeline", "delivery", "ci/cd"],
+      meta: ["automation", "flow"]
+    },
+
+    description: "Builds delivery chains from change commit to live deployment.",
+    details: {
+      overview: "Constructs the full automated path: code committed → built → tested → validated → deployed → monitored. Every step is defined, automated and gated — only good changes proceed. Includes quality checks, security scans and performance tests. Makes delivery fast, safe and visible. Ensures anyone can see exactly where a change is in the flow.",
+      capabilities: [
+        "pipeline design",
+        "automated testing",
+        "delivery flow"
+      ],
+      usedFor: [
+        "software delivery",
+        "infrastructure changes",
+        "frequent release cycles"
+      ]
+    }
+  },
+  {
+    id: "script-engineer",
+    name: "Script Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.81,
+      experience: 0.77,
+      rarity: 0.53
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["scripts", "tools", "productivity"],
+      meta: ["utility", "simplicity"]
+    },
+
+    description: "Writes small, sharp tools to speed or secure operations.",
+    details: {
+      overview: "Creates targeted, single‑purpose scripts that solve specific problems — backups, reports, transfers, checks. Keeps them simple, documented and focused so they are reliable and easy to maintain. Uses the right language and tools for the environment. Turns complex manual steps into one‑line commands or scheduled jobs.",
+      capabilities: [
+        "scripting",
+        "tool building",
+        "task simplification"
+      ],
+      usedFor: [
+        "operational support",
+        "data manipulation",
+        "quick automation"
+      ]
+    }
+  },
+  {
+    id: "bash-shell-engineer",
+    name: "Bash / Shell Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.82,
+      experience: 0.78,
+      rarity: 0.55
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["shell", "command-line", "os"],
+      meta: ["low-level", "portability"]
+    },
+
+    description: "Works directly within core operating environment.",
+    details: {
+      overview: "Uses shell scripting and command‑line tools to control, configure and automate systems at the lowest level. Deep understanding of how the OS works, how processes interact and how to chain tools together. Builds robust, portable scripts that work across different Unix/Linux environments. Essential for systems where speed, direct control and minimal dependencies matter.",
+      capabilities: [
+        "shell scripting",
+        "command-line automation",
+        "os-level control"
+      ],
+      usedFor: [
+        "system maintenance",
+        "low-level automation",
+        "server administration"
+      ]
+    }
+  },
+  {
+    id: "provisioning-engineer",
+    name: "Provisioning Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.85,
+      experience: 0.81,
+      rarity: 0.58
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["provisioning", "setup", "deployment"],
+      meta: ["standardisation", "scaling"]
+    },
+
+    description: "Brings new resources online ready‑configured.",
+    details: {
+      overview: "Automates the entire process of bringing new servers, devices or environments into service — from bare metal or empty instance to fully installed, configured, secured and ready to use. Ensures every new resource matches the standard exactly. Removes manual setup errors and makes scaling fast and safe.",
+      capabilities: [
+        "automated setup",
+        "resource preparation",
+        "standard deployment"
+      ],
+      usedFor: [
+        "scaling infrastructure",
+        "new environment creation",
+        "consistent builds"
+      ]
+    }
+  },
+  {
+    id: "bootstrap-engineer",
+    name: "Bootstrap Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.88,
+      experience: 0.84,
+      rarity: 0.62
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["bootstrap", "initialisation", "zero-to-run"],
+      meta: ["foundation", "recovery"]
+    },
+
+    description: "Codes the exact steps required to start from zero.",
+    details: {
+      overview: "Defines the very first steps to turn nothing into a running system — installing OS, adding users, setting up network, fetching configuration, starting core services. Every step is coded and repeatable. Ensures that starting from scratch is as simple as running one command. Critical for disaster recovery, new sites or rapid expansion.",
+      capabilities: [
+        "initialisation design",
+        "bootstrap automation",
+        "zero-to-run workflow"
+      ],
+      usedFor: [
+        "new deployments",
+        "recovery scenarios",
+        "standardised builds"
+      ]
+    }
+  },
+  {
+    id: "install-onboarding-engineer",
+    name: "Install & Onboarding Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.80,
+      experience: 0.76,
+      rarity: 0.51
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["installation", "onboarding", "setup"],
+      meta: ["adoption", "consistency"]
+    },
+
+    description: "Standardises set‑up so it works the same every time.",
+    details: {
+      overview: "Designs and automates the installation and configuration process for software, hardware or systems. Ensures that every installation follows the same path, asks the same questions and produces the same result. Includes validation steps to confirm success. Makes onboarding new users or new sites fast, low‑effort and error‑free.",
+      capabilities: [
+        "installation automation",
+        "onboarding workflow",
+        "setup validation"
+      ],
+      usedFor: [
+        "software distribution",
+        "site rollouts",
+        "user onboarding"
+      ]
+    }
+  },
+  {
+    id: "idempotency-engineer",
+    name: "Idempotency Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.86,
+      experience: 0.82,
+      rarity: 0.60
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["idempotency", "safety", "repeatability"],
+      meta: ["reliability", "fault-tolerance"]
+    },
+
+    description: "Ensures running a process twice does not break anything.",
+    details: {
+      overview: "Designs automation and scripts so that running them once or many times leaves the system in exactly the same correct state. No duplication, no errors, no damage if re‑run. Checks desired state before making changes. If already correct, does nothing. Makes automation safe to run on schedule, on demand or after interruption.",
+      capabilities: [
+        "safe automation",
+        "state checking",
+        "repeatable processes"
+      ],
+      usedFor: [
+        "configuration management",
+        "scheduled tasks",
+        "fault recovery"
+      ]
+    }
+  },
+  {
+    id: "repeatability-engineer",
+    name: "Repeatability Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.84,
+      experience: 0.80,
+      rarity: 0.57
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["repeatability", "consistency", "standardisation"],
+      meta: ["quality", "reproducibility"]
+    },
+
+    description: "Removes 'luck' from deployment or configuration.",
+    details: {
+      overview: "Ensures that any process — build, deploy, configure, test — produces identical results every time, anywhere. Documents and controls every variable so there are no 'it works here' differences. Defines standards, tools and environments to eliminate variation. Repeatability is the foundation of quality and reliability.",
+      capabilities: [
+        "process standardisation",
+        "consistency control",
+        "reproducible builds"
+      ],
+      usedFor: [
+        "quality assurance",
+        "compliance",
+        "scaled production"
+      ]
+    }
+  },
+  {
+    id: "environment-sync-engineer",
+    name: "Environment Sync Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.83,
+      experience: 0.79,
+      rarity: 0.56
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["synchronisation", "consistency", "environments"],
+      meta: ["parity", "safety"]
+    },
+
+    description: "Keeps dev/test/live behaving identically.",
+    details: {
+      overview: "Ensures development, testing, staging and production environments match exactly — same versions, same settings, same data structure. Prevents bugs that only appear in live because something was different. Automates sync of configuration, code and reference data. Makes promoting changes safe because they have already been proven in an identical environment.",
+      capabilities: [
+        "environment alignment",
+        "configuration sync",
+        "data mirroring"
+      ],
+      usedFor: [
+        "software development",
+        "quality control",
+        "safe deployment"
+      ]
+    }
+  },
+  {
+    id: "human-error-reduction-engineer",
+    name: "Human‑Error Reduction Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.89,
+      experience: 0.85,
+      rarity: 0.65
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["safety", "usability", "error-prevention"],
+      meta: ["design", "foolproof"]
+    },
+
+    description: "Designs workflows so mistakes are hard to make.",
+    details: {
+      overview: "Analyzes every step where a human interacts with systems and designs it to be foolproof. Removes ambiguous choices, adds confirmation checks, colours danger zones and prevents irreversible actions without clear intent. Builds safety into the interface and process itself. Accepts that humans make mistakes, and designs systems that catch or prevent them before they cause harm.",
+      capabilities: [
+        "error-proof design",
+        "workflow safety",
+        "usability engineering"
+      ],
+      usedFor: [
+        "critical operations",
+        "control interfaces",
+        "maintenance procedures"
+      ]
+    }
+  },
+  {
+    id: "toolchain-engineer",
+    name: "Toolchain Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.81,
+      experience: 0.77,
+      rarity: 0.54
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["tools", "integration", "workflow"],
+      meta: ["efficiency", "unification"]
+    },
+
+    description: "Selects and connects utilities into one coherent flow.",
+    details: {
+      overview: "Chooses the right tools for each job — editors, builders, testers, monitors — and connects them so they pass data automatically. Turns separate utilities into a single, smooth working environment. Ensures tools work together, share data and are easy to learn. A good toolchain makes work faster, more consistent and less frustrating.",
+      capabilities: [
+        "tool selection",
+        "integration design",
+        "workflow unification"
+      ],
+      usedFor: [
+        "development environments",
+        "production tooling",
+        "operational workflows"
+      ]
+    }
+  },
+  {
+    id: "workflow-engineer",
+    name: "Workflow Engineer",
+    category: "engineering",
+    type: "automation",
+
+    weight: {
+      base: 0.87,
+      experience: 0.83,
+      rarity: 0.61
+    },
+
+    tags: {
+      core: [],
+      adjacent: ["workflow", "sequence", "automation"],
+      meta: ["process", "orchestration"]
+    },
+
+    description: "Maps logical steps into sequences that run themselves.",
+    details: {
+      overview: "Designs the order, conditions and hand‑offs between steps in any process — technical or operational. Defines what happens next, who is notified and what to do if a step fails. Automates as much as possible while keeping human control where needed. Turns complex procedures into clear, guided or fully automated flows.",
+      capabilities: [
+        "process mapping",
+        "flow automation",
+        "sequence design"
+      ],
+      usedFor: [
+        "operational procedures",
+        "data processing pipelines",
+        "approval chains"
+      ]
+    }
+  },
+
+  // --- Data & Logic ---
+  {
+    id: "data-engineer",
+    name: "Data Engineer",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.93,
+      experience: 0.89,
+      rarity: 0.70
+    },
+
+    tags: {
+      core: ["data", "flow", "storage"],
+      adjacent: [],
+      meta: ["pipeline", "scalability"]
+    },
+
+    description: "Arranges capture, flow and storage of every measurement or value.",
+    details: {
+      overview: "Designs how data is collected from sources, moved through systems, transformed and stored. Ensures data is complete, correct, available and stored in the right place for its use. Builds pipelines that handle everything from simple logs to complex real‑time streams. Focuses on reliability, scalability and clarity so data is always usable.",
+      capabilities: [
+        "data pipeline design",
+        "storage architecture",
+        "data integration"
+      ],
+      usedFor: [
+        "measurement systems",
+        "media metadata",
+        "operational intelligence"
+      ]
+    }
+  },
+  {
+    id: "database-engineer",
+    name: "Database Engineer",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.92,
+      experience: 0.88,
+      rarity: 0.68
+    },
+
+    tags: {
+      core: ["database", "storage", "performance"],
+      adjacent: [],
+      meta: ["integrity", "optimisation"]
+    },
+
+    description: "Structures storage for speed, safety and easy retrieval.",
+    details: {
+      overview: "Designs, builds and maintains databases — choosing the right type, structure and configuration for the data and access pattern. Optimises for fast reads, safe writes or complex queries as needed. Ensures security, backups, integrity and growth. Keeps data organised so it can be found quickly and remains safe for years.",
+      capabilities: [
+        "database design",
+        "performance tuning",
+        "data security"
+      ],
+      usedFor: [
+        "configuration storage",
+        "asset libraries",
+        "historical records"
+      ]
+    }
+  },
+  {
+    id: "sql-engineer",
+    name: "SQL Engineer",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.90,
+      experience: 0.86,
+      rarity: 0.66
+    },
+
+    tags: {
+      core: ["sql", "queries", "relational"],
+      adjacent: [],
+      meta: ["precision", "efficiency"]
+    },
+
+    description: "Writes precise queries and optimises access patterns.",
+    details: {
+      overview: "Uses SQL to interact with relational databases — creating structures, inserting, updating and retrieving data. Writes queries that return exactly what is needed, fast and without unnecessary load. Designs indexes, views and procedures to make access efficient and consistent. Ensures data integrity and correct relationships between tables.",
+      capabilities: [
+        "sql development",
+        "query optimisation",
+        "relational design"
+      ],
+      usedFor: [
+        "structured data",
+        "reporting",
+        "transactional systems"
+      ]
+    }
+  },
+  {
+    id: "schema-architect",
+    name: "Schema Architect",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.94,
+      experience: 0.90,
+      rarity: 0.72
+    },
+
+    tags: {
+      core: ["schema", "structure", "relationships"],
+      adjacent: [],
+      meta: ["modelling", "flexibility"]
+    },
+
+    description: "Defines exactly how information relates and connects.",
+    details: {
+      overview: "Plans the structure of data before storage — what fields exist, their types, how they link together, rules for what is allowed. Creates a blueprint that matches the real‑world meaning of the information. Ensures the schema is flexible enough to grow but strict enough to keep quality. Changes to schema are planned carefully to avoid breaking existing systems.",
+      capabilities: [
+        "data modelling",
+        "schema design",
+        "relationship mapping"
+      ],
+      usedFor: [
+        "new systems",
+        "data integration",
+        "long-term data management"
+      ]
+    }
+  },
+  {
+    id: "pre-schema-logic-first-designer",
+    name: "Pre‑Schema / Logic‑First Designer",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.95,
+      experience: 0.91,
+      rarity: 0.75
+    },
+
+    tags: {
+      core: ["logic", "planning", "structure"],
+      adjacent: [],
+      meta: ["conceptual", "domain-driven"]
+    },
+
+    description: "Plans relationships before writing storage rules.",
+    details: {
+      overview: "Working out what information means and how it connects before deciding how to store it. Focusing on business or system logic first, then builds storage to match. Prevents structures that force data to fit the tool rather than the purpose. Ensures the model is correct and complete. Storage is just the implementation of that logic.",
+      capabilities: [
+        "logic modelling",
+        "conceptual design",
+        "data planning"
+      ],
+      usedFor: [
+        "complex systems",
+        "new data models",
+        "domain understanding"
+      ]
+    }
+  },
+  {
+    id: "data-modeler",
+    name: "Data Modeler",
+    category: "engineering",
+    type: "data",
+
+    weight: {
+      base: 0.93,
+      experience: 0.89,
+      rarity: 0.71
+    },
+
+    tags: {
+      core: ["model", "structure", "definition"],
+      adjacent: [],
+      meta: ["abstraction", "clarity"]
+    },
+
+    description: "Shape information structure to match real‑world use.",
+    details: {
+      overview: "I translates how things work in reality — equipment, processes, people — into a clear, logical structure that systems can use. Defining entities, attributes and connections so data is easy to understand and work with. I ensure the model is simple enough to use but detailed enough to be accurate. Bridging the gap between how people think and how computers store.",
+      capabilities: [
+        "conceptual modelling",
+        "logical design",
+        "semantic definition"
+      ],
+      usedFor: [
+        "information systems",
+        "knowledge bases",
+        "data integration projects"
+      ]
+    }
+  },
+
 ];

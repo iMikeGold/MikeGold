@@ -4,9 +4,9 @@ import React, { useMemo } from "react";
 
 // ====================================================
 // iD Gravity Core — Hat Radar v1.2
-// ✅ ORIGINAL DATA VALUES — NO CHANGES
-// ✅ BOX AROUND POLYGON = EDGE-TO-EDGE, NO EMPTY SPACE
-// ✅ SCALES WITH WINDOW SIZE
+// ORIGINAL DATA VALUES — NO CHANGES
+// BOX AROUND POLYGON = EDGE-TO-EDGE, NO EMPTY SPACE
+// SCALES WITH WINDOW SIZE
 // ====================================================
 
 type Props = {
@@ -23,14 +23,14 @@ const valueToRadius = (value: number, maxRadius: number) => (value / 10) * maxRa
 
 export default function HatRadar({
   values,
-  size = 200, // ✅ YOUR PREFERRED BASE SIZE
+  size = 200, // YOUR PREFERRED BASE SIZE
   stroke = "#4A90E2",
   fill = "rgba(74,144,226,0.15)",
   opacity = 1,
 }: Props) {
   const points = useMemo(() => {
     const center = size / 2;
-    const radius = size * 0.45; // ✅ ORIGINAL RATIO — DATA POINTS UNCHANGED
+    const radius = size * 0.45; // ORIGINAL RATIO — DATA POINTS UNCHANGED
     return values.map((val, i) => {
       const angle = getAngle(i) - Math.PI / 2;
       const r = valueToRadius(val, radius);
@@ -49,7 +49,7 @@ export default function HatRadar({
   const radius = size * 0.45;
 
   return (
-    // ✅ BOX = EXACT SIZE OF POLYGON — NO EXTRA SPACE
+    // BOX = EXACT SIZE OF POLYGON — NO EXTRA SPACE
     <div style={{ 
       width: size, 
       height: size, 
