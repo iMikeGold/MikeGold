@@ -1,16 +1,18 @@
 // ==================================================
-// iD Gravity Core — Hat Drawer v2.4
-// Graph-Aware Display Layer • Fixed Polygon • Optimised Layout
+// iD Gravity Core — Hat Drawer v2.6
+// POLYGON: Drag bar BELOW only — NO overlap
+// MIN SIZE 160px — cannot go smaller / break layout
+// Visual continuity 100% fixed
 // ==================================================
 
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import HatRadar from "@/components/Polygon/HatRadar";
 import { getHatProfile } from "@/system/profile/hat-profile";
 
 // ------------------------------
-// Helpers (unchanged — logic preserved)
+// Helpers (unchanged)
 // ------------------------------
 function flattenTags(hat: any): string[] {
   if (!hat?.tags) return [];
@@ -42,6 +44,42 @@ export default function HatDrawer({
   onClose
 }: any) {
   const [hoveredRelated, setHoveredRelated] = useState<any>(null);
+  // RESIZE: Fixed min/max — NO OVERLAP
+  const [radarHeight, setRadarHeight] = useState(220); // default
+  const MIN_HEIGHT = 160; // CANNOT GO SMALLER
+  const MAX_HEIGHT = 400;
+  const isDragging = useRef(false);
+  const startY = useRef(0);
+  const startHeight = useRef(0);
+
+  // DRAG LOGIC — safe limits only
+  useEffect(() => {
+    const onMouseMove = (e: MouseEvent) => {
+      if (!isDragging.current) return;
+      const delta = e.clientY - startY.current;
+      const newHeight = Math.max(MIN_HEIGHT, Math.min(MAX_HEIGHT, startHeight.current + delta));
+      setRadarHeight(newHeight);
+    };
+
+    const onMouseUp = () => {
+      isDragging.current = false;
+      document.body.style.cursor = "default";
+    };
+
+    window.addEventListener("mousemove", onMouseMove);
+    window.addEventListener("mouseup", onMouseUp);
+    return () => {
+      window.removeEventListener("mousemove", onMouseMove);
+      window.removeEventListener("mouseup", onMouseUp);
+    };
+  }, []);
+
+  const startDrag = (e: React.MouseEvent) => {
+    isDragging.current = true;
+    startY.current = e.clientY;
+    startHeight.current = radarHeight;
+    document.body.style.cursor = "ns-resize";
+  };
 
   if (!hat) return null;
 
@@ -112,7 +150,7 @@ export default function HatDrawer({
         </button>
       </div>
 
-      {/* ✅ FIXED POLYGON / RADAR — stays in place, content scrolls under it */}
+      {/* POLYGON / RADAR — Fixed height container, NO OVERLAP */}
       <div
         style={{
           padding: "16px 20px",
@@ -121,20 +159,45 @@ export default function HatDrawer({
           position: "sticky",
           top: "64px",
           zIndex: 2,
-          textAlign: "center"
+          textAlign: "center",
+          height: `${radarHeight}px`,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexShrink: 0,
+          overflow: "hidden" // Never spills out
         }}
       >
         <HatRadar values={getHatProfile(hat)} />
       </div>
 
-      {/* SCROLLABLE CONTENT AREA — scrolls UP INTO the fixed polygon */}
+      {/* DRAG HANDLE — ONLY BELOW POLYGON, never above */}
+      <div
+        onMouseDown={startDrag}
+        style={{
+          height: "6px",
+          background: "#222",
+          cursor: "ns-resize",
+          borderTop: "1px solid #333",
+          borderBottom: "1px solid #333",
+          position: "relative",
+          zIndex: 4,
+          flexShrink: 0,
+          margin: 0, // No gap, no overlap
+          transform: "translateY(0)"
+        }}
+      />
+
+      {/* SCROLLABLE CONTENT AREA — clean gap only */}
       <div
         style={{
           padding: "20px",
           flex: 1,
           overflowY: "auto",
           position: "relative",
-          zIndex: 1
+          zIndex: 1,
+          minHeight: 0,
+          background: "#111"
         }}
       >
         <p style={{ marginTop: 0, marginBottom: 20, lineHeight: 1.5, opacity: 0.9 }}>

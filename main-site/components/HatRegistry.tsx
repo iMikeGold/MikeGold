@@ -5,14 +5,15 @@ import { hats } from "../system/registry";
 import HatDrawer from "./HatDrawer";
 
 // ==================================================
-// iD Gravity Core — Hat Registry v2.85
-// FIXED SELECTION / ACTIVE STATE BEHAVIOUR
-// Deselecting last clicked item → graph reverts to previous selected item
-// All overlay/position logic from v2.84 PRESERVED
+// iD Gravity Core — Hat Registry v2.97
+// CARD FLIPS: 100% CONSISTENT — every card same flip
+// POLYGON: Fixed resize, no overlap, min size 160px
+// SCROLL: Isolated, no cross-panel
+// HEADER/SEARCH/CLEAR: Fixed, never move
 // ==================================================
 
 // ------------------------------
-// Helpers (EXACT same as yours)
+// Helpers
 // ------------------------------
 function flattenTags(hat: any): string[] {
   if (!hat?.tags) return [];
@@ -28,14 +29,12 @@ function calculateWeight(hat: any): number {
   return (base * 0.5) + (experience * 0.3) + (rarity * 0.2);
 }
 
-/** Calculate house average score for meter bar */
 function getHouseScore(hatsList: any[]): number {
   if (!hatsList.length) return 0;
   const total = hatsList.reduce((sum, hat) => sum + calculateWeight(hat), 0);
   return total / hatsList.length;
 }
 
-/** Get profile stats for mini bars */
 function getHatStats(hat: any) {
   const profile = hat.profile || {};
   return {
@@ -63,7 +62,6 @@ export default function HatRegistry() {
   });
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
 
-  // Filter hats (EXACT same as yours)
   const filteredHats = useMemo(() => {
     return hats.filter((hat) => {
       const matchesCategory = selectedCategory === "all" || hat.category === selectedCategory;
@@ -75,7 +73,6 @@ export default function HatRegistry() {
     });
   }, [hats, selectedCategory, searchQuery]);
 
-  // Group by Skill House (EXACT same as yours)
   const hatsByHouse = useMemo(() => {
     const groups: Record<string, any[]> = { creative: [], design: [], engineering: [] };
     filteredHats.forEach((hat) => {
@@ -84,7 +81,6 @@ export default function HatRegistry() {
     return groups;
   }, [filteredHats]);
 
-  // Related hats (EXACT same as yours)
   const relatedHats = useMemo(() => {
     if (!activeHat) return [];
     const hatTags = new Set(flattenTags(activeHat));
@@ -98,56 +94,87 @@ export default function HatRegistry() {
       .sort((a, b) => b.strength - a.strength);
   }, [activeHat]);
 
-  // UPDATED: Toggle selection + manage active state properly
   const toggleSelectHat = (hat: any) => {
     setSelectedHats(prev => {
       const isAlreadySelected = prev.some(h => h.id === hat.id);
       
       if (isAlreadySelected) {
-        // --- DESELECT CASE ---
         const newList = prev.filter(h => h.id !== hat.id);
-        // If this was the active hat → set active to LAST item in new list, or null
         if (activeHat?.id === hat.id) {
           setActiveHat(newList.length > 0 ? newList[newList.length - 1] : null);
         }
         return newList;
       } else {
-        // --- SELECT CASE ---
         const newList = [...prev, hat];
-        // Always make newly selected item the active one
         setActiveHat(hat);
         return newList;
       }
     });
   };
 
-  const handleTileClick = (hat: any) => {
-    setFlippedTiles(prev => ({ ...prev, [hat.id]: !prev[hat.id] }));
+  const handleTileClick = (hat: any, e: React.MouseEvent) => {
+    e.stopPropagation();
+    e.preventDefault();
+    setFlippedTiles(prev => {
+      const newState = { ...prev };
+      newState[hat.id] = !prev[hat.id];
+      return newState;
+    });
     toggleSelectHat(hat);
   };
 
   return (
     <div style={{ 
+      position: "fixed",
+      inset: 0,
+      overflow: "hidden",
       display: "flex", 
       height: "100vh", 
-      overflow: "hidden",
       background: "#0a0a0a",
       color: "#fff",
       fontFamily: "sans-serif"
     }}>
-      {/* LEFT PANEL — EXACT same sizing */}
+      {/* LEFT PANEL — FULLY SELF-CONTAINED */}
       <div style={{ 
-        width: "calc(100% - 420px)", 
-        padding: "20px", 
-        overflowY: "auto",
-        height: "100%",
-        boxSizing: "border-box",
+        width: "calc(100% - 400px)", 
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
-        gap: "24px"
+        overflow: "hidden",
+        position: "relative"
       }}>
-        {/* SEARCH — EXACT same */}
-        <div>
+
+        {/* FIXED HEADER — NAME + PHOTO + SEARCH — 100% LOCKED */}
+        <div style={{
+          flexShrink: 0,
+          background: "#0a0a0a",
+          padding: "12px 12px 8px 12px",
+          borderBottom: "1px solid #222",
+          position: "relative",
+          zIndex: 20
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "8px" }}>
+            <div style={{
+              width: "40px",
+              height: "40px",
+              borderRadius: "50%",
+              background: "#151515",
+              overflow: "hidden",
+              flexShrink: 0,
+              border: "1px solid #333"
+            }}>
+              <img 
+                src="/images/universal-mic.png" 
+                alt="Profile" 
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
+            <div>
+              <h2 style={{ margin: 0, fontSize: "16px", fontWeight: 600 }}>Mike Gold</h2>
+              <p style={{ margin: 0, fontSize: "12px", opacity: 0.6 }}>Systems / Architect</p>
+            </div>
+          </div>
+
           <input
             type="text"
             placeholder="Search hats, tags, capabilities or descriptions..."
@@ -155,7 +182,7 @@ export default function HatRegistry() {
             onChange={(e) => setSearchQuery(e.target.value)}
             style={{
               width: "100%",
-              padding: "12px 16px",
+              padding: "10px 14px",
               background: "#151515",
               border: "1px solid #333",
               borderRadius: 8,
@@ -165,290 +192,320 @@ export default function HatRegistry() {
           />
         </div>
 
-        {/* SKILL HOUSES — EXACT same */}
-        {Object.entries(hatsByHouse).map(([house, hatsList]) => {
-          if (hatsList.length === 0) return null;
-          const houseScore = getHouseScore(hatsList);
-          const housePercent = Math.round(houseScore * 100);
+        {/* ONLY THIS CONTAINER SCROLLS — ISOLATED SCROLL */}
+        <div 
+          style={{ 
+            flex: 1,
+            overflowY: "auto",
+            overflowX: "hidden",
+            padding: "8px 12px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "12px",
+            minHeight: 0,
+            position: "relative",
+            zIndex: 10
+          }}
+          onWheel={(e) => e.stopPropagation()}
+        >
 
-          return (
-            <div key={house}>
-              {/* HOUSE HEADER + METER BAR — EXACT same */}
-              <div 
-                onClick={() => setCollapsedSections(prev => ({ ...prev, [house]: !prev[house] }))}
-                style={{
-                  padding: "12px 16px",
-                  background: "#121212",
-                  border: "1px solid #222",
-                  borderRadius: 8,
-                  cursor: "pointer",
-                  marginBottom: 12
-                }}
-              >
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
-                  <h3 style={{ margin: 0, textTransform: "capitalize", fontSize: 16 }}>
-                    {house} <span style={{ opacity: 0.5, fontSize: 13 }}>({hatsList.length})</span>
-                  </h3>
-                  <span style={{ opacity: 0.6 }}>{collapsedSections[house] ? "▼" : "▲"}</span>
-                </div>
+          {Object.entries(hatsByHouse).map(([house, hatsList]) => {
+            if (hatsList.length === 0) return null;
+            const houseScore = getHouseScore(hatsList);
+            const housePercent = Math.round(houseScore * 100);
 
-                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                  <div style={{
-                    flex: 1,
-                    height: 6,
-                    background: "#222",
-                    borderRadius: 3,
-                    overflow: "hidden"
-                  }}>
-                    <div style={{
-                      width: `${housePercent}%`,
-                      height: "100%",
-                      background: "linear-gradient(90deg, #2563eb, #3b82f6)",
-                      borderRadius: 3,
-                      transition: "width 0.3s ease"
-                    }} />
-                  </div>
-                  <span style={{ fontSize: 12, opacity: 0.7, minWidth: 32 }}>{housePercent}%</span>
-                </div>
-              </div>
-
-              {/* TILE GRID */}
-              {!collapsedSections[house] && (
+            return (
+              <div key={house}>
                 <div 
+                  onClick={() => setCollapsedSections(prev => ({ ...prev, [house]: !prev[house] }))}
                   style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fill, minmax(80px, 1fr))",
-                    gap: 8,
-                    paddingLeft: 4,
-                    position: "relative"
+                    padding: "8px 12px",
+                    background: "#121212",
+                    border: "1px solid #222",
+                    borderRadius: 8,
+                    cursor: "pointer",
+                    marginBottom: 6
                   }}
                 >
-                  {hatsList.map((hat) => {
-                    const isSelected = selectedHats.some(h => h.id === hat.id);
-                    const weightScore = calculateWeight(hat);
-                    const stats = getHatStats(hat);
-                    const isFlipped = flippedTiles[hat.id];
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 4 }}>
+                    <h3 style={{ margin: 0, textTransform: "capitalize", fontSize: 15 }}>
+                      {house} <span style={{ opacity: 0.5, fontSize: 12 }}>({hatsList.length})</span>
+                    </h3>
+                    <span style={{ opacity: 0.6 }}>{collapsedSections[house] ? "▼" : "▲"}</span>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{
+                      flex: 1,
+                      height: 6,
+                      background: "#222",
+                      borderRadius: 3,
+                      overflow: "hidden"
+                    }}>
+                      <div style={{
+                        width: `${housePercent}%`,
+                        height: "100%",
+                        background: "linear-gradient(90deg, #2563eb, #3b82f6)",
+                        borderRadius: 3,
+                        transition: "width 0.3s ease"
+                      }} />
+                    </div>
+                    <span style={{ fontSize: 12, opacity: 0.7, minWidth: 32 }}>{housePercent}%</span>
+                  </div>
+                </div>
 
-                    return (
-                      <div
-                        key={hat.id}
-                        onMouseEnter={(e) => {
-                          const rect = e.currentTarget.getBoundingClientRect();
-                          setHovered({ hat, rect });
-                        }}
-                        onMouseLeave={() => setHovered(null)}
-                        onClick={() => handleTileClick(hat)}
-                        style={{
-                          aspectRatio: "1/1",
-                          perspective: "1000px",
-                          cursor: "pointer",
-                          width: "100%",
-                          height: "100%",
-                          position: "relative",
-                          zIndex: hovered?.hat.id === hat.id ? 30 : 1 // Hovered always on top
-                        }}
-                      >
-                        {/* FLIP CARD */}
-                        <div style={{
-                          width: "100%",
-                          height: "100%",
-                          position: "relative",
-                          transformStyle: "preserve-3d",
-                          transition: "transform 0.4s ease",
-                          transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)"
-                        }}>
-                          {/* FRONT */}
-                          <div style={{
-                            position: "absolute",
+                {!collapsedSections[house] && (
+                  <div 
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(auto-fill, minmax(80px, 1fr))",
+                      gap: 4,
+                      paddingLeft: 0,
+                      position: "relative"
+                    }}
+                  >
+                    {hatsList.map((hat) => {
+                      const isSelected = selectedHats.some(h => h.id === hat.id);
+                      const weightScore = calculateWeight(hat);
+                      const stats = getHatStats(hat);
+                      const isFlipped = flippedTiles[hat.id] || false;
+
+                      return (
+                        <div
+                          key={hat.id}
+                          onMouseEnter={(e) => setHovered({ hat, rect: e.currentTarget.getBoundingClientRect() })}
+                          onMouseLeave={() => setHovered(null)}
+                          onClick={(e) => handleTileClick(hat, e)}
+                          style={{
+                            aspectRatio: "1/1",
+                            perspective: "1200px", // FIXED DEPTH — same for all
+                            cursor: "pointer",
                             width: "100%",
                             height: "100%",
-                            background: isSelected ? "#2563eb33" : "#151515",
-                            border: isSelected ? "1px solid #2563eb" : "1px solid #333",
-                            borderRadius: 6,
-                            padding: 4,
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            textAlign: "center",
-                            fontSize: 10,
-                            lineHeight: 1.2,
-                            backfaceVisibility: "hidden"
+                            position: "relative",
+                            zIndex: hovered?.hat.id === hat.id ? 30 : 1,
+                            overflow: "hidden",
+                            borderRadius: "6px",
+                            isolation: "isolate"
+                          }}
+                        >
+                          {/* CONSISTENT FLIP CONTAINER — identical transform for every card */}
+                          <div style={{
+                            width: "100%",
+                            height: "100%",
+                            position: "relative",
+                            transformStyle: "preserve-3d",
+                            transformOrigin: "center center", // FIXED ORIGIN
+                            transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)", // ✅ SAME SPEED/EASING
+                            transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
+                            // SHIMMER — no conflict
+                            boxShadow: isSelected 
+                              ? "0 0 10px #2563eb, inset 0 0 15px rgba(37, 99, 235, 0.4), 0 0 20px rgba(59, 130, 246, 0.2)" 
+                              : "none",
+                            backgroundColor: "transparent",
+                            backgroundImage: isSelected ? "linear-gradient(90deg, #2563eb33 0%, #3b82f655 50%, #2563eb33 100%)" : "none",
+                            backgroundSize: "200% 100%",
+                            backgroundPosition: "0% 0%",
+                            animation: isSelected ? "shimmer 0.6s linear infinite" : "none"
                           }}>
-                            <strong style={{ fontSize: 11, marginBottom: 1 }}>{hat.name.split(" ")[0]}</strong>
-                            <span style={{ opacity: 0.7 }}>{hat.name.split(" ").slice(1).join(" ")}</span>
-                            <div style={{ position: "absolute", bottom: 2, right: 2, fontSize: 8, opacity: 0.5 }}>
-                              {weightScore.toFixed(2)}
+                            <style>{`
+                              @keyframes shimmer {
+                                0% { background-position: 200% 0; }
+                                100% { background-position: -200% 0; }
+                              }
+                            `}</style>
+
+                            {/* FRONT FACE — fixed z-index + backface */}
+                            <div style={{
+                              position: "absolute",
+                              inset: 0,
+                              backgroundColor: isSelected ? "#2563eb22" : "#151515",
+                              border: isSelected ? "1px solid #2563eb" : "1px solid #333",
+                              borderRadius: 6,
+                              padding: 4,
+                              display: "flex",
+                              flexDirection: "column",
+                              justifyContent: "center",
+                              alignItems: "center",
+                              textAlign: "center",
+                              fontSize: 10,
+                              lineHeight: 1.2,
+                              backfaceVisibility: "hidden",
+                              overflow: "hidden",
+                              wordBreak: "break-word",
+                              zIndex: 2,
+                              transform: "rotateY(0deg)" // FIXED
+                            }}>
+                              <strong style={{ fontSize: 11, marginBottom: 1, width: "100%" }}>
+                                {hat.name}
+                              </strong>
+                              <div style={{ position: "absolute", bottom: 2, right: 2, fontSize: 8, opacity: 0.5 }}>
+                                {weightScore.toFixed(2)}
+                              </div>
+                            </div>
+
+                            {/* BACK FACE — identical transform for every card */}
+                            <div style={{
+                              position: "absolute",
+                              inset: 0,
+                              backgroundColor: "#1a1a1a",
+                              border: "1px solid #444",
+                              borderRadius: 6,
+                              padding: 4,
+                              backfaceVisibility: "hidden",
+                              transform: "rotateY(180deg)", //  FIXED
+                              display: "flex",
+                              flexDirection: "column",
+                              justifyContent: "space-around",
+                              zIndex: 1
+                            }}>
+                              {Object.entries(stats).map(([key, value]) => (
+                                <div key={key} style={{ width: "100%" }}>
+                                  <div style={{ fontSize: 7, opacity: 0.6, marginBottom: 1, textTransform: "capitalize" }}>
+                                    {key}
+                                  </div>
+                                  <div style={{ height: 3, backgroundColor: "#222", borderRadius: 1, overflow: "hidden" }}>
+                                    <div 
+                                      style={{ 
+                                        width: `${Math.round(Number(value) * 100)}%`, 
+                                        height: "100%", 
+                                        background: "linear-gradient(90deg, #2563eb, #3b82f6)",
+                                        borderRadius: 1
+                                      }} 
+                                    />
+                                  </div>
+                                </div>
+                              ))}
                             </div>
                           </div>
 
-                          {/* BACK — attribute bars */}
-                          <div style={{
-                            position: "absolute",
-                            width: "100%",
-                            height: "100%",
-                            background: "#1a1a1a",
-                            border: "1px solid #444",
-                            borderRadius: 6,
-                            padding: 4,
-                            backfaceVisibility: "hidden",
-                            transform: "rotateY(180deg)",
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "space-around"
-                          }}>
-                            {Object.entries(stats).map(([key, value]) => (
-                              <div key={key} style={{ width: "100%" }}>
-                                <div style={{ fontSize: 7, opacity: 0.6, marginBottom: 1, textTransform: "capitalize" }}>
-                                  {key}
-                                </div>
-                                <div style={{ height: 3, background: "#222", borderRadius: 1, overflow: "hidden" }}>
-                                  <div 
-                                    style={{ 
-                                      width: `${Math.round(Number(value) * 100)}%`, 
-                                      height: "100%", 
-                                      background: "linear-gradient(90deg, #2563eb, #3b82f6)",
-                                      borderRadius: 1
-                                    }} 
-                                  />
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-
-                        {/* ✅ EXACT SAME OVERLAY LOGIC FROM v2.84 — NO CHANGES */}
-                        {hovered && hovered.hat.id === hat.id && typeof window !== "undefined" && (() => {
-                          const { rect } = hovered;
-                          const overlayWidth = 160;  // Narrow / vertical
-                          const DRAWER_WIDTH = 420;  // Fixed right panel width
-                          const spaceLeft = rect.left;
-                          const spaceRight = window.innerWidth - rect.right;
-                          const spaceToDrawer = window.innerWidth - DRAWER_WIDTH - rect.right;
-
-                          let position: any = {};
-
-                          // ------------------------------
-                          // RULES (exactly what you want):
-                          // ------------------------------
-                          // 1. FAR LEFT: open RIGHT (away from edge)
-                          if (spaceLeft < 80 && spaceRight >= overlayWidth) {
-                            position = {
-                              left: "100%",
-                              top: "50%",
-                              transform: "translateY(-50%)",
-                              marginLeft: 6
-                            };
-                          }
-                          // 2. FAR RIGHT: open LEFT (away from edge + AWAY FROM DRAWER — never behind)
-                          else if (spaceToDrawer < overlayWidth && spaceLeft >= overlayWidth) {
-                            position = {
-                              right: "100%",
-                              top: "50%",
-                              transform: "translateY(-50%)",
-                              marginRight: 6
-                            };
-                          }
-                          // 3. MIDDLE: open BELOW (centred, no side)
-                          else {
-                            position = {
-                              top: "100%",
-                              left: "50%",
-                              transform: "translateX(-50%)",
-                              marginTop: 6
-                            };
-                          }
-
-                          return (
+                          {/* ✅ HOVER — no flip breakage */}
+                          {hovered?.hat.id === hat.id && (
                             <div
                               style={{
                                 position: "absolute",
-                                width: overlayWidth,
-                                height: 120,
-                                padding: 8,
-                                background: "#000",
-                                border: "1px solid #444",
-                                borderRadius: 6,
-                                boxShadow: "0 4px 20px rgba(0,0,0,0.5)",
+                                inset: 0,
+                                padding: "4px",
+                                backgroundColor: "rgba(0, 0, 0, 0.94)",
+                                border: "1px solid #555",
+                                borderRadius: "6px",
                                 zIndex: 40,
-                                fontSize: 10,
-                                lineHeight: 1.3,
+                                fontSize: "8px",
+                                lineHeight: "1.15",
+                                color: "#fff",
                                 pointerEvents: "none",
                                 overflow: "hidden",
-                                ...position
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                textAlign: "center",
+                                whiteSpace: "normal",
+                                wordBreak: "break-word"
                               }}
                             >
-                              <strong style={{ display: "block", marginBottom: 3, fontSize: 11 }}>{hat.name}</strong>
-                              <p style={{ margin: 0, opacity: 0.8 }}>{hat.description?.slice(0, 60)}...</p>
+                              {isFlipped ? hat.name : hat.description || ""}
                             </div>
-                          );
-                        })()}
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          );
-        })}
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
 
-        {/* SELECTED HATS BAR — EXACT same */}
+        {/* FIXED CLEAR SELECTION — BOTTOM, LOCKED */}
         {selectedHats.length > 0 && (
           <div style={{ 
-            marginTop: "auto",
-            padding: "12px 16px", 
-            background: "#151515", 
-            border: "1px solid #222", 
-            borderRadius: 8
+            flexShrink: 0,
+            background: "#0a0a0a",
+            padding: "8px 12px 12px 12px",
+            borderTop: "1px solid #222",
+            position: "relative",
+            zIndex: 20
           }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
-              <span style={{ fontSize: 13, opacity: 0.7 }}>Selected ({selectedHats.length})</span>
+            <div style={{ 
+              padding: "8px 12px",   
+              background: "#151515", 
+              border: "1px solid #222", 
+              borderRadius: 8,
+              height: "44px",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px"
+            }}>
+              <div style={{ fontSize: 13, opacity: 0.7, flexShrink: 0 }}>
+                Selected ({selectedHats.length})
+              </div>
+
+              <div style={{ 
+                flex: 1,
+                overflowX: "auto",
+                overflowY: "hidden",
+                height: "100%",
+                display: "flex",
+                alignItems: "center",
+                gap: "6px",
+                paddingBottom: "2px"
+              }}>
+                {selectedHats.map(hat => (
+                  <div key={hat.id} style={{
+                    backgroundColor: "#2563eb22",
+                    border: "1px solid #2563eb66",
+                    padding: "3px 8px",
+                    borderRadius: 12,
+                    fontSize: 12,
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "4px",
+                    flexShrink: 0
+                  }}>
+                    {hat.name}
+                    <button 
+                      onClick={() => toggleSelectHat(hat)} 
+                      style={{ background: "none", border: "none", color: "#fff", cursor: "pointer", fontSize: 14, lineHeight: 1 }}
+                    >
+                      ×
+                    </button>
+                  </div>
+                ))}
+              </div>
+
               <button 
                 onClick={() => {
                   setSelectedHats([]);
-                  setActiveHat(null); // Also clear active when clearing all
+                  setActiveHat(null);
                 }} 
-                style={{ fontSize: 12, opacity: 0.6, background: "none", border: "none", color: "#fff", cursor: "pointer" }}
+                style={{ fontSize: 12, opacity: 0.6, background: "none", border: "none", color: "#fff", cursor: "pointer", flexShrink: 0 }}
               >
                 Clear All
               </button>
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-              {selectedHats.map(hat => (
-                <div key={hat.id} style={{
-                  background: "#2563eb22",
-                  border: "1px solid #2563eb66",
-                  padding: "4px 8px",
-                  borderRadius: 12,
-                  fontSize: 12,
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 4
-                }}>
-                  {hat.name}
-                  <button 
-                    onClick={() => toggleSelectHat(hat)} 
-                    style={{ background: "none", border: "none", color: "#fff", cursor: "pointer", fontSize: 14, lineHeight: 1 }}
-                  >
-                    ×
-                  </button>
-                </div>
-              ))}
             </div>
           </div>
         )}
       </div>
 
-      {/* RIGHT DRAWER — EXACT same as yours */}
-      <HatDrawer
-        hat={activeHat}
-        relatedHats={relatedHats}
-        onSelectHat={(hat) => {
-          setActiveHat(hat);
-          toggleSelectHat(hat);
+      {/* RIGHT DRAWER — ISOLATED SCROLL */}
+      <div 
+        style={{ 
+          width: "400px", 
+          height: "100vh", 
+          overflow: "hidden",
+          flexShrink: 0 
         }}
-        onClose={() => setActiveHat(null)}
-      />
+        onWheel={(e) => e.stopPropagation()}
+      >
+        <HatDrawer
+          hat={activeHat}
+          relatedHats={relatedHats}
+          onSelectHat={(hat) => {
+            setActiveHat(hat);
+            toggleSelectHat(hat);
+          }}
+          onClose={() => setActiveHat(null)}
+        />
+      </div>
     </div>
   );
 }
