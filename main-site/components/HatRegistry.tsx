@@ -499,7 +499,7 @@ export default function HatRegistry() {
         <HatDrawer
           hat={activeHat}
           relatedHats={relatedHats}
-          onSelectHat={(hat) => {
+          onSelectHat={(hat: any) => {
             setActiveHat(hat);
             toggleSelectHat(hat);
           }}
