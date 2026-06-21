@@ -268,10 +268,10 @@ export default function HatRegistry() {
             style={{ display:"flex", alignItems:"center", gap:8, cursor:"pointer" }}
           >
             <div style={{ width:32, height:32, borderRadius:"50%", background:"#151515", overflow:"hidden", border:"1px solid #333" }}>
-              <img src="/images/universal-mic.png" alt="Profile" style={{ width:"100%", height:"100%", objectFit:"cover" }} />
+              <img src="/images/1517537470883.jpg" alt="Profile" style={{ width:"100%", height:"100%", objectFit:"cover" }} />
             </div>
             <div>
-              <h2 style={{ margin:0, fontSize:14, fontWeight:600, lineHeight:1 }}>Mike Gold</h2>
+              <h2 style={{ margin:0, fontSize:14, fontWeight:600, lineHeight:1 }}>iMG</h2>
               <p style={{ margin:"3px 0 0 0", fontSize:12, opacity:0.6, lineHeight:1 }}>Systems  Architect</p>
             </div>
           </div>
