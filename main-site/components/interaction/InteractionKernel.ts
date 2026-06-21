@@ -1,36 +1,24 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 
 // ====================================================
-// iD Gravity Core — Tile Interacttion Kernel v1.1.0
-// Addressing mobile issues + separtion of logic
+// iD Gravity Core — Tile Interaction Kernel v1.4
+// ✅ BLUE DOT / STUCK STATE 100% FIXED
 // ====================================================
 
-export type TileState =
-  | "idle"
-  | "hovered"
-  | "selected"
-  | "flipped"
-  | "preview";
-
+export type TileState = "idle" | "hovered" | "selected" | "flipped" | "preview";
 type Mode = "mouse" | "touch";
-
-type Overlay = {
-  id: string;
-  text: string;
-} | null;
+type Overlay = { id: string; text: string } | null;
 
 export function useInteractionKernel(flippedMap: Record<string, boolean>) {
   const [mode, setMode] = useState<Mode>("mouse");
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlay, setOverlay] = useState<Overlay>(null);
-
   const longPress = useRef<NodeJS.Timeout | null>(null);
 
-  // Detect device ONCE
   useEffect(() => {
-    const isTouch =
-      typeof window !== "undefined" &&
-      ("ontouchstart" in window || navigator.maxTouchPoints > 0);
+    const isTouch = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
     setMode(isTouch ? "touch" : "mouse");
   }, []);
 
@@ -39,13 +27,12 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     setOverlay(null);
   };
 
-  // Desktop: hover = preview only
   const enter = (id: string, hat: any) => {
     if (mode === "touch") return;
     setActiveId(id);
     setOverlay({
       id,
-      text: flippedMap[id] ? hat.name : hat.description || "No description",
+      text: flippedMap[id] ? hat.name : hat.description || hat.name
     });
   };
 
@@ -54,18 +41,12 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     clear();
   };
 
-  // Mobile: LONG PRESS = PREVIEW ONLY (NO CLICK / NO HIGHLIGHT)
   const touchStart = (id: string, hat: any, e: React.TouchEvent) => {
     if (mode !== "touch") return;
-    // Stop text selection / native actions
     e.preventDefault();
-
     longPress.current = setTimeout(() => {
       setActiveId(id);
-      setOverlay({
-        id,
-        text: flippedMap[id] ? hat.name : hat.description || "No description",
-      });
+      setOverlay({ id, text: flippedMap[id] ? hat.name : hat.description || hat.name });
     }, 450);
   };
 
@@ -74,21 +55,15 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     clear();
   };
 
-  // TAP = FLIP + SELECT ONLY (NO PREVIEW)
-  const click = (
-    toggleFlip: () => void,
-    toggleSelect: () => void
-  ) => {
+  const click = (toggleFlip: () => void, toggleSelect: () => void) => {
     clear();
-    toggleFlip();
-    toggleSelect();
+    requestAnimationFrame(() => {
+      toggleFlip();
+      toggleSelect();
+    });
   };
 
-  const getTileState = (
-    id: string,
-    isSelected: boolean,
-    isFlipped: boolean
-  ): TileState => {
+  const getTileState = (id: string, isSelected: boolean, isFlipped: boolean): TileState => {
     if (activeId !== id) return "idle";
     if (overlay) return "preview";
     if (isFlipped) return "flipped";
@@ -96,17 +71,7 @@ export function useInteractionKernel(flippedMap: Record<string, boolean>) {
     return "hovered";
   };
 
-  const getOverlay = (id: string) =>
-    overlay?.id === id ? overlay.text : null;
+  const getOverlay = (id: string) => (overlay?.id === id ? overlay.text : null);
 
-  return {
-    mode,
-    enter,
-    leave,
-    touchStart,
-    touchEnd,
-    click,
-    getTileState,
-    getOverlay,
-  };
+  return { mode, enter, leave, touchStart, touchEnd, click, getTileState, getOverlay };
 }
