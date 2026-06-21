@@ -259,7 +259,7 @@ export default function HatRegistry() {
             </div>
             <div>
               <h2 style={{ margin:0, fontSize:14, fontWeight:600, lineHeight:1 }}>Mike Gold</h2>
-              <p style={{ margin:"3px 0 0 0", fontSize:11, opacity:0.6, lineHeight:1 }}>Creative Media & Design Engineering</p>
+              <p style={{ margin:"3px 0 0 0", fontSize:11, opacity:0.6, lineHeight:1 }}>Systems / Architect </p>
             </div>
           </div>
           <div style={{ fontSize:12, opacity:0.4, flexShrink:0, whiteSpace:"nowrap" }}>Creative Media & Design Engineering</div>
