@@ -5,7 +5,7 @@ export default function CapabilityPage() {
     <main className="page">
 
       <header className="page-header">
-        <h1>CORE CAPABILITIES</h1>
+        <h1>CAPABILITIES</h1>
         <p>A structured breakdown of all functional domains within the system.</p>
       </header>
 
