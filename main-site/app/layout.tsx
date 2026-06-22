@@ -72,12 +72,9 @@ export default function RootLayout({
               />
             </div>
 
-            <div style={{ lineHeight: 1 }}>
-              <div style={{ fontWeight: 700, fontSize: 13 }}>
-                MIKE GOLD
-              </div>
+            
               
-            </div>
+            
 
           </div>
 
