@@ -21,9 +21,7 @@ export default function Footer() {
       >
         {/* LEFT: IDENTITY */}
         <div style={{ lineHeight: 1.4 }}>
-          <div style={{ fontWeight: 700, fontSize: 14 }}>
-            MiKE GOLD
-          </div>
+         
 
           <div style={{ fontSize: 12, opacity: 0.6 }}>
             Audio · Electrical · Media · Software · Systems
