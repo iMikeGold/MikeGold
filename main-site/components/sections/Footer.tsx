@@ -93,7 +93,7 @@ export default function Footer() {
         }}
         >
         <a href="/registry">Registry</a>
-        <a href="/engine">Enginge</a>
+        <a href="/engine">Engine</a>
         <a href="/projects">Projects</a>
         <a href="/contact">Contact</a>
         </div>

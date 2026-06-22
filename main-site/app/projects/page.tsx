@@ -34,14 +34,21 @@ const SYSTEM_PROJECTS: Project[] = [
 
 const VIDEO_PROJECTS = [
   {
-    title: "Live Broadcast Audio & Communnication Systems",
+    title: "Field Comms & Telecom Redundacny Systems",
     url: "https://www.youtube.com/embed/H0jTge4APYs?si",
   },
 
-       {
-    title: "Broadcast Audio System",
-    url: "https://www.youtube.com/embed/JC-sHp5Xakk?si"
-   },
+
+  {
+    title: "Sound System Design & Installation Engineer",
+    url: "https://www.youtube.com/embed/3GlBmy-Vxak?si",
+  },
+
+  {
+    title: "Sound Design & Audio Systems",
+    url: "https://www.youtube.com/embed/n2usGeet2Gk?si",
+  },
+   
   {
     title: "Camera Systems & Setup",
     url: "https://www.youtube.com/embed/yivx4Q2bVBU?si",
@@ -71,18 +78,8 @@ const VIDEO_PROJECTS = [
     title: "Mulicamera Setup & Operation",
     url: "https://www.youtube.com/embed/w9eP13qq_zA?si",
    },
- 
-   {
-    title: "Sound Design & Audio Systems",
-    url: "https://www.youtube.com/embed/n2usGeet2Gk?si",
-  },
 
-     {
-    title: "Sound System Design & Installation Engineer",
-    url: "https://www.youtube.com/embed/3GlBmy-Vxak?si",
-  },
-
-     {
+  {
     title: "Sensor Test & Manufacturing Engineer",
     url: "https://www.youtube.com/embed/0Ckjmo1ayb0?si",
   },
@@ -114,16 +111,16 @@ const VIDEO_PROJECTS = [
 
    {
     title: "Embedded Firmware & Deployment Engineer",
-    url: "https://www.youtube.com/embed/vfgFpD2qS4g?sii"
+    url: "https://www.youtube.com/embed/vfgFpD2qS4g?si"
    },
 
    {
     title: "R&D and Systems Thinking",
-    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?sii"
+    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?si"
    },
    {
     title: "Server Systems & Configuration",
-    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?sii"
+    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?si"
    },
      {
     title: "PCB Prototyping & Design",
