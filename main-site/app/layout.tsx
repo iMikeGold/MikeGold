@@ -105,15 +105,17 @@ export default function RootLayout({
               whiteSpace: "nowrap",
             }}
           >
-          | M1K3 G01D
+          |M1K3G01D
           </div>
 
         </header>
 
         {/* PAGE CONTENT */}
-        <main style={{ flex: 1 }}>
+       <main style={{ flex: 1 }}>
+        <div className="container">
           {children}
-        </main>
+        </div>
+      </main>
 
       </body>
     </html>

@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
 
           <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
-            iD Gravity CORE v3.88
+            iD Gravity CORE OS v3.88
           </div>
         </div>
 
@@ -92,9 +92,9 @@ export default function Footer() {
         opacity:.7
         }}
         >
-        <a href="/registry">Hats</a>
-        <a href="/engine">Service</a>
-        <a href="/projects">Work</a>
+        <a href="/registry">Registry</a>
+        <a href="/engine">Enginge</a>
+        <a href="/projects">Projects</a>
         <a href="/contact">Contact</a>
         </div>
       </div>
