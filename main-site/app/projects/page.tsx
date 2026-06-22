@@ -116,7 +116,7 @@ const VIDEO_PROJECTS = [
 
    {
     title: "R&D and Systems Thinking",
-    url: "https://www.youtube.com/embed/dQw4w9WgXcQ?si"
+    url: "https://www.youtube.com/embed/rxSlR6tmW-8?si"
    },
    {
     title: "Server Systems & Configuration",
