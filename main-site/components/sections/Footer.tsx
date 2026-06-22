@@ -16,7 +16,7 @@ export default function Footer() {
           display: "flex",
           justifyContent: "space-between",
           flexWrap: "wrap",
-          gap: "10px",
+          gap: "14px",
         }}
       >
         {/* LEFT: IDENTITY */}
@@ -30,32 +30,80 @@ export default function Footer() {
           </div>
 
           <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
-            iD Gravity CORE v1.0
+            iD Gravity CORE v3.88
           </div>
         </div>
 
         {/* CENTRE: SYSTEM STATE */}
-        <div style={{ fontSize: 12, opacity: 0.7 }}>
-          <div>🟢 Status: ACTIVE </div>
-          <div>🔵 Registry: ONLINE</div>
-          <div>🟡 Engine: READY</div>
+
+        <div
+        style={{
+        display:"flex",
+        flexDirection:"column",
+        gap:6,
+        fontSize:12,
+        opacity:.7
+        }}
+        >
+
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+        <div style={{
+        width:8,
+        height:8,
+        borderRadius:"50%",
+        background:"#22c55e",
+        animation:"beaconPulse 3s infinite ease-in-out 0.5s"
+        }}/>
+        <div>Status : ACTiVE</div>
+        </div>
+
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+        <div style={{
+        width:8,
+        height:8,
+        borderRadius:"50%",
+        background:"#3b82f6",
+        animation:"beaconPulse 3s infinite ease-in-out 0.8s"
+
+        }}/>
+        <div>Registry : ONLiNE</div>
+        </div>
+
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+        <div 
+        style={{
+        width:8,
+        height:8,
+        borderRadius:"50%",
+        background:"#eab308",
+        animation:"beaconPulse 3s infinite ease-in-out 1.6s"
+        }}
+        />
+        <div>Engine : READY</div>
+        </div>
+
         </div>
 
         {/* RIGHT: NAV SHORTCUTS */}
         <div
-          style={{
-            display: "flex",
-            gap: "14px",
-            fontSize: 12,
-            opacity: 0.7,
-          }}
+        style={{
+        display:"flex",
+        flexDirection:"column",
+        gap:4,
+        fontSize:12,
+        opacity:.7
+        }}
         >
-          <a href="/registry">Registry</a>
-          <a href="/engine">Engine</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
+        <a href="/registry">Hats</a>
+        <a href="/engine">Service</a>
+        <a href="/projects">Work</a>
+        <a href="/contact">Contact</a>
         </div>
       </div>
+
+      
+            
+
     </footer>
   );
 }

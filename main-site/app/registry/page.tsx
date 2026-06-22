@@ -3,11 +3,13 @@ import Footer from "@/components/sections/Footer";
 
 export default function RegistryPage() {
   return (
-    <main style={{ padding: "40px" }}>
+    <main> 
+    
+    <div style={{ padding: "40px" }}>
 
       {/* SYSTEM HEADER */}
       <div style={{ marginBottom: "24px" }}>
-        <h1 style={{ margin: 0 }}>HAT REGISTRY</h1>
+        <h1 style={{ margin: 0 }}>HAT REGiSTRY</h1>
 
         <p style={{ opacity: 0.7, marginTop: "8px" }}>
           133 capabilities forming a connected system graph.
@@ -35,6 +37,7 @@ export default function RegistryPage() {
 
       {/* CORE SYSTEM */}
       <HatRegistry />
+      </div>
       <Footer />
     </main>
   );

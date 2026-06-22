@@ -89,10 +89,10 @@ export default function RootLayout({
           >
             <Link href="/">Home</Link>
             <Link href="/about">Intel</Link>
-            <Link href="/capabilities">Abilities</Link>
-            <Link href="/registry">Registry</Link>
+            <Link href="/capabilities">Able</Link>
+            <Link href="/registry">Hats</Link>
             <Link href="/engine">Engine</Link>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">Work</Link>
             <Link href="/contact">Contact</Link>
           </nav>
 
@@ -105,7 +105,7 @@ export default function RootLayout({
               whiteSpace: "nowrap",
             }}
           >
-            v3.88 | M1K3 G01D
+          | M1K3 G01D
           </div>
 
         </header>

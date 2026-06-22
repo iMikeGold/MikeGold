@@ -5,7 +5,7 @@ import HatRadar from "@/components/Polygon/HatRadar";
 import { getHatProfile } from "@/system/profile/hat-profile";
 
 // ------------------------------
-// HELPERS — YOURS, UNCHANGED
+// HELPERS — UNCHANGED
 // ------------------------------
 function flattenTags(hat: any): string[] {
   if (!hat?.tags) return [];
@@ -23,7 +23,7 @@ function formatWeight(weight: any): number {
 }
 
 // ------------------------------
-// DRAWER — YOUR FULL CODE, ONLY FIXES ADDED
+// DRAWER — FULL CODE, ONLY FIXES ADDED
 // ------------------------------
 export default function HatDrawer({
   hat,
@@ -41,13 +41,13 @@ export default function HatDrawer({
   const startY = useRef(0);
   const startHeight = useRef(0);
 
-  // ✅ ADDED: Safe size logic — matches width, stays slim
+  // ADDED: Safe size logic — matches width, stays slim
   const effectivePolygonSize = useMemo(() => {
     const maxWidth = Math.min(drawerWidth - 32, POLYGON_SIZE);
     return Math.max(120, maxWidth);
   }, [drawerWidth, POLYGON_SIZE]);
 
-  // ✅ ADDED: Fixed ratio — height = 85% of width, capped, no gaps
+  // ADDED: Fixed ratio — height = 85% of width, capped, no gaps
   useEffect(() => {
     const targetHeight = Math.max(MIN_HEIGHT, Math.min(MAX_HEIGHT, effectivePolygonSize * 0.85));
     setRadarHeight(targetHeight);
@@ -97,7 +97,7 @@ export default function HatDrawer({
         borderLeft: "1px solid #222"
       }}
     >
-      {/* HEADER — YOURS, EXACTLY */}
+      {/* HEADER — EXACTLY */}
       <div
         style={{
           padding: "16px 18px 10px",
@@ -133,7 +133,7 @@ export default function HatDrawer({
         </button>
       </div>
 
-      {/* ✅ FIXED: Radar area — slim, tight, no ballooning, no blank space */}
+      {/* FIXED: Radar area — slim, tight, no ballooning, no blank space */}
       <div
         style={{
           padding: "4px 0",
@@ -150,7 +150,7 @@ export default function HatDrawer({
         <HatRadar values={getHatProfile(hat)} size={effectivePolygonSize} />
       </div>
 
-      {/* DRAG BAR — YOURS, EXACTLY */}
+      {/* DRAG BAR — EXACTLY */}
       <div
         onMouseDown={startDrag}
         style={{
@@ -163,7 +163,7 @@ export default function HatDrawer({
         }}
       />
 
-      {/* CONTENT — YOURS, FULL, UNCHANGED */}
+      {/* CONTENT — FULLY UNCHANGED */}
       <div
         style={{
           padding: "16px 18px",

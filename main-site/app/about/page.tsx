@@ -2,21 +2,22 @@ import Footer from "@/components/sections/Footer";
 
 export default function AboutPage() {
   return (
-    <main className="page">
+    <main>
+    <div className="page">
 
       <header className="page-header">
-        <h1>ABOUT</h1>
+        <h1>ABOUT i,</h1>
         <p>Systems originate from a need to connect disciplines into one working structure.</p>
       </header>
 
       <section>
         <p>
-          Audio engineering and electrical engineering were the starting point.
-          Everything else evolved from solving real system problems.
+          Audio engineering and electrical engineering were the starting points.
+          Everything else evolved from the desire to solve real system problems.
         </p>
 
         <p>
-          The focus is not individual disciplines, but how they integrate into complete systems.
+          Mi focus is not individual disciplines, but how they integrate into complete systems.
         </p>
       </section>
 
@@ -30,8 +31,18 @@ export default function AboutPage() {
       <footer>
         <p>Return to navigation bar to continue exploring the system.</p>
       </footer>
+    </div>
 
-      <Footer />
+    <Footer />
+
+
     </main>
+    
   );
+
+  
 }
+
+
+
+

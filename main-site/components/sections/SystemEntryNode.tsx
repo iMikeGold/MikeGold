@@ -22,7 +22,7 @@ export default function SystemEntryNode() {
         }}
       />
 
-      <div style={{ marginTop: 16, opacity: 0.7 }}>
+      <div style={{ marginTop: 16, opacity: 0.7, marginBottom: 16}}>
         Suggestions:
         <ul>
           <li>Audio system for live performance</li>

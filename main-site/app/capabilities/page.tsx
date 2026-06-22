@@ -2,15 +2,16 @@ import Footer from "@/components/sections/Footer";
 
 export default function CapabilityPage() {
   return (
-    <main className="page">
+    <main> 
+    <div className="page">
 
       <header className="page-header">
-        <h1>CAPABILITIES</h1>
+        <h1>CAPABiLiTiES</h1>
         <p>A structured breakdown of all functional domains within the system.</p>
       </header>
 
       <section>
-        <h2>AUDIO ENGINEERING</h2>
+        <h2>AUDiO ENGiNEERiNG</h2>
         <p>
           Sound design, live systems, studio engineering, signal flow,
           acoustic environments, audio processing, system tuning.
@@ -22,7 +23,7 @@ export default function CapabilityPage() {
       </section>
 
       <section>
-        <h2>MEDIA & EXPERIENCE SYSTEMS</h2>
+        <h2>MEDiA & EXPERiENCE SYSTEMS</h2>
         <p>
           Audio environments, interactive systems, sensory design,
           live media setups, experiential installations.
@@ -33,7 +34,7 @@ export default function CapabilityPage() {
       </section>
 
       <section>
-        <h2>ELECTRICAL & HARDWARE SYSTEMS</h2>
+        <h2>ELECTRiCAL & HARDWARE SYSTEMS</h2>
         <p>
           Circuit design, PCB work, embedded systems, physical computing,
           custom hardware builds, power and signal integrity.
@@ -44,7 +45,7 @@ export default function CapabilityPage() {
       </section>
 
       <section>
-        <h2>SOFTWARE & SYSTEMS ENGINEERING</h2>
+        <h2>SOFTWARE & SYSTEMS ENGiNEERiNG</h2>
         <p>
           Backend systems, automation, infrastructure, data handling,
           runtime logic, deployment workflows.
@@ -55,7 +56,7 @@ export default function CapabilityPage() {
       </section>
 
       <section>
-        <h2>DESIGN & INTERFACES</h2>
+        <h2>DESiGN & iNTERFACES</h2>
         <p>
           Web systems, UI logic, UX flow, navigation structure,
           interaction design, layout architecture.
@@ -64,7 +65,8 @@ export default function CapabilityPage() {
           Focused on clarity, predictability, and structured interaction.
         </p>
       </section>
-      < Footer />
+      </div>
+      <Footer />
     </main>
   );
 }

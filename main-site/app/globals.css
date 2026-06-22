@@ -32,16 +32,25 @@ body {
   --space-xl: 96px;
 }
 
+*{
+box-sizing:border-box;
+}
+
+html,
+body{
+overflow-x:hidden;
+}
+
 html,
 body {
   overflow-x: hidden;
   width: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
 
+main{
+width:100%;
+}
 
 .hero {
   min-height: 70vh;
@@ -86,12 +95,31 @@ body {
   margin-bottom: 2rem;
 }
 
-.page-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+.page-header h1{
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  margin-bottom: .75rem;
+  white-space: nowrap;
 }
 
 .page section {
   margin-bottom: 2rem;
   line-height: 1.6;
+}
+
+@keyframes beaconPulse {
+  0% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+
+  100% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
 }

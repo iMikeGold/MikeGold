@@ -2,7 +2,8 @@ import Footer from "@/components/sections/Footer";
 
 export default function EnginePage() {
   return (
-    <main className="page">
+    <main> 
+    <div className="page">
 
       <header className="page-header">
         <section>
@@ -71,7 +72,11 @@ export default function EnginePage() {
         <p>Scope breakdown</p>
         <p>System delivery structure</p>
       </section>
-      <Footer />
+
+    </div>
+    <Footer />  
     </main>
+
+     
   );
 }

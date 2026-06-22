@@ -4,7 +4,7 @@ export default function CapabilityCards() {
   return (
     <section style={{ padding: "60px 40px" }}>
 
-      <h2>CORE CAPABILITY SYSTEMS</h2>
+      <h2>CORE CAPABiLiTY SYSTEMS</h2>
 
       <p style={{ opacity: 0.7, maxWidth: 700 }}>
         These are functional domains within the system.
