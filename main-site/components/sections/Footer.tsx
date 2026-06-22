@@ -22,15 +22,15 @@ export default function Footer() {
         {/* LEFT: IDENTITY */}
         <div style={{ lineHeight: 1.4 }}>
           <div style={{ fontWeight: 700, fontSize: 14 }}>
-            MIKE GOLD
+            MiKE GOLD
           </div>
 
           <div style={{ fontSize: 12, opacity: 0.6 }}>
-            Systems Architect · Audio · Electrical · Software · Media
+            Audio · Electrical · Media · Software · Systems
           </div>
 
           <div style={{ fontSize: 11, opacity: 0.4, marginTop: 6 }}>
-            System Node v1.1
+            Cognitive OS iD Gravity v1.1
           </div>
         </div>
 

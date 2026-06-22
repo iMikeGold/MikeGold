@@ -5,7 +5,7 @@ export default function ContactPage() {
     <main className="page">
 
       <header className="page-header">
-        <h1>CONTACT</h1>
+        <h1>GET IN TOUCH</h1>
         <p>Access point for collaboration and system integration.</p>
       </header>
 

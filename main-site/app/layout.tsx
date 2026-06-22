@@ -81,8 +81,8 @@ export default function RootLayout({
           {/* NAVIGATION */}
           <nav style={{ display: "flex", gap: "14px", fontSize: "14px" }}>
             <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/capabilities">Capabilities</Link>
+            <Link href="/about">Intel</Link>
+            <Link href="/capabilities">Abilities</Link>
             <Link href="/registry">Registry</Link>
             <Link href="/engine">Engine</Link>
             <Link href="/projects">Projects</Link>
@@ -98,7 +98,7 @@ export default function RootLayout({
               whiteSpace: "nowrap",
             }}
           >
-            v1.1 | COGNITIVE OS
+            v3.8.6 | M1K3 G01D
           </div>
 
         </header>
