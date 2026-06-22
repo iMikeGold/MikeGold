@@ -116,15 +116,15 @@ const VIDEO_PROJECTS = [
 
    {
     title: "R&D and Systems Thinking",
-    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?si"
+    url: "https://www.youtube.com/embed/dQw4w9WgXcQ?si"
    },
    {
     title: "Server Systems & Configuration",
-    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?si"
+    url: "https://www.youtube.com/embed/p2QKbXG02pw?si"
    },
      {
     title: "PCB Prototyping & Design",
-    url: "https://www.youtube.com/embed//joaYOliIrG0?si",
+    url: "https://www.youtube.com/embed/joaYOliIrG0?si",
    },
    {
     title: "Mulimedia Distribution",
