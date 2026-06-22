@@ -21,7 +21,7 @@ const SYSTEM_PROJECTS: Project[] = [
     accent: "#ff4d6d",
   },
   {
-    title: "Cognitive Mapping Layer",
+    title: "Cognitive Mapping",
     category: "Systems Architecture",
     description: "How ideas are structured across domains.",
     content:
@@ -34,9 +34,14 @@ const SYSTEM_PROJECTS: Project[] = [
 
 const VIDEO_PROJECTS = [
   {
-    title: "Live Broadcast Audio Systems",
+    title: "Live Broadcast Audio & Communnication Systems",
     url: "https://www.youtube.com/embed/H0jTge4APYs?si",
   },
+
+       {
+    title: "Broadcast Audio System",
+    url: "https://www.youtube.com/embed/JC-sHp5Xakk?si"
+   },
   {
     title: "Camera Systems & Setup",
     url: "https://www.youtube.com/embed/yivx4Q2bVBU?si",
@@ -58,21 +63,32 @@ const VIDEO_PROJECTS = [
   },
 
    {
-    title: "Camera Systems & Setup",
+    title: "Playout Systems Setup",
     url: "https://www.youtube.com/embed/JC-sHp5Xakk?si"
    },
+
+      {
+    title: "Mulicamera Setup & Operation",
+    url: "https://www.youtube.com/embed/w9eP13qq_zA?si",
+   },
+ 
    {
     title: "Sound Design & Audio Systems",
     url: "https://www.youtube.com/embed/n2usGeet2Gk?si",
   },
 
-   {
-    title: "Sound System Design & Setup",
+     {
+    title: "Sound System Design & Installation Engineer",
     url: "https://www.youtube.com/embed/3GlBmy-Vxak?si",
   },
 
+     {
+    title: "Sensor Test & Manufacturing Engineer",
+    url: "https://www.youtube.com/embed/0Ckjmo1ayb0?si",
+  },
+
    {
-    title: "Electronic Systems Engineer",
+    title: "Electronics Systems Engineer",
     url: "https://www.youtube.com/embed/OanbAm_4KvM?si",
    },
 
@@ -84,13 +100,40 @@ const VIDEO_PROJECTS = [
     title: "Distribution Systems & Signal Flow",
     url: "https://www.youtube.com/embed/I61Y9Pb3XFY?si",
    },
+ 
+
     {
-    title: "Mulicamera Setup & Operation",
-    url: "https://www.youtube.com/embed/w9eP13qq_zA?si",
+    title: "Scientific Equipment & Test Systems Engineer",
+    url: "https://www.youtube.com/embed/DE_s7ocmI9E?si"
+   },
+
+   {
+    title: "Modem Firmware Build and Installation Engineer",
+    url: "https://www.youtube.com/embed/Vhir8baUfkA?si"
+   },
+
+   {
+    title: "Embedded Firmware & Deployment Engineer",
+    url: "https://www.youtube.com/embed/vfgFpD2qS4g?sii"
+   },
+
+   {
+    title: "R&D and Systems Thinking",
+    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?sii"
+   },
+   {
+    title: "Server Systems & Configuration",
+    url: "https://www.youtube.com/embed/eJsG3XKKhhkU?sii"
+   },
+     {
+    title: "PCB Prototyping & Design",
+    url: "https://www.youtube.com/embed//joaYOliIrG0?si",
+   },
+   {
+    title: "Mulimedia Distribution",
+    url: "https://www.youtube.com/embed/e_YYiedWe8s?si",
    }
 ];
-
-
 
 const LINKS = [
   {
@@ -102,6 +145,7 @@ const LINKS = [
     url: "https://library.protosynthesis.co.uk/",
   },
 ];
+
 
 export default function ProjectsPage() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);

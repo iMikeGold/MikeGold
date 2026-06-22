@@ -153,15 +153,20 @@ width:100%;
 
 .video-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(123px,1fr));
   gap:10px;
 }
 
-.video-tile{
-    background:#111;
-    border:1px solid #333;
-    border-radius:12px;
-    overflow:hidden;
+.video-tile p {
+  font-size: 11px;
+  line-height: 1.2;
+  margin: 6px 0 0;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
 }
 
 .video-tile iframe{
