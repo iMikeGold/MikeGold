@@ -24,3 +24,65 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --header-height: 64px;
+  --space-md: 32px;
+  --space-lg: 64px;
+  --space-xl: 96px;
+}
+
+
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+  background: #111;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero h2 {
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.hero p {
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-buttons button {
+  margin-right: 1rem;
+}
+
+.page {
+  padding: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page section {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
