@@ -27,7 +27,7 @@ export default function ContactPage() {
         borderRadius:8
         }}
         >
-        eMail →
+        Open eMail →
         </a>
 
         </section>
