@@ -4,8 +4,8 @@ export default function SystemEntryNode() {
   return (
     <section className="hero">
 
-      <h1>MIKE GOLD</h1>
-      <h2>Systems Architect | Audio. Electrical. Software. Media. Systems.
+      <h1>MiKE GOLD</h1>
+      <h2>Systems Architect | Audio. Electrical. Media. Software.
       </h2>
 
       <p>What do you want to build?</p>
@@ -23,7 +23,7 @@ export default function SystemEntryNode() {
       />
 
       <div style={{ marginTop: 16, opacity: 0.7 }}>
-        Suggested:
+        Suggestions:
         <ul>
           <li>Audio system for live performance</li>
           <li>Backend infrastructure for media</li>

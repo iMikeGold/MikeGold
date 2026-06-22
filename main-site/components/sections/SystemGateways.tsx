@@ -8,18 +8,21 @@ export default function SystemGateways() {
         title="Hat Registry"
         description="133 capabilities forming a structured system graph"
         href="/registry"
+        action="Explore"
       />
 
       <GatewayCard
         title="Service Engine"
         description="Intent → capability mapping engine"
         href="/engine"
+        action="Build"
       />
 
       <GatewayCard
         title="Projects"
         description="Real outputs built using the system"
         href="/projects"
+        action="See"
       />
 
     </section>

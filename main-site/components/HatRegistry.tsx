@@ -488,9 +488,12 @@ export default function HatRegistry() {
           transition: "right 0.2s ease"
         }}>
           <div style={{
-            padding:"8px 12px", background:"#151515",
-            border:"1px solid #222", borderRadius:8,
-            height:44, display:"flex", alignItems:"center", gap:8
+            padding:"8px 12px", 
+            background:"#151515",
+            border:"1px solid #222", 
+            borderRadius:8,
+            height:44, display:"flex", 
+            alignItems:"center", gap:8
           }}>
             <div style={{ fontSize:13, opacity:0.7, flexShrink:0 }}>Selected ({selectedHats.length})</div>
             <div style={{ flex:1, overflowX:"auto", display:"flex", gap:6, paddingBottom:2, minWidth:0 }}>

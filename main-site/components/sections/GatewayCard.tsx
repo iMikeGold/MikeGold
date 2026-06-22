@@ -3,7 +3,8 @@ import Link from "next/link";
 export default function GatewayCard({
   title,
   description,
-  href
+  href,
+  action
 }: any) {
   return (
     <Link href={href}>
@@ -18,8 +19,9 @@ export default function GatewayCard({
       >
         <h3>{title}</h3>
         <p style={{ opacity: 0.7 }}>{description}</p>
-        <span style={{ opacity: 0.5 }}>Enter →</span>
+        <span style={{ opacity: 0.5 }}>{action}→ </span>
       </div>
     </Link>
+    
   );
 }

@@ -72,14 +72,21 @@ export default function RootLayout({
               />
             </div>
 
-            
-              
-            
-
           </div>
 
           {/* NAVIGATION */}
-          <nav style={{ display: "flex", gap: "14px", fontSize: "14px" }}>
+          <nav className="top-nav"
+            style={{
+              display: "flex",
+              gap: "14px",
+              fontSize: "14px",
+              overflowX: "auto",
+              scrollbarWidth: "none",
+              msOverflowStyle: "none",
+              whiteSpace: "nowrap",
+              maxWidth: "100%",
+            }}
+          >
             <Link href="/">Home</Link>
             <Link href="/about">Intel</Link>
             <Link href="/capabilities">Abilities</Link>
@@ -98,7 +105,7 @@ export default function RootLayout({
               whiteSpace: "nowrap",
             }}
           >
-            v3.8.6 | M1K3 G01D
+            v3.88 | M1K3 G01D
           </div>
 
         </header>
