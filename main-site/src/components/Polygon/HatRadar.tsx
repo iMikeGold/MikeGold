@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { PROFILE_AXIS_COLOURS } from "@/system/services/profile-interpreter";
+import { PROFILE_AXES } from "@/system/profile/hat-profile";
 
 // ====================================================
 // iD Gravity Core — Hat Radar v1.2
@@ -89,27 +90,21 @@ export default function HatRadar({
     }}>
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
         <circle cx={center} cy={center} r={radius} fill="none" stroke="rgba(255,255,255,0.05)" />
-        <g
-          style={{
-            transform: `rotate(${-strongestAxis * 60}deg)`,
-            transformOrigin: `${center}px ${center}px`,
-            transition: "transform 520ms cubic-bezier(.2,.75,.2,1)",
-          }}
-        >
-          <circle cx={center} cy={center} r={radius + 3} fill="none" stroke="rgba(255,255,255,.12)" strokeDasharray="2 7" />
-          {wheelColours.map((colour, index) => {
-            const angle = getAngle(index) - Math.PI / 2;
-            return (
-              <circle
-                key={colour}
-                cx={center + Math.cos(angle) * (radius + 3)}
-                cy={center + Math.sin(angle) * (radius + 3)}
-                r={index === strongestAxis ? 3.2 : 2}
-                fill={colour}
-              />
-            );
-          })}
-        </g>
+        <circle cx={center} cy={center} r={radius + 3} fill="none" stroke="rgba(255,255,255,.12)" strokeDasharray="2 7" />
+        {wheelColours.map((colour, index) => {
+          const angle = getAngle(index) - Math.PI / 2;
+          return (
+            <circle
+              key={colour}
+              cx={center + Math.cos(angle) * (radius + 3)}
+              cy={center + Math.sin(angle) * (radius + 3)}
+              r={index === strongestAxis ? 3.6 : 2.2}
+              fill={colour}
+            >
+              <title>{PROFILE_AXES[index]}: {values[index].toFixed(1)}</title>
+            </circle>
+          );
+        })}
         {displayValues.map((_, i) => {
           const angle = getAngle(i) - Math.PI / 2;
           const x = center + Math.cos(angle) * radius;
