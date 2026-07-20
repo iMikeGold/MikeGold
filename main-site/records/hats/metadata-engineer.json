@@ -1,0 +1,44 @@
+{
+  "id": "0848651e-51bd-4627-8d00-6c21912c1a8f",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "metadata-engineer",
+  "slug": "metadata-engineer",
+  "name": "Metadata Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Organises information that describes media.",
+  "tags": {
+    "core": [
+      "metadata",
+      "information",
+      "organisation"
+    ],
+    "adjacent": [],
+    "meta": [
+      "searchability",
+      "management"
+    ]
+  },
+  "weight": {
+    "base": 0.82,
+    "experience": 0.78,
+    "rarity": 0.56
+  },
+  "details": {
+    "overview": "Designs what information is stored with each file — title, creator, date, technical details, rights — and how it is structured. Makes media easy to find, manage and use correctly. Ensures metadata is consistent, complete and linked to the file securely. Without good metadata, media becomes lost or useless over time.",
+    "capabilities": [
+      "metadata schema",
+      "information management",
+      "searchability"
+    ],
+    "usedFor": [
+      "libraries",
+      "archives",
+      "media asset management"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "492e2dac-fc94-4c44-af00-36e88d822969",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "858e7920-6970-491a-b732-6e1462c4025e",
+  "slug": "five9-customer-story-systems-server-systems-and-configuration",
+  "title": "Server systems and configuration",
+  "summary": "Configuration-oriented systems work supporting a connected media and communications environment.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "infrastructure-operations"
+  ]
+}

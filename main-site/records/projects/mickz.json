@@ -1,0 +1,15 @@
+{
+  "id": "d093183a-9cf0-4ae4-b5b2-8d1b21e9c475",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mickz",
+  "name": "MiCKz",
+  "summary": "Development of a flexible food-and-drink brand and product system with related but distinct category treatments.",
+  "status": "design-development",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 1997,
+  "liveUrl": "https://mickz.co.uk"
+}

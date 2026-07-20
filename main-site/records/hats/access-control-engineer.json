@@ -1,0 +1,56 @@
+{
+  "id": "b2091363-ffe4-420d-872e-fad0eb0c6569",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "access-control-engineer",
+  "slug": "access-control-engineer",
+  "name": "Access-Control Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Enforcing boundaries between secure and public zones.",
+  "tags": {
+    "core": [
+      "boundaries",
+      "security",
+      "zones"
+    ],
+    "adjacent": [],
+    "meta": [
+      "perimeter",
+      "enforcement"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.75
+  },
+  "relationships": [
+    {
+      "targetId": "43d841d7-4cc3-477d-a167-4a88965f557d",
+      "type": "overlap",
+      "strength": 0.9
+    },
+    {
+      "targetId": "7f69aed3-3eb4-4291-ad4b-8b7423a639f2",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Build the technical barriers that separate trusted from untrusted areas. Define exactly what can cross, in which direction, and under what rules. Apply restrictions at network, system, data and application levels. Ensure that even if one area is compromised, others remain protected. Work with encryption, filtering and permission checks to enforce policy everywhere.",
+    "capabilities": [
+      "security boundary design",
+      "traffic filtering",
+      "permission enforcement"
+    ],
+    "usedFor": [
+      "data protection",
+      "public-facing services",
+      "regulated data handling"
+    ]
+  }
+}

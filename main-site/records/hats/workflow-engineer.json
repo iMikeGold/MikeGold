@@ -1,0 +1,44 @@
+{
+  "id": "30193ddb-f528-413e-810c-8c297f5a1dd0",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "workflow-engineer",
+  "slug": "workflow-engineer",
+  "name": "Workflow Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Maps logical steps into sequences that run themselves.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "workflow",
+      "sequence",
+      "automation"
+    ],
+    "meta": [
+      "process",
+      "orchestration"
+    ]
+  },
+  "weight": {
+    "base": 0.87,
+    "experience": 0.83,
+    "rarity": 0.61
+  },
+  "details": {
+    "overview": "Designs the order, conditions and hand‑offs between steps in any process — technical or operational. Defines what happens next, who is notified and what to do if a step fails. Automates as much as possible while keeping human control where needed. Turns complex procedures into clear, guided or fully automated flows.",
+    "capabilities": [
+      "process mapping",
+      "flow automation",
+      "sequence design"
+    ],
+    "usedFor": [
+      "operational procedures",
+      "data processing pipelines",
+      "approval chains"
+    ]
+  }
+}

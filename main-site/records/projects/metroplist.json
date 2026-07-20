@@ -1,0 +1,14 @@
+{
+  "id": "1a8ff3bb-b2aa-46cd-9ff6-44b1b174e784",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "metroplist",
+  "name": "Metroplist",
+  "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2024
+}

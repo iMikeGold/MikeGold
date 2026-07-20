@@ -1,0 +1,14 @@
+{
+  "id": "8d403895-ffa0-45e8-85c6-49ce8c65f5a6",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "findthy",
+  "name": "FindThy",
+  "summary": "Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures.",
+  "status": "awaiting-implementation",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2014
+}

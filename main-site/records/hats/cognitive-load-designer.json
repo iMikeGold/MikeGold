@@ -1,0 +1,51 @@
+{
+  "id": "038b0057-aeca-4120-8986-04bfe273cab7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "cognitive-load-designer",
+  "slug": "cognitive-load-designer",
+  "name": "Cognitive Load Designer",
+  "status": "published",
+  "category": "design",
+  "type": "interface",
+  "description": "Revealing complexity only when needed.",
+  "tags": {
+    "core": [
+      "complexity",
+      "simplicity",
+      "focus"
+    ],
+    "adjacent": [],
+    "meta": [
+      "ux",
+      "information"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.8
+  },
+  "relationships": [
+    {
+      "targetId": "31c8478c-0e17-44d4-9619-ce8868a0ae7b",
+      "type": "overlap",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Control how much information or choice is shown at once. Start simple, show only what is needed now, and bring forward detail or advanced options only when the user is ready or asks for them. Prevent overwhelm and retain focus on the task. Simplicity is not about removing features — it is about revealing them at the right time.",
+    "capabilities": [
+      "progressive disclosure",
+      "complexity management",
+      "focus engineering"
+    ],
+    "usedFor": [
+      "professional tools",
+      "control interfaces",
+      "information systems"
+    ]
+  }
+}

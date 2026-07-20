@@ -1,0 +1,14 @@
+{
+  "id": "d38e2bd3-63d8-4f8e-8ed1-8144927790a1",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "wrappedfm",
+  "name": "WrappedFM",
+  "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2022
+}

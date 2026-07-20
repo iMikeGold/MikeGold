@@ -1,0 +1,17 @@
+{
+  "id": "024f5dad-aa05-4cce-87e5-8b690b029889",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering-video",
+  "title": "Connected Lighting Management",
+  "description": "Supporting video published by Delmatic Lighting Management.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=0Ckjmo1ayb0",
+  "thumbnailUrl": "https://i.ytimg.com/vi/0Ckjmo1ayb0/hqdefault.jpg",
+  "sourceTitle": "Connected Lighting Management",
+  "sourceAuthor": "Delmatic Lighting Management",
+  "placeholder": false
+}

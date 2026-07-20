@@ -1,0 +1,14 @@
+{
+  "id": "4fa11937-1fc9-4016-bdb2-0d1d6fd7ed79",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-wrappedfm-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "6d8aeaf7-bdb5-4804-94bb-261339c044fc",
+  "targetType": "work",
+  "role": "primary"
+}

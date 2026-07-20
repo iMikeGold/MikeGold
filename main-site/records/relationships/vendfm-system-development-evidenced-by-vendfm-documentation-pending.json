@@ -1,0 +1,13 @@
+{
+  "id": "eba24d84-d222-4b0e-9694-2f9f06af2279",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "vendfm-system-development-evidenced-by-vendfm-documentation-pending",
+  "sourceId": "092ae2fd-e716-4458-9f14-25b61d5405f7",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "8e584475-7e6c-4839-bd7d-a8f38b699605",
+  "targetType": "evidence"
+}

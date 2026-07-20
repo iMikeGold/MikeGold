@@ -1,0 +1,44 @@
+{
+  "id": "acb24434-6fc2-4735-8d52-596a215f0f44",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "database-engineer",
+  "slug": "database-engineer",
+  "name": "Database Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Structures storage for speed, safety and easy retrieval.",
+  "tags": {
+    "core": [
+      "database",
+      "storage",
+      "performance"
+    ],
+    "adjacent": [],
+    "meta": [
+      "integrity",
+      "optimisation"
+    ]
+  },
+  "weight": {
+    "base": 0.92,
+    "experience": 0.88,
+    "rarity": 0.68
+  },
+  "details": {
+    "overview": "Designs, builds and maintains databases — choosing the right type, structure and configuration for the data and access pattern. Optimises for fast reads, safe writes or complex queries as needed. Ensures security, backups, integrity and growth. Keeps data organised so it can be found quickly and remains safe for years.",
+    "capabilities": [
+      "database design",
+      "performance tuning",
+      "data security"
+    ],
+    "usedFor": [
+      "configuration storage",
+      "asset libraries",
+      "historical records"
+    ]
+  }
+}

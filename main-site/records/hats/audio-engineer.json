@@ -1,0 +1,62 @@
+{
+  "id": "d60b7fcd-2a34-448c-8d2c-348746b468c1",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "audio-engineer",
+  "slug": "audio-engineer",
+  "name": "Audio Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Capture, balance and refine audio systems.",
+  "tags": {
+    "core": [
+      "sound",
+      "audio",
+      "mixing",
+      "signal"
+    ],
+    "adjacent": [],
+    "meta": [
+      "studio",
+      "precision"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "18a1f123-7795-48fd-96b5-d6f1d83201ba",
+      "type": "overlap",
+      "strength": 0.8
+    },
+    {
+      "targetId": "270ef515-d981-48ad-bf97-76f64bf4f0d1",
+      "type": "supports",
+      "strength": 0.75
+    },
+    {
+      "targetId": "894cab26-e1c9-4ea5-b766-7d92c6c69156",
+      "type": "supports",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Specialising in capturing and controlling sound with precision. Focused on clarity, balance, and spatial accuracy in both studio and live environments.",
+    "capabilities": [
+      "audio capture",
+      "mixing",
+      "signal balancing"
+    ],
+    "usedFor": [
+      "studio production",
+      "live sound environments",
+      "media systems"
+    ]
+  }
+}

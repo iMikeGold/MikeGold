@@ -1,0 +1,44 @@
+{
+  "id": "8a4d0ddc-f9fd-4d20-a7da-84b311b3c098",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "spatial-audio-engineer",
+  "slug": "spatial-audio-engineer",
+  "name": "Spatial Audio Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Designs sound that moves and surrounds the listener.",
+  "tags": {
+    "core": [
+      "spatial",
+      "3d",
+      "immersion"
+    ],
+    "adjacent": [],
+    "meta": [
+      "positioning",
+      "dimension"
+    ]
+  },
+  "weight": {
+    "base": 0.94,
+    "experience": 0.9,
+    "rarity": 0.79
+  },
+  "details": {
+    "overview": "Uses techniques like Ambisonics, Dolby Atmos or multi‑channel arrays to place sound anywhere in 3D space. Creates environments where sound comes from above, behind or around, making the experience immersive. Works with position, movement and distance. Spatial audio adds a new dimension to storytelling and feeling.",
+    "capabilities": [
+      "3d audio design",
+      "spatial coding",
+      "immersion engineering"
+    ],
+    "usedFor": [
+      "cinema",
+      "VR/AR",
+      "immersive installations"
+    ]
+  }
+}

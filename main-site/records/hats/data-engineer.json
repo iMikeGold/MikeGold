@@ -1,0 +1,44 @@
+{
+  "id": "92959b16-1dd1-4023-a398-b6d8825c5693",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "data-engineer",
+  "slug": "data-engineer",
+  "name": "Data Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Arranges capture, flow and storage of every measurement or value.",
+  "tags": {
+    "core": [
+      "data",
+      "flow",
+      "storage"
+    ],
+    "adjacent": [],
+    "meta": [
+      "pipeline",
+      "scalability"
+    ]
+  },
+  "weight": {
+    "base": 0.93,
+    "experience": 0.89,
+    "rarity": 0.7
+  },
+  "details": {
+    "overview": "Designs how data is collected from sources, moved through systems, transformed and stored. Ensures data is complete, correct, available and stored in the right place for its use. Builds pipelines that handle everything from simple logs to complex real‑time streams. Focuses on reliability, scalability and clarity so data is always usable.",
+    "capabilities": [
+      "data pipeline design",
+      "storage architecture",
+      "data integration"
+    ],
+    "usedFor": [
+      "measurement systems",
+      "media metadata",
+      "operational intelligence"
+    ]
+  }
+}

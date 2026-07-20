@@ -1,0 +1,14 @@
+{
+  "id": "c0501fce-a01b-4cff-8c8c-defa6591a7c9",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mikegold-engineer",
+  "name": "MikeGold.co.uk",
+  "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
+  "status": "live",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2006
+}

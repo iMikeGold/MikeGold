@@ -1,0 +1,14 @@
+{
+  "id": "010e232b-83d9-4141-a8ac-3d889b802618",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "saveours",
+  "name": "SaveOurs",
+  "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+  "status": "awaiting-implementation",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2014
+}

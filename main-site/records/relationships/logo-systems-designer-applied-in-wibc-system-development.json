@@ -1,0 +1,14 @@
+{
+  "id": "68804248-8858-4239-8558-4417ad131f3b",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "logo-systems-designer-applied-in-wibc-system-development",
+  "sourceId": "7c68be63-b2a3-4844-8976-8a0197908bd6",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "e01c59ad-6286-480b-a26d-be5ec3d36f1a",
+  "targetType": "work",
+  "role": "primary"
+}

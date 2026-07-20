@@ -1,0 +1,44 @@
+{
+  "id": "89b1b06f-4b40-4893-afef-31cd90d6e512",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "world-building-engineer",
+  "slug": "world-building-engineer",
+  "name": "World‑Building Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Designs rules and limits for complete environments.",
+  "tags": {
+    "core": [
+      "environment",
+      "rules",
+      "limits"
+    ],
+    "adjacent": [],
+    "meta": [
+      "coherence",
+      "immersion"
+    ]
+  },
+  "weight": {
+    "base": 0.95,
+    "experience": 0.91,
+    "rarity": 0.8
+  },
+  "details": {
+    "overview": "Defines the full logic of a space — physical, digital or mixed — including what exists, how things behave, what can happen and what cannot. Creates a complete internal consistency so the environment feels real and predictable. Builds systems that enforce these rules automatically. Used for installations, simulations or interactive spaces where immersion depends on coherence.",
+    "capabilities": [
+      "environment logic design",
+      "rule engineering",
+      "consistency systems"
+    ],
+    "usedFor": [
+      "immersive installations",
+      "simulations",
+      "theme environments"
+    ]
+  }
+}

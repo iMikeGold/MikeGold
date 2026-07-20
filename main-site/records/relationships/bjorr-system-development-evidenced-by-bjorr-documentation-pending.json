@@ -1,0 +1,13 @@
+{
+  "id": "33308440-8170-4dca-8724-5b1d85bf7ef0",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-documentation-pending",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "2f732ad4-df9b-4e2c-8db0-9dc39065bbd5",
+  "targetType": "evidence"
+}

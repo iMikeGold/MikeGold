@@ -1,0 +1,19 @@
+{
+  "id": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "c0501fce-a01b-4cff-8c8c-defa6591a7c9",
+  "slug": "mikegold-engineer-system-development",
+  "title": "MikeGold.co.uk system development",
+  "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems"
+  ]
+}

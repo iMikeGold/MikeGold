@@ -1,0 +1,44 @@
+{
+  "id": "5990039c-2234-4524-a266-ef90e8339c75",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "process-lifecycle-engineer",
+  "slug": "process-lifecycle-engineer",
+  "name": "Process Lifecycle Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Defines start, run, pause, restart and shutdown rules.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "lifecycle",
+      "startup",
+      "shutdown"
+    ],
+    "meta": [
+      "state-control",
+      "integrity"
+    ]
+  },
+  "weight": {
+    "base": 0.87,
+    "experience": 0.83,
+    "rarity": 0.62
+  },
+  "details": {
+    "overview": "Specifies exactly how every process behaves through its whole life — how it initialises, what it does while running, how it handles pause or restart, and how it cleans up when stopping. Prevents orphaned processes or corrupted state. Ensures startup order is correct, dependencies are met and shutdown is graceful. Critical for systems that must never leave half‑written data or incomplete operations.",
+    "capabilities": [
+      "lifecycle definition",
+      "process sequencing",
+      "state management"
+    ],
+    "usedFor": [
+      "service management",
+      "controlled environments",
+      "data integrity systems"
+    ]
+  }
+}

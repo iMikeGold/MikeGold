@@ -1,0 +1,14 @@
+{
+  "id": "c7e9122a-cdf1-44b7-87ad-4cce884b1245",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-gouldbourne-management-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "cb821d9d-b965-4f52-b1e2-f53145cab3a4",
+  "targetType": "work",
+  "role": "primary"
+}

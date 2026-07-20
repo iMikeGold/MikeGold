@@ -1,0 +1,18 @@
+{
+  "id": "32f1b385-2f46-43a2-bbeb-fc6f9b92f8c1",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "0b514046-e1e3-4759-bbaa-05210339cef0",
+  "slug": "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+  "title": "Live sound-system design and installation",
+  "summary": "System preparation and live audio engineering for a festival performance environment.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "infrastructure-operations",
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "552a5d3f-6d74-4845-8945-087b1739c207",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "performance-systems-engineer",
+  "slug": "performance-systems-engineer",
+  "name": "Performance Systems Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Builds rigs stable under live pressure.",
+  "tags": {
+    "core": [
+      "live",
+      "stability",
+      "pressure"
+    ],
+    "adjacent": [],
+    "meta": [
+      "redundancy",
+      "robustness"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.86,
+    "rarity": 0.63
+  },
+  "details": {
+    "overview": "Designs systems specifically for live use — where there is no second chance. Builds redundancy, simple controls and robust connections so even if something goes wrong, the show continues. Tests every part under load and stress. Makes systems fast to set up, easy to operate and safe to change during performance.",
+    "capabilities": [
+      "live system build",
+      "redundancy design",
+      "pressure testing"
+    ],
+    "usedFor": [
+      "concerts",
+      "festivals",
+      "broadcast events"
+    ]
+  }
+}

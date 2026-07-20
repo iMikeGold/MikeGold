@@ -1,0 +1,13 @@
+{
+  "id": "e17f7998-9ab8-4528-a12d-5f63d39bf932",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "protosynthesis-system-development-evidenced-by-protosynthesis-documentation-pending",
+  "sourceId": "8cac21e5-1d29-4a50-822b-15660d1677e8",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "96f84671-7792-474c-ba89-6c79208bb2fd",
+  "targetType": "evidence"
+}

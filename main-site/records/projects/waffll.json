@@ -1,0 +1,14 @@
+{
+  "id": "a4f4c850-5454-4f09-8dd9-7320f7dadca2",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "waffll",
+  "name": "Waffll",
+  "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
+  "status": "design-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2023
+}

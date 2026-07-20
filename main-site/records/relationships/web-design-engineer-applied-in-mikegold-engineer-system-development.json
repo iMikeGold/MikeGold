@@ -1,0 +1,14 @@
+{
+  "id": "e3050efd-c2e0-45e5-982e-898cd7b627cd",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-mikegold-engineer-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
+  "targetType": "work",
+  "role": "primary"
+}

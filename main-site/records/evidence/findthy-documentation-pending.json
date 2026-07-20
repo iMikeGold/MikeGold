@@ -1,0 +1,13 @@
+{
+  "id": "d8bb3ad3-f440-4296-80fd-fd4cab21ec96",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "findthy-documentation-pending",
+  "title": "FindThy project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

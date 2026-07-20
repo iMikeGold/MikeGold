@@ -1,0 +1,14 @@
+{
+  "id": "03aa7812-9c92-4f65-8f69-cb2427b9e623",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "living-control-media-servers",
+  "name": "Living Control — Media Servers",
+  "summary": "Hardware prototyping and multimedia-distribution work associated with Living Control media-server systems.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Living Control / CEDIA"
+}

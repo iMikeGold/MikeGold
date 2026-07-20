@@ -1,0 +1,17 @@
+{
+  "id": "5861ca84-b49d-4a27-8e3a-99d90112343e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "five9-customer-story-systems-server-systems-and-configuration-video",
+  "title": "Five9 and Microsoft: Creating Memorable Stories",
+  "description": "Supporting video published by Five9.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=p2QKbXG02pw",
+  "thumbnailUrl": "https://i.ytimg.com/vi/p2QKbXG02pw/hqdefault.jpg",
+  "sourceTitle": "Five9 and Microsoft: Creating Memorable Stories",
+  "sourceAuthor": "Five9",
+  "placeholder": false
+}

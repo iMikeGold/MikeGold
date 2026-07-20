@@ -1,0 +1,56 @@
+{
+  "id": "adc33dc9-6af4-448b-9089-5c49f2f74b46",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "network-engineer",
+  "slug": "network-engineer",
+  "name": "Network-Aware Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Designing paths where data and signal travel without loss or delay.",
+  "tags": {
+    "core": [
+      "routing",
+      "latency",
+      "signal"
+    ],
+    "adjacent": [],
+    "meta": [
+      "transport",
+      "qos"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.65
+  },
+  "relationships": [
+    {
+      "targetId": "0eeebab0-0e91-42ab-b7db-c6d2c6bf2438",
+      "type": "supports",
+      "strength": 0.8
+    },
+    {
+      "targetId": "7f69aed3-3eb4-4291-ad4b-8b7423a639f2",
+      "type": "overlap",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Understand how network behaviour affects the application or signal above it. Plan routing, switching, bandwidth allocation and redundancy specifically to preserve timing and integrity — critical for audio, media or real-time control. Work with physical cabling, addressing schemes, QoS and failover logic. Ensuring that even under load or partial failure, delivery remains consistent and errors are contained.",
+    "capabilities": [
+      "signal path design",
+      "latency management",
+      "resilience planning"
+    ],
+    "usedFor": [
+      "media transport",
+      "live systems",
+      "distributed processing"
+    ]
+  }
+}

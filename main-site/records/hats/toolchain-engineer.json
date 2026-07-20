@@ -1,0 +1,44 @@
+{
+  "id": "22b78c06-29a2-49be-a081-4370405b608e",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "toolchain-engineer",
+  "slug": "toolchain-engineer",
+  "name": "Toolchain Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Selects and connects utilities into one coherent flow.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "tools",
+      "integration",
+      "workflow"
+    ],
+    "meta": [
+      "efficiency",
+      "unification"
+    ]
+  },
+  "weight": {
+    "base": 0.81,
+    "experience": 0.77,
+    "rarity": 0.54
+  },
+  "details": {
+    "overview": "Chooses the right tools for each job — editors, builders, testers, monitors — and connects them so they pass data automatically. Turns separate utilities into a single, smooth working environment. Ensures tools work together, share data and are easy to learn. A good toolchain makes work faster, more consistent and less frustrating.",
+    "capabilities": [
+      "tool selection",
+      "integration design",
+      "workflow unification"
+    ],
+    "usedFor": [
+      "development environments",
+      "production tooling",
+      "operational workflows"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "6e313672-d3c5-4f72-bac5-9e1c0be7c8bc",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "musical-intelligence-content-architecture",
+  "title": "Musical Intelligence content model",
+  "description": "Reserved for a confirmed content or application architecture diagram.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

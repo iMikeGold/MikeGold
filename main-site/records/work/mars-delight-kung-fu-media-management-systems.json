@@ -1,0 +1,17 @@
+{
+  "id": "da087821-1c3b-45cf-9e28-74d6e952c8ae",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "a77f48c0-439d-40b9-8c82-dfb680bdaf0f",
+  "slug": "mars-delight-kung-fu-media-management-systems",
+  "title": "Media management systems",
+  "summary": "Organisation and management of media within a creative production workflow.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "media-asset-systems"
+  ]
+}

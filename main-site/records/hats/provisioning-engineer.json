@@ -1,0 +1,44 @@
+{
+  "id": "fcab4d8d-0103-4b86-b2ab-7e967c50df31",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "provisioning-engineer",
+  "slug": "provisioning-engineer",
+  "name": "Provisioning Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Brings new resources online ready‑configured.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "provisioning",
+      "setup",
+      "deployment"
+    ],
+    "meta": [
+      "standardisation",
+      "scaling"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.81,
+    "rarity": 0.58
+  },
+  "details": {
+    "overview": "Automates the entire process of bringing new servers, devices or environments into service — from bare metal or empty instance to fully installed, configured, secured and ready to use. Ensures every new resource matches the standard exactly. Removes manual setup errors and makes scaling fast and safe.",
+    "capabilities": [
+      "automated setup",
+      "resource preparation",
+      "standard deployment"
+    ],
+    "usedFor": [
+      "scaling infrastructure",
+      "new environment creation",
+      "consistent builds"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b1dc475f-11c8-4df3-a169-f8dfddb9326e",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "viisiioiiv-system-development-evidenced-by-viisiioiiv-documentation-pending",
+  "sourceId": "4f8951e4-83af-429b-9e31-28bb94d9eb09",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "ed67a092-106c-4eb2-ae29-4a479bc6d1b1",
+  "targetType": "evidence"
+}

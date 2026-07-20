@@ -1,0 +1,44 @@
+{
+  "id": "a7ff6127-b9cf-4eb8-a90f-4950d40e03e1",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "human-error-reduction-engineer",
+  "slug": "human-error-reduction-engineer",
+  "name": "Human‑Error Reduction Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Designs workflows so mistakes are hard to make.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "safety",
+      "usability",
+      "error-prevention"
+    ],
+    "meta": [
+      "design",
+      "foolproof"
+    ]
+  },
+  "weight": {
+    "base": 0.89,
+    "experience": 0.85,
+    "rarity": 0.65
+  },
+  "details": {
+    "overview": "Analyzes every step where a human interacts with systems and designs it to be foolproof. Removes ambiguous choices, adds confirmation checks, colours danger zones and prevents irreversible actions without clear intent. Builds safety into the interface and process itself. Accepts that humans make mistakes, and designs systems that catch or prevent them before they cause harm.",
+    "capabilities": [
+      "error-proof design",
+      "workflow safety",
+      "usability engineering"
+    ],
+    "usedFor": [
+      "critical operations",
+      "control interfaces",
+      "maintenance procedures"
+    ]
+  }
+}

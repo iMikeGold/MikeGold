@@ -1,0 +1,18 @@
+{
+  "id": "f8603d6d-fd2f-482a-b8e7-252bf7f83db6",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "b0ea5db6-93ed-4720-a00d-eae9efe9fc38",
+  "slug": "bonsai-tree-of-life-system-development",
+  "title": "Bonsai Tree of Life system development",
+  "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations"
+  ]
+}

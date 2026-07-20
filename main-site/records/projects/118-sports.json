@@ -1,0 +1,14 @@
+{
+  "id": "3aef817d-23da-4ea0-8aed-f8d2e2913b4f",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "118-sports",
+  "name": "118 Sports",
+  "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
+  "status": "live",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2013
+}

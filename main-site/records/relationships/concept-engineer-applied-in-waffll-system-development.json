@@ -1,0 +1,14 @@
+{
+  "id": "93381eb4-ac7d-4382-a58f-fd57473de78c",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "concept-engineer-applied-in-waffll-system-development",
+  "sourceId": "a09d0de5-8ad7-484f-946c-006be14e77f6",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "targetType": "work",
+  "role": "primary"
+}

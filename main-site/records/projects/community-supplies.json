@@ -1,0 +1,14 @@
+{
+  "id": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "community-supplies",
+  "name": "Community Supplies",
+  "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+  "status": "live",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2017
+}

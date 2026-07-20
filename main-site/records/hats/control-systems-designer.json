@@ -1,0 +1,44 @@
+{
+  "id": "31b510a4-c587-4bc9-a02b-f0614e9db4b7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "control-systems-designer",
+  "slug": "control-systems-designer",
+  "name": "Control Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Orchestrates all elements from one place.",
+  "tags": {
+    "core": [
+      "control",
+      "automation",
+      "orchestration"
+    ],
+    "adjacent": [],
+    "meta": [
+      "timing",
+      "centralisation"
+    ]
+  },
+  "weight": {
+    "base": 0.91,
+    "experience": 0.87,
+    "rarity": 0.73
+  },
+  "details": {
+    "overview": "Builds the system that controls everything — sound, light, video, movement. Creates simple, clear interfaces or automated sequences so one action changes the whole environment. Ensures timing is perfect and commands are reliable. Control is the brain that makes the experience work as one.",
+    "capabilities": [
+      "orchestration design",
+      "control interface",
+      "timing engineering"
+    ],
+    "usedFor": [
+      "live shows",
+      "installations",
+      "complex venues"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dcdd2300-da63-4607-a3c1-97b86af2869f",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "living-control-media-servers-pcb-prototyping-and-design-video",
+  "title": "Living Control Studio6 & Studio3 Media Server (CEDIA Expo)",
+  "description": "Supporting video published by Cinenow UK.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=joaYOliIrG0",
+  "thumbnailUrl": "https://i.ytimg.com/vi/joaYOliIrG0/hqdefault.jpg",
+  "sourceTitle": "Living Control Studio6 & Studio3 Media Server (CEDIA Expo)",
+  "sourceAuthor": "Cinenow UK",
+  "placeholder": false
+}

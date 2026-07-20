@@ -1,0 +1,14 @@
+{
+  "id": "f30116de-35f4-4377-9c32-395b525a6a93",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-multiplied-intelligence-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "4bf21f76-4d69-433d-98cc-f58f6bb55741",
+  "targetType": "work",
+  "role": "primary"
+}

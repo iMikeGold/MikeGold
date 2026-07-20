@@ -1,0 +1,13 @@
+{
+  "id": "0f64ec9c-0bfb-4da2-a2e5-3a52fdcc0c44",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "waffll-documentation-pending",
+  "title": "Waffll project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

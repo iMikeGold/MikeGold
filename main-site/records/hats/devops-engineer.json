@@ -1,0 +1,44 @@
+{
+  "id": "c37c0b43-477b-4daa-af4d-d78a2bf42b85",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "devops-engineer",
+  "slug": "devops-engineer",
+  "name": "DevOps Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Aligns build, test and run cycles as one continuous path.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "devops",
+      "integration",
+      "delivery"
+    ],
+    "meta": [
+      "lifecycle",
+      "collaboration"
+    ]
+  },
+  "weight": {
+    "base": 0.92,
+    "experience": 0.88,
+    "rarity": 0.69
+  },
+  "details": {
+    "overview": "Connects development and operations so code moves smoothly from idea to live service. Builds culture and tooling where everyone owns the whole lifecycle. Removes walls between writing code and running it. Implements continuous integration, delivery and monitoring. Ensures changes are small, safe and reversible. Focuses on speed, quality and reliability together.",
+    "capabilities": [
+      "lifecycle integration",
+      "toolchain design",
+      "delivery optimisation"
+    ],
+    "usedFor": [
+      "agile delivery",
+      "frequent updates",
+      "collaborative environments"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e24244cc-b1c4-4cd8-ba51-04a2606464f7",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mars-delight-kung-fu-media-management-systems-video",
+  "title": "Mars Delight “Kung Fu” (Choreographer/Actor: Supple Nam)",
+  "description": "Supporting video published by Supple Nam.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=0WSuxDHcnf4",
+  "thumbnailUrl": "https://i.ytimg.com/vi/0WSuxDHcnf4/hqdefault.jpg",
+  "sourceTitle": "Mars Delight “Kung Fu” (Choreographer/Actor: Supple Nam)",
+  "sourceAuthor": "Supple Nam",
+  "placeholder": false
+}

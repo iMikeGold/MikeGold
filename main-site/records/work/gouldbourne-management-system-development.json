@@ -1,0 +1,18 @@
+{
+  "id": "cb821d9d-b965-4f52-b1e2-f53145cab3a4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "1c4c8463-915a-481a-81a7-56949b3d6caf",
+  "slug": "gouldbourne-management-system-development",
+  "title": "Gouldbourne Management system development",
+  "summary": "An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations"
+  ]
+}

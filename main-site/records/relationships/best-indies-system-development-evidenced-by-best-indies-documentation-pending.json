@@ -1,0 +1,13 @@
+{
+  "id": "cbb454b1-2ea6-467c-9d9b-1db7e84a7f9e",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "best-indies-system-development-evidenced-by-best-indies-documentation-pending",
+  "sourceId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c3f1a62e-6f0c-49d7-9531-030e7ec5dc95",
+  "targetType": "evidence"
+}

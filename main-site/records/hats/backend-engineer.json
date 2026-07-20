@@ -1,0 +1,56 @@
+{
+  "id": "af5b5c3a-d078-4edf-8958-a53e9dd760a0",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "backend-engineer",
+  "slug": "backend-engineer",
+  "name": "Backend Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Building the working logic that never appears on the front panel.",
+  "tags": {
+    "core": [
+      "core",
+      "logic",
+      "services"
+    ],
+    "adjacent": [],
+    "meta": [
+      "api",
+      "data"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "81fc1782-d2f1-4ae3-8896-7408e734b824",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "883829c7-11f1-4742-842f-86e916917294",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Construct the invisible engine — data processing, business rules, calculations, storage and communication between systems. Ensure that every action taken at the interface is handled reliably, securely and fast below. Design APIs, data flows and service interactions so the front end remains simple while the back handles complexity, scale and change. Everything is built to be monitored, updated and scaled independently.",
+    "capabilities": [
+      "service logic",
+      "api design",
+      "data processing"
+    ],
+    "usedFor": [
+      "application backends",
+      "media processing cores",
+      "control systems"
+    ]
+  }
+}

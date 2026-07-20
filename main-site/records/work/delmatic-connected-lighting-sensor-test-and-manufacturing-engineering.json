@@ -1,0 +1,16 @@
+{
+  "id": "c1a146ae-55a5-4646-9da7-cf6654ea7889",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "6e8e39fc-4ccd-43a5-85f6-f4f6af246dde",
+  "slug": "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering",
+  "title": "Sensor test and manufacturing engineering",
+  "summary": "Testing and production-oriented engineering around connected control-system hardware.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "physical-technical-engineering"
+  ]
+}

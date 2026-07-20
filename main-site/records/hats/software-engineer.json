@@ -1,0 +1,56 @@
+{
+  "id": "81fc1782-d2f1-4ae3-8896-7408e734b824",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "software-engineer",
+  "slug": "software-engineer",
+  "name": "Software Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Structuring logic and function into usable code form.",
+  "tags": {
+    "core": [
+      "code",
+      "logic",
+      "function"
+    ],
+    "adjacent": [],
+    "meta": [
+      "development",
+      "algorithms"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "af5b5c3a-d078-4edf-8958-a53e9dd760a0",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "26602599-453b-42b6-8904-55aec827f4e4",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Translate requirements into working software. Design clear, maintainable structures that do exactly what is intended, no more, no less. Focus on correctness, readability and efficiency. Work across languages and paradigms, always choosing the right tool for the job. Build components that are reusable, testable and integrate cleanly with other parts.",
+    "capabilities": [
+      "software design",
+      "coding",
+      "component building"
+    ],
+    "usedFor": [
+      "custom tools",
+      "control systems",
+      "processing logic"
+    ]
+  }
+}

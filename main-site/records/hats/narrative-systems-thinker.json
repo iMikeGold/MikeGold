@@ -1,0 +1,44 @@
+{
+  "id": "97d1abf2-f08d-42ab-89c3-a9dd90070134",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "narrative-systems-thinker",
+  "slug": "narrative-systems-thinker",
+  "name": "Narrative Systems Thinker",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Structures flow so meaning unfolds correctly.",
+  "tags": {
+    "core": [
+      "story",
+      "flow",
+      "meaning"
+    ],
+    "adjacent": [],
+    "meta": [
+      "structure",
+      "emotion"
+    ]
+  },
+  "weight": {
+    "base": 0.93,
+    "experience": 0.89,
+    "rarity": 0.78
+  },
+  "details": {
+    "overview": "Organises information, events or media into a sequence that guides understanding or emotion. Plans how elements appear, change or connect so the audience follows the intended path naturally. Works with timing, context and relationship between parts. Ensures the system itself tells the story, not just the content inside it.",
+    "capabilities": [
+      "flow architecture",
+      "story structure",
+      "meaning design"
+    ],
+    "usedFor": [
+      "interactive stories",
+      "guided experiences",
+      "educational environments"
+    ]
+  }
+}

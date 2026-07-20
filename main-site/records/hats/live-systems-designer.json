@@ -1,0 +1,44 @@
+{
+  "id": "cd3c2817-852d-48fb-9895-c17de5b6082b",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "live-systems-designer",
+  "slug": "live-systems-designer",
+  "name": "Live Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Optimises for fast change and reliability.",
+  "tags": {
+    "core": [
+      "speed",
+      "reliability",
+      "change"
+    ],
+    "adjacent": [],
+    "meta": [
+      "standardisation",
+      "efficiency"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.81,
+    "rarity": 0.59
+  },
+  "details": {
+    "overview": "Creates systems that handle rapid changes — different acts, different setups, different formats — without confusion or error. Standardises connections, settings and layouts so switching is quick and safe. Designs clear, labelled layouts and simple controls. Reliability and speed are equal priorities in live work.",
+    "capabilities": [
+      "fast-setup design",
+      "standardisation",
+      "change management"
+    ],
+    "usedFor": [
+      "touring systems",
+      "multi-act events",
+      "broadcast studios"
+    ]
+  }
+}

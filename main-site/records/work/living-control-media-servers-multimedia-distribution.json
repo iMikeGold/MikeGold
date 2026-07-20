@@ -1,0 +1,17 @@
+{
+  "id": "e6435532-bcba-47c7-b075-3fe9dda182d3",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "03aa7812-9c92-4f65-8f69-cb2427b9e623",
+  "slug": "living-control-media-servers-multimedia-distribution",
+  "title": "Multimedia distribution",
+  "summary": "Media distribution work supporting dual-output high-definition server delivery.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

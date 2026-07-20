@@ -1,0 +1,14 @@
+{
+  "id": "a30ec5ec-1b2a-4b38-9067-5238b35e59d6",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "just-enterprises",
+  "name": "Just Enterprises",
+  "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
+  "status": "design-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2009
+}

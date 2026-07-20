@@ -1,0 +1,44 @@
+{
+  "id": "9fcde69a-8bf3-4b88-b25a-4a123fee722b",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "repeatability-engineer",
+  "slug": "repeatability-engineer",
+  "name": "Repeatability Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Removes 'luck' from deployment or configuration.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "repeatability",
+      "consistency",
+      "standardisation"
+    ],
+    "meta": [
+      "quality",
+      "reproducibility"
+    ]
+  },
+  "weight": {
+    "base": 0.84,
+    "experience": 0.8,
+    "rarity": 0.57
+  },
+  "details": {
+    "overview": "Ensures that any process — build, deploy, configure, test — produces identical results every time, anywhere. Documents and controls every variable so there are no 'it works here' differences. Defines standards, tools and environments to eliminate variation. Repeatability is the foundation of quality and reliability.",
+    "capabilities": [
+      "process standardisation",
+      "consistency control",
+      "reproducible builds"
+    ],
+    "usedFor": [
+      "quality assurance",
+      "compliance",
+      "scaled production"
+    ]
+  }
+}

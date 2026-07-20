@@ -1,0 +1,16 @@
+{
+  "id": "6282865b-d9c1-40b4-9aaa-087efff0471d",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "645bca91-2018-4146-a3eb-780119ab68bd",
+  "slug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+  "title": "Field communications and telecom redundancy systems",
+  "summary": "Communications-path and redundancy engineering supporting live field operations.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "physical-technical-engineering"
+  ]
+}

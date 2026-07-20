@@ -1,0 +1,18 @@
+{
+  "id": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+  "slug": "cannvent-system-development",
+  "title": "Cannvent system development",
+  "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "brand-experience-systems"
+  ]
+}

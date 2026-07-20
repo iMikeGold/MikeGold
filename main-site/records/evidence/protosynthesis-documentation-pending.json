@@ -1,0 +1,13 @@
+{
+  "id": "96f84671-7792-474c-ba89-6c79208bb2fd",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "protosynthesis-documentation-pending",
+  "title": "ProtoSynthesis project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

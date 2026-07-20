@@ -3,10 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "hats:audit": "node scripts/audit-hat-system.mjs",
+    "hats:assign-uuids": "node scripts/assign-hat-uuids.mjs",
+    "records:generate": "node scripts/generate-record-indexes.mjs",
+    "records:seed-section-ten": "node scripts/seed-section-ten-projects.mjs",
+    "records:validate": "node scripts/validate-records.mjs",
+    "records:check": "npm run records:generate && npm run records:validate",
+    "predev": "npm run records:check",
+    "prebuild": "npm run records:check"
   },
   "dependencies": {
     "next": "^16.2.9",

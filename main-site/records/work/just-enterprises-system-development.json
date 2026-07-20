@@ -1,0 +1,19 @@
+{
+  "id": "1535828b-adc5-436b-9f78-f32951863c24",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "a30ec5ec-1b2a-4b38-9067-5238b35e59d6",
+  "slug": "just-enterprises-system-development",
+  "title": "Just Enterprises system development",
+  "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems"
+  ]
+}

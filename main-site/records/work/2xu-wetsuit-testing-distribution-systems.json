@@ -1,0 +1,17 @@
+{
+  "id": "2dc74fbb-c4c6-4679-86ef-a251ad4889c9",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "2a150fef-c978-40d1-8573-512e9a660e73",
+  "slug": "2xu-wetsuit-testing-distribution-systems",
+  "title": "Distribution systems",
+  "summary": "Engineering of reliable distribution paths supporting the test environment.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

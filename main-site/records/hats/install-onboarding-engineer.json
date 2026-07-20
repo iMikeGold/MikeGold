@@ -1,0 +1,44 @@
+{
+  "id": "46a49485-e026-42d5-99ab-e32c45adb1e7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "install-onboarding-engineer",
+  "slug": "install-onboarding-engineer",
+  "name": "Install & Onboarding Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Standardises set‑up so it works the same every time.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "installation",
+      "onboarding",
+      "setup"
+    ],
+    "meta": [
+      "adoption",
+      "consistency"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.76,
+    "rarity": 0.51
+  },
+  "details": {
+    "overview": "Designs and automates the installation and configuration process for software, hardware or systems. Ensures that every installation follows the same path, asks the same questions and produces the same result. Includes validation steps to confirm success. Makes onboarding new users or new sites fast, low‑effort and error‑free.",
+    "capabilities": [
+      "installation automation",
+      "onboarding workflow",
+      "setup validation"
+    ],
+    "usedFor": [
+      "software distribution",
+      "site rollouts",
+      "user onboarding"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "e7d9cd00-1f96-452a-96b4-9ea2e08f68ce",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "reliability-engineer",
+  "slug": "reliability-engineer",
+  "name": "Reliability Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Build resilience so failure becomes rare and contained.",
+  "tags": {
+    "core": [
+      "resilience",
+      "uptime",
+      "failure"
+    ],
+    "adjacent": [],
+    "meta": [
+      "fault-tolerance",
+      "recovery"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "827e24f0-89d7-4136-ae27-f6378780d01f",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "92c74744-c01a-4af0-91f4-235bf1f0bce5",
+      "type": "overlap",
+      "strength": 0.8
+    }
+  ],
+  "details": {
+    "overview": "Design systems that tolerate faults without total outage. Using redundancy, failover, graceful degradation and error containment to ensure that if one part fails, the rest continues or switches over automatically. Define acceptable risk and build to match. Test failure modes intentionally to prove recovery works. Focus on mean time between failures and mean time to repair, turning reliability into a measurable design target.",
+    "capabilities": [
+      "fault tolerance",
+      "redundancy design",
+      "recovery testing"
+    ],
+    "usedFor": [
+      "mission-critical systems",
+      "broadcast infrastructure",
+      "high-availability services"
+    ]
+  }
+}

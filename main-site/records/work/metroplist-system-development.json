@@ -1,0 +1,18 @@
+{
+  "id": "6647f03d-7218-4b46-86c2-51dd90093222",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "1a8ff3bb-b2aa-46cd-9ff6-44b1b174e784",
+  "slug": "metroplist-system-development",
+  "title": "Metroplist system development",
+  "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "brand-experience-systems"
+  ]
+}

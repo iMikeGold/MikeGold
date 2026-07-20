@@ -1,0 +1,14 @@
+{
+  "id": "5747ebc1-99c7-430b-a232-f2ade111dc5f",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "the-visionary-guide",
+  "name": "The Visionary Guide",
+  "summary": "An application product in development around product definition, user experience and structured content.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2024
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b099db9b-ed8b-4b2e-b306-87e59c9b68f6",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "asgi-service-runner-engineer",
+  "slug": "asgi-service-runner-engineer",
+  "name": "ASGI / Service Runner Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Configures modern async‑capable serving stacks.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "async",
+      "serving",
+      "concurrency"
+    ],
+    "meta": [
+      "responsiveness",
+      "scalability"
+    ]
+  },
+  "weight": {
+    "base": 0.86,
+    "experience": 0.82,
+    "rarity": 0.61
+  },
+  "details": {
+    "overview": "Sets up and tunes ASGI‑compliant servers and frameworks to handle many concurrent connections efficiently. Ideal for real‑time media, streaming or control interfaces where responsiveness matters. Configures workers, timeouts, SSL, routing and process management. Ensures high availability and smooth scaling under variable load.",
+    "capabilities": [
+      "asgi setup",
+      "async serving",
+      "concurrency tuning"
+    ],
+    "usedFor": [
+      "streaming services",
+      "real-time APIs",
+      "high-concurrency applications"
+    ]
+  }
+}

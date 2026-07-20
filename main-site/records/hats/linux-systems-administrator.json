@@ -1,0 +1,56 @@
+{
+  "id": "5799cb4e-ff8d-4f51-bfda-e02e47099fed",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "linux-systems-administrator",
+  "slug": "linux-systems-administrator",
+  "name": "Linux Systems Administrator",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Configure, secure and maintain Linux-based operating platforms.",
+  "tags": {
+    "core": [
+      "os",
+      "configuration",
+      "maintenance"
+    ],
+    "adjacent": [],
+    "meta": [
+      "unix",
+      "shell"
+    ]
+  },
+  "weight": {
+    "base": 0.75,
+    "experience": 0.8,
+    "rarity": 0.5
+  },
+  "relationships": [
+    {
+      "targetId": "0eeebab0-0e91-42ab-b7db-c6d2c6bf2438",
+      "type": "supports",
+      "strength": 0.75
+    },
+    {
+      "targetId": "827e24f0-89d7-4136-ae27-f6378780d01f",
+      "type": "overlap",
+      "strength": 0.8
+    }
+  ],
+  "details": {
+    "overview": "Manage the core operating system layer — installation, tuning, security hardening, updates and user management. Ensuring the OS itself is optimised for the specific workload it carries, whether compute-heavy, storage-heavy or real-time processing. Monitor health, logs and performance at kernel and service level. Troubleshoot from command line up, keeping systems running smoothly and securely without unnecessary overhead or risk.",
+    "capabilities": [
+      "system hardening",
+      "service management",
+      "performance tuning"
+    ],
+    "usedFor": [
+      "server maintenance",
+      "secure hosting",
+      "low-level optimisation"
+    ]
+  }
+}

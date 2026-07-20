@@ -1,0 +1,17 @@
+{
+  "id": "7ba47658-a92e-4e3f-ba0b-512cde56d0d6",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bristow-operational-excellence-electronics-systems-engineering-video",
+  "title": "Bristow Operational Excellence Video",
+  "description": "Supporting video published by Bristow Group.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=OanbAm_4KvM",
+  "thumbnailUrl": "https://i.ytimg.com/vi/OanbAm_4KvM/hqdefault.jpg",
+  "sourceTitle": "Bristow Operational Excellence Video",
+  "sourceAuthor": "Bristow Group",
+  "placeholder": false
+}

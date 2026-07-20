@@ -1,0 +1,44 @@
+{
+  "id": "cbe82e80-3bb6-4c85-b785-6c41ea0b7a49",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-archiving-engineer",
+  "slug": "media-archiving-engineer",
+  "name": "Media Archiving Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Preserves media safely for future use.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "archive",
+      "preservation",
+      "long-term"
+    ],
+    "meta": [
+      "safety",
+      "accessibility"
+    ]
+  },
+  "weight": {
+    "base": 0.79,
+    "experience": 0.75,
+    "rarity": 0.51
+  },
+  "details": {
+    "overview": "Designs systems to store media securely, reliably and accessibly over decades. Chooses formats, storage media and strategies that prevent loss or degradation. Organises and documents everything so it can be found and used easily in future. Preservation is as important as creation.",
+    "capabilities": [
+      "preservation strategy",
+      "long-term storage",
+      "archive organisation"
+    ],
+    "usedFor": [
+      "cultural archives",
+      "production libraries",
+      "historical records"
+    ]
+  }
+}

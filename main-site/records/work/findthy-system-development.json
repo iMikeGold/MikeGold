@@ -1,0 +1,18 @@
+{
+  "id": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "8d403895-ffa0-45e8-85c6-49ce8c65f5a6",
+  "slug": "findthy-system-development",
+  "title": "FindThy system development",
+  "summary": "Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "brand-experience-systems"
+  ]
+}

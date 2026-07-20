@@ -1,0 +1,16 @@
+{
+  "id": "87a453e0-b25d-4c5b-bca6-98a63b302fc3",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "9f429618-ce78-485f-9246-a534606f0299",
+  "slug": "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems",
+  "title": "Scientific equipment and test systems",
+  "summary": "Test-system work supporting repeatable small-scale flash-point measurement.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "physical-technical-engineering"
+  ]
+}

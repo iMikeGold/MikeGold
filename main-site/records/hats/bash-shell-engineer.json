@@ -1,0 +1,44 @@
+{
+  "id": "395a846f-2ce0-42ce-92bd-a9e89b8a9387",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "bash-shell-engineer",
+  "slug": "bash-shell-engineer",
+  "name": "Bash / Shell Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Works directly within core operating environment.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "shell",
+      "command-line",
+      "os"
+    ],
+    "meta": [
+      "low-level",
+      "portability"
+    ]
+  },
+  "weight": {
+    "base": 0.82,
+    "experience": 0.78,
+    "rarity": 0.55
+  },
+  "details": {
+    "overview": "Uses shell scripting and command‑line tools to control, configure and automate systems at the lowest level. Deep understanding of how the OS works, how processes interact and how to chain tools together. Builds robust, portable scripts that work across different Unix/Linux environments. Essential for systems where speed, direct control and minimal dependencies matter.",
+    "capabilities": [
+      "shell scripting",
+      "command-line automation",
+      "os-level control"
+    ],
+    "usedFor": [
+      "system maintenance",
+      "low-level automation",
+      "server administration"
+    ]
+  }
+}

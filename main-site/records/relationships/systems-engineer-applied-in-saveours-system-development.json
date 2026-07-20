@@ -1,0 +1,14 @@
+{
+  "id": "65e89622-842a-44e0-88b6-0a1548f0d448",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "systems-engineer-applied-in-saveours-system-development",
+  "sourceId": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "7a92c800-b5bc-4cb9-b06c-b6459a93e390",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3b5f6ca1-982f-4ef2-9168-9f6f55d75247",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
+  "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems",
+  "title": "Sound design and audio systems",
+  "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

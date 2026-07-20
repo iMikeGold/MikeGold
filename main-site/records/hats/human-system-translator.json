@@ -1,0 +1,56 @@
+{
+  "id": "31c8478c-0e17-44d4-9619-ce8868a0ae7b",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "human-system-translator",
+  "slug": "human-system-translator",
+  "name": "Human–System Translator",
+  "status": "published",
+  "category": "design",
+  "type": "interface",
+  "description": "Turning raw capability into understandable controls.",
+  "tags": {
+    "core": [
+      "translation",
+      "clarity",
+      "communication"
+    ],
+    "adjacent": [],
+    "meta": [
+      "language",
+      "accessibility"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.85,
+    "rarity": 0.85
+  },
+  "relationships": [
+    {
+      "targetId": "038b0057-aeca-4120-8986-04bfe273cab7",
+      "type": "overlap",
+      "strength": 0.9
+    },
+    {
+      "targetId": "26602599-453b-42b6-8904-55aec827f4e4",
+      "type": "supports",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Take powerful but complex technical functions and present them in language and form people understand. Remove jargon, simplify choices and explain what things do in plain words. Ensure the system speaks the user’s language, not the engineer’s. Power is kept, but confusion is removed.",
+    "capabilities": [
+      "language simplification",
+      "function presentation",
+      "clarity engineering"
+    ],
+    "usedFor": [
+      "professional tools",
+      "technical systems",
+      "control interfaces"
+    ]
+  }
+}

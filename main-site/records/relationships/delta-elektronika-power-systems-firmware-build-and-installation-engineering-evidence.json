@@ -1,0 +1,12 @@
+{
+  "id": "96e32557-c027-4d30-b051-3cb7d750039f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "sourceId": "3fad00eb-8255-4430-879a-220380098578",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "bb28ca51-e083-4023-91b2-eb467a61d9f6",
+  "targetType": "evidence"
+}

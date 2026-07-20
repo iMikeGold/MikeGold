@@ -1,0 +1,14 @@
+{
+  "id": "8144061d-0fe0-4787-a8fe-dec6761c2706",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-findthy-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "targetType": "work",
+  "role": "primary"
+}

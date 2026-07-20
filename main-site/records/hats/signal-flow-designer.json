@@ -1,0 +1,44 @@
+{
+  "id": "c4ebbc63-954b-408d-8230-3c23c5b3c0ad",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "signal-flow-designer",
+  "slug": "signal-flow-designer",
+  "name": "Signal Flow Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Maps every connection path to avoid ground‑loops or loss.",
+  "tags": {
+    "core": [
+      "routing",
+      "path",
+      "integrity"
+    ],
+    "adjacent": [],
+    "meta": [
+      "cleanliness",
+      "documentation"
+    ]
+  },
+  "weight": {
+    "base": 0.86,
+    "experience": 0.82,
+    "rarity": 0.57
+  },
+  "details": {
+    "overview": "Plans exactly how signals travel from input to output — every cable, connector, device and switch. Eliminates unnecessary stages, avoids interference paths and ensures ground‑loops or noise cannot enter. Documents every connection clearly. A clean flow is the foundation of clean sound, and makes troubleshooting or expansion simple later.",
+    "capabilities": [
+      "path mapping",
+      "noise elimination",
+      "integrity design"
+    ],
+    "usedFor": [
+      "studio builds",
+      "live rigs",
+      "permanent installations"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "43d841d7-4cc3-477d-a167-4a88965f557d",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "permissions-identity-engineer",
+  "slug": "permissions-identity-engineer",
+  "name": "Permissions & Identity Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Control exactly who and what is allowed access.",
+  "tags": {
+    "core": [
+      "access",
+      "security",
+      "identity"
+    ],
+    "adjacent": [],
+    "meta": [
+      "authentication",
+      "policy"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.75
+  },
+  "relationships": [
+    {
+      "targetId": "b2091363-ffe4-420d-872e-fad0eb0c6569",
+      "type": "overlap",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Design how users, services and devices prove who they are and what they are allowed to do. Create roles, groups and policies that follow least-privilege principles — only enough access to work, nothing more. Integrate authentication, single sign-on, multi-factor checks and audit logs. Ensure access is easy to manage but impossible to abuse or leak.",
+    "capabilities": [
+      "identity management",
+      "access policy",
+      "security auditing"
+    ],
+    "usedFor": [
+      "secure environments",
+      "multi-user systems",
+      "compliance requirements"
+    ]
+  }
+}

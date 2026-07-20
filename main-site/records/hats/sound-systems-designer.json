@@ -1,0 +1,44 @@
+{
+  "id": "1ad03cf2-e89f-4098-abdf-94e9aa649a49",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "sound-systems-designer",
+  "slug": "sound-systems-designer",
+  "name": "Sound Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Calculates coverage, power and response for spaces.",
+  "tags": {
+    "core": [
+      "acoustics",
+      "coverage",
+      "power"
+    ],
+    "adjacent": [],
+    "meta": [
+      "modelling",
+      "tuning"
+    ]
+  },
+  "weight": {
+    "base": 0.91,
+    "experience": 0.87,
+    "rarity": 0.69
+  },
+  "details": {
+    "overview": "Designs complete sound systems matched exactly to the room, audience and purpose. Calculates speaker placement, power requirements, frequency response and coverage to ensure everyone hears the same high quality. Works with room acoustics, reflection and absorption. Models performance before build, then tunes and measures to prove it works as designed.",
+    "capabilities": [
+      "system design",
+      "acoustic modelling",
+      "coverage planning"
+    ],
+    "usedFor": [
+      "venues",
+      "theatres",
+      "large events"
+    ]
+  }
+}

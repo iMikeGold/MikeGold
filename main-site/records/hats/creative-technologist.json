@@ -1,0 +1,44 @@
+{
+  "id": "451754a6-d5c8-4bc9-900f-bfc60b839283",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "creative-technologist",
+  "slug": "creative-technologist",
+  "name": "Creative Technologist",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Uses technical capability to serve clear purpose or feeling.",
+  "tags": {
+    "core": [
+      "tech",
+      "creativity",
+      "purpose"
+    ],
+    "adjacent": [],
+    "meta": [
+      "bridge",
+      "innovation"
+    ]
+  },
+  "weight": {
+    "base": 0.92,
+    "experience": 0.88,
+    "rarity": 0.7
+  },
+  "details": {
+    "overview": "Bridges technical engineering and creative expression — applying tools, code and systems to build experiences that communicate, engage or move people. Every technical choice is driven by what the work needs to achieve, not just what is possible. Works across disciplines to turn abstract ideas into working reality. Ensures technology disappears behind the experience, so the audience feels the intent rather than the mechanism.",
+    "capabilities": [
+      "tech-creative integration",
+      "concept realisation",
+      "experimental development"
+    ],
+    "usedFor": [
+      "installations",
+      "interactive media",
+      "artistic technology"
+    ]
+  }
+}

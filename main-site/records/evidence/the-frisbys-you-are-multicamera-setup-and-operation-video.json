@@ -1,0 +1,17 @@
+{
+  "id": "b075ffd9-91e5-4270-b5a5-d05578373ef8",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "the-frisbys-you-are-multicamera-setup-and-operation-video",
+  "title": "The Frisbys - You Are",
+  "description": "Supporting video published by Baltar Media.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=w9eP13qq_zA",
+  "thumbnailUrl": "https://i.ytimg.com/vi/w9eP13qq_zA/hqdefault.jpg",
+  "sourceTitle": "The Frisbys - You Are",
+  "sourceAuthor": "Baltar Media",
+  "placeholder": false
+}

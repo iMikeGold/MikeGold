@@ -1,0 +1,44 @@
+{
+  "id": "f1f79628-6314-4817-8df7-1b83d06b198c",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "debug-diagnostics-engineer",
+  "slug": "debug-diagnostics-engineer",
+  "name": "Debug & Diagnostics Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Builds visibility tools to locate issues quickly.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "debug",
+      "visibility",
+      "troubleshooting"
+    ],
+    "meta": [
+      "observability",
+      "root-cause-analysis"
+    ]
+  },
+  "weight": {
+    "base": 0.84,
+    "experience": 0.8,
+    "rarity": 0.58
+  },
+  "details": {
+    "overview": "Inserts logging, metrics, tracing and inspection points throughout code and systems so internal behaviour is visible. Designs diagnostic outputs that are detailed enough to find root cause but clear enough to read. Builds tools to replay issues, compare behaviour and isolate problems. Turns troubleshooting from guesswork into precise investigation.",
+    "capabilities": [
+      "diagnostic design",
+      "logging strategy",
+      "troubleshooting tools"
+    ],
+    "usedFor": [
+      "complex systems",
+      "long-term maintenance",
+      "high-reliability environments"
+    ]
+  }
+}

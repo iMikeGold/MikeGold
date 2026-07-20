@@ -1,0 +1,14 @@
+{
+  "id": "6f625a22-d02b-4043-969c-b135b3177736",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-findthy-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "targetType": "work",
+  "role": "primary"
+}

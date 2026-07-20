@@ -1,0 +1,14 @@
+{
+  "id": "b62b03b0-92a3-4695-b895-89570ddbae69",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "protosynthesis",
+  "name": "ProtoSynthesis",
+  "summary": "Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge.",
+  "status": "live",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2026
+}

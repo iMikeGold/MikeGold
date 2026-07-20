@@ -1,0 +1,44 @@
+{
+  "id": "20d148a5-6d24-4f06-9842-a2f7cf4c58fc",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "expression-systems-designer",
+  "slug": "expression-systems-designer",
+  "name": "Expression Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Builds frameworks for consistent character or tone.",
+  "tags": {
+    "core": [
+      "tone",
+      "character",
+      "framework"
+    ],
+    "adjacent": [],
+    "meta": [
+      "consistency",
+      "voice"
+    ]
+  },
+  "weight": {
+    "base": 0.91,
+    "experience": 0.87,
+    "rarity": 0.72
+  },
+  "details": {
+    "overview": "Creates rules and structures that ensure every output — sound, image, interaction — carries the same voice, mood or identity. Defines what fits and what does not, so the whole feels like one coherent work. Designs flexibility into the system so it can respond or evolve without breaking character. Used when expression must be consistent across many pieces or over time.",
+    "capabilities": [
+      "style framework design",
+      "consistency engineering",
+      "character definition"
+    ],
+    "usedFor": [
+      "branded experiences",
+      "series productions",
+      "long-form narratives"
+    ]
+  }
+}

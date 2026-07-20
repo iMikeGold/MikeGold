@@ -1,0 +1,13 @@
+{
+  "id": "ab88dfa9-1d34-441b-9e59-77a43eebc0c9",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "wibc-system-development-evidenced-by-wibc-documentation-pending",
+  "sourceId": "e01c59ad-6286-480b-a26d-be5ec3d36f1a",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d2f87aec-77d4-4ec9-b0bb-698ad10377b6",
+  "targetType": "evidence"
+}

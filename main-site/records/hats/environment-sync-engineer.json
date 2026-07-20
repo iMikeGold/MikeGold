@@ -1,0 +1,44 @@
+{
+  "id": "a8f4d2ae-2430-42a4-88aa-c2f39995c16d",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "environment-sync-engineer",
+  "slug": "environment-sync-engineer",
+  "name": "Environment Sync Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Keeps dev/test/live behaving identically.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "synchronisation",
+      "consistency",
+      "environments"
+    ],
+    "meta": [
+      "parity",
+      "safety"
+    ]
+  },
+  "weight": {
+    "base": 0.83,
+    "experience": 0.79,
+    "rarity": 0.56
+  },
+  "details": {
+    "overview": "Ensures development, testing, staging and production environments match exactly — same versions, same settings, same data structure. Prevents bugs that only appear in live because something was different. Automates sync of configuration, code and reference data. Makes promoting changes safe because they have already been proven in an identical environment.",
+    "capabilities": [
+      "environment alignment",
+      "configuration sync",
+      "data mirroring"
+    ],
+    "usedFor": [
+      "software development",
+      "quality control",
+      "safe deployment"
+    ]
+  }
+}

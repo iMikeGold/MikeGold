@@ -1,0 +1,51 @@
+{
+  "id": "26602599-453b-42b6-8904-55aec827f4e4",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "application-engineer",
+  "slug": "application-engineer",
+  "name": "Application Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Bridges software capabilities into usable applications.",
+  "tags": {
+    "core": [
+      "purpose",
+      "workflow",
+      "function"
+    ],
+    "adjacent": [],
+    "meta": [
+      "usability",
+      "integration"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.65
+  },
+  "relationships": [
+    {
+      "targetId": "81fc1782-d2f1-4ae3-8896-7408e734b824",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Turns raw software capability into structured application-level functionality.",
+    "capabilities": [
+      "application design",
+      "integration",
+      "workflow structuring"
+    ],
+    "usedFor": [
+      "end-user applications",
+      "system interfaces",
+      "tooling layers"
+    ]
+  }
+}

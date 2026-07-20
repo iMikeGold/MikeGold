@@ -1,0 +1,17 @@
+{
+  "id": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "471aa64b-b5bf-4ac1-b88b-ea9cc26d1ba2",
+  "slug": "best-indies-system-development",
+  "title": "Best Indies system development",
+  "summary": "Identity, content structure and web-experience direction for an independent-products project.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "brand-experience-systems",
+    "software-web-engineering"
+  ]
+}

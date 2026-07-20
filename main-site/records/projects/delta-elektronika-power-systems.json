@@ -1,0 +1,14 @@
+{
+  "id": "ab53983b-42fa-42da-b14f-b935672523b5",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "delta-elektronika-power-systems",
+  "name": "Delta Elektronika — Power Systems",
+  "summary": "Firmware, installation and deployment work associated with programmable high-power supply systems.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Delta Elektronika"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "e31508dc-ef69-489e-b0ff-b8233ee70123",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-community-supplies-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "targetType": "work",
+  "role": "primary"
+}

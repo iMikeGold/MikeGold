@@ -1,0 +1,13 @@
+{
+  "id": "9bb02278-af85-4123-83ab-d6e049736753",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "sourceId": "cd3c2817-852d-48fb-9895-c17de5b6082b",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "32f1b385-2f46-43a2-bbeb-fc6f9b92f8c1",
+  "targetType": "work",
+  "role": "supporting"
+}

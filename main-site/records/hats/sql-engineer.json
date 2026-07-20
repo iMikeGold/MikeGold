@@ -1,0 +1,44 @@
+{
+  "id": "245b1ad5-ffdf-4396-be5a-e01629543dd2",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "sql-engineer",
+  "slug": "sql-engineer",
+  "name": "SQL Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Writes precise queries and optimises access patterns.",
+  "tags": {
+    "core": [
+      "sql",
+      "queries",
+      "relational"
+    ],
+    "adjacent": [],
+    "meta": [
+      "precision",
+      "efficiency"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.86,
+    "rarity": 0.66
+  },
+  "details": {
+    "overview": "Uses SQL to interact with relational databases — creating structures, inserting, updating and retrieving data. Writes queries that return exactly what is needed, fast and without unnecessary load. Designs indexes, views and procedures to make access efficient and consistent. Ensures data integrity and correct relationships between tables.",
+    "capabilities": [
+      "sql development",
+      "query optimisation",
+      "relational design"
+    ],
+    "usedFor": [
+      "structured data",
+      "reporting",
+      "transactional systems"
+    ]
+  }
+}

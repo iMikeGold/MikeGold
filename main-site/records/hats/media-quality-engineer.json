@@ -1,0 +1,44 @@
+{
+  "id": "db517c5d-c7cb-46b8-b7fb-754cb4ce37ef",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-quality-engineer",
+  "slug": "media-quality-engineer",
+  "name": "Media Quality Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Ensures media meets defined quality standards.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "quality",
+      "testing",
+      "standards"
+    ],
+    "meta": [
+      "validation",
+      "improvement"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.76,
+    "rarity": 0.52
+  },
+  "details": {
+    "overview": "Defines what good quality means for each project — technical and creative. Builds tests, checks and measurements to ensure every piece meets or exceeds that standard. Catches errors early and guides improvement. Quality is not just checked at the end, it is built in from the start.",
+    "capabilities": [
+      "quality definition",
+      "testing design",
+      "improvement guidance"
+    ],
+    "usedFor": [
+      "broadcast",
+      "distribution",
+      "premium productions"
+    ]
+  }
+}

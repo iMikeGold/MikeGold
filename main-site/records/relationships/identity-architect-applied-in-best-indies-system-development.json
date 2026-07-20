@@ -1,0 +1,14 @@
+{
+  "id": "44c94712-fa71-4ae2-87ab-32391f319d80",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "identity-architect-applied-in-best-indies-system-development",
+  "sourceId": "daf2968c-e38b-4399-bcfb-75fee065c0b7",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
+  "slug": "community-supplies-system-development",
+  "title": "Community Supplies system development",
+  "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems"
+  ]
+}

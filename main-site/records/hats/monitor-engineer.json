@@ -1,0 +1,51 @@
+{
+  "id": "360d556a-9def-413e-b4a6-5beda6bd8d39",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "monitor-engineer",
+  "slug": "monitor-engineer",
+  "name": "Monitor Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Mixing sound for performers on stage.",
+  "tags": {
+    "core": [
+      "live",
+      "monitor",
+      "performer"
+    ],
+    "adjacent": [],
+    "meta": [
+      "stage",
+      "feedback"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "ccb74e24-c530-4857-bcdc-8aac0f8cd28d",
+      "type": "overlap",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Ensure every musician or singer hears exactly what they need to play well. Creating individual mixes for each performer, balancing instruments, vocals and click tracks, adjusting constantly during the show. Working with wedges, in‑ears or side fills. A good monitor mix gives performers confidence and freedom to perform at their best.",
+    "capabilities": [
+      "personal mixing",
+      "stage audio management",
+      "performer support"
+    ],
+    "usedFor": [
+      "live performances",
+      "rehearsals",
+      "broadcast shows"
+    ]
+  }
+}

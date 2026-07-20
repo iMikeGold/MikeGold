@@ -1,0 +1,13 @@
+{
+  "id": "b56e61db-dc3b-4ee8-938c-cf669cbc0d4f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "community-supplies-system-development-evidenced-by-community-supplies-documentation-pending",
+  "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "51275f9b-cdbf-48fc-847e-f6beb71b9629",
+  "targetType": "evidence"
+}

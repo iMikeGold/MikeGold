@@ -1,0 +1,51 @@
+{
+  "id": "11bf99c6-d7cb-4158-97b9-762c023edb9e",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "isolation-engineer",
+  "slug": "isolation-engineer",
+  "name": "Isolation Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Separation of workloads so issues never cascade sideways.",
+  "tags": {
+    "core": [
+      "separation",
+      "containment",
+      "safety"
+    ],
+    "adjacent": [],
+    "meta": [
+      "partitioning",
+      "multi-tenant"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.8,
+    "rarity": 0.8
+  },
+  "relationships": [
+    {
+      "targetId": "644e3162-b8d1-4551-bcc7-aba8700015de",
+      "type": "dependency",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Ensure that processes, data or tenants cannot interfere with each other. Using containers, virtualisation, dedicated hardware or network segmentation to keep them strictly apart. A fault or overload in one never affects another. Design isolation appropriate to risk — from soft separation for internal tools to complete physical separation for sensitive or high-value work. Safety is built into the layout.",
+    "capabilities": [
+      "workload separation",
+      "containment design",
+      "risk partitioning"
+    ],
+    "usedFor": [
+      "multi-tenant platforms",
+      "shared infrastructure",
+      "high-security processing"
+    ]
+  }
+}

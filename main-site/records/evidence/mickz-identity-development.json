@@ -1,0 +1,13 @@
+{
+  "id": "af70e092-8944-4ced-9a5e-47626150e6c7",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mickz-identity-development",
+  "title": "MiCKz identity development sequence",
+  "description": "Reserved for confirmed exploration, direction and refinement assets.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

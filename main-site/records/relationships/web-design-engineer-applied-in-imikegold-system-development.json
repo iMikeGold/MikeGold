@@ -1,0 +1,14 @@
+{
+  "id": "e29a691c-0d92-4df4-9d9c-bccbc33cac44",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-imikegold-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "5bfe7471-ce16-43d9-ba1a-e9218abf9d87",
+  "targetType": "work",
+  "role": "primary"
+}

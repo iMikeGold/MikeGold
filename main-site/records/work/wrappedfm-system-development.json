@@ -1,0 +1,20 @@
+{
+  "id": "6d8aeaf7-bdb5-4804-94bb-261339c044fc",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "d38e2bd3-63d8-4f8e-8ed1-8144927790a1",
+  "slug": "wrappedfm-system-development",
+  "title": "WrappedFM system development",
+  "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems",
+    "media-asset-systems"
+  ]
+}

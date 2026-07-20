@@ -1,0 +1,62 @@
+{
+  "id": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "systems-engineer",
+  "slug": "systems-engineer",
+  "name": "Systems Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Design and balance complete system environments.",
+  "tags": {
+    "core": [
+      "infrastructure",
+      "logic",
+      "reliability",
+      "systems"
+    ],
+    "adjacent": [],
+    "meta": [
+      "architecture",
+      "integration"
+    ]
+  },
+  "weight": {
+    "base": 0.95,
+    "experience": 0.9,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "0eeebab0-0e91-42ab-b7db-c6d2c6bf2438",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "6bc6b55c-8210-49d1-b10a-eeac35d05ebf",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "644e3162-b8d1-4551-bcc7-aba8700015de",
+      "type": "overlap",
+      "strength": 0.8
+    }
+  ],
+  "details": {
+    "overview": "Responsible for the design and coordination of full system environments. Focused on ensuring all components interact reliably under load, without breaking flow between subsystems.",
+    "capabilities": [
+      "system design",
+      "infrastructure planning",
+      "reliability engineering"
+    ],
+    "usedFor": [
+      "platform architecture",
+      "service stability",
+      "large-scale system coordination"
+    ]
+  }
+}

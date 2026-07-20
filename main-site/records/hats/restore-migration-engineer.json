@@ -1,0 +1,44 @@
+{
+  "id": "7147888e-d22d-4cff-ad76-f6dd60342427",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "restore-migration-engineer",
+  "slug": "restore-migration-engineer",
+  "name": "Restore & Migration Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Moves or reinstates systems with data integrity guaranteed.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "movement",
+      "integrity",
+      "transfer"
+    ],
+    "meta": [
+      "reliability",
+      "minimal-downtime"
+    ]
+  },
+  "weight": {
+    "base": 0.79,
+    "experience": 0.75,
+    "rarity": 0.54
+  },
+  "details": {
+    "overview": "Plans and executes moving systems or data between locations, platforms or versions without loss or corruption. Verifies every step, comparing source and destination to ensure exact match. Handles conversion or translation safely where formats differ. Minimises downtime, plans rollback paths and validates operation before switching over permanently. Ensures that after move or restore, everything functions exactly as before.",
+    "capabilities": [
+      "data migration",
+      "system transfer",
+      "integrity verification"
+    ],
+    "usedFor": [
+      "platform upgrades",
+      "location changes",
+      "recovery operations"
+    ]
+  }
+}

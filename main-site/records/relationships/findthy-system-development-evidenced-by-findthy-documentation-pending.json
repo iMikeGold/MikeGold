@@ -1,0 +1,13 @@
+{
+  "id": "8f7a6b3a-85cd-4e99-a50a-bb2515e0b712",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "findthy-system-development-evidenced-by-findthy-documentation-pending",
+  "sourceId": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d8bb3ad3-f440-4296-80fd-fd4cab21ec96",
+  "targetType": "evidence"
+}

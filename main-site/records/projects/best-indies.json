@@ -1,0 +1,14 @@
+{
+  "id": "471aa64b-b5bf-4ac1-b88b-ea9cc26d1ba2",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "best-indies",
+  "name": "Best Indies",
+  "summary": "Identity, content structure and web-experience direction for an independent-products project.",
+  "status": "design-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2023
+}

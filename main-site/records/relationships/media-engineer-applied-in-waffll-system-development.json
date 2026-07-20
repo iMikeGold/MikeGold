@@ -1,0 +1,14 @@
+{
+  "id": "cbc12026-b19f-4475-a620-8fd1c5959b3d",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "media-engineer-applied-in-waffll-system-development",
+  "sourceId": "4c90ba39-1520-4b75-bb03-ee178f9b093c",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "targetType": "work",
+  "role": "primary"
+}

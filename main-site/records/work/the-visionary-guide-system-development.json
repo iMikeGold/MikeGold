@@ -1,0 +1,17 @@
+{
+  "id": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "5747ebc1-99c7-430b-a232-f2ade111dc5f",
+  "slug": "the-visionary-guide-system-development",
+  "title": "The Visionary Guide system development",
+  "summary": "An application product in development around product definition, user experience and structured content.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering"
+  ]
+}

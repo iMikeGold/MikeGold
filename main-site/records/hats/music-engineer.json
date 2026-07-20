@@ -1,0 +1,44 @@
+{
+  "id": "28faac07-4420-482d-8df9-dc3eb9c803ad",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "music-engineer",
+  "slug": "music-engineer",
+  "name": "Music Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Tunes dynamics and space for artistic intent.",
+  "tags": {
+    "core": [
+      "music",
+      "dynamics",
+      "space"
+    ],
+    "adjacent": [],
+    "meta": [
+      "musicality",
+      "tone"
+    ]
+  },
+  "weight": {
+    "base": 0.93,
+    "experience": 0.89,
+    "rarity": 0.66
+  },
+  "details": {
+    "overview": "Specialised in working with music — understanding how instruments, voices and arrangements interact. Shapes tone, balance, depth and width to serve the performance, not just measure technical specs. Applies compression, EQ, reverb and other tools with musical judgement. Ensures the recording or performance feels natural, powerful and true to the artist’s vision.",
+    "capabilities": [
+      "music production",
+      "dynamic processing",
+      "spatial tuning"
+    ],
+    "usedFor": [
+      "album recording",
+      "concert sound",
+      "music media"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "a72f8686-ed3f-4dbe-b3c0-ae943a14f7a8",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "refactor-engineer",
+  "slug": "refactor-engineer",
+  "name": "Refactor Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Restructures existing code for clarity without breaking function.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "structure",
+      "maintenance",
+      "clarity"
+    ],
+    "meta": [
+      "clean-code",
+      "simplification"
+    ]
+  },
+  "weight": {
+    "base": 0.83,
+    "experience": 0.79,
+    "rarity": 0.56
+  },
+  "details": {
+    "overview": "Improves the internal design of working software — simplifying, organising, removing duplication, adding comments and tests — while keeping external behaviour exactly the same. Makes code easier to understand, change and extend later. Works incrementally, verifying every change. Turns messy or complex code into clean, logical structure that new developers can work with safely.",
+    "capabilities": [
+      "code improvement",
+      "structure simplification",
+      "maintenance optimisation"
+    ],
+    "usedFor": [
+      "legacy systems",
+      "long-term projects",
+      "team collaboration"
+    ]
+  }
+}

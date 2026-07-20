@@ -1,0 +1,17 @@
+{
+  "id": "bb28ca51-e083-4023-91b2-eb467a61d9f6",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "delta-elektronika-power-systems-firmware-build-and-installation-engineering-video",
+  "title": "Delta Elektronika Video",
+  "description": "Supporting video published by Delta Elektronika.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=Vhir8baUfkA",
+  "thumbnailUrl": "https://i.ytimg.com/vi/Vhir8baUfkA/hqdefault.jpg",
+  "sourceTitle": "Delta Elektronika Video",
+  "sourceAuthor": "Delta Elektronika",
+  "placeholder": false
+}

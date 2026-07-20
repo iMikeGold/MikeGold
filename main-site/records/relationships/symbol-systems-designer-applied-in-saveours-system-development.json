@@ -1,0 +1,14 @@
+{
+  "id": "ce0e6db8-49e0-4627-9779-fe237bdfd303",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "symbol-systems-designer-applied-in-saveours-system-development",
+  "sourceId": "02f55538-1a22-4430-a563-fefbb64bfe7e",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "7a92c800-b5bc-4cb9-b06c-b6459a93e390",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "5dc0a5d2-4112-498a-8c15-247e260097ac",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "just-enterprises-system-development-evidenced-by-just-enterprises-documentation-pending",
+  "sourceId": "1535828b-adc5-436b-9f78-f32951863c24",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "82fc4aa2-ea12-4201-9692-2f7963d8329e",
+  "targetType": "evidence"
+}

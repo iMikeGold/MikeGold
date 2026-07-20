@@ -1,0 +1,44 @@
+{
+  "id": "a088bfec-ada2-444c-ae17-88f8f412b7b8",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "format-standardisation-engineer",
+  "slug": "format-standardisation-engineer",
+  "name": "Format Standardisation Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Defines consistent formats for all media.",
+  "tags": {
+    "core": [
+      "formats",
+      "standards",
+      "compatibility"
+    ],
+    "adjacent": [],
+    "meta": [
+      "archiving",
+      "future-proofing"
+    ]
+  },
+  "weight": {
+    "base": 0.83,
+    "experience": 0.79,
+    "rarity": 0.53
+  },
+  "details": {
+    "overview": "Chooses and enforces file types, resolutions, frame rates, sample rates and metadata standards. Ensures every file works everywhere, archives safely and can be used in future. Removes confusion and compatibility issues. Standardisation is the foundation of reliable media management.",
+    "capabilities": [
+      "standard definition",
+      "compatibility design",
+      "format management"
+    ],
+    "usedFor": [
+      "large archives",
+      "multi-platform delivery",
+      "long-term storage"
+    ]
+  }
+}

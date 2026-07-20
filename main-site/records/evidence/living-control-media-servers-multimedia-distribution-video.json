@@ -1,0 +1,17 @@
+{
+  "id": "8a7efa45-1f3d-4455-bcf0-5ec06b5e6a2d",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "living-control-media-servers-multimedia-distribution-video",
+  "title": "Living Control Media Server with dual 1080p outputs",
+  "description": "Supporting video published by Cinenow UK.",
+  "evidenceType": "video",
+  "visibility": "public",
+  "externalUrl": "https://www.youtube.com/watch?v=e_YYiedWe8s",
+  "thumbnailUrl": "https://i.ytimg.com/vi/e_YYiedWe8s/hqdefault.jpg",
+  "sourceTitle": "Living Control Media Server with dual 1080p outputs",
+  "sourceAuthor": "Cinenow UK",
+  "placeholder": false
+}

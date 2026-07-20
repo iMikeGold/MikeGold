@@ -1,0 +1,44 @@
+{
+  "id": "4f7faefa-7355-400f-b870-715db2fea925",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-consultant",
+  "slug": "media-consultant",
+  "name": "Media Consultant",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Advises on best use of media and technology.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "advice",
+      "planning",
+      "strategy"
+    ],
+    "meta": [
+      "guidance",
+      "selection"
+    ]
+  },
+  "weight": {
+    "base": 0.78,
+    "experience": 0.74,
+    "rarity": 0.48
+  },
+  "details": {
+    "overview": "Brings experience to help plan projects — what technology to use, how to organise work, what quality to aim for. Helps avoid mistakes and choose the right path from the start. Translates technical possibilities into creative opportunities. Ensures investment delivers the intended result.",
+    "capabilities": [
+      "strategy advice",
+      "technology selection",
+      "quality planning"
+    ],
+    "usedFor": [
+      "project planning",
+      "system selection",
+      "creative direction"
+    ]
+  }
+}

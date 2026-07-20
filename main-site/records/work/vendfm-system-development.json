@@ -1,0 +1,19 @@
+{
+  "id": "092ae2fd-e716-4458-9f14-25b61d5405f7",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "686a6161-0755-4dba-a481-bd22c5529e48",
+  "slug": "vendfm-system-development",
+  "title": "VendFM system development",
+  "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "brand-experience-systems",
+    "media-asset-systems"
+  ]
+}

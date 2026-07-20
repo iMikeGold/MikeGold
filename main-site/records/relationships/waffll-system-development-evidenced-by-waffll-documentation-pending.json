@@ -1,0 +1,13 @@
+{
+  "id": "58488892-ad5d-4a09-bda0-18e3410e47df",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "waffll-system-development-evidenced-by-waffll-documentation-pending",
+  "sourceId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "0f64ec9c-0bfb-4da2-a2e5-3a52fdcc0c44",
+  "targetType": "evidence"
+}

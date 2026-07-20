@@ -1,0 +1,13 @@
+{
+  "id": "5d572918-6b5d-4944-b141-0ce46662a0b5",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "118-sports-system-development-evidenced-by-118-sports-documentation-pending",
+  "sourceId": "eb0a38d2-499d-46fd-8b4f-731901d17982",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5b81cc7b-ac8a-4174-a91e-3ce0affaa433",
+  "targetType": "evidence"
+}

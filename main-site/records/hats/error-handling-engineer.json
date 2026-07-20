@@ -1,0 +1,44 @@
+{
+  "id": "42f2a966-26e7-4801-855e-8454e58f4b68",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "error-handling-engineer",
+  "slug": "error-handling-engineer",
+  "name": "Error Handling Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Anticipates faults and defines clear, safe responses.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "errors",
+      "recovery",
+      "safety"
+    ],
+    "meta": [
+      "robustness",
+      "fault-tolerance"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.86,
+    "rarity": 0.67
+  },
+  "details": {
+    "overview": "Designs how every possible error — missing data, bad input, lost connection, hardware fault — is detected, logged and handled. Ensures errors never crash the whole system or produce dangerous output. Builds fallbacks, retries, defaults and clear messages. Turns unexpected events into predictable, safe behaviour that operators can understand and fix quickly.",
+    "capabilities": [
+      "fault detection",
+      "recovery logic",
+      "error reporting"
+    ],
+    "usedFor": [
+      "robust applications",
+      "live systems",
+      "unattended operation"
+    ]
+  }
+}

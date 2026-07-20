@@ -1,0 +1,14 @@
+{
+  "id": "094563bc-4754-4adb-ad29-cc0b546551ef",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "environment-architect-applied-in-just-enterprises-system-development",
+  "sourceId": "644e3162-b8d1-4551-bcc7-aba8700015de",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "1535828b-adc5-436b-9f78-f32951863c24",
+  "targetType": "work",
+  "role": "primary"
+}

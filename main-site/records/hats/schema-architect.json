@@ -1,0 +1,44 @@
+{
+  "id": "f617b8e9-091b-4ce7-8ab4-fa92e6789e08",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "schema-architect",
+  "slug": "schema-architect",
+  "name": "Schema Architect",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Defines exactly how information relates and connects.",
+  "tags": {
+    "core": [
+      "schema",
+      "structure",
+      "relationships"
+    ],
+    "adjacent": [],
+    "meta": [
+      "modelling",
+      "flexibility"
+    ]
+  },
+  "weight": {
+    "base": 0.94,
+    "experience": 0.9,
+    "rarity": 0.72
+  },
+  "details": {
+    "overview": "Plans the structure of data before storage — what fields exist, their types, how they link together, rules for what is allowed. Creates a blueprint that matches the real‑world meaning of the information. Ensures the schema is flexible enough to grow but strict enough to keep quality. Changes to schema are planned carefully to avoid breaking existing systems.",
+    "capabilities": [
+      "data modelling",
+      "schema design",
+      "relationship mapping"
+    ],
+    "usedFor": [
+      "new systems",
+      "data integration",
+      "long-term data management"
+    ]
+  }
+}

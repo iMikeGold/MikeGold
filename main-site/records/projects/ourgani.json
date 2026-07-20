@@ -1,0 +1,14 @@
+{
+  "id": "ae57dde2-aaa7-47be-9fa4-e8839d81fd1f",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "ourgani",
+  "name": "Ourgani",
+  "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
+  "status": "live",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2025
+}

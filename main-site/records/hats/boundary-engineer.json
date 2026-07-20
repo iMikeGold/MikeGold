@@ -1,0 +1,44 @@
+{
+  "id": "94acb731-d115-4d85-8ae8-b8bf3c0ca2ea",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "boundary-engineer",
+  "slug": "boundary-engineer",
+  "name": "Boundary Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Defines clean interfaces where different systems meet.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "interfaces",
+      "integration",
+      "separation"
+    ],
+    "meta": [
+      "decoupling",
+      "contracts"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.86,
+    "rarity": 0.66
+  },
+  "details": {
+    "overview": "Decides exactly how two systems, components or code modules talk to each other. Creates clear, documented contracts — what data is sent, what format, what happens if it changes. Keeps internals private while making connections safe and simple. Ensures that changing one side does not break the other. Reduces coupling so parts can evolve independently without risk.",
+    "capabilities": [
+      "interface design",
+      "contract definition",
+      "integration management"
+    ],
+    "usedFor": [
+      "modular systems",
+      "third-party integration",
+      "distributed architectures"
+    ]
+  }
+}

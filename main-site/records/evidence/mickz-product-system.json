@@ -1,0 +1,13 @@
+{
+  "id": "e0df3b12-dadf-484e-b5cd-a1b38de00fff",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mickz-product-system",
+  "title": "MiCKz food and drinks applications",
+  "description": "Reserved for confirmed product-family, packaging and mock-up assets.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

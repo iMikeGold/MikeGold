@@ -1,0 +1,14 @@
+{
+  "id": "afd4b185-8307-4f02-ba73-40855afe5b20",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-wibc-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "e01c59ad-6286-480b-a26d-be5ec3d36f1a",
+  "targetType": "work",
+  "role": "primary"
+}

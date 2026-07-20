@@ -1,0 +1,14 @@
+{
+  "id": "2dcc9673-7291-44fe-b66f-6d0efebbe4d0",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-cannvent-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "targetType": "work",
+  "role": "primary"
+}

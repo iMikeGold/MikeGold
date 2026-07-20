@@ -1,0 +1,14 @@
+{
+  "id": "9cddec91-e92c-4837-a8f2-67603b39a049",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "deployment-engineer-applied-in-community-supplies-system-development",
+  "sourceId": "522ee4f4-e139-490d-a5c1-6cc6dec64df7",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "23af8f89-fc57-476f-b696-226b2cde337a",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "house-of-gold-documentation-pending",
+  "title": "House of Gold project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

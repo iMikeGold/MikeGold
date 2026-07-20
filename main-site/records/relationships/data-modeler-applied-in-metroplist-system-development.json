@@ -1,0 +1,14 @@
+{
+  "id": "8b6889e0-4aae-4459-8677-7791bfc28801",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-metroplist-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "6647f03d-7218-4b46-86c2-51dd90093222",
+  "targetType": "work",
+  "role": "primary"
+}

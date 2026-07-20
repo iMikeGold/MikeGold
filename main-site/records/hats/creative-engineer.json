@@ -1,0 +1,44 @@
+{
+  "id": "8e7a48f7-a9d7-4502-b296-aa75be7a0777",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "creative-engineer",
+  "slug": "creative-engineer",
+  "name": "Creative Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Turns concept into working, repeatable environment.",
+  "tags": {
+    "core": [
+      "build",
+      "concept",
+      "environment"
+    ],
+    "adjacent": [],
+    "meta": [
+      "reliability",
+      "vision"
+    ]
+  },
+  "weight": {
+    "base": 0.94,
+    "experience": 0.9,
+    "rarity": 0.75
+  },
+  "details": {
+    "overview": "Designs and builds complete systems that deliver a specific creative result — whether a performance rig, exhibition space or production workflow. Balances vision with engineering discipline so the result is both powerful and reliable. Defines rules, behaviours and limits that keep the creative outcome consistent while allowing room for variation. Makes the complex feel intentional and controlled.",
+    "capabilities": [
+      "system design for creativity",
+      "concept engineering",
+      "environment build"
+    ],
+    "usedFor": [
+      "live productions",
+      "exhibitions",
+      "custom creative tools"
+    ]
+  }
+}

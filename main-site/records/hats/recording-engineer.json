@@ -1,0 +1,56 @@
+{
+  "id": "270ef515-d981-48ad-bf97-76f64bf4f0d1",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "recording-engineer",
+  "slug": "recording-engineer",
+  "name": "Recording Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Capturing sound with maximum fidelity and detail.",
+  "tags": {
+    "core": [
+      "recording",
+      "capture",
+      "quality"
+    ],
+    "adjacent": [],
+    "meta": [
+      "fidelity",
+      "archiving"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.65
+  },
+  "relationships": [
+    {
+      "targetId": "d60b7fcd-2a34-448c-8d2c-348746b468c1",
+      "type": "overlap",
+      "strength": 0.75
+    },
+    {
+      "targetId": "894cab26-e1c9-4ea5-b766-7d92c6c69156",
+      "type": "dependency",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Specialised in the art and science of capturing sound — choosing the right equipment and formats to preserve every nuance. Focused on getting it right at source, because what is lost at capture can never be fully restored. Controlling environments, levels and signal path to ensure the recording is clean, detailed and true.",
+    "capabilities": [
+      "microphone technique",
+      "signal capture",
+      "quality control"
+    ],
+    "usedFor": [
+      "studio recording",
+      "location capture",
+      "archival recording"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "7db8ce68-c3ce-4fd6-ad72-1e8945a6a4b2",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "ae57dde2-aaa7-47be-9fa4-e8839d81fd1f",
+  "slug": "ourgani-system-development",
+  "title": "Ourgani system development",
+  "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "brand-experience-systems",
+    "software-web-engineering",
+    "infrastructure-operations"
+  ]
+}

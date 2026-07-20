@@ -1,0 +1,44 @@
+{
+  "id": "cca167d5-bc67-4b10-95cb-72da7b3fe683",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "backup-snapshot-engineer",
+  "slug": "backup-snapshot-engineer",
+  "name": "Backup & Snapshot Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Captures valid, restorable states at every necessary level.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "protection",
+      "history",
+      "restore"
+    ],
+    "meta": [
+      "safety",
+      "retention"
+    ]
+  },
+  "weight": {
+    "base": 0.76,
+    "experience": 0.72,
+    "rarity": 0.49
+  },
+  "details": {
+    "overview": "Designs how and when system state and data are saved — full backups, incremental changes, point-in-time snapshots. Ensures copies are consistent, secure, off-site and verifiable, so nothing is lost due to accident or corruption. Defines retention policies and rotation schedules, balancing storage cost against recovery needs. Tests restores regularly to prove that what is saved can actually be recovered completely.",
+    "capabilities": [
+      "backup strategy",
+      "snapshot management",
+      "data protection"
+    ],
+    "usedFor": [
+      "data security",
+      "version rollback",
+      "disaster recovery"
+    ]
+  }
+}

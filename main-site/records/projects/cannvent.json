@@ -1,0 +1,14 @@
+{
+  "id": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "cannvent",
+  "name": "Cannvent",
+  "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+  "status": "awaiting-implementation",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2025
+}

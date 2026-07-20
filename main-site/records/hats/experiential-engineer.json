@@ -1,0 +1,44 @@
+{
+  "id": "7b08ddbb-b34e-4496-9045-dcfca947cade",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "experiential-engineer",
+  "slug": "experiential-engineer",
+  "name": "Experiential Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Combines sound, light and control into unified effect.",
+  "tags": {
+    "core": [
+      "sensory",
+      "environment",
+      "unified"
+    ],
+    "adjacent": [],
+    "meta": [
+      "integration",
+      "coordination"
+    ]
+  },
+  "weight": {
+    "base": 0.92,
+    "experience": 0.88,
+    "rarity": 0.74
+  },
+  "details": {
+    "overview": "Designs complete environments where every element — sound, light, movement, touch — works together to create a specific feeling or effect. Ensures timing, intensity and behaviour are perfectly coordinated. Builds the control systems that link everything, so one command changes the whole experience. The audience perceives it as one thing, not separate parts.",
+    "capabilities": [
+      "multi-domain integration",
+      "coordination design",
+      "sensory engineering"
+    ],
+    "usedFor": [
+      "immersive spaces",
+      "theme parks",
+      "art installations"
+    ]
+  }
+}

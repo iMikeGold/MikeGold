@@ -1,0 +1,56 @@
+{
+  "id": "daf2968c-e38b-4399-bcfb-75fee065c0b7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "identity-architect",
+  "slug": "identity-architect",
+  "name": "Identity Architect",
+  "status": "published",
+  "category": "design",
+  "type": "visual",
+  "description": "Defining the base language of visual identity.",
+  "tags": {
+    "core": [
+      "identity",
+      "language",
+      "foundation"
+    ],
+    "adjacent": [],
+    "meta": [
+      "strategy",
+      "meaning"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.9,
+    "rarity": 0.8
+  },
+  "relationships": [
+    {
+      "targetId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "7c68be63-b2a3-4844-8976-8a0197908bd6",
+      "type": "dependency",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Create the core building blocks — logo, colour palette, typefaces, shapes — and decide exactly how they relate to each other. Establish the character and tone that everything else must follow. Work from the core purpose or message outward. Every choice is intentional and carries meaning, so the identity becomes a clear communication tool.",
+    "capabilities": [
+      "core identity design",
+      "visual language definition",
+      "character alignment"
+    ],
+    "usedFor": [
+      "new brand creation",
+      "identity refresh",
+      "organisation identity"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "6ef38790-53e1-41e1-a356-c487b122d7bd",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "cannvent-system-development-evidenced-by-cannvent-documentation-pending",
+  "sourceId": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1e836a07-a46f-4bd1-8d9e-7a5b7c2861b7",
+  "targetType": "evidence"
+}

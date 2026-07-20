@@ -1,0 +1,44 @@
+{
+  "id": "092b158b-c3ac-42fa-8265-5c1a3fbbd210",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "projection-systems-engineer",
+  "slug": "projection-systems-engineer",
+  "name": "Projection Systems Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Projects images onto any surface accurately.",
+  "tags": {
+    "core": [
+      "projection",
+      "mapping",
+      "visual"
+    ],
+    "adjacent": [],
+    "meta": [
+      "geometry",
+      "brightness"
+    ]
+  },
+  "weight": {
+    "base": 0.89,
+    "experience": 0.85,
+    "rarity": 0.67
+  },
+  "details": {
+    "overview": "Designs projection systems that fit perfectly onto buildings, stages or objects. Corrects for shape, angle and distance so the image looks correct and bright everywhere. Integrates media players, warping, blending and control. Projection turns any surface into a display.",
+    "capabilities": [
+      "projection mapping",
+      "geometry correction",
+      "brightness optimisation"
+    ],
+    "usedFor": [
+      "building projections",
+      "stage backdrops",
+      "exhibitions"
+    ]
+  }
+}

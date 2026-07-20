@@ -1,0 +1,44 @@
+{
+  "id": "97e25456-27b2-4f3a-9e19-1f857e5fa936",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "legacy-aware-engineer",
+  "slug": "legacy-aware-engineer",
+  "name": "Legacy-Aware Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Works alongside older systems until safe replacement.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "legacy",
+      "compatibility",
+      "integration"
+    ],
+    "meta": [
+      "migration",
+      "interoperability"
+    ]
+  },
+  "weight": {
+    "base": 0.88,
+    "experience": 0.84,
+    "rarity": 0.63
+  },
+  "details": {
+    "overview": "Understands how to integrate with or maintain older software, hardware or formats that cannot be replaced immediately. Preserves compatibility while adding new features or safety improvements. Plans migration paths so change happens gradually and without disruption. Ensures that old and new systems understand each other and data remains accessible.",
+    "capabilities": [
+      "compatibility engineering",
+      "legacy integration",
+      "migration planning"
+    ],
+    "usedFor": [
+      "system upgrades",
+      "historical data access",
+      "mixed environments"
+    ]
+  }
+}

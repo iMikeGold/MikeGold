@@ -1,0 +1,61 @@
+{
+  "id": "894cab26-e1c9-4ea5-b766-7d92c6c69156",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "mix-engineer",
+  "slug": "mix-engineer",
+  "name": "Mix Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Blending multiple sources into one cohesive whole.",
+  "tags": {
+    "core": [
+      "mixing",
+      "balance",
+      "blend"
+    ],
+    "adjacent": [],
+    "meta": [
+      "spatial",
+      "processing"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "270ef515-d981-48ad-bf97-76f64bf4f0d1",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "644f5254-117b-45fc-8862-d8494216df67",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "ccb74e24-c530-4857-bcdc-8aac0f8cd28d",
+      "type": "overlap",
+      "strength": 0.7
+    }
+  ],
+  "details": {
+    "overview": "Take individual tracks or signals and balance their levels, frequencies, dynamics and position to create a clear, powerful and enjoyable result. Ensuring every element is heard and nothing is lost or overpowering. Using processing tools, spatial effects and automation to shape the sound. The mix is where the separate elements become one.",
+    "capabilities": [
+      "level balancing",
+      "frequency management",
+      "spatial mixing"
+    ],
+    "usedFor": [
+      "music production",
+      "post-production",
+      "live mixes"
+    ]
+  }
+}

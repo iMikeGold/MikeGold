@@ -1,0 +1,14 @@
+{
+  "id": "1c4c8463-915a-481a-81a7-56949b3d6caf",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "gouldbourne-management",
+  "name": "Gouldbourne Management",
+  "summary": "An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
+  "status": "live",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 1987
+}

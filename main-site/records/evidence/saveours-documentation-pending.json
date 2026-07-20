@@ -1,0 +1,13 @@
+{
+  "id": "9e8e7926-0e88-4ca3-ac61-b6929d2b9b8a",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "saveours-documentation-pending",
+  "title": "SaveOurs project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ab736362-b62d-45f2-9648-6d00bb63429f",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "imikegold",
+  "name": "iMikeGold.com",
+  "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
+  "status": "live",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2010
+}

@@ -1,0 +1,14 @@
+{
+  "id": "43e6a86a-bf4d-4223-9196-bbce298af792",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bjorr",
+  "name": "Bjórr",
+  "summary": "A reserved product and brand concept with early naming and domain strategy.",
+  "status": "reserved-concept",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2025
+}

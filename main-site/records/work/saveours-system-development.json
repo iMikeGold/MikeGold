@@ -1,0 +1,19 @@
+{
+  "id": "7a92c800-b5bc-4cb9-b06c-b6459a93e390",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
+  "slug": "saveours-system-development",
+  "title": "SaveOurs system development",
+  "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "brand-experience-systems",
+    "media-asset-systems"
+  ]
+}

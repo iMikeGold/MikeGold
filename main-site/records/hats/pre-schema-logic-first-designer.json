@@ -1,0 +1,44 @@
+{
+  "id": "f25435d4-5b07-4a4a-a166-d0ab24429ade",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "pre-schema-logic-first-designer",
+  "slug": "pre-schema-logic-first-designer",
+  "name": "Pre‑Schema / Logic‑First Designer",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Plans relationships before writing storage rules.",
+  "tags": {
+    "core": [
+      "logic",
+      "planning",
+      "structure"
+    ],
+    "adjacent": [],
+    "meta": [
+      "conceptual",
+      "domain-driven"
+    ]
+  },
+  "weight": {
+    "base": 0.95,
+    "experience": 0.91,
+    "rarity": 0.75
+  },
+  "details": {
+    "overview": "Working out what information means and how it connects before deciding how to store it. Focusing on business or system logic first, then builds storage to match. Prevents structures that force data to fit the tool rather than the purpose. Ensures the model is correct and complete. Storage is just the implementation of that logic.",
+    "capabilities": [
+      "logic modelling",
+      "conceptual design",
+      "data planning"
+    ],
+    "usedFor": [
+      "complex systems",
+      "new data models",
+      "domain understanding"
+    ]
+  }
+}

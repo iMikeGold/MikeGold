@@ -1,0 +1,14 @@
+{
+  "id": "e0ede2d4-8152-4916-8956-6d13c1118d59",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-best-indies-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "targetType": "work",
+  "role": "primary"
+}

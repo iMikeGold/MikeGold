@@ -1,0 +1,14 @@
+{
+  "id": "cb1b9dac-fec6-4138-9cf3-74eadcbdaae5",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "meaning-architect-applied-in-findthy-system-development",
+  "sourceId": "b9a05ea5-2ab8-47c9-bd83-0a61fc2d7f0c",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "targetType": "work",
+  "role": "primary"
+}

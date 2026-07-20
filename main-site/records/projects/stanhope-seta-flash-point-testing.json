@@ -1,0 +1,14 @@
+{
+  "id": "9f429618-ce78-485f-9246-a534606f0299",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "stanhope-seta-flash-point-testing",
+  "name": "Stanhope-Seta — Flash Point Testing",
+  "summary": "Scientific-equipment and test-system engineering associated with Setaflash testing.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Stanhope-Seta"
+}

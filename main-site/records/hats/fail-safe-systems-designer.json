@@ -1,0 +1,51 @@
+{
+  "id": "92c74744-c01a-4af0-91f4-235bf1f0bce5",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "fail-safe-systems-designer",
+  "slug": "fail-safe-systems-designer",
+  "name": "Fail-Safe Systems Designer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Arranging behaviour so if anything shifts, it defaults safely.",
+  "tags": {
+    "core": [
+      "safety",
+      "default",
+      "behaviour"
+    ],
+    "adjacent": [],
+    "meta": [
+      "reliability",
+      "faults"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.85,
+    "rarity": 0.85
+  },
+  "relationships": [
+    {
+      "targetId": "e7d9cd00-1f96-452a-96b4-9ea2e08f68ce",
+      "type": "overlap",
+      "strength": 0.8
+    }
+  ],
+  "details": {
+    "overview": "Ensure that when power is lost, signals drop, or controls fail, the system moves automatically to a safe state — not a dangerous or unpredictable one. Every possible failure mode is analysed and designed for. Use hardware interlocks, fallback logic and passive safety where possible. Safety is not an add-on feature but the fundamental way the system behaves when not actively controlled.",
+    "capabilities": [
+      "safety logic design",
+      "failure mode analysis",
+      "default-state engineering"
+    ],
+    "usedFor": [
+      "live environments",
+      "audio systems",
+      "physical control systems"
+    ]
+  }
+}

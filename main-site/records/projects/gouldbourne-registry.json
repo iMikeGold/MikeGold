@@ -1,0 +1,14 @@
+{
+  "id": "bf7485d9-2ae1-45fb-8ee7-75d3641071d8",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "gouldbourne-registry",
+  "name": "Gouldbourne Registry",
+  "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
+  "status": "live",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2007
+}

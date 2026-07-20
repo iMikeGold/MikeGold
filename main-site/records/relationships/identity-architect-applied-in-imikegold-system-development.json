@@ -1,0 +1,14 @@
+{
+  "id": "231fa4fc-4e57-4ea5-aa02-e6e685b01dd3",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "identity-architect-applied-in-imikegold-system-development",
+  "sourceId": "daf2968c-e38b-4399-bcfb-75fee065c0b7",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "5bfe7471-ce16-43d9-ba1a-e9218abf9d87",
+  "targetType": "work",
+  "role": "primary"
+}

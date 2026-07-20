@@ -1,0 +1,44 @@
+{
+  "id": "fbf1d10d-7e31-40e8-b1f7-03c6f423eda0",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "python-engineer",
+  "slug": "python-engineer",
+  "name": "Python Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Implements automation, processing and control logic in standardised form.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "python",
+      "automation",
+      "processing"
+    ],
+    "meta": [
+      "versatility",
+      "ecosystem"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.81,
+    "rarity": 0.59
+  },
+  "details": {
+    "overview": "Uses Python as a primary tool for everything from small scripts to large systems. Builds reusable libraries, automation flows, data processors and control interfaces, always following clear, maintainable patterns. Leverages the ecosystem for media, signal processing, hardware control and web services. Ensures code is portable, documented and easy to extend or integrate.",
+    "capabilities": [
+      "python development",
+      "scripting",
+      "library design"
+    ],
+    "usedFor": [
+      "automation tools",
+      "data processing",
+      "system control"
+    ]
+  }
+}

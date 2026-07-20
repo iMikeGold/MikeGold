@@ -1,0 +1,44 @@
+{
+  "id": "7f37a926-7e04-4f37-9751-bf1bcefbebcb",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "creative-project-engineer",
+  "slug": "creative-project-engineer",
+  "name": "Creative Project Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Coordinates delivery of creative‑technical projects.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "project",
+      "delivery",
+      "coordination"
+    ],
+    "meta": [
+      "planning",
+      "problem-solving"
+    ]
+  },
+  "weight": {
+    "base": 0.82,
+    "experience": 0.78,
+    "rarity": 0.5
+  },
+  "details": {
+    "overview": "Manages the overlap between creative vision and technical build. Ensures everyone understands what is needed, work proceeds smoothly and the result matches the intent. Solves problems quickly and keeps quality high. Makes sure creative ideas are delivered safely, on time and on budget.",
+    "capabilities": [
+      "coordination",
+      "problem solving",
+      "delivery management"
+    ],
+    "usedFor": [
+      "productions",
+      "installations",
+      "complex builds"
+    ]
+  }
+}

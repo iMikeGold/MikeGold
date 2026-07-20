@@ -1,0 +1,56 @@
+{
+  "id": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "web-design-engineer",
+  "slug": "web-design-engineer",
+  "name": "Web Design Engineer",
+  "status": "published",
+  "category": "design",
+  "type": "web",
+  "description": "Code presentations that work everywhere.",
+  "tags": {
+    "core": [
+      "web",
+      "implementation",
+      "code"
+    ],
+    "adjacent": [],
+    "meta": [
+      "frontend",
+      "responsive"
+    ]
+  },
+  "weight": {
+    "base": 0.75,
+    "experience": 0.8,
+    "rarity": 0.5
+  },
+  "relationships": [
+    {
+      "targetId": "c1aa85db-c3ba-4a54-831c-d002f9e6e9e8",
+      "type": "supports",
+      "strength": 0.75
+    },
+    {
+      "targetId": "81fc1782-d2f1-4ae3-8896-7408e734b824",
+      "type": "overlap",
+      "strength": 0.7
+    }
+  ],
+  "details": {
+    "overview": "Translate visual design into clean, efficient, reliable code — HTML, CSS, JavaScript — that looks and behaves exactly as intended on every device and browser. Ensuring layout, type and colour are perfect across screens. Optimise for speed, accessibility and future change. Build the technical foundation that makes design real online.",
+    "capabilities": [
+      "web implementation",
+      "cross-platform alignment",
+      "responsive engineering"
+    ],
+    "usedFor": [
+      "websites",
+      "web applications",
+      "digital platforms"
+    ]
+  }
+}

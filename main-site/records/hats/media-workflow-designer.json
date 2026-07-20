@@ -1,0 +1,44 @@
+{
+  "id": "eb44d032-d523-428e-9185-30a8fa41a1fe",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-workflow-designer",
+  "slug": "media-workflow-designer",
+  "name": "Media Workflow Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Designs efficient paths for media creation and delivery.",
+  "tags": {
+    "core": [
+      "workflow",
+      "process",
+      "media"
+    ],
+    "adjacent": [],
+    "meta": [
+      "efficiency",
+      "integration"
+    ]
+  },
+  "weight": {
+    "base": 0.84,
+    "experience": 0.8,
+    "rarity": 0.55
+  },
+  "details": {
+    "overview": "Plans how media moves from capture through editing, processing, approval, storage and distribution. Removes bottlenecks, ensures quality is preserved and makes work faster and easier. Integrates tools, storage and people into one smooth process. A good workflow saves time and prevents mistakes.",
+    "capabilities": [
+      "process design",
+      "tool integration",
+      "efficiency engineering"
+    ],
+    "usedFor": [
+      "production houses",
+      "broadcast facilities",
+      "content teams"
+    ]
+  }
+}

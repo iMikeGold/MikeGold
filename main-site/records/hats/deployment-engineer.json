@@ -1,0 +1,56 @@
+{
+  "id": "522ee4f4-e139-490d-a5c1-6cc6dec64df7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "deployment-engineer",
+  "slug": "deployment-engineer",
+  "name": "Deployment Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Plan safe, repeatable roll-out without disruption.",
+  "tags": {
+    "core": [
+      "release",
+      "rollout",
+      "safety"
+    ],
+    "adjacent": [],
+    "meta": [
+      "ci/cd",
+      "change"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "6bc6b55c-8210-49d1-b10a-eeac35d05ebf",
+      "type": "dependency",
+      "strength": 0.8
+    },
+    {
+      "targetId": "827e24f0-89d7-4136-ae27-f6378780d01f",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Design exactly how new code, configuration or hardware is introduced into live environments. Build steps that are tested, reversible and observable, so updates happen without downtime or unexpected behaviour. Define staging, canary, phased or full rollout strategies depending on risk. Ensuring every change leaves a clear audit trail and a quick path back if issues appear.",
+    "capabilities": [
+      "release strategy",
+      "rollback planning",
+      "change management"
+    ],
+    "usedFor": [
+      "software updates",
+      "system upgrades",
+      "infrastructure changes"
+    ]
+  }
+}

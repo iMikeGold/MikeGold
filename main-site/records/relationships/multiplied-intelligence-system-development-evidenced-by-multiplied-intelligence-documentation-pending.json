@@ -1,0 +1,13 @@
+{
+  "id": "638006c6-e4fc-4167-a9a9-f768260003df",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "multiplied-intelligence-system-development-evidenced-by-multiplied-intelligence-documentation-pending",
+  "sourceId": "4bf21f76-4d69-433d-98cc-f58f6bb55741",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "51b3efa8-9da2-4ba9-83b2-480ba73af1a3",
+  "targetType": "evidence"
+}

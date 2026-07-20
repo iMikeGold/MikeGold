@@ -1,0 +1,13 @@
+{
+  "id": "aed50050-8e9d-4ed6-bbab-8b15bccf6a51",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "gouldbourne-management-system-development-evidenced-by-gouldbourne-management-documentation-pending",
+  "sourceId": "cb821d9d-b965-4f52-b1e2-f53145cab3a4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "f5d90bcd-4483-495b-ba99-2c9613424a3d",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4027578a-9bdd-41c7-b6cc-b13b27cedb53",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "2f2400df-b8ad-4c7d-ab59-2f290e2fa95c",
+  "slug": "zenthapy-system-development",
+  "title": "Zenthapy system development",
+  "summary": "A wellness-service concept awaiting further product definition and implementation.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "brand-experience-systems"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "65de8835-ed65-4177-99b6-601052c31cd5",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "wibc",
+  "name": "WIBC",
+  "summary": "A company identity and digital-presence project covering brand direction and corporate content structure.",
+  "status": "design-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2024
+}

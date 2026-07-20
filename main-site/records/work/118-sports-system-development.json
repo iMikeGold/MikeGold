@@ -1,0 +1,18 @@
+{
+  "id": "eb0a38d2-499d-46fd-8b4f-731901d17982",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "3aef817d-23da-4ea0-8aed-f8d2e2913b4f",
+  "slug": "118-sports-system-development",
+  "title": "118 Sports system development",
+  "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "brand-experience-systems",
+    "software-web-engineering",
+    "infrastructure-operations"
+  ]
+}

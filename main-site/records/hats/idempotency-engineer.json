@@ -1,0 +1,44 @@
+{
+  "id": "2fc2adce-9c41-4431-bdc9-2b55b85b5bf1",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "idempotency-engineer",
+  "slug": "idempotency-engineer",
+  "name": "Idempotency Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Ensures running a process twice does not break anything.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "idempotency",
+      "safety",
+      "repeatability"
+    ],
+    "meta": [
+      "reliability",
+      "fault-tolerance"
+    ]
+  },
+  "weight": {
+    "base": 0.86,
+    "experience": 0.82,
+    "rarity": 0.6
+  },
+  "details": {
+    "overview": "Designs automation and scripts so that running them once or many times leaves the system in exactly the same correct state. No duplication, no errors, no damage if re‑run. Checks desired state before making changes. If already correct, does nothing. Makes automation safe to run on schedule, on demand or after interruption.",
+    "capabilities": [
+      "safe automation",
+      "state checking",
+      "repeatable processes"
+    ],
+    "usedFor": [
+      "configuration management",
+      "scheduled tasks",
+      "fault recovery"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b9bbb682-79bf-4a5f-8c33-a1fc4132668c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "metroplist-documentation-pending",
+  "title": "Metroplist project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

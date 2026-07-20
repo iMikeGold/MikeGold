@@ -1,0 +1,44 @@
+{
+  "id": "b14118af-da6a-4150-b451-75bea4dba67c",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "interactive-media-engineer",
+  "slug": "interactive-media-engineer",
+  "name": "Interactive Media Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Designs media that responds to user input.",
+  "tags": {
+    "core": [
+      "interactive",
+      "response",
+      "control"
+    ],
+    "adjacent": [],
+    "meta": [
+      "feedback",
+      "dialogue"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.86,
+    "rarity": 0.71
+  },
+  "details": {
+    "overview": "Builds systems where what happens next depends on what the user does — touch, movement, sound or choice. Creates a conversation between the user and the work. Ensures response is fast, clear and meaningful. Interaction should feel natural, not technical.",
+    "capabilities": [
+      "response design",
+      "input integration",
+      "interactive logic"
+    ],
+    "usedFor": [
+      "museums",
+      "exhibitions",
+      "games"
+    ]
+  }
+}

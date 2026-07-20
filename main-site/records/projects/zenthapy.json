@@ -1,0 +1,14 @@
+{
+  "id": "2f2400df-b8ad-4c7d-ab59-2f290e2fa95c",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "zenthapy",
+  "name": "Zenthapy",
+  "summary": "A wellness-service concept awaiting further product definition and implementation.",
+  "status": "reserved-concept",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2020
+}

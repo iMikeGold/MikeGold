@@ -1,0 +1,44 @@
+{
+  "id": "883829c7-11f1-4742-842f-86e916917294",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "service-engineer",
+  "slug": "service-engineer",
+  "name": "Service Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Designs persistent, independent processes that respond reliably.",
+  "tags": {
+    "core": [
+      "persistent",
+      "process",
+      "availability"
+    ],
+    "adjacent": [],
+    "meta": [
+      "resilience",
+      "uptime"
+    ]
+  },
+  "weight": {
+    "base": 0.91,
+    "experience": 0.87,
+    "rarity": 0.68
+  },
+  "details": {
+    "overview": "Builds long‑running background services that operate continuously — processing, monitoring or waiting for requests. Ensures they start automatically, restart on failure, log clearly and remain available 24/7. Separates functions into independent services so each can be updated, scaled or restarted without affecting others. Defines how they communicate and what happens if one is temporarily unavailable.",
+    "capabilities": [
+      "service design",
+      "process management",
+      "inter-service communication"
+    ],
+    "usedFor": [
+      "media servers",
+      "control daemons",
+      "background processing"
+    ]
+  }
+}

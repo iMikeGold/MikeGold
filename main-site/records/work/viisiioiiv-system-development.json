@@ -1,0 +1,16 @@
+{
+  "id": "4f8951e4-83af-429b-9e31-28bb94d9eb09",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "45c1af1d-8f12-426e-9578-9fcafb57e6cf",
+  "slug": "viisiioiiv-system-development",
+  "title": "Viisiioiiv system development",
+  "summary": "A reserved brand concept with early naming and identity exploration.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "brand-experience-systems"
+  ]
+}

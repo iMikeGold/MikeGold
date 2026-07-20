@@ -1,0 +1,16 @@
+{
+  "id": "bf1b0605-63aa-42c0-8ccc-7dc17963f6ed",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "768d3826-9860-406c-8c8e-11d4b8784d4f",
+  "slug": "fbc-london-shopping-with-grant-playout-systems-setup",
+  "title": "Playout systems setup",
+  "summary": "Setup and preparation of media playout for the finished feature.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "356decb6-0b19-48fd-91f7-d4fae8c2e752",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "bootstrap-engineer",
+  "slug": "bootstrap-engineer",
+  "name": "Bootstrap Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Codes the exact steps required to start from zero.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "bootstrap",
+      "initialisation",
+      "zero-to-run"
+    ],
+    "meta": [
+      "foundation",
+      "recovery"
+    ]
+  },
+  "weight": {
+    "base": 0.88,
+    "experience": 0.84,
+    "rarity": 0.62
+  },
+  "details": {
+    "overview": "Defines the very first steps to turn nothing into a running system — installing OS, adding users, setting up network, fetching configuration, starting core services. Every step is coded and repeatable. Ensures that starting from scratch is as simple as running one command. Critical for disaster recovery, new sites or rapid expansion.",
+    "capabilities": [
+      "initialisation design",
+      "bootstrap automation",
+      "zero-to-run workflow"
+    ],
+    "usedFor": [
+      "new deployments",
+      "recovery scenarios",
+      "standardised builds"
+    ]
+  }
+}

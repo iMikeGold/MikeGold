@@ -1,0 +1,14 @@
+{
+  "id": "afd29b61-14f2-416b-b046-6def534d8607",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-multiplied-intelligence-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "4bf21f76-4d69-433d-98cc-f58f6bb55741",
+  "targetType": "work",
+  "role": "primary"
+}

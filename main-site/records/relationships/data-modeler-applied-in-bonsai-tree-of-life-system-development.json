@@ -1,0 +1,14 @@
+{
+  "id": "2ee65e1e-f3e5-4fbf-a47b-0378d819be34",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-bonsai-tree-of-life-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "f8603d6d-fd2f-482a-b8e7-252bf7f83db6",
+  "targetType": "work",
+  "role": "primary"
+}

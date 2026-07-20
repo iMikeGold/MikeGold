@@ -1,0 +1,19 @@
+{
+  "id": "b2495ed3-fbe1-43ba-b397-3435e6ac223c",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "d093183a-9cf0-4ae4-b5b2-8d1b21e9c475",
+  "slug": "mickz-identity-development",
+  "title": "Identity development",
+  "summary": "Development of the core MiCKz identity and a mark capable of supporting a wider product family.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems"],
+  "stages": [
+    { "key": "exploration", "label": "Exploration", "status": "historical" },
+    { "key": "direction", "label": "Direction", "status": "completed" },
+    { "key": "refinement", "label": "Refinement", "status": "in-progress" }
+  ]
+}

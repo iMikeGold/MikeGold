@@ -1,0 +1,44 @@
+{
+  "id": "1c717927-9062-4833-b361-21f11d8953db",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "data-modeler",
+  "slug": "data-modeler",
+  "name": "Data Modeler",
+  "status": "published",
+  "category": "engineering",
+  "type": "data",
+  "description": "Shape information structure to match real‑world use.",
+  "tags": {
+    "core": [
+      "model",
+      "structure",
+      "definition"
+    ],
+    "adjacent": [],
+    "meta": [
+      "abstraction",
+      "clarity"
+    ]
+  },
+  "weight": {
+    "base": 0.93,
+    "experience": 0.89,
+    "rarity": 0.71
+  },
+  "details": {
+    "overview": "I translates how things work in reality — equipment, processes, people — into a clear, logical structure that systems can use. Defining entities, attributes and connections so data is easy to understand and work with. I ensure the model is simple enough to use but detailed enough to be accurate. Bridging the gap between how people think and how computers store.",
+    "capabilities": [
+      "conceptual modelling",
+      "logical design",
+      "semantic definition"
+    ],
+    "usedFor": [
+      "information systems",
+      "knowledge bases",
+      "data integration projects"
+    ]
+  }
+}

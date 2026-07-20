@@ -1,0 +1,56 @@
+{
+  "id": "a925e465-7a82-4bc0-8d2b-2a71ac816614",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "broadcast-audio-engineer",
+  "slug": "broadcast-audio-engineer",
+  "name": "Broadcast Audio Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Managing audio for transmission and distribution.",
+  "tags": {
+    "core": [
+      "broadcast",
+      "transmission",
+      "standards"
+    ],
+    "adjacent": [],
+    "meta": [
+      "compliance",
+      "distribution"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.65
+  },
+  "relationships": [
+    {
+      "targetId": "644f5254-117b-45fc-8862-d8494216df67",
+      "type": "supports",
+      "strength": 0.65
+    },
+    {
+      "targetId": "d516ae98-81a3-49e0-82ee-5749f045a522",
+      "type": "overlap",
+      "strength": 0.7
+    }
+  ],
+  "details": {
+    "overview": "Ensure audio meets strict technical standards for broadcast — levels, loudness, format and timing. Handling live or recorded material, switching sources, mixing and monitoring quality continuously. Working with transmission chains, codecs and compliance meters; reliability and adherence to standards are critical here.",
+    "capabilities": [
+      "broadcast compliance",
+      "transmission management",
+      "quality control"
+    ],
+    "usedFor": [
+      "radio",
+      "television",
+      "streaming services"
+    ]
+  }
+}

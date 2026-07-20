@@ -1,0 +1,14 @@
+{
+  "id": "b24e0b72-bea7-429a-8e24-e3cadf0cbadb",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "logo-systems-designer-applied-in-best-indies-system-development",
+  "sourceId": "7c68be63-b2a3-4844-8976-8a0197908bd6",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "targetType": "work",
+  "role": "primary"
+}

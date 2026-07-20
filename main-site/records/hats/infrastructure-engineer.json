@@ -1,0 +1,56 @@
+{
+  "id": "0eeebab0-0e91-42ab-b7db-c6d2c6bf2438",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "infrastructure-engineer",
+  "slug": "infrastructure-engineer",
+  "name": "Infrastructure Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Build and maintain the core physical and virtual foundation.",
+  "tags": {
+    "core": [
+      "foundation",
+      "compute",
+      "network"
+    ],
+    "adjacent": [],
+    "meta": [
+      "hardware",
+      "cloud"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "0003c922-1d29-427d-8c27-54ef4039f4b4",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Construct the base layer upon which everything else runs — servers, storage, networking, power and connectivity. Ensuring the foundation is robust, correctly sized and ready to support the intended workload without bottlenecks or single points of failure. Handle provisioning, layout and ongoing health monitoring, applying standards that keep the environment consistent across development, testing and live states. This layer is invisible but defines every performance limit above it.",
+    "capabilities": [
+      "hardware layout",
+      "network design",
+      "resource provisioning"
+    ],
+    "usedFor": [
+      "data centre builds",
+      "cloud environments",
+      "core service hosting"
+    ]
+  }
+}

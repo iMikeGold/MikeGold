@@ -1,0 +1,19 @@
+{
+  "id": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+  "slug": "house-of-gold-system-development",
+  "title": "House of Gold system development",
+  "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems",
+    "media-asset-systems"
+  ]
+}

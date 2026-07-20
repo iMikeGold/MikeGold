@@ -1,0 +1,14 @@
+{
+  "id": "b0ea5db6-93ed-4720-a00d-eae9efe9fc38",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bonsai-tree-of-life",
+  "name": "Bonsai Tree of Life",
+  "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2024
+}

@@ -1,0 +1,13 @@
+{
+  "id": "044d384a-9b99-434c-977e-40737ca80a5c",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "mikegold-engineer-system-development-evidenced-by-mikegold-engineer-documentation-pending",
+  "sourceId": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "09545691-8b34-4608-b759-d29794023100",
+  "targetType": "evidence"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "66ef84c7-d7a4-43b4-ab9c-7436c6da2b97",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "lighting-systems-designer",
+  "slug": "lighting-systems-designer",
+  "name": "Lighting Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Designs light as part of the overall experience.",
+  "tags": {
+    "core": [
+      "lighting",
+      "atmosphere",
+      "control"
+    ],
+    "adjacent": [],
+    "meta": [
+      "mood",
+      "integration"
+    ]
+  },
+  "weight": {
+    "base": 0.88,
+    "experience": 0.84,
+    "rarity": 0.65
+  },
+  "details": {
+    "overview": "Uses light — brightness, colour, movement, timing — to create mood, focus attention or change atmosphere. Designs systems that are reliable, controllable and integrated with sound and other elements. Works with fixtures, control protocols and power. Light is a powerful storytelling tool when engineered well.",
+    "capabilities": [
+      "lighting design",
+      "control system integration",
+      "atmosphere engineering"
+    ],
+    "usedFor": [
+      "stages",
+      "events",
+      "installations"
+    ]
+  }
+}

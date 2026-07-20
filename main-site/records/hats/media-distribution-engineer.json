@@ -1,0 +1,44 @@
+{
+  "id": "46df48d3-ed81-4c4c-bc6a-ce2f28867bda",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-distribution-engineer",
+  "slug": "media-distribution-engineer",
+  "name": "Media Distribution Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Gets media to the right place in the right form.",
+  "tags": {
+    "core": [
+      "distribution",
+      "delivery",
+      "platforms"
+    ],
+    "adjacent": [],
+    "meta": [
+      "optimisation",
+      "security"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.81,
+    "rarity": 0.6
+  },
+  "details": {
+    "overview": "Designs how media is delivered to audiences — online, broadcast, physical or download. Optimises quality, speed and reliability for each platform while keeping the creative intent intact. Manages encoding, packaging, security and delivery networks. Ensures the audience gets the best possible version for their device.",
+    "capabilities": [
+      "delivery strategy",
+      "encoding optimisation",
+      "platform adaptation"
+    ],
+    "usedFor": [
+      "streaming services",
+      "broadcast",
+      "digital distribution"
+    ]
+  }
+}

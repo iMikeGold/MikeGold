@@ -1,0 +1,56 @@
+{
+  "id": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "brand-systems-engineer",
+  "slug": "brand-systems-engineer",
+  "name": "Brand Systems Engineer",
+  "status": "published",
+  "category": "design",
+  "type": "visual",
+  "description": "Building reusable, scalable visual logic for brands.",
+  "tags": {
+    "core": [
+      "brand",
+      "scalability",
+      "logic"
+    ],
+    "adjacent": [],
+    "meta": [
+      "guidelines",
+      "identity"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.85,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "c1aa85db-c3ba-4a54-831c-d002f9e6e9e8",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "daf2968c-e38b-4399-bcfb-75fee065c0b7",
+      "type": "dependency",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Translate brand identity into a complete system of rules — colours, typography, spacing, imagery, usage — that anyone can follow. Ensuring the brand looks and feels the same whether on a business card, a website or a large installation. Design flexibility into the system so it can adapt to new uses without losing identity. Turning style into a structured, manageable asset.",
+    "capabilities": [
+      "brand logic design",
+      "style system engineering",
+      "consistency framework"
+    ],
+    "usedFor": [
+      "brand guidelines",
+      "multi-channel identity",
+      "enterprise branding"
+    ]
+  }
+}

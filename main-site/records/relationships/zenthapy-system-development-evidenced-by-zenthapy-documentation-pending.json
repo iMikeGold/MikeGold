@@ -1,0 +1,13 @@
+{
+  "id": "c7f13657-f588-4bf9-8fa9-3b022f19586f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "zenthapy-system-development-evidenced-by-zenthapy-documentation-pending",
+  "sourceId": "4027578a-9bdd-41c7-b6cc-b13b27cedb53",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "08943f89-6c1a-4546-9298-067ebd2b44ed",
+  "targetType": "evidence"
+}

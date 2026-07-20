@@ -1,0 +1,13 @@
+{
+  "id": "78586de1-028b-4bfc-9cf9-aa3085b14547",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "gouldbourne-registry-system-development-evidenced-by-gouldbourne-registry-documentation-pending",
+  "sourceId": "1043bc83-9c57-40ce-bed0-960cbd4e5c24",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1e67403d-c6c9-44f3-b245-a9a85b1df5ff",
+  "targetType": "evidence"
+}

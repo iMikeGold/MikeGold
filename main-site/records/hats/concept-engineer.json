@@ -1,0 +1,44 @@
+{
+  "id": "a09d0de5-8ad7-484f-946c-006be14e77f6",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "concept-engineer",
+  "slug": "concept-engineer",
+  "name": "Concept Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Checks feasibility before commitment.",
+  "tags": {
+    "core": [
+      "feasibility",
+      "planning",
+      "validation"
+    ],
+    "adjacent": [],
+    "meta": [
+      "risk",
+      "translation"
+    ]
+  },
+  "weight": {
+    "base": 0.88,
+    "experience": 0.84,
+    "rarity": 0.68
+  },
+  "details": {
+    "overview": "Takes early ideas and tests whether they can actually be built, run and delivered. Identifies technical limits, cost, time or quality risks early, and proposes adjustments that keep the vision intact while making it possible. Translates creative language into engineering terms and vice versa. Ensures everyone understands exactly what is possible and what is required.",
+    "capabilities": [
+      "feasibility analysis",
+      "concept validation",
+      "requirement translation"
+    ],
+    "usedFor": [
+      "project planning",
+      "new development",
+      "risk reduction"
+    ]
+  }
+}

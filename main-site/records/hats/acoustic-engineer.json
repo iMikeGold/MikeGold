@@ -1,0 +1,56 @@
+{
+  "id": "8934db99-89be-49b9-a3db-326e6368cf3a",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "acoustic-engineer",
+  "slug": "acoustic-engineer",
+  "name": "Acoustic Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Designing spaces to control how sound behaves.",
+  "tags": {
+    "core": [
+      "acoustics",
+      "room",
+      "behaviour"
+    ],
+    "adjacent": [],
+    "meta": [
+      "physics",
+      "environment"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.85,
+    "rarity": 0.75
+  },
+  "relationships": [
+    {
+      "targetId": "18a1f123-7795-48fd-96b5-d6f1d83201ba",
+      "type": "dependency",
+      "strength": 0.7
+    },
+    {
+      "targetId": "644e3162-b8d1-4551-bcc7-aba8700015de",
+      "type": "overlap",
+      "strength": 0.6
+    }
+  ],
+  "details": {
+    "overview": "Analyse and shape the physical environment — walls, floors, ceilings, materials — to control reflection, absorption, diffusion and resonance. Ensuring sound is clear, balanced and natural within the space. Working with existing rooms or designing new ones, good acoustics are the foundation of good sound, no matter how good the equipment is.",
+    "capabilities": [
+      "acoustic analysis",
+      "treatment design",
+      "room optimisation"
+    ],
+    "usedFor": [
+      "studios",
+      "concert halls",
+      "lecture rooms"
+    ]
+  }
+}

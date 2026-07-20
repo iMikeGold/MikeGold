@@ -1,0 +1,19 @@
+{
+  "id": "4bf21f76-4d69-433d-98cc-f58f6bb55741",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "d59283f5-585b-4529-8642-213f6effdd5d",
+  "slug": "multiplied-intelligence-system-development",
+  "title": "Multiplied Intelligence system development",
+  "summary": "Web experience, content structure and multi-domain cloud delivery for a music and creative brand.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems"
+  ]
+}

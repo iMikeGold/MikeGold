@@ -1,0 +1,14 @@
+{
+  "id": "686a6161-0755-4dba-a481-bd22c5529e48",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "vendfm",
+  "name": "VendFM",
+  "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2010
+}

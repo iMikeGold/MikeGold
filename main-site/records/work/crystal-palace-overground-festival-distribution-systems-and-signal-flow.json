@@ -1,0 +1,17 @@
+{
+  "id": "852b7a1c-e827-45ef-a6fe-ce97527cd855",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "b0483821-e2e0-45d3-a647-55895346f955",
+  "slug": "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
+  "title": "Distribution systems and signal flow",
+  "summary": "Planning and preparation of signal distribution for a multi-area event environment.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

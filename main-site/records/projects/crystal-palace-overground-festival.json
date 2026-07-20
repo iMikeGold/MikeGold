@@ -1,0 +1,14 @@
+{
+  "id": "b0483821-e2e0-45d3-a647-55895346f955",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "crystal-palace-overground-festival",
+  "name": "Crystal Palace Overground Festival",
+  "summary": "Signal-flow and distribution-system preparation for a live festival site.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Crystal Palace Overground Festival"
+}

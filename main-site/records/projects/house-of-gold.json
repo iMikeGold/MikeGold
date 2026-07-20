@@ -1,0 +1,14 @@
+{
+  "id": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "house-of-gold",
+  "name": "House of Gold",
+  "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+  "status": "live",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2012
+}

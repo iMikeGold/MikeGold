@@ -1,0 +1,14 @@
+{
+  "id": "6dcc0d8a-847c-4548-b9f0-822fa0aa85e5",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "identity-architect-applied-in-bjorr-system-development",
+  "sourceId": "daf2968c-e38b-4399-bcfb-75fee065c0b7",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "targetType": "work",
+  "role": "primary"
+}

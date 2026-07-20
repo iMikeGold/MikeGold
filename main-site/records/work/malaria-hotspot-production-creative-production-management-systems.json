@@ -1,0 +1,16 @@
+{
+  "id": "9c1f51de-f6f2-4913-a97f-850f8700776e",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "20c983fd-758b-4450-b33f-402c3e4fd44d",
+  "slug": "malaria-hotspot-production-creative-production-management-systems",
+  "title": "Creative production management systems",
+  "summary": "Coordination and management of interdependent production requirements.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition"
+  ]
+}

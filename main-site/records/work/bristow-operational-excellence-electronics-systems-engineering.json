@@ -1,0 +1,16 @@
+{
+  "id": "26fa941c-2b4d-4e41-8c55-7939693728b4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "eb15cdf5-1dc7-4a59-8f80-0ee8490b3e48",
+  "slug": "bristow-operational-excellence-electronics-systems-engineering",
+  "title": "Electronics systems engineering",
+  "summary": "Systems-level electronics contribution in an operational environment.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "physical-technical-engineering"
+  ]
+}

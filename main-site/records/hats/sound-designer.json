@@ -1,0 +1,51 @@
+{
+  "id": "e6d84e74-04f3-4074-b568-81a88110d9a3",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "sound-designer",
+  "slug": "sound-designer",
+  "name": "Sound Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Creating original sounds and soundscapes.",
+  "tags": {
+    "core": [
+      "creation",
+      "design",
+      "soundscape"
+    ],
+    "adjacent": [],
+    "meta": [
+      "synthesis",
+      "texture"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "d516ae98-81a3-49e0-82ee-5749f045a522",
+      "type": "overlap",
+      "strength": 0.65
+    }
+  ],
+  "details": {
+    "overview": "Design new sounds — from subtle textures to distinct effects — that do not exist naturally. Using synthesis, processing, recording and manipulation to create exactly what is needed for the brief. Build soundscapes that set mood, location or time. Every sound is chosen or created to carry meaning or feeling.",
+    "capabilities": [
+      "sound creation",
+      "texture design",
+      "effect development"
+    ],
+    "usedFor": [
+      "film",
+      "games",
+      "installations"
+    ]
+  }
+}

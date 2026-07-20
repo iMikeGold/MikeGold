@@ -1,0 +1,56 @@
+{
+  "id": "644f5254-117b-45fc-8862-d8494216df67",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "mastering-engineer",
+  "slug": "mastering-engineer",
+  "name": "Mastering Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Finalising sound for consistent, high‑quality playback.",
+  "tags": {
+    "core": [
+      "mastering",
+      "finalise",
+      "consistency"
+    ],
+    "adjacent": [],
+    "meta": [
+      "format",
+      "polish"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.9,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "894cab26-e1c9-4ea5-b766-7d92c6c69156",
+      "type": "dependency",
+      "strength": 0.9
+    },
+    {
+      "targetId": "a925e465-7a82-4bc0-8d2b-2a71ac816614",
+      "type": "supports",
+      "strength": 0.65
+    }
+  ],
+  "details": {
+    "overview": "The last stage in audio production — optimise the whole work for the intended format and listening environment. Ensuring balance, tone, volume and dynamics are perfect and consistent across all playback systems. Adding the final polish and ensuring the work translates well everywhere. Mastering gives the work its professional, finished touch.",
+    "capabilities": [
+      "tonal optimisation",
+      "dynamic control",
+      "format adaptation"
+    ],
+    "usedFor": [
+      "albums",
+      "singles",
+      "broadcast material"
+    ]
+  }
+}

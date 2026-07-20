@@ -1,0 +1,64 @@
+{
+  "id": "18a1f123-7795-48fd-96b5-d6f1d83201ba",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "sound-engineer",
+  "slug": "sound-engineer",
+  "name": "Sound Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Design and manage sound systems in physical environments.",
+  "tags": {
+    "core": [
+      "studio",
+      "sound",
+      "live",
+      "audio"
+    ],
+    "adjacent": [
+      "branding"
+    ],
+    "meta": [
+      "acoustics",
+      "environments"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.9,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "d60b7fcd-2a34-448c-8d2c-348746b468c1",
+      "type": "overlap",
+      "strength": 0.8
+    },
+    {
+      "targetId": "ccb74e24-c530-4857-bcdc-8aac0f8cd28d",
+      "type": "dependency",
+      "strength": 0.85
+    },
+    {
+      "targetId": "8934db99-89be-49b9-a3db-326e6368cf3a",
+      "type": "dependency",
+      "strength": 0.7
+    }
+  ],
+  "details": {
+    "overview": "Focus on the behaviour of sound in real-world environments. Working with acoustics, system placement, and tuning to achieve consistent output across spaces.",
+    "capabilities": [
+      "acoustic tuning",
+      "live system setup",
+      "sound distribution"
+    ],
+    "usedFor": [
+      "venues",
+      "events",
+      "installations"
+    ]
+  }
+}

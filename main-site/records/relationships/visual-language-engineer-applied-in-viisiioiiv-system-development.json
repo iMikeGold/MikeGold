@@ -1,0 +1,14 @@
+{
+  "id": "d4d5f084-fbc0-4a28-b763-53821ee248d2",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "visual-language-engineer-applied-in-viisiioiiv-system-development",
+  "sourceId": "54eb7815-102a-4c23-aaee-7c5b812b5915",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "4f8951e4-83af-429b-9e31-28bb94d9eb09",
+  "targetType": "work",
+  "role": "primary"
+}

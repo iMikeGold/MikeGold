@@ -1,0 +1,14 @@
+{
+  "id": "c490b6ae-db9c-4942-96e6-7b7f79f51a9a",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "71ac31c2-c8a2-46e6-8e39-d25f15c2a98e",
+  "slug": "musical-intelligence-content-architecture",
+  "title": "Music content architecture",
+  "summary": "Structuring the platform's artists, releases and related presentation content as reusable application data.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["system-product-definition", "software-web-engineering"]
+}

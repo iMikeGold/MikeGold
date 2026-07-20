@@ -1,0 +1,13 @@
+{
+  "id": "1e836a07-a46f-4bd1-8d9e-7a5b7c2861b7",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "cannvent-documentation-pending",
+  "title": "Cannvent project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

@@ -1,0 +1,56 @@
+{
+  "id": "54eb7815-102a-4c23-aaee-7c5b812b5915",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "visual-language-engineer",
+  "slug": "visual-language-engineer",
+  "name": "Visual Language Engineer",
+  "status": "published",
+  "category": "design",
+  "type": "visual",
+  "description": "Coding colour, weight and spacing as strict rules.",
+  "tags": {
+    "core": [
+      "colour",
+      "typography",
+      "rules"
+    ],
+    "adjacent": [],
+    "meta": [
+      "tokens",
+      "standardisation"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.85,
+    "rarity": 0.75
+  },
+  "relationships": [
+    {
+      "targetId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+      "type": "overlap",
+      "strength": 0.8
+    },
+    {
+      "targetId": "508ab829-1bfa-4775-8099-e8daf8985171",
+      "type": "dependency",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Define exactly how colour, typography, line weight, corner radius and spacing are used — no exceptions. Turning subjective style into objective, code‑ready values that can be applied in design tools or software. Create a shared vocabulary so designers, developers and producers all speak the same visual language. Removing ambiguity and drift.",
+    "capabilities": [
+      "visual rule definition",
+      "token system design",
+      "standardisation"
+    ],
+    "usedFor": [
+      "design systems",
+      "digital products",
+      "publication suites"
+    ]
+  }
+}

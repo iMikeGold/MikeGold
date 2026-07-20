@@ -1,0 +1,44 @@
+{
+  "id": "47ffb62e-654a-43da-940e-5feee8bb01ed",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "configuration-engineer",
+  "slug": "configuration-engineer",
+  "name": "Configuration Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Standardises settings so behaviour matches design everywhere.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "settings",
+      "standardisation",
+      "consistency"
+    ],
+    "meta": [
+      "governance",
+      "control"
+    ]
+  },
+  "weight": {
+    "base": 0.82,
+    "experience": 0.78,
+    "rarity": 0.57
+  },
+  "details": {
+    "overview": "Defines and controls every setting that changes system behaviour — OS parameters, service options, feature flags, limits and paths. Ensures configuration is stored, versioned and applied consistently across all instances. Removes manual editing and drift, making changes predictable and reversible. Treats configuration as code, so every adjustment is tracked and tested like software.",
+    "capabilities": [
+      "config management",
+      "standardisation",
+      "version control"
+    ],
+    "usedFor": [
+      "large fleets",
+      "distributed systems",
+      "compliance control"
+    ]
+  }
+}

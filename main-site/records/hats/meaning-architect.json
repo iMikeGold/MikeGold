@@ -1,0 +1,44 @@
+{
+  "id": "b9a05ea5-2ab8-47c9-bd83-0a61fc2d7f0c",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "meaning-architect",
+  "slug": "meaning-architect",
+  "name": "Meaning Architect",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Ensures every technical choice serves the intended message.",
+  "tags": {
+    "core": [
+      "intent",
+      "design",
+      "message"
+    ],
+    "adjacent": [],
+    "meta": [
+      "clarity",
+      "purpose"
+    ]
+  },
+  "weight": {
+    "base": 0.94,
+    "experience": 0.9,
+    "rarity": 0.77
+  },
+  "details": {
+    "overview": "Reviews every decision — from equipment choice to signal routing to layout — through the question: does this help or change what we are trying to say? Ensures form follows function and function follows meaning. Removes anything that distracts or confuses. Every part of the system exists only to deliver the core message clearly and powerfully.",
+    "capabilities": [
+      "intent alignment",
+      "message clarity",
+      "design discipline"
+    ],
+    "usedFor": [
+      "high-impact productions",
+      "branded environments",
+      "artistic works"
+    ]
+  }
+}

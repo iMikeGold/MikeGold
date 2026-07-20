@@ -1,0 +1,14 @@
+{
+  "id": "dfa0941c-0c81-413f-bb48-71ef23f05150",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-bonsai-tree-of-life-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "f8603d6d-fd2f-482a-b8e7-252bf7f83db6",
+  "targetType": "work",
+  "role": "primary"
+}

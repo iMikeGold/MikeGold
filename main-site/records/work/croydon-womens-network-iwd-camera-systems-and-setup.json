@@ -1,0 +1,17 @@
+{
+  "id": "064ce61f-4ab0-4ea3-8e31-55cb934d8f0f",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "7b23a7b5-45fe-49b9-888f-19d8d0ec5c4b",
+  "slug": "croydon-womens-network-iwd-camera-systems-and-setup",
+  "title": "Camera systems and setup",
+  "summary": "Preparation and setup of camera systems for promotional video production.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "media-asset-systems",
+    "physical-technical-engineering"
+  ]
+}

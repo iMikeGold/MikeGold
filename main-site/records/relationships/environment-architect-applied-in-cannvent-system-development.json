@@ -1,0 +1,14 @@
+{
+  "id": "cdf9a588-59aa-445b-b403-0ebd71e65d7f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "environment-architect-applied-in-cannvent-system-development",
+  "sourceId": "644e3162-b8d1-4551-bcc7-aba8700015de",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "targetType": "work",
+  "role": "primary"
+}

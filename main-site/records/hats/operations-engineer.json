@@ -1,0 +1,56 @@
+{
+  "id": "827e24f0-89d7-4136-ae27-f6378780d01f",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "operations-engineer",
+  "slug": "operations-engineer",
+  "name": "Operations Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Keep running systems visible, monitored and responding.",
+  "tags": {
+    "core": [
+      "monitoring",
+      "visibility",
+      "maintenance"
+    ],
+    "adjacent": [],
+    "meta": [
+      "uptime",
+      "alerting"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.8,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "522ee4f4-e139-490d-a5c1-6cc6dec64df7",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "e7d9cd00-1f96-452a-96b4-9ea2e08f68ce",
+      "type": "overlap",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Maintain day-to-day health, monitoring every component for availability, performance and errors. Build dashboards, alerts and log aggregation so status is always clear. Respond to incidents quickly and methodically. Standardise routine tasks, backups and checks so nothing is missed. Work closely with design and build teams to ensure systems are easy to operate and troubleshoot.",
+    "capabilities": [
+      "monitoring setup",
+      "incident response",
+      "routine maintenance"
+    ],
+    "usedFor": [
+      "24/7 service environments",
+      "critical infrastructure",
+      "long-term system health"
+    ]
+  }
+}

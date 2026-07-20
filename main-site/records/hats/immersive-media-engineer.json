@@ -1,0 +1,44 @@
+{
+  "id": "900ee78b-25af-4b4b-83ce-d64cb2128ddc",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "immersive-media-engineer",
+  "slug": "immersive-media-engineer",
+  "name": "Immersive Media Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Builds media that surrounds or interacts with the user.",
+  "tags": {
+    "core": [
+      "immersive",
+      "vr",
+      "ar"
+    ],
+    "adjacent": [],
+    "meta": [
+      "presence",
+      "tracking"
+    ]
+  },
+  "weight": {
+    "base": 0.93,
+    "experience": 0.89,
+    "rarity": 0.77
+  },
+  "details": {
+    "overview": "Creates experiences where the user is inside or part of the media — VR, AR, projection mapping or interactive spaces. Combines audio, video, tracking and control to create presence. Ensures everything lines up perfectly — movement, sound, image — so the brain accepts it as real. Comfort and immersion are equal goals.",
+    "capabilities": [
+      "immersive system design",
+      "tracking integration",
+      "presence engineering"
+    ],
+    "usedFor": [
+      "virtual reality",
+      "augmented reality",
+      "projection installations"
+    ]
+  }
+}

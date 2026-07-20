@@ -1,0 +1,56 @@
+{
+  "id": "0003c922-1d29-427d-8c27-54ef4039f4b4",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "server-engineer",
+  "slug": "server-engineer",
+  "name": "Server Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Tune hardware-to-software performance and resource allocation.",
+  "tags": {
+    "core": [
+      "hardware",
+      "allocation",
+      "tuning"
+    ],
+    "adjacent": [],
+    "meta": [
+      "compute",
+      "resource"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "0eeebab0-0e91-42ab-b7db-c6d2c6bf2438",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "42b58510-1dd4-4482-bb4f-fdddb3f0ce8e",
+      "type": "overlap",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Match physical or virtual server resources — CPU, memory, storage, I/O — to the exact demands of the software running on it. Optimise BIOS, firmware, OS and service settings to extract maximum stability and throughput without over provisioning. Work with rack layout, cooling and power alongside logical partitioning. Ensuring each workload has exactly what it needs and no resource is wasted or contested unnecessarily.",
+    "capabilities": [
+      "resource optimisation",
+      "hardware configuration",
+      "workload alignment"
+    ],
+    "usedFor": [
+      "high-performance builds",
+      "media processing servers",
+      "low-latency environments"
+    ]
+  }
+}

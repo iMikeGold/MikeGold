@@ -1,0 +1,56 @@
+{
+  "id": "42b58510-1dd4-4482-bb4f-fdddb3f0ce8e",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "runtime-engineer",
+  "slug": "runtime-engineer",
+  "name": "Runtime Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Optimising exactly how processes behave while active.",
+  "tags": {
+    "core": [
+      "execution",
+      "performance",
+      "lifecycle"
+    ],
+    "adjacent": [],
+    "meta": [
+      "process",
+      "optimisation"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.8,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "0003c922-1d29-427d-8c27-54ef4039f4b4",
+      "type": "overlap",
+      "strength": 0.75
+    },
+    {
+      "targetId": "81fc1782-d2f1-4ae3-8896-7408e734b824",
+      "type": "supports",
+      "strength": 0.8
+    }
+  ],
+  "details": {
+    "overview": "Focus on what happens while systems are running — process scheduling, memory use, thread management, garbage collection and resource limits. Tune specifically for the workload: real-time, high-throughput, or long-running stability. Observe behaviour under stress, identifying bottlenecks or leaks, and adjust configuration or code to keep operation smooth. Ensuring that over time, performance does not degrade.",
+    "capabilities": [
+      "execution tuning",
+      "resource limiting",
+      "behaviour analysis"
+    ],
+    "usedFor": [
+      "real-time processing",
+      "long-running services",
+      "high-load applications"
+    ]
+  }
+}

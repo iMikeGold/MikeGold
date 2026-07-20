@@ -1,0 +1,14 @@
+{
+  "id": "8a642da7-7d9b-4c0a-ab8a-6cbb4ea42272",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "deployment-engineer-applied-in-gouldbourne-management-system-development",
+  "sourceId": "522ee4f4-e139-490d-a5c1-6cc6dec64df7",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "cb821d9d-b965-4f52-b1e2-f53145cab3a4",
+  "targetType": "work",
+  "role": "primary"
+}

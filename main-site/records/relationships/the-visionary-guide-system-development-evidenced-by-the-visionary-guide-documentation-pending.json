@@ -1,0 +1,13 @@
+{
+  "id": "34fdde40-2f63-4f8e-aa97-f74fb592d053",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "the-visionary-guide-system-development-evidenced-by-the-visionary-guide-documentation-pending",
+  "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d678bbb9-6fe2-4c70-93a6-24e7e659e7b2",
+  "targetType": "evidence"
+}

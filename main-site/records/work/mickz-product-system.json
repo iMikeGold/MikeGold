@@ -1,0 +1,19 @@
+{
+  "id": "4b2fe537-ffd5-4aee-97c8-434f0c907f68",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "d093183a-9cf0-4ae4-b5b2-8d1b21e9c475",
+  "slug": "mickz-product-system",
+  "title": "Food and drinks product system",
+  "summary": "A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["system-product-definition", "brand-experience-systems", "media-asset-systems"],
+  "stages": [
+    { "key": "category-definition", "label": "Category definition", "status": "completed" },
+    { "key": "visual-direction", "label": "Visual direction", "status": "in-progress" },
+    { "key": "product-application", "label": "Product application", "status": "planned" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1043bc83-9c57-40ce-bed0-960cbd4e5c24",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "bf7485d9-2ae1-45fb-8ee7-75d3641071d8",
+  "slug": "gouldbourne-registry-system-development",
+  "title": "Gouldbourne Registry system development",
+  "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations"
+  ]
+}

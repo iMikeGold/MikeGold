@@ -1,0 +1,13 @@
+{
+  "id": "08943f89-6c1a-4546-9298-067ebd2b44ed",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "zenthapy-documentation-pending",
+  "title": "Zenthapy project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

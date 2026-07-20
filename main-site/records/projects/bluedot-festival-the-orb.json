@@ -1,0 +1,14 @@
+{
+  "id": "0b514046-e1e3-4759-bbaa-05210339cef0",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bluedot-festival-the-orb",
+  "name": "bluedot festival — The Orb",
+  "summary": "Live sound-system work supporting The Orb's 2018 bluedot festival performance.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "bluedot festival"
+}

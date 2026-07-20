@@ -1,0 +1,51 @@
+{
+  "id": "508ab829-1bfa-4775-8099-e8daf8985171",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "graphic-systems-designer",
+  "slug": "graphic-systems-designer",
+  "name": "Graphic Systems Designer",
+  "status": "published",
+  "category": "design",
+  "type": "visual",
+  "description": "Creating templates and structures for consistent output.",
+  "tags": {
+    "core": [
+      "graphics",
+      "templates",
+      "structure"
+    ],
+    "adjacent": [],
+    "meta": [
+      "grids",
+      "production"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.6
+  },
+  "relationships": [
+    {
+      "targetId": "54eb7815-102a-4c23-aaee-7c5b812b5915",
+      "type": "dependency",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Build frameworks, grids and templates that let anyone create new materials that fit perfectly. Define where text goes, how images sit, how headings behave — so every piece looks like part of the same set. Balance freedom and control: enough structure to guarantee consistency, enough flexibility to allow new content to work naturally.",
+    "capabilities": [
+      "template engineering",
+      "grid system design",
+      "layout frameworks"
+    ],
+    "usedFor": [
+      "marketing materials",
+      "document suites",
+      "content platforms"
+    ]
+  }
+}

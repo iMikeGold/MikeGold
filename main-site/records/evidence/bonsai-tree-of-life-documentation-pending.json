@@ -1,0 +1,13 @@
+{
+  "id": "eee50a61-4f03-4ea3-b2ba-f1bf94ba1a29",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bonsai-tree-of-life-documentation-pending",
+  "title": "Bonsai Tree of Life project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

@@ -1,0 +1,58 @@
+{
+  "id": "c1aa85db-c3ba-4a54-831c-d002f9e6e9e8",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "graphic-design-engineer",
+  "slug": "graphic-design-engineer",
+  "name": "Graphic Design Engineer",
+  "status": "published",
+  "category": "design",
+  "type": "visual",
+  "description": "Building structured visual systems for communication.",
+  "tags": {
+    "core": [
+      "layout",
+      "visual",
+      "systems"
+    ],
+    "adjacent": [
+      "branding"
+    ],
+    "meta": [
+      "structure",
+      "communication"
+    ]
+  },
+  "weight": {
+    "base": 0.75,
+    "experience": 0.8,
+    "rarity": 0.5
+  },
+  "relationships": [
+    {
+      "targetId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+      "type": "overlap",
+      "strength": 0.85
+    },
+    {
+      "targetId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+      "type": "supports",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Create structured visual systems that communicate ideas clearly and consistently across platforms. Focusing on scalable design logic rather than one-off visuals.",
+    "capabilities": [
+      "layout systems",
+      "visual hierarchy",
+      "branding structure"
+    ],
+    "usedFor": [
+      "web interfaces",
+      "branding systems",
+      "content presentation"
+    ]
+  }
+}

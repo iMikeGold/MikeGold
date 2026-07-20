@@ -1,0 +1,44 @@
+{
+  "id": "f00fffeb-8d22-4e8c-9488-382d13342d7e",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "runtime-systems-engineer",
+  "slug": "runtime-systems-engineer",
+  "name": "Runtime Systems Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Tunes execution efficiency and memory use in real conditions.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "execution",
+      "efficiency",
+      "memory"
+    ],
+    "meta": [
+      "optimisation",
+      "performance"
+    ]
+  },
+  "weight": {
+    "base": 0.88,
+    "experience": 0.84,
+    "rarity": 0.64
+  },
+  "details": {
+    "overview": "Optimises how code runs once deployed — memory allocation, garbage collection, thread scheduling, I/O handling. Reduces latency and resource use while maintaining stability, especially important for real‑time or high‑volume work. Profiles behaviour under load, identifies bottlenecks and adjusts code or configuration. Ensures that what works in development performs exactly as well in production.",
+    "capabilities": [
+      "performance profiling",
+      "memory optimisation",
+      "execution tuning"
+    ],
+    "usedFor": [
+      "real-time systems",
+      "high-throughput processing",
+      "resource-limited environments"
+    ]
+  }
+}

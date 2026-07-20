@@ -1,0 +1,44 @@
+{
+  "id": "e873b8e4-decd-4729-81ff-d657bb01c31a",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "script-engineer",
+  "slug": "script-engineer",
+  "name": "Script Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Writes small, sharp tools to speed or secure operations.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "scripts",
+      "tools",
+      "productivity"
+    ],
+    "meta": [
+      "utility",
+      "simplicity"
+    ]
+  },
+  "weight": {
+    "base": 0.81,
+    "experience": 0.77,
+    "rarity": 0.53
+  },
+  "details": {
+    "overview": "Creates targeted, single‑purpose scripts that solve specific problems — backups, reports, transfers, checks. Keeps them simple, documented and focused so they are reliable and easy to maintain. Uses the right language and tools for the environment. Turns complex manual steps into one‑line commands or scheduled jobs.",
+    "capabilities": [
+      "scripting",
+      "tool building",
+      "task simplification"
+    ],
+    "usedFor": [
+      "operational support",
+      "data manipulation",
+      "quick automation"
+    ]
+  }
+}

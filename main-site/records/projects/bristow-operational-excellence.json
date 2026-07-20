@@ -1,0 +1,14 @@
+{
+  "id": "eb15cdf5-1dc7-4a59-8f80-0ee8490b3e48",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bristow-operational-excellence",
+  "name": "Bristow — Operational Excellence",
+  "summary": "Electronics-systems engineering work associated with an operational-excellence programme.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Bristow Group"
+}

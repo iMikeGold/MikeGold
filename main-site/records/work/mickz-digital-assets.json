@@ -1,0 +1,14 @@
+{
+  "id": "760eb4f2-b750-4237-8972-fd5751bb6ae8",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "d093183a-9cf0-4ae4-b5b2-8d1b21e9c475",
+  "slug": "mickz-digital-assets",
+  "title": "Digital product assets",
+  "summary": "Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"]
+}

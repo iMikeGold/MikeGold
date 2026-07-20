@@ -1,0 +1,13 @@
+{
+  "id": "16638b2f-f8b3-4ca0-a8c1-cbae678f94a9",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "ourgani-documentation-pending",
+  "title": "Ourgani project evidence",
+  "description": "Supporting material is being selected and documented for this project record.",
+  "evidenceType": "placeholder",
+  "visibility": "public",
+  "placeholder": true
+}

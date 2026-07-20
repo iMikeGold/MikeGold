@@ -1,0 +1,44 @@
+{
+  "id": "02f55538-1a22-4430-a563-fefbb64bfe7e",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "symbol-systems-designer",
+  "slug": "symbol-systems-designer",
+  "name": "Symbol Systems Designer",
+  "status": "published",
+  "category": "creative",
+  "type": "concept",
+  "description": "Uses visual/audio markers consistently.",
+  "tags": {
+    "core": [
+      "language",
+      "markers",
+      "consistency"
+    ],
+    "adjacent": [],
+    "meta": [
+      "communication",
+      "recognition"
+    ]
+  },
+  "weight": {
+    "base": 0.89,
+    "experience": 0.85,
+    "rarity": 0.71
+  },
+  "details": {
+    "overview": "Creates a shared language of signs, sounds, colours or movements that carry specific meaning. Defines exactly what each symbol means, when it appears and how it changes — so users learn and recognise them instantly. Ensures meaning stays the same across every use. Symbols become a reliable way to communicate without words.",
+    "capabilities": [
+      "language design",
+      "symbol definition",
+      "meaning consistency"
+    ],
+    "usedFor": [
+      "control interfaces",
+      "branding",
+      "accessible communication"
+    ]
+  }
+}

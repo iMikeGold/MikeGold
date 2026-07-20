@@ -1,0 +1,56 @@
+{
+  "id": "d516ae98-81a3-49e0-82ee-5749f045a522",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "post-production-audio-engineer",
+  "slug": "post-production-audio-engineer",
+  "name": "Post‑Production Audio Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Editing, repairing and enhancing audio after recording.",
+  "tags": {
+    "core": [
+      "post-production",
+      "editing",
+      "polish"
+    ],
+    "adjacent": [],
+    "meta": [
+      "restoration",
+      "storytelling"
+    ]
+  },
+  "weight": {
+    "base": 0.8,
+    "experience": 0.75,
+    "rarity": 0.65
+  },
+  "relationships": [
+    {
+      "targetId": "e6d84e74-04f3-4074-b568-81a88110d9a3",
+      "type": "overlap",
+      "strength": 0.65
+    },
+    {
+      "targetId": "a925e465-7a82-4bc0-8d2b-2a71ac816614",
+      "type": "overlap",
+      "strength": 0.7
+    }
+  ],
+  "details": {
+    "overview": "Working on recorded material to remove noise, fix errors, edit timing, add effects and polish the result. Take what was captured and turn it into a finished, professional product. Work with dialogue, music and effects. Ensure everything lines up, sounds natural and serves the story.",
+    "capabilities": [
+      "audio editing",
+      "restoration",
+      "enhancement"
+    ],
+    "usedFor": [
+      "film",
+      "video",
+      "podcasts"
+    ]
+  }
+}

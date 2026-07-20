@@ -1,0 +1,20 @@
+{
+  "id": "8cac21e5-1d29-4a50-822b-15660d1677e8",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "b62b03b0-92a3-4695-b895-89570ddbae69",
+  "slug": "protosynthesis-system-development",
+  "title": "ProtoSynthesis system development",
+  "summary": "Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering",
+    "infrastructure-operations",
+    "brand-experience-systems",
+    "media-asset-systems"
+  ]
+}

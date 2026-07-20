@@ -1,0 +1,13 @@
+{
+  "id": "ed6bfe62-b5be-42e9-a109-f6bd2bf38990",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bonsai-tree-of-life-system-development-evidenced-by-bonsai-tree-of-life-documentation-pending",
+  "sourceId": "f8603d6d-fd2f-482a-b8e7-252bf7f83db6",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "eee50a61-4f03-4ea3-b2ba-f1bf94ba1a29",
+  "targetType": "evidence"
+}

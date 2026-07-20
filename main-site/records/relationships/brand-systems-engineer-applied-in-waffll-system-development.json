@@ -1,0 +1,14 @@
+{
+  "id": "e26695f6-9322-4585-8360-be1fb255fe87",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-waffll-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "targetType": "work",
+  "role": "primary"
+}

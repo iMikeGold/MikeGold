@@ -1,0 +1,17 @@
+{
+  "id": "3946f995-5432-4f47-9ac7-d52b451192b1",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "57c17721-d988-49da-9a07-b448ee464748",
+  "slug": "bamboograph-system-development",
+  "title": "BambooGraph system development",
+  "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "software-web-engineering"
+  ]
+}

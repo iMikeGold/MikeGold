@@ -1,0 +1,14 @@
+{
+  "id": "a7e30e45-2818-4b9c-9a17-862f6b9d0a3a",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "web-design-engineer-applied-in-the-visionary-guide-system-development",
+  "sourceId": "3cbabdc4-f2fd-4871-ab6a-0323b9d42f09",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "a33cc74d-ae15-4ef2-80d1-cb71346de019",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "narrative-systems-thinker-applied-in-protosynthesis-system-development",
+  "sourceId": "97d1abf2-f08d-42ab-89c3-a9dd90070134",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "8cac21e5-1d29-4a50-822b-15660d1677e8",
+  "targetType": "work",
+  "role": "primary"
+}

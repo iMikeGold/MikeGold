@@ -1,0 +1,14 @@
+{
+  "id": "858e7920-6970-491a-b732-6e1462c4025e",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "five9-customer-story-systems",
+  "name": "Five9 — Customer Story Systems",
+  "summary": "Research and systems-thinking work associated with customer-story and contact-centre environments.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Five9 / Teladoc / Microsoft"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e01c59ad-6286-480b-a26d-be5ec3d36f1a",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "65de8835-ed65-4177-99b6-601052c31cd5",
+  "slug": "wibc-system-development",
+  "title": "WIBC system development",
+  "summary": "A company identity and digital-presence project covering brand direction and corporate content structure.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "brand-experience-systems",
+    "software-web-engineering"
+  ]
+}

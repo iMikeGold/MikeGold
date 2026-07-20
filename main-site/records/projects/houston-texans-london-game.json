@@ -1,0 +1,14 @@
+{
+  "id": "645bca91-2018-4146-a3eb-780119ab68bd",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "houston-texans-london-game",
+  "name": "Houston Texans — London Game",
+  "summary": "Field communications and telecoms resilience work associated with the Texans' London fixture.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Houston Texans"
+}

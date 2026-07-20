@@ -1,0 +1,44 @@
+{
+  "id": "bae113ea-d548-4726-ae5b-5d60ed789406",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "automation-engineer",
+  "slug": "automation-engineer",
+  "name": "Automation Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Replaces manual repetition with precise, scripted flow.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "automation",
+      "efficiency",
+      "repeatability"
+    ],
+    "meta": [
+      "productivity",
+      "error-reduction"
+    ]
+  },
+  "weight": {
+    "base": 0.87,
+    "experience": 0.83,
+    "rarity": 0.6
+  },
+  "details": {
+    "overview": "Identifies every task done more than once and builds code or workflows to do it automatically. Ensures the result is identical every time, faster and without human error. Frees people to focus on design and improvement. Designs automation that is safe, observable and easy to adjust. Tests every script thoroughly so running it increases confidence, not risk.",
+    "capabilities": [
+      "process automation",
+      "script development",
+      "workflow design"
+    ],
+    "usedFor": [
+      "routine operations",
+      "build pipelines",
+      "repetitive tasks"
+    ]
+  }
+}

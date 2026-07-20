@@ -1,0 +1,44 @@
+{
+  "id": "22e18056-0639-4756-944b-6133d088a867",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "pipeline-engineer",
+  "slug": "pipeline-engineer",
+  "name": "Pipeline Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "automation",
+  "description": "Builds delivery chains from change commit to live deployment.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "pipeline",
+      "delivery",
+      "ci/cd"
+    ],
+    "meta": [
+      "automation",
+      "flow"
+    ]
+  },
+  "weight": {
+    "base": 0.89,
+    "experience": 0.85,
+    "rarity": 0.64
+  },
+  "details": {
+    "overview": "Constructs the full automated path: code committed → built → tested → validated → deployed → monitored. Every step is defined, automated and gated — only good changes proceed. Includes quality checks, security scans and performance tests. Makes delivery fast, safe and visible. Ensures anyone can see exactly where a change is in the flow.",
+    "capabilities": [
+      "pipeline design",
+      "automated testing",
+      "delivery flow"
+    ],
+    "usedFor": [
+      "software delivery",
+      "infrastructure changes",
+      "frequent release cycles"
+    ]
+  }
+}

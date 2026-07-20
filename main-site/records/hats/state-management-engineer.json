@@ -1,0 +1,44 @@
+{
+  "id": "c237ca0c-65e2-408e-a498-a56cdc604934",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "state-management-engineer",
+  "slug": "state-management-engineer",
+  "name": "State Management Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "software",
+  "description": "Preserves or resets context exactly as required.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "state",
+      "context",
+      "persistence"
+    ],
+    "meta": [
+      "consistency",
+      "synchronisation"
+    ]
+  },
+  "weight": {
+    "base": 0.89,
+    "experience": 0.85,
+    "rarity": 0.65
+  },
+  "details": {
+    "overview": "Controls how information about current activity — settings, progress, connections — is stored, carried between steps or restored. Ensures state is consistent across all parts of the system and never lost unexpectedly. Decides what is kept in memory, what is saved to disk, and what is reset. Handles synchronisation between multiple users or processes so everyone sees the same truth.",
+    "capabilities": [
+      "state tracking",
+      "context preservation",
+      "synchronisation"
+    ],
+    "usedFor": [
+      "interactive systems",
+      "multi-step workflows",
+      "distributed applications"
+    ]
+  }
+}

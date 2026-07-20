@@ -1,0 +1,14 @@
+{
+  "id": "57c17721-d988-49da-9a07-b448ee464748",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "bamboograph",
+  "name": "BambooGraph",
+  "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
+  "status": "prototype",
+  "visibility": "public",
+  "featured": false,
+  "establishedYear": 2024
+}

@@ -1,0 +1,56 @@
+{
+  "id": "644e3162-b8d1-4551-bcc7-aba8700015de",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "environment-architect",
+  "slug": "environment-architect",
+  "name": "Environment Architect",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Defining boundaries, separation and behaviour rules for spaces.",
+  "tags": {
+    "core": [
+      "separation",
+      "boundaries",
+      "rules"
+    ],
+    "adjacent": [],
+    "meta": [
+      "security",
+      "isolation"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.85,
+    "rarity": 0.75
+  },
+  "relationships": [
+    {
+      "targetId": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+      "type": "overlap",
+      "strength": 0.8
+    },
+    {
+      "targetId": "11bf99c6-d7cb-4158-97b9-762c023edb9e",
+      "type": "dependency",
+      "strength": 0.85
+    }
+  ],
+  "details": {
+    "overview": "Map out exactly how different environments relate — production, staging, development, secure zones. Create rules for data flow, access, and isolation so no state can leak or interfere with another. Ensuring safety and integrity are inherent to the layout. Decide what can move between zones, how promotion works, and where hard limits apply. The architecture ensures that testing does not impact live operation and that sensitive data never crosses unauthorised lines.",
+    "capabilities": [
+      "zone definition",
+      "isolation strategy",
+      "access mapping"
+    ],
+    "usedFor": [
+      "secure system design",
+      "compliance environments",
+      "multi-stage workflows"
+    ]
+  }
+}

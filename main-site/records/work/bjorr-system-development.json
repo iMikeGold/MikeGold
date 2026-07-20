@@ -1,0 +1,17 @@
+{
+  "id": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
+  "slug": "bjorr-system-development",
+  "title": "Bjórr system development",
+  "summary": "A reserved product and brand concept with early naming and domain strategy.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition",
+    "brand-experience-systems"
+  ]
+}

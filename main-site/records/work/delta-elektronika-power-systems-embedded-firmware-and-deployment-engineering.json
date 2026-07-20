@@ -1,0 +1,17 @@
+{
+  "id": "0ae7ec25-f701-4100-86d3-1a56fc4287d9",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "ab53983b-42fa-42da-b14f-b935672523b5",
+  "slug": "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+  "title": "Embedded firmware and deployment engineering",
+  "summary": "Deployment-oriented systems work supporting a high-power electronic supply system.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "infrastructure-operations",
+    "physical-technical-engineering"
+  ]
+}

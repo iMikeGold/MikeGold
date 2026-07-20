@@ -1,0 +1,14 @@
+{
+  "id": "d80eaf24-cd9a-4cf1-b4b5-2ed182fbf220",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "brand-systems-engineer-applied-in-ourgani-system-development",
+  "sourceId": "495d80da-ad02-4bac-8b8e-980c23b3d58f",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "7db8ce68-c3ce-4fd6-ad72-1e8945a6a4b2",
+  "targetType": "work",
+  "role": "primary"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "6dabeb6e-2db4-44c0-8781-53170a857e9b",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "disaster-recovery-engineer",
+  "slug": "disaster-recovery-engineer",
+  "name": "Disaster Recovery Engineer",
+  "status": "published",
+  "category": "engineering",
+  "type": "systems",
+  "description": "Maps every risk point and defines exact recovery steps.",
+  "tags": {
+    "core": [],
+    "adjacent": [
+      "risk",
+      "restoration",
+      "continuity"
+    ],
+    "meta": [
+      "safety",
+      "resilience"
+    ]
+  },
+  "weight": {
+    "base": 0.78,
+    "experience": 0.74,
+    "rarity": 0.52
+  },
+  "details": {
+    "overview": "Identifies every possible threat — hardware failure, power loss, corruption, attack — and creates a precise plan to restore service and data. Defines recovery time and data loss targets, then builds systems and procedures to meet them. Documents step-by-step actions, runs drills and keeps plans updated as systems change. Ensures that even in worst-case scenarios, continuity is guaranteed and nothing is lost permanently.",
+    "capabilities": [
+      "risk assessment",
+      "recovery planning",
+      "business continuity"
+    ],
+    "usedFor": [
+      "critical data systems",
+      "regulated environments",
+      "enterprise infrastructure"
+    ]
+  }
+}

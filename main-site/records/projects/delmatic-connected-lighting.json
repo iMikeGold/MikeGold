@@ -1,0 +1,14 @@
+{
+  "id": "6e8e39fc-4ccd-43a5-85f6-f4f6af246dde",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "delmatic-connected-lighting",
+  "name": "Delmatic — Connected Lighting Management",
+  "summary": "Sensor-test and manufacturing-engineering work associated with connected lighting controls.",
+  "status": "archived",
+  "visibility": "public",
+  "featured": false,
+  "context": "Delmatic Lighting Management"
+}

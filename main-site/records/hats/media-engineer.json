@@ -1,0 +1,44 @@
+{
+  "id": "4c90ba39-1520-4b75-bb03-ee178f9b093c",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "media-engineer",
+  "slug": "media-engineer",
+  "name": "Media Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "media",
+  "description": "Manages video/audio transport without drop‑out.",
+  "tags": {
+    "core": [
+      "transport",
+      "video",
+      "signal"
+    ],
+    "adjacent": [],
+    "meta": [
+      "reliability",
+      "sync"
+    ]
+  },
+  "weight": {
+    "base": 0.87,
+    "experience": 0.83,
+    "rarity": 0.58
+  },
+  "details": {
+    "overview": "Ensures media signals — audio, video, metadata — move reliably between devices, rooms or locations. Designs paths, formats, synchronisation and error handling so delivery is perfect every time. Works with SDI, HDMI, Dante, fibre, IP and file‑based workflows. Critical for broadcast, live events and complex installations where failure is not an option.",
+    "capabilities": [
+      "media routing",
+      "format management",
+      "synchronisation"
+    ],
+    "usedFor": [
+      "broadcast systems",
+      "live events",
+      "media distribution"
+    ]
+  }
+}

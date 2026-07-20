@@ -1,0 +1,44 @@
+{
+  "id": "ed043862-d852-44df-b1e6-6affb005a1b7",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "sensory-design-engineer",
+  "slug": "sensory-design-engineer",
+  "name": "Sensory Design Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "experiential",
+  "description": "Tunes every input to match human perception exactly.",
+  "tags": {
+    "core": [
+      "perception",
+      "calibration",
+      "human"
+    ],
+    "adjacent": [],
+    "meta": [
+      "comfort",
+      "impact"
+    ]
+  },
+  "weight": {
+    "base": 0.91,
+    "experience": 0.87,
+    "rarity": 0.76
+  },
+  "details": {
+    "overview": "Works with how people actually see, hear and feel. Adjusts levels, timing, colour and texture to fit human senses, not just technical measurements. Ensures the experience feels natural, balanced and powerful. Calibrates systems so what is intended is exactly what is perceived. Critical for comfort, clarity and emotional impact.",
+    "capabilities": [
+      "perception tuning",
+      "calibration",
+      "human-centric design"
+    ],
+    "usedFor": [
+      "high-fidelity systems",
+      "accessible environments",
+      "premium experiences"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "96d3d490-3589-4626-bd62-1122d170e861",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "data-modeler-applied-in-bamboograph-system-development",
+  "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "3946f995-5432-4f47-9ac7-d52b451192b1",
+  "targetType": "work",
+  "role": "primary"
+}

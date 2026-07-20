@@ -1,0 +1,56 @@
+{
+  "id": "ccb74e24-c530-4857-bcdc-8aac0f8cd28d",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "legacyKey": "foh-engineer",
+  "slug": "foh-engineer",
+  "name": "FOH Engineer",
+  "status": "published",
+  "category": "creative",
+  "type": "audio",
+  "description": "Mixing sound for the audience in live environments.",
+  "tags": {
+    "core": [
+      "live",
+      "front-of-house",
+      "audience"
+    ],
+    "adjacent": [],
+    "meta": [
+      "real-time",
+      "performance"
+    ]
+  },
+  "weight": {
+    "base": 0.9,
+    "experience": 0.85,
+    "rarity": 0.55
+  },
+  "relationships": [
+    {
+      "targetId": "18a1f123-7795-48fd-96b5-d6f1d83201ba",
+      "type": "dependency",
+      "strength": 0.85
+    },
+    {
+      "targetId": "360d556a-9def-413e-b4a6-5beda6bd8d39",
+      "type": "overlap",
+      "strength": 0.9
+    }
+  ],
+  "details": {
+    "overview": "Responsible for what the audience hears. Balancing every instrument, voice and effect in real time, adapting to the room, the performance and the moment. The goal is to make the live experience feel perfect. Working closely with the system design and monitor engineer; needs excellent ears, fast reaction and deep knowledge of the equipment and the music.",
+    "capabilities": [
+      "live mixing",
+      "real-time adjustment",
+      "audience focus"
+    ],
+    "usedFor": [
+      "concerts",
+      "festivals",
+      "live events"
+    ]
+  }
+}

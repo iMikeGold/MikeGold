@@ -1,0 +1,14 @@
+{
+  "id": "d2a1e506-26ee-4f0a-b0f1-186e8c6fb822",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "concept-engineer-applied-in-zenthapy-system-development",
+  "sourceId": "a09d0de5-8ad7-484f-946c-006be14e77f6",
+  "sourceType": "hat",
+  "relationshipType": "applied-in",
+  "targetId": "4027578a-9bdd-41c7-b6cc-b13b27cedb53",
+  "targetType": "work",
+  "role": "primary"
+}

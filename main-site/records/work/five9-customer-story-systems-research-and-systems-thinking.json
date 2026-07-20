@@ -1,0 +1,16 @@
+{
+  "id": "84ed1125-a7ca-4b97-a38b-d6f7edd54434",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "projectId": "858e7920-6970-491a-b732-6e1462c4025e",
+  "slug": "five9-customer-story-systems-research-and-systems-thinking",
+  "title": "Research and systems thinking",
+  "summary": "Analysis of connected operational and communication requirements within a customer-experience system.",
+  "status": "historical",
+  "visibility": "public",
+  "capabilityGroupIds": [
+    "system-product-definition"
+  ]
+}

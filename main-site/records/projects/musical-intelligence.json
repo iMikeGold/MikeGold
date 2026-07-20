@@ -1,0 +1,15 @@
+{
+  "id": "71ac31c2-c8a2-46e6-8e39-d25f15c2a98e",
+  "recordType": "project",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "slug": "musical-intelligence",
+  "name": "Musical Intelligence",
+  "summary": "Identity, content structure, responsive web experience and delivery work for an independent music platform.",
+  "status": "active-development",
+  "visibility": "public",
+  "featured": true,
+  "establishedYear": 2013,
+  "liveUrl": "https://musicalintelligence.co.uk"
+}
