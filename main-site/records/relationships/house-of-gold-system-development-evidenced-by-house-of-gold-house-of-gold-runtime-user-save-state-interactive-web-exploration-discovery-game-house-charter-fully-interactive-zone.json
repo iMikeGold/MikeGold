@@ -1,0 +1,13 @@
+{
+  "id": "ca081c70-b688-4e84-9638-b9a61fdae9f7",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "95d154f3-43d6-4607-a5e1-6fc6fa1fb8b0",
+  "targetType": "evidence"
+}

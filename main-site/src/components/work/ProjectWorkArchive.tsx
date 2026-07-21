@@ -7,24 +7,6 @@ import type { PublicHat } from "@/system/hats/hat.types";
 import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
 import type { PublicWorkProjection } from "@/system/work/work.types";
 
-const EVIDENCE_ROLE_ORDER: Record<CapabilityGroupId, string[]> = {
-  "physical-technical-engineering": ["application", "process", "reference", "interface", "cover", "identity"],
-  "system-product-definition": ["process", "application", "interface", "cover", "identity", "reference"],
-  "software-web-engineering": ["cover", "interface", "application", "identity", "process", "reference"],
-  "infrastructure-operations": ["interface", "cover", "reference", "process", "application", "identity"],
-  "brand-experience-systems": ["identity", "process", "application", "cover", "interface", "reference"],
-  "media-asset-systems": ["application", "process", "reference", "identity", "interface", "cover"],
-};
-
-const FOCUS_EVIDENCE_ROLES: Record<CapabilityGroupId, string[]> = {
-  "physical-technical-engineering": ["application", "process", "reference"],
-  "system-product-definition": ["process", "application", "interface", "cover", "identity"],
-  "software-web-engineering": ["cover", "interface"],
-  "infrastructure-operations": ["interface", "cover", "reference"],
-  "brand-experience-systems": ["identity", "process", "application"],
-  "media-asset-systems": ["application", "process", "reference", "identity"],
-};
-
 export default function ProjectWorkArchive({ work, hats, evidence }: {
   work: PublicWorkProjection[];
   hats: PublicHat[];
@@ -47,17 +29,6 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
       return leftContext - rightContext || (left.item.sequence ?? 999) - (right.item.sequence ?? 999) || left.index - right.index;
     })
     .map(({ item }) => item);
-  const deferredEvidence = area
-    ? [...new Map(
-        work
-          .flatMap((item) => item.evidenceSlugs)
-          .flatMap((slug) => {
-            const record = evidenceBySlug.get(slug);
-            return record && !FOCUS_EVIDENCE_ROLES[area].includes(record.role ?? "reference") ? [[record.slug, record] as const] : [];
-          }),
-      ).values()]
-    : [];
-
   return (
     <div className="project-work-sections">
       {orderedWork.map((item) => {
@@ -65,7 +36,6 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
         const itemEvidence = item.evidenceSlugs.flatMap((slug) => {
           const record = evidenceBySlug.get(slug);
           if (!record) return [];
-          if (area && !FOCUS_EVIDENCE_ROLES[area].includes(record.role ?? "reference")) return [];
           return [record];
         });
         return (
@@ -88,20 +58,11 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
             )}
             <EvidenceDisclosure
               evidence={itemEvidence}
-              roleOrder={area ? EVIDENCE_ROLE_ORDER[area] : undefined}
               defaultOpen={area ? isContextual : itemEvidence.some((record) => Boolean(record.assetPath && record.role !== "cover"))}
             />
           </article>
         );
       })}
-      {!!deferredEvidence.length && (
-        <article className="project-work-section project-deferred-evidence">
-          <div className="record-status-row"><span>PROJECT CONTEXT</span><span>Other disciplines</span></div>
-          <h3>Other project material</h3>
-          <p>Supporting work from outside the selected area remains available without interrupting this focused route.</p>
-          <EvidenceDisclosure evidence={deferredEvidence} defaultOpen={false} />
-        </article>
-      )}
     </div>
   );
 }

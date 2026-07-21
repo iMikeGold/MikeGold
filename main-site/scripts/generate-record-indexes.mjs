@@ -37,8 +37,36 @@ const typeImports = {
   PublicWorkProjection: "@/system/work/work.types",
   InternalEvidenceRecord: "@/system/evidence/evidence.types",
   PublicEvidenceProjection: "@/system/evidence/evidence.types",
+  PublicWorkCardProjection: "@/system/work/work.types",
   InternalRelationshipRecord: "@/system/relationships/relationship.types",
 };
+
+const lensFacetPriority = {
+  "physical-technical-engineering": ["installation", "hardware", "electronics", "live-audio", "video", "system-architecture", "photography", "project-overview"],
+  "system-product-definition": ["product-model", "system-architecture", "information-architecture", "application-interface", "website", "process", "project-overview", "identity-system", "logo"],
+  "software-web-engineering": ["website", "web-interface", "application-interface", "system-architecture", "deployment", "project-overview", "identity-system", "logo"],
+  "infrastructure-operations": ["deployment", "infrastructure", "operations", "system-architecture", "application-interface", "website", "project-overview"],
+  "brand-experience-systems": ["identity-system", "brand-application", "logo", "process", "web-interface", "website", "project-overview"],
+  "media-asset-systems": ["media-output", "video", "recording", "broadcast", "live-audio", "editorial", "photography", "application-interface", "website", "project-overview"],
+};
+
+function inferredFacets(record) {
+  if (record.presentation?.facets?.length) return record.presentation.facets;
+  if (record.evidenceType === "video") return ["video"];
+  if (record.evidenceType === "website") return ["website", "web-interface"];
+  return ({ cover: ["project-overview", "website"], interface: ["web-interface", "application-interface"], identity: ["identity-system", "logo"], process: ["process"], application: ["brand-application", "product-model"], reference: ["photography"] })[record.role] ?? ["project-overview"];
+}
+
+function youtubeThumbnail(url) {
+  if (!url) return undefined;
+  try {
+    const parsed = new URL(url);
+    let id = parsed.hostname === "youtu.be" ? parsed.pathname.slice(1).split("/")[0] : parsed.searchParams.get("v");
+    if (!id && parsed.pathname.includes("/embed/")) id = parsed.pathname.split("/embed/")[1]?.split("/")[0];
+    if (!id && parsed.pathname.includes("/shorts/")) id = parsed.pathname.split("/shorts/")[1]?.split("/")[0];
+    return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : undefined;
+  } catch { return undefined; }
+}
 
 const hats = readCollection("hats");
 const projects = readCollection("projects");
@@ -117,17 +145,18 @@ const publicWork = work
       .map((relationship) => byId.get(relationship.sourceId))
       .filter((hat) => hat?.recordType === "hat" && hat.status === "published")
       .map((hat) => hat.slug);
-    const evidenceSlugs = relationships
+    const evidenceRelationships = relationships
       .filter(
         (relationship) =>
           relationship.relationshipType === "evidenced-by" &&
           relationship.sourceId === record.id,
       )
-      .map((relationship) => byId.get(relationship.targetId))
-      .filter(
-        (item) => item?.recordType === "evidence" && item.visibility === "public",
-      )
-      .map((item) => item.slug);
+      .flatMap((relationship) => {
+        const item = byId.get(relationship.targetId);
+        if (item?.recordType !== "evidence" || item.visibility !== "public") return [];
+        return [{ relationship, item }];
+      });
+    const evidenceSlugs = evidenceRelationships.map(({ item }) => item.slug);
     return {
       slug: record.slug,
       projectSlug: project.slug,
@@ -139,6 +168,14 @@ const publicWork = work
       ...(record.stages ? { stages: record.stages } : {}),
       appliedHatSlugs,
       evidenceSlugs,
+      evidenceLinks: evidenceRelationships.map(({ relationship, item }) => ({
+        evidenceSlug: item.slug,
+        role: relationship.role ?? "supporting",
+        ...(relationship.supportedLensIds?.length ? { supportedLensIds: relationship.supportedLensIds } : {}),
+        ...(relationship.displayRoles?.length ? { displayRoles: relationship.displayRoles } : {}),
+        ...(Number.isFinite(relationship.priority) ? { priority: relationship.priority } : {}),
+      })),
+      ...(record.lensSummaries ? { lensSummaries: record.lensSummaries } : {}),
     };
   });
 
@@ -157,10 +194,66 @@ const publicEvidence = evidence
     ...(record.assetPath ? { assetPath: record.assetPath } : {}),
     ...(record.externalUrl ? { externalUrl: record.externalUrl } : {}),
     ...(record.thumbnailUrl ? { thumbnailUrl: record.thumbnailUrl } : {}),
+    ...(!record.thumbnailUrl && record.evidenceType === "video" && youtubeThumbnail(record.externalUrl) ? { thumbnailUrl: youtubeThumbnail(record.externalUrl) } : {}),
+    ...(record.presentation ? { presentation: record.presentation } : { presentation: { facets: inferredFacets(record), displayRoles: record.placeholder ? ["archive"] : ["lens-card", "supporting", "gallery"], visualQuality: record.role === "cover" ? "hero" : "standard", aspectPreference: "any" } }),
     ...(record.sourceTitle ? { sourceTitle: record.sourceTitle } : {}),
     ...(record.sourceAuthor ? { sourceAuthor: record.sourceAuthor } : {}),
     placeholder: record.placeholder,
   }));
+
+const publicEvidenceBySlug = new Map(publicEvidence.map((record) => [record.slug, record]));
+
+function scoreEvidence(record, links, lensId) {
+  if (!record || record.placeholder) return -Infinity;
+  const src = record.assetPath ?? record.thumbnailUrl;
+  if (!src) return -Infinity;
+  const facets = record.presentation?.facets ?? [];
+  const preference = lensId ? lensFacetPriority[lensId] : ["project-overview", "website", "application-interface", "identity-system", "video", "photography"];
+  const facetRank = Math.min(...facets.map((facet) => { const index = preference.indexOf(facet); return index < 0 ? 99 : index; }), 99);
+  const matchingLinks = links.filter((link) => link.evidenceSlug === record.slug);
+  const direct = matchingLinks.length ? 80 : 0;
+  const lensSupport = matchingLinks.some((link) => link.supportedLensIds?.includes(lensId)) ? 35 : 0;
+  const cardSuitable = record.presentation?.displayRoles?.includes("lens-card") ? 12 : 0;
+  const quality = record.presentation?.visualQuality === "hero" ? 8 : record.presentation?.visualQuality === "standard" ? 4 : 0;
+  const facetScore = facetRank === 99 ? 0 : Math.max(0, 45 - facetRank * 6);
+  const override = matchingLinks.reduce((best, link) => Math.min(best, link.priority ?? 999), 999);
+  return direct + lensSupport + cardSuitable + quality + facetScore - (override === 999 ? 0 : override / 1000);
+}
+
+const publicWorkCards = [];
+for (const project of publicProjects) {
+  const projectWork = publicWork.filter((item) => item.projectSlug === project.slug);
+  const lenses = [...new Set(projectWork.flatMap((item) => item.capabilityGroupIds))];
+  for (const lensId of [undefined, ...lenses]) {
+    const relevantWork = lensId ? projectWork.filter((item) => item.capabilityGroupIds.includes(lensId)) : projectWork;
+    if (!relevantWork.length) continue;
+    const orderedWork = [...relevantWork].sort((left, right) => (left.sequence ?? 999) - (right.sequence ?? 999) || left.slug.localeCompare(right.slug));
+    const allLinks = relevantWork.flatMap((item) => item.evidenceLinks);
+    const directEvidenceSlugs = new Set(allLinks.map((link) => link.evidenceSlug));
+    const projectEvidenceSlugs = new Set(projectWork.flatMap((item) => item.evidenceSlugs));
+    const candidates = [...new Set([...directEvidenceSlugs, ...projectEvidenceSlugs])]
+      .map((slug) => publicEvidenceBySlug.get(slug))
+      .filter(Boolean)
+      .map((record) => ({ record, score: scoreEvidence(record, allLinks, lensId) }))
+      .filter(({ score }) => Number.isFinite(score))
+      .sort((left, right) => right.score - left.score || (left.record.sequence ?? 999) - (right.record.sequence ?? 999) || left.record.slug.localeCompare(right.record.slug));
+    const visuals = candidates.slice(0, 3).map(({ record }) => ({ evidenceSlug: record.slug, src: record.assetPath ?? record.thumbnailUrl, alt: record.description ?? record.title, evidenceType: record.evidenceType }));
+    const leadHatSlugs = [...new Set(orderedWork.flatMap((item) => item.appliedHatSlugs))];
+    const summary = (lensId && orderedWork.find((item) => item.lensSummaries?.[lensId])?.lensSummaries?.[lensId]) ?? orderedWork[0]?.summary ?? project.summary;
+    publicWorkCards.push({
+      projectSlug: project.slug,
+      ...(lensId ? { lensId } : {}),
+      projectName: project.name,
+      contributionTitle: orderedWork.length === 1 ? orderedWork[0].title : orderedWork.map((item) => item.title).join(" · "),
+      summary,
+      relevantWorkSlugs: orderedWork.map((item) => item.slug),
+      leadHatSlugs: leadHatSlugs.slice(0, 4), supportingHatSlugs: leadHatSlugs.slice(4),
+      ...(visuals[0] ? { primaryVisual: visuals[0] } : {}), supportingVisuals: visuals.slice(1),
+      relevanceReasons: lensId ? [`${orderedWork.length} contribution${orderedWork.length === 1 ? "" : "s"} directly connected to this lens`, visuals[0] ? "Lead visual selected by semantic evidence fit" : "No usable visual evidence is registered"] : ["Canonical project overview"],
+      href: lensId ? `/projects/${project.slug}?area=${lensId}` : `/projects/${project.slug}`,
+    });
+  }
+}
 
 mkdirSync(generatedDirectory, { recursive: true });
 
@@ -170,6 +263,13 @@ writeGenerated(
   "internalHatRecords",
   hats,
   true,
+);
+writeGenerated(
+  "public-work-cards.generated.ts",
+  "PublicWorkCardProjection",
+  "publicWorkCards",
+  publicWorkCards,
+  false,
 );
 writeGenerated(
   "public-hats.generated.ts",
@@ -233,6 +333,7 @@ const publicSerialization = JSON.stringify([
   publicProjects,
   publicWork,
   publicEvidence,
+  publicWorkCards,
 ]);
 for (const record of allRecords) {
   if (publicSerialization.includes(record.id)) {

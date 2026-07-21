@@ -545,6 +545,15 @@ width:100%;
   border-top: 1px solid #292929;
   padding-top: 1rem;
 }
+.service-intent-results section:first-child { grid-column: 1 / -1; }
+.service-module-results { display: grid; gap: .65rem; margin-top: .75rem; }
+.service-module-results article { border: 1px solid #292929; padding: .8rem; }
+.service-module-results article > span { color: #79a9ff; font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; }
+.service-module-results h3 { margin: .35rem 0; font-size: .95rem; }
+.service-module-results ul { margin: .5rem 0 0; padding-left: 1.1rem; color: #aaa; font-size: .78rem; }
+.service-phase-results { display: grid; gap: .7rem; padding-left: 1.4rem; }
+.service-phase-results li { padding-left: .3rem; }
+.service-phase-results span { display: block; margin-top: .2rem; color: #888; font-size: .78rem; }
 
 .service-hat-results { display: flex; flex-wrap: wrap; gap: .45rem; }
 .service-hat-results a {
@@ -567,6 +576,11 @@ width:100%;
 .service-work-result span,
 .service-intent-results p { color: #888; font-size: .8rem; }
 .service-engine-explanation { max-width: 760px; margin-top: 2.5rem; }
+.engine-configuration-explainer { margin-top: 2.5rem; }
+.engine-stack-visuals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; }
+.engine-stack-visuals figure { margin: 0; border: 1px solid #292929; background: #090909; }
+.engine-stack-visuals img { display: block; width: 100%; height: auto; }
+.engine-stack-visuals figcaption { padding: .5rem .65rem; color: #888; font-size: .72rem; }
 .hero .service-intent-explorer { margin-top: 1rem; }
 
 .service-qualification-result {
@@ -662,6 +676,7 @@ width:100%;
 .project-work-section h3 {
   margin: .8rem 0 .4rem;
 }
+.project-record-card h4 { margin: .35rem 0 .4rem; font-size: .9rem; line-height: 1.35; }
 
 .project-record-card > p,
 .work-record-card p,
@@ -900,6 +915,7 @@ width:100%;
   .project-evidence-preview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-evidence-preview figure:nth-child(n+3) { display: none; }
   .service-intent-results { grid-template-columns: 1fr; }
+  .engine-stack-visuals { grid-template-columns: 1fr; }
   .work-route-banner { align-items: flex-start; flex-direction: column; }
   .work-route-banner > button { margin-left: 0; }
 }

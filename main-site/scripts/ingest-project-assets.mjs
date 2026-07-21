@@ -23,6 +23,7 @@ const folderProjects = {
   just_enterprises: "just-enterprises",
   metroplist: "metroplist",
   mickz: "mickz",
+  mike_gold: "mikegold-engineer",
   multiplied_intelligence: "multiplied-intelligence",
   musical_intelligence: "musical-intelligence",
   ourgani: "ourgani",
@@ -37,6 +38,7 @@ const folderProjects = {
 };
 
 const preferredWork = {
+  "mikegold-engineer": { default: "mikegold-engineer-system-development" },
   mickz: {
     branding_systems: "mickz-identity-development",
     mock_ups: "mickz-product-system",
@@ -131,6 +133,8 @@ function roleFor(parts, filename, projectFolder) {
     return stem === mainWebsiteStem ? "cover" : "interface";
   }
   if (filename.toLowerCase().includes("website")) return "cover";
+  if (path.includes("hat_registry_system") || path.includes("spider_polygon")) return "interface";
+  if (path.includes("runtime-user-save-state")) return "interface";
   if (path.includes("mock_ups")) return "application";
   if (path.includes("logo")) return "identity";
   if (path.includes("branding") || path.includes("design_evolutions")) return "process";
@@ -211,6 +215,10 @@ for (const asset of filesBelow(assetRoot).sort()) {
     sourceTitle: existing?.sourceTitle ?? project.name,
     ...(existing?.phase ? { phase: existing.phase } : {}),
     ...(existing?.period ? { period: existing.period } : {}),
+    ...(existing?.previewSequence !== undefined ? { previewSequence: existing.previewSequence } : {}),
+    ...(existing?.externalUrl ? { externalUrl: existing.externalUrl } : {}),
+    ...(existing?.thumbnailUrl ? { thumbnailUrl: existing.thumbnailUrl } : {}),
+    ...(existing?.presentation ? { presentation: existing.presentation } : {}),
     placeholder: false,
   });
   existing ? updated++ : created++;

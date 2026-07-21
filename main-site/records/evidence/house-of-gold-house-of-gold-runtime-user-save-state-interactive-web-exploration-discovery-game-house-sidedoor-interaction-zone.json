@@ -1,0 +1,17 @@
+{
+  "id": "1c021a63-ea7f-4ace-9393-9c560e33f41b",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+  "title": "House of Gold — interface study 06",
+  "description": "Interface evidence from the House of Gold digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 6,
+  "visibility": "public",
+  "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-sidedoor-interaction-zone.webp",
+  "sourceTitle": "House of Gold",
+  "placeholder": false
+}

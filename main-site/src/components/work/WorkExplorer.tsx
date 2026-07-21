@@ -5,30 +5,20 @@ import { useEffect, useMemo, useState } from "react";
 import type { PublicHat } from "@/system/hats/hat.types";
 import type { PublicProjectProjection } from "@/system/projects/project.types";
 import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
-import type { PublicWorkProjection } from "@/system/work/work.types";
-import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
+import type { PublicWorkCardProjection, PublicWorkProjection } from "@/system/work/work.types";
 
 type View = "projects" | "work" | "capabilities";
-
-const AREA_EVIDENCE_ROLES: Record<CapabilityGroupId, string[]> = {
-  "physical-technical-engineering": ["application", "reference", "process"],
-  "system-product-definition": ["process", "application", "interface", "identity"],
-  "software-web-engineering": ["cover", "interface"],
-  "infrastructure-operations": ["interface", "cover", "reference"],
-  "brand-experience-systems": ["identity", "process", "application"],
-  "media-asset-systems": ["application", "process", "reference", "identity"],
-};
 
 export default function WorkExplorer({
   projects,
   work,
   hats,
-  evidence,
+  cards,
 }: {
   projects: PublicProjectProjection[];
   work: PublicWorkProjection[];
   hats: PublicHat[];
-  evidence: PublicEvidenceProjection[];
+  cards: PublicWorkCardProjection[];
 }) {
   const [view, setView] = useState<View>("projects");
   const [query, setQuery] = useState("");
@@ -58,10 +48,6 @@ export default function WorkExplorer({
     [work],
   );
   const normalizedQuery = query.trim().toLowerCase();
-  const evidenceBySlug = useMemo(
-    () => new Map(evidence.map((item) => [item.slug, item])),
-    [evidence],
-  );
   const visibleWork = work.filter((item) => {
     const matchesQuery =
       !normalizedQuery ||
@@ -80,6 +66,10 @@ export default function WorkExplorer({
       `${project.name} ${project.summary}`.toLowerCase().includes(normalizedQuery) ||
       visibleProjectSlugs.has(project.slug)
     );
+  });
+  const visibleCards = visibleProjects.flatMap((project) => {
+    const card = cards.find((item) => item.projectSlug === project.slug && item.lensId === (groupFilter || undefined));
+    return card ? [card] : [];
   });
 
   return (
@@ -157,7 +147,7 @@ export default function WorkExplorer({
               className={view === option ? "is-active" : ""}
               onClick={() => setView(option)}
             >
-              {option}
+              {{ projects: "Selected Work", work: "Contributions", capabilities: "Capabilities" }[option]}
             </button>
           ))}
         </div>
@@ -200,48 +190,19 @@ export default function WorkExplorer({
       {view === "projects" && (
         <>
         <div className="project-record-grid">
-          {visibleProjects.map((project) => {
-            const projectWork = work.filter((item) => item.projectSlug === project.slug);
-            const contextualWork = groupFilter
-              ? projectWork.filter((item) => item.capabilityGroupIds.includes(groupFilter))
-              : projectWork;
-            contextualWork.sort((left, right) => (left.sequence ?? 999) - (right.sequence ?? 999));
-            const projectEvidenceWithDuplicates = contextualWork
-              .flatMap((item) => item.evidenceSlugs)
-              .flatMap((slug) => {
-                const record = evidenceBySlug.get(slug);
-                return record ? [record] : [];
-              });
-            const projectEvidence = [...new Map(projectEvidenceWithDuplicates.map((item) => [item.slug, item])).values()];
-            const roleOrder = groupFilter ? AREA_EVIDENCE_ROLES[groupFilter] : ["cover", "identity", "process", "application", "interface", "reference"];
-            const visualEvidence = projectEvidence
-              .filter((item) => item.assetPath)
-              .sort((left, right) => {
-                const roleDifference = roleOrder.indexOf(left.role ?? "reference") - roleOrder.indexOf(right.role ?? "reference");
-                return roleDifference || (left.sequence ?? 0) - (right.sequence ?? 0);
-              });
-            const areaEvidence = groupFilter
-              ? visualEvidence.filter((item) => roleOrder.includes(item.role ?? "reference"))
-              : visualEvidence;
-            const previewEvidence = areaEvidence.some((item) => item.previewSequence !== undefined)
-              ? areaEvidence
-                  .filter((item) => item.previewSequence !== undefined)
-                  .sort((left, right) => (left.previewSequence ?? 999) - (right.previewSequence ?? 999))
-              : areaEvidence;
-            const relevantVisuals = groupFilter
-              ? previewEvidence.slice(0, 3)
-              : previewEvidence.slice(0, 1);
-            const capabilityCount = new Set(
-              projectWork.flatMap((item) => item.appliedHatSlugs),
-            ).size;
+          {visibleCards.map((card) => {
+            const project = projects.find((item) => item.slug === card.projectSlug)!;
+            const relevantVisuals = [card.primaryVisual, ...card.supportingVisuals].filter(
+              (item): item is NonNullable<typeof item> => Boolean(item),
+            );
+            const capabilityCount = card.leadHatSlugs.length + card.supportingHatSlugs.length;
             return (
               <article className="project-record-card" key={project.slug}>
                 {!!relevantVisuals.length && (
                   <div className={`project-evidence-preview project-evidence-preview-${Math.min(relevantVisuals.length, 3)}`}>
                     {relevantVisuals.map((item) => (
-                      <figure key={item.slug}>
-                        <img src={item.assetPath} alt={item.title} loading="lazy" />
-                        <figcaption>{item.title}</figcaption>
+                      <figure key={item.evidenceSlug}>
+                        <img src={item.src} alt={item.alt} loading="lazy" />
                       </figure>
                     ))}
                   </div>
@@ -250,20 +211,18 @@ export default function WorkExplorer({
                   <span>{project.status.replaceAll("-", " ")}</span>
                   <span>{project.context ?? project.establishedYear ?? "Period being documented"}</span>
                 </div>
-                <h3>{project.name}</h3>
-                <p>{groupFilter ? contextualWork[0]?.summary ?? project.summary : project.summary}</p>
-                {groupFilter && contextualWork.length > 0 && (
-                  <div className="project-context-work" aria-label="Relevant work">
-                    {contextualWork.map((item) => <span key={item.slug}>{item.title}</span>)}
-                  </div>
-                )}
+                <span className="work-project-label">PROJECT</span>
+                <h3>{card.projectName}</h3>
+                <span className="work-project-label">CONTRIBUTION</span>
+                <h4>{card.contributionTitle}</h4>
+                <p>{card.summary}</p>
                 <div className="record-measures">
                   <span>
-                    {projectWork.length} work record{projectWork.length === 1 ? "" : "s"}
+                    {card.relevantWorkSlugs.length} contribution{card.relevantWorkSlugs.length === 1 ? "" : "s"}
                   </span>
                   <span>{capabilityCount} applied Hats</span>
                 </div>
-                <Link href={projectHref(project.slug)}>Open project record →</Link>
+                <Link href={card.href}>View work →</Link>
               </article>
             );
           })}

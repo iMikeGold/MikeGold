@@ -1,0 +1,18 @@
+{
+  "id": "e4bd4e4b-4b84-4dde-b3d0-59882eb64327",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
+  "title": "One Hat activates its capability profile",
+  "description": "A single selected Hat establishes the first weighted cognitive and delivery profile in the Registry engine.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/1-hat-polygon-graph-map-display.webp",
+  "sourceTitle": "MikeGold.co.uk",
+  "presentation": { "facets": ["application-interface", "system-architecture"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "placeholder": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b18dd3d8-f43a-4eab-8922-e3d74cf21e30",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "mikegold-engineer-system-development-evidenced-by-mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph",
+  "sourceId": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "373d6188-5721-43ac-baa6-3eabfdddd259",
+  "targetType": "evidence"
+}

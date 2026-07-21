@@ -474,6 +474,23 @@ export const internalEvidenceRecords = [
     "placeholder": false
   },
   {
+    "id": "5ad8f7dd-26f5-436a-a11e-c13792ada5d2",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "community-supplies-community-supplies-logo-design-logo-main",
+    "title": "Community Supplies — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "visibility": "public",
+    "assetPath": "/images/projects/community_supplies/logo_design/logo-main.webp",
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
     "id": "51275f9b-cdbf-48fc-847e-f6beb71b9629",
     "recordType": "evidence",
     "schemaVersion": 1,
@@ -1008,6 +1025,125 @@ export const internalEvidenceRecords = [
     "placeholder": false
   },
   {
+    "id": "863cbc73-1996-4f85-86b8-00e5fa2a2f6f",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+    "title": "House of Gold — interface study 01",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "95d154f3-43d6-4607-a5e1-6fc6fa1fb8b0",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+    "title": "House of Gold — interface study 02",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 2,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "f48649a8-73b9-4be6-96f7-5131178f03ed",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+    "title": "House of Gold — interface study 03",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 3,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "935217a2-0126-4ee3-bf99-f23d7731e018",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+    "title": "House of Gold — interface study 04",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 4,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "5d5d6629-c623-447d-a341-83da2f07fe75",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+    "title": "House of Gold — interface study 05",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 5,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone2.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "1c021a63-ea7f-4ace-9393-9c560e33f41b",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+    "title": "House of Gold — interface study 06",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 6,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-sidedoor-interaction-zone.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "id": "a6f62af2-b718-4fb6-9d87-93d42d61e110",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+    "title": "House of Gold — interface study 07",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 7,
+    "visibility": "public",
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/interactiion-adaptive-menu.webp",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
     "id": "76cad9f3-b482-4616-a90c-47bc473fae66",
     "recordType": "evidence",
     "schemaVersion": 1,
@@ -1509,6 +1645,126 @@ export const internalEvidenceRecords = [
     "evidenceType": "placeholder",
     "visibility": "public",
     "placeholder": true
+  },
+  {
+    "id": "e4bd4e4b-4b84-4dde-b3d0-59882eb64327",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
+    "title": "One Hat activates its capability profile",
+    "description": "A single selected Hat establishes the first weighted cognitive and delivery profile in the Registry engine.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "visibility": "public",
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/1-hat-polygon-graph-map-display.webp",
+    "sourceTitle": "MikeGold.co.uk",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
+  },
+  {
+    "id": "1bbbeeb6-b74d-4028-9c35-5c32684d7e19",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
+    "title": "Two Hats recalculate the combined profile",
+    "description": "Adding a second capability changes the combined attribute wheel while retaining each Hat as an explainable layer.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 2,
+    "visibility": "public",
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/2-hats-polygon-graph-map-display.webp",
+    "sourceTitle": "MikeGold.co.uk",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
+  },
+  {
+    "id": "cc0b5976-0e5f-483a-970d-73618cef12fc",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
+    "title": "Three Hats form a service configuration",
+    "description": "The third Hat demonstrates how complementary skills stack into a broader, recalculated service configuration rather than a flat search result.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 3,
+    "visibility": "public",
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/3-hats-polygon-graph-map-display.webp",
+    "sourceTitle": "MikeGold.co.uk",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
+  },
+  {
+    "id": "373d6188-5721-43ac-baa6-3eabfdddd259",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T18:40:51.823Z",
+    "updatedAt": "2026-07-21T18:40:51.823Z",
+    "slug": "mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph",
+    "title": "Weighted capability polygon",
+    "description": "The attribute wheel makes the engine’s balance of depth, creativity, scale, interaction, structure and influence visible and comparable.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 4,
+    "visibility": "public",
+    "assetPath": "/images/projects/mike_gold/website_components/spider_polygon/hat-polygon-graph.webp",
+    "sourceTitle": "MikeGold.co.uk",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "information-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
   },
   {
     "id": "51b3efa8-9da2-4ba9-83b2-480ba73af1a3",
@@ -2213,7 +2469,7 @@ export const internalEvidenceRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "viisiioiiv-documentation-pending",
-    "title": "Viisiioiiv project evidence",
+    "title": "VIISIIOIIV project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "visibility": "public",

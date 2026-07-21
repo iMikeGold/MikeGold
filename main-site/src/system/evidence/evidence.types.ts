@@ -25,6 +25,29 @@ export const EVIDENCE_ROLES = [
 
 export type EvidenceRole = (typeof EVIDENCE_ROLES)[number];
 
+export const EVIDENCE_FACETS = [
+  "project-overview", "website", "web-interface", "application-interface",
+  "identity-system", "logo", "brand-application", "product-model",
+  "system-architecture", "information-architecture", "process", "deployment",
+  "infrastructure", "operations", "hardware", "electronics", "installation",
+  "live-audio", "recording", "broadcast", "video", "photography", "editorial",
+  "media-output",
+] as const;
+export type EvidenceFacet = (typeof EVIDENCE_FACETS)[number];
+
+export const EVIDENCE_DISPLAY_ROLES = [
+  "project-cover", "lens-card", "work-hero", "supporting", "gallery", "archive",
+] as const;
+export type EvidenceDisplayRole = (typeof EVIDENCE_DISPLAY_ROLES)[number];
+
+export interface EvidencePresentation {
+  facets: EvidenceFacet[];
+  displayRoles: EvidenceDisplayRole[];
+  visualQuality?: "hero" | "standard" | "supporting" | "archive";
+  focalPoint?: { x: number; y: number };
+  aspectPreference?: "landscape" | "portrait" | "square" | "any";
+}
+
 export interface InternalEvidenceRecord
   extends BaseRecord<EvidenceId, "evidence"> {
   slug: string;
@@ -40,6 +63,7 @@ export interface InternalEvidenceRecord
   assetPath?: string;
   externalUrl?: string;
   thumbnailUrl?: string;
+  presentation?: EvidencePresentation;
   sourceTitle?: string;
   sourceAuthor?: string;
   placeholder: boolean;
@@ -58,6 +82,7 @@ export interface PublicEvidenceProjection {
   assetPath?: string;
   externalUrl?: string;
   thumbnailUrl?: string;
+  presentation?: EvidencePresentation;
   sourceTitle?: string;
   sourceAuthor?: string;
   placeholder: boolean;

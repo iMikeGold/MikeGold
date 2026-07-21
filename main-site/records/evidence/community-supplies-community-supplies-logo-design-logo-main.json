@@ -1,0 +1,17 @@
+{
+  "id": "5ad8f7dd-26f5-436a-a11e-c13792ada5d2",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "community-supplies-community-supplies-logo-design-logo-main",
+  "title": "Community Supplies — identity development 01",
+  "description": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/logo_design/logo-main.webp",
+  "sourceTitle": "Community Supplies",
+  "placeholder": false
+}

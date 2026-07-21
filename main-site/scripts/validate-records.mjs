@@ -21,6 +21,7 @@ const allowedCapabilityGroups = new Set([
 const allowedEvidenceRoles = new Set([
   "cover", "interface", "identity", "process", "application", "reference",
 ]);
+const allowedEvidenceFacets = new Set(["project-overview", "website", "web-interface", "application-interface", "identity-system", "logo", "brand-application", "product-model", "system-architecture", "information-architecture", "process", "deployment", "infrastructure", "operations", "hardware", "electronics", "installation", "live-audio", "recording", "broadcast", "video", "photography", "editorial", "media-output"]);
 const errors = [];
 const warnings = [];
 
@@ -124,6 +125,10 @@ for (const entry of collections.evidence) {
     const asset = join(projectRoot, "public", entry.value.assetPath.replace(/^\//, ""));
     if (!existsSync(asset)) errors.push(`${entry.file} references missing asset ${entry.value.assetPath}.`);
   }
+  for (const facet of entry.value.presentation?.facets ?? []) {
+    if (!allowedEvidenceFacets.has(facet)) errors.push(`${entry.file} has unknown evidence facet ${facet}.`);
+  }
+  if (entry.value.visibility === "public" && !entry.value.title) errors.push(`${entry.file} has no accessible alternative title.`);
 }
 
 for (const entry of collections.relationship) {
@@ -131,6 +136,18 @@ for (const entry of collections.relationship) {
     if (!allById.has(entry.value[field])) {
       errors.push(`${entry.file} has missing ${field} ${entry.value[field]}.`);
     }
+  }
+  for (const lensId of entry.value.supportedLensIds ?? []) {
+    if (!allowedCapabilityGroups.has(lensId)) errors.push(`${entry.file} has unknown supported lens ${lensId}.`);
+  }
+}
+
+const evidenceIdsLinkedFromWork = new Set(collections.relationship
+  .filter((entry) => entry.value.relationshipType === "evidenced-by" && entry.value.sourceType === "work")
+  .map((entry) => entry.value.targetId));
+for (const entry of collections.evidence) {
+  if (entry.value.visibility === "public" && !entry.value.placeholder && !evidenceIdsLinkedFromWork.has(entry.value.id)) {
+    errors.push(`${entry.file} is public evidence attached to no Work Contribution.`);
   }
 }
 
@@ -171,6 +188,14 @@ if (existsSync(outDirectory)) {
   }
 }
 
+const registeredAssets = new Map(collections.evidence.flatMap((entry) => entry.value.assetPath ? [[entry.value.assetPath, entry.file]] : []));
+const publicProjectAssetRoot = join(projectRoot, "public", "images", "projects");
+const discoveredAssets = outputFiles(publicProjectAssetRoot)
+  .filter((path) => !path.endsWith(".DS_Store"))
+  .map((path) => `/${path.slice(join(projectRoot, "public").length + 1).replaceAll("\\\\", "/")}`);
+const unregisteredAssets = discoveredAssets.filter((asset) => !registeredAssets.has(asset));
+for (const asset of unregisteredAssets) warnings.push(`Unregistered public asset ${asset}.`);
+
 for (const entry of collections.project) {
   if (!collections.work.some((work) => work.value.projectId === entry.value.id)) {
     warnings.push(`${entry.file} has no Work records.`);
@@ -185,6 +210,7 @@ console.log(
       ),
       errors,
       warnings,
+      assets: { discovered: discoveredAssets.length, registered: discoveredAssets.length - unregisteredAssets.length, unregistered: unregisteredAssets },
     },
     null,
     2,

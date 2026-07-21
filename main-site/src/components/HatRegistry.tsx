@@ -220,8 +220,8 @@ export default function HatRegistry() {
       {/* 3. REST OF YOUR EXACT CODE — NO CHANGES */}
       <div id="hat-registry-root" style={{
         position: "relative",
-        height: isMobile ? "100dvh" : "calc(100dvh - 72px)",
-        minHeight: isMobile ? "100dvh" : "calc(100dvh - 72px)",
+        height: isMobile ? "100dvh" : "calc(100dvh - 56px)",
+        minHeight: isMobile ? "100dvh" : "calc(100dvh - 56px)",
         display: isPortrait && isMobile ? "flex" : "block",
         flexDirection: "column",
         background: "#0a0a0a",
@@ -230,33 +230,10 @@ export default function HatRegistry() {
         overflow: "hidden"
       }}>
 
-        {/* HEADER */}
+        {/* LEFT PANEL */}
         <div style={{
           position: "absolute",
           top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 60,
-          background: "#0a0a0a",
-          borderBottom: "1px solid #222",
-          padding: "6px 12px 4px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between"
-        }}>
-          <div 
-            onClick={resetAll}
-            style={{ display:"flex", alignItems:"center", gap:8, cursor:"pointer" }}
-          >
-            
-          </div>
-          <div style={{ fontSize:12, opacity:0.4, flexShrink:0, whiteSpace:"nowrap" }}>Creative Media & Design Engineering</div>
-        </div>
-
-        {/* LEFT PANEL — EXACT SPACE, NO OVERLAP */}
-        <div style={{
-          position: "absolute",
-          top: "44px",
           left: 0,
           bottom: activeHat && isMobile && isPortrait ? "58dvh" : "56px",
           width: isMobile ? "100%" : (activeHat ? `calc(100% - ${drawerWidth}px)` : "100%"),
@@ -503,10 +480,10 @@ export default function HatRegistry() {
         {activeHat && (
           <div style={{
             position: "fixed",
-            top: isPortrait && isMobile ? "42dvh" : "72px",
+            top: isPortrait && isMobile ? "42dvh" : "56px",
             right: 0,
             width: isPortrait && isMobile ? "100%" : `${drawerWidth}px`,
-            height: isPortrait && isMobile ? "58dvh" : "calc(100dvh - 72px)",
+            height: isPortrait && isMobile ? "58dvh" : "calc(100dvh - 56px)",
             minWidth: DRAWER_MIN_WIDTH,
             maxWidth: DRAWER_MAX_WIDTH,
             overflowY: "hidden",

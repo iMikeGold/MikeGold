@@ -30,6 +30,52 @@ export const publicWork = [
       "118-sports-118sports-mock-ups-118-pale-gold-jersey-mockup",
       "118-sports-118sports-mock-ups-118-purple-goldrising-jersey-mockup",
       "118-sports-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "118-sports-118sports-118sports-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-branding-systems-118-rising-crest",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-branding-systems-rising-crest-2tone",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-branding-systems-rising-crest1",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-branding-systems-rising-crest2",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-logo-design-118-juve",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-logo-design-118-oval-gold",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-mock-ups-118-pale-gold-centre-jersey-mockup",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-mock-ups-118-pale-gold-jersey-mockup",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-mock-ups-118-purple-goldrising-jersey-mockup",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "118-sports-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -48,6 +94,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "2xu-wetsuit-testing-distribution-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "2xu-wetsuit-testing-distribution-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -67,6 +119,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "bamboograph-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "bamboograph-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -87,6 +145,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "best-indies-best-indies-best-indies-website",
       "best-indies-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "best-indies-best-indies-best-indies-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "best-indies-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -105,6 +173,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "bjorr-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "bjorr-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -125,6 +199,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "bluedot-festival-the-orb-live-sound-system-design-and-installation-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "bluedot-festival-the-orb-live-sound-system-design-and-installation-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -146,6 +226,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "bonsai-tree-of-life-bonsaitol-bonsaitol-website",
       "bonsai-tree-of-life-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "bonsai-tree-of-life-bonsaitol-bonsaitol-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bonsai-tree-of-life-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -164,6 +254,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "bristow-operational-excellence-electronics-systems-engineering-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "bristow-operational-excellence-electronics-systems-engineering-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -181,6 +277,12 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [
       "cannvent-cannvent-web-development-cannvent-app-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "cannvent-cannvent-web-development-cannvent-app-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -198,6 +300,12 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [
       "cannvent-cannvent-web-development-cannvent-space-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "cannvent-cannvent-web-development-cannvent-space-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -224,6 +332,32 @@ export const publicWork = [
       "cannvent-cannvent-logo-design-logo-design-concepts",
       "cannvent-cannvent-logo-design-main-logo-design-green-gold",
       "cannvent-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "cannvent-cannvent-cannvent-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "cannvent-cannvent-logo-design-cannvent-gold-leaf-transparent",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "cannvent-cannvent-logo-design-logo-design-concepts",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "cannvent-cannvent-logo-design-main-logo-design-green-gold",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "cannvent-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -245,7 +379,22 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "community-supplies-community-supplies-community-suuplies-website",
+      "community-supplies-community-supplies-logo-design-logo-main",
       "community-supplies-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "community-supplies-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -264,6 +413,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "croydon-womens-network-iwd-camera-systems-and-setup-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "croydon-womens-network-iwd-camera-systems-and-setup-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -283,6 +438,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "crystal-palace-overground-festival-distribution-systems-and-signal-flow-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "crystal-palace-overground-festival-distribution-systems-and-signal-flow-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -301,6 +462,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -320,6 +487,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -339,6 +512,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "delta-elektronika-power-systems-firmware-build-and-installation-engineering-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "delta-elektronika-power-systems-firmware-build-and-installation-engineering-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -356,6 +535,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "fbc-london-shopping-with-grant-playout-systems-setup-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "fbc-london-shopping-with-grant-playout-systems-setup-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -395,6 +580,40 @@ export const publicWork = [
       "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
       "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
       "findthy-findthy-logo-designs-design-systems-findthy-concept4-green"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-final-findthy-main-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-final-findthy-main-gold",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-final-findthy-main-green",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -416,6 +635,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "findthy-documentation-pending",
       "findthy-findthy-findthy-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "findthy-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-findthy-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -434,6 +663,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "five9-customer-story-systems-research-and-systems-thinking-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "five9-customer-story-systems-research-and-systems-thinking-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -452,6 +687,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "five9-customer-story-systems-server-systems-and-configuration-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "five9-customer-story-systems-server-systems-and-configuration-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -473,6 +714,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "gouldbourne-management-documentation-pending",
       "gouldbourne-management-gouldbourne-web-development-gouldbourne-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "gouldbourne-management-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "gouldbourne-management-gouldbourne-web-development-gouldbourne-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -496,6 +747,24 @@ export const publicWork = [
       "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
       "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
       "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "gouldbourne-registry-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -517,7 +786,52 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "house-of-gold-documentation-pending",
-      "house-of-gold-house-of-gold-house-of-gold-website"
+      "house-of-gold-house-of-gold-house-of-gold-website",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "house-of-gold-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -536,6 +850,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -559,6 +879,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "imikegold-documentation-pending",
       "imikegold-imikegold-imikegold-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "imikegold-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "imikegold-imikegold-imikegold-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -581,6 +911,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "just-enterprises-documentation-pending",
       "just-enterprises-just-enterprises-just-enterprises-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "just-enterprises-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "just-enterprises-just-enterprises-just-enterprises-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -600,6 +940,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "living-control-media-servers-multimedia-distribution-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "living-control-media-servers-multimedia-distribution-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -617,6 +963,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "living-control-media-servers-pcb-prototyping-and-design-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "living-control-media-servers-pcb-prototyping-and-design-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -634,6 +986,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "malaria-hotspot-production-creative-production-management-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "malaria-hotspot-production-creative-production-management-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -652,6 +1010,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "mars-delight-kung-fu-media-management-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "mars-delight-kung-fu-media-management-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -678,6 +1042,36 @@ export const publicWork = [
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2-language-explained",
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2",
       "metroplist-metroplist-metroplist-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "metroplist-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master1",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2-language-explained",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "metroplist-metroplist-metroplist-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -693,6 +1087,12 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [
       "mickz-mickz-mickz-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "mickz-mickz-mickz-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -732,6 +1132,32 @@ export const publicWork = [
       "mickz-mickz-branding-systems-mickz",
       "mickz-mickz-branding-systems-tea-mickz-main",
       "mickz-identity-development"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "mickz-mickz-branding-systems-drinks-mickz-main",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-branding-systems-mickz-jungle-mix",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-branding-systems-mickz-main-ocean-blue",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-branding-systems-mickz",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-branding-systems-tea-mickz-main",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-identity-development",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -774,6 +1200,36 @@ export const publicWork = [
       "mickz-mickz-mock-ups-mickz-hibiscus",
       "mickz-mickz-mock-ups-pickle-mickz",
       "mickz-mickz-mock-ups-sorrel-mickz-tea"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "mickz-product-system",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-bissy-mickz-tea",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-coffee-mickz-tea",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-hot-mickz",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-mickz-hibiscus",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-sorrel-mickz-tea",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -794,7 +1250,33 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "mikegold-engineer-documentation-pending"
+      "mikegold-engineer-documentation-pending",
+      "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
+      "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
+      "mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
+      "mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "mikegold-engineer-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -817,6 +1299,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "multiplied-intelligence-documentation-pending",
       "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "multiplied-intelligence-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -834,6 +1326,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "musical-intelligence-content-architecture"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "musical-intelligence-content-architecture",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -848,7 +1346,8 @@ export const publicWork = [
     "appliedHatSlugs": [
       "deployment-engineer"
     ],
-    "evidenceSlugs": []
+    "evidenceSlugs": [],
+    "evidenceLinks": []
   },
   {
     "slug": "musical-intelligence-identity-restoration",
@@ -886,6 +1385,36 @@ export const publicWork = [
       "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
       "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
       "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-mi3-main-red2-cropped-transparent",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-1",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -905,6 +1434,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "musical-intelligence-web-experience",
       "musical-intelligence-musical-intelligence-musical-intelligence-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "musical-intelligence-web-experience",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -919,6 +1458,12 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [
       "ourgani-ourgani-logo-design-ourganiyinyang-logo-1-0"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "ourgani-ourgani-logo-design-ourganiyinyang-logo-1-0",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -940,6 +1485,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "ourgani-documentation-pending",
       "ourgani-ourgani-ourgani"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "ourgani-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "ourgani-ourgani-ourgani",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -959,6 +1514,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -981,6 +1542,32 @@ export const publicWork = [
       "protosynthesis-protosynthesis-web-developement-protosynthesis-media-page-website",
       "protosynthesis-protosynthesis-web-developement-protosynthesis-media-website",
       "protosynthesis-protosynthesis-web-developement-protosynthesis-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-media-page-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-media-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1004,6 +1591,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "protosynthesis-documentation-pending",
       "protosynthesis-protosynthesis-logo-protosynthesis-7dot-logo-only-main-protoglyph-design2-2"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "protosynthesis-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-logo-protosynthesis-7dot-logo-only-main-protoglyph-design2-2",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1022,6 +1619,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "rockett-home-rentals-company-film-camera-operation-and-workflow-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "rockett-home-rentals-company-film-camera-operation-and-workflow-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1058,6 +1661,28 @@ export const publicWork = [
       "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
       "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
       "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1077,6 +1702,20 @@ export const publicWork = [
       "saveours-saveours-saveours-website",
       "saveours-saveours-web-development-saveours-mysaves-savesite",
       "saveours-saveours-web-development-savesite-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "saveours-saveours-saveours-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "saveours-saveours-web-development-savesite-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1098,6 +1737,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "saveours-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "saveours-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1116,6 +1761,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1135,6 +1786,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "the-frisbys-you-are-multicamera-setup-and-operation-video"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "the-frisbys-you-are-multicamera-setup-and-operation-video",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1155,6 +1812,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "the-visionary-guide-documentation-pending",
       "the-visionary-guide-visionary-guide-visionary-guide-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "the-visionary-guide-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1177,12 +1844,22 @@ export const publicWork = [
     "evidenceSlugs": [
       "vendfm-documentation-pending",
       "vendfm-vendfm-vendfm-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "vendfm-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-vendfm-website",
+        "role": "supporting"
+      }
     ]
   },
   {
     "slug": "viisiioiiv-system-development",
     "projectSlug": "viisiioiiv",
-    "title": "Viisiioiiv system development",
+    "title": "VIISIIOIIV system development",
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "historical",
     "capabilityGroupIds": [
@@ -1194,12 +1871,18 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "viisiioiiv-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "viisiioiiv-documentation-pending",
+        "role": "supporting"
+      }
     ]
   },
   {
     "slug": "waffll-system-development",
     "projectSlug": "waffll",
-    "title": "Waffll system development",
+    "title": "Design development",
     "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
     "status": "in-progress",
     "capabilityGroupIds": [
@@ -1217,6 +1900,24 @@ export const publicWork = [
       "waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
       "waffll-waffll-logo-designs-waffle-drip-first-gen",
       "waffll-waffll-waffll-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "waffll-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "waffll-waffll-logo-designs-waffle-drip-first-gen",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "waffll-waffll-waffll-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1237,6 +1938,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "wibc-documentation-pending",
       "wibc-wibc-wibc-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "wibc-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "wibc-wibc-wibc-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1253,6 +1964,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
       "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1276,6 +1997,16 @@ export const publicWork = [
     "evidenceSlugs": [
       "wrappedfm-documentation-pending",
       "wrappedfm-wrappedfm-wrappedfm-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "wrappedfm-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1290,6 +2021,12 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [
       "zenthapy-zenthapy-logo-design-zenthapy-main"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "zenthapy-zenthapy-logo-design-zenthapy-main",
+        "role": "supporting"
+      }
     ]
   },
   {
@@ -1308,6 +2045,12 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "zenthapy-documentation-pending"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "zenthapy-documentation-pending",
+        "role": "supporting"
+      }
     ]
   }
 ] as PublicWorkProjection[];

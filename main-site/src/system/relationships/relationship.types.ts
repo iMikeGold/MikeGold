@@ -1,6 +1,8 @@
 import type { RelationshipId, UUID } from "@/system/core/ids";
 import type { BaseRecord } from "@/system/core/record";
 import type { RecordType } from "@/system/core/record-types";
+import type { EvidenceDisplayRole } from "@/system/evidence/evidence.types";
+import type { CapabilityGroupId } from "@/system/work/capability-groups";
 
 export const RELATIONSHIP_TYPES = [
   "applied-in",
@@ -19,5 +21,8 @@ export interface InternalRelationshipRecord
   targetId: UUID;
   targetType: RecordType;
   role?: "primary" | "supporting";
+  supportedLensIds?: CapabilityGroupId[];
+  displayRoles?: EvidenceDisplayRole[];
+  priority?: number;
   note?: string;
 }

@@ -99,7 +99,7 @@ export default function Footer() {
         <Link href="/capabilities">Able</Link>
         <a href="/registry">Registry</a>
         <a href="/engine">Engine</a>
-        <a href="/projects">Projects</a>
+        <a href="/projects">Work</a>
         <a href="/contact">Contact</a>
         </div>
       </div>

@@ -573,7 +573,7 @@ export const internalProjectRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "viisiioiiv",
-    "name": "Viisiioiiv",
+    "name": "VIISIIOIIV",
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "reserved-concept",
     "visibility": "public",

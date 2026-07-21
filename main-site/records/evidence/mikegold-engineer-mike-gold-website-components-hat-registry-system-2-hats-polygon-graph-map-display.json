@@ -1,0 +1,18 @@
+{
+  "id": "1bbbeeb6-b74d-4028-9c35-5c32684d7e19",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
+  "title": "Two Hats recalculate the combined profile",
+  "description": "Adding a second capability changes the combined attribute wheel while retaining each Hat as an explainable layer.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/2-hats-polygon-graph-map-display.webp",
+  "sourceTitle": "MikeGold.co.uk",
+  "presentation": { "facets": ["application-interface", "system-architecture"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "placeholder": false
+}

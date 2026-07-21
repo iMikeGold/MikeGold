@@ -1,0 +1,13 @@
+{
+  "id": "35f1f248-312b-4ac7-a1ba-e38358fa4f21",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1c021a63-ea7f-4ace-9393-9c560e33f41b",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f48649a8-73b9-4be6-96f7-5131178f03ed",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+  "title": "House of Gold — interface study 03",
+  "description": "Interface evidence from the House of Gold digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
+  "sourceTitle": "House of Gold",
+  "placeholder": false
+}

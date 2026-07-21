@@ -1,0 +1,18 @@
+{
+  "id": "373d6188-5721-43ac-baa6-3eabfdddd259",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph",
+  "title": "Weighted capability polygon",
+  "description": "The attribute wheel makes the engine’s balance of depth, creativity, scale, interaction, structure and influence visible and comparable.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/mike_gold/website_components/spider_polygon/hat-polygon-graph.webp",
+  "sourceTitle": "MikeGold.co.uk",
+  "presentation": { "facets": ["application-interface", "information-architecture"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "placeholder": false
+}

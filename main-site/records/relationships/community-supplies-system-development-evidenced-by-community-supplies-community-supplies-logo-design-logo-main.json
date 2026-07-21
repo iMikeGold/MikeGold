@@ -1,0 +1,13 @@
+{
+  "id": "5682da46-a5c5-4206-ad8c-6c4c6f1dc43e",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "community-supplies-system-development-evidenced-by-community-supplies-community-supplies-logo-design-logo-main",
+  "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5ad8f7dd-26f5-436a-a11e-c13792ada5d2",
+  "targetType": "evidence"
+}

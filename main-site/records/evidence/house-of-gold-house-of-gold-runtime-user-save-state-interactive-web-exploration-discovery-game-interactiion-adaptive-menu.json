@@ -1,0 +1,17 @@
+{
+  "id": "a6f62af2-b718-4fb6-9d87-93d42d61e110",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+  "title": "House of Gold — interface study 07",
+  "description": "Interface evidence from the House of Gold digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 7,
+  "visibility": "public",
+  "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/interactiion-adaptive-menu.webp",
+  "sourceTitle": "House of Gold",
+  "placeholder": false
+}

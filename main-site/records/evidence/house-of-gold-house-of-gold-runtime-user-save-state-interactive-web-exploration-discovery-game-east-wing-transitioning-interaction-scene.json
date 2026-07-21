@@ -1,0 +1,17 @@
+{
+  "id": "863cbc73-1996-4f85-86b8-00e5fa2a2f6f",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+  "title": "House of Gold — interface study 01",
+  "description": "Interface evidence from the House of Gold digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
+  "sourceTitle": "House of Gold",
+  "placeholder": false
+}

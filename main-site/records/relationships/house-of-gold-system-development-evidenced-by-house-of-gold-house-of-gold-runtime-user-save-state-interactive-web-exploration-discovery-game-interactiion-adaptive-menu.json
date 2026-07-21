@@ -1,0 +1,13 @@
+{
+  "id": "b09b4b68-cb2f-4755-a1db-ed9085a7a987",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "a6f62af2-b718-4fb6-9d87-93d42d61e110",
+  "targetType": "evidence"
+}

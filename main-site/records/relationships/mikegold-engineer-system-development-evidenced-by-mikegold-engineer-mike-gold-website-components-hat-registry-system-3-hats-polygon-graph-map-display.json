@@ -1,0 +1,13 @@
+{
+  "id": "edac4719-2b16-4b38-b912-b069b612c449",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "mikegold-engineer-system-development-evidenced-by-mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
+  "sourceId": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "cc0b5976-0e5f-483a-970d-73618cef12fc",
+  "targetType": "evidence"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b3c89b08-c8dd-4ddc-9be4-a75a2059cbfb",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "f48649a8-73b9-4be6-96f7-5131178f03ed",
+  "targetType": "evidence"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ce662b16-3af6-43ee-9d5e-389beefff8d7",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T18:40:51.823Z",
+  "updatedAt": "2026-07-21T18:40:51.823Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "863cbc73-1996-4f85-86b8-00e5fa2a2f6f",
+  "targetType": "evidence"
+}

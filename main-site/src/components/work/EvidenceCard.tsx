@@ -6,7 +6,12 @@ import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types"
 function youtubeId(url?: string) {
   if (!url) return null;
   try {
-    return new URL(url).searchParams.get("v");
+    const parsed = new URL(url);
+    if (parsed.hostname === "youtu.be") return parsed.pathname.slice(1).split("/")[0] || null;
+    if (parsed.searchParams.get("v")) return parsed.searchParams.get("v");
+    if (parsed.pathname.includes("/embed/")) return parsed.pathname.split("/embed/")[1]?.split("/")[0] || null;
+    if (parsed.pathname.includes("/shorts/")) return parsed.pathname.split("/shorts/")[1]?.split("/")[0] || null;
+    return null;
   } catch {
     return null;
   }

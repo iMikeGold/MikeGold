@@ -10,6 +10,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/118sports/118sports-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -21,6 +34,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 1,
     "assetPath": "/images/projects/118sports/branding_systems/118-rising-crest.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -32,6 +57,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 2,
     "assetPath": "/images/projects/118sports/branding_systems/rising-crest-2tone.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -43,6 +80,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 3,
     "assetPath": "/images/projects/118sports/branding_systems/rising-crest1.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -54,6 +103,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 4,
     "assetPath": "/images/projects/118sports/branding_systems/rising-crest2.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -65,6 +126,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/118sports/logo_design/118-juve.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -76,6 +150,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/118sports/logo_design/118-oval-gold.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -87,6 +174,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 1,
     "assetPath": "/images/projects/118sports/mock_ups/118-pale-gold-centre-jersey-mockup.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -98,6 +198,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 2,
     "assetPath": "/images/projects/118sports/mock_ups/118-pale-gold-jersey-mockup.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -109,6 +222,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 3,
     "assetPath": "/images/projects/118sports/mock_ups/118-purple-goldrising-jersey-mockup.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "118 Sports",
     "placeholder": false
   },
@@ -117,6 +243,16 @@ export const publicEvidence = [
     "title": "118 Sports project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -126,6 +262,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=36WtEUKCctU",
     "thumbnailUrl": "https://i.ytimg.com/vi/36WtEUKCctU/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Testing 2XU Wetsuits | Propel P:1 P:2 Propel Pro",
     "sourceAuthor": "2XU",
     "placeholder": false
@@ -135,6 +283,16 @@ export const publicEvidence = [
     "title": "BambooGraph project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -145,6 +303,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/best_indies/best-indies-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Best Indies",
     "placeholder": false
   },
@@ -153,6 +324,16 @@ export const publicEvidence = [
     "title": "Best Indies project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -160,6 +341,16 @@ export const publicEvidence = [
     "title": "Bjórr project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -169,6 +360,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=3GlBmy-Vxak",
     "thumbnailUrl": "https://i.ytimg.com/vi/3GlBmy-Vxak/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "The Orb · Live from bluedot 2018",
     "sourceAuthor": "bluedot festival",
     "placeholder": false
@@ -181,6 +384,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/bonsaiTOL/bonsaiTOL-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Bonsai Tree of Life",
     "placeholder": false
   },
@@ -189,6 +405,16 @@ export const publicEvidence = [
     "title": "Bonsai Tree of Life project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -198,6 +424,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=OanbAm_4KvM",
     "thumbnailUrl": "https://i.ytimg.com/vi/OanbAm_4KvM/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Bristow Operational Excellence Video",
     "sourceAuthor": "Bristow Group",
     "placeholder": false
@@ -210,6 +448,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/cannvent/web_development/cannvent-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -221,6 +472,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 4,
     "assetPath": "/images/projects/cannvent/logo_design/cannvent_concept2_fully_transparent.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -232,6 +496,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/cannvent/logo_design/cannvent_gold_leaf_transparent.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -243,6 +520,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/cannvent/logo_design/logo-design-concepts.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -254,6 +544,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 3,
     "assetPath": "/images/projects/cannvent/logo_design/main-logo-design-green-gold.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -265,6 +568,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 1,
     "assetPath": "/images/projects/cannvent/web_development/cannvent-app-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -276,6 +592,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 2,
     "assetPath": "/images/projects/cannvent/web_development/cannvent-space-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Cannvent",
     "placeholder": false
   },
@@ -284,6 +613,16 @@ export const publicEvidence = [
     "title": "Cannvent project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -294,6 +633,43 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/community_supplies/community-suuplies-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
+    "slug": "community-supplies-community-supplies-logo-design-logo-main",
+    "title": "Community Supplies — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/community_supplies/logo_design/logo-main.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Community Supplies",
     "placeholder": false
   },
@@ -302,6 +678,16 @@ export const publicEvidence = [
     "title": "Community Supplies project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -311,6 +697,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=yivx4Q2bVBU",
     "thumbnailUrl": "https://i.ytimg.com/vi/yivx4Q2bVBU/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "International Women's Day - Croydon Women's Network Promo Video",
     "sourceAuthor": "Baltar Media",
     "placeholder": false
@@ -322,6 +720,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=I61Y9Pb3XFY",
     "thumbnailUrl": "https://i.ytimg.com/vi/I61Y9Pb3XFY/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Crystal Palace Overground Festival Westow Park the Day Before",
     "sourceAuthor": "John Edwards",
     "placeholder": false
@@ -333,6 +743,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=0Ckjmo1ayb0",
     "thumbnailUrl": "https://i.ytimg.com/vi/0Ckjmo1ayb0/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Connected Lighting Management",
     "sourceAuthor": "Delmatic Lighting Management",
     "placeholder": false
@@ -344,6 +766,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=vfgFpD2qS4g",
     "thumbnailUrl": "https://i.ytimg.com/vi/vfgFpD2qS4g/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Delta High Power Supply System",
     "sourceAuthor": "Delta Elektronika",
     "placeholder": false
@@ -355,6 +789,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=Vhir8baUfkA",
     "thumbnailUrl": "https://i.ytimg.com/vi/Vhir8baUfkA/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Delta Elektronika Video",
     "sourceAuthor": "Delta Elektronika",
     "placeholder": false
@@ -366,6 +812,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=JC-sHp5Xakk",
     "thumbnailUrl": "https://i.ytimg.com/vi/JC-sHp5Xakk/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "London Property presents Shopping with Grant, an Interior Design Experience - FBC London",
     "sourceAuthor": "London Property",
     "placeholder": false
@@ -375,6 +833,16 @@ export const publicEvidence = [
     "title": "FindThy project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -385,6 +853,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/findthy/findthy-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -396,6 +877,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/final/findthy-main-black.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -407,6 +901,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 3,
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/final/findthy-main-gold.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -418,6 +925,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/final/findthy-main-green.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -430,6 +950,18 @@ export const publicEvidence = [
     "sequence": 1,
     "phase": "Concept language",
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept1-green.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -442,6 +974,18 @@ export const publicEvidence = [
     "sequence": 2,
     "phase": "Concept language",
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept2-black.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -454,6 +998,18 @@ export const publicEvidence = [
     "sequence": 3,
     "phase": "Concept language",
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept3-black.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -466,6 +1022,18 @@ export const publicEvidence = [
     "sequence": 4,
     "phase": "Selected concept development",
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept4-black.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -478,6 +1046,18 @@ export const publicEvidence = [
     "sequence": 5,
     "phase": "Selected concept development",
     "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept4-green.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "FindThy",
     "placeholder": false
   },
@@ -488,6 +1068,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=rxSlR6tmW-8",
     "thumbnailUrl": "https://i.ytimg.com/vi/rxSlR6tmW-8/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Five9 Customer Heroes | Teladoc: Transforming Virtual Healthcare with Contact Center Innovation",
     "sourceAuthor": "Five9",
     "placeholder": false
@@ -499,6 +1091,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=p2QKbXG02pw",
     "thumbnailUrl": "https://i.ytimg.com/vi/p2QKbXG02pw/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Five9 and Microsoft: Creating Memorable Stories",
     "sourceAuthor": "Five9",
     "placeholder": false
@@ -508,6 +1112,16 @@ export const publicEvidence = [
     "title": "Gouldbourne Management project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -518,6 +1132,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/gouldbourne/web_development/gouldbourne-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Gouldbourne Management",
     "placeholder": false
   },
@@ -526,6 +1153,16 @@ export const publicEvidence = [
     "title": "Gouldbourne Registry project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -536,6 +1173,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 1,
     "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-archive-page.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Gouldbourne Registry",
     "placeholder": false
   },
@@ -547,6 +1197,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 2,
     "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-history-page.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Gouldbourne Registry",
     "placeholder": false
   },
@@ -558,6 +1221,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-homepage.webp",
+    "presentation": {
+      "facets": [
+        "project-overview",
+        "website"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Gouldbourne Registry",
     "placeholder": false
   },
@@ -566,6 +1242,16 @@ export const publicEvidence = [
     "title": "House of Gold project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -576,6 +1262,187 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/house_of_gold/house-of-gold-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+    "title": "House of Gold — interface study 01",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+    "title": "House of Gold — interface study 02",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 2,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+    "title": "House of Gold — interface study 03",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 3,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+    "title": "House of Gold — interface study 04",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 4,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+    "title": "House of Gold — interface study 05",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 5,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone2.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
+    "title": "House of Gold — interface study 06",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 6,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-sidedoor-interaction-zone.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
+    "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+    "title": "House of Gold — interface study 07",
+    "description": "Interface evidence from the House of Gold digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 7,
+    "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/interactiion-adaptive-menu.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "House of Gold",
     "placeholder": false
   },
@@ -586,6 +1453,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=H0jTge4APYs",
     "thumbnailUrl": "https://i.ytimg.com/vi/H0jTge4APYs/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Relive It || Texans take down the Jaguars across the pond",
     "sourceAuthor": "Houston Texans",
     "placeholder": false
@@ -595,6 +1474,16 @@ export const publicEvidence = [
     "title": "iMikeGold.com project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -605,6 +1494,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/imikegold/imikegold-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "iMikeGold.com",
     "placeholder": false
   },
@@ -613,6 +1515,16 @@ export const publicEvidence = [
     "title": "Just Enterprises project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -623,6 +1535,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/just_enterprises/just-enterprises-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Just Enterprises",
     "placeholder": false
   },
@@ -633,6 +1558,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=e_YYiedWe8s",
     "thumbnailUrl": "https://i.ytimg.com/vi/e_YYiedWe8s/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Living Control Media Server with dual 1080p outputs",
     "sourceAuthor": "Cinenow UK",
     "placeholder": false
@@ -644,6 +1581,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=joaYOliIrG0",
     "thumbnailUrl": "https://i.ytimg.com/vi/joaYOliIrG0/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Living Control Studio6 & Studio3 Media Server (CEDIA Expo)",
     "sourceAuthor": "Cinenow UK",
     "placeholder": false
@@ -655,6 +1604,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=4-WMTSVORa0",
     "thumbnailUrl": "https://i.ytimg.com/vi/4-WMTSVORa0/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Malaria \"Hotspot\" (Choreographer - Supple Nam)",
     "sourceAuthor": "Supple Nam",
     "placeholder": false
@@ -666,6 +1627,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=0WSuxDHcnf4",
     "thumbnailUrl": "https://i.ytimg.com/vi/0WSuxDHcnf4/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Mars Delight “Kung Fu” (Choreographer/Actor: Supple Nam)",
     "sourceAuthor": "Supple Nam",
     "placeholder": false
@@ -675,6 +1648,16 @@ export const publicEvidence = [
     "title": "Metroplist project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -685,6 +1668,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 1,
     "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -696,6 +1691,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 2,
     "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -707,6 +1714,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 3,
     "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master1.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -718,6 +1737,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 4,
     "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master2-language-explained.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -729,6 +1760,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 5,
     "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master2.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -740,6 +1783,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/metroplist/metroplist-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Metroplist",
     "placeholder": false
   },
@@ -748,6 +1804,16 @@ export const publicEvidence = [
     "title": "MiCKz identity development sequence",
     "description": "Reserved for confirmed exploration, direction and refinement assets.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -758,6 +1824,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 2,
     "assetPath": "/images/projects/mickz/branding_systems/drinks-mickz-main.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -769,6 +1847,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 3,
     "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Jungle-Mix.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -780,6 +1870,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 1,
     "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Main-Ocean-Blue.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -791,6 +1893,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 5,
     "assetPath": "/images/projects/mickz/branding_systems/miCKz.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -802,6 +1916,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 4,
     "assetPath": "/images/projects/mickz/branding_systems/tea-mickz-main.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -813,6 +1939,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/mickz/mickz-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -824,6 +1963,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 3,
     "assetPath": "/images/projects/mickz/mock_ups/bissy-mickz-tea.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -835,6 +1987,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 4,
     "assetPath": "/images/projects/mickz/mock_ups/coffee-mickz-tea.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -846,6 +2011,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 2,
     "assetPath": "/images/projects/mickz/mock_ups/hot-mickz.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -857,6 +2035,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 5,
     "assetPath": "/images/projects/mickz/mock_ups/mickz-hibiscus.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -868,6 +2059,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 1,
     "assetPath": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -879,6 +2083,19 @@ export const publicEvidence = [
     "role": "application",
     "sequence": 6,
     "assetPath": "/images/projects/mickz/mock_ups/sorrel-mickz-tea.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "MiCKz",
     "placeholder": false
   },
@@ -887,6 +2104,16 @@ export const publicEvidence = [
     "title": "MiCKz food and drinks applications",
     "description": "Reserved for confirmed product-family, packaging and mock-up assets.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -894,13 +2121,129 @@ export const publicEvidence = [
     "title": "MikeGold.co.uk project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
+  },
+  {
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
+    "title": "One Hat activates its capability profile",
+    "description": "A single selected Hat establishes the first weighted cognitive and delivery profile in the Registry engine.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/1-hat-polygon-graph-map-display.webp",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "MikeGold.co.uk",
+    "placeholder": false
+  },
+  {
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
+    "title": "Two Hats recalculate the combined profile",
+    "description": "Adding a second capability changes the combined attribute wheel while retaining each Hat as an explainable layer.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 2,
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/2-hats-polygon-graph-map-display.webp",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "MikeGold.co.uk",
+    "placeholder": false
+  },
+  {
+    "slug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
+    "title": "Three Hats form a service configuration",
+    "description": "The third Hat demonstrates how complementary skills stack into a broader, recalculated service configuration rather than a flat search result.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 3,
+    "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/3-hats-polygon-graph-map-display.webp",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "system-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "MikeGold.co.uk",
+    "placeholder": false
+  },
+  {
+    "slug": "mikegold-engineer-mike-gold-website-components-spider-polygon-hat-polygon-graph",
+    "title": "Weighted capability polygon",
+    "description": "The attribute wheel makes the engine’s balance of depth, creativity, scale, interaction, structure and influence visible and comparable.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 4,
+    "assetPath": "/images/projects/mike_gold/website_components/spider_polygon/hat-polygon-graph.webp",
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "information-architecture"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "MikeGold.co.uk",
+    "placeholder": false
   },
   {
     "slug": "multiplied-intelligence-documentation-pending",
     "title": "Multiplied Intelligence project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -911,6 +2254,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/multiplied_intelligence/multiplied_intelligence.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Multiplied Intelligence",
     "placeholder": false
   },
@@ -919,6 +2275,16 @@ export const publicEvidence = [
     "title": "Musical Intelligence content model",
     "description": "Reserved for a confirmed content or application architecture diagram.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -929,6 +2295,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 2,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/logo-main3-red1-transparent.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -940,6 +2318,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 3,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/mi3-main-red2-cropped-transparent.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -951,6 +2341,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -962,6 +2365,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³(1).webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -973,6 +2389,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 3,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³(2).webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -984,6 +2413,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 4,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -995,6 +2437,18 @@ export const publicEvidence = [
     "role": "process",
     "sequence": 1,
     "assetPath": "/images/projects/musical_intelligence/logo_restore/og-logo-(musical-intelligence)^3.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -1006,6 +2460,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Musical Intelligence",
     "placeholder": false
   },
@@ -1014,6 +2481,16 @@ export const publicEvidence = [
     "title": "Musical Intelligence web experience",
     "description": "Reserved for confirmed responsive interface captures.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1021,6 +2498,16 @@ export const publicEvidence = [
     "title": "Ourgani project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1031,6 +2518,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/ourgani/logo_design/OurganiYinYang-logo-1-0.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Ourgani",
     "placeholder": false
   },
@@ -1042,6 +2542,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/ourgani/ourgani.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Ourgani",
     "placeholder": false
   },
@@ -1052,6 +2565,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=n2usGeet2Gk",
     "thumbnailUrl": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Početni zvuk PlayStation 5 konzole | Glazbena turneja po Hrvatskoj | PS5",
     "sourceAuthor": "PlayStation Hrvatska",
     "placeholder": false
@@ -1061,6 +2586,16 @@ export const publicEvidence = [
     "title": "ProtoSynthesis project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1071,6 +2606,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/protosynthesis/logo/ProtoSynthesis-7Dot-Logo Only-Main-ProtoGlyph-Design2.2.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1082,6 +2630,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 3,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-archive-entry-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1093,6 +2654,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 2,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1104,6 +2678,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 1,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1115,6 +2702,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 5,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-page-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1126,6 +2726,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 4,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1137,6 +2750,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1147,6 +2773,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=ydEox4TatF8",
     "thumbnailUrl": "https://i.ytimg.com/vi/ydEox4TatF8/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Rockett Home Rentals Company Video",
     "sourceAuthor": "Rockett Home Rentals",
     "placeholder": false
@@ -1156,6 +2794,16 @@ export const publicEvidence = [
     "title": "SaveOurs project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1168,6 +2816,19 @@ export const publicEvidence = [
     "phase": "Coded-language system",
     "period": "2026",
     "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1181,6 +2842,18 @@ export const publicEvidence = [
     "phase": "Original commission",
     "period": "circa 2010",
     "assetPath": "/images/projects/saveours/design_evolutions/first_generation_designs/15year-old-logo-og-saveours.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1194,6 +2867,18 @@ export const publicEvidence = [
     "phase": "Identity revisit",
     "period": "2026",
     "assetPath": "/images/projects/saveours/design_evolutions/first_generation_designs/sos-old-revamped.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1207,6 +2892,18 @@ export const publicEvidence = [
     "phase": "Second generation",
     "period": "2026",
     "assetPath": "/images/projects/saveours/design_evolutions/second_generation_designs/saveours-sos-stack-blue.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1220,6 +2917,18 @@ export const publicEvidence = [
     "phase": "Second generation",
     "period": "2026",
     "assetPath": "/images/projects/saveours/design_evolutions/second_generation_designs/saveours-sos-stack-terracotta.webp",
+    "presentation": {
+      "facets": [
+        "process"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1231,6 +2940,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/saveours/web_development/saveours-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1242,6 +2964,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 2,
     "assetPath": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1253,6 +2988,19 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 1,
     "assetPath": "/images/projects/saveours/web_development/savesite-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "SaveOurs",
     "placeholder": false
   },
@@ -1263,6 +3011,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=DE_s7ocmI9E",
     "thumbnailUrl": "https://i.ytimg.com/vi/DE_s7ocmI9E/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "ASTM D3828 Setaflash Small Scale Flash Point Testing by Seta Series 3",
     "sourceAuthor": "Stanhope-Seta",
     "placeholder": false
@@ -1274,6 +3034,18 @@ export const publicEvidence = [
     "evidenceType": "video",
     "externalUrl": "https://www.youtube.com/watch?v=w9eP13qq_zA",
     "thumbnailUrl": "https://i.ytimg.com/vi/w9eP13qq_zA/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "The Frisbys - You Are",
     "sourceAuthor": "Baltar Media",
     "placeholder": false
@@ -1283,6 +3055,16 @@ export const publicEvidence = [
     "title": "The Visionary Guide project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1293,6 +3075,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/visionary_guide/visionary-guide-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "The Visionary Guide",
     "placeholder": false
   },
@@ -1301,6 +3096,16 @@ export const publicEvidence = [
     "title": "VendFM project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1311,14 +3116,37 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/vendfm/vendfm-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "VendFM",
     "placeholder": false
   },
   {
     "slug": "viisiioiiv-documentation-pending",
-    "title": "Viisiioiiv project evidence",
+    "title": "VIISIIOIIV project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1326,6 +3154,16 @@ export const publicEvidence = [
     "title": "Waffll project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1336,6 +3174,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/waffll/logo_designs/gold-records-waffle-main-second-gen.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Waffll",
     "placeholder": false
   },
@@ -1347,6 +3198,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/waffll/logo_designs/waffle-drip-first-gen.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Waffll",
     "placeholder": false
   },
@@ -1358,6 +3222,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/waffll/waffll-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Waffll",
     "placeholder": false
   },
@@ -1366,6 +3243,16 @@ export const publicEvidence = [
     "title": "WIBC project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1376,6 +3263,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/wibc/wibc-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "WIBC",
     "placeholder": false
   },
@@ -1384,6 +3284,16 @@ export const publicEvidence = [
     "title": "WrappedFM project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1394,6 +3304,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "WrappedFM",
     "placeholder": false
   },
@@ -1405,6 +3328,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 2,
     "assetPath": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "WrappedFM",
     "placeholder": false
   },
@@ -1416,6 +3352,19 @@ export const publicEvidence = [
     "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/wrappedfm/wrappedfm-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "WrappedFM",
     "placeholder": false
   },
@@ -1424,6 +3373,16 @@ export const publicEvidence = [
     "title": "Zenthapy project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
+    "presentation": {
+      "facets": [
+        "project-overview"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "placeholder": true
   },
   {
@@ -1434,6 +3393,19 @@ export const publicEvidence = [
     "role": "identity",
     "sequence": 1,
     "assetPath": "/images/projects/zenthapy/logo_design/zenthapy-main.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
     "sourceTitle": "Zenthapy",
     "placeholder": false
   }

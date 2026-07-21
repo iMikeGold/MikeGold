@@ -19,7 +19,7 @@ export default function SystemGateways() {
       />
 
       <GatewayCard
-        title="Projects"
+        title="Work"
         description="Real outputs built using the system"
         href="/projects"
         action="See"

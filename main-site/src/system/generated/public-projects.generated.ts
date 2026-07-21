@@ -332,7 +332,7 @@ export const publicProjects = [
   },
   {
     "slug": "viisiioiiv",
-    "name": "Viisiioiiv",
+    "name": "VIISIIOIIV",
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "reserved-concept",
     "featured": false,
