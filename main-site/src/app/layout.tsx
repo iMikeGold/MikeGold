@@ -19,7 +19,7 @@ export default function RootLayout({
         {/* =========================
             GLOBAL HEADER v1.1
         ========================== */}
-        <header
+        <header className="site-header"
           style={{
             position: "sticky",
             top: 0,
@@ -37,7 +37,7 @@ export default function RootLayout({
           {/* BRAND (UPDATED BLOCK) */}
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
 
-            <div
+            <Link href="/" aria-label="Mike Gold home"
               style={{
                 width: 32,
                 height: 32,
@@ -56,7 +56,7 @@ export default function RootLayout({
                   objectFit: "cover",
                 }}
               />
-            </div>
+            </Link>
 
           </div>
 
@@ -73,9 +73,6 @@ export default function RootLayout({
               maxWidth: "100%",
             }}
           >
-            <Link href="/">Home</Link>
-            <Link href="/about">Intel</Link>
-            <Link href="/capabilities">Able</Link>
             <Link href="/registry">Hats</Link>
             <Link href="/engine">Engine</Link>
             <Link href="/projects">Work</Link>
@@ -83,7 +80,7 @@ export default function RootLayout({
           </nav>
 
           {/* VERSION SYSTEM */}
-          <div
+          <Link href="/" className="site-version"
             style={{
               fontSize: "12px",
               opacity: 0.6,
@@ -92,7 +89,7 @@ export default function RootLayout({
             }}
           >
           |M1K3G01D
-          </div>
+          </Link>
 
         </header>
 

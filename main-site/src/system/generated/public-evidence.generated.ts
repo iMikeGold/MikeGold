@@ -215,7 +215,7 @@ export const publicEvidence = [
   },
   {
     "slug": "cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
-    "title": "Cannvent — identity development 01",
+    "title": "Cannvent — identity development 04",
     "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
     "evidenceType": "image",
     "role": "identity",
@@ -237,7 +237,7 @@ export const publicEvidence = [
   },
   {
     "slug": "cannvent-cannvent-logo-design-logo-design-concepts",
-    "title": "Cannvent — identity development 03",
+    "title": "Cannvent — identity development 01",
     "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
     "evidenceType": "image",
     "role": "identity",
@@ -248,7 +248,7 @@ export const publicEvidence = [
   },
   {
     "slug": "cannvent-cannvent-logo-design-main-logo-design-green-gold",
-    "title": "Cannvent — identity development 04",
+    "title": "Cannvent — identity development 03",
     "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
     "evidenceType": "image",
     "role": "identity",
@@ -509,6 +509,17 @@ export const publicEvidence = [
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "gouldbourne-management-gouldbourne-web-development-gouldbourne-website",
+    "title": "Gouldbourne Management — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for Gouldbourne Management.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 1,
+    "assetPath": "/images/projects/gouldbourne/web_development/gouldbourne-website.webp",
+    "sourceTitle": "Gouldbourne Management",
+    "placeholder": false
   },
   {
     "slug": "gouldbourne-registry-documentation-pending",
@@ -894,10 +905,10 @@ export const publicEvidence = [
   },
   {
     "slug": "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence",
-    "title": "Multiplied Intelligence — supporting visual 01",
-    "description": "Supporting visual material recorded for Multiplied Intelligence.",
-    "evidenceType": "image",
-    "role": "reference",
+    "title": "Multiplied Intelligence website",
+    "description": "The original public-facing Multiplied Intelligence website. Its restrained interface provides direct evidence of the web design, content structure and deployed digital presence.",
+    "evidenceType": "website",
+    "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/multiplied_intelligence/multiplied_intelligence.webp",
     "sourceTitle": "Multiplied Intelligence",
@@ -1069,7 +1080,7 @@ export const publicEvidence = [
     "description": "An individual research entry demonstrates the intensive archive back end: typed references, document identity, version context and long-form material are projected into a readable public record.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 1,
+    "sequence": 3,
     "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
@@ -1091,7 +1102,7 @@ export const publicEvidence = [
     "description": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 3,
+    "sequence": 1,
     "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
@@ -1102,7 +1113,7 @@ export const publicEvidence = [
     "description": "A long-form media page showing how the documentary identity expands beyond its landing page into structured reading, contextual material and individual works.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 4,
+    "sequence": 5,
     "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-page-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
@@ -1113,7 +1124,7 @@ export const publicEvidence = [
     "description": "The Media surface translates the parent system into a more cinematic editorial language for documentary films, observations and systems analysis while remaining recognisably part of the same platform family.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 5,
+    "sequence": 4,
     "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
@@ -1148,38 +1159,12 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
-    "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
-    "title": "SOS coded-language mark — red field",
-    "description": "The SOS / SaveOurS abbreviation is constructed as Morse code. Within that rhythm sits a second barcode-like, machine-readable pattern—an intentionally hidden decoding challenge for a camera or scanner to crack.",
-    "evidenceType": "image",
-    "role": "process",
-    "sequence": 5,
-    "phase": "Coded-language system",
-    "period": "2026",
-    "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-redbacked.webp",
-    "sourceTitle": "SaveOurs",
-    "placeholder": false
-  },
-  {
-    "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
-    "title": "SOS coded-language mark — transparent",
-    "description": "A transparent application of the dual-coded mark: SOS expressed through Morse code, with a barcode-like readable layer embedded inside its visual construction.",
-    "evidenceType": "image",
-    "role": "process",
-    "sequence": 6,
-    "phase": "Coded-language system",
-    "period": "2026",
-    "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-trans.webp",
-    "sourceTitle": "SaveOurs",
-    "placeholder": false
-  },
-  {
     "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
-    "title": "SOS coded-language mark — light application",
-    "description": "The light-ground version tests whether the Morse-code SOS rhythm and its concealed barcode-like decoding layer remain legible across applications.",
+    "title": "Final SaveOurs coded identity",
+    "description": "The final identity encodes SOS — SaveOurS — in Morse-code rhythm and contains a deliberately readable barcode system within the mark. The white application is used here so the complete coded construction remains visible.",
     "evidenceType": "image",
-    "role": "process",
-    "sequence": 7,
+    "role": "identity",
+    "sequence": 1,
     "phase": "Coded-language system",
     "period": "2026",
     "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
@@ -1191,7 +1176,7 @@ export const publicEvidence = [
     "title": "Original SaveOurs identity",
     "description": "The first SaveOurs logo, commissioned approximately fifteen years before the current revisit. It is the historical starting point of the identity—not the current source of truth.",
     "evidenceType": "image",
-    "role": "identity",
+    "role": "process",
     "sequence": 1,
     "phase": "Original commission",
     "period": "circa 2010",
@@ -1255,7 +1240,7 @@ export const publicEvidence = [
     "description": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 1,
+    "sequence": 2,
     "assetPath": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
     "sourceTitle": "SaveOurs",
     "placeholder": false
@@ -1266,7 +1251,7 @@ export const publicEvidence = [
     "description": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 2,
+    "sequence": 1,
     "assetPath": "/images/projects/saveours/web_development/savesite-website.webp",
     "sourceTitle": "SaveOurs",
     "placeholder": false

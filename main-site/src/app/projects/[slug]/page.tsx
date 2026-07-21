@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Footer from "@/components/sections/Footer";
-import EvidenceDisclosure from "@/components/work/EvidenceDisclosure";
 import ProjectContextBackLink from "@/components/work/ProjectContextBackLink";
+import ProjectWorkArchive from "@/components/work/ProjectWorkArchive";
 import { publicEvidence } from "@/system/generated/public-evidence.generated";
 import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
@@ -23,8 +23,6 @@ export default async function ProjectRecordPage({
   if (!project) notFound();
 
   const work = publicWork.filter((item) => item.projectSlug === project.slug);
-  const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
-  const evidenceBySlug = new Map(publicEvidence.map((item) => [item.slug, item]));
   return (
     <main>
       <article className="page project-record-page">
@@ -41,48 +39,7 @@ export default async function ProjectRecordPage({
         <section>
           <p className="work-kicker">MY CONTRIBUTION</p>
           <h2>Documented work</h2>
-          <div className="project-work-sections">
-            {work.map((item) => (
-              <article key={item.slug} className="project-work-section">
-                <div className="record-status-row">
-                  <span>{item.status.replaceAll("-", " ")}</span>
-                  <span>Work contribution</span>
-                </div>
-                <h3>{item.title}</h3>
-                <p>{item.summary}</p>
-
-                {!!item.appliedHatSlugs.length && (
-                  <div className="applied-hat-list" aria-label="Applied Hats">
-                    {item.appliedHatSlugs.map((hatSlug) => (
-                      <span key={hatSlug}>{hatBySlug.get(hatSlug)?.name ?? hatSlug}</span>
-                    ))}
-                  </div>
-                )}
-
-                {!!item.stages?.length && (
-                  <ol className="work-stage-list">
-                    {item.stages.map((stage) => (
-                      <li key={stage.key}>
-                        <strong>{stage.label}</strong>
-                        <span>{stage.status.replaceAll("-", " ")}</span>
-                      </li>
-                    ))}
-                  </ol>
-                )}
-
-                <EvidenceDisclosure
-                  evidence={item.evidenceSlugs.flatMap((evidenceSlug) => {
-                    const evidence = evidenceBySlug.get(evidenceSlug);
-                    return evidence ? [evidence] : [];
-                  })}
-                  defaultOpen={item.evidenceSlugs.some((evidenceSlug) => {
-                    const evidence = evidenceBySlug.get(evidenceSlug);
-                    return Boolean(evidence?.assetPath && evidence.role !== "cover");
-                  })}
-                />
-              </article>
-            ))}
-          </div>
+          <ProjectWorkArchive work={work} hats={publicHats} evidence={publicEvidence} />
         </section>
       </article>
       <Footer />

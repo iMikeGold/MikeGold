@@ -93,8 +93,8 @@ export const publicWork = [
     "slug": "bjorr-system-development",
     "projectSlug": "bjorr",
     "title": "Bjórr system development",
-    "summary": "A reserved product and brand concept with early naming and domain strategy.",
-    "status": "historical",
+    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
       "brand-experience-systems"
@@ -172,6 +172,7 @@ export const publicWork = [
     "title": "Cannvent application experience",
     "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
     "status": "in-progress",
+    "sequence": 3,
     "capabilityGroupIds": [
       "software-web-engineering",
       "system-product-definition",
@@ -188,6 +189,7 @@ export const publicWork = [
     "title": "Cannvent Space community platform",
     "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
     "status": "in-progress",
+    "sequence": 2,
     "capabilityGroupIds": [
       "software-web-engineering",
       "system-product-definition",
@@ -204,6 +206,7 @@ export const publicWork = [
     "title": "Cannvent system development",
     "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
     "status": "in-progress",
+    "sequence": 1,
     "capabilityGroupIds": [
       "system-product-definition",
       "software-web-engineering",
@@ -468,7 +471,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "gouldbourne-management-documentation-pending"
+      "gouldbourne-management-documentation-pending",
+      "gouldbourne-management-gouldbourne-web-development-gouldbourne-website"
     ]
   },
   {
@@ -797,7 +801,7 @@ export const publicWork = [
     "slug": "multiplied-intelligence-system-development",
     "projectSlug": "multiplied-intelligence",
     "title": "Multiplied Intelligence system development",
-    "summary": "Web experience, content structure and multi-domain cloud delivery for a music and creative brand.",
+    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "status": "documented",
     "capabilityGroupIds": [
       "system-product-definition",
@@ -1049,8 +1053,6 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [],
     "evidenceSlugs": [
-      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
-      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
       "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
       "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
       "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",

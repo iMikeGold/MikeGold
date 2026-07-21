@@ -16,6 +16,7 @@ const folderProjects = {
   cannvent: "cannvent",
   community_supplies: "community-supplies",
   findthy: "findthy",
+  gouldbourne: "gouldbourne-management",
   gouldbourne_group: "gouldbourne-registry",
   house_of_gold: "house-of-gold",
   imikegold: "imikegold",

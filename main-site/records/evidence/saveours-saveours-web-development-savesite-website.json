@@ -9,7 +9,7 @@
   "description": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
   "evidenceType": "image",
   "role": "interface",
-  "sequence": 2,
+  "sequence": 1,
   "visibility": "public",
   "assetPath": "/images/projects/saveours/web_development/savesite-website.webp",
   "sourceTitle": "SaveOurs",

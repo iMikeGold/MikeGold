@@ -1,0 +1,17 @@
+{
+  "id": "86e941aa-63fc-48d3-8dfd-7b3eca145cbb",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T16:19:43.699Z",
+  "updatedAt": "2026-07-21T16:19:43.699Z",
+  "slug": "gouldbourne-management-gouldbourne-web-development-gouldbourne-website",
+  "title": "Gouldbourne Management — website and digital experience",
+  "description": "Homepage interface showing the public-facing digital system developed for Gouldbourne Management.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/gouldbourne/web_development/gouldbourne-website.webp",
+  "sourceTitle": "Gouldbourne Management",
+  "placeholder": false
+}

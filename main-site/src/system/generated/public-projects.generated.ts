@@ -133,8 +133,8 @@ export const publicProjects = [
   {
     "slug": "bjorr",
     "name": "Bjórr",
-    "summary": "A reserved product and brand concept with early naming and domain strategy.",
-    "status": "reserved-concept",
+    "summary": "An adaptive learning framework, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge.",
+    "status": "active-development",
     "featured": false,
     "establishedYear": 2025
   },
@@ -285,7 +285,7 @@ export const publicProjects = [
   {
     "slug": "multiplied-intelligence",
     "name": "Multiplied Intelligence",
-    "summary": "Web experience, content structure and multi-domain cloud delivery for a music and creative brand.",
+    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "status": "live",
     "featured": false,
     "establishedYear": 2015

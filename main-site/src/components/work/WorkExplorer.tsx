@@ -13,7 +13,7 @@ type View = "projects" | "work" | "capabilities";
 const AREA_EVIDENCE_ROLES: Record<CapabilityGroupId, string[]> = {
   "physical-technical-engineering": ["application", "reference", "process"],
   "system-product-definition": ["process", "application", "interface", "identity"],
-  "software-web-engineering": ["interface", "cover"],
+  "software-web-engineering": ["cover", "interface"],
   "infrastructure-operations": ["interface", "cover", "reference"],
   "brand-experience-systems": ["identity", "process", "application"],
   "media-asset-systems": ["application", "process", "reference", "identity"],
@@ -205,6 +205,7 @@ export default function WorkExplorer({
             const contextualWork = groupFilter
               ? projectWork.filter((item) => item.capabilityGroupIds.includes(groupFilter))
               : projectWork;
+            contextualWork.sort((left, right) => (left.sequence ?? 999) - (right.sequence ?? 999));
             const projectEvidenceWithDuplicates = contextualWork
               .flatMap((item) => item.evidenceSlugs)
               .flatMap((slug) => {
@@ -219,9 +220,17 @@ export default function WorkExplorer({
                 const roleDifference = roleOrder.indexOf(left.role ?? "reference") - roleOrder.indexOf(right.role ?? "reference");
                 return roleDifference || (left.sequence ?? 0) - (right.sequence ?? 0);
               });
+            const areaEvidence = groupFilter
+              ? visualEvidence.filter((item) => roleOrder.includes(item.role ?? "reference"))
+              : visualEvidence;
+            const previewEvidence = areaEvidence.some((item) => item.previewSequence !== undefined)
+              ? areaEvidence
+                  .filter((item) => item.previewSequence !== undefined)
+                  .sort((left, right) => (left.previewSequence ?? 999) - (right.previewSequence ?? 999))
+              : areaEvidence;
             const relevantVisuals = groupFilter
-              ? visualEvidence.filter((item) => roleOrder.includes(item.role ?? "reference")).slice(0, 3)
-              : visualEvidence.slice(0, 1);
+              ? previewEvidence.slice(0, 3)
+              : previewEvidence.slice(0, 1);
             const capabilityCount = new Set(
               projectWork.flatMap((item) => item.appliedHatSlugs),
             ).size;

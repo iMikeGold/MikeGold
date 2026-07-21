@@ -27,6 +27,7 @@ export interface InternalWorkRecord extends BaseRecord<WorkId, "work"> {
   summary: string;
   status: WorkStatus;
   visibility: Visibility;
+  sequence?: number;
   capabilityGroupIds: CapabilityGroupId[];
   startedAt?: string;
   completedAt?: string;
@@ -39,6 +40,7 @@ export interface PublicWorkProjection {
   title: string;
   summary: string;
   status: WorkStatus;
+  sequence?: number;
   capabilityGroupIds: CapabilityGroupId[];
   stages?: WorkStage[];
   appliedHatSlugs: string[];

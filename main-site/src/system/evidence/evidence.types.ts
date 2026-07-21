@@ -33,6 +33,7 @@ export interface InternalEvidenceRecord
   evidenceType: EvidenceType;
   role?: EvidenceRole;
   sequence?: number;
+  previewSequence?: number;
   phase?: string;
   period?: string;
   visibility: Visibility;
@@ -51,6 +52,7 @@ export interface PublicEvidenceProjection {
   evidenceType: EvidenceType;
   role?: EvidenceRole;
   sequence?: number;
+  previewSequence?: number;
   phase?: string;
   period?: string;
   assetPath?: string;

@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
 import EvidenceCard from "@/components/work/EvidenceCard";
 
-export default function EvidenceDisclosure({ evidence, defaultOpen = false }: { evidence: PublicEvidenceProjection[]; defaultOpen?: boolean }) {
+export default function EvidenceDisclosure({ evidence, defaultOpen = false, roleOrder = ["cover", "interface", "identity", "process", "application", "reference"] }: { evidence: PublicEvidenceProjection[]; defaultOpen?: boolean; roleOrder?: string[] }) {
   const [open, setOpen] = useState(defaultOpen);
+  useEffect(() => setOpen(defaultOpen), [defaultOpen]);
   const available = evidence.filter((item) => !item.placeholder);
   if (!available.length) return null;
-  const roleOrder = ["cover", "interface", "identity", "process", "application", "reference"];
   const roleCopy: Record<string, { title: string; description: string }> = {
     cover: { title: "Website and digital experience", description: "The public-facing interface and visual system in context." },
     interface: { title: "Interface development", description: "Selected screens and interaction studies from the digital experience." },

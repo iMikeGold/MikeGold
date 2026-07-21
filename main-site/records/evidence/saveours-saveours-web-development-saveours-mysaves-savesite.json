@@ -9,7 +9,7 @@
   "description": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
   "evidenceType": "image",
   "role": "interface",
-  "sequence": 1,
+  "sequence": 2,
   "visibility": "public",
   "assetPath": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
   "sourceTitle": "SaveOurs",

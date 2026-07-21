@@ -476,6 +476,8 @@ width:100%;
 .project-evidence-preview-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .project-evidence-preview figure { min-width: 0; margin: 0; overflow: hidden; border: 1px solid #252525; background: #0d0d0d; }
 .project-evidence-preview img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; }
+.project-evidence-preview img[src$=".svg"],
+.evidence-image-identity img[src$=".svg"] { background: #eeeae1; }
 .project-evidence-preview figcaption {
   min-height: 3.2em;
   padding: .5rem;
@@ -872,6 +874,9 @@ width:100%;
 }
 
 @media (max-width: 720px) {
+  .site-header { gap: .75rem; padding-inline: .75rem !important; }
+  .site-header .top-nav { margin-left: auto; }
+  .site-version { display: none; }
   .page {
     padding: 2rem 1.1rem;
   }

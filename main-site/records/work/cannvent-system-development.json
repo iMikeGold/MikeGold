@@ -10,6 +10,7 @@
   "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
   "status": "in-progress",
   "visibility": "public",
+  "sequence": 1,
   "capabilityGroupIds": [
     "system-product-definition",
     "software-web-engineering",

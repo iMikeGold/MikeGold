@@ -10,5 +10,6 @@
   "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
   "status": "in-progress",
   "visibility": "public",
+  "sequence": 3,
   "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "brand-experience-systems"]
 }

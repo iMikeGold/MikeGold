@@ -10,5 +10,6 @@
   "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
   "status": "in-progress",
   "visibility": "public",
+  "sequence": 2,
   "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "brand-experience-systems"]
 }

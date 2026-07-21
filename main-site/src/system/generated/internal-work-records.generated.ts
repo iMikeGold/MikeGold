@@ -82,8 +82,8 @@ export const internalWorkRecords = [
     "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
     "slug": "bjorr-system-development",
     "title": "Bjórr system development",
-    "summary": "A reserved product and brand concept with early naming and domain strategy.",
-    "status": "historical",
+    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "status": "in-progress",
     "visibility": "public",
     "capabilityGroupIds": [
       "system-product-definition",
@@ -154,6 +154,7 @@ export const internalWorkRecords = [
     "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
     "status": "in-progress",
     "visibility": "public",
+    "sequence": 3,
     "capabilityGroupIds": [
       "software-web-engineering",
       "system-product-definition",
@@ -172,6 +173,7 @@ export const internalWorkRecords = [
     "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
     "status": "in-progress",
     "visibility": "public",
+    "sequence": 2,
     "capabilityGroupIds": [
       "software-web-engineering",
       "system-product-definition",
@@ -190,6 +192,7 @@ export const internalWorkRecords = [
     "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
     "status": "in-progress",
     "visibility": "public",
+    "sequence": 1,
     "capabilityGroupIds": [
       "system-product-definition",
       "software-web-engineering",
@@ -706,7 +709,7 @@ export const internalWorkRecords = [
     "projectId": "d59283f5-585b-4529-8642-213f6effdd5d",
     "slug": "multiplied-intelligence-system-development",
     "title": "Multiplied Intelligence system development",
-    "summary": "Web experience, content structure and multi-domain cloud delivery for a music and creative brand.",
+    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "status": "documented",
     "visibility": "public",
     "capabilityGroupIds": [

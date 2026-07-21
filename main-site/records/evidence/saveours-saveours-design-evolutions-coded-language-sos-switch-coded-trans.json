@@ -10,7 +10,7 @@
   "evidenceType": "image",
   "role": "process",
   "sequence": 6,
-  "visibility": "public",
+  "visibility": "private",
   "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-trans.webp",
   "sourceTitle": "SaveOurs",
   "phase": "Coded-language system",

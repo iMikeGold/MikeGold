@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer
@@ -92,6 +94,9 @@ export default function Footer() {
         opacity:.7
         }}
         >
+        <Link href="/">Home</Link>
+        <Link href="/about">Intel</Link>
+        <Link href="/capabilities">Able</Link>
         <a href="/registry">Registry</a>
         <a href="/engine">Engine</a>
         <a href="/projects">Projects</a>
