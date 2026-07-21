@@ -1036,10 +1036,10 @@ export const publicEvidence = [
   },
   {
     "slug": "ourgani-ourgani-ourgani",
-    "title": "Ourgani — supporting visual 01",
-    "description": "Supporting visual material recorded for Ourgani.",
-    "evidenceType": "image",
-    "role": "reference",
+    "title": "Ourgani — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for Ourgani.",
+    "evidenceType": "website",
+    "role": "cover",
     "sequence": 1,
     "assetPath": "/images/projects/ourgani/ourgani.webp",
     "sourceTitle": "Ourgani",
@@ -1081,7 +1081,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 3,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-archive-entry-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1092,7 +1092,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 2,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1103,7 +1103,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 1,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1114,7 +1114,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 5,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-page-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-page-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1125,7 +1125,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 4,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },
@@ -1136,7 +1136,7 @@ export const publicEvidence = [
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
     "sourceTitle": "ProtoSynthesis",
     "placeholder": false
   },

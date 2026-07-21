@@ -112,7 +112,7 @@ function workFor(projectSlug, relativeParts, filename) {
   const lowerFilename = filename.toLowerCase();
   if (projectSlug === "cannvent" && lowerFilename.includes("app-website")) return work.get("cannvent-application-development");
   if (projectSlug === "cannvent" && lowerFilename.includes("space-website")) return work.get("cannvent-community-space-development");
-  if (projectSlug === "protosynthesis" && relativeParts.includes("web_developement")) return work.get("protosynthesis-multiformat-web-development");
+  if (projectSlug === "protosynthesis" && relativeParts.includes("web_development")) return work.get("protosynthesis-multiformat-web-development");
   if (projectSlug === "saveours" && relativeParts.includes("web_development")) return work.get("saveours-platform-interface-development");
   const configured = preferredWork[projectSlug];
   if (configured) {
@@ -126,7 +126,8 @@ function roleFor(parts, filename, projectFolder) {
   const path = parts.join("/").toLowerCase();
   const stem = slugify(filename.replace(extname(filename), ""));
   const mainWebsiteStem = slugify(`${projectFolder}-website`);
-  if (path.includes("web_development") || path.includes("web_developement")) {
+  if (projectFolder === "ourgani" && stem === "ourgani") return "cover";
+  if (path.includes("web_development")) {
     return stem === mainWebsiteStem ? "cover" : "interface";
   }
   if (filename.toLowerCase().includes("website")) return "cover";
