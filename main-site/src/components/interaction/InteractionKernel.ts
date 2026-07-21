@@ -6,7 +6,8 @@
 // DIFFERENT BEHAVIOR PER MODE
 // ====================================================
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
+import type { Hat } from "@/system/registry";
 
 export type TileState = "idle" | "hovered" | "selected" | "flipped" | "preview";
 type Mode = "mouse" | "touch";
@@ -18,33 +19,23 @@ export function useInteractionKernel(
   flippedMap: Record<string, boolean>,
   layout?: { isMobile: boolean; isCompact: boolean; isPortrait: boolean }
 ) {
-  const [mode, setMode] = useState<Mode>("mouse");
-  const [layoutMode, setLayoutMode] = useState<LayoutMode>("desktop");
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlay, setOverlay] = useState<Overlay>(null);
   const longPress = useRef<NodeJS.Timeout | null>(null);
 
-  useEffect(() => {
-    const isTouch = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
-    setMode(isTouch ? "touch" : "mouse");
-
-    // Safe check: if layout is missing, default to desktop
-    if (!layout) {
-      setLayoutMode("desktop");
-      return;
-    }
-
-    if (layout.isMobile || layout.isPortrait) setLayoutMode("mobile");
-    else if (layout.isCompact) setLayoutMode("compact");
-    else setLayoutMode("desktop");
-  }, [layout]);
+  const layoutMode: LayoutMode = !layout
+    ? "desktop"
+    : layout.isMobile || layout.isPortrait
+      ? "mobile"
+      : layout.isCompact ? "compact" : "desktop";
+  const mode: Mode = layout?.isMobile ? "touch" : "mouse";
 
   const clear = () => {
     setActiveId(null);
     setOverlay(null);
   };
 
-  const enter = (id: string, hat: any) => {
+  const enter = (id: string, hat: Hat) => {
     if (mode === "touch") return;
     if (layoutMode === "desktop") {
       setActiveId(id);
@@ -60,15 +51,14 @@ export function useInteractionKernel(
     clear();
   };
 
-  const touchStart = (id: string, hat: any, e: React.TouchEvent) => {
-    if (mode !== "touch") return;
+  const touchStart = (id: string, hat: Hat) => {
     longPress.current = setTimeout(() => {
       setActiveId(id);
       setOverlay({ id, text: flippedMap[id] ? hat.name : hat.description || hat.name });
     }, 450);
   };
 
-  const touchEnd = (e: React.TouchEvent) => {
+  const touchEnd = () => {
     if (longPress.current) clearTimeout(longPress.current);
     clear();
   };

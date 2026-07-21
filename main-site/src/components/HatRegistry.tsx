@@ -91,7 +91,6 @@ export default function HatRegistry() {
   // STATE
   // ------------------------------
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedHats, setSelectedHats] = useState<Hat[]>([]);
   const [activeHat, setActiveHat] = useState<Hat | null>(null);
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({
@@ -149,10 +148,8 @@ export default function HatRegistry() {
   // DATA
   // ------------------------------
   const filteredHats = useMemo(() => {
-    return searchHats(hats, searchQuery)
-      .map(({ hat }) => hat)
-      .filter((hat) => selectedCategory === "all" || hat.category === selectedCategory);
-  }, [searchQuery, selectedCategory]);
+    return searchHats(hats, searchQuery).map(({ hat }) => hat);
+  }, [searchQuery]);
 
   const hatsByHouse = useMemo(() => {
     const groups: Record<string, Hat[]> = { creative: [], design: [], engineering: [] };
@@ -184,22 +181,13 @@ export default function HatRegistry() {
   };
 
   const handleSelectRelated = (hat: Hat) => {
-    setFlippedTiles(prev => {
-      const next = { ...prev };
-      if (activeHat) delete next[activeHat.id];
+    setFlippedTiles(() => {
+      const next: Record<string, boolean> = {};
+      delete next[hat.id];
       return next;
     });
     setActiveHat(hat);
     setSelectedHats(prev => prev.some(h => h.id === hat.id) ? prev : [...prev, hat]);
-  };
-
-  const resetAll = () => {
-    setSearchQuery("");
-    setSelectedCategory("all");
-    setSelectedHats([]);
-    setActiveHat(null);
-    setFlippedTiles({});
-    setCollapsedSections({ creative: true, design: true, engineering: true });
   };
 
   // ------------------------------
@@ -236,7 +224,7 @@ export default function HatRegistry() {
           top: 0,
           left: 0,
           bottom: activeHat && isMobile && isPortrait ? "58dvh" : "56px",
-          width: isMobile ? "100%" : (activeHat ? `calc(100% - ${drawerWidth}px)` : "100%"),
+          width: isPortrait && isMobile ? "100%" : (activeHat ? `calc(100% - ${drawerWidth}px)` : "100%"),
           height: "auto",
           display: "flex",
           flexDirection: "column",
@@ -337,11 +325,11 @@ export default function HatRegistry() {
                             key={hat.id}
                             onMouseEnter={() => interaction.enter(hat.id, hat)}
                             onMouseLeave={interaction.leave}
-                            onTouchStart={(e) => interaction.touchStart(hat.id, hat, e)}
-                            onTouchEnd={(e) => interaction.touchEnd(e)}
+                            onTouchStart={() => interaction.touchStart(hat.id, hat)}
+                            onTouchEnd={() => interaction.touchEnd()}
                             onClick={() =>
                               interaction.click(
-                                () => setFlippedTiles(prev => ({ ...prev, [hat.id]: !prev[hat.id] })),
+                                () => setFlippedTiles(prev => ({ [hat.id]: !prev[hat.id] })),
                                 () => toggleSelectHat(hat)
                               )
                             }
@@ -440,10 +428,10 @@ export default function HatRegistry() {
 
         {/* BOTTOM BAR — FULL LOGIC, SHIFTS CORRECTLY */}
         <div style={{
-          position: "fixed",
+          position: "absolute",
           bottom: 0,
           left: 0,
-          right: activeHat && !isMobile ? `${drawerWidth}px` : "0",
+          right: activeHat && !(isPortrait && isMobile) ? `${drawerWidth}px` : "0",
           background: "#0a0a0a",
           padding: "8px 12px 12px",
           borderTop: "1px solid #222",
@@ -497,7 +485,7 @@ export default function HatRegistry() {
               selectedHats={selectedHats}
               relatedHats={relatedHats}
               onSelectHat={handleSelectRelated}
-              onClose={() => setActiveHat(null)}
+              onClose={() => { setActiveHat(null); setFlippedTiles({}); }}
               drawerWidth={drawerWidth}
               POLYGON_SIZE={POLYGON_SIZE}
             />

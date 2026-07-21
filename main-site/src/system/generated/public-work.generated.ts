@@ -1843,12 +1843,39 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "vendfm-documentation-pending",
+      "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+      "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
       "vendfm-vendfm-vendfm-website"
     ],
     "evidenceLinks": [
       {
         "evidenceSlug": "vendfm-documentation-pending",
         "role": "supporting"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+        "role": "primary",
+        "supportedLensIds": [
+          "brand-experience-systems"
+        ],
+        "displayRoles": [
+          "lens-card",
+          "work-hero"
+        ],
+        "priority": 1
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+        "role": "supporting",
+        "supportedLensIds": [
+          "brand-experience-systems",
+          "system-product-definition"
+        ],
+        "displayRoles": [
+          "lens-card",
+          "supporting"
+        ],
+        "priority": 2
       },
       {
         "evidenceSlug": "vendfm-vendfm-vendfm-website",

@@ -44,8 +44,10 @@ export default function WorkExplorer({
     [hats],
   );
   const usedHatSlugs = useMemo(
-    () => [...new Set(work.flatMap((item) => item.appliedHatSlugs))].sort(),
-    [work],
+    () => [...new Set(work
+      .filter((item) => !groupFilter || item.capabilityGroupIds.includes(groupFilter))
+      .flatMap((item) => item.appliedHatSlugs))].sort(),
+    [groupFilter, work],
   );
   const normalizedQuery = query.trim().toLowerCase();
   const visibleWork = work.filter((item) => {
@@ -96,6 +98,8 @@ export default function WorkExplorer({
               aria-pressed={groupFilter === group.id}
               onClick={() => {
                 setGroupFilter(group.id);
+                setHatFilter("");
+                setQuery("");
                 setArchiveOpen(true);
                 setView("projects");
               }}
@@ -108,7 +112,7 @@ export default function WorkExplorer({
               <span className="capability-group-face capability-group-back">
                 <span className="capability-group-summary">{group.summary}</span>
                 <span className="capability-group-count">
-                  {projectCount} project{projectCount === 1 ? "" : "s"} · {connectedWork.length} work records
+                  {projectCount} project{projectCount === 1 ? "" : "s"} · {connectedWork.length} contributions
                 </span>
               </span>
             </button>

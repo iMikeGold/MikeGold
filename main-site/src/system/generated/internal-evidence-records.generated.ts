@@ -2446,6 +2446,67 @@ export const internalEvidenceRecords = [
     "placeholder": true
   },
   {
+    "id": "5a797bec-7f7a-4981-8a7c-f6c105294115",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T19:16:34.652Z",
+    "updatedAt": "2026-07-21T19:16:34.652Z",
+    "slug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+    "title": "VendFM — final identity direction",
+    "description": "The selected semi-final identity direction developed for VendFM.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "visibility": "public",
+    "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+    "sourceTitle": "VendFM",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
+  },
+  {
+    "id": "63fde8dd-184c-4e22-9236-db2832597640",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T19:16:34.652Z",
+    "updatedAt": "2026-07-21T19:16:34.652Z",
+    "slug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+    "title": "VendFM — identity concept mock-up",
+    "description": "An early applied mock-up used to test the VendFM identity and product direction.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "visibility": "public",
+    "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+    "sourceTitle": "VendFM",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "placeholder": false
+  },
+  {
     "id": "b584402a-047d-46bc-8f63-76f2929f8d8d",
     "recordType": "evidence",
     "schemaVersion": 1,

@@ -3109,6 +3109,55 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+    "title": "VendFM — final identity direction",
+    "description": "The selected semi-final identity direction developed for VendFM.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "work-hero",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "VendFM",
+    "placeholder": false
+  },
+  {
+    "slug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+    "title": "VendFM — identity concept mock-up",
+    "description": "An early applied mock-up used to test the VendFM identity and product direction.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+    "presentation": {
+      "facets": [
+        "brand-application",
+        "product-model",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "VendFM",
+    "placeholder": false
+  },
+  {
     "slug": "vendfm-vendfm-vendfm-website",
     "title": "VendFM — website and digital experience",
     "description": "Homepage interface showing the public-facing digital system developed for VendFM.",

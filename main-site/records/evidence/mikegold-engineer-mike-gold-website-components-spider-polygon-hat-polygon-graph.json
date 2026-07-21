@@ -13,6 +13,18 @@
   "visibility": "public",
   "assetPath": "/images/projects/mike_gold/website_components/spider_polygon/hat-polygon-graph.webp",
   "sourceTitle": "MikeGold.co.uk",
-  "presentation": { "facets": ["application-interface", "information-architecture"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "information-architecture"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "work-hero",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  },
   "placeholder": false
 }

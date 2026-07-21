@@ -1,0 +1,18 @@
+{
+  "id": "63fde8dd-184c-4e22-9236-db2832597640",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T19:16:34.652Z",
+  "updatedAt": "2026-07-21T19:16:34.652Z",
+  "slug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+  "title": "VendFM — identity concept mock-up",
+  "description": "An early applied mock-up used to test the VendFM identity and product direction.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+  "sourceTitle": "VendFM",
+  "presentation": { "facets": ["brand-application", "product-model", "logo"], "displayRoles": ["lens-card", "supporting", "gallery"], "visualQuality": "standard", "aspectPreference": "landscape" },
+  "placeholder": false
+}

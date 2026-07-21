@@ -40,7 +40,7 @@ export const publicProjects = [
     "summary": "Development of a flexible food-and-drink brand and product system with related but distinct category treatments.",
     "status": "design-development",
     "featured": true,
-    "establishedYear": 1997
+    "establishedYear": 2025
   },
   {
     "slug": "mikegold-engineer",

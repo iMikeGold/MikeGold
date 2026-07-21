@@ -3485,6 +3485,51 @@ export const internalRelationshipRecords = [
     "targetType": "evidence"
   },
   {
+    "id": "19abca57-ac55-4885-a3fd-fa503b10f8fe",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T19:16:34.652Z",
+    "updatedAt": "2026-07-21T19:16:34.652Z",
+    "slug": "vendfm-system-development-evidenced-by-vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+    "sourceId": "092ae2fd-e716-4458-9f14-25b61d5405f7",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "5a797bec-7f7a-4981-8a7c-f6c105294115",
+    "targetType": "evidence",
+    "role": "primary",
+    "supportedLensIds": [
+      "brand-experience-systems"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "work-hero"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "058b71be-aa2f-48fb-b376-5979ccfb8dd5",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T19:16:34.652Z",
+    "updatedAt": "2026-07-21T19:16:34.652Z",
+    "slug": "vendfm-system-development-evidenced-by-vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+    "sourceId": "092ae2fd-e716-4458-9f14-25b61d5405f7",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "63fde8dd-184c-4e22-9236-db2832597640",
+    "targetType": "evidence",
+    "role": "supporting",
+    "supportedLensIds": [
+      "brand-experience-systems",
+      "system-product-definition"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "supporting"
+    ],
+    "priority": 2
+  },
+  {
     "id": "59d3c113-2b0b-4b27-8287-2e3760a79bb1",
     "recordType": "relationship",
     "schemaVersion": 1,

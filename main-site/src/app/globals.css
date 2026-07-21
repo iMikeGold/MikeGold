@@ -738,6 +738,15 @@ width:100%;
   color: #8db7ff;
   text-decoration: none;
 }
+.project-record-card > a {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  touch-action: manipulation;
+}
+.project-evidence-preview { pointer-events: none; }
 
 .record-status-row,
 .record-measures,
@@ -891,7 +900,7 @@ width:100%;
 @media (max-width: 720px) {
   .site-header { gap: .75rem; padding-inline: .75rem !important; }
   .site-header .top-nav { margin-left: auto; }
-  .site-version { display: none; }
+  .site-version { display: inline; font-size: 10px !important; }
   .page {
     padding: 2rem 1.1rem;
   }

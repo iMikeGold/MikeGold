@@ -210,23 +210,27 @@ export default function HatDrawer({
         <div>
           <strong style={{ fontSize: 11, opacity: 0.6, textTransform: "uppercase" }}>Related Nodes</strong>
           {relatedHats.map((r: any) => (
-            <div
+            <button
+              type="button"
               key={r.hat.id}
               onClick={() => onSelectHat(r.hat)}
               style={{
+                width: "100%",
                 marginTop: 8,
                 padding: 10,
                 border: "1px solid #333",
                 borderRadius: 3,
                 cursor: "pointer",
-                background: "#151515"
+                color: "#fff",
+                background: "#151515",
+                textAlign: "left"
               }}
             >
               <div style={{ fontWeight: 500, fontSize: 12 }}>{r.hat.name}</div>
               <div style={{ fontSize: 10, opacity: 0.6, marginTop: 2 }}>
                 Affinity: {Math.round(r.strength * 100)}%
               </div>
-            </div>
+            </button>
           ))}
         </div>
       </div>

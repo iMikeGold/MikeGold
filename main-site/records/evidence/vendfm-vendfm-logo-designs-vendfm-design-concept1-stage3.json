@@ -1,0 +1,18 @@
+{
+  "id": "5a797bec-7f7a-4981-8a7c-f6c105294115",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T19:16:34.652Z",
+  "updatedAt": "2026-07-21T19:16:34.652Z",
+  "slug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+  "title": "VendFM — final identity direction",
+  "description": "The selected semi-final identity direction developed for VendFM.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+  "sourceTitle": "VendFM",
+  "presentation": { "facets": ["identity-system", "logo"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "placeholder": false
+}

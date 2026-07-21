@@ -13,6 +13,18 @@
   "visibility": "public",
   "assetPath": "/images/projects/mike_gold/website_components/hat_registry_system/2-hats-polygon-graph-map-display.webp",
   "sourceTitle": "MikeGold.co.uk",
-  "presentation": { "facets": ["application-interface", "system-architecture"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "system-architecture"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "work-hero",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  },
   "placeholder": false
 }

@@ -1924,7 +1924,20 @@ export const publicWorkCards = [
       "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+        "alt": "The selected semi-final identity direction developed for VendFM.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+        "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "Canonical project overview"
     ],
@@ -1946,12 +1959,25 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "vendfm-vendfm-vendfm-website",
-      "src": "/images/projects/vendfm/vendfm-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
-      "evidenceType": "website"
+      "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+      "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+      "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
+      "evidenceType": "image"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "vendfm-vendfm-vendfm-website",
+        "src": "/images/projects/vendfm/vendfm-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+        "alt": "The selected semi-final identity direction developed for VendFM.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 contribution directly connected to this lens",
       "Lead visual selected by semantic evidence fit"
@@ -1979,7 +2005,20 @@ export const publicWorkCards = [
       "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+        "alt": "The selected semi-final identity direction developed for VendFM.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+        "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 contribution directly connected to this lens",
       "Lead visual selected by semantic evidence fit"
@@ -2002,12 +2041,25 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "vendfm-vendfm-vendfm-website",
-      "src": "/images/projects/vendfm/vendfm-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
-      "evidenceType": "website"
+      "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+      "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+      "alt": "The selected semi-final identity direction developed for VendFM.",
+      "evidenceType": "image"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+        "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-vendfm-website",
+        "src": "/images/projects/vendfm/vendfm-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 contribution directly connected to this lens",
       "Lead visual selected by semantic evidence fit"
@@ -2035,7 +2087,20 @@ export const publicWorkCards = [
       "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
+        "alt": "The selected semi-final identity direction developed for VendFM.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
+        "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
+        "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 contribution directly connected to this lens",
       "Lead visual selected by semantic evidence fit"
