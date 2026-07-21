@@ -1,0 +1,17 @@
+{
+  "id": "7eea926a-f07b-4c6e-a19a-d807450fe9cb",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "ourgani-ourgani-ourgani",
+  "title": "Ourgani",
+  "description": "Supporting visual material recorded for Ourgani.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/ourgani/ourgani.png",
+  "sourceTitle": "Ourgani",
+  "placeholder": false
+}

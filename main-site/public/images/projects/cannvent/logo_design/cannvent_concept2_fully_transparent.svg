@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 1000"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Cannvent Concept 2 balanced circular seal</title>
+  <desc id="desc">A balanced circular Cannvent seal with matched top and bottom spacing, mirrored leaf emblems, and gold dots aligned to the ends of the central wordmark.</desc>
+
+  <defs>
+    <!-- Matching upper and lower text arcs -->
+    <path id="topArc" d="M185 500 A315 315 0 0 1 815 500"/>
+    <path id="bottomArc" d="M185 500 A315 315 0 0 0 815 500"/>
+
+    <!-- Exact geometric main-leaf artwork -->
+    <symbol id="mainLeaf" viewBox="245 150 510 700">
+      <g fill="none"
+         stroke="#B08D45"
+         stroke-width="12"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+        <path d="M500 215 L500 846"/>
+        <path d="M500 150 L420 320 L420 540 L500 680 L580 540 L580 320 Z"/>
+        <path d="M500 150 L500 680"/>
+        <path d="M420 320 L500 405 L580 320"/>
+        <path d="M420 430 L500 515 L580 430"/>
+        <path d="M500 735
+                 C450 625 360 540 245 505
+                 C255 620 290 720 390 775
+                 C445 805 480 825 500 850 Z"/>
+        <path d="M500 820 L330 605"/>
+        <path d="M500 735
+                 C550 625 640 540 755 505
+                 C745 620 710 720 610 775
+                 C555 805 520 825 500 850 Z"/>
+        <path d="M500 820 L670 605"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- Transparent outside the seal -->
+  <circle cx="500" cy="500" r="400" fill="none"/>
+  <circle cx="500" cy="500" r="396"
+          fill="none" stroke="#163A2B" stroke-width="8"/>
+  <circle cx="500" cy="500" r="378"
+          fill="none" stroke="#B08D45" stroke-width="3.5"/>
+
+  <!-- Upper wording: equal inset from outer edge -->
+  <text fill="#163A2B"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="40"
+        letter-spacing="13">
+    <textPath href="#topArc"
+              startOffset="50%"
+              text-anchor="middle">DAILY WELLNESS</textPath>
+  </text>
+
+  <!-- Upper leaf, centred in the gap -->
+  <use href="#mainLeaf"
+       x="438" y="282"
+       width="124" height="148"/>
+
+  <!-- Central wordmark -->
+  <text x="500" y="550"
+        text-anchor="middle"
+        fill="#163A2B"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="122">CANNVENT</text>
+
+  <!-- Dots aligned with the left and right ends of the wordmark -->
+  <circle cx="205" cy="620" r="7" fill="#B08D45"/>
+  <circle cx="795" cy="620" r="7" fill="#B08D45"/>
+
+  <!-- Lower leaf: same size and equal spacing, mirrored vertically -->
+  <g transform="translate(500 650) scale(1 -1) translate(-500 -650)">
+    <use href="#mainLeaf"
+         x="438" y="576"
+         width="124" height="148"/>
+  </g>
+
+  <!-- Lower wording: same radius and inset as upper wording -->
+  <text fill="#163A2B"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="40"
+        letter-spacing="11">
+    <textPath href="#bottomArc"
+              startOffset="50%"
+              text-anchor="middle">NATURALLY BALANCED</textPath>
+  </text>
+</svg>

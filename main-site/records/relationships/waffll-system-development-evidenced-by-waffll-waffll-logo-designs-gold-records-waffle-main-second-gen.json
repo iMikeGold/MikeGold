@@ -1,0 +1,13 @@
+{
+  "id": "74cb42e9-6bb6-4582-ba76-261f02c3773c",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "waffll-system-development-evidenced-by-waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
+  "sourceId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "7774e9e3-d00e-44f8-84bc-e820e7d9763c",
+  "targetType": "evidence"
+}

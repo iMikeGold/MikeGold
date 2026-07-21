@@ -1,0 +1,17 @@
+{
+  "id": "5133a28b-4785-4217-971d-030e6e61b643",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
+  "title": "Cannvent Concept2 Fully Transparent",
+  "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/logo_design/cannvent_concept2_fully_transparent.svg",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

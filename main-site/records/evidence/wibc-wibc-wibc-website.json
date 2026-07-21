@@ -1,0 +1,17 @@
+{
+  "id": "423d0567-1ac0-401e-a8bd-eb6d3e05a7cc",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "wibc-wibc-wibc-website",
+  "title": "WIBC website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for WIBC.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/wibc/wibc-website.png",
+  "sourceTitle": "WIBC",
+  "placeholder": false
+}

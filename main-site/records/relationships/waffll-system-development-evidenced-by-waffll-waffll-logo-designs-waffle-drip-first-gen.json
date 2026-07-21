@@ -1,0 +1,13 @@
+{
+  "id": "d71a65a5-35d2-418e-b51d-725110fe0b5f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "waffll-system-development-evidenced-by-waffll-waffll-logo-designs-waffle-drip-first-gen",
+  "sourceId": "1ae3752d-1ab5-4dc5-87a1-311fcdf12a3c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c686f71e-0846-4c25-ba93-de6ba0e42bee",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "9c2ae8ca-1e97-4d81-ab82-9bb5522ec265",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-cannvent-logo-design-cannvent-gold-leaf-transparent",
+  "title": "Cannvent Gold Leaf Transparent",
+  "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/logo_design/cannvent_gold_leaf_transparent.svg",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

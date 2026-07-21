@@ -1,0 +1,13 @@
+{
+  "id": "2cf0b023-ec76-4708-ac90-f4280bc697ea",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "imikegold-system-development-evidenced-by-imikegold-imikegold-imikegold-website",
+  "sourceId": "5bfe7471-ce16-43d9-ba1a-e9218abf9d87",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "87cd9a5f-da6e-4185-a9fe-6daca2f8469e",
+  "targetType": "evidence"
+}

@@ -19,6 +19,16 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
+      "118-sports-118sports-118sports-website",
+      "118-sports-118sports-branding-systems-118-rising-crest",
+      "118-sports-118sports-branding-systems-rising-crest-2tone",
+      "118-sports-118sports-branding-systems-rising-crest1",
+      "118-sports-118sports-branding-systems-rising-crest2",
+      "118-sports-118sports-logo-design-118-juve",
+      "118-sports-118sports-logo-design-118-oval-gold",
+      "118-sports-118sports-mock-ups-118-pale-gold-centre-jersey-mockup",
+      "118-sports-118sports-mock-ups-118-pale-gold-jersey-mockup",
+      "118-sports-118sports-mock-ups-118-purple-goldrising-jersey-mockup",
       "118-sports-documentation-pending"
     ]
   },
@@ -75,6 +85,7 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
+      "best-indies-best-indies-best-indies-website",
       "best-indies-documentation-pending"
     ]
   },
@@ -133,6 +144,7 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
+      "bonsai-tree-of-life-bonsaitol-bonsaitol-website",
       "bonsai-tree-of-life-documentation-pending"
     ]
   },
@@ -171,6 +183,11 @@ export const publicWork = [
       "meaning-architect"
     ],
     "evidenceSlugs": [
+      "cannvent-cannvent-cannvent-website",
+      "cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
+      "cannvent-cannvent-logo-design-cannvent-gold-leaf-transparent",
+      "cannvent-cannvent-logo-design-logo-design-concepts",
+      "cannvent-cannvent-logo-design-main-logo-design-green-gold",
       "cannvent-documentation-pending"
     ]
   },
@@ -192,6 +209,7 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
+      "community-supplies-community-supplies-community-suuplies-website",
       "community-supplies-documentation-pending"
     ]
   },
@@ -322,7 +340,18 @@ export const publicWork = [
       "meaning-architect"
     ],
     "evidenceSlugs": [
-      "findthy-documentation-pending"
+      "findthy-documentation-pending",
+      "findthy-findthy-findthy-website",
+      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
+      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-55-am",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-close",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-hollow",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold"
     ]
   },
   {
@@ -419,7 +448,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "house-of-gold-documentation-pending"
+      "house-of-gold-documentation-pending",
+      "house-of-gold-house-of-gold-house-of-gold-website"
     ]
   },
   {
@@ -459,7 +489,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "imikegold-documentation-pending"
+      "imikegold-documentation-pending",
+      "imikegold-imikegold-imikegold-website"
     ]
   },
   {
@@ -480,7 +511,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "just-enterprises-documentation-pending"
+      "just-enterprises-documentation-pending",
+      "just-enterprises-just-enterprises-just-enterprises-website"
     ]
   },
   {
@@ -571,7 +603,13 @@ export const publicWork = [
       "visual-language-engineer"
     ],
     "evidenceSlugs": [
-      "metroplist-documentation-pending"
+      "metroplist-documentation-pending",
+      "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
+      "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
+      "metroplist-metroplist-branding-language-metroplist-concept-d-density-master1",
+      "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2-language-explained",
+      "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2",
+      "metroplist-metroplist-metroplist-website"
     ]
   },
   {
@@ -585,7 +623,9 @@ export const publicWork = [
       "media-asset-systems"
     ],
     "appliedHatSlugs": [],
-    "evidenceSlugs": []
+    "evidenceSlugs": [
+      "mickz-mickz-mickz-website"
+    ]
   },
   {
     "slug": "mickz-identity-development",
@@ -618,6 +658,11 @@ export const publicWork = [
       "logo-systems-designer"
     ],
     "evidenceSlugs": [
+      "mickz-mickz-branding-systems-drinks-mickz-main",
+      "mickz-mickz-branding-systems-mickz-jungle-mix",
+      "mickz-mickz-branding-systems-mickz-main-ocean-blue",
+      "mickz-mickz-branding-systems-mickz",
+      "mickz-mickz-branding-systems-tea-mickz-main",
       "mickz-identity-development"
     ]
   },
@@ -654,7 +699,13 @@ export const publicWork = [
       "visual-language-engineer"
     ],
     "evidenceSlugs": [
-      "mickz-product-system"
+      "mickz-product-system",
+      "mickz-mickz-mock-ups-bissy-mickz-tea",
+      "mickz-mickz-mock-ups-coffee-mickz-tea",
+      "mickz-mickz-mock-ups-hot-mickz",
+      "mickz-mickz-mock-ups-mickz-hibiscus",
+      "mickz-mickz-mock-ups-mickz-ting3",
+      "mickz-mickz-mock-ups-pickle-mickz"
     ]
   },
   {
@@ -696,7 +747,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "multiplied-intelligence-documentation-pending"
+      "multiplied-intelligence-documentation-pending",
+      "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence"
     ]
   },
   {
@@ -713,6 +765,13 @@ export const publicWork = [
       "application-engineer"
     ],
     "evidenceSlugs": [
+      "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
+      "musical-intelligence-musical-intelligence-logo-restore-mi3-main-red2-cropped-transparent",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-1",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
+      "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3",
       "musical-intelligence-content-architecture"
     ]
   },
@@ -745,7 +804,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "musical-intelligence-web-experience"
+      "musical-intelligence-web-experience",
+      "musical-intelligence-musical-intelligence-musical-intelligence-website"
     ]
   },
   {
@@ -765,7 +825,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "ourgani-documentation-pending"
+      "ourgani-documentation-pending",
+      "ourgani-ourgani-ourgani"
     ]
   },
   {
@@ -806,7 +867,8 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
-      "protosynthesis-documentation-pending"
+      "protosynthesis-documentation-pending",
+      "protosynthesis-protosynthesis-logo-protosynthesis-7dot-logo-only-main-protoglyph-design2-2"
     ]
   },
   {
@@ -845,7 +907,15 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
-      "saveours-documentation-pending"
+      "saveours-documentation-pending",
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
+      "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
+      "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
+      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
+      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
+      "saveours-saveours-saveours-website"
     ]
   },
   {
@@ -901,7 +971,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "the-visionary-guide-documentation-pending"
+      "the-visionary-guide-documentation-pending",
+      "the-visionary-guide-visionary-guide-visionary-guide-website"
     ]
   },
   {
@@ -922,7 +993,8 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
-      "vendfm-documentation-pending"
+      "vendfm-documentation-pending",
+      "vendfm-vendfm-vendfm-website"
     ]
   },
   {
@@ -959,7 +1031,10 @@ export const publicWork = [
       "media-engineer"
     ],
     "evidenceSlugs": [
-      "waffll-documentation-pending"
+      "waffll-documentation-pending",
+      "waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
+      "waffll-waffll-logo-designs-waffle-drip-first-gen",
+      "waffll-waffll-waffll-website"
     ]
   },
   {
@@ -978,7 +1053,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "wibc-documentation-pending"
+      "wibc-documentation-pending",
+      "wibc-wibc-wibc-website"
     ]
   },
   {
@@ -1000,7 +1076,8 @@ export const publicWork = [
       "web-design-engineer"
     ],
     "evidenceSlugs": [
-      "wrappedfm-documentation-pending"
+      "wrappedfm-documentation-pending",
+      "wrappedfm-wrappedfm-wrappedfm-website"
     ]
   },
   {

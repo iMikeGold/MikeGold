@@ -1,0 +1,17 @@
+{
+  "id": "9035da54-6aaf-43c4-98f9-c97fb6d43586",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-branding-systems-mickz",
+  "title": "MiCKz",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/branding_systems/miCKz.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "e213673d-d8ae-4e9b-bb69-0c5f161cd296",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "musical-intelligence-web-experience-evidenced-by-musical-intelligence-musical-intelligence-musical-intelligence-website",
+  "sourceId": "1c237ac9-291f-4547-9f21-bf9318b4b7dc",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d2b0fbb1-542e-4424-ba3a-cd7965b052be",
+  "targetType": "evidence"
+}

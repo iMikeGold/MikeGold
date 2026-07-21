@@ -1,0 +1,13 @@
+{
+  "id": "b3e256e8-d3eb-41e6-a7d8-362525ad9b27",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "118-sports-system-development-evidenced-by-118-sports-118sports-logo-design-118-oval-gold",
+  "sourceId": "eb0a38d2-499d-46fd-8b4f-731901d17982",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "6dd95dc3-6172-4643-8e0f-3c79434f0912",
+  "targetType": "evidence"
+}

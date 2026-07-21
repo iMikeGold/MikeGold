@@ -1,0 +1,17 @@
+{
+  "id": "f54aebc3-6ef1-472b-bcc5-4073f089e9c2",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-cannvent-logo-design-logo-design-concepts",
+  "title": "Logo Design Concepts",
+  "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/logo_design/logo-design-concepts.webp",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

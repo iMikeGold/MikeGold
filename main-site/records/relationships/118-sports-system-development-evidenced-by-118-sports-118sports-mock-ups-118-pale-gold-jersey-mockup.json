@@ -1,0 +1,13 @@
+{
+  "id": "a3dddcf2-4967-49b9-989a-0ad766ddbc86",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "118-sports-system-development-evidenced-by-118-sports-118sports-mock-ups-118-pale-gold-jersey-mockup",
+  "sourceId": "eb0a38d2-499d-46fd-8b4f-731901d17982",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "f08f4d79-33ef-43ff-8dcc-16e91506921b",
+  "targetType": "evidence"
+}

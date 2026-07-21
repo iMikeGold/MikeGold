@@ -1,0 +1,17 @@
+{
+  "id": "b584402a-047d-46bc-8f63-76f2929f8d8d",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "vendfm-vendfm-vendfm-website",
+  "title": "VendFM website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for VendFM.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/vendfm/vendfm-website.png",
+  "sourceTitle": "VendFM",
+  "placeholder": false
+}

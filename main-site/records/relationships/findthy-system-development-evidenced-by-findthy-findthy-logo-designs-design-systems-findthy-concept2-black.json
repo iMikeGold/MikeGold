@@ -1,0 +1,13 @@
+{
+  "id": "8df7d014-3313-4e1c-b1cd-cf409db403a1",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "findthy-system-development-evidenced-by-findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
+  "sourceId": "8ddaf249-9c58-4bfb-98a7-e1c0443e4924",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "67ec8263-6c02-4f5b-943e-a0dc8f4ac22b",
+  "targetType": "evidence"
+}

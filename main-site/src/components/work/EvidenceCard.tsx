@@ -19,9 +19,12 @@ export default function EvidenceCard({
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoId = evidence.evidenceType === "video" ? youtubeId(evidence.externalUrl) : null;
+  const evidenceLabel = evidence.role
+    ? `${evidence.role.replaceAll("-", " ")} evidence`
+    : evidence.sourceAuthor ?? evidence.evidenceType;
 
   return (
-    <article className={`evidence-card${videoId ? " evidence-card-video" : ""}`}>
+    <article className={`evidence-card evidence-card-${evidence.role ?? evidence.evidenceType}${videoId ? " evidence-card-video" : ""}`}>
       {videoId && (
         <div className="evidence-media">
           {isPlaying ? (
@@ -41,10 +44,15 @@ export default function EvidenceCard({
           )}
         </div>
       )}
+      {!videoId && evidence.assetPath && (
+        <div className={`evidence-image evidence-image-${evidence.role ?? "reference"}`}>
+          <img src={evidence.assetPath} alt={evidence.title} loading="lazy" />
+        </div>
+      )}
       <span>
         {evidence.placeholder
           ? "Evidence being collated"
-          : evidence.sourceAuthor ?? evidence.evidenceType}
+          : evidenceLabel}
       </span>
       <strong>{evidence.title}</strong>
       {evidence.description && <p>{evidence.description}</p>}

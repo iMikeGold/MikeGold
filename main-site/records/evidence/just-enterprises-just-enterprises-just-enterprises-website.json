@@ -1,0 +1,17 @@
+{
+  "id": "3b7cdc91-b070-4e26-a7e7-ba3a78a16cef",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "just-enterprises-just-enterprises-just-enterprises-website",
+  "title": "Just Enterprises website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Just Enterprises.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/just_enterprises/just-enterprises-website.png",
+  "sourceTitle": "Just Enterprises",
+  "placeholder": false
+}

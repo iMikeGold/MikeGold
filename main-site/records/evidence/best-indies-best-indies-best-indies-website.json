@@ -1,0 +1,17 @@
+{
+  "id": "4fdb6e95-1939-4ca4-ab00-3a51a5df2620",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "best-indies-best-indies-best-indies-website",
+  "title": "Best Indies website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Best Indies.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/best_indies/best-indies-website.png",
+  "sourceTitle": "Best Indies",
+  "placeholder": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "b09a1eca-d395-449a-a295-5fd08a914f66",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "waffll-waffll-waffll-website",
+  "title": "Waffll website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Waffll.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/waffll/waffll-website.png",
+  "sourceTitle": "Waffll",
+  "placeholder": false
+}

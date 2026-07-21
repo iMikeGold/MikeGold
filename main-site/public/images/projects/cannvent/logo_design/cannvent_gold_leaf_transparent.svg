@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 1000"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Cannvent geometric botanical emblem</title>
+  <desc id="desc">A gold geometric leaf emblem within an open circular frame, on a transparent background.</desc>
+
+  <g fill="none"
+     stroke="#B08D45"
+     stroke-width="12"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Open circular frame -->
+    <path d="M360 142
+             A390 390 0 0 0 360 858" />
+    <path d="M640 142
+             A390 390 0 0 1 640 858" />
+
+    <!-- Central stem -->
+    <path d="M500 215 L500 846" />
+
+    <!-- Upper leaf outline -->
+    <path d="M500 150
+             L420 320
+             L420 540
+             L500 680
+             L580 540
+             L580 320
+             Z" />
+
+    <!-- Upper leaf internal geometry -->
+    <path d="M500 150 L500 680" />
+    <path d="M420 320 L500 405 L580 320" />
+    <path d="M420 430 L500 515 L580 430" />
+
+    <!-- Left lower leaf -->
+    <path d="M500 735
+             C450 625 360 540 245 505
+             C255 620 290 720 390 775
+             C445 805 480 825 500 850
+             Z" />
+    <path d="M500 820 L330 605" />
+
+    <!-- Right lower leaf -->
+    <path d="M500 735
+             C550 625 640 540 755 505
+             C745 620 710 720 610 775
+             C555 805 520 825 500 850
+             Z" />
+    <path d="M500 820 L670 605" />
+
+    <!-- Crown and base points -->
+    <circle cx="500" cy="95" r="14" fill="#B08D45" stroke="none"/>
+    <circle cx="500" cy="905" r="14" fill="#B08D45" stroke="none"/>
+  </g>
+</svg>

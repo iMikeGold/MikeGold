@@ -1,0 +1,13 @@
+{
+  "id": "d6c0fa72-62f2-4b02-bc24-0594c706cfad",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-product-system-evidenced-by-mickz-mickz-mock-ups-mickz-hibiscus",
+  "sourceId": "4b2fe537-ffd5-4aee-97c8-434f0c907f68",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "7e6dc9c4-6033-4997-8ded-dbb43c7fe6dd",
+  "targetType": "evidence"
+}

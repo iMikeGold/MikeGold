@@ -149,6 +149,8 @@ const publicEvidence = evidence
     title: record.title,
     ...(record.description ? { description: record.description } : {}),
     evidenceType: record.evidenceType,
+    ...(record.role ? { role: record.role } : {}),
+    ...(Number.isFinite(record.sequence) ? { sequence: record.sequence } : {}),
     ...(record.assetPath ? { assetPath: record.assetPath } : {}),
     ...(record.externalUrl ? { externalUrl: record.externalUrl } : {}),
     ...(record.thumbnailUrl ? { thumbnailUrl: record.thumbnailUrl } : {}),

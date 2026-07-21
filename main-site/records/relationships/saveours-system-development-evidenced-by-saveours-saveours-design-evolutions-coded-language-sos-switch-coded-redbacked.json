@@ -1,0 +1,13 @@
+{
+  "id": "6acf69d0-40dd-4b6a-9fe1-6b04e119cc49",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "saveours-system-development-evidenced-by-saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
+  "sourceId": "7a92c800-b5bc-4cb9-b06c-b6459a93e390",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1f7efb4e-8b01-4525-8477-345b925d5fc3",
+  "targetType": "evidence"
+}

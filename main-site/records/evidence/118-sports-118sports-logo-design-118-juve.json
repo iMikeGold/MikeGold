@@ -1,0 +1,17 @@
+{
+  "id": "a61f58f3-a17e-402d-8d15-e0edb87d7034",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "118-sports-118sports-logo-design-118-juve",
+  "title": "118 Juve",
+  "description": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 5,
+  "visibility": "public",
+  "assetPath": "/images/projects/118sports/logo_design/118-juve.webp",
+  "sourceTitle": "118 Sports",
+  "placeholder": false
+}

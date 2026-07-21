@@ -3,6 +3,116 @@ import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types"
 
 export const publicEvidence = [
   {
+    "slug": "118-sports-118sports-118sports-website",
+    "title": "118 Sports website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for 118 Sports.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/118sports/118sports-website.png",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-branding-systems-118-rising-crest",
+    "title": "118 Rising Crest",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind 118 Sports.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 1,
+    "assetPath": "/images/projects/118sports/branding_systems/118-rising-crest.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-branding-systems-rising-crest-2tone",
+    "title": "Rising Crest 2tone",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind 118 Sports.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 2,
+    "assetPath": "/images/projects/118sports/branding_systems/rising-crest-2tone.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-branding-systems-rising-crest1",
+    "title": "Rising Crest1",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind 118 Sports.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 3,
+    "assetPath": "/images/projects/118sports/branding_systems/rising-crest1.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-branding-systems-rising-crest2",
+    "title": "Rising Crest2",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind 118 Sports.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 4,
+    "assetPath": "/images/projects/118sports/branding_systems/rising-crest2.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-logo-design-118-juve",
+    "title": "118 Juve",
+    "description": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 5,
+    "assetPath": "/images/projects/118sports/logo_design/118-juve.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-logo-design-118-oval-gold",
+    "title": "118 Oval Gold",
+    "description": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 6,
+    "assetPath": "/images/projects/118sports/logo_design/118-oval-gold.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-mock-ups-118-pale-gold-centre-jersey-mockup",
+    "title": "118 Pale Gold Centre Jersey Mockup",
+    "description": "Applied brand and product-system evidence for 118 Sports.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 7,
+    "assetPath": "/images/projects/118sports/mock_ups/118-pale-gold-centre-jersey-mockup.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-mock-ups-118-pale-gold-jersey-mockup",
+    "title": "118 Pale Gold Jersey Mockup",
+    "description": "Applied brand and product-system evidence for 118 Sports.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 8,
+    "assetPath": "/images/projects/118sports/mock_ups/118-pale-gold-jersey-mockup.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
+    "slug": "118-sports-118sports-mock-ups-118-purple-goldrising-jersey-mockup",
+    "title": "118 Purple Goldrising Jersey Mockup",
+    "description": "Applied brand and product-system evidence for 118 Sports.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 9,
+    "assetPath": "/images/projects/118sports/mock_ups/118-purple-goldrising-jersey-mockup.webp",
+    "sourceTitle": "118 Sports",
+    "placeholder": false
+  },
+  {
     "slug": "118-sports-documentation-pending",
     "title": "118 Sports project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -26,6 +136,17 @@ export const publicEvidence = [
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "best-indies-best-indies-best-indies-website",
+    "title": "Best Indies website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Best Indies.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/best_indies/best-indies-website.png",
+    "sourceTitle": "Best Indies",
+    "placeholder": false
   },
   {
     "slug": "best-indies-documentation-pending",
@@ -53,6 +174,17 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "bonsai-tree-of-life-bonsaitol-bonsaitol-website",
+    "title": "Bonsai Tree of Life website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Bonsai Tree of Life.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/bonsaiTOL/bonsaiTOL-website.png",
+    "sourceTitle": "Bonsai Tree of Life",
+    "placeholder": false
+  },
+  {
     "slug": "bonsai-tree-of-life-documentation-pending",
     "title": "Bonsai Tree of Life project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -71,11 +203,77 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "cannvent-cannvent-cannvent-website",
+    "title": "Cannvent website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Cannvent.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/cannvent/cannvent-website.png",
+    "sourceTitle": "Cannvent",
+    "placeholder": false
+  },
+  {
+    "slug": "cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
+    "title": "Cannvent Concept2 Fully Transparent",
+    "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/cannvent/logo_design/cannvent_concept2_fully_transparent.svg",
+    "sourceTitle": "Cannvent",
+    "placeholder": false
+  },
+  {
+    "slug": "cannvent-cannvent-logo-design-cannvent-gold-leaf-transparent",
+    "title": "Cannvent Gold Leaf Transparent",
+    "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "assetPath": "/images/projects/cannvent/logo_design/cannvent_gold_leaf_transparent.svg",
+    "sourceTitle": "Cannvent",
+    "placeholder": false
+  },
+  {
+    "slug": "cannvent-cannvent-logo-design-logo-design-concepts",
+    "title": "Logo Design Concepts",
+    "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "assetPath": "/images/projects/cannvent/logo_design/logo-design-concepts.webp",
+    "sourceTitle": "Cannvent",
+    "placeholder": false
+  },
+  {
+    "slug": "cannvent-cannvent-logo-design-main-logo-design-green-gold",
+    "title": "Main Logo Design Green Gold",
+    "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 4,
+    "assetPath": "/images/projects/cannvent/logo_design/main-logo-design-green-gold.webp",
+    "sourceTitle": "Cannvent",
+    "placeholder": false
+  },
+  {
     "slug": "cannvent-documentation-pending",
     "title": "Cannvent project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "community-supplies-community-supplies-community-suuplies-website",
+    "title": "Community Supplies website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/community_supplies/community-suuplies-website.png",
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
   },
   {
     "slug": "community-supplies-documentation-pending",
@@ -158,6 +356,127 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "findthy-findthy-findthy-website",
+    "title": "FindThy website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for FindThy.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/findthy/findthy-website.png",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
+    "title": "ChatGPT Image Jul 16, 2026, 01 23 46 AM",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/findthy/logo_designs/ChatGPT Image Jul 16, 2026, 01_23_46 AM.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-55-am",
+    "title": "ChatGPT Image Jul 16, 2026, 01 23 55 AM",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "assetPath": "/images/projects/findthy/logo_designs/ChatGPT Image Jul 16, 2026, 01_23_55 AM.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
+    "title": "Findthy Concept1 Green",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept1-green.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
+    "title": "Findthy Concept2 Black",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 4,
+    "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept2-black.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
+    "title": "Findthy Concept3 Black",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 5,
+    "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept3-black.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
+    "title": "Findthy Concept4 Black",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 6,
+    "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept4-black.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
+    "title": "Findthy Concept4 Green",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 7,
+    "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept4-green.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-close",
+    "title": "Findthy Concept3 4 Green Blackgold Close",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 8,
+    "assetPath": "/images/projects/findthy/logo_designs/findthy-concept3+4-green-blackgold-close.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-hollow",
+    "title": "Findthy Concept3 4 Green Blackgold Hollow",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 9,
+    "assetPath": "/images/projects/findthy/logo_designs/findthy-concept3+4-green-blackgold-hollow.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
+    "slug": "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold",
+    "title": "Findthy Concept3 4 Green Blackgold",
+    "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 10,
+    "assetPath": "/images/projects/findthy/logo_designs/findthy-concept3+4-green-blackgold.webp",
+    "sourceTitle": "FindThy",
+    "placeholder": false
+  },
+  {
     "slug": "five9-customer-story-systems-research-and-systems-thinking-video",
     "title": "Five9 Customer Heroes | Teladoc: Transforming Virtual Healthcare with Contact Center Innovation",
     "description": "Supporting video published by Five9.",
@@ -201,6 +520,17 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "house-of-gold-house-of-gold-house-of-gold-website",
+    "title": "House of Gold website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for House of Gold.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/house_of_gold/house-of-gold-website.png",
+    "sourceTitle": "House of Gold",
+    "placeholder": false
+  },
+  {
     "slug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video",
     "title": "Relive It || Texans take down the Jaguars across the pond",
     "description": "Supporting video published by Houston Texans.",
@@ -219,11 +549,33 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "imikegold-imikegold-imikegold-website",
+    "title": "iMikeGold.com website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for iMikeGold.com.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/imikegold/imikegold-website.png",
+    "sourceTitle": "iMikeGold.com",
+    "placeholder": false
+  },
+  {
     "slug": "just-enterprises-documentation-pending",
     "title": "Just Enterprises project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "just-enterprises-just-enterprises-just-enterprises-website",
+    "title": "Just Enterprises website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Just Enterprises.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/just_enterprises/just-enterprises-website.png",
+    "sourceTitle": "Just Enterprises",
+    "placeholder": false
   },
   {
     "slug": "living-control-media-servers-multimedia-distribution-video",
@@ -277,11 +629,209 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
+    "title": "Metroplist Concept D Density Master Foundation Builds",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 0,
+    "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
+    "title": "Metroplist Concept D Density Master Transparent Preview",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 1,
+    "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master1",
+    "title": "Metroplist Concept D Density Master1",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 2,
+    "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master1.webp",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2-language-explained",
+    "title": "Metroplist Concept D Density Master2 Language Explained",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 3,
+    "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master2-language-explained.webp",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master2",
+    "title": "Metroplist Concept D Density Master2",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 4,
+    "assetPath": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master2.webp",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-metroplist-metroplist-website",
+    "title": "Metroplist website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 5,
+    "assetPath": "/images/projects/metroplist/metroplist-website.png",
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
     "slug": "mickz-identity-development",
     "title": "MiCKz identity development sequence",
     "description": "Reserved for confirmed exploration, direction and refinement assets.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "mickz-mickz-branding-systems-drinks-mickz-main",
+    "title": "Drinks Mickz Main",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 2,
+    "assetPath": "/images/projects/mickz/branding_systems/drinks-mickz-main.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-branding-systems-mickz-jungle-mix",
+    "title": "MiCKz Jungle Mix",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 0,
+    "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Jungle-Mix.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-branding-systems-mickz-main-ocean-blue",
+    "title": "MiCKz Main Ocean Blue",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 1,
+    "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Main-Ocean-Blue.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-branding-systems-mickz",
+    "title": "MiCKz",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 3,
+    "assetPath": "/images/projects/mickz/branding_systems/miCKz.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-branding-systems-tea-mickz-main",
+    "title": "Tea Mickz Main",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 4,
+    "assetPath": "/images/projects/mickz/branding_systems/tea-mickz-main.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mickz-website",
+    "title": "MiCKz website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for MiCKz.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 5,
+    "assetPath": "/images/projects/mickz/mickz-website.png",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-bissy-mickz-tea",
+    "title": "Bissy Mickz Tea",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 6,
+    "assetPath": "/images/projects/mickz/mock_ups/bissy-mickz-tea.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-coffee-mickz-tea",
+    "title": "Coffee Mickz Tea",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 7,
+    "assetPath": "/images/projects/mickz/mock_ups/coffee-mickz-tea.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-hot-mickz",
+    "title": "Hot Mickz",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 8,
+    "assetPath": "/images/projects/mickz/mock_ups/hot-mickz.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-mickz-hibiscus",
+    "title": "Mickz Hibiscus",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 9,
+    "assetPath": "/images/projects/mickz/mock_ups/mickz-hibiscus.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-mickz-ting3",
+    "title": "Mickz Ting3",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 10,
+    "assetPath": "/images/projects/mickz/mock_ups/mickz-ting3.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
+  },
+  {
+    "slug": "mickz-mickz-mock-ups-pickle-mickz",
+    "title": "Pickle Mickz",
+    "description": "Applied brand and product-system evidence for MiCKz.",
+    "evidenceType": "image",
+    "role": "application",
+    "sequence": 11,
+    "assetPath": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
+    "sourceTitle": "MiCKz",
+    "placeholder": false
   },
   {
     "slug": "mickz-product-system",
@@ -305,11 +855,110 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence",
+    "title": "Multiplied Intelligence",
+    "description": "Supporting visual material recorded for Multiplied Intelligence.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 0,
+    "assetPath": "/images/projects/multiplied_intelligence/multiplied_intelligence.png",
+    "sourceTitle": "Multiplied Intelligence",
+    "placeholder": false
+  },
+  {
     "slug": "musical-intelligence-content-architecture",
     "title": "Musical Intelligence content model",
     "description": "Reserved for a confirmed content or application architecture diagram.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
+    "title": "Logo Main3 Red1 Transparent",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 0,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/logo-main3-red1-transparent.webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-mi3-main-red2-cropped-transparent",
+    "title": "Mi3 Main Red2 Cropped Transparent",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/mi3-main-red2-cropped-transparent.webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
+    "title": "Musical Intelligence",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence.webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-1",
+    "title": "Musical Intelligence³(1)",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³(1).webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
+    "title": "Musical Intelligence³(2)",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 4,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³(2).webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
+    "title": "Musical Intelligence³",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 5,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/musical-intelligence³.webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3",
+    "title": "Og Logo (Musical Intelligence)^3",
+    "description": "Identity-system evidence showing a logo or mark developed for Musical Intelligence.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 6,
+    "assetPath": "/images/projects/musical_intelligence/logo_restore/og-logo-(musical-intelligence)^3.webp",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
+  },
+  {
+    "slug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
+    "title": "Musical Intelligence website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 7,
+    "assetPath": "/images/projects/musical_intelligence/musical-intelligence-website.png",
+    "sourceTitle": "Musical Intelligence",
+    "placeholder": false
   },
   {
     "slug": "musical-intelligence-web-experience",
@@ -324,6 +973,17 @@ export const publicEvidence = [
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "ourgani-ourgani-ourgani",
+    "title": "Ourgani",
+    "description": "Supporting visual material recorded for Ourgani.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 0,
+    "assetPath": "/images/projects/ourgani/ourgani.png",
+    "sourceTitle": "Ourgani",
+    "placeholder": false
   },
   {
     "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
@@ -344,6 +1004,17 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "protosynthesis-protosynthesis-logo-protosynthesis-7dot-logo-only-main-protoglyph-design2-2",
+    "title": "ProtoSynthesis 7Dot Logo Only Main ProtoGlyph Design2.2",
+    "description": "Identity-system evidence showing a logo or mark developed for ProtoSynthesis.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 0,
+    "assetPath": "/images/projects/protosynthesis/logo/ProtoSynthesis-7Dot-Logo Only-Main-ProtoGlyph-Design2.2.webp",
+    "sourceTitle": "ProtoSynthesis",
+    "placeholder": false
+  },
+  {
     "slug": "rockett-home-rentals-company-film-camera-operation-and-workflow-video",
     "title": "Rockett Home Rentals Company Video",
     "description": "Supporting video published by Rockett Home Rentals.",
@@ -360,6 +1031,94 @@ export const publicEvidence = [
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
+    "title": "Sos Switch Coded Redbacked",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 0,
+    "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-redbacked.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
+    "title": "Sos Switch Coded Trans",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 1,
+    "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-trans.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
+    "title": "Sos Switch Coded White",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 2,
+    "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
+    "title": "15year Old Logo Og Saveours",
+    "description": "Identity-system evidence showing a logo or mark developed for SaveOurs.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "assetPath": "/images/projects/saveours/design_evolutions/first_generation_designs/15year-old-logo-og-saveours.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
+    "title": "Sos Old Revamped",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 4,
+    "assetPath": "/images/projects/saveours/design_evolutions/first_generation_designs/sos-old-revamped.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
+    "title": "Saveours Sos Stack Blue",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 5,
+    "assetPath": "/images/projects/saveours/design_evolutions/second_generation_designs/saveours-sos-stack-blue.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
+    "title": "Saveours Sos Stack Terracotta",
+    "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+    "evidenceType": "image",
+    "role": "process",
+    "sequence": 6,
+    "assetPath": "/images/projects/saveours/design_evolutions/second_generation_designs/saveours-sos-stack-terracotta.webp",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
+  },
+  {
+    "slug": "saveours-saveours-saveours-website",
+    "title": "SaveOurs website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for SaveOurs.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 7,
+    "assetPath": "/images/projects/saveours/saveours-website.png",
+    "sourceTitle": "SaveOurs",
+    "placeholder": false
   },
   {
     "slug": "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems-video",
@@ -391,11 +1150,33 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+    "title": "The Visionary Guide website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/visionary_guide/visionary-guide-website.png",
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
     "slug": "vendfm-documentation-pending",
     "title": "VendFM project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "vendfm-vendfm-vendfm-website",
+    "title": "VendFM website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for VendFM.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/vendfm/vendfm-website.png",
+    "sourceTitle": "VendFM",
+    "placeholder": false
   },
   {
     "slug": "viisiioiiv-documentation-pending",
@@ -412,6 +1193,39 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
+    "title": "Gold Records Waffle Main Second Gen",
+    "description": "Identity-system evidence showing a logo or mark developed for Waffll.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 0,
+    "assetPath": "/images/projects/waffll/logo_designs/gold-records-waffle-main-second-gen.webp",
+    "sourceTitle": "Waffll",
+    "placeholder": false
+  },
+  {
+    "slug": "waffll-waffll-logo-designs-waffle-drip-first-gen",
+    "title": "Waffle Drip First Gen",
+    "description": "Identity-system evidence showing a logo or mark developed for Waffll.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/waffll/logo_designs/waffle-drip-first-gen.webp",
+    "sourceTitle": "Waffll",
+    "placeholder": false
+  },
+  {
+    "slug": "waffll-waffll-waffll-website",
+    "title": "Waffll website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for Waffll.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 2,
+    "assetPath": "/images/projects/waffll/waffll-website.png",
+    "sourceTitle": "Waffll",
+    "placeholder": false
+  },
+  {
     "slug": "wibc-documentation-pending",
     "title": "WIBC project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -419,11 +1233,33 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "wibc-wibc-wibc-website",
+    "title": "WIBC website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for WIBC.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/wibc/wibc-website.png",
+    "sourceTitle": "WIBC",
+    "placeholder": false
+  },
+  {
     "slug": "wrappedfm-documentation-pending",
     "title": "WrappedFM project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
     "evidenceType": "placeholder",
     "placeholder": true
+  },
+  {
+    "slug": "wrappedfm-wrappedfm-wrappedfm-website",
+    "title": "WrappedFM website interface",
+    "description": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 0,
+    "assetPath": "/images/projects/wrappedfm/wrappedfm-website.png",
+    "sourceTitle": "WrappedFM",
+    "placeholder": false
   },
   {
     "slug": "zenthapy-documentation-pending",

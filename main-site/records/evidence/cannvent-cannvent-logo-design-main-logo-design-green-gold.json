@@ -1,0 +1,17 @@
+{
+  "id": "da4b8768-1ebb-40bc-a055-4ac11d02f538",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-cannvent-logo-design-main-logo-design-green-gold",
+  "title": "Main Logo Design Green Gold",
+  "description": "Identity-system evidence showing a logo or mark developed for Cannvent.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/logo_design/main-logo-design-green-gold.webp",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "d2b0fbb1-542e-4424-ba3a-cd7965b052be",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
+  "title": "Musical Intelligence website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 7,
+  "visibility": "public",
+  "assetPath": "/images/projects/musical_intelligence/musical-intelligence-website.png",
+  "sourceTitle": "Musical Intelligence",
+  "placeholder": false
+}

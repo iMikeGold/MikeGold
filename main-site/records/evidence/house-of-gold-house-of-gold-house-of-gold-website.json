@@ -1,0 +1,17 @@
+{
+  "id": "9ea4a478-4c5e-412d-8782-2373d6330908",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "house-of-gold-house-of-gold-house-of-gold-website",
+  "title": "House of Gold website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for House of Gold.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/house_of_gold/house-of-gold-website.png",
+  "sourceTitle": "House of Gold",
+  "placeholder": false
+}

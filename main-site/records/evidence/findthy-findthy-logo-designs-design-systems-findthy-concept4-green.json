@@ -1,0 +1,17 @@
+{
+  "id": "cb71ce64-77ab-4867-9b5e-50fe99b592a9",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
+  "title": "Findthy Concept4 Green",
+  "description": "Identity-system evidence showing a logo or mark developed for FindThy.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 7,
+  "visibility": "public",
+  "assetPath": "/images/projects/findthy/logo_designs/design_systems/findthy-concept4-green.webp",
+  "sourceTitle": "FindThy",
+  "placeholder": false
+}

@@ -18,6 +18,9 @@ const allowedCapabilityGroups = new Set([
   "media-asset-systems",
   "physical-technical-engineering",
 ]);
+const allowedEvidenceRoles = new Set([
+  "cover", "interface", "identity", "process", "application", "reference",
+]);
 const errors = [];
 const warnings = [];
 
@@ -110,6 +113,16 @@ for (const entry of collections.work) {
         errors.push(`${entry.file} has unknown capability group ${group}.`);
       }
     }
+  }
+}
+
+for (const entry of collections.evidence) {
+  if (entry.value.role && !allowedEvidenceRoles.has(entry.value.role)) {
+    errors.push(`${entry.file} has unknown evidence role ${entry.value.role}.`);
+  }
+  if (entry.value.assetPath) {
+    const asset = join(projectRoot, "public", entry.value.assetPath.replace(/^\//, ""));
+    if (!existsSync(asset)) errors.push(`${entry.file} references missing asset ${entry.value.assetPath}.`);
   }
 }
 

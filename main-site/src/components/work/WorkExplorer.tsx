@@ -6,6 +6,7 @@ import type { PublicHat } from "@/system/hats/hat.types";
 import type { PublicProjectProjection } from "@/system/projects/project.types";
 import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
 import type { PublicWorkProjection } from "@/system/work/work.types";
+import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
 
 type View = "projects" | "work" | "capabilities";
 
@@ -13,10 +14,12 @@ export default function WorkExplorer({
   projects,
   work,
   hats,
+  evidence,
 }: {
   projects: PublicProjectProjection[];
   work: PublicWorkProjection[];
   hats: PublicHat[];
+  evidence: PublicEvidenceProjection[];
 }) {
   const [view, setView] = useState<View>("projects");
   const [query, setQuery] = useState("");
@@ -33,6 +36,10 @@ export default function WorkExplorer({
     [work],
   );
   const normalizedQuery = query.trim().toLowerCase();
+  const evidenceBySlug = useMemo(
+    () => new Map(evidence.map((item) => [item.slug, item])),
+    [evidence],
+  );
   const visibleWork = work.filter((item) => {
     const matchesQuery =
       !normalizedQuery ||
@@ -173,11 +180,24 @@ export default function WorkExplorer({
         <div className="project-record-grid">
           {visibleProjects.map((project) => {
             const projectWork = work.filter((item) => item.projectSlug === project.slug);
+            const projectEvidence = projectWork
+              .flatMap((item) => item.evidenceSlugs)
+              .flatMap((slug) => {
+                const record = evidenceBySlug.get(slug);
+                return record ? [record] : [];
+              });
+            const cover = projectEvidence.find((item) => item.role === "cover" && item.assetPath)
+              ?? projectEvidence.find((item) => item.assetPath);
             const capabilityCount = new Set(
               projectWork.flatMap((item) => item.appliedHatSlugs),
             ).size;
             return (
               <article className="project-record-card" key={project.slug}>
+                {cover?.assetPath && (
+                  <Link className="project-record-cover" href={`/projects/${project.slug}`} aria-label={`Open ${project.name}`}>
+                    <img src={cover.assetPath} alt="" loading="lazy" />
+                  </Link>
+                )}
                 <div className="record-status-row">
                   <span>{project.status.replaceAll("-", " ")}</span>
                   <span>{project.context ?? project.establishedYear ?? "Period being documented"}</span>

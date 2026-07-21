@@ -11,6 +11,7 @@
     "hats:assign-uuids": "node scripts/assign-hat-uuids.mjs",
     "records:generate": "node scripts/generate-record-indexes.mjs",
     "records:seed-section-ten": "node scripts/seed-section-ten-projects.mjs",
+    "records:ingest-assets": "node scripts/ingest-project-assets.mjs",
     "records:validate": "node scripts/validate-records.mjs",
     "records:check": "npm run records:generate && npm run records:validate",
     "predev": "npm run records:check",

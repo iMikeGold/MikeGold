@@ -1,0 +1,17 @@
+{
+  "id": "1ca31d61-7343-4a3c-aa2e-9675bd3e9b10",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-mickz-website",
+  "title": "MiCKz website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for MiCKz.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 5,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/mickz-website.png",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

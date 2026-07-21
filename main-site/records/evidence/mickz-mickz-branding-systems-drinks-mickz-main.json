@@ -1,0 +1,17 @@
+{
+  "id": "21ede3d7-1b89-4f0e-bfaa-e6859b9c516e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-branding-systems-drinks-mickz-main",
+  "title": "Drinks Mickz Main",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/branding_systems/drinks-mickz-main.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

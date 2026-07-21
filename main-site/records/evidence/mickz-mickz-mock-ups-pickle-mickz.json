@@ -1,0 +1,17 @@
+{
+  "id": "17d9c2aa-95d0-48dc-8c70-d09ed5ee0339",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-mock-ups-pickle-mickz",
+  "title": "Pickle Mickz",
+  "description": "Applied brand and product-system evidence for MiCKz.",
+  "evidenceType": "image",
+  "role": "application",
+  "sequence": 11,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

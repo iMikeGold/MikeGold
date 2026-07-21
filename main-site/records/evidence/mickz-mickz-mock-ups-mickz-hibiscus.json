@@ -1,0 +1,17 @@
+{
+  "id": "7e6dc9c4-6033-4997-8ded-dbb43c7fe6dd",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-mock-ups-mickz-hibiscus",
+  "title": "Mickz Hibiscus",
+  "description": "Applied brand and product-system evidence for MiCKz.",
+  "evidenceType": "image",
+  "role": "application",
+  "sequence": 9,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/mock_ups/mickz-hibiscus.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

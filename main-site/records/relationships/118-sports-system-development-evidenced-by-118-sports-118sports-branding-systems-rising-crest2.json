@@ -1,0 +1,13 @@
+{
+  "id": "d64deb47-9469-4728-a897-9fd5f77b8221",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "118-sports-system-development-evidenced-by-118-sports-118sports-branding-systems-rising-crest2",
+  "sourceId": "eb0a38d2-499d-46fd-8b4f-731901d17982",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "03e94030-b93a-42c2-bacf-ae717bd57a1f",
+  "targetType": "evidence"
+}

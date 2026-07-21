@@ -1,0 +1,13 @@
+{
+  "id": "e980e52c-ca19-4a3b-b3ac-1f8fc655ecfd",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "metroplist-system-development-evidenced-by-metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
+  "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "85a6f191-eae5-4d71-a247-48b409571207",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "c54bacdf-5132-4ba2-ba57-4ba4ccc1f8a2",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "bonsai-tree-of-life-bonsaitol-bonsaitol-website",
+  "title": "Bonsai Tree of Life website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Bonsai Tree of Life.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/bonsaiTOL/bonsaiTOL-website.png",
+  "sourceTitle": "Bonsai Tree of Life",
+  "placeholder": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b484ddc1-8049-4d95-bc9e-d2127fe9637e",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-product-system-evidenced-by-mickz-mickz-mock-ups-pickle-mickz",
+  "sourceId": "4b2fe537-ffd5-4aee-97c8-434f0c907f68",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "17d9c2aa-95d0-48dc-8c70-d09ed5ee0339",
+  "targetType": "evidence"
+}

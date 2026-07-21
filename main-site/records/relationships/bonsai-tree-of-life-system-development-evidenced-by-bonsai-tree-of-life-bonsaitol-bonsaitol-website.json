@@ -1,0 +1,13 @@
+{
+  "id": "9b01c81b-0b1b-461b-8db3-88c42a5862c2",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "bonsai-tree-of-life-system-development-evidenced-by-bonsai-tree-of-life-bonsaitol-bonsaitol-website",
+  "sourceId": "f8603d6d-fd2f-482a-b8e7-252bf7f83db6",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c54bacdf-5132-4ba2-ba57-4ba4ccc1f8a2",
+  "targetType": "evidence"
+}

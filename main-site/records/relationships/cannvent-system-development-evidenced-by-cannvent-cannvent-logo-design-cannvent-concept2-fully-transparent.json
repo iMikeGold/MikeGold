@@ -1,0 +1,13 @@
+{
+  "id": "61017f77-f688-4f9a-a575-999a9fc5db0f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-system-development-evidenced-by-cannvent-cannvent-logo-design-cannvent-concept2-fully-transparent",
+  "sourceId": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5133a28b-4785-4217-971d-030e6e61b643",
+  "targetType": "evidence"
+}

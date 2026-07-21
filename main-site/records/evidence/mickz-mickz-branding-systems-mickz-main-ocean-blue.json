@@ -1,0 +1,17 @@
+{
+  "id": "5f97971f-04cb-43f3-ac0a-8a8d012fedca",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-branding-systems-mickz-main-ocean-blue",
+  "title": "MiCKz Main Ocean Blue",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Main-Ocean-Blue.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}

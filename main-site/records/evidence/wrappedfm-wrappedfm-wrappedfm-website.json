@@ -1,0 +1,17 @@
+{
+  "id": "9c3b16ac-b667-4e69-86a7-7fe1d2575318",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "wrappedfm-wrappedfm-wrappedfm-website",
+  "title": "WrappedFM website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/wrappedfm/wrappedfm-website.png",
+  "sourceTitle": "WrappedFM",
+  "placeholder": false
+}

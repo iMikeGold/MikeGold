@@ -1,0 +1,17 @@
+{
+  "id": "a7daaf65-8829-43df-9e6c-b79b53246f0f",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "118-sports-118sports-118sports-website",
+  "title": "118 Sports website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for 118 Sports.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/118sports/118sports-website.png",
+  "sourceTitle": "118 Sports",
+  "placeholder": false
+}

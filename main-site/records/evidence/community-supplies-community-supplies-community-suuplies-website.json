@@ -1,0 +1,17 @@
+{
+  "id": "7ff12b30-8693-481b-a2d1-97156710b41e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "community-supplies-community-supplies-community-suuplies-website",
+  "title": "Community Supplies website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/community-suuplies-website.png",
+  "sourceTitle": "Community Supplies",
+  "placeholder": false
+}

@@ -3,6 +3,7 @@ import Footer from "@/components/sections/Footer";
 import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
+import { publicEvidence } from "@/system/generated/public-evidence.generated";
 
 export default function ProjectsPage() {
   return (
@@ -18,7 +19,7 @@ export default function ProjectsPage() {
           </p>
         </header>
 
-        <WorkExplorer projects={publicProjects} work={publicWork} hats={publicHats} />
+        <WorkExplorer projects={publicProjects} work={publicWork} hats={publicHats} evidence={publicEvidence} />
 
         <section className="links-section">
           <h2>Reference work</h2>

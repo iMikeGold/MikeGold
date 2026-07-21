@@ -1,0 +1,13 @@
+{
+  "id": "89ce6e10-f73a-491c-8b29-312d720b7a15",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-identity-development-evidenced-by-mickz-mickz-branding-systems-mickz-jungle-mix",
+  "sourceId": "b2495ed3-fbe1-43ba-b397-3435e6ac223c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "70f6fa7f-ce97-4743-8ed3-cc5eae305416",
+  "targetType": "evidence"
+}

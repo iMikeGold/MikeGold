@@ -1,0 +1,17 @@
+{
+  "id": "2954ade0-fa25-4586-b9c2-5dbdcb75f1e1",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
+  "title": "Sos Switch Coded Trans",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-trans.webp",
+  "sourceTitle": "SaveOurs",
+  "placeholder": false
+}

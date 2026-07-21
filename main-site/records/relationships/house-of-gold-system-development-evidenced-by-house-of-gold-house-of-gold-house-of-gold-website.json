@@ -1,0 +1,13 @@
+{
+  "id": "2c93d619-bd6e-48a1-8f68-b561e809b180",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-house-of-gold-website",
+  "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "9ea4a478-4c5e-412d-8782-2373d6330908",
+  "targetType": "evidence"
+}

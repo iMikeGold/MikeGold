@@ -25,6 +25,14 @@ export default async function ProjectRecordPage({
   const work = publicWork.filter((item) => item.projectSlug === project.slug);
   const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
   const evidenceBySlug = new Map(publicEvidence.map((item) => [item.slug, item]));
+  const projectEvidence = work
+    .flatMap((item) => item.evidenceSlugs)
+    .flatMap((evidenceSlug) => {
+      const evidence = evidenceBySlug.get(evidenceSlug);
+      return evidence ? [evidence] : [];
+    });
+  const cover = projectEvidence.find((item) => item.role === "cover" && item.assetPath)
+    ?? projectEvidence.find((item) => item.assetPath);
 
   return (
     <main>
@@ -43,6 +51,12 @@ export default async function ProjectRecordPage({
             <a className="project-live-link" href={project.liveUrl} target="_blank" rel="noreferrer">
               Visit live project ↗
             </a>
+          )}
+          {cover?.assetPath && (
+            <figure className="project-hero-visual">
+              <img src={cover.assetPath} alt={`${project.name} project interface`} />
+              <figcaption>{cover.title}</figcaption>
+            </figure>
           )}
         </header>
 

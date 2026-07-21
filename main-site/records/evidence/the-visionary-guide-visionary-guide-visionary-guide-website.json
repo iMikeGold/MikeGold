@@ -1,0 +1,17 @@
+{
+  "id": "f2ad785b-5911-4770-8acd-2ba38d70a1b3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+  "title": "The Visionary Guide website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/visionary_guide/visionary-guide-website.png",
+  "sourceTitle": "The Visionary Guide",
+  "placeholder": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "87cd9a5f-da6e-4185-a9fe-6daca2f8469e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "imikegold-imikegold-imikegold-website",
+  "title": "iMikeGold.com website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for iMikeGold.com.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/imikegold/imikegold-website.png",
+  "sourceTitle": "iMikeGold.com",
+  "placeholder": false
+}

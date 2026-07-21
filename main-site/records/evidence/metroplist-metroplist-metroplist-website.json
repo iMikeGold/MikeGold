@@ -1,0 +1,17 @@
+{
+  "id": "5a6a3d7f-2fea-4ef9-beb8-afd9dc0222a3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "metroplist-metroplist-metroplist-website",
+  "title": "Metroplist website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 5,
+  "visibility": "public",
+  "assetPath": "/images/projects/metroplist/metroplist-website.png",
+  "sourceTitle": "Metroplist",
+  "placeholder": false
+}

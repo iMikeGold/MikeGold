@@ -1,0 +1,13 @@
+{
+  "id": "01fd968c-5741-4f25-9cff-64dbb4a8c605",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "saveours-system-development-evidenced-by-saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
+  "sourceId": "7a92c800-b5bc-4cb9-b06c-b6459a93e390",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "cf5e2063-fa11-40d2-8372-dc683d1bfbad",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1f7efb4e-8b01-4525-8477-345b925d5fc3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
+  "title": "Sos Switch Coded Redbacked",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-redbacked.webp",
+  "sourceTitle": "SaveOurs",
+  "placeholder": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "d13d5a89-c213-4a41-9f28-d3c96b258312",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-identity-development-evidenced-by-mickz-mickz-branding-systems-mickz-main-ocean-blue",
+  "sourceId": "b2495ed3-fbe1-43ba-b397-3435e6ac223c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5f97971f-04cb-43f3-ac0a-8a8d012fedca",
+  "targetType": "evidence"
+}

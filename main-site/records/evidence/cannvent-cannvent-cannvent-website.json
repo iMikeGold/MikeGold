@@ -1,0 +1,17 @@
+{
+  "id": "057b89ec-e453-4472-9b45-25dca19948a3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "cannvent-cannvent-cannvent-website",
+  "title": "Cannvent website interface",
+  "description": "Homepage interface showing the public-facing digital system developed for Cannvent.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/cannvent-website.png",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

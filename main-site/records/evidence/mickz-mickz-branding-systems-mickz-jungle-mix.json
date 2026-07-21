@@ -1,0 +1,17 @@
+{
+  "id": "70f6fa7f-ce97-4743-8ed3-cc5eae305416",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T12:43:28.870Z",
+  "updatedAt": "2026-07-21T12:43:28.870Z",
+  "slug": "mickz-mickz-branding-systems-mickz-jungle-mix",
+  "title": "MiCKz Jungle Mix",
+  "description": "Development evidence showing the visual language, exploration or design evolution behind MiCKz.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 0,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/branding_systems/MiCKz-Jungle-Mix.webp",
+  "sourceTitle": "MiCKz",
+  "placeholder": false
+}
