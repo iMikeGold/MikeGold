@@ -40,8 +40,7 @@ export const publicProjects = [
     "summary": "Development of a flexible food-and-drink brand and product system with related but distinct category treatments.",
     "status": "design-development",
     "featured": true,
-    "establishedYear": 1997,
-    "liveUrl": "https://mickz.co.uk"
+    "establishedYear": 1997
   },
   {
     "slug": "mikegold-engineer",
@@ -57,8 +56,7 @@ export const publicProjects = [
     "summary": "Identity, content structure, responsive web experience and delivery work for an independent music platform.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2013,
-    "liveUrl": "https://musicalintelligence.co.uk"
+    "establishedYear": 2013
   },
   {
     "slug": "ourgani",

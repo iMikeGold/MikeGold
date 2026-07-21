@@ -704,8 +704,8 @@ export const publicWork = [
       "mickz-mickz-mock-ups-coffee-mickz-tea",
       "mickz-mickz-mock-ups-hot-mickz",
       "mickz-mickz-mock-ups-mickz-hibiscus",
-      "mickz-mickz-mock-ups-mickz-ting3",
-      "mickz-mickz-mock-ups-pickle-mickz"
+      "mickz-mickz-mock-ups-pickle-mickz",
+      "mickz-mickz-mock-ups-sorrel-mickz-tea"
     ]
   },
   {

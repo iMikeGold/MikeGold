@@ -53,10 +53,6 @@ const slugify = (value) => value
   .toLowerCase()
   .replace(/[^a-z0-9]+/g, "-")
   .replace(/^-|-$/g, "");
-const titleCase = (value) => value
-  .replace(/\.[^.]+$/, "")
-  .replace(/[-_+]+/g, " ")
-  .replace(/\b\w/g, (letter) => letter.toUpperCase());
 
 function filesBelow(directory) {
   return readdirSync(directory).flatMap((name) => {
@@ -116,6 +112,7 @@ function descriptionFor(projectName, role) {
 let created = 0;
 let updated = 0;
 let linked = 0;
+const roleCounters = new Map();
 
 for (const asset of filesBelow(assetRoot).sort()) {
   const relativePath = relative(assetRoot, asset);
@@ -128,13 +125,22 @@ for (const asset of filesBelow(assetRoot).sort()) {
 
   const filename = basename(asset);
   const role = roleFor(parts, filename);
+  const counterKey = `${projectSlug}:${role}`;
+  const roleIndex = (roleCounters.get(counterKey) ?? 0) + 1;
+  roleCounters.set(counterKey, roleIndex);
   const evidenceSlug = slugify(`${projectSlug}-${relativePath.replace(extname(relativePath), "")}`);
   const evidencePath = join(root, "records", "evidence", `${evidenceSlug}.json`);
   const existing = existsSync(evidencePath) ? readJson(evidencePath) : null;
   const publicPath = `/images/projects/${relativePath.split(sep).join("/")}`;
-  const title = role === "cover"
-    ? `${project.name} website interface`
-    : titleCase(filename);
+  const titles = {
+    cover: `${project.name} — website and digital experience`,
+    interface: `${project.name} — interface study ${String(roleIndex).padStart(2, "0")}`,
+    identity: `${project.name} — identity development ${String(roleIndex).padStart(2, "0")}`,
+    process: `${project.name} — design-language study ${String(roleIndex).padStart(2, "0")}`,
+    application: `${project.name} — applied identity ${String(roleIndex).padStart(2, "0")}`,
+    reference: `${project.name} — supporting visual ${String(roleIndex).padStart(2, "0")}`,
+  };
+  const title = titles[role];
 
   writeJson(evidencePath, {
     id: existing?.id ?? randomUUID(),
@@ -147,7 +153,7 @@ for (const asset of filesBelow(assetRoot).sort()) {
     description: descriptionFor(project.name, role),
     evidenceType: role === "cover" ? "website" : "image",
     role,
-    sequence: parts.sort ? filesBelow(join(assetRoot, parts[0])).sort().indexOf(asset) : 0,
+    sequence: roleIndex,
     visibility: "public",
     assetPath: publicPath,
     sourceTitle: project.name,

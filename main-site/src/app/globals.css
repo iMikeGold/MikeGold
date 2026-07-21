@@ -421,6 +421,10 @@ width:100%;
 }
 
 .evidence-disclosure .evidence-grid { margin-top: 1rem; }
+.evidence-groups { display: grid; gap: 1.5rem; margin-top: 1.25rem; }
+.evidence-group { border-top: 1px solid #2a2a2a; padding-top: 1rem; }
+.evidence-group > header h4 { margin: 0; font-size: .95rem; }
+.evidence-group > header p { margin: .3rem 0 0; max-width: 680px; color: #888; font-size: .8rem; }
 
 .evidence-grid {
   display: grid;

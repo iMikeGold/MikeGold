@@ -87,7 +87,6 @@ const publicProjects = projects
     featured: record.featured,
     ...(record.context ? { context: record.context } : {}),
     ...(record.establishedYear ? { establishedYear: record.establishedYear } : {}),
-    ...(record.liveUrl ? { liveUrl: record.liveUrl } : {}),
     ...(record.workStarted || record.workEnded
       ? {
           workPeriod: record.workEnded

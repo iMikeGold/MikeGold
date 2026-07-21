@@ -47,11 +47,6 @@ export default async function ProjectRecordPage({
           </div>
           <h1>{project.name}</h1>
           <p>{project.summary}</p>
-          {project.liveUrl && (
-            <a className="project-live-link" href={project.liveUrl} target="_blank" rel="noreferrer">
-              Visit live project ↗
-            </a>
-          )}
           {cover?.assetPath && (
             <figure className="project-hero-visual">
               <img src={cover.assetPath} alt={`${project.name} project interface`} />

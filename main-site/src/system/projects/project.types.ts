@@ -26,7 +26,6 @@ export interface InternalProjectRecord extends BaseRecord<ProjectId, "project"> 
   establishedYear?: number;
   workStarted?: string;
   workEnded?: string;
-  liveUrl?: string;
 }
 
 export interface PublicProjectProjection {
