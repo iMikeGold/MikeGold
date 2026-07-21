@@ -384,16 +384,14 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [],
     "evidenceSlugs": [
-      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
-      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-55-am",
+      "findthy-findthy-logo-designs-design-systems-final-findthy-main-black",
+      "findthy-findthy-logo-designs-design-systems-final-findthy-main-gold",
+      "findthy-findthy-logo-designs-design-systems-final-findthy-main-green",
       "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
       "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
       "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
       "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-close",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-hollow",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold"
+      "findthy-findthy-logo-designs-design-systems-findthy-concept4-green"
     ]
   },
   {
@@ -831,13 +829,6 @@ export const publicWork = [
       "application-engineer"
     ],
     "evidenceSlugs": [
-      "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
-      "musical-intelligence-musical-intelligence-logo-restore-mi3-main-red2-cropped-transparent",
-      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
-      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-1",
-      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
-      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
-      "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3",
       "musical-intelligence-content-architecture"
     ]
   },
@@ -854,6 +845,44 @@ export const publicWork = [
       "deployment-engineer"
     ],
     "evidenceSlugs": []
+  },
+  {
+    "slug": "musical-intelligence-identity-restoration",
+    "projectSlug": "musical-intelligence",
+    "title": "Musical Intelligence identity restoration",
+    "summary": "Recreated a recognisable identity commissioned approximately fifteen years earlier, using the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "status": "completed",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "media-asset-systems"
+    ],
+    "stages": [
+      {
+        "key": "original",
+        "label": "Original commission preserved",
+        "status": "completed"
+      },
+      {
+        "key": "reconstruction",
+        "label": "Identity reconstructed from the surviving mark",
+        "status": "completed"
+      },
+      {
+        "key": "refinement",
+        "label": "Typography, geometry and colour refined",
+        "status": "completed"
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
+      "musical-intelligence-musical-intelligence-logo-restore-mi3-main-red2-cropped-transparent",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-1",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3-2",
+      "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence3",
+      "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3"
+    ]
   },
   {
     "slug": "musical-intelligence-web-experience",

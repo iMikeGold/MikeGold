@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import Footer from "@/components/sections/Footer";
 import EvidenceDisclosure from "@/components/work/EvidenceDisclosure";
+import ProjectContextBackLink from "@/components/work/ProjectContextBackLink";
 import { publicEvidence } from "@/system/generated/public-evidence.generated";
 import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
@@ -28,9 +28,7 @@ export default async function ProjectRecordPage({
   return (
     <main>
       <article className="page project-record-page">
-        <Link className="record-back-link" href="/projects">
-          ← All work
-        </Link>
+        <ProjectContextBackLink />
         <header className="project-record-hero">
           <div className="record-status-row">
             <span>{project.status.replaceAll("-", " ")}</span>

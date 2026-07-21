@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4000" height="4000" viewBox="0 0 1000 1000" fill="none">
+  <title>FindThy Concept 03 Tighter Square Logo</title>
+  <desc>Transparent editable SVG of the FindThy Concept 03 logo with FT monogram, top and side markers, top-right and bottom-left corner brackets adjusted tighter to imply a square, and a north-facing chevron beneath the T.</desc>
+  <g id="findthy-concept-03" stroke="#111111" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" vector-effect="non-scaling-stroke">
+    <!-- Top and side markers -->
+    <path d="M500 286 L500 346" />
+    <path d="M332 500 L392 500" />
+    <path d="M608 500 L668 500" />
+
+    <!-- Corner brackets tightened inward to imply a square -->
+    <path d="M536 392 L596 392" />
+    <path d="M596 392 L596 452" />
+    <path d="M404 548 L404 608" />
+    <path d="M404 608 L464 608" />
+
+    <!-- Bottom chevron / north-facing arrow -->
+    <path d="M470 674 L500 644 L530 674" />
+
+    <!-- FT monogram -->
+    <path d="M468 430 L468 562" />
+    <path d="M468 430 L560 430" />
+    <path d="M468 492 L542 492" />
+    <path d="M500 492 L500 586" />
+  </g>
+</svg>

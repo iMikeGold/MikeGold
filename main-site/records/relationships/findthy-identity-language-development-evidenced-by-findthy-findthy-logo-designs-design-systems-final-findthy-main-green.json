@@ -1,0 +1,13 @@
+{
+  "id": "52b2dce0-9f9b-4a77-b90f-150b363e3455",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:48:42.571Z",
+  "updatedAt": "2026-07-21T14:48:42.571Z",
+  "slug": "findthy-identity-language-development-evidenced-by-findthy-findthy-logo-designs-design-systems-final-findthy-main-green",
+  "sourceId": "2f53bd66-fce7-44f6-9276-8091adbfc528",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "28910dff-bc05-4792-ac67-b08e252ec0dc",
+  "targetType": "evidence"
+}

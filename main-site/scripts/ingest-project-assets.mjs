@@ -42,7 +42,7 @@ const preferredWork = {
     default: "mickz-digital-assets",
   },
   "musical-intelligence": {
-    logo_restore: "musical-intelligence-content-architecture",
+    logo_restore: "musical-intelligence-identity-restoration",
     default: "musical-intelligence-web-experience",
   },
   saveours: {

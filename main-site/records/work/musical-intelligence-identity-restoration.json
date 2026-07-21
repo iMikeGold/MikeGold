@@ -1,0 +1,19 @@
+{
+  "id": "863ea649-a1d9-4b9e-894a-baee22d3ced4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "71ac31c2-c8a2-46e6-8e39-d25f15c2a98e",
+  "slug": "musical-intelligence-identity-restoration",
+  "title": "Musical Intelligence identity restoration",
+  "summary": "Recreated a recognisable identity commissioned approximately fifteen years earlier, using the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+  "status": "completed",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"],
+  "stages": [
+    { "key": "original", "label": "Original commission preserved", "status": "completed" },
+    { "key": "reconstruction", "label": "Identity reconstructed from the surviving mark", "status": "completed" },
+    { "key": "refinement", "label": "Typography, geometry and colour refined", "status": "completed" }
+  ]
+}

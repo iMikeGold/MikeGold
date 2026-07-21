@@ -1,0 +1,13 @@
+{
+  "id": "9ac63f40-68fd-4267-9d23-21784bb5a793",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:54:35.169Z",
+  "updatedAt": "2026-07-21T14:54:35.169Z",
+  "slug": "musical-intelligence-identity-restoration-evidenced-by-musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
+  "sourceId": "863ea649-a1d9-4b9e-894a-baee22d3ced4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "9eea03c9-0fde-488c-b44e-03fb58b94e5e",
+  "targetType": "evidence"
+}

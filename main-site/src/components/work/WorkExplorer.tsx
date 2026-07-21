@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { PublicHat } from "@/system/hats/hat.types";
 import type { PublicProjectProjection } from "@/system/projects/project.types";
 import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
@@ -35,6 +35,19 @@ export default function WorkExplorer({
   const [hatFilter, setHatFilter] = useState("");
   const [groupFilter, setGroupFilter] = useState<CapabilityGroupId | "">("");
   const [archiveOpen, setArchiveOpen] = useState(false);
+
+  useEffect(() => {
+    const requestedArea = new URLSearchParams(window.location.search).get("area");
+    if (CAPABILITY_GROUPS.some((group) => group.id === requestedArea)) {
+      setGroupFilter(requestedArea as CapabilityGroupId);
+      setArchiveOpen(true);
+      setView("projects");
+    }
+  }, []);
+
+  const projectHref = (slug: string) => groupFilter
+    ? `/projects/${slug}?area=${groupFilter}`
+    : `/projects/${slug}`;
 
   const hatBySlug = useMemo(
     () => new Map(hats.map((hat) => [hat.slug, hat])),
@@ -241,7 +254,7 @@ export default function WorkExplorer({
                   </span>
                   <span>{capabilityCount} applied Hats</span>
                 </div>
-                <Link href={`/projects/${project.slug}`}>Open project record →</Link>
+                <Link href={projectHref(project.slug)}>Open project record →</Link>
               </article>
             );
           })}
@@ -267,7 +280,7 @@ export default function WorkExplorer({
                     {hatBySlug.get(slug)?.name ?? slug}
                   </button>
                 ))}
-                <Link className="work-project-link" href={`/projects/${item.projectSlug}`}>
+                <Link className="work-project-link" href={projectHref(item.projectSlug)}>
                   Open project →
                 </Link>
               </div>
