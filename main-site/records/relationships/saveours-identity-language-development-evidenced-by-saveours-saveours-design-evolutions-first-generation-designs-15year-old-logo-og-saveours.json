@@ -1,0 +1,13 @@
+{
+  "id": "59245f97-de85-47a1-9a46-d2419e38dca3",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T13:36:52.971Z",
+  "updatedAt": "2026-07-21T13:36:52.971Z",
+  "slug": "saveours-identity-language-development-evidenced-by-saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
+  "sourceId": "be8f952e-cccf-4c9e-8991-72a29545328d",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "eab872f5-5311-4cc1-b3fa-e1e95eca82d3",
+  "targetType": "evidence"
+}

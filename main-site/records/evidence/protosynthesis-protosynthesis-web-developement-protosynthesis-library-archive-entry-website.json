@@ -1,0 +1,17 @@
+{
+  "id": "c841fd21-e122-4a29-b80a-82e9ec5e3a29",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
+  "title": "ProtoSynthesis Library — structured archive entry",
+  "description": "An individual research entry demonstrates the intensive archive back end: typed references, document identity, version context and long-form material are projected into a readable public record.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
+  "sourceTitle": "ProtoSynthesis",
+  "placeholder": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "c22f5950-4f06-4e06-88e3-64b323c6d359",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "cannvent-cannvent-web-development-cannvent-app-website",
+  "title": "Cannvent App — personal wellness workspace",
+  "description": "The signed-in product interface brings check-ins, personal records, programmes, saved knowledge and connected products into one private workspace. This is application design and system behaviour distinct from the public Cannvent website.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/web_development/cannvent-app-website.webp",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

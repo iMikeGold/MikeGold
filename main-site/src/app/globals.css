@@ -463,6 +463,31 @@ width:100%;
   filter: saturate(1.08);
 }
 
+.project-evidence-preview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+  margin: -1.2rem -1.2rem 1rem;
+  padding: .7rem;
+  border-bottom: 1px solid #292929;
+  background: #080808;
+}
+.project-evidence-preview-1 { grid-template-columns: 1fr; }
+.project-evidence-preview-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.project-evidence-preview figure { min-width: 0; margin: 0; overflow: hidden; border: 1px solid #252525; background: #0d0d0d; }
+.project-evidence-preview img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; }
+.project-evidence-preview figcaption {
+  min-height: 3.2em;
+  padding: .5rem;
+  color: #aaa;
+  font-size: .68rem;
+  line-height: 1.35;
+}
+.project-record-grid { align-items: start; }
+.project-record-card { min-width: 0; height: auto; overflow: hidden; }
+.project-context-work { display: flex; flex-wrap: wrap; gap: .4rem; margin: .85rem 0; }
+.project-context-work span { border: 1px solid #315c9e; border-radius: 999px; padding: .32rem .55rem; color: #a9c8ff; font-size: .72rem; }
+
 .project-hero-visual {
   overflow: hidden;
   margin: 2rem 0 0;
@@ -867,7 +892,28 @@ width:100%;
 
   .capability-group-grid { grid-template-columns: 1fr; }
   .capability-group-card { min-height: 180px; }
+  .project-evidence-preview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-evidence-preview figure:nth-child(n+3) { display: none; }
   .service-intent-results { grid-template-columns: 1fr; }
   .work-route-banner { align-items: flex-start; flex-direction: column; }
   .work-route-banner > button { margin-left: 0; }
+}
+
+@media (hover: none), (pointer: coarse) {
+  button, a, select, input { touch-action: manipulation; }
+  .capability-group-card:hover .capability-group-front,
+  .capability-group-card:focus-visible .capability-group-front {
+    transform: none;
+    opacity: 1;
+  }
+  .capability-group-card:hover .capability-group-back,
+  .capability-group-card:focus-visible .capability-group-back { display: none; }
+}
+
+@media (max-width: 380px) {
+  .page { padding-inline: .75rem; }
+  .capability-group-card { min-height: 150px; }
+  .capability-group-face { padding: .9rem; }
+  .project-evidence-preview { grid-template-columns: 1fr; }
+  .project-evidence-preview figure:nth-child(n+2) { display: none; }
 }

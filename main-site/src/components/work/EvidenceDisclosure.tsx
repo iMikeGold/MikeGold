@@ -4,8 +4,8 @@ import { useState } from "react";
 import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
 import EvidenceCard from "@/components/work/EvidenceCard";
 
-export default function EvidenceDisclosure({ evidence }: { evidence: PublicEvidenceProjection[] }) {
-  const [open, setOpen] = useState(false);
+export default function EvidenceDisclosure({ evidence, defaultOpen = false }: { evidence: PublicEvidenceProjection[]; defaultOpen?: boolean }) {
+  const [open, setOpen] = useState(defaultOpen);
   const available = evidence.filter((item) => !item.placeholder);
   if (!available.length) return null;
   const roleOrder = ["cover", "interface", "identity", "process", "application", "reference"];

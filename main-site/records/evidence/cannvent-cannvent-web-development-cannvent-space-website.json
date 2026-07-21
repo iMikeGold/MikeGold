@@ -1,0 +1,17 @@
+{
+  "id": "1aef3364-5c17-4133-8391-f0fe491b79ce",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "cannvent-cannvent-web-development-cannvent-space-website",
+  "title": "Cannvent Space — public knowledge and community surface",
+  "description": "A separate editorial and community environment for journals, papers, botanical understanding and shared discussion. The Cannvent identity is retained while navigation, content density and user purpose change for a public knowledge platform.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/cannvent/web_development/cannvent-space-website.webp",
+  "sourceTitle": "Cannvent",
+  "placeholder": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "3046ff6e-a3ed-47ad-bf6d-8be290d4b43f",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "b62b03b0-92a3-4695-b895-89570ddbae69",
+  "slug": "protosynthesis-multiformat-web-development",
+  "title": "Multi-format web and archive development",
+  "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": ["software-web-engineering", "infrastructure-operations", "brand-experience-systems", "media-asset-systems"]
+}

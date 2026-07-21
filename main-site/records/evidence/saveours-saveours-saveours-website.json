@@ -6,12 +6,12 @@
   "updatedAt": "2026-07-21T13:09:49.165Z",
   "slug": "saveours-saveours-saveours-website",
   "title": "SaveOurs — website and digital experience",
-  "description": "Homepage interface showing the public-facing digital system developed for SaveOurs.",
+  "description": "The public entry point to a living archive system that connects authored SaveSites, media objects and personal saving rather than functioning as a standalone brochure website.",
   "evidenceType": "website",
   "role": "cover",
   "sequence": 1,
   "visibility": "public",
-  "assetPath": "/images/projects/saveours/saveours-website.png",
+  "assetPath": "/images/projects/saveours/web_development/saveours-website.webp",
   "sourceTitle": "SaveOurs",
   "placeholder": false
 }

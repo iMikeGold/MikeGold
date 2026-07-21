@@ -143,6 +143,42 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "95f6393b-027c-4a68-9edf-3172cd0e9372",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+    "slug": "cannvent-application-development",
+    "title": "Cannvent application experience",
+    "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
+    "status": "in-progress",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "brand-experience-systems"
+    ]
+  },
+  {
+    "id": "0022e80d-37ef-430b-80f4-aacb2e8617f0",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+    "slug": "cannvent-community-space-development",
+    "title": "Cannvent Space community platform",
+    "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
+    "status": "in-progress",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "brand-experience-systems"
+    ]
+  },
+  {
     "id": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
     "recordType": "work",
     "schemaVersion": 1,
@@ -277,6 +313,40 @@ export const internalWorkRecords = [
     "visibility": "public",
     "capabilityGroupIds": [
       "media-asset-systems"
+    ]
+  },
+  {
+    "id": "2f53bd66-fce7-44f6-9276-8091adbfc528",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "8d403895-ffa0-45e8-85c6-49ce8c65f5a6",
+    "slug": "findthy-identity-language-development",
+    "title": "FindThy identity and discovery language",
+    "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
+    "status": "in-progress",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "system-product-definition"
+    ],
+    "stages": [
+      {
+        "key": "concepts",
+        "label": "Four concept directions",
+        "status": "completed"
+      },
+      {
+        "key": "language",
+        "label": "Colour and mark language",
+        "status": "completed"
+      },
+      {
+        "key": "synthesis",
+        "label": "Concept 3 + 4 synthesis",
+        "status": "in-progress"
+      }
     ]
   },
   {
@@ -697,6 +767,22 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "fc3665c6-fe5c-4b2d-bf53-4b0133169762",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "ae57dde2-aaa7-47be-9fa4-e8839d81fd1f",
+    "slug": "ourgani-identity-development",
+    "title": "Ourgani identity design",
+    "summary": "Logo development for Ourgani, using an organic yin-yang construction to express balance, exchange and the relationship between complementary natural systems.",
+    "status": "documented",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "brand-experience-systems"
+    ]
+  },
+  {
     "id": "7db8ce68-c3ce-4fd6-ad72-1e8945a6a4b2",
     "recordType": "work",
     "schemaVersion": 1,
@@ -729,6 +815,25 @@ export const internalWorkRecords = [
     "capabilityGroupIds": [
       "media-asset-systems",
       "physical-technical-engineering"
+    ]
+  },
+  {
+    "id": "3046ff6e-a3ed-47ad-bf6d-8be290d4b43f",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "b62b03b0-92a3-4695-b895-89570ddbae69",
+    "slug": "protosynthesis-multiformat-web-development",
+    "title": "Multi-format web and archive development",
+    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+    "status": "documented",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "infrastructure-operations",
+      "brand-experience-systems",
+      "media-asset-systems"
     ]
   },
   {
@@ -766,6 +871,59 @@ export const internalWorkRecords = [
     "capabilityGroupIds": [
       "media-asset-systems",
       "physical-technical-engineering"
+    ]
+  },
+  {
+    "id": "be8f952e-cccf-4c9e-8991-72a29545328d",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
+    "slug": "saveours-identity-language-development",
+    "title": "Identity language and coded mark development",
+    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "status": "in-progress",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "system-product-definition"
+    ],
+    "stages": [
+      {
+        "key": "original",
+        "label": "Original commission",
+        "status": "historical"
+      },
+      {
+        "key": "revisit",
+        "label": "Identity revisited",
+        "status": "completed"
+      },
+      {
+        "key": "coded-language",
+        "label": "Coded-language system",
+        "status": "in-progress"
+      }
+    ]
+  },
+  {
+    "id": "2878ab56-831b-451d-87d6-e9b29f66e5e0",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
+    "slug": "saveours-platform-interface-development",
+    "title": "SaveOurs archive and personal-save interfaces",
+    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "status": "in-progress",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "infrastructure-operations",
+      "brand-experience-systems"
     ]
   },
   {
@@ -908,6 +1066,23 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "5fdec772-3382-4cce-9407-965d589f12f0",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "d38e2bd3-63d8-4f8e-8ed1-8144927790a1",
+    "slug": "wrappedfm-identity-development",
+    "title": "WrappedFM identity development",
+    "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
+    "status": "documented",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "media-asset-systems"
+    ]
+  },
+  {
     "id": "6d8aeaf7-bdb5-4804-94bb-261339c044fc",
     "recordType": "work",
     "schemaVersion": 1,
@@ -925,6 +1100,22 @@ export const internalWorkRecords = [
       "infrastructure-operations",
       "brand-experience-systems",
       "media-asset-systems"
+    ]
+  },
+  {
+    "id": "b6f88bfd-6dfc-4a63-9dee-39c5061a280e",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "projectId": "2f2400df-b8ad-4c7d-ab59-2f290e2fa95c",
+    "slug": "zenthapy-identity-development",
+    "title": "Zenthapy identity design",
+    "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
+    "status": "documented",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "brand-experience-systems"
     ]
   },
   {

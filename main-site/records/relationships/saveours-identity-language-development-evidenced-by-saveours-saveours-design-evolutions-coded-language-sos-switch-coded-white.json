@@ -1,0 +1,13 @@
+{
+  "id": "28c64f6e-c0a7-460e-b894-693c9c4f344c",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T13:36:52.971Z",
+  "updatedAt": "2026-07-21T13:36:52.971Z",
+  "slug": "saveours-identity-language-development-evidenced-by-saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
+  "sourceId": "be8f952e-cccf-4c9e-8991-72a29545328d",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "7248ff0e-593e-4595-a626-ac1f51887a03",
+  "targetType": "evidence"
+}

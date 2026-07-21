@@ -16,6 +16,7 @@ const folderProjects = {
   cannvent: "cannvent",
   community_supplies: "community-supplies",
   findthy: "findthy",
+  gouldbourne_group: "gouldbourne-registry",
   house_of_gold: "house-of-gold",
   imikegold: "imikegold",
   just_enterprises: "just-enterprises",
@@ -31,6 +32,7 @@ const folderProjects = {
   waffll: "waffll",
   wibc: "wibc",
   wrappedfm: "wrappedfm",
+  zenthapy: "zenthapy",
 };
 
 const preferredWork = {
@@ -42,6 +44,26 @@ const preferredWork = {
   "musical-intelligence": {
     logo_restore: "musical-intelligence-content-architecture",
     default: "musical-intelligence-web-experience",
+  },
+  saveours: {
+    design_evolutions: "saveours-identity-language-development",
+    default: "saveours-system-development",
+  },
+  wrappedfm: {
+    logo_design: "wrappedfm-identity-development",
+    default: "wrappedfm-system-development",
+  },
+  findthy: {
+    logo_designs: "findthy-identity-language-development",
+    default: "findthy-system-development",
+  },
+  ourgani: {
+    logo_design: "ourgani-identity-development",
+    default: "ourgani-system-development",
+  },
+  zenthapy: {
+    logo_design: "zenthapy-identity-development",
+    default: "zenthapy-system-development",
   },
 };
 
@@ -78,8 +100,19 @@ const work = new Map(
       return [record.slug, record];
     }),
 );
+const evidenceFiles = readdirSync(join(root, "records", "evidence"))
+  .filter((name) => name.endsWith(".json"))
+  .map((name) => {
+    const path = join(root, "records", "evidence", name);
+    return { path, record: readJson(path) };
+  });
 
-function workFor(projectSlug, relativeParts) {
+function workFor(projectSlug, relativeParts, filename) {
+  const lowerFilename = filename.toLowerCase();
+  if (projectSlug === "cannvent" && lowerFilename.includes("app-website")) return work.get("cannvent-application-development");
+  if (projectSlug === "cannvent" && lowerFilename.includes("space-website")) return work.get("cannvent-community-space-development");
+  if (projectSlug === "protosynthesis" && relativeParts.includes("web_developement")) return work.get("protosynthesis-multiformat-web-development");
+  if (projectSlug === "saveours" && relativeParts.includes("web_development")) return work.get("saveours-platform-interface-development");
   const configured = preferredWork[projectSlug];
   if (configured) {
     const folderMatch = relativeParts.find((part) => configured[part]);
@@ -88,8 +121,13 @@ function workFor(projectSlug, relativeParts) {
   return work.get(`${projectSlug}-system-development`);
 }
 
-function roleFor(parts, filename) {
+function roleFor(parts, filename, projectFolder) {
   const path = parts.join("/").toLowerCase();
+  const stem = slugify(filename.replace(extname(filename), ""));
+  const mainWebsiteStem = slugify(`${projectFolder}-website`);
+  if (path.includes("web_development") || path.includes("web_developement")) {
+    return stem === mainWebsiteStem ? "cover" : "interface";
+  }
   if (filename.toLowerCase().includes("website")) return "cover";
   if (path.includes("mock_ups")) return "application";
   if (path.includes("logo")) return "identity";
@@ -120,17 +158,29 @@ for (const asset of filesBelow(assetRoot).sort()) {
   const projectSlug = folderProjects[parts[0]];
   if (!projectSlug) throw new Error(`No Project mapping for asset folder ${parts[0]}.`);
   const project = projects.get(projectSlug);
-  const contribution = workFor(projectSlug, parts.slice(1, -1));
+  const filename = basename(asset);
+  const contribution = workFor(projectSlug, parts.slice(1, -1), filename);
   if (!project || !contribution) throw new Error(`No Project/Work mapping for ${relativePath}.`);
 
-  const filename = basename(asset);
-  const role = roleFor(parts, filename);
+  const role = roleFor(parts, filename, parts[0]);
   const counterKey = `${projectSlug}:${role}`;
   const roleIndex = (roleCounters.get(counterKey) ?? 0) + 1;
   roleCounters.set(counterKey, roleIndex);
   const evidenceSlug = slugify(`${projectSlug}-${relativePath.replace(extname(relativePath), "")}`);
-  const evidencePath = join(root, "records", "evidence", `${evidenceSlug}.json`);
-  const existing = existsSync(evidencePath) ? readJson(evidencePath) : null;
+  let evidencePath = join(root, "records", "evidence", `${evidenceSlug}.json`);
+  let existing = existsSync(evidencePath) ? readJson(evidencePath) : null;
+  if (!existing) {
+    const assetStem = slugify(filename.replace(extname(filename), ""));
+    const movedRecord = evidenceFiles.find(({ record }) =>
+      record.sourceTitle === project.name &&
+      record.assetPath &&
+      slugify(basename(record.assetPath).replace(extname(record.assetPath), "")) === assetStem
+    );
+    if (movedRecord) {
+      evidencePath = movedRecord.path;
+      existing = movedRecord.record;
+    }
+  }
   const publicPath = `/images/projects/${relativePath.split(sep).join("/")}`;
   const titles = {
     cover: `${project.name} — website and digital experience`,
@@ -147,22 +197,24 @@ for (const asset of filesBelow(assetRoot).sort()) {
     recordType: "evidence",
     schemaVersion: 1,
     createdAt: existing?.createdAt ?? timestamp,
-    updatedAt: timestamp,
-    slug: evidenceSlug,
-    title,
-    description: descriptionFor(project.name, role),
-    evidenceType: role === "cover" ? "website" : "image",
-    role,
-    sequence: roleIndex,
-    visibility: "public",
+    updatedAt: existing?.updatedAt ?? timestamp,
+    slug: existing?.slug ?? evidenceSlug,
+    title: existing?.title ?? title,
+    description: existing?.description ?? descriptionFor(project.name, role),
+    evidenceType: existing?.evidenceType ?? (role === "cover" ? "website" : "image"),
+    role: existing?.role ?? role,
+    sequence: existing?.sequence ?? roleIndex,
+    visibility: existing?.visibility ?? "public",
     assetPath: publicPath,
-    sourceTitle: project.name,
+    sourceTitle: existing?.sourceTitle ?? project.name,
+    ...(existing?.phase ? { phase: existing.phase } : {}),
+    ...(existing?.period ? { period: existing.period } : {}),
     placeholder: false,
   });
   existing ? updated++ : created++;
 
   const evidence = readJson(evidencePath);
-  const relationshipSlug = `${contribution.slug}-evidenced-by-${evidenceSlug}`;
+  const relationshipSlug = `${contribution.slug}-evidenced-by-${evidence.slug}`;
   const relationshipPath = join(root, "records", "relationships", `${relationshipSlug}.json`);
   const existingRelationship = existsSync(relationshipPath) ? readJson(relationshipPath) : null;
   writeJson(relationshipPath, {
@@ -170,7 +222,7 @@ for (const asset of filesBelow(assetRoot).sort()) {
     recordType: "relationship",
     schemaVersion: 1,
     createdAt: existingRelationship?.createdAt ?? timestamp,
-    updatedAt: timestamp,
+    updatedAt: existingRelationship?.updatedAt ?? timestamp,
     slug: relationshipSlug,
     sourceId: contribution.id,
     sourceType: "work",

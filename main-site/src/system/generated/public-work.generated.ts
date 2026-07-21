@@ -167,6 +167,38 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "cannvent-application-development",
+    "projectSlug": "cannvent",
+    "title": "Cannvent application experience",
+    "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "cannvent-cannvent-web-development-cannvent-app-website"
+    ]
+  },
+  {
+    "slug": "cannvent-community-space-development",
+    "projectSlug": "cannvent",
+    "title": "Cannvent Space community platform",
+    "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "cannvent-cannvent-web-development-cannvent-space-website"
+    ]
+  },
+  {
     "slug": "cannvent-system-development",
     "projectSlug": "cannvent",
     "title": "Cannvent system development",
@@ -324,6 +356,47 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "findthy-identity-language-development",
+    "projectSlug": "findthy",
+    "title": "FindThy identity and discovery language",
+    "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "system-product-definition"
+    ],
+    "stages": [
+      {
+        "key": "concepts",
+        "label": "Four concept directions",
+        "status": "completed"
+      },
+      {
+        "key": "language",
+        "label": "Colour and mark language",
+        "status": "completed"
+      },
+      {
+        "key": "synthesis",
+        "label": "Concept 3 + 4 synthesis",
+        "status": "in-progress"
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
+      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-55-am",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
+      "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-close",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-hollow",
+      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold"
+    ]
+  },
+  {
     "slug": "findthy-system-development",
     "projectSlug": "findthy",
     "title": "FindThy system development",
@@ -341,17 +414,7 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "findthy-documentation-pending",
-      "findthy-findthy-findthy-website",
-      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
-      "findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-55-am",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
-      "findthy-findthy-logo-designs-design-systems-findthy-concept4-green",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-close",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold-hollow",
-      "findthy-findthy-logo-designs-findthy-concept3-4-green-blackgold"
+      "findthy-findthy-findthy-website"
     ]
   },
   {
@@ -427,7 +490,10 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
-      "gouldbourne-registry-documentation-pending"
+      "gouldbourne-registry-documentation-pending",
+      "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
+      "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
+      "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage"
     ]
   },
   {
@@ -809,6 +875,20 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "ourgani-identity-development",
+    "projectSlug": "ourgani",
+    "title": "Ourgani identity design",
+    "summary": "Logo development for Ourgani, using an organic yin-yang construction to express balance, exchange and the relationship between complementary natural systems.",
+    "status": "documented",
+    "capabilityGroupIds": [
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "ourgani-ourgani-logo-design-ourganiyinyang-logo-1-0"
+    ]
+  },
+  {
     "slug": "ourgani-system-development",
     "projectSlug": "ourgani",
     "title": "Ourgani system development",
@@ -846,6 +926,28 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video"
+    ]
+  },
+  {
+    "slug": "protosynthesis-multiformat-web-development",
+    "projectSlug": "protosynthesis",
+    "title": "Multi-format web and archive development",
+    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+    "status": "documented",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "infrastructure-operations",
+      "brand-experience-systems",
+      "media-asset-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-media-page-website",
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-media-website",
+      "protosynthesis-protosynthesis-web-developement-protosynthesis-website"
     ]
   },
   {
@@ -890,6 +992,63 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "saveours-identity-language-development",
+    "projectSlug": "saveours",
+    "title": "Identity language and coded mark development",
+    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "system-product-definition"
+    ],
+    "stages": [
+      {
+        "key": "original",
+        "label": "Original commission",
+        "status": "historical"
+      },
+      {
+        "key": "revisit",
+        "label": "Identity revisited",
+        "status": "completed"
+      },
+      {
+        "key": "coded-language",
+        "label": "Coded-language system",
+        "status": "in-progress"
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
+      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
+      "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
+      "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
+      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
+      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta"
+    ]
+  },
+  {
+    "slug": "saveours-platform-interface-development",
+    "projectSlug": "saveours",
+    "title": "SaveOurs archive and personal-save interfaces",
+    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "system-product-definition",
+      "infrastructure-operations",
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "saveours-saveours-saveours-website",
+      "saveours-saveours-web-development-saveours-mysaves-savesite",
+      "saveours-saveours-web-development-savesite-website"
+    ]
+  },
+  {
     "slug": "saveours-system-development",
     "projectSlug": "saveours",
     "title": "SaveOurs system development",
@@ -907,15 +1066,7 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
-      "saveours-documentation-pending",
-      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-redbacked",
-      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-trans",
-      "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
-      "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
-      "saveours-saveours-design-evolutions-first-generation-designs-sos-old-revamped",
-      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
-      "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
-      "saveours-saveours-saveours-website"
+      "saveours-documentation-pending"
     ]
   },
   {
@@ -1058,6 +1209,22 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "wrappedfm-identity-development",
+    "projectSlug": "wrappedfm",
+    "title": "WrappedFM identity development",
+    "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
+    "status": "documented",
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "media-asset-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
+      "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold"
+    ]
+  },
+  {
     "slug": "wrappedfm-system-development",
     "projectSlug": "wrappedfm",
     "title": "WrappedFM system development",
@@ -1078,6 +1245,20 @@ export const publicWork = [
     "evidenceSlugs": [
       "wrappedfm-documentation-pending",
       "wrappedfm-wrappedfm-wrappedfm-website"
+    ]
+  },
+  {
+    "slug": "zenthapy-identity-development",
+    "projectSlug": "zenthapy",
+    "title": "Zenthapy identity design",
+    "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
+    "status": "documented",
+    "capabilityGroupIds": [
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "zenthapy-zenthapy-logo-design-zenthapy-main"
     ]
   },
   {

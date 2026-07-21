@@ -1,0 +1,19 @@
+{
+  "id": "be8f952e-cccf-4c9e-8991-72a29545328d",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
+  "slug": "saveours-identity-language-development",
+  "title": "Identity language and coded mark development",
+  "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems", "system-product-definition"],
+  "stages": [
+    { "key": "original", "label": "Original commission", "status": "historical" },
+    { "key": "revisit", "label": "Identity revisited", "status": "completed" },
+    { "key": "coded-language", "label": "Coded-language system", "status": "in-progress" }
+  ]
+}

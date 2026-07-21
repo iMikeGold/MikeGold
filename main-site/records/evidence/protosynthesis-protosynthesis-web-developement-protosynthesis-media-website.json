@@ -1,0 +1,17 @@
+{
+  "id": "fbf8e030-5eae-4c94-b0ac-62d995e32f0c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-protosynthesis-web-developement-protosynthesis-media-website",
+  "title": "ProtoSynthesis Media — documentary platform",
+  "description": "The Media surface translates the parent system into a more cinematic editorial language for documentary films, observations and systems analysis while remaining recognisably part of the same platform family.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 5,
+  "visibility": "public",
+  "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-website.webp",
+  "sourceTitle": "ProtoSynthesis",
+  "placeholder": false
+}

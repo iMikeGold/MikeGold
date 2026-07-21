@@ -1,0 +1,17 @@
+{
+  "id": "3a7540de-1e43-429a-ac43-4cf99a5415b0",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "saveours-saveours-web-development-savesite-website",
+  "title": "SaveSite — authored collection view",
+  "description": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/saveours/web_development/savesite-website.webp",
+  "sourceTitle": "SaveOurs",
+  "placeholder": false
+}

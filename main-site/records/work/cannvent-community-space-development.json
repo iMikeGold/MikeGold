@@ -1,0 +1,14 @@
+{
+  "id": "0022e80d-37ef-430b-80f4-aacb2e8617f0",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+  "slug": "cannvent-community-space-development",
+  "title": "Cannvent Space community platform",
+  "summary": "A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "brand-experience-systems"]
+}

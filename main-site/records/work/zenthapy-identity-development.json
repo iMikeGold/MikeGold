@@ -1,0 +1,14 @@
+{
+  "id": "b6f88bfd-6dfc-4a63-9dee-39c5061a280e",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "2f2400df-b8ad-4c7d-ab59-2f290e2fa95c",
+  "slug": "zenthapy-identity-development",
+  "title": "Zenthapy identity design",
+  "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "a465e7db-3181-4483-ad59-1afa6ad6bc92",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T13:43:29.924Z",
+  "updatedAt": "2026-07-21T13:43:29.924Z",
+  "slug": "findthy-identity-language-development-evidenced-by-findthy-findthy-logo-designs-design-systems-findthy-concept4-black",
+  "sourceId": "2f53bd66-fce7-44f6-9276-8091adbfc528",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "b6bf577f-d6f1-40d1-aa54-557ce96aec02",
+  "targetType": "evidence"
+}

@@ -150,6 +150,8 @@ const publicEvidence = evidence
     evidenceType: record.evidenceType,
     ...(record.role ? { role: record.role } : {}),
     ...(Number.isFinite(record.sequence) ? { sequence: record.sequence } : {}),
+    ...(record.phase ? { phase: record.phase } : {}),
+    ...(record.period ? { period: record.period } : {}),
     ...(record.assetPath ? { assetPath: record.assetPath } : {}),
     ...(record.externalUrl ? { externalUrl: record.externalUrl } : {}),
     ...(record.thumbnailUrl ? { thumbnailUrl: record.thumbnailUrl } : {}),

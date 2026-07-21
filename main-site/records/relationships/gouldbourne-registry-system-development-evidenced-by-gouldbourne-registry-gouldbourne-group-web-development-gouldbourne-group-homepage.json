@@ -1,0 +1,13 @@
+{
+  "id": "90c6542e-3769-4d9a-b754-20276989fe3b",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "gouldbourne-registry-system-development-evidenced-by-gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage",
+  "sourceId": "1043bc83-9c57-40ce-bed0-960cbd4e5c24",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c1779067-56f3-4313-9234-f34e85783343",
+  "targetType": "evidence"
+}

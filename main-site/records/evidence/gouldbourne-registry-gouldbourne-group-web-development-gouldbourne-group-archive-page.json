@@ -1,0 +1,17 @@
+{
+  "id": "efc0d295-6b87-4820-85e1-b30b9dd4bfe9",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
+  "title": "Gouldbourne Group — continuing archive",
+  "description": "The archive interface exposes milestones, documents, publications and historical material produced from the registry's structured back end, making organisational history navigable as a continuing record.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-archive-page.webp",
+  "sourceTitle": "Gouldbourne Registry",
+  "placeholder": false
+}

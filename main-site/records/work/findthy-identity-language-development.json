@@ -1,0 +1,19 @@
+{
+  "id": "2f53bd66-fce7-44f6-9276-8091adbfc528",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "8d403895-ffa0-45e8-85c6-49ce8c65f5a6",
+  "slug": "findthy-identity-language-development",
+  "title": "FindThy identity and discovery language",
+  "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems", "system-product-definition"],
+  "stages": [
+    { "key": "concepts", "label": "Four concept directions", "status": "completed" },
+    { "key": "language", "label": "Colour and mark language", "status": "completed" },
+    { "key": "synthesis", "label": "Concept 3 + 4 synthesis", "status": "in-progress" }
+  ]
+}

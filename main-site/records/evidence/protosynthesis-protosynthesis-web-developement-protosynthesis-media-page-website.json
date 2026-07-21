@@ -1,0 +1,17 @@
+{
+  "id": "e47bac13-f063-4326-8ad5-9c6e35831300",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-protosynthesis-web-developement-protosynthesis-media-page-website",
+  "title": "ProtoSynthesis Media — long-form content page",
+  "description": "A long-form media page showing how the documentary identity expands beyond its landing page into structured reading, contextual material and individual works.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-page-website.webp",
+  "sourceTitle": "ProtoSynthesis",
+  "placeholder": false
+}

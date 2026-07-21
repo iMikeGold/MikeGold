@@ -1,0 +1,13 @@
+{
+  "id": "758e4e08-a53b-438c-ba64-7a0fa4abbe7b",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:30:20.307Z",
+  "updatedAt": "2026-07-21T14:30:20.307Z",
+  "slug": "ourgani-identity-development-evidenced-by-ourgani-ourgani-logo-design-ourganiyinyang-logo-1-0",
+  "sourceId": "fc3665c6-fe5c-4b2d-bf53-4b0133169762",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "947e9c39-1b27-4783-86b2-e4e3cbb5ec5e",
+  "targetType": "evidence"
+}

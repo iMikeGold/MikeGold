@@ -1,0 +1,17 @@
+{
+  "id": "22a0546d-e5b0-4e99-98f7-0957574a240f",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
+  "title": "ProtoSynthesis Library — archive navigation",
+  "description": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
+  "sourceTitle": "ProtoSynthesis",
+  "placeholder": false
+}

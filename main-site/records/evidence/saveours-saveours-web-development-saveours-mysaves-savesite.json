@@ -1,0 +1,17 @@
+{
+  "id": "37a7c80b-e2a1-43b9-beac-e9afb4e586cc",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "saveours-saveours-web-development-saveours-mysaves-savesite",
+  "title": "My Saves — personal cabinet",
+  "description": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
+  "sourceTitle": "SaveOurs",
+  "placeholder": false
+}

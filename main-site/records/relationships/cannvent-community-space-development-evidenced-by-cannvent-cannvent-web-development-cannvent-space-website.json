@@ -1,0 +1,13 @@
+{
+  "id": "669b1479-ad60-4d89-94d3-f6445b1f724d",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "cannvent-community-space-development-evidenced-by-cannvent-cannvent-web-development-cannvent-space-website",
+  "sourceId": "0022e80d-37ef-430b-80f4-aacb2e8617f0",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1aef3364-5c17-4133-8391-f0fe491b79ce",
+  "targetType": "evidence"
+}

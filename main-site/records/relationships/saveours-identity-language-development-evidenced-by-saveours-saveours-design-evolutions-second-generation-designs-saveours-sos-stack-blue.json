@@ -1,0 +1,13 @@
+{
+  "id": "ee42bb75-6c99-4170-b9b3-ebc80d7510c4",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T13:36:52.971Z",
+  "updatedAt": "2026-07-21T13:36:52.971Z",
+  "slug": "saveours-identity-language-development-evidenced-by-saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-blue",
+  "sourceId": "be8f952e-cccf-4c9e-8991-72a29545328d",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "079ef15e-f420-479f-8b6b-860a5a3806b5",
+  "targetType": "evidence"
+}

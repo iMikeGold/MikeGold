@@ -1,0 +1,14 @@
+{
+  "id": "95f6393b-027c-4a68-9edf-3172cd0e9372",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "7e7d9375-2b29-4b96-9427-06ea4552d6a6",
+  "slug": "cannvent-application-development",
+  "title": "Cannvent application experience",
+  "summary": "Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "brand-experience-systems"]
+}

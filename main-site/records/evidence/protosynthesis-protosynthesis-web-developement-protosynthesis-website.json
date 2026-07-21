@@ -1,0 +1,17 @@
+{
+  "id": "c7c1331e-2695-4a0e-85b2-ff9d66cab03c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
+  "title": "ProtoSynthesis — source architecture interface",
+  "description": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
+  "sourceTitle": "ProtoSynthesis",
+  "placeholder": false
+}

@@ -5,13 +5,15 @@
   "createdAt": "2026-07-21T12:43:28.870Z",
   "updatedAt": "2026-07-21T13:09:49.165Z",
   "slug": "saveours-saveours-design-evolutions-second-generation-designs-saveours-sos-stack-terracotta",
-  "title": "SaveOurs — design-language study 06",
-  "description": "Development evidence showing the visual language, exploration or design evolution behind SaveOurs.",
+  "title": "Second-generation stacked identity — terracotta",
+  "description": "A warm-colour application of the second-generation stacked identity, testing consistency of the visual language beyond its blue presentation.",
   "evidenceType": "image",
   "role": "process",
-  "sequence": 6,
+  "sequence": 4,
   "visibility": "public",
   "assetPath": "/images/projects/saveours/design_evolutions/second_generation_designs/saveours-sos-stack-terracotta.webp",
   "sourceTitle": "SaveOurs",
+  "phase": "Second generation",
+  "period": "2026",
   "placeholder": false
 }

@@ -1,0 +1,17 @@
+{
+  "id": "c3a99720-9a6d-414a-9755-cb02758069a9",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
+  "title": "Gouldbourne Group — history projection",
+  "description": "A dedicated history route shows how the same archival data can be projected editorially without duplicating or hard-coding the underlying company record system.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-history-page.webp",
+  "sourceTitle": "Gouldbourne Registry",
+  "placeholder": false
+}

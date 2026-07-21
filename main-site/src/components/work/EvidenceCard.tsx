@@ -52,7 +52,7 @@ export default function EvidenceCard({
       <span>
         {evidence.placeholder
           ? "Evidence being collated"
-          : evidenceLabel}
+          : [evidence.period, evidence.phase, evidenceLabel].filter(Boolean).join(" · ")}
       </span>
       <strong>{evidence.title}</strong>
       {evidence.description && <p>{evidence.description}</p>}

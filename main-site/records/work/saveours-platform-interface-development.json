@@ -1,0 +1,14 @@
+{
+  "id": "2878ab56-831b-451d-87d6-e9b29f66e5e0",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
+  "slug": "saveours-platform-interface-development",
+  "title": "SaveOurs archive and personal-save interfaces",
+  "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+  "status": "in-progress",
+  "visibility": "public",
+  "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "infrastructure-operations", "brand-experience-systems"]
+}

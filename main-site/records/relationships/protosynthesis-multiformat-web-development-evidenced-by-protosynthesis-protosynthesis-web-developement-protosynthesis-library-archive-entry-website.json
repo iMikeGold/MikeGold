@@ -1,0 +1,13 @@
+{
+  "id": "299be129-f5cd-4ce8-8e4c-5d549e2a6747",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "protosynthesis-multiformat-web-development-evidenced-by-protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
+  "sourceId": "3046ff6e-a3ed-47ad-bf6d-8be290d4b43f",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c841fd21-e122-4a29-b80a-82e9ec5e3a29",
+  "targetType": "evidence"
+}

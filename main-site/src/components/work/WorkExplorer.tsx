@@ -10,6 +10,15 @@ import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types"
 
 type View = "projects" | "work" | "capabilities";
 
+const AREA_EVIDENCE_ROLES: Record<CapabilityGroupId, string[]> = {
+  "physical-technical-engineering": ["application", "reference", "process"],
+  "system-product-definition": ["process", "application", "interface", "identity"],
+  "software-web-engineering": ["interface", "cover"],
+  "infrastructure-operations": ["interface", "cover", "reference"],
+  "brand-experience-systems": ["identity", "process", "application"],
+  "media-asset-systems": ["application", "process", "reference", "identity"],
+};
+
 export default function WorkExplorer({
   projects,
   work,
@@ -180,30 +189,52 @@ export default function WorkExplorer({
         <div className="project-record-grid">
           {visibleProjects.map((project) => {
             const projectWork = work.filter((item) => item.projectSlug === project.slug);
-            const projectEvidence = projectWork
+            const contextualWork = groupFilter
+              ? projectWork.filter((item) => item.capabilityGroupIds.includes(groupFilter))
+              : projectWork;
+            const projectEvidenceWithDuplicates = contextualWork
               .flatMap((item) => item.evidenceSlugs)
               .flatMap((slug) => {
                 const record = evidenceBySlug.get(slug);
                 return record ? [record] : [];
               });
-            const cover = projectEvidence.find((item) => item.role === "cover" && item.assetPath)
-              ?? projectEvidence.find((item) => item.assetPath);
+            const projectEvidence = [...new Map(projectEvidenceWithDuplicates.map((item) => [item.slug, item])).values()];
+            const roleOrder = groupFilter ? AREA_EVIDENCE_ROLES[groupFilter] : ["cover", "identity", "process", "application", "interface", "reference"];
+            const visualEvidence = projectEvidence
+              .filter((item) => item.assetPath)
+              .sort((left, right) => {
+                const roleDifference = roleOrder.indexOf(left.role ?? "reference") - roleOrder.indexOf(right.role ?? "reference");
+                return roleDifference || (left.sequence ?? 0) - (right.sequence ?? 0);
+              });
+            const relevantVisuals = groupFilter
+              ? visualEvidence.filter((item) => roleOrder.includes(item.role ?? "reference")).slice(0, 3)
+              : visualEvidence.slice(0, 1);
             const capabilityCount = new Set(
               projectWork.flatMap((item) => item.appliedHatSlugs),
             ).size;
             return (
               <article className="project-record-card" key={project.slug}>
-                {cover?.assetPath && (
-                  <Link className="project-record-cover" href={`/projects/${project.slug}`} aria-label={`Open ${project.name}`}>
-                    <img src={cover.assetPath} alt="" loading="lazy" />
-                  </Link>
+                {!!relevantVisuals.length && (
+                  <div className={`project-evidence-preview project-evidence-preview-${Math.min(relevantVisuals.length, 3)}`}>
+                    {relevantVisuals.map((item) => (
+                      <figure key={item.slug}>
+                        <img src={item.assetPath} alt={item.title} loading="lazy" />
+                        <figcaption>{item.title}</figcaption>
+                      </figure>
+                    ))}
+                  </div>
                 )}
                 <div className="record-status-row">
                   <span>{project.status.replaceAll("-", " ")}</span>
                   <span>{project.context ?? project.establishedYear ?? "Period being documented"}</span>
                 </div>
                 <h3>{project.name}</h3>
-                <p>{project.summary}</p>
+                <p>{groupFilter ? contextualWork[0]?.summary ?? project.summary : project.summary}</p>
+                {groupFilter && contextualWork.length > 0 && (
+                  <div className="project-context-work" aria-label="Relevant work">
+                    {contextualWork.map((item) => <span key={item.slug}>{item.title}</span>)}
+                  </div>
+                )}
                 <div className="record-measures">
                   <span>
                     {projectWork.length} work record{projectWork.length === 1 ? "" : "s"}

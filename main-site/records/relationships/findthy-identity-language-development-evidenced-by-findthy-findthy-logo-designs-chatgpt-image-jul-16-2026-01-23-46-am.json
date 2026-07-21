@@ -1,0 +1,13 @@
+{
+  "id": "04572211-68c8-43b8-a66e-6b24bfe3c149",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T13:43:29.924Z",
+  "updatedAt": "2026-07-21T13:43:29.924Z",
+  "slug": "findthy-identity-language-development-evidenced-by-findthy-findthy-logo-designs-chatgpt-image-jul-16-2026-01-23-46-am",
+  "sourceId": "2f53bd66-fce7-44f6-9276-8091adbfc528",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "9f7f54f2-8d87-4df5-8a3f-02ac64ae3981",
+  "targetType": "evidence"
+}

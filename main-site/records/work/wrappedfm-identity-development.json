@@ -1,0 +1,14 @@
+{
+  "id": "5fdec772-3382-4cce-9407-965d589f12f0",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "projectId": "d38e2bd3-63d8-4f8e-8ed1-8144927790a1",
+  "slug": "wrappedfm-identity-development",
+  "title": "WrappedFM identity development",
+  "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
+  "status": "documented",
+  "visibility": "public",
+  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"]
+}

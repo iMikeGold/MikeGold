@@ -62,7 +62,6 @@ export function useInteractionKernel(
 
   const touchStart = (id: string, hat: any, e: React.TouchEvent) => {
     if (mode !== "touch") return;
-    e.preventDefault();
     longPress.current = setTimeout(() => {
       setActiveId(id);
       setOverlay({ id, text: flippedMap[id] ? hat.name : hat.description || hat.name });

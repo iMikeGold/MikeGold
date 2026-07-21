@@ -1,0 +1,17 @@
+{
+  "id": "c1779067-56f3-4313-9234-f34e85783343",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-21T14:28:37.460Z",
+  "updatedAt": "2026-07-21T14:28:37.460Z",
+  "slug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage",
+  "title": "Gouldbourne Group — ownership interface",
+  "description": "The public projection of a long-term ownership system, translating company, intellectual-property and asset records into a deliberately restrained institutional interface.",
+  "evidenceType": "image",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-homepage.webp",
+  "sourceTitle": "Gouldbourne Registry",
+  "placeholder": false
+}

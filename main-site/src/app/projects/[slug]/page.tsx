@@ -25,15 +25,6 @@ export default async function ProjectRecordPage({
   const work = publicWork.filter((item) => item.projectSlug === project.slug);
   const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
   const evidenceBySlug = new Map(publicEvidence.map((item) => [item.slug, item]));
-  const projectEvidence = work
-    .flatMap((item) => item.evidenceSlugs)
-    .flatMap((evidenceSlug) => {
-      const evidence = evidenceBySlug.get(evidenceSlug);
-      return evidence ? [evidence] : [];
-    });
-  const cover = projectEvidence.find((item) => item.role === "cover" && item.assetPath)
-    ?? projectEvidence.find((item) => item.assetPath);
-
   return (
     <main>
       <article className="page project-record-page">
@@ -47,12 +38,6 @@ export default async function ProjectRecordPage({
           </div>
           <h1>{project.name}</h1>
           <p>{project.summary}</p>
-          {cover?.assetPath && (
-            <figure className="project-hero-visual">
-              <img src={cover.assetPath} alt={`${project.name} project interface`} />
-              <figcaption>{cover.title}</figcaption>
-            </figure>
-          )}
         </header>
 
         <section>
@@ -91,6 +76,10 @@ export default async function ProjectRecordPage({
                   evidence={item.evidenceSlugs.flatMap((evidenceSlug) => {
                     const evidence = evidenceBySlug.get(evidenceSlug);
                     return evidence ? [evidence] : [];
+                  })}
+                  defaultOpen={item.evidenceSlugs.some((evidenceSlug) => {
+                    const evidence = evidenceBySlug.get(evidenceSlug);
+                    return Boolean(evidence?.assetPath && evidence.role !== "cover");
                   })}
                 />
               </article>
