@@ -58,7 +58,7 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
             )}
             <EvidenceDisclosure
               evidence={itemEvidence}
-              defaultOpen={area ? isContextual : itemEvidence.some((record) => Boolean(record.assetPath && record.role !== "cover"))}
+              defaultOpen={false}
             />
           </article>
         );

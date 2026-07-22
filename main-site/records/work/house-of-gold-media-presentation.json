@@ -1,0 +1,15 @@
+{
+  "id": "2c9a13f2-a3a9-4553-8dc0-3050289124af",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+  "slug": "house-of-gold-media-presentation",
+  "title": "Media presentation and asset systems",
+  "summary": "Presentation rules and interface surfaces for music, imagery and digital assets across the House experience.",
+  "status": "documented",
+  "visibility": "public",
+  "sequence": 4,
+  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"]
+}

@@ -439,23 +439,78 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+    "slug": "house-of-gold-content-architecture",
+    "title": "Content and museum information architecture",
+    "summary": "A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
+    "status": "documented",
+    "visibility": "public",
+    "sequence": 3,
+    "capabilityGroupIds": [
+      "system-product-definition",
+      "brand-experience-systems",
+      "media-asset-systems"
+    ]
+  },
+  {
+    "id": "2c9a13f2-a3a9-4553-8dc0-3050289124af",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+    "slug": "house-of-gold-media-presentation",
+    "title": "Media presentation and asset systems",
+    "summary": "Presentation rules and interface surfaces for music, imagery and digital assets across the House experience.",
+    "status": "documented",
+    "visibility": "public",
+    "sequence": 4,
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "media-asset-systems"
+    ]
+  },
+  {
+    "id": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+    "slug": "house-of-gold-runtime-state-systems",
+    "title": "Runtime user-state and exploration systems",
+    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "status": "documented",
+    "visibility": "public",
+    "sequence": 2,
+    "capabilityGroupIds": [
+      "system-product-definition",
+      "software-web-engineering",
+      "infrastructure-operations"
+    ]
+  },
+  {
     "id": "e273b215-f6c5-4b04-940f-78d4ef290db4",
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-20T00:00:00.000Z",
-    "updatedAt": "2026-07-20T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
     "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
     "slug": "house-of-gold-system-development",
-    "title": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+    "title": "Immersive web experience and interaction engineering",
+    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
     "status": "documented",
     "visibility": "public",
     "capabilityGroupIds": [
       "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems",
-      "media-asset-systems"
-    ]
+      "brand-experience-systems"
+    ],
+    "sequence": 1
   },
   {
     "id": "6282865b-d9c1-40b4-9aaa-087efff0471d",

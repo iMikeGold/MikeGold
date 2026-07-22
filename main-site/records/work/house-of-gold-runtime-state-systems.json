@@ -1,0 +1,15 @@
+{
+  "id": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+  "slug": "house-of-gold-runtime-state-systems",
+  "title": "Runtime user-state and exploration systems",
+  "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+  "status": "documented",
+  "visibility": "public",
+  "sequence": 2,
+  "capabilityGroupIds": ["system-product-definition", "software-web-engineering", "infrastructure-operations"]
+}

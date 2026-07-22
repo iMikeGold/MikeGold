@@ -1,0 +1,7 @@
+{
+  "id": "cd5911ed-db83-4be6-997a-2d6e1e72e9d0", "recordType": "relationship", "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z", "updatedAt": "2026-07-22T00:00:00.000Z",
+  "slug": "meaning-architect-applied-in-house-of-gold-content-architecture",
+  "sourceId": "b9a05ea5-2ab8-47c9-bd83-0a61fc2d7f0c", "sourceType": "hat", "relationshipType": "applied-in",
+  "targetId": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea", "targetType": "work", "role": "supporting"
+}

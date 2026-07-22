@@ -13,7 +13,7 @@ export default function SystemEntryNode() {
 
       <ServiceIntentExplorer hats={publicHats} projects={publicProjects} work={publicWork} compact />
 
-      <div style={{ marginTop: 16, opacity: 0.7, marginBottom: 16}}>
+      <div className="hero-suggestions">
         Suggestions:
         <ul>
           <li>Audio system for live performance</li>

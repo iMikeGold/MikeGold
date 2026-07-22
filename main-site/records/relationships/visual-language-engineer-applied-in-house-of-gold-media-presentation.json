@@ -1,0 +1,7 @@
+{
+  "id": "fadbdd84-2547-4029-87cb-e04407a87c59", "recordType": "relationship", "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z", "updatedAt": "2026-07-22T00:00:00.000Z",
+  "slug": "visual-language-engineer-applied-in-house-of-gold-media-presentation",
+  "sourceId": "54eb7815-102a-4c23-aaee-7c5b812b5915", "sourceType": "hat", "relationshipType": "applied-in",
+  "targetId": "2c9a13f2-a3a9-4553-8dc0-3050289124af", "targetType": "work", "role": "primary"
+}

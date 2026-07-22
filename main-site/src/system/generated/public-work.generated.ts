@@ -768,31 +768,74 @@ export const publicWork = [
     ]
   },
   {
-    "slug": "house-of-gold-system-development",
+    "slug": "house-of-gold-content-architecture",
     "projectSlug": "house-of-gold",
-    "title": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+    "title": "Content and museum information architecture",
+    "summary": "A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
     "status": "documented",
+    "sequence": 3,
     "capabilityGroupIds": [
-      "software-web-engineering",
-      "infrastructure-operations",
+      "system-product-definition",
       "brand-experience-systems",
       "media-asset-systems"
     ],
     "appliedHatSlugs": [
-      "data-modeler",
+      "meaning-architect",
+      "narrative-systems-thinker"
+    ],
+    "evidenceSlugs": [
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+        "role": "supporting"
+      }
+    ]
+  },
+  {
+    "slug": "house-of-gold-media-presentation",
+    "projectSlug": "house-of-gold",
+    "title": "Media presentation and asset systems",
+    "summary": "Presentation rules and interface surfaces for music, imagery and digital assets across the House experience.",
+    "status": "documented",
+    "sequence": 4,
+    "capabilityGroupIds": [
+      "brand-experience-systems",
+      "media-asset-systems"
+    ],
+    "appliedHatSlugs": [
       "media-engineer",
-      "web-design-engineer"
+      "visual-language-engineer"
+    ],
+    "evidenceSlugs": [
+      "house-of-gold-house-of-gold-house-of-gold-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
+        "role": "supporting"
+      }
+    ]
+  },
+  {
+    "slug": "house-of-gold-runtime-state-systems",
+    "projectSlug": "house-of-gold",
+    "title": "Runtime user-state and exploration systems",
+    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "status": "documented",
+    "sequence": 2,
+    "capabilityGroupIds": [
+      "system-product-definition",
+      "software-web-engineering",
+      "infrastructure-operations"
+    ],
+    "appliedHatSlugs": [
+      "data-modeler",
+      "systems-engineer"
     ],
     "evidenceSlugs": [
       "house-of-gold-documentation-pending",
-      "house-of-gold-house-of-gold-house-of-gold-website",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
-      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
       "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu"
     ],
     "evidenceLinks": [
@@ -801,15 +844,35 @@ export const publicWork = [
         "role": "supporting"
       },
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
         "role": "supporting"
-      },
+      }
+    ]
+  },
+  {
+    "slug": "house-of-gold-system-development",
+    "projectSlug": "house-of-gold",
+    "title": "Immersive web experience and interaction engineering",
+    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
+    "status": "documented",
+    "sequence": 1,
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "brand-experience-systems"
+    ],
+    "appliedHatSlugs": [
+      "web-design-engineer"
+    ],
+    "evidenceSlugs": [
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+      "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone"
+    ],
+    "evidenceLinks": [
       {
         "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-        "role": "supporting"
-      },
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
         "role": "supporting"
       },
       {
@@ -826,10 +889,6 @@ export const publicWork = [
       },
       {
         "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
-        "role": "supporting"
-      },
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
         "role": "supporting"
       }
     ]

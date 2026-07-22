@@ -9,31 +9,11 @@ export default function EnginePage() {
     <main>
       <div className="page service-engine-page">
         <header className="page-header">
-          <p className="work-kicker">INTENT → SERVICE CONFIGURATION → CAPABILITY → PROOF</p>
+          <p className="work-kicker">INTENT → SERVICE CONFIGURATION → SCOPE → PROOF</p>
           <h1>SERViCE ENGiNE</h1>
           <p>Describe the outcome or problem. The engine assembles a delivery route, then connects the Hats that can deliver it and Work that proves it.</p>
         </header>
         <ServiceIntentExplorer hats={publicHats} projects={publicProjects} work={publicWork} />
-
-        <section className="engine-configuration-explainer">
-          <p className="work-kicker">ONE CAPABILITY → COMBINED CONFIGURATION</p>
-          <h2>THE PROFILE RECALCULATES AS HATS STACK</h2>
-          <p>
-            Each Hat carries a weighted pattern across depth, creativity, scale,
-            interaction, structure and influence. Combining Hats does not erase
-            those differences: it exposes how specialist strengths reinforce or
-            balance one another, helping turn an objective into an explainable
-            delivery configuration.
-          </p>
-          <div className="engine-stack-visuals">
-            {[1, 2, 3].map((count) => (
-              <figure key={count}>
-                <img src={`/images/projects/mike_gold/website_components/hat_registry_system/${count}-${count === 1 ? "hat" : "hats"}-polygon-graph-map-display.webp`} alt={`${count} selected Hat${count === 1 ? "" : "s"} recalculating the combined capability polygon`} loading="lazy" />
-                <figcaption>{count} Hat{count === 1 ? "" : "s"} selected</figcaption>
-              </figure>
-            ))}
-          </div>
-        </section>
 
         <section>
           <h2>CORE PRiNCiPLE</h2>
@@ -47,9 +27,9 @@ export default function EnginePage() {
           <h2>HOW iT WORKS</h2>
           <p>
             1. Input is interpreted as intent<br />
-            2. Intent is mapped to capability weights<br />
-            3. Relevant systems are activated<br />
-            4. A structured delivery profile is generated
+            2. Required service modules and dependencies are activated<br />
+            3. Scope, outputs and delivery phases are assembled<br />
+            4. Relevant Work and supporting capabilities are connected
           </p>
         </section>
 

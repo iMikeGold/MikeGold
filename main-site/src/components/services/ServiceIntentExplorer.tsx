@@ -48,6 +48,7 @@ export default function ServiceIntentExplorer({
           <strong>{analysis.title}</strong>
           <p>{analysis.summary}</p>
           {!!analysis.modules.length && <p>{analysis.modules.slice(0, 3).map((module) => module.name).join(" · ")}</p>}
+          {analysis.modules.length > 3 && <p className="service-subset-note">Showing 3 of {analysis.modules.length} activated modules.</p>}
           <div className="service-qualification-actions">
             <Link href={`/engine?q=${encodeURIComponent(query)}`}>Analyse this enquiry →</Link>
             {!!matchedWork.length && <Link href="/projects">See relevant experience</Link>}
@@ -62,6 +63,12 @@ export default function ServiceIntentExplorer({
             <p>{analysis.summary}</p>
             <p>{analysis.confidence.explanation}</p>
           </section>
+          <section>
+            <span className="work-kicker">INTERPRETED OBJECTIVE AND CONSTRAINTS</span>
+            {!!analysis.interpretedIntent.outcomes.length && <p><strong>Outcomes:</strong> {analysis.interpretedIntent.outcomes.join(" · ")}</p>}
+            {!!analysis.interpretedIntent.constraints.length && <p><strong>Constraints:</strong> {analysis.interpretedIntent.constraints.join(" · ")}</p>}
+            {!analysis.interpretedIntent.constraints.length && <p>No explicit constraints supplied yet.</p>}
+          </section>
           {!!analysis.modules.length && <section>
             <span className="work-kicker">DELIVERY MODULES</span>
             <div className="service-module-results">
@@ -71,15 +78,6 @@ export default function ServiceIntentExplorer({
           {!!analysis.deliveryPhases.length && <section>
             <span className="work-kicker">DELIVERY PROFILE</span>
             <ol className="service-phase-results">{analysis.deliveryPhases.map((phase) => <li key={phase.name}><strong>{phase.name}</strong><span>{phase.purpose}</span></li>)}</ol>
-          </section>}
-          {!!analysis.leadHatSlugs.length && <section>
-            <span className="work-kicker">CAPABILITY CONFIGURATION</span>
-            <div className="service-hat-results">
-              {analysis.leadHatSlugs.map((slug) => (
-                <Link href={`/registry?hat=${slug}`} key={slug}>{hatBySlug.get(slug)?.name ?? slug}</Link>
-              ))}
-            </div>
-            {!!analysis.supportingHatSlugs.length && <p>Supporting: {analysis.supportingHatSlugs.map((slug) => hatBySlug.get(slug)?.name ?? slug).join(" · ")}</p>}
           </section>}
           <section>
             <span className="work-kicker">RELEVANT EXPERIENCE</span>
@@ -92,7 +90,15 @@ export default function ServiceIntentExplorer({
                   <span>{project?.name ?? projectSlug} · {reason}</span>
                 </Link>
               ); }) : <p>Related proof will appear when the enquiry activates a defined service route.</p>}
+            {analysis.relevantWork.length > matchedWork.length && <details><summary>View all relevant Work ({analysis.relevantWork.length})</summary>{analysis.relevantWork.slice(matchedWork.length).map(({ workSlug, projectSlug, reason }) => { const item = work.find((candidate) => candidate.slug === workSlug)!; const project = projects.find((candidate) => candidate.slug === projectSlug); return <Link className="service-work-result" href={`/projects/${projectSlug}`} key={workSlug}><strong>{item.title}</strong><span>{project?.name ?? projectSlug} · {reason}</span></Link>; })}</details>}
           </section>
+          {!!analysis.leadHatSlugs.length && <details className="service-capability-support">
+            <summary>Capabilities supporting this route ({analysis.leadHatSlugs.length + analysis.supportingHatSlugs.length})</summary>
+            <div className="service-hat-results">
+              {analysis.leadHatSlugs.map((slug) => <Link href={`/registry?hat=${slug}`} key={slug}>{hatBySlug.get(slug)?.name ?? slug}</Link>)}
+            </div>
+            {!!analysis.supportingHatSlugs.length && <p>Supporting: {analysis.supportingHatSlugs.map((slug) => hatBySlug.get(slug)?.name ?? slug).join(" · ")}</p>}
+          </details>}
         </div>
       )}
     </div>

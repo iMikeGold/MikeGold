@@ -89,9 +89,10 @@ export default function HatDrawer({
           </div>
           {selectedHats.length > 1 && (
             <div style={{ fontSize: 11, color: "#60a5fa", marginTop: 4 }}>
-              Combined capability profile · {selectedHats.length} hats
+              Combined profile calculated from {selectedHats.length} selected Hats
             </div>
           )}
+          {polygonHats.length > polygonLayers.length && <div style={{ fontSize: 11, color: "#999", marginTop: 3 }}>Displaying the {polygonLayers.length} strongest individual layers.</div>}
         </div>
         <button
           onClick={onClose}

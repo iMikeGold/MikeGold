@@ -48,7 +48,9 @@ export function analyseServiceIntent(hats: PublicHat[], work: PublicWorkProjecti
     confidence: { level: "insufficient", explanation: "The enquiry does not yet identify a service route with enough specificity." },
   };
 
-  const selected = ranked.slice(0, 5);
+  const strongestScore = ranked[0]?.score ?? 0;
+  const relevanceFloor = Math.max(5, Math.ceil(strongestScore * 0.35));
+  const selected = ranked.filter(({ score }) => score >= relevanceFloor);
   const selectedIds = new Set(selected.map(({ module }) => module.id));
   for (const { module } of [...selected]) for (const dependency of module.dependencies ?? []) {
     if (!selectedIds.has(dependency)) { const found = MODULES.find((candidate) => candidate.id === dependency); if (found) { selected.push({ module: found, matched: [], qualifierMatches: [], score: 1 }); selectedIds.add(dependency); } }
@@ -60,7 +62,7 @@ export function analyseServiceIntent(hats: PublicHat[], work: PublicWorkProjecti
     const overlap = selected.filter(({ module }) => module.relatedGroupIds.some((group) => item.capabilityGroupIds.includes(group)));
     const hatOverlap = item.appliedHatSlugs.filter((slug) => leadHatSlugs.includes(slug)).length;
     return { item, overlap, score: overlap.length * 25 + hatOverlap * 10 };
-  }).filter(({ score }) => score > 0).sort((a, b) => b.score - a.score || a.item.slug.localeCompare(b.item.slug)).slice(0, 5)
+  }).filter(({ score }) => score > 0).sort((a, b) => b.score - a.score || a.item.slug.localeCompare(b.item.slug))
     .map(({ item, overlap, score }) => ({ workSlug: item.slug, projectSlug: item.projectSlug, score, reason: `Proves ${overlap.map(({ module }) => module.name).join(" and ")}.` }));
   const qualifiers = qualifierTerms.filter((term) => normalized.includes(term));
   const constraints = constraintTerms.filter((term) => normalized.includes(term));

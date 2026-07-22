@@ -1,6 +1,15 @@
 import type { ProjectId } from "@/system/core/ids";
 import type { BaseRecord } from "@/system/core/record";
 import type { Visibility } from "@/system/core/visibility";
+import type { CapabilityGroupId } from "@/system/work/capability-groups";
+
+export interface LensPresentationPreference {
+  lensId: CapabilityGroupId;
+  showcase?: boolean;
+  editorialBoost?: number;
+  editorialSequence?: number;
+  reason?: string;
+}
 
 export const PROJECT_STATUSES = [
   "live",
@@ -26,6 +35,7 @@ export interface InternalProjectRecord extends BaseRecord<ProjectId, "project"> 
   establishedYear?: number;
   workStarted?: string;
   workEnded?: string;
+  lensPresentationPreferences?: LensPresentationPreference[];
 }
 
 export interface PublicProjectProjection {
@@ -38,4 +48,5 @@ export interface PublicProjectProjection {
   establishedYear?: number;
   workPeriod?: string;
   liveUrl?: string;
+  lensPresentationPreferences?: LensPresentationPreference[];
 }

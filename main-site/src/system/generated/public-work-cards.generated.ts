@@ -39,8 +39,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.34,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 91.34,
     "href": "/projects/cannvent"
   },
   {
@@ -81,9 +88,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.34,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 91.34,
     "href": "/projects/cannvent?area=software-web-engineering"
   },
   {
@@ -124,9 +137,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.34,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 91.34,
     "href": "/projects/cannvent?area=system-product-definition"
   },
   {
@@ -167,9 +186,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.34,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 91.34,
     "href": "/projects/cannvent?area=brand-experience-systems"
   },
   {
@@ -208,8 +233,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 9 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 92.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 92.48,
     "href": "/projects/findthy"
   },
   {
@@ -249,9 +281,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 9 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 92.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 92.48,
     "href": "/projects/findthy?area=brand-experience-systems"
   },
   {
@@ -291,9 +329,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 9 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 92.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 92.48,
     "href": "/projects/findthy?area=system-product-definition"
   },
   {
@@ -332,9 +376,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 9 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/findthy?area=software-web-engineering"
   },
   {
@@ -372,8 +422,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/gouldbourne-registry"
   },
   {
@@ -412,9 +469,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/gouldbourne-registry?area=system-product-definition"
   },
   {
@@ -453,9 +516,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/gouldbourne-registry?area=software-web-engineering"
   },
   {
@@ -494,9 +563,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/gouldbourne-registry?area=infrastructure-operations"
   },
   {
@@ -534,8 +609,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.16,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 78.16,
     "href": "/projects/metroplist"
   },
   {
@@ -574,9 +656,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.16,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 78.16,
     "href": "/projects/metroplist?area=system-product-definition"
   },
   {
@@ -615,9 +703,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.16,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 78.16,
     "href": "/projects/metroplist?area=software-web-engineering"
   },
   {
@@ -656,9 +750,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.16,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 78.16,
     "href": "/projects/metroplist?area=brand-experience-systems"
   },
   {
@@ -698,8 +798,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 101.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 101.46,
     "href": "/projects/mickz"
   },
   {
@@ -740,9 +847,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 101.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 101.46,
     "href": "/projects/mickz?area=brand-experience-systems"
   },
   {
@@ -781,9 +894,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.85,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 91.85,
     "href": "/projects/mickz?area=media-asset-systems"
   },
   {
@@ -821,9 +940,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 84.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 84.83,
     "href": "/projects/mickz?area=system-product-definition"
   },
   {
@@ -861,8 +986,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 4 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/mikegold-engineer"
   },
   {
@@ -901,9 +1033,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 4 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/mikegold-engineer?area=system-product-definition"
   },
   {
@@ -942,9 +1080,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 4 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/mikegold-engineer?area=software-web-engineering"
   },
   {
@@ -983,9 +1127,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 4 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/mikegold-engineer?area=infrastructure-operations"
   },
   {
@@ -1024,9 +1174,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 4 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/mikegold-engineer?area=brand-experience-systems"
   },
   {
@@ -1067,8 +1223,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "4 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 97.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 97.46,
     "href": "/projects/musical-intelligence"
   },
   {
@@ -1105,9 +1268,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "1 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 78,
     "href": "/projects/musical-intelligence?area=system-product-definition"
   },
   {
@@ -1146,9 +1315,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 85.85,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 85.85,
     "href": "/projects/musical-intelligence?area=software-web-engineering"
   },
   {
@@ -1185,9 +1360,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "1 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 78,
     "href": "/projects/musical-intelligence?area=infrastructure-operations"
   },
   {
@@ -1226,9 +1407,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 91.85,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 91.85,
     "href": "/projects/musical-intelligence?area=brand-experience-systems"
   },
   {
@@ -1263,9 +1450,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 82,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 82,
     "href": "/projects/musical-intelligence?area=media-asset-systems"
   },
   {
@@ -1298,8 +1491,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.97,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 78.97,
     "href": "/projects/ourgani"
   },
   {
@@ -1333,9 +1533,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 78.97,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 78.97,
     "href": "/projects/ourgani?area=brand-experience-systems"
   },
   {
@@ -1368,9 +1574,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/ourgani?area=software-web-engineering"
   },
   {
@@ -1403,9 +1615,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/ourgani?area=infrastructure-operations"
   },
   {
@@ -1444,8 +1662,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.36,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 86.36,
     "href": "/projects/protosynthesis"
   },
   {
@@ -1485,9 +1710,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.36,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 86.36,
     "href": "/projects/protosynthesis?area=software-web-engineering"
   },
   {
@@ -1527,9 +1758,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.36,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 86.36,
     "href": "/projects/protosynthesis?area=infrastructure-operations"
   },
   {
@@ -1569,9 +1806,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.36,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 86.36,
     "href": "/projects/protosynthesis?area=brand-experience-systems"
   },
   {
@@ -1611,9 +1854,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.36,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 86.36,
     "href": "/projects/protosynthesis?area=media-asset-systems"
   },
   {
@@ -1652,9 +1901,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 7 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.34,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 25.87,
+    "finalScore": 79.34,
     "href": "/projects/protosynthesis?area=system-product-definition"
   },
   {
@@ -1694,8 +1949,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 97.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 97.46,
     "href": "/projects/saveours"
   },
   {
@@ -1736,9 +1998,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 97.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 97.46,
     "href": "/projects/saveours?area=brand-experience-systems"
   },
   {
@@ -1779,9 +2047,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "3 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 97.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 97.46,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
@@ -1821,9 +2095,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 86.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 86.48,
     "href": "/projects/saveours?area=software-web-engineering"
   },
   {
@@ -1858,9 +2138,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 76,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 76,
     "href": "/projects/saveours?area=infrastructure-operations"
   },
   {
@@ -1899,9 +2185,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/saveours?area=media-asset-systems"
   },
   {
@@ -1939,8 +2231,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/vendfm"
   },
   {
@@ -1979,9 +2278,16 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens"
     ],
+    "relevanceScore": 81.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 81.86,
     "href": "/projects/vendfm?area=system-product-definition"
   },
   {
@@ -2020,9 +2326,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/vendfm?area=software-web-engineering"
   },
   {
@@ -2061,9 +2373,16 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens"
     ],
+    "relevanceScore": 81.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 81.86,
     "href": "/projects/vendfm?area=brand-experience-systems"
   },
   {
@@ -2102,9 +2421,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/vendfm?area=media-asset-systems"
   },
   {
@@ -2143,8 +2468,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 80.88,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 80.88,
     "href": "/projects/wrappedfm"
   },
   {
@@ -2184,9 +2516,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 80.88,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 80.88,
     "href": "/projects/wrappedfm?area=brand-experience-systems"
   },
   {
@@ -2226,9 +2564,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 80.88,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 80.88,
     "href": "/projects/wrappedfm?area=media-asset-systems"
   },
   {
@@ -2267,9 +2611,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/wrappedfm?area=system-product-definition"
   },
   {
@@ -2308,9 +2658,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/wrappedfm?area=software-web-engineering"
   },
   {
@@ -2349,9 +2705,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/wrappedfm?area=infrastructure-operations"
   },
   {
@@ -2389,8 +2751,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 10 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/118-sports"
   },
   {
@@ -2429,9 +2798,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 10 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/118-sports?area=brand-experience-systems"
   },
   {
@@ -2470,9 +2845,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 10 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/118-sports?area=software-web-engineering"
   },
   {
@@ -2511,9 +2892,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 10 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 79.46,
     "href": "/projects/118-sports?area=infrastructure-operations"
   },
   {
@@ -2537,8 +2924,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/2xu-wetsuit-testing"
   },
   {
@@ -2563,9 +2957,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/2xu-wetsuit-testing?area=media-asset-systems"
   },
   {
@@ -2590,9 +2990,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/2xu-wetsuit-testing?area=physical-technical-engineering"
   },
   {
@@ -2611,8 +3017,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 53.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 53.46,
     "href": "/projects/bamboograph"
   },
   {
@@ -2632,9 +3045,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "No usable visual evidence is registered"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 53.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 53.46,
     "href": "/projects/bamboograph?area=system-product-definition"
   },
   {
@@ -2654,9 +3073,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "No usable visual evidence is registered"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 53.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 53.46,
     "href": "/projects/bamboograph?area=software-web-engineering"
   },
   {
@@ -2681,8 +3106,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/best-indies"
   },
   {
@@ -2708,9 +3140,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/best-indies?area=brand-experience-systems"
   },
   {
@@ -2736,9 +3174,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/best-indies?area=software-web-engineering"
   },
   {
@@ -2756,8 +3200,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 52.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 52.83,
     "href": "/projects/bjorr"
   },
   {
@@ -2776,9 +3227,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "No usable visual evidence is registered"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 52.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 52.83,
     "href": "/projects/bjorr?area=system-product-definition"
   },
   {
@@ -2797,9 +3254,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "No usable visual evidence is registered"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 52.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 52.83,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {
@@ -2824,8 +3287,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bluedot-festival-the-orb"
   },
   {
@@ -2851,9 +3321,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bluedot-festival-the-orb?area=infrastructure-operations"
   },
   {
@@ -2879,9 +3355,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bluedot-festival-the-orb?area=media-asset-systems"
   },
   {
@@ -2907,9 +3389,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bluedot-festival-the-orb?area=physical-technical-engineering"
   },
   {
@@ -2934,8 +3422,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bonsai-tree-of-life"
   },
   {
@@ -2961,9 +3456,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bonsai-tree-of-life?area=system-product-definition"
   },
   {
@@ -2989,9 +3490,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bonsai-tree-of-life?area=software-web-engineering"
   },
   {
@@ -3017,9 +3524,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bonsai-tree-of-life?area=infrastructure-operations"
   },
   {
@@ -3044,8 +3557,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bristow-operational-excellence"
   },
   {
@@ -3071,9 +3591,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/bristow-operational-excellence?area=physical-technical-engineering"
   },
   {
@@ -3105,8 +3631,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/community-supplies"
   },
   {
@@ -3139,9 +3672,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/community-supplies?area=system-product-definition"
   },
   {
@@ -3174,9 +3713,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/community-supplies?area=software-web-engineering"
   },
   {
@@ -3209,9 +3754,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/community-supplies?area=infrastructure-operations"
   },
   {
@@ -3244,9 +3795,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
@@ -3270,8 +3827,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/croydon-womens-network-iwd"
   },
   {
@@ -3296,9 +3860,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/croydon-womens-network-iwd?area=media-asset-systems"
   },
   {
@@ -3323,9 +3893,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/croydon-womens-network-iwd?area=physical-technical-engineering"
   },
   {
@@ -3350,8 +3926,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/crystal-palace-overground-festival"
   },
   {
@@ -3377,9 +3960,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/crystal-palace-overground-festival?area=media-asset-systems"
   },
   {
@@ -3405,9 +3994,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/crystal-palace-overground-festival?area=physical-technical-engineering"
   },
   {
@@ -3432,8 +4027,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/delmatic-connected-lighting"
   },
   {
@@ -3459,9 +4061,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/delmatic-connected-lighting?area=physical-technical-engineering"
   },
   {
@@ -3495,8 +4103,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.5,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.5,
     "href": "/projects/delta-elektronika-power-systems"
   },
   {
@@ -3531,9 +4146,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.5,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.5,
     "href": "/projects/delta-elektronika-power-systems?area=infrastructure-operations"
   },
   {
@@ -3568,9 +4189,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.5,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.5,
     "href": "/projects/delta-elektronika-power-systems?area=physical-technical-engineering"
   },
   {
@@ -3594,8 +4221,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/fbc-london-shopping-with-grant"
   },
   {
@@ -3620,9 +4254,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/fbc-london-shopping-with-grant?area=media-asset-systems"
   },
   {
@@ -3658,8 +4298,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.98,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.98,
     "href": "/projects/five9-customer-story-systems"
   },
   {
@@ -3692,9 +4339,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/five9-customer-story-systems?area=system-product-definition"
   },
   {
@@ -3727,9 +4380,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/five9-customer-story-systems?area=infrastructure-operations"
   },
   {
@@ -3754,8 +4413,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/gouldbourne-management"
   },
   {
@@ -3781,9 +4447,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/gouldbourne-management?area=system-product-definition"
   },
   {
@@ -3809,9 +4481,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/gouldbourne-management?area=software-web-engineering"
   },
   {
@@ -3837,25 +4515,39 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/gouldbourne-management?area=infrastructure-operations"
   },
   {
     "projectSlug": "house-of-gold",
     "projectName": "House of Gold",
-    "contributionTitle": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+    "contributionTitle": "Immersive web experience and interaction engineering · Runtime user-state and exploration systems · Content and museum information architecture · Media presentation and asset systems",
+    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
     "relevantWorkSlugs": [
-      "house-of-gold-system-development"
+      "house-of-gold-system-development",
+      "house-of-gold-runtime-state-systems",
+      "house-of-gold-content-architecture",
+      "house-of-gold-media-presentation"
     ],
     "leadHatSlugs": [
+      "web-design-engineer",
       "data-modeler",
-      "media-engineer",
-      "web-design-engineer"
+      "systems-engineer",
+      "meaning-architect"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "narrative-systems-thinker",
+      "media-engineer",
+      "visual-language-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
       "src": "/images/projects/house_of_gold/house-of-gold-website.webp",
@@ -3864,89 +4556,8 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
-        "alt": "Interface evidence from the House of Gold digital experience.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
-        "alt": "Interface evidence from the House of Gold digital experience.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "Canonical project overview"
-    ],
-    "href": "/projects/house-of-gold"
-  },
-  {
-    "projectSlug": "house-of-gold",
-    "lensId": "software-web-engineering",
-    "projectName": "House of Gold",
-    "contributionTitle": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
-    "relevantWorkSlugs": [
-      "house-of-gold-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "media-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
-      "src": "/images/projects/house_of_gold/house-of-gold-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for House of Gold.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
-        "alt": "Interface evidence from the House of Gold digital experience.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
-        "alt": "Interface evidence from the House of Gold digital experience.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
-    ],
-    "href": "/projects/house-of-gold?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "house-of-gold",
-    "lensId": "infrastructure-operations",
-    "projectName": "House of Gold",
-    "contributionTitle": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
-    "relevantWorkSlugs": [
-      "house-of-gold-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "media-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-      "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
-      "alt": "Interface evidence from the House of Gold digital experience.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
         "alt": "Interface evidence from the House of Gold digital experience.",
         "evidenceType": "image"
       },
@@ -3958,26 +4569,86 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "4 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "href": "/projects/house-of-gold?area=infrastructure-operations"
+    "relevanceScore": 93.29,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 93.29,
+    "href": "/projects/house-of-gold"
+  },
+  {
+    "projectSlug": "house-of-gold",
+    "lensId": "system-product-definition",
+    "projectName": "House of Gold",
+    "contributionTitle": "Runtime user-state and exploration systems · Content and museum information architecture",
+    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "relevantWorkSlugs": [
+      "house-of-gold-runtime-state-systems",
+      "house-of-gold-content-architecture"
+    ],
+    "leadHatSlugs": [
+      "data-modeler",
+      "systems-engineer",
+      "meaning-architect",
+      "narrative-systems-thinker"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+      "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+      "alt": "Interface evidence from the House of Gold digital experience.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/interactiion-adaptive-menu.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 87.02,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 87.02,
+    "href": "/projects/house-of-gold?area=system-product-definition"
   },
   {
     "projectSlug": "house-of-gold",
     "lensId": "brand-experience-systems",
     "projectName": "House of Gold",
-    "contributionTitle": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+    "contributionTitle": "Immersive web experience and interaction engineering · Content and museum information architecture · Media presentation and asset systems",
+    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
     "relevantWorkSlugs": [
-      "house-of-gold-system-development"
+      "house-of-gold-system-development",
+      "house-of-gold-content-architecture",
+      "house-of-gold-media-presentation"
     ],
     "leadHatSlugs": [
-      "data-modeler",
-      "media-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "meaning-architect",
+      "narrative-systems-thinker",
+      "media-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "visual-language-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
       "src": "/images/projects/house_of_gold/house-of-gold-website.webp",
@@ -3986,37 +4657,45 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
         "alt": "Interface evidence from the House of Gold digital experience.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
         "alt": "Interface evidence from the House of Gold digital experience.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 92.47,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 92.47,
     "href": "/projects/house-of-gold?area=brand-experience-systems"
   },
   {
     "projectSlug": "house-of-gold",
     "lensId": "media-asset-systems",
     "projectName": "House of Gold",
-    "contributionTitle": "House of Gold system development",
-    "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
+    "contributionTitle": "Content and museum information architecture · Media presentation and asset systems",
+    "summary": "A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
     "relevantWorkSlugs": [
-      "house-of-gold-system-development"
+      "house-of-gold-content-architecture",
+      "house-of-gold-media-presentation"
     ],
     "leadHatSlugs": [
-      "data-modeler",
+      "meaning-architect",
+      "narrative-systems-thinker",
       "media-engineer",
-      "web-design-engineer"
+      "visual-language-engineer"
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
@@ -4027,23 +4706,123 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
         "alt": "Interface evidence from the House of Gold digital experience.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
         "alt": "Interface evidence from the House of Gold digital experience.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 87.02,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 87.02,
     "href": "/projects/house-of-gold?area=media-asset-systems"
+  },
+  {
+    "projectSlug": "house-of-gold",
+    "lensId": "software-web-engineering",
+    "projectName": "House of Gold",
+    "contributionTitle": "Immersive web experience and interaction engineering · Runtime user-state and exploration systems",
+    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
+    "relevantWorkSlugs": [
+      "house-of-gold-system-development",
+      "house-of-gold-runtime-state-systems"
+    ],
+    "leadHatSlugs": [
+      "web-design-engineer",
+      "data-modeler",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+      "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
+      "alt": "Interface evidence from the House of Gold digital experience.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone2.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 86.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 86.48,
+    "href": "/projects/house-of-gold?area=software-web-engineering"
+  },
+  {
+    "projectSlug": "house-of-gold",
+    "lensId": "infrastructure-operations",
+    "projectName": "House of Gold",
+    "contributionTitle": "Runtime user-state and exploration systems",
+    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "relevantWorkSlugs": [
+      "house-of-gold-runtime-state-systems"
+    ],
+    "leadHatSlugs": [
+      "data-modeler",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
+      "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/interactiion-adaptive-menu.webp",
+      "alt": "Interface evidence from the House of Gold digital experience.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
+        "src": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
+        "alt": "Interface evidence from the House of Gold digital experience.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 8 relevant evidence records",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 78.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 78.83,
+    "href": "/projects/house-of-gold?area=infrastructure-operations"
   },
   {
     "projectSlug": "houston-texans-london-game",
@@ -4067,8 +4846,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/houston-texans-london-game"
   },
   {
@@ -4094,9 +4880,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/houston-texans-london-game?area=physical-technical-engineering"
   },
   {
@@ -4121,8 +4913,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold"
   },
   {
@@ -4148,9 +4947,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold?area=system-product-definition"
   },
   {
@@ -4176,9 +4981,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold?area=software-web-engineering"
   },
   {
@@ -4204,9 +5015,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold?area=infrastructure-operations"
   },
   {
@@ -4232,9 +5049,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold?area=brand-experience-systems"
   },
   {
@@ -4260,9 +5083,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/imikegold?area=media-asset-systems"
   },
   {
@@ -4287,8 +5116,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/just-enterprises"
   },
   {
@@ -4314,9 +5150,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/just-enterprises?area=system-product-definition"
   },
   {
@@ -4342,9 +5184,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/just-enterprises?area=software-web-engineering"
   },
   {
@@ -4370,9 +5218,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/just-enterprises?area=infrastructure-operations"
   },
   {
@@ -4398,9 +5252,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/just-enterprises?area=brand-experience-systems"
   },
   {
@@ -4436,8 +5296,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.98,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.98,
     "href": "/projects/living-control-media-servers"
   },
   {
@@ -4470,9 +5337,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 71.95,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/living-control-media-servers?area=media-asset-systems"
   },
   {
@@ -4509,9 +5382,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 79.98,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 79.98,
     "href": "/projects/living-control-media-servers?area=physical-technical-engineering"
   },
   {
@@ -4535,8 +5414,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/malaria-hotspot-production"
   },
   {
@@ -4561,9 +5447,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/malaria-hotspot-production?area=system-product-definition"
   },
   {
@@ -4587,8 +5479,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/mars-delight-kung-fu"
   },
   {
@@ -4613,9 +5512,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/mars-delight-kung-fu?area=system-product-definition"
   },
   {
@@ -4640,9 +5545,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/mars-delight-kung-fu?area=media-asset-systems"
   },
   {
@@ -4667,8 +5578,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/multiplied-intelligence"
   },
   {
@@ -4694,9 +5612,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/multiplied-intelligence?area=system-product-definition"
   },
   {
@@ -4722,9 +5646,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/multiplied-intelligence?area=software-web-engineering"
   },
   {
@@ -4750,9 +5680,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/multiplied-intelligence?area=infrastructure-operations"
   },
   {
@@ -4778,9 +5714,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/multiplied-intelligence?area=brand-experience-systems"
   },
   {
@@ -4805,8 +5747,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/playstation-croatia-ps5-sound-tour"
   },
   {
@@ -4832,9 +5781,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/playstation-croatia-ps5-sound-tour?area=media-asset-systems"
   },
   {
@@ -4860,9 +5815,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/playstation-croatia-ps5-sound-tour?area=physical-technical-engineering"
   },
   {
@@ -4886,8 +5847,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/rockett-home-rentals-company-film"
   },
   {
@@ -4912,9 +5880,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/rockett-home-rentals-company-film?area=media-asset-systems"
   },
   {
@@ -4939,9 +5913,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/rockett-home-rentals-company-film?area=physical-technical-engineering"
   },
   {
@@ -4966,8 +5946,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/stanhope-seta-flash-point-testing"
   },
   {
@@ -4993,9 +5980,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/stanhope-seta-flash-point-testing?area=physical-technical-engineering"
   },
   {
@@ -5020,8 +6013,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-frisbys-you-are"
   },
   {
@@ -5047,9 +6047,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-frisbys-you-are?area=media-asset-systems"
   },
   {
@@ -5075,9 +6081,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-frisbys-you-are?area=physical-technical-engineering"
   },
   {
@@ -5102,8 +6114,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-visionary-guide"
   },
   {
@@ -5129,9 +6148,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-visionary-guide?area=system-product-definition"
   },
   {
@@ -5157,9 +6182,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/the-visionary-guide?area=software-web-engineering"
   },
   {
@@ -5177,8 +6208,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 52.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 52.83,
     "href": "/projects/viisiioiiv"
   },
   {
@@ -5197,9 +6235,15 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "No usable visual evidence is registered"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 52.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 52.83,
     "href": "/projects/viisiioiiv?area=brand-experience-systems"
   },
   {
@@ -5237,8 +6281,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/waffll"
   },
   {
@@ -5277,9 +6328,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/waffll?area=system-product-definition"
   },
   {
@@ -5318,9 +6375,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/waffll?area=brand-experience-systems"
   },
   {
@@ -5359,9 +6422,15 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 73.86,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/waffll?area=media-asset-systems"
   },
   {
@@ -5386,8 +6455,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/wibc"
   },
   {
@@ -5413,9 +6489,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/wibc?area=brand-experience-systems"
   },
   {
@@ -5441,9 +6523,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 69.46,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 69.46,
     "href": "/projects/wibc?area=software-web-engineering"
   },
   {
@@ -5468,8 +6556,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "Canonical project overview"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.85,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 75.85,
     "href": "/projects/zenthapy"
   },
   {
@@ -5495,9 +6590,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "2 contributions directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 75.85,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 75.85,
     "href": "/projects/zenthapy?area=brand-experience-systems"
   },
   {
@@ -5522,9 +6623,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 contribution directly connected to this lens",
-      "Lead visual selected by semantic evidence fit"
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 68.83,
     "href": "/projects/zenthapy?area=system-product-definition"
   }
 ] as PublicWorkCardProjection[];

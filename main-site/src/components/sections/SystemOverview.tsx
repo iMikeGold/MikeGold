@@ -1,6 +1,6 @@
 export default function QuickOverview() {
   return (
-    <section style={{ padding: "60px 40px" }}>
+    <section className="system-overview">
 
       <h2>SYSTEM OVERVIEW</h2>
 

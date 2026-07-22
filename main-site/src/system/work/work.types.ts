@@ -70,5 +70,10 @@ export interface PublicWorkCardProjection {
   primaryVisual?: { evidenceSlug: string; src: string; alt: string; evidenceType: import("@/system/evidence/evidence.types").EvidenceType };
   supportingVisuals: Array<{ evidenceSlug: string; src: string; alt: string; evidenceType: import("@/system/evidence/evidence.types").EvidenceType }>;
   relevanceReasons: string[];
+  relevanceScore: number;
+  editorialBoost: number;
+  evidenceCompletenessScore: number;
+  editorialSequence?: number;
+  finalScore: number;
   href: string;
 }

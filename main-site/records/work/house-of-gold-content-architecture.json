@@ -1,0 +1,15 @@
+{
+  "id": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "projectId": "f49cc0ce-90be-4627-823d-16b69f33d1da",
+  "slug": "house-of-gold-content-architecture",
+  "title": "Content and museum information architecture",
+  "summary": "A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
+  "status": "documented",
+  "visibility": "public",
+  "sequence": 3,
+  "capabilityGroupIds": ["system-product-definition", "brand-experience-systems", "media-asset-systems"]
+}

@@ -1280,11 +1280,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-east-wing-transitioning-interaction-scene",
-    "title": "House of Gold — interface study 01",
+    "title": "House of Gold — East Wing transition",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 1,
+    "sequence": 6,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/east-wing-transitioning-interaction-scene.webp",
     "presentation": {
       "facets": [
@@ -1304,11 +1304,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-    "title": "House of Gold — interface study 02",
+    "title": "House of Gold — interactive charter",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 2,
+    "sequence": 4,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-charter-fully-interactive-zone.webp",
     "presentation": {
       "facets": [
@@ -1328,11 +1328,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-grandhall",
-    "title": "House of Gold — interface study 03",
+    "title": "House of Gold — entrance hall and grand hall",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 3,
+    "sequence": 2,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-grandhall.webp",
     "presentation": {
       "facets": [
@@ -1352,11 +1352,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone1",
-    "title": "House of Gold — interface study 04",
+    "title": "House of Gold — first entrance interaction",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 4,
+    "sequence": 1,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone1.webp",
     "presentation": {
       "facets": [
@@ -1376,11 +1376,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-entrance-interaction-zone2",
-    "title": "House of Gold — interface study 05",
+    "title": "House of Gold — second entrance interaction",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 5,
+    "sequence": 3,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-entrance-interaction-zone2.webp",
     "presentation": {
       "facets": [
@@ -1400,11 +1400,11 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-sidedoor-interaction-zone",
-    "title": "House of Gold — interface study 06",
+    "title": "House of Gold — side-door interaction",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",
-    "sequence": 6,
+    "sequence": 5,
     "assetPath": "/images/projects/house_of_gold/runtime-user-save-state-interactive-web-exploration-discovery-game/house-sidedoor-interaction-zone.webp",
     "presentation": {
       "facets": [
@@ -1424,7 +1424,7 @@ export const publicEvidence = [
   },
   {
     "slug": "house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
-    "title": "House of Gold — interface study 07",
+    "title": "House of Gold — adaptive navigation menu",
     "description": "Interface evidence from the House of Gold digital experience.",
     "evidenceType": "image",
     "role": "interface",

@@ -122,6 +122,7 @@ const publicProjects = projects
             : `${record.workStarted}–present`,
         }
       : {}),
+    ...(record.lensPresentationPreferences?.length ? { lensPresentationPreferences: record.lensPresentationPreferences } : {}),
   }))
   .sort(
     (left, right) =>
@@ -240,6 +241,24 @@ for (const project of publicProjects) {
     const visuals = candidates.slice(0, 3).map(({ record }) => ({ evidenceSlug: record.slug, src: record.assetPath ?? record.thumbnailUrl, alt: record.description ?? record.title, evidenceType: record.evidenceType }));
     const leadHatSlugs = [...new Set(orderedWork.flatMap((item) => item.appliedHatSlugs))];
     const summary = (lensId && orderedWork.find((item) => item.lensSummaries?.[lensId])?.lensSummaries?.[lensId]) ?? orderedWork[0]?.summary ?? project.summary;
+    const contributionScore = Math.min(62, 38 + Math.log2(orderedWork.length + 1) * 12);
+    const directlySupportedEvidence = allLinks.filter((link) => !lensId || link.supportedLensIds?.includes(lensId)).length;
+    const evidenceCompleteness = Math.min(16, Math.sqrt(candidates.length) * 6) + (visuals[0] ? 10 : 0);
+    const documentationDepth = Math.min(10, orderedWork.reduce((total, item) => total + (item.stages?.length ?? 0) * 2 + Number(Boolean(item.lensSummaries?.[lensId])), 0));
+    const capabilityDistinctiveness = Math.min(8, Math.sqrt(leadHatSlugs.length) * 2);
+    const directLensSupport = lensId && directlySupportedEvidence ? 8 : 0;
+    const relevanceScore = Math.round((contributionScore + evidenceCompleteness + documentationDepth + capabilityDistinctiveness + directLensSupport) * 100) / 100;
+    const preference = lensId ? project.lensPresentationPreferences?.find((item) => item.lensId === lensId) : undefined;
+    const editorialBoost = Math.max(-10, Math.min(10, preference?.editorialBoost ?? 0));
+    const finalScore = relevanceScore + editorialBoost + (preference?.showcase ? 3 : 0);
+    const relevanceReasons = [
+      `${orderedWork.length} directly relevant contribution${orderedWork.length === 1 ? "" : "s"} with diminishing breadth weighting`,
+      visuals[0] ? `Contextual lead visual selected from ${candidates.length} relevant evidence record${candidates.length === 1 ? "" : "s"}` : "No usable contextual lead visual is registered",
+      documentationDepth ? "Documented stages or contextual summaries strengthen the projection" : "Contribution documentation is concise",
+      `${leadHatSlugs.length} evidenced capabilities contribute a capped distinctiveness signal`,
+      ...(directLensSupport ? ["Evidence is explicitly connected to the selected lens"] : []),
+      ...(preference?.reason ? [`Editorial preference: ${preference.reason}`] : []),
+    ];
     publicWorkCards.push({
       projectSlug: project.slug,
       ...(lensId ? { lensId } : {}),
@@ -249,7 +268,12 @@ for (const project of publicProjects) {
       relevantWorkSlugs: orderedWork.map((item) => item.slug),
       leadHatSlugs: leadHatSlugs.slice(0, 4), supportingHatSlugs: leadHatSlugs.slice(4),
       ...(visuals[0] ? { primaryVisual: visuals[0] } : {}), supportingVisuals: visuals.slice(1),
-      relevanceReasons: lensId ? [`${orderedWork.length} contribution${orderedWork.length === 1 ? "" : "s"} directly connected to this lens`, visuals[0] ? "Lead visual selected by semantic evidence fit" : "No usable visual evidence is registered"] : ["Canonical project overview"],
+      relevanceReasons,
+      relevanceScore,
+      editorialBoost,
+      evidenceCompletenessScore: Math.round(evidenceCompleteness * 100) / 100,
+      ...(Number.isFinite(preference?.editorialSequence) ? { editorialSequence: preference.editorialSequence } : {}),
+      finalScore,
       href: lensId ? `/projects/${project.slug}?area=${lensId}` : `/projects/${project.slug}`,
     });
   }

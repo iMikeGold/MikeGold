@@ -1,0 +1,7 @@
+{
+  "id": "936a0719-d7b0-46fe-a0cf-4fd54a81c789", "recordType": "relationship", "schemaVersion": 1,
+  "createdAt": "2026-07-22T00:00:00.000Z", "updatedAt": "2026-07-22T00:00:00.000Z",
+  "slug": "narrative-systems-thinker-applied-in-house-of-gold-content-architecture",
+  "sourceId": "97d1abf2-f08d-42ab-89c3-a9dd90070134", "sourceType": "hat", "relationshipType": "applied-in",
+  "targetId": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea", "targetType": "work", "role": "primary"
+}

@@ -873,7 +873,7 @@ export const internalRelationshipRecords = [
     "sourceId": "1c717927-9062-4833-b361-21f11d8953db",
     "sourceType": "hat",
     "relationshipType": "applied-in",
-    "targetId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "targetId": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
     "targetType": "work",
     "role": "primary"
   },
@@ -1646,7 +1646,7 @@ export const internalRelationshipRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-documentation-pending",
-    "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "sourceId": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
     "sourceType": "work",
     "relationshipType": "evidenced-by",
     "targetId": "23af8f89-fc57-476f-b696-226b2cde337a",
@@ -1659,7 +1659,7 @@ export const internalRelationshipRecords = [
     "createdAt": "2026-07-21T12:43:28.870Z",
     "updatedAt": "2026-07-21T13:09:49.165Z",
     "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-house-of-gold-website",
-    "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "sourceId": "2c9a13f2-a3a9-4553-8dc0-3050289124af",
     "sourceType": "work",
     "relationshipType": "evidenced-by",
     "targetId": "9ea4a478-4c5e-412d-8782-2373d6330908",
@@ -1685,7 +1685,7 @@ export const internalRelationshipRecords = [
     "createdAt": "2026-07-21T18:40:51.823Z",
     "updatedAt": "2026-07-21T18:40:51.823Z",
     "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-house-charter-fully-interactive-zone",
-    "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "sourceId": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea",
     "sourceType": "work",
     "relationshipType": "evidenced-by",
     "targetId": "95d154f3-43d6-4607-a5e1-6fc6fa1fb8b0",
@@ -1750,7 +1750,7 @@ export const internalRelationshipRecords = [
     "createdAt": "2026-07-21T18:40:51.823Z",
     "updatedAt": "2026-07-21T18:40:51.823Z",
     "slug": "house-of-gold-system-development-evidenced-by-house-of-gold-house-of-gold-runtime-user-save-state-interactive-web-exploration-discovery-game-interactiion-adaptive-menu",
-    "sourceId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "sourceId": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
     "sourceType": "work",
     "relationshipType": "evidenced-by",
     "targetId": "a6f62af2-b718-4fb6-9d87-93d42d61e110",
@@ -2165,6 +2165,20 @@ export const internalRelationshipRecords = [
     "role": "primary"
   },
   {
+    "id": "cd5911ed-db83-4be6-997a-2d6e1e72e9d0",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "slug": "meaning-architect-applied-in-house-of-gold-content-architecture",
+    "sourceId": "b9a05ea5-2ab8-47c9-bd83-0a61fc2d7f0c",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea",
+    "targetType": "work",
+    "role": "supporting"
+  },
+  {
     "id": "030ace9e-ccf5-4051-917a-84c8483ba171",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -2174,7 +2188,7 @@ export const internalRelationshipRecords = [
     "sourceId": "4c90ba39-1520-4b75-bb03-ee178f9b093c",
     "sourceType": "hat",
     "relationshipType": "applied-in",
-    "targetId": "e273b215-f6c5-4b04-940f-78d4ef290db4",
+    "targetId": "2c9a13f2-a3a9-4553-8dc0-3050289124af",
     "targetType": "work",
     "role": "primary"
   },
@@ -2829,6 +2843,20 @@ export const internalRelationshipRecords = [
     "targetType": "evidence"
   },
   {
+    "id": "936a0719-d7b0-46fe-a0cf-4fd54a81c789",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "slug": "narrative-systems-thinker-applied-in-house-of-gold-content-architecture",
+    "sourceId": "97d1abf2-f08d-42ab-89c3-a9dd90070134",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "b0e42cd2-8b65-42b4-bd6d-95a1a97a99ea",
+    "targetType": "work",
+    "role": "primary"
+  },
+  {
     "id": "a33cc74d-ae15-4ef2-80d1-cb71346de019",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3339,6 +3367,20 @@ export const internalRelationshipRecords = [
     "role": "primary"
   },
   {
+    "id": "2eb0318c-9c05-4fd0-b773-dba9d856dce7",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "slug": "systems-engineer-applied-in-house-of-gold-runtime-state-systems",
+    "sourceId": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "b05ee43d-61a8-4855-9325-6e8975cc9ec6",
+    "targetType": "work",
+    "role": "primary"
+  },
+  {
     "id": "f2f01f40-ced5-4829-822e-f8a35d96c762",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3554,6 +3596,20 @@ export const internalRelationshipRecords = [
     "relationshipType": "evidenced-by",
     "targetId": "ed67a092-106c-4eb2-ae29-4a479bc6d1b1",
     "targetType": "evidence"
+  },
+  {
+    "id": "fadbdd84-2547-4029-87cb-e04407a87c59",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "updatedAt": "2026-07-22T00:00:00.000Z",
+    "slug": "visual-language-engineer-applied-in-house-of-gold-media-presentation",
+    "sourceId": "54eb7815-102a-4c23-aaee-7c5b812b5915",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "2c9a13f2-a3a9-4553-8dc0-3050289124af",
+    "targetType": "work",
+    "role": "primary"
   },
   {
     "id": "f1d5a8eb-3739-469c-9678-d874ad067724",

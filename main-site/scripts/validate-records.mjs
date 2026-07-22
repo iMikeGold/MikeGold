@@ -117,6 +117,18 @@ for (const entry of collections.work) {
   }
 }
 
+for (const entry of collections.project) {
+  for (const preference of entry.value.lensPresentationPreferences ?? []) {
+    if (!allowedCapabilityGroups.has(preference.lensId)) errors.push(`${entry.file} has unknown lens presentation preference ${preference.lensId}.`);
+    if (preference.editorialBoost != null && (!Number.isFinite(preference.editorialBoost) || preference.editorialBoost < -10 || preference.editorialBoost > 10)) {
+      errors.push(`${entry.file} editorialBoost must be between -10 and 10.`);
+    }
+    if (preference.editorialSequence != null && (!Number.isInteger(preference.editorialSequence) || preference.editorialSequence < 0)) {
+      errors.push(`${entry.file} editorialSequence must be a non-negative integer.`);
+    }
+  }
+}
+
 for (const entry of collections.evidence) {
   if (entry.value.role && !allowedEvidenceRoles.has(entry.value.role)) {
     errors.push(`${entry.file} has unknown evidence role ${entry.value.role}.`);

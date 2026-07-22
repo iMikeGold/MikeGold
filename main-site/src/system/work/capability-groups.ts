@@ -37,9 +37,9 @@ export const CAPABILITY_GROUPS = [
   {
     id: "media-asset-systems",
     code: "06",
-    name: "Media and Asset Systems",
+    name: "Media Production and Distribution",
     summary:
-      "Media engineering, digital assets, product visualisation, processing, production and distribution.",
+      "Audio, video, recording, broadcast, publishing workflows and media delivery.",
   },
 ] as const;
 

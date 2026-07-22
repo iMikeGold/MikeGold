@@ -181,11 +181,6 @@ export default function HatRegistry() {
   };
 
   const handleSelectRelated = (hat: Hat) => {
-    setFlippedTiles(() => {
-      const next: Record<string, boolean> = {};
-      delete next[hat.id];
-      return next;
-    });
     setActiveHat(hat);
     setSelectedHats(prev => prev.some(h => h.id === hat.id) ? prev : [...prev, hat]);
   };
@@ -329,7 +324,7 @@ export default function HatRegistry() {
                             onTouchEnd={() => interaction.touchEnd()}
                             onClick={() =>
                               interaction.click(
-                                () => setFlippedTiles(prev => ({ [hat.id]: !prev[hat.id] })),
+                                () => setFlippedTiles(prev => ({ ...prev, [hat.id]: !prev[hat.id] })),
                                 () => toggleSelectHat(hat)
                               )
                             }
@@ -485,7 +480,7 @@ export default function HatRegistry() {
               selectedHats={selectedHats}
               relatedHats={relatedHats}
               onSelectHat={handleSelectRelated}
-              onClose={() => { setActiveHat(null); setFlippedTiles({}); }}
+              onClose={() => setActiveHat(null)}
               drawerWidth={drawerWidth}
               POLYGON_SIZE={POLYGON_SIZE}
             />
