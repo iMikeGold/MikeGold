@@ -48,7 +48,7 @@ export default function RootLayout({
               }}
             >
               <img
-                src="/images/mikegold-engineer-festival.jpg"
+                src="/images/pfp/mikegold-engineer-festival.webp"
                 alt="Profile"
                 style={{
                   width: "100%",
