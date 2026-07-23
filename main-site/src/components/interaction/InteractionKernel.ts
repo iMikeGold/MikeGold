@@ -63,9 +63,10 @@ export function useInteractionKernel(
     clear();
   };
 
-  const click = (_toggleFlip: () => void, toggleSelect: () => void) => {
+  const click = (toggleFlip: () => void, toggleSelect: () => void) => {
     clear();
     requestAnimationFrame(() => {
+      toggleFlip();
       toggleSelect();
     });
   };

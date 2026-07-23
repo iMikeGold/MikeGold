@@ -26,6 +26,8 @@ const errors = [];
 const warnings = [];
 const lensPriorityCalibrationPath = join(recordsRoot, "editorial", "lens-priority-calibration.json");
 const lensPriorityCalibration = JSON.parse(readFileSync(lensPriorityCalibrationPath, "utf8"));
+const presentationMediaPath = join(recordsRoot, "presentation", "project-media.json");
+const presentationMedia = JSON.parse(readFileSync(presentationMediaPath, "utf8"));
 
 function jsonRecords(directory) {
   const path = join(recordsRoot, directory);
@@ -94,6 +96,14 @@ const allById = new Map(
     .map((entry) => [entry.value.id, entry]),
 );
 const projectSlugs = new Set(collections.project.map((entry) => entry.value.slug));
+for (const item of presentationMedia) {
+  if (!item.assetPath || !item.label) errors.push("Every presentation-media item requires an assetPath and label.");
+  if (item.projectSlug && !projectSlugs.has(item.projectSlug)) {
+    errors.push(`Presentation media references missing Project ${item.projectSlug}.`);
+  }
+  const asset = join(projectRoot, "public", (item.assetPath ?? "").replace(/^\//, ""));
+  if (!existsSync(asset)) errors.push(`Presentation media references missing asset ${item.assetPath}.`);
+}
 for (const [lensId, slugs] of Object.entries(lensPriorityCalibration)) {
   if (!allowedCapabilityGroups.has(lensId)) errors.push(`Editorial order has unknown lens ${lensId}.`);
   if (!Array.isArray(slugs)) {
@@ -214,7 +224,10 @@ if (existsSync(outDirectory)) {
   }
 }
 
-const registeredAssets = new Map(collections.evidence.flatMap((entry) => entry.value.assetPath ? [[entry.value.assetPath, entry.file]] : []));
+const registeredAssets = new Map([
+  ...collections.evidence.flatMap((entry) => entry.value.assetPath ? [[entry.value.assetPath, entry.file]] : []),
+  ...presentationMedia.map((item) => [item.assetPath, "records/presentation/project-media.json"]),
+]);
 const publicProjectAssetRoot = join(projectRoot, "public", "images", "projects");
 const discoveredAssets = outputFiles(publicProjectAssetRoot)
   .filter((path) => !path.endsWith(".DS_Store"))

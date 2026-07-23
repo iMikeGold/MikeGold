@@ -3619,7 +3619,7 @@ export const publicWorkCards = [
     "relevanceScore": 69.46,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 9,
+    "editorialSequence": 10,
     "finalScore": 32.364999999999995,
     "href": "/projects/bristow-operational-excellence?area=physical-technical-engineering"
   },
@@ -3894,10 +3894,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 3,
+    "editorialBoost": 2,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 8,
-    "finalScore": 38.364999999999995,
+    "editorialSequence": 9,
+    "finalScore": 32.364999999999995,
     "href": "/projects/delmatic-connected-lighting?area=physical-technical-engineering"
   },
   {
@@ -4095,10 +4095,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 9,
+    "editorialBoost": 8,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 2,
-    "finalScore": 74.365,
+    "editorialSequence": 3,
+    "finalScore": 68.365,
     "href": "/projects/crystal-palace-overground-festival?area=physical-technical-engineering"
   },
   {
@@ -4227,10 +4227,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 79.5,
-    "editorialBoost": 5,
+    "editorialBoost": 4,
     "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 6,
-    "finalScore": 52.875,
+    "editorialSequence": 7,
+    "finalScore": 46.875,
     "href": "/projects/delta-elektronika-power-systems?area=physical-technical-engineering"
   },
   {
@@ -5436,10 +5436,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 79.98,
-    "editorialBoost": 7,
+    "editorialBoost": 6,
     "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 4,
-    "finalScore": 64.995,
+    "editorialSequence": 5,
+    "finalScore": 58.995000000000005,
     "href": "/projects/living-control-media-servers?area=physical-technical-engineering"
   },
   {
@@ -5775,6 +5775,135 @@ export const publicWorkCards = [
     "href": "/projects/multiplied-intelligence?area=brand-experience-systems"
   },
   {
+    "projectSlug": "philadelphia-eagles-nfl-wembley",
+    "projectName": "Philadelphia Eagles — NFL Wembley",
+    "contributionTitle": "Field communications and broadcast-audio systems",
+    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "relevantWorkSlugs": [
+      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+    ],
+    "leadHatSlugs": [
+      "media-distribution-engineer",
+      "network-engineer",
+      "reliability-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
+      "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+      "alt": "Supporting game footage documenting the live environment and broadcast context.",
+      "evidenceType": "video"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+        "src": "https://i.ytimg.com/vi/RFw8Ypxp2zQ/hqdefault.jpg",
+        "alt": "Supporting footage documenting the broadcast output and match-day operating environment.",
+        "evidenceType": "video"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 72.49,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 18.1225,
+    "href": "/projects/philadelphia-eagles-nfl-wembley"
+  },
+  {
+    "projectSlug": "philadelphia-eagles-nfl-wembley",
+    "lensId": "physical-technical-engineering",
+    "projectName": "Philadelphia Eagles — NFL Wembley",
+    "contributionTitle": "Field communications and broadcast-audio systems",
+    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "relevantWorkSlugs": [
+      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+    ],
+    "leadHatSlugs": [
+      "media-distribution-engineer",
+      "network-engineer",
+      "reliability-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
+      "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+      "alt": "Supporting game footage documenting the live environment and broadcast context.",
+      "evidenceType": "video"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+        "src": "https://i.ytimg.com/vi/RFw8Ypxp2zQ/hqdefault.jpg",
+        "alt": "Supporting footage documenting the broadcast output and match-day operating environment.",
+        "evidenceType": "video"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80.49,
+    "editorialBoost": 9,
+    "evidenceCompletenessScore": 18.49,
+    "editorialSequence": 2,
+    "finalScore": 77.1225,
+    "href": "/projects/philadelphia-eagles-nfl-wembley?area=physical-technical-engineering"
+  },
+  {
+    "projectSlug": "philadelphia-eagles-nfl-wembley",
+    "lensId": "media-asset-systems",
+    "projectName": "Philadelphia Eagles — NFL Wembley",
+    "contributionTitle": "Field communications and broadcast-audio systems",
+    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "relevantWorkSlugs": [
+      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+    ],
+    "leadHatSlugs": [
+      "media-distribution-engineer",
+      "network-engineer",
+      "reliability-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
+      "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+      "alt": "Supporting game footage documenting the live environment and broadcast context.",
+      "evidenceType": "video"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+        "src": "https://i.ytimg.com/vi/RFw8Ypxp2zQ/hqdefault.jpg",
+        "alt": "Supporting footage documenting the broadcast output and match-day operating environment.",
+        "evidenceType": "video"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens"
+    ],
+    "relevanceScore": 80.49,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 20.1225,
+    "href": "/projects/philadelphia-eagles-nfl-wembley?area=media-asset-systems"
+  },
+  {
     "projectSlug": "playstation-croatia-ps5-sound-tour",
     "projectName": "PlayStation — PS5 Sound Tour",
     "contributionTitle": "Sound design and audio systems",
@@ -5871,10 +6000,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 6,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 5,
-    "finalScore": 56.364999999999995,
+    "editorialSequence": 6,
+    "finalScore": 50.364999999999995,
     "href": "/projects/playstation-croatia-ps5-sound-tour?area=physical-technical-engineering"
   },
   {
@@ -6038,10 +6167,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 4,
+    "editorialBoost": 3,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 7,
-    "finalScore": 44.364999999999995,
+    "editorialSequence": 8,
+    "finalScore": 38.364999999999995,
     "href": "/projects/stanhope-seta-flash-point-testing?area=physical-technical-engineering"
   },
   {
@@ -6276,10 +6405,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 8,
+    "editorialBoost": 7,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 3,
-    "finalScore": 68.365,
+    "editorialSequence": 4,
+    "finalScore": 62.364999999999995,
     "href": "/projects/bluedot-festival-the-orb?area=physical-technical-engineering"
   },
   {

@@ -2703,6 +2703,57 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+    "title": "Philadelphia Eagles at Wembley — broadcast coverage",
+    "description": "Supporting footage documenting the broadcast output and match-day operating environment.",
+    "evidenceType": "video",
+    "sequence": 2,
+    "externalUrl": "https://youtu.be/RFw8Ypxp2zQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RFw8Ypxp2zQ/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "live-audio",
+        "broadcast",
+        "video"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Philadelphia Eagles at Wembley",
+    "sourceAuthor": "Philadelphia Eagles",
+    "placeholder": false
+  },
+  {
+    "slug": "philadelphia-eagles-nfl-wembley-game-evidence",
+    "title": "Philadelphia Eagles at Wembley — game coverage",
+    "description": "Supporting game footage documenting the live environment and broadcast context.",
+    "evidenceType": "video",
+    "sequence": 1,
+    "externalUrl": "https://youtu.be/3R-MfF6ysZs",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "live-audio",
+        "broadcast",
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Philadelphia Eagles at Wembley",
+    "sourceAuthor": "Philadelphia Eagles",
+    "placeholder": false
+  },
+  {
     "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
     "title": "Početni zvuk PlayStation 5 konzole | Glazbena turneja po Hrvatskoj | PS5",
     "description": "Supporting video published by PlayStation Hrvatska.",

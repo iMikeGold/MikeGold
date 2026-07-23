@@ -2283,6 +2283,19 @@ export const internalRelationshipRecords = [
     "role": "supporting"
   },
   {
+    "id": "a2e0d935-f4ff-4129-84d7-c131e7c44502",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "46df48d3-ed81-4c4c-bc6a-ce2f28867bda",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "targetType": "work",
+    "role": "supporting"
+  },
+  {
     "id": "030ace9e-ccf5-4051-917a-84c8483ba171",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -2988,6 +3001,19 @@ export const internalRelationshipRecords = [
     "role": "primary"
   },
   {
+    "id": "fc9db40b-ccea-4afe-a27c-e080573dc5a7",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "adc33dc9-6af4-448b-9089-5c49f2f74b46",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "targetType": "work",
+    "role": "primary"
+  },
+  {
     "id": "758e4e08-a53b-438c-ba64-7a0fa4abbe7b",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3025,6 +3051,51 @@ export const internalRelationshipRecords = [
     "relationshipType": "evidenced-by",
     "targetId": "7eea926a-f07b-4c6e-a19a-d807450fe9cb",
     "targetType": "evidence"
+  },
+  {
+    "id": "3025ccf2-deb2-416d-b302-6340c1ce2cf6",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "6d7abecd-134a-4f2e-8eaa-1c23c11e7d55",
+    "targetType": "evidence",
+    "role": "supporting",
+    "supportedLensIds": [
+      "physical-technical-engineering",
+      "media-asset-systems"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "0b1beb68-27b1-46ed-9b85-b95c773d01c1",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+    "targetType": "evidence",
+    "role": "primary",
+    "supportedLensIds": [
+      "physical-technical-engineering",
+      "media-asset-systems"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "supporting",
+      "gallery"
+    ],
+    "priority": 1
   },
   {
     "id": "54b5d0c0-716a-4636-a9fb-780b7e21c301",
@@ -3180,6 +3251,19 @@ export const internalRelationshipRecords = [
     "relationshipType": "evidenced-by",
     "targetId": "c6be76b1-92d2-4c17-9aef-fabcff30358e",
     "targetType": "evidence"
+  },
+  {
+    "id": "ba147450-27a5-4875-8d00-27d16d2ede46",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "e7d9cd00-1f96-452a-96b4-9ea2e08f68ce",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "targetType": "work",
+    "role": "supporting"
   },
   {
     "id": "2dfe8dca-961f-417e-bdef-acf2cb5e8f9d",
@@ -3510,6 +3594,19 @@ export const internalRelationshipRecords = [
     "targetId": "bd3c60a3-2590-4fb9-a5b6-b354a478d554",
     "targetType": "work",
     "role": "primary"
+  },
+  {
+    "id": "9532bcc1-cd26-48eb-b608-1db1f367e22d",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "b51ec8c3-a748-4b91-b36b-a0a19deb76a1",
+    "sourceType": "hat",
+    "relationshipType": "applied-in",
+    "targetId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "targetType": "work",
+    "role": "supporting"
   },
   {
     "id": "ab5c2eb1-1de8-44de-80a3-884ba4df60ff",

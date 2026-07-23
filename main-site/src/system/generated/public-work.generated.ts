@@ -1590,6 +1590,56 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems",
+    "projectSlug": "philadelphia-eagles-nfl-wembley",
+    "title": "Field communications and broadcast-audio systems",
+    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "status": "historical",
+    "capabilityGroupIds": [
+      "physical-technical-engineering",
+      "media-asset-systems"
+    ],
+    "appliedHatSlugs": [
+      "media-distribution-engineer",
+      "network-engineer",
+      "reliability-engineer",
+      "systems-engineer"
+    ],
+    "evidenceSlugs": [
+      "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+      "philadelphia-eagles-nfl-wembley-game-evidence"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+        "role": "supporting",
+        "supportedLensIds": [
+          "physical-technical-engineering",
+          "media-asset-systems"
+        ],
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 2
+      },
+      {
+        "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
+        "role": "primary",
+        "supportedLensIds": [
+          "physical-technical-engineering",
+          "media-asset-systems"
+        ],
+        "displayRoles": [
+          "lens-card",
+          "supporting",
+          "gallery"
+        ],
+        "priority": 1
+      }
+    ]
+  },
+  {
     "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems",
     "projectSlug": "playstation-croatia-ps5-sound-tour",
     "title": "Sound design and audio systems",

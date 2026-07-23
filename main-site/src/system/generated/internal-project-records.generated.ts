@@ -30,6 +30,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2008,
     "context": "2XU"
   },
   {
@@ -72,7 +73,7 @@ export const internalProjectRecords = [
     "status": "active-development",
     "visibility": "public",
     "featured": false,
-    "establishedYear": 2025
+    "establishedYear": 2022
   },
   {
     "id": "0b514046-e1e3-4759-bbaa-05210339cef0",
@@ -114,6 +115,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2007,
     "context": "Bristow Group"
   },
   {
@@ -128,7 +130,7 @@ export const internalProjectRecords = [
     "status": "awaiting-implementation",
     "visibility": "public",
     "featured": true,
-    "establishedYear": 2025
+    "establishedYear": 2016
   },
   {
     "id": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
@@ -156,6 +158,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2019,
     "context": "Croydon Women's Network / Baltar Media"
   },
   {
@@ -170,6 +173,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2018,
     "context": "Crystal Palace Overground Festival"
   },
   {
@@ -184,6 +188,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2013,
     "context": "Lighting control systems"
   },
   {
@@ -198,6 +203,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2007,
     "context": "Delta Elektronika"
   },
   {
@@ -296,6 +302,7 @@ export const internalProjectRecords = [
     "status": "archived",
     "visibility": "public",
     "featured": false,
+    "establishedYear": 2019,
     "context": "Houston Texans"
   },
   {
@@ -455,6 +462,21 @@ export const internalProjectRecords = [
     "establishedYear": 2025
   },
   {
+    "id": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
+    "recordType": "project",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "slug": "philadelphia-eagles-nfl-wembley",
+    "name": "Philadelphia Eagles — NFL Wembley",
+    "summary": "Pitch-side communications and broadcast-audio systems work supporting the Philadelphia Eagles at Wembley.",
+    "status": "archived",
+    "visibility": "public",
+    "featured": false,
+    "establishedYear": 2018,
+    "context": "Philadelphia Eagles / NFL Wembley"
+  },
+  {
     "id": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
     "recordType": "project",
     "schemaVersion": 1,
@@ -564,7 +586,7 @@ export const internalProjectRecords = [
     "status": "active-development",
     "visibility": "public",
     "featured": true,
-    "establishedYear": 2010
+    "establishedYear": 2011
   },
   {
     "id": "45c1af1d-8f12-426e-9578-9fcafb57e6cf",

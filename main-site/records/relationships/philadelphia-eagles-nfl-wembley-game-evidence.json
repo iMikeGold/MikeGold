@@ -1,0 +1,16 @@
+{
+  "id": "0b1beb68-27b1-46ed-9b85-b95c773d01c1",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "sourceId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+  "targetType": "evidence",
+  "role": "primary",
+  "supportedLensIds": ["physical-technical-engineering", "media-asset-systems"],
+  "displayRoles": ["lens-card", "supporting", "gallery"],
+  "priority": 1
+}

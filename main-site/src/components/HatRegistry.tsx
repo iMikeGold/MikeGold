@@ -12,6 +12,7 @@
 // ------------------------------
 import { useMemo, useState, useEffect } from "react";
 import { hats, type Hat } from "../system/registry";
+import { getHatProfile, PROFILE_AXES } from "../system/profile/hat-profile";
 import { findRelatedHatsForSelection, searchHats } from "../system/services/service-engine";
 import { calculateWeight } from "../system/services/weights";
 import HatDrawer from "./HatDrawer";
@@ -64,6 +65,13 @@ function getHouseScore(hatsList: Hat[]): number {
   return total / hatsList.length;
 }
 
+function getHatStats(hat: Hat) {
+  const profile = getHatProfile(hat);
+  return Object.fromEntries(
+    PROFILE_AXES.map((axis, index) => [axis, profile[index] / 10])
+  );
+}
+
 // ------------------------------
 // COMPONENT — WIDTH SYNCED WITH DRAWER
 // ------------------------------
@@ -90,7 +98,7 @@ export default function HatRegistry() {
     design: true,
     engineering: true
   });
-  const flippedTiles: Record<string, boolean> = {};
+  const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
 
   // ------------------------------
   // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
@@ -303,6 +311,8 @@ export default function HatRegistry() {
                       {hatsList.map((hat) => {
                         const isSelected = selectedHats.some(h => h.id === hat.id);
                         const weightScore = calculateWeight(hat);
+                        const stats = getHatStats(hat);
+                        const isFlipped = flippedTiles[hat.id] || false;
                         const overlayText = interaction.getOverlay(hat.id);
 
                         return (
@@ -314,7 +324,10 @@ export default function HatRegistry() {
                             onTouchEnd={() => interaction.touchEnd()}
                             onClick={() =>
                               interaction.click(
-                                () => {},
+                                () => setFlippedTiles((previous) => ({
+                                  ...previous,
+                                  [hat.id]: !previous[hat.id],
+                                })),
                                 () => toggleSelectHat(hat)
                               )
                             }
@@ -326,7 +339,9 @@ export default function HatRegistry() {
                           >
                             <div style={{
                               width:"100%", height:"100%", position:"relative",
-                              transformOrigin:"center",
+                              transformStyle:"preserve-3d", transformOrigin:"center",
+                              transition:"transform 0.42s cubic-bezier(0.4,0,0.2,1)",
+                              transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
                               boxShadow: isSelected ? "0 0 10px #2563eb, inset 0 0 15px rgba(37,99,235,0.4)" : "none",
                               backgroundImage: isSelected ? "linear-gradient(90deg, #2563eb33, #3b82f655, #2563eb33)" : "none",
                               backgroundSize:"200% 100%", backgroundPosition:"0% 0%",
@@ -357,21 +372,56 @@ export default function HatRegistry() {
                                 </div>
                               </div>
 
-                              {/* OVERLAY */}
-                              {overlayText && (
-                                <div style={{
-                                  position:"absolute", inset:0,
-                                  background:"rgba(0,0,0,0.88)", border:"1px solid #666",
-                                  borderRadius:6, zIndex:5, fontSize:9,
-                                  display:"flex", alignItems:"center", justifyContent:"center",
-                                  textAlign:"center", padding:3,
-                                  overflow:"hidden",
-                                  whiteSpace:"normal", width:"100%", height:"100%"
+                              {/* BACK FACE */}
+                              <div style={{
+                                position:"absolute", inset:0,
+                                background:"#1a1a1a",
+                                border: isSelected ? "1px solid #2563eb" : "1px solid #444",
+                                borderRadius:6, padding:4,
+                                backfaceVisibility:"hidden", transform:"rotateY(180deg)",
+                                display:"flex", flexDirection:"column",
+                                justifyContent:"space-around", alignItems:"center",
+                                textAlign:"center", zIndex:1,
+                                width:"100%", height:"100%", overflow:"hidden"
+                              }}>
+                                {Object.entries(stats).map(([key, value]) => (
+                                  <div key={key} style={{ width:"88%", minWidth:0 }}>
+                                    <div style={{
+                                      fontSize:6, opacity:0.68, marginBottom:1,
+                                      overflow:"hidden", textOverflow:"ellipsis",
+                                      textTransform:"capitalize", whiteSpace:"nowrap"
+                                    }}>
+                                      {key}
+                                    </div>
+                                    <div style={{ height:3, background:"#222", borderRadius:1, overflow:"hidden", width:"100%" }}>
+                                      <div style={{
+                                        width:`${Math.round(value * 100)}%`, height:"100%",
+                                        background:"linear-gradient(90deg, #2563eb, #3b82f6)", borderRadius:1
+                                      }} />
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+
+                            {overlayText && !isFlipped && (
+                              <div style={{
+                                position:"absolute", inset:0,
+                                background:"rgba(0,0,0,0.88)", border:"1px solid #666",
+                                borderRadius:6, zIndex:5, fontSize:9,
+                                display:"flex", alignItems:"center", justifyContent:"center",
+                                textAlign:"center", padding:3,
+                                overflow:"hidden",
+                                whiteSpace:"normal", width:"100%", height:"100%"
+                              }}>
+                                <span style={{
+                                  display:"-webkit-box", overflow:"hidden",
+                                  WebkitBoxOrient:"vertical", WebkitLineClamp:5
                                 }}>
                                   {overlayText}
+                                </span>
                                 </div>
                               )}
-                            </div>
                           </div>
                         );
                       })}
@@ -413,11 +463,14 @@ export default function HatRegistry() {
                   display:"flex", alignItems:"center", gap:4, flexShrink:0
                 }}>
                   {hat.name}
-                  <button onClick={() => toggleSelectHat(hat)} style={{ background:"none", border:"none", color:"#fff", cursor:"pointer", fontSize:14 }}>×</button>
+                  <button onClick={() => {
+                    setFlippedTiles((previous) => ({ ...previous, [hat.id]: false }));
+                    toggleSelectHat(hat);
+                  }} style={{ background:"none", border:"none", color:"#fff", cursor:"pointer", fontSize:14 }}>×</button>
                 </div>
               ))}
             </div>
-            <button onClick={() => { setSelectedHats([]); setActiveHat(null); }} style={{ fontSize:12, opacity:0.6, background:"none", border:"none", color:"#fff", cursor:"pointer", flexShrink:0 }}>Clear All</button>
+            <button onClick={() => { setSelectedHats([]); setActiveHat(null); setFlippedTiles({}); }} style={{ fontSize:12, opacity:0.6, background:"none", border:"none", color:"#fff", cursor:"pointer", flexShrink:0 }}>Clear All</button>
           </div>
         </div>
 

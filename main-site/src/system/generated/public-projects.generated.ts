@@ -8,7 +8,7 @@ export const publicProjects = [
     "summary": "A connected wellness product system spanning its application, community platform, knowledge, content and commerce surfaces.",
     "status": "awaiting-implementation",
     "featured": true,
-    "establishedYear": 2025,
+    "establishedYear": 2016,
     "lensPresentationPreferences": [
       {
         "lensId": "brand-experience-systems",
@@ -239,7 +239,7 @@ export const publicProjects = [
     "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2010,
+    "establishedYear": 2011,
     "lensPresentationPreferences": [
       {
         "lensId": "system-product-definition",
@@ -318,7 +318,8 @@ export const publicProjects = [
     "summary": "Distribution-system work associated with comparative wetsuit testing.",
     "status": "archived",
     "featured": false,
-    "context": "2XU"
+    "context": "2XU",
+    "establishedYear": 2008
   },
   {
     "slug": "bamboograph",
@@ -351,7 +352,7 @@ export const publicProjects = [
     "summary": "An adaptive learning framework, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge.",
     "status": "active-development",
     "featured": false,
-    "establishedYear": 2025,
+    "establishedYear": 2022,
     "lensPresentationPreferences": [
       {
         "lensId": "brand-experience-systems",
@@ -384,10 +385,11 @@ export const publicProjects = [
     "status": "archived",
     "featured": false,
     "context": "Bristow Group",
+    "establishedYear": 2007,
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 9,
+        "editorialSequence": 10,
         "editorialBoost": 2,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
@@ -425,11 +427,12 @@ export const publicProjects = [
     "status": "archived",
     "featured": false,
     "context": "Lighting control systems",
+    "establishedYear": 2013,
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 8,
-        "editorialBoost": 3,
+        "editorialSequence": 9,
+        "editorialBoost": 2,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -441,7 +444,8 @@ export const publicProjects = [
     "summary": "Camera-system setup work supporting an International Women's Day promotional production.",
     "status": "archived",
     "featured": false,
-    "context": "Croydon Women's Network / Baltar Media"
+    "context": "Croydon Women's Network / Baltar Media",
+    "establishedYear": 2019
   },
   {
     "slug": "crystal-palace-overground-festival",
@@ -450,11 +454,12 @@ export const publicProjects = [
     "status": "archived",
     "featured": false,
     "context": "Crystal Palace Overground Festival",
+    "establishedYear": 2018,
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 2,
-        "editorialBoost": 9,
+        "editorialSequence": 3,
+        "editorialBoost": 8,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -467,11 +472,12 @@ export const publicProjects = [
     "status": "archived",
     "featured": false,
     "context": "Delta Elektronika",
+    "establishedYear": 2007,
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 6,
-        "editorialBoost": 5,
+        "editorialSequence": 7,
+        "editorialBoost": 4,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
@@ -553,6 +559,7 @@ export const publicProjects = [
     "status": "archived",
     "featured": false,
     "context": "Houston Texans",
+    "establishedYear": 2019,
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
@@ -598,8 +605,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
+        "editorialSequence": 5,
+        "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
@@ -637,6 +644,24 @@ export const publicProjects = [
     "establishedYear": 2015
   },
   {
+    "slug": "philadelphia-eagles-nfl-wembley",
+    "name": "Philadelphia Eagles — NFL Wembley",
+    "summary": "Pitch-side communications and broadcast-audio systems work supporting the Philadelphia Eagles at Wembley.",
+    "status": "archived",
+    "featured": false,
+    "context": "Philadelphia Eagles / NFL Wembley",
+    "establishedYear": 2018,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
     "slug": "playstation-croatia-ps5-sound-tour",
     "name": "PlayStation — PS5 Sound Tour",
     "summary": "Sound-design and audio-system work associated with a musical tour of the PlayStation 5 startup sound.",
@@ -646,8 +671,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 5,
-        "editorialBoost": 6,
+        "editorialSequence": 6,
+        "editorialBoost": 5,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -671,8 +696,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 7,
-        "editorialBoost": 4,
+        "editorialSequence": 8,
+        "editorialBoost": 3,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -696,8 +721,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "physical-technical-engineering",
-        "editorialSequence": 3,
-        "editorialBoost": 8,
+        "editorialSequence": 4,
+        "editorialBoost": 7,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }

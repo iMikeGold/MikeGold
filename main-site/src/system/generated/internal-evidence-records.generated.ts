@@ -2159,6 +2159,69 @@ export const internalEvidenceRecords = [
     "placeholder": false
   },
   {
+    "id": "6d7abecd-134a-4f2e-8eaa-1c23c11e7d55",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "slug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+    "title": "Philadelphia Eagles at Wembley — broadcast coverage",
+    "description": "Supporting footage documenting the broadcast output and match-day operating environment.",
+    "evidenceType": "video",
+    "sequence": 2,
+    "visibility": "public",
+    "externalUrl": "https://youtu.be/RFw8Ypxp2zQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RFw8Ypxp2zQ/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "live-audio",
+        "broadcast",
+        "video"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Philadelphia Eagles at Wembley",
+    "sourceAuthor": "Philadelphia Eagles",
+    "placeholder": false
+  },
+  {
+    "id": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "slug": "philadelphia-eagles-nfl-wembley-game-evidence",
+    "title": "Philadelphia Eagles at Wembley — game coverage",
+    "description": "Supporting game footage documenting the live environment and broadcast context.",
+    "evidenceType": "video",
+    "sequence": 1,
+    "visibility": "public",
+    "externalUrl": "https://youtu.be/3R-MfF6ysZs",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+    "presentation": {
+      "facets": [
+        "live-audio",
+        "broadcast",
+        "video"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Philadelphia Eagles at Wembley",
+    "sourceAuthor": "Philadelphia Eagles",
+    "placeholder": false
+  },
+  {
     "id": "70070e7d-95f0-4f9f-b10a-76372d451540",
     "recordType": "evidence",
     "schemaVersion": 1,

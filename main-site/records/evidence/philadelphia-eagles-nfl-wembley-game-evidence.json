@@ -1,0 +1,24 @@
+{
+  "id": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "slug": "philadelphia-eagles-nfl-wembley-game-evidence",
+  "title": "Philadelphia Eagles at Wembley — game coverage",
+  "description": "Supporting game footage documenting the live environment and broadcast context.",
+  "evidenceType": "video",
+  "sequence": 1,
+  "visibility": "public",
+  "externalUrl": "https://youtu.be/3R-MfF6ysZs",
+  "thumbnailUrl": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
+  "presentation": {
+    "facets": ["live-audio", "broadcast", "video"],
+    "displayRoles": ["lens-card", "supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  },
+  "sourceTitle": "Philadelphia Eagles at Wembley",
+  "sourceAuthor": "Philadelphia Eagles",
+  "placeholder": false
+}

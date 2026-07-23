@@ -896,6 +896,23 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "projectId": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
+    "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems",
+    "title": "Field communications and broadcast-audio systems",
+    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "status": "historical",
+    "visibility": "public",
+    "capabilityGroupIds": [
+      "physical-technical-engineering",
+      "media-asset-systems"
+    ]
+  },
+  {
     "id": "3b5f6ca1-982f-4ef2-9168-9f6f55d75247",
     "recordType": "work",
     "schemaVersion": 1,
