@@ -73,6 +73,9 @@ const projects = readCollection("projects");
 const work = readCollection("work");
 const evidence = readCollection("evidence");
 const relationships = readCollection("relationships");
+const lensPriorityCalibration = JSON.parse(
+  readFileSync(join(recordsRoot, "editorial", "lens-priority-calibration.json"), "utf8"),
+);
 const allRecords = [...hats, ...projects, ...work, ...evidence, ...relationships];
 const byId = new Map(allRecords.map((record) => [record.id, record]));
 
@@ -122,7 +125,28 @@ const publicProjects = projects
             : `${record.workStarted}–present`,
         }
       : {}),
-    ...(record.lensPresentationPreferences?.length ? { lensPresentationPreferences: record.lensPresentationPreferences } : {}),
+    ...(() => {
+      const configuredPreferences = Object.entries(lensPriorityCalibration).flatMap(([lensId, slugs]) => {
+        const editorialSequence = slugs.indexOf(record.slug);
+        return editorialSequence < 0
+          ? []
+          : [{
+              lensId,
+              editorialSequence: editorialSequence + 1,
+              editorialBoost: Math.max(2, 10 - editorialSequence),
+              showcase: true,
+              reason: "Curated lens priority calibrated against the shared editorial rubric.",
+            }];
+      });
+      const preferences = [
+        ...(record.lensPresentationPreferences ?? []).filter(
+          (preference) =>
+            !configuredPreferences.some((configured) => configured.lensId === preference.lensId),
+        ),
+        ...configuredPreferences,
+      ];
+      return preferences.length ? { lensPresentationPreferences: preferences } : {};
+    })(),
   }))
   .sort(
     (left, right) =>
@@ -206,6 +230,10 @@ const publicEvidenceBySlug = new Map(publicEvidence.map((record) => [record.slug
 
 function scoreEvidence(record, links, lensId) {
   if (!record || record.placeholder) return -Infinity;
+  if (
+    record.presentation?.displayRoles?.length === 1 &&
+    record.presentation.displayRoles[0] === "archive"
+  ) return -Infinity;
   const src = record.assetPath ?? record.thumbnailUrl;
   if (!src) return -Infinity;
   const facets = record.presentation?.facets ?? [];
@@ -250,7 +278,14 @@ for (const project of publicProjects) {
     const relevanceScore = Math.round((contributionScore + evidenceCompleteness + documentationDepth + capabilityDistinctiveness + directLensSupport) * 100) / 100;
     const preference = lensId ? project.lensPresentationPreferences?.find((item) => item.lensId === lensId) : undefined;
     const editorialBoost = Math.max(-10, Math.min(10, preference?.editorialBoost ?? 0));
-    const finalScore = relevanceScore + editorialBoost + (preference?.showcase ? 3 : 0);
+    // Editorial relevance is a composite, not a fixed rank:
+    // 25% evidence-derived system score, a bounded 12–60 editorial calibration,
+    // and a small showcase-readiness signal. Unranked/new projects still enter
+    // automatically through their evidence-derived score.
+    const finalScore =
+      relevanceScore * 0.25 +
+      editorialBoost * 6 +
+      (preference?.showcase ? 3 : 0);
     const relevanceReasons = [
       `${orderedWork.length} directly relevant contribution${orderedWork.length === 1 ? "" : "s"} with diminishing breadth weighting`,
       visuals[0] ? `Contextual lead visual selected from ${candidates.length} relevant evidence record${candidates.length === 1 ? "" : "s"}` : "No usable contextual lead visual is registered",

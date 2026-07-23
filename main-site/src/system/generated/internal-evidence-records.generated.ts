@@ -2912,6 +2912,16 @@ export const internalEvidenceRecords = [
     "sequence": 1,
     "visibility": "public",
     "assetPath": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "archive",
+      "aspectPreference": "landscape"
+    },
     "sourceTitle": "WrappedFM",
     "placeholder": false
   },

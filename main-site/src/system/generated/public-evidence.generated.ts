@@ -3619,16 +3619,13 @@ export const publicEvidence = [
     "assetPath": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
     "presentation": {
       "facets": [
-        "web-interface",
-        "application-interface"
+        "web-interface"
       ],
       "displayRoles": [
-        "lens-card",
-        "supporting",
-        "gallery"
+        "archive"
       ],
-      "visualQuality": "standard",
-      "aspectPreference": "any"
+      "visualQuality": "archive",
+      "aspectPreference": "landscape"
     },
     "sourceTitle": "WrappedFM",
     "placeholder": false

@@ -9,8 +9,8 @@ import type { PublicWorkCardProjection, PublicWorkProjection } from "@/system/wo
 
 type View = "projects" | "work" | "capabilities";
 type ProjectSort = "relevance" | "name" | "newest" | "oldest";
-const DIRECTORY_PAGE_SIZE = 24;
-const SHOWCASE_LIMIT = 9;
+const DIRECTORY_PAGE_SIZE = 7;
+const SHOWCASE_LIMIT = 6;
 
 export default function WorkExplorer({
   projects,
@@ -115,10 +115,14 @@ export default function WorkExplorer({
     const rightScore = rightCard?.finalScore ?? 0;
     return (rightScore + searchRelevance(right.slug)) - (leftScore + searchRelevance(left.slug)) || (rightCard?.evidenceCompletenessScore ?? 0) - (leftCard?.evidenceCompletenessScore ?? 0) || (leftCard?.editorialSequence ?? 9999) - (rightCard?.editorialSequence ?? 9999) || left.name.localeCompare(right.name) || left.slug.localeCompare(right.slug);
   });
-  const showcaseCards = [...visibleCards]
-    .sort((left, right) => (right.finalScore + searchRelevance(right.projectSlug)) - (left.finalScore + searchRelevance(left.projectSlug)) || right.evidenceCompletenessScore - left.evidenceCompletenessScore || (left.editorialSequence ?? 9999) - (right.editorialSequence ?? 9999) || left.projectName.localeCompare(right.projectName) || left.projectSlug.localeCompare(right.projectSlug))
-    .slice(0, SHOWCASE_LIMIT);
-  const directoryProjects = orderedProjects.slice(0, directoryLimit);
+  const orderedCards = orderedProjects.flatMap((project) => {
+    const card = visibleCards.find((item) => item.projectSlug === project.slug);
+    return card ? [card] : [];
+  });
+  const showcaseCards = orderedCards.slice(0, SHOWCASE_LIMIT);
+  const showcaseProjectSlugs = new Set(showcaseCards.map((card) => card.projectSlug));
+  const remainingProjects = orderedProjects.filter((project) => !showcaseProjectSlugs.has(project.slug));
+  const directoryProjects = remainingProjects.slice(0, directoryLimit);
 
   return (
     <section className="work-explorer" aria-labelledby="work-explorer-title">
@@ -307,7 +311,11 @@ export default function WorkExplorer({
               </Link>;
             })}
           </div>
-          {directoryProjects.length < orderedProjects.length && <button className="load-more-work" type="button" onClick={() => setDirectoryLimit((value) => value + DIRECTORY_PAGE_SIZE)}>Load 24 more · {orderedProjects.length - directoryProjects.length} remaining</button>}
+          {directoryProjects.length < remainingProjects.length && (
+            <button className="load-more-work" type="button" onClick={() => setDirectoryLimit((value) => value + DIRECTORY_PAGE_SIZE)}>
+              Show {Math.min(DIRECTORY_PAGE_SIZE, remainingProjects.length - directoryProjects.length)} more
+            </button>
+          )}
         </section>
         </>
       )}

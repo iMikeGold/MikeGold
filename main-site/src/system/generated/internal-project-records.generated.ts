@@ -81,7 +81,7 @@ export const internalProjectRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "bluedot-festival-the-orb",
-    "name": "bluedot festival — The Orb",
+    "name": "The Orb",
     "summary": "Live sound-system work supporting The Orb's 2018 bluedot festival performance.",
     "status": "archived",
     "visibility": "public",
@@ -124,7 +124,7 @@ export const internalProjectRecords = [
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "cannvent",
     "name": "Cannvent",
-    "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+    "summary": "A connected wellness product system spanning its application, community platform, knowledge, content and commerce surfaces.",
     "status": "awaiting-implementation",
     "visibility": "public",
     "featured": true,
@@ -179,12 +179,12 @@ export const internalProjectRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "delmatic-connected-lighting",
-    "name": "Delmatic — Connected Lighting Management",
+    "name": "Connected Lighting Management",
     "summary": "Sensor-test and manufacturing-engineering work associated with connected lighting controls.",
     "status": "archived",
     "visibility": "public",
     "featured": false,
-    "context": "Delmatic Lighting Management"
+    "context": "Lighting control systems"
   },
   {
     "id": "ab53983b-42fa-42da-b14f-b935672523b5",
@@ -376,7 +376,7 @@ export const internalProjectRecords = [
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "metroplist",
     "name": "Metroplist",
-    "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+    "summary": "A data-driven exploration platform that transforms complex modern information into understandable, visual and meaningful intelligence through a data and interpretation system designed for multiple experiences, including AR and VR.",
     "status": "active-development",
     "visibility": "public",
     "featured": true,
@@ -461,12 +461,12 @@ export const internalProjectRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "slug": "playstation-croatia-ps5-sound-tour",
-    "name": "PlayStation Croatia — PS5 Sound Tour",
-    "summary": "Sound-design and audio-system work associated with a Croatian musical tour of the PlayStation 5 startup sound.",
+    "name": "PlayStation — PS5 Sound Tour",
+    "summary": "Sound-design and audio-system work associated with a musical tour of the PlayStation 5 startup sound.",
     "status": "archived",
     "visibility": "public",
     "featured": false,
-    "context": "PlayStation Croatia"
+    "context": "PlayStation"
   },
   {
     "id": "b62b03b0-92a3-4695-b895-89570ddbae69",

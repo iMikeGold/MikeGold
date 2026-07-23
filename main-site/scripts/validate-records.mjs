@@ -24,6 +24,8 @@ const allowedEvidenceRoles = new Set([
 const allowedEvidenceFacets = new Set(["project-overview", "website", "web-interface", "application-interface", "identity-system", "logo", "brand-application", "product-model", "system-architecture", "information-architecture", "process", "deployment", "infrastructure", "operations", "hardware", "electronics", "installation", "live-audio", "recording", "broadcast", "video", "photography", "editorial", "media-output"]);
 const errors = [];
 const warnings = [];
+const lensPriorityCalibrationPath = join(recordsRoot, "editorial", "lens-priority-calibration.json");
+const lensPriorityCalibration = JSON.parse(readFileSync(lensPriorityCalibrationPath, "utf8"));
 
 function jsonRecords(directory) {
   const path = join(recordsRoot, directory);
@@ -91,6 +93,18 @@ const allById = new Map(
     .flat()
     .map((entry) => [entry.value.id, entry]),
 );
+const projectSlugs = new Set(collections.project.map((entry) => entry.value.slug));
+for (const [lensId, slugs] of Object.entries(lensPriorityCalibration)) {
+  if (!allowedCapabilityGroups.has(lensId)) errors.push(`Editorial order has unknown lens ${lensId}.`);
+  if (!Array.isArray(slugs)) {
+    errors.push(`Editorial order for ${lensId} must be an array.`);
+    continue;
+  }
+  if (new Set(slugs).size !== slugs.length) errors.push(`Editorial order for ${lensId} contains duplicate projects.`);
+  for (const slug of slugs) {
+    if (!projectSlugs.has(slug)) errors.push(`Editorial order for ${lensId} references missing Project ${slug}.`);
+  }
+}
 
 for (const entry of collections.hat) {
   for (const relationship of entry.value.relationships ?? []) {

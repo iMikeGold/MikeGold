@@ -8,6 +8,9 @@
   "slug": "cannvent-system-development",
   "title": "Cannvent system development",
   "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+  "lensSummaries": {
+    "software-web-engineering": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
+  },
   "status": "in-progress",
   "visibility": "public",
   "sequence": 1,

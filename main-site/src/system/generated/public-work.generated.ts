@@ -388,7 +388,10 @@ export const publicWork = [
         "evidenceSlug": "cannvent-documentation-pending",
         "role": "supporting"
       }
-    ]
+    ],
+    "lensSummaries": {
+      "software-web-engineering": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
+    }
   },
   {
     "slug": "community-supplies-system-development",
@@ -1111,7 +1114,7 @@ export const publicWork = [
     "slug": "metroplist-system-development",
     "projectSlug": "metroplist",
     "title": "Metroplist system development",
-    "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+    "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
@@ -1442,7 +1445,7 @@ export const publicWork = [
     "slug": "musical-intelligence-identity-restoration",
     "projectSlug": "musical-intelligence",
     "title": "Musical Intelligence identity restoration",
-    "summary": "Recreated a recognisable identity commissioned approximately fifteen years earlier, using the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
     "status": "completed",
     "capabilityGroupIds": [
       "brand-experience-systems",
@@ -1451,7 +1454,7 @@ export const publicWork = [
     "stages": [
       {
         "key": "original",
-        "label": "Original commission preserved",
+        "label": "Original identity preserved",
         "status": "completed"
       },
       {
@@ -1891,7 +1894,8 @@ export const publicWork = [
     "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
-      "software-web-engineering"
+      "software-web-engineering",
+      "media-asset-systems"
     ],
     "appliedHatSlugs": [
       "concept-engineer",
@@ -1979,6 +1983,7 @@ export const publicWork = [
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "historical",
     "capabilityGroupIds": [
+      "software-web-engineering",
       "brand-experience-systems"
     ],
     "appliedHatSlugs": [
@@ -2013,6 +2018,7 @@ export const publicWork = [
     "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
+      "software-web-engineering",
       "brand-experience-systems",
       "media-asset-systems"
     ],

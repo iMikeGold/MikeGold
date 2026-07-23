@@ -31,23 +31,30 @@ export default function EvidenceCard({
   return (
     <article className={`evidence-card evidence-card-${evidence.role ?? evidence.evidenceType}${videoId ? " evidence-card-video" : ""}`}>
       {videoId && (
-        <div className="evidence-media">
-          {isPlaying ? (
-            <iframe
-              src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
-              title={evidence.title}
-              allow="autoplay; encrypted-media; picture-in-picture"
-              allowFullScreen
-            />
-          ) : (
-            <button type="button" onClick={() => setIsPlaying(true)}>
-              {evidence.thumbnailUrl && (
-                <img src={evidence.thumbnailUrl} alt="" loading="lazy" />
-              )}
-              <span>PLAY EVIDENCE</span>
-            </button>
+        <>
+          <div className="evidence-media">
+            {isPlaying ? (
+              <iframe
+                src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+                title={evidence.title}
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            ) : (
+              <button type="button" onClick={() => setIsPlaying(true)}>
+                {evidence.thumbnailUrl && (
+                  <img src={evidence.thumbnailUrl} alt="" loading="lazy" />
+                )}
+                <span>PLAY EVIDENCE</span>
+              </button>
+            )}
+          </div>
+          {evidence.externalUrl && (
+            <a href={evidence.externalUrl} target="_blank" rel="noreferrer">
+              Open video on YouTube ↗
+            </a>
           )}
-        </div>
+        </>
       )}
       {!videoId && evidence.assetPath && (
         <div className={`evidence-image evidence-image-${evidence.role ?? "reference"}`}>

@@ -190,6 +190,9 @@ export const internalWorkRecords = [
     "slug": "cannvent-system-development",
     "title": "Cannvent system development",
     "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+    "lensSummaries": {
+      "software-web-engineering": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
+    },
     "status": "in-progress",
     "visibility": "public",
     "sequence": 1,
@@ -642,7 +645,7 @@ export const internalWorkRecords = [
     "projectId": "1a8ff3bb-b2aa-46cd-9ff6-44b1b174e784",
     "slug": "metroplist-system-development",
     "title": "Metroplist system development",
-    "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+    "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
     "status": "in-progress",
     "visibility": "public",
     "capabilityGroupIds": [
@@ -816,7 +819,7 @@ export const internalWorkRecords = [
     "projectId": "71ac31c2-c8a2-46e6-8e39-d25f15c2a98e",
     "slug": "musical-intelligence-identity-restoration",
     "title": "Musical Intelligence identity restoration",
-    "summary": "Recreated a recognisable identity commissioned approximately fifteen years earlier, using the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
     "status": "completed",
     "visibility": "public",
     "capabilityGroupIds": [
@@ -826,7 +829,7 @@ export const internalWorkRecords = [
     "stages": [
       {
         "key": "original",
-        "label": "Original commission preserved",
+        "label": "Original identity preserved",
         "status": "completed"
       },
       {
@@ -1084,7 +1087,8 @@ export const internalWorkRecords = [
     "visibility": "public",
     "capabilityGroupIds": [
       "system-product-definition",
-      "software-web-engineering"
+      "software-web-engineering",
+      "media-asset-systems"
     ]
   },
   {
@@ -1119,6 +1123,7 @@ export const internalWorkRecords = [
     "status": "historical",
     "visibility": "public",
     "capabilityGroupIds": [
+      "software-web-engineering",
       "brand-experience-systems"
     ]
   },
@@ -1136,6 +1141,7 @@ export const internalWorkRecords = [
     "visibility": "public",
     "capabilityGroupIds": [
       "system-product-definition",
+      "software-web-engineering",
       "brand-experience-systems",
       "media-asset-systems"
     ]

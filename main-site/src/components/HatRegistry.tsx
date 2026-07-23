@@ -12,7 +12,6 @@
 // ------------------------------
 import { useMemo, useState, useEffect } from "react";
 import { hats, type Hat } from "../system/registry";
-import { getHatProfile, PROFILE_AXES } from "../system/profile/hat-profile";
 import { findRelatedHatsForSelection, searchHats } from "../system/services/service-engine";
 import { calculateWeight } from "../system/services/weights";
 import HatDrawer from "./HatDrawer";
@@ -65,13 +64,6 @@ function getHouseScore(hatsList: Hat[]): number {
   return total / hatsList.length;
 }
 
-function getHatStats(hat: Hat) {
-  const profile = getHatProfile(hat);
-  return Object.fromEntries(
-    PROFILE_AXES.map((axis, index) => [axis, profile[index] / 10])
-  );
-}
-
 // ------------------------------
 // COMPONENT — WIDTH SYNCED WITH DRAWER
 // ------------------------------
@@ -98,7 +90,7 @@ export default function HatRegistry() {
     design: true,
     engineering: true
   });
-  const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
+  const flippedTiles: Record<string, boolean> = {};
 
   // ------------------------------
   // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
@@ -311,8 +303,6 @@ export default function HatRegistry() {
                       {hatsList.map((hat) => {
                         const isSelected = selectedHats.some(h => h.id === hat.id);
                         const weightScore = calculateWeight(hat);
-                        const stats = getHatStats(hat);
-                        const isFlipped = flippedTiles[hat.id] || false;
                         const overlayText = interaction.getOverlay(hat.id);
 
                         return (
@@ -324,21 +314,19 @@ export default function HatRegistry() {
                             onTouchEnd={() => interaction.touchEnd()}
                             onClick={() =>
                               interaction.click(
-                                () => setFlippedTiles(prev => ({ ...prev, [hat.id]: !prev[hat.id] })),
+                                () => {},
                                 () => toggleSelectHat(hat)
                               )
                             }
                             style={{
-                              aspectRatio:"1/1", perspective:"1200px", cursor:"pointer",
+                              aspectRatio:"1/1", cursor:"pointer",
                               width:"100%", position:"relative",
-                              overflow:"visible", borderRadius:6, isolation:"isolate"
+                              overflow:"hidden", borderRadius:6, isolation:"isolate"
                             }}
                           >
                             <div style={{
                               width:"100%", height:"100%", position:"relative",
-                              transformStyle:"preserve-3d", transformOrigin:"center",
-                              transition:"transform 0.5s cubic-bezier(0.4,0,0.2,1)",
-                              transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
+                              transformOrigin:"center",
                               boxShadow: isSelected ? "0 0 10px #2563eb, inset 0 0 15px rgba(37,99,235,0.4)" : "none",
                               backgroundImage: isSelected ? "linear-gradient(90deg, #2563eb33, #3b82f655, #2563eb33)" : "none",
                               backgroundSize:"200% 100%", backgroundPosition:"0% 0%",
@@ -369,32 +357,6 @@ export default function HatRegistry() {
                                 </div>
                               </div>
 
-                              {/* BACK FACE */}
-                              <div style={{
-                                position:"absolute", inset:0,
-                                background:"#1a1a1a", border:"1px solid #444",
-                                borderRadius:6, padding:3,
-                                backfaceVisibility:"hidden", transform:"rotateY(180deg)",
-                                display:"flex", flexDirection:"column",
-                                justifyContent:"space-around", alignItems:"center",
-                                textAlign:"center", zIndex:1,
-                                width:"100%", height:"100%"
-                              }}>
-                                {Object.entries(stats).map(([key, value]) => (
-                                  <div key={key} style={{ width:"90%", textAlign:"center" }}>
-                                    <div style={{ fontSize:7, opacity:0.6, marginBottom:1, textTransform:"capitalize" }}>
-                                      {key}
-                                    </div>
-                                    <div style={{ height:3, background:"#222", borderRadius:1, overflow:"hidden", width:"100%" }}>
-                                      <div style={{
-                                        width:`${Math.round(value * 100)}%`, height:"100%",
-                                        background:"linear-gradient(90deg, #2563eb, #3b82f6)", borderRadius:1
-                                      }} />
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-
                               {/* OVERLAY */}
                               {overlayText && (
                                 <div style={{
@@ -403,7 +365,7 @@ export default function HatRegistry() {
                                   borderRadius:6, zIndex:5, fontSize:9,
                                   display:"flex", alignItems:"center", justifyContent:"center",
                                   textAlign:"center", padding:3,
-                                  transform:"inherit", backfaceVisibility:"hidden",
+                                  overflow:"hidden",
                                   whiteSpace:"normal", width:"100%", height:"100%"
                                 }}>
                                   {overlayText}

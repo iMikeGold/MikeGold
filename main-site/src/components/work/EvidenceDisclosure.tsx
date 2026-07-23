@@ -7,7 +7,11 @@ import EvidenceCard from "@/components/work/EvidenceCard";
 export default function EvidenceDisclosure({ evidence, defaultOpen = false, roleOrder = ["cover", "interface", "identity", "process", "application", "reference"] }: { evidence: PublicEvidenceProjection[]; defaultOpen?: boolean; roleOrder?: string[] }) {
   const [open, setOpen] = useState(defaultOpen);
   useEffect(() => setOpen(defaultOpen), [defaultOpen]);
-  const available = evidence.filter((item) => !item.placeholder);
+  const available = evidence.filter(
+    (item) =>
+      !item.placeholder &&
+      !(item.presentation?.displayRoles.length === 1 && item.presentation.displayRoles[0] === "archive"),
+  );
   if (!available.length) return null;
   const roleCopy: Record<string, { title: string; description: string }> = {
     cover: { title: "Website and digital experience", description: "The public-facing interface and visual system in context." },

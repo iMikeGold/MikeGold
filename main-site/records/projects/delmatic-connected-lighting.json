@@ -5,10 +5,10 @@
   "createdAt": "2026-07-20T00:00:00.000Z",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "slug": "delmatic-connected-lighting",
-  "name": "Delmatic — Connected Lighting Management",
+  "name": "Connected Lighting Management",
   "summary": "Sensor-test and manufacturing-engineering work associated with connected lighting controls.",
   "status": "archived",
   "visibility": "public",
   "featured": false,
-  "context": "Delmatic Lighting Management"
+  "context": "Lighting control systems"
 }

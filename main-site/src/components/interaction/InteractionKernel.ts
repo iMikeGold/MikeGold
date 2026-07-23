@@ -16,7 +16,7 @@ type Overlay = { id: string; text: string } | null;
 
 // Make layout optional + safe fallback
 export function useInteractionKernel(
-  flippedMap: Record<string, boolean>,
+  _flippedMap: Record<string, boolean>,
   layout?: { isMobile: boolean; isCompact: boolean; isPortrait: boolean }
 ) {
   const [activeId, setActiveId] = useState<string | null>(null);
@@ -41,7 +41,7 @@ export function useInteractionKernel(
       setActiveId(id);
       setOverlay({
         id,
-        text: flippedMap[id] ? hat.name : hat.description || hat.name
+        text: hat.description || hat.name
       });
     }
   };
@@ -54,7 +54,7 @@ export function useInteractionKernel(
   const touchStart = (id: string, hat: Hat) => {
     longPress.current = setTimeout(() => {
       setActiveId(id);
-      setOverlay({ id, text: flippedMap[id] ? hat.name : hat.description || hat.name });
+      setOverlay({ id, text: hat.description || hat.name });
     }, 450);
   };
 
@@ -63,17 +63,10 @@ export function useInteractionKernel(
     clear();
   };
 
-  const click = (toggleFlip: () => void, toggleSelect: () => void) => {
+  const click = (_toggleFlip: () => void, toggleSelect: () => void) => {
     clear();
     requestAnimationFrame(() => {
-      if (layoutMode === "desktop") {
-        toggleFlip();
-        toggleSelect();
-      } else if (layoutMode === "compact") {
-        toggleSelect();
-      } else {
-        toggleSelect();
-      }
+      toggleSelect();
     });
   };
 

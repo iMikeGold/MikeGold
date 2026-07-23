@@ -5,10 +5,26 @@ export const publicProjects = [
   {
     "slug": "cannvent",
     "name": "Cannvent",
-    "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+    "summary": "A connected wellness product system spanning its application, community platform, knowledge, content and commerce surfaces.",
     "status": "awaiting-implementation",
     "featured": true,
-    "establishedYear": 2025
+    "establishedYear": 2025,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "findthy",
@@ -16,7 +32,16 @@ export const publicProjects = [
     "summary": "Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures.",
     "status": "awaiting-implementation",
     "featured": true,
-    "establishedYear": 2014
+    "establishedYear": 2014,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "gouldbourne-registry",
@@ -24,15 +49,40 @@ export const publicProjects = [
     "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
     "status": "live",
     "featured": true,
-    "establishedYear": 2007
+    "establishedYear": 2007,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "metroplist",
     "name": "Metroplist",
-    "summary": "Product, identity and interface-system development for a structured metropolitan or media-listing platform.",
+    "summary": "A data-driven exploration platform that transforms complex modern information into understandable, visual and meaningful intelligence through a data and interpretation system designed for multiple experiences, including AR and VR.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2024
+    "establishedYear": 2024,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "mickz",
@@ -40,7 +90,30 @@ export const publicProjects = [
     "summary": "Development of a flexible food-and-drink brand and product system with related but distinct category treatments.",
     "status": "design-development",
     "featured": true,
-    "establishedYear": 2025
+    "establishedYear": 2025,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "mikegold-engineer",
@@ -56,7 +129,16 @@ export const publicProjects = [
     "summary": "Identity, content structure, responsive web experience and delivery work for an independent music platform.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2013
+    "establishedYear": 2013,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "ourgani",
@@ -64,7 +146,16 @@ export const publicProjects = [
     "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
     "status": "live",
     "featured": true,
-    "establishedYear": 2025
+    "establishedYear": 2025,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "protosynthesis",
@@ -72,7 +163,30 @@ export const publicProjects = [
     "summary": "Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge.",
     "status": "live",
     "featured": true,
-    "establishedYear": 2026
+    "establishedYear": 2026,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "saveours",
@@ -80,7 +194,44 @@ export const publicProjects = [
     "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
     "status": "awaiting-implementation",
     "featured": true,
-    "establishedYear": 2014
+    "establishedYear": 2014,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "vendfm",
@@ -88,7 +239,23 @@ export const publicProjects = [
     "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2010
+    "establishedYear": 2010,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "wrappedfm",
@@ -96,7 +263,37 @@ export const publicProjects = [
     "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
     "status": "active-development",
     "featured": true,
-    "establishedYear": 2022
+    "establishedYear": 2022,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "118-sports",
@@ -104,7 +301,16 @@ export const publicProjects = [
     "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
     "status": "live",
     "featured": false,
-    "establishedYear": 2013
+    "establishedYear": 2013,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "2xu-wetsuit-testing",
@@ -120,7 +326,16 @@ export const publicProjects = [
     "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
     "status": "prototype",
     "featured": false,
-    "establishedYear": 2024
+    "establishedYear": 2024,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "best-indies",
@@ -136,15 +351,23 @@ export const publicProjects = [
     "summary": "An adaptive learning framework, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge.",
     "status": "active-development",
     "featured": false,
-    "establishedYear": 2025
-  },
-  {
-    "slug": "bluedot-festival-the-orb",
-    "name": "bluedot festival — The Orb",
-    "summary": "Live sound-system work supporting The Orb's 2018 bluedot festival performance.",
-    "status": "archived",
-    "featured": false,
-    "context": "bluedot festival"
+    "establishedYear": 2025,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "bonsai-tree-of-life",
@@ -160,7 +383,16 @@ export const publicProjects = [
     "summary": "Electronics-systems engineering work associated with an operational-excellence programme.",
     "status": "archived",
     "featured": false,
-    "context": "Bristow Group"
+    "context": "Bristow Group",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "community-supplies",
@@ -168,7 +400,40 @@ export const publicProjects = [
     "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
     "status": "live",
     "featured": false,
-    "establishedYear": 2017
+    "establishedYear": 2017,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
+    "slug": "delmatic-connected-lighting",
+    "name": "Connected Lighting Management",
+    "summary": "Sensor-test and manufacturing-engineering work associated with connected lighting controls.",
+    "status": "archived",
+    "featured": false,
+    "context": "Lighting control systems",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "croydon-womens-network-iwd",
@@ -184,15 +449,16 @@ export const publicProjects = [
     "summary": "Signal-flow and distribution-system preparation for a live festival site.",
     "status": "archived",
     "featured": false,
-    "context": "Crystal Palace Overground Festival"
-  },
-  {
-    "slug": "delmatic-connected-lighting",
-    "name": "Delmatic — Connected Lighting Management",
-    "summary": "Sensor-test and manufacturing-engineering work associated with connected lighting controls.",
-    "status": "archived",
-    "featured": false,
-    "context": "Delmatic Lighting Management"
+    "context": "Crystal Palace Overground Festival",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "delta-elektronika-power-systems",
@@ -200,7 +466,23 @@ export const publicProjects = [
     "summary": "Firmware, installation and deployment work associated with programmable high-power supply systems.",
     "status": "archived",
     "featured": false,
-    "context": "Delta Elektronika"
+    "context": "Delta Elektronika",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "fbc-london-shopping-with-grant",
@@ -232,7 +514,37 @@ export const publicProjects = [
     "summary": "A music, media and intellectual-property platform connecting content architecture, presentation and digital assets.",
     "status": "live",
     "featured": false,
-    "establishedYear": 2012
+    "establishedYear": 2012,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "houston-texans-london-game",
@@ -240,7 +552,16 @@ export const publicProjects = [
     "summary": "Field communications and telecoms resilience work associated with the Texans' London fixture.",
     "status": "archived",
     "featured": false,
-    "context": "Houston Texans"
+    "context": "Houston Texans",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "imikegold",
@@ -256,7 +577,16 @@ export const publicProjects = [
     "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
     "status": "design-development",
     "featured": false,
-    "establishedYear": 2009
+    "establishedYear": 2009,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "living-control-media-servers",
@@ -264,7 +594,23 @@ export const publicProjects = [
     "summary": "Hardware prototyping and multimedia-distribution work associated with Living Control media-server systems.",
     "status": "archived",
     "featured": false,
-    "context": "Living Control / CEDIA"
+    "context": "Living Control / CEDIA",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "malaria-hotspot-production",
@@ -292,11 +638,20 @@ export const publicProjects = [
   },
   {
     "slug": "playstation-croatia-ps5-sound-tour",
-    "name": "PlayStation Croatia — PS5 Sound Tour",
-    "summary": "Sound-design and audio-system work associated with a Croatian musical tour of the PlayStation 5 startup sound.",
+    "name": "PlayStation — PS5 Sound Tour",
+    "summary": "Sound-design and audio-system work associated with a musical tour of the PlayStation 5 startup sound.",
     "status": "archived",
     "featured": false,
-    "context": "PlayStation Croatia"
+    "context": "PlayStation",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "rockett-home-rentals-company-film",
@@ -312,7 +667,16 @@ export const publicProjects = [
     "summary": "Scientific-equipment and test-system engineering associated with Setaflash testing.",
     "status": "archived",
     "featured": false,
-    "context": "Stanhope-Seta"
+    "context": "Stanhope-Seta",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "the-frisbys-you-are",
@@ -323,12 +687,45 @@ export const publicProjects = [
     "context": "The Frisbys / Baltar Media"
   },
   {
+    "slug": "bluedot-festival-the-orb",
+    "name": "The Orb",
+    "summary": "Live sound-system work supporting The Orb's 2018 bluedot festival performance.",
+    "status": "archived",
+    "featured": false,
+    "context": "bluedot festival",
+    "lensPresentationPreferences": [
+      {
+        "lensId": "physical-technical-engineering",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
     "slug": "the-visionary-guide",
     "name": "The Visionary Guide",
     "summary": "An application product in development around product definition, user experience and structured content.",
     "status": "active-development",
     "featured": false,
-    "establishedYear": 2024
+    "establishedYear": 2024,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "viisiioiiv",
@@ -336,7 +733,23 @@ export const publicProjects = [
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "reserved-concept",
     "featured": false,
-    "establishedYear": 2014
+    "establishedYear": 2014,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "waffll",
@@ -344,7 +757,30 @@ export const publicProjects = [
     "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
     "status": "design-development",
     "featured": false,
-    "establishedYear": 2023
+    "establishedYear": 2023,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 8,
+        "editorialBoost": 3,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 7,
+        "editorialBoost": 4,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-asset-systems",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "wibc",

@@ -12,6 +12,7 @@
   "visibility": "public",
   "capabilityGroupIds": [
     "system-product-definition",
+    "software-web-engineering",
     "brand-experience-systems",
     "media-asset-systems"
   ]
