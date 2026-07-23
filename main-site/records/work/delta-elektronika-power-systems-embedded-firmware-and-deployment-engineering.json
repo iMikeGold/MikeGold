@@ -10,8 +10,11 @@
   "summary": "Deployment-oriented systems work supporting a high-power electronic supply system.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "infrastructure-operations",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

@@ -270,14 +270,14 @@ const classifyWork = (title) => {
     groups.add("infrastructure-operations");
   }
   if (/camera|multicamera|media|playout|sound|audio|distribution/.test(value)) {
-    groups.add("media-asset-systems");
+    groups.add("media-production-distribution");
   }
   if (
     /communications|telecom|sound|audio|camera|multicamera|sensor|manufacturing|electronics|distribution|scientific|test|firmware|embedded|pcb/.test(
       value,
     )
   ) {
-    groups.add("physical-technical-engineering");
+    groups.add("physical-systems-engineering");
   }
   if (!groups.size) groups.add("system-product-definition");
   return [...groups];

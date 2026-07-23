@@ -8,15 +8,26 @@
   "slug": "cannvent-system-development",
   "title": "Cannvent system development",
   "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
-  "lensSummaries": {
-    "software-web-engineering": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
-  },
   "status": "in-progress",
   "visibility": "public",
   "sequence": 1,
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "software-web-engineering",
-    "brand-experience-systems"
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "software-web-engineering",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+      "lensSummary": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces."
+    }
   ]
 }

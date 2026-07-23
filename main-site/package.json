@@ -13,6 +13,7 @@
     "records:seed-section-ten": "node scripts/seed-section-ten-projects.mjs",
     "records:ingest-assets": "node scripts/ingest-project-assets.mjs",
     "records:validate": "node scripts/validate-records.mjs",
+    "services:test": "node scripts/test-semantic-vertical-slice.mjs",
     "records:check": "npm run records:generate && npm run records:validate",
     "predev": "npm run records:check",
     "prebuild": "npm run records:check"

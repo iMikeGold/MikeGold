@@ -10,8 +10,11 @@
   "summary": "Planning and preparation of signal distribution for a multi-area event environment.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

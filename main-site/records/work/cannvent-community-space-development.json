@@ -11,5 +11,23 @@
   "status": "in-progress",
   "visibility": "public",
   "sequence": 2,
-  "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "brand-experience-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language."
+    }
+  ]
 }

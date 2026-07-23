@@ -11,7 +11,12 @@
   "targetId": "5a797bec-7f7a-4981-8a7c-f6c105294115",
   "targetType": "evidence",
   "role": "primary",
-  "supportedLensIds": ["brand-experience-systems"],
-  "displayRoles": ["lens-card", "work-hero"],
+  "supportedLensIds": [
+    "brand-experience-systems"
+  ],
+  "displayRoles": [
+    "lens-card",
+    "work-hero"
+  ],
   "priority": 1
 }

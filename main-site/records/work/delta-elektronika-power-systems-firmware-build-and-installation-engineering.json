@@ -10,8 +10,11 @@
   "summary": "Build and installation work within an electronically controlled power-system context.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "infrastructure-operations",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

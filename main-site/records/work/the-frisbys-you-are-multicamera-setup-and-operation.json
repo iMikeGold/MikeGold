@@ -5,13 +5,16 @@
   "createdAt": "2026-07-20T00:00:00.000Z",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "projectId": "b136c34a-ec2e-414d-bb82-2561252f3103",
-  "slug": "the-frisbys-you-are-multicamera-setup-and-operation",
-  "title": "Multicamera setup and operation",
+  "slug": "the-frisbys-you-are-multicamera-operation",
+  "title": "Multicamera operation",
   "summary": "Coordination and operation of multiple camera sources within a music-production workflow.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+    }
   ]
 }

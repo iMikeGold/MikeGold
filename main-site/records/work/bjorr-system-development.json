@@ -10,8 +10,17 @@
   "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "brand-experience-systems"
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge."
+    }
   ]
 }

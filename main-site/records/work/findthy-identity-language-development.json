@@ -10,10 +10,34 @@
   "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems", "system-product-definition"],
   "stages": [
-    { "key": "concepts", "label": "Four concept directions", "status": "completed" },
-    { "key": "language", "label": "Colour and mark language", "status": "completed" },
-    { "key": "synthesis", "label": "Concept 3 + 4 synthesis", "status": "in-progress" }
+    {
+      "key": "concepts",
+      "label": "Four concept directions",
+      "status": "completed"
+    },
+    {
+      "key": "language",
+      "label": "Colour and mark language",
+      "status": "completed"
+    },
+    {
+      "key": "synthesis",
+      "label": "Concept 3 + 4 synthesis",
+      "status": "in-progress"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition."
+    }
   ]
 }

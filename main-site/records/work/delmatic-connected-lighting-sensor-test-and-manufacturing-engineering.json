@@ -10,7 +10,11 @@
   "summary": "Testing and production-oriented engineering around connected control-system hardware.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

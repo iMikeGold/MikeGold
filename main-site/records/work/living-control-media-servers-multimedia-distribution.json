@@ -10,8 +10,17 @@
   "summary": "Media distribution work supporting dual-output high-definition server delivery.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+    },
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment.",
+      "lensSummary": "Physical-system responsibility: Media distribution work supporting dual-output high-definition server delivery."
+    }
   ]
 }

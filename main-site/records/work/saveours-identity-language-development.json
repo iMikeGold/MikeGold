@@ -10,10 +10,34 @@
   "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems", "system-product-definition"],
   "stages": [
-    { "key": "original", "label": "Original commission", "status": "historical" },
-    { "key": "revisit", "label": "Identity revisited", "status": "completed" },
-    { "key": "coded-language", "label": "Coded-language system", "status": "in-progress" }
+    {
+      "key": "original",
+      "label": "Original commission",
+      "status": "historical"
+    },
+    {
+      "key": "revisit",
+      "label": "Identity revisited",
+      "status": "completed"
+    },
+    {
+      "key": "coded-language",
+      "label": "Coded-language system",
+      "status": "in-progress"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+    }
   ]
 }

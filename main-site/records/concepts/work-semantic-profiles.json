@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems": [
+      "field-communications",
+      "communications-networking",
+      "signal-path-resilience",
+      "signal-flow-design",
+      "live-field-operations",
+      "live-sport",
+      "reliability-engineering",
+      "systems-integration"
+    ],
+    "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery": [
+      "broadcast-audio-delivery",
+      "media-distribution",
+      "signal-flow-design",
+      "live-broadcast",
+      "live-sport",
+      "reliability-engineering",
+      "systems-integration"
+    ],
+    "houston-texans-london-game-field-communications-and-telecom-redundancy-systems": [
+      "field-communications",
+      "communications-networking",
+      "signal-path-resilience",
+      "live-field-operations",
+      "live-sport",
+      "reliability-engineering",
+      "systems-integration"
+    ]
+  }
+}

@@ -10,10 +10,40 @@
   "summary": "A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": ["system-product-definition", "brand-experience-systems", "media-asset-systems"],
   "stages": [
-    { "key": "category-definition", "label": "Category definition", "status": "completed" },
-    { "key": "visual-direction", "label": "Visual direction", "status": "in-progress" },
-    { "key": "product-application", "label": "Product application", "status": "planned" }
+    {
+      "key": "category-definition",
+      "label": "Category definition",
+      "status": "completed"
+    },
+    {
+      "key": "visual-direction",
+      "label": "Visual direction",
+      "status": "in-progress"
+    },
+    {
+      "key": "product-application",
+      "label": "Product application",
+      "status": "planned"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz."
+    },
+    {
+      "lensId": "media-production-distribution",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+      "lensSummary": "Media production and distribution responsibility: A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz."
+    }
   ]
 }

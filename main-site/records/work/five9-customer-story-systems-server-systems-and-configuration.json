@@ -10,7 +10,11 @@
   "summary": "Configuration-oriented systems work supporting a connected media and communications environment.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "infrastructure-operations"
+  "lensAssignments": [
+    {
+      "lensId": "infrastructure-operations",
+      "role": "primary",
+      "rationale": "The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment."
+    }
   ]
 }

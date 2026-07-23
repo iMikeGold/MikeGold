@@ -10,10 +10,28 @@
   "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
   "status": "completed",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"],
   "stages": [
-    { "key": "original", "label": "Original identity preserved", "status": "completed" },
-    { "key": "reconstruction", "label": "Identity reconstructed from the surviving mark", "status": "completed" },
-    { "key": "refinement", "label": "Typography, geometry and colour refined", "status": "completed" }
+    {
+      "key": "original",
+      "label": "Original identity preserved",
+      "status": "completed"
+    },
+    {
+      "key": "reconstruction",
+      "label": "Identity reconstructed from the surviving mark",
+      "status": "completed"
+    },
+    {
+      "key": "refinement",
+      "label": "Typography, geometry and colour refined",
+      "status": "completed"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    }
   ]
 }

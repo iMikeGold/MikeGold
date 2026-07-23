@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { PublicHat } from "@/system/hats/hat.types";
 import type { PublicProjectProjection } from "@/system/projects/project.types";
-import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
+import { CAPABILITY_GROUPS, resolveCapabilityGroupId, type CapabilityGroupId } from "@/system/work/capability-groups";
 import type { PublicWorkCardProjection, PublicWorkProjection } from "@/system/work/work.types";
 
 type View = "projects" | "work" | "capabilities";
@@ -33,9 +33,9 @@ export default function WorkExplorer({
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const requestedArea = params.get("area");
-    if (CAPABILITY_GROUPS.some((group) => group.id === requestedArea)) {
-      setGroupFilter(requestedArea as CapabilityGroupId);
+    const requestedArea = resolveCapabilityGroupId(params.get("area"));
+    if (requestedArea) {
+      setGroupFilter(requestedArea);
       setArchiveOpen(true);
       setView("projects");
     }
@@ -123,9 +123,18 @@ export default function WorkExplorer({
   const showcaseProjectSlugs = new Set(showcaseCards.map((card) => card.projectSlug));
   const remainingProjects = orderedProjects.filter((project) => !showcaseProjectSlugs.has(project.slug));
   const directoryProjects = remainingProjects.slice(0, directoryLimit);
+  const selectedGroup = CAPABILITY_GROUPS.find((group) => group.id === groupFilter);
 
   return (
     <section className="work-explorer" aria-labelledby="work-explorer-title">
+      <header className="page-header work-page-header">
+        <p className="work-kicker">SYSTEMS DELIVERED</p>
+        <h1>WORK</h1>
+        <p>
+          {selectedGroup?.summary ??
+            "A growing record of products, identities, applications, infrastructure and engineering environments I have designed, built, deployed or helped bring into operation."}
+        </p>
+      </header>
       {!archiveOpen && <>
       <div className="capability-group-intro">
         <p className="work-kicker">SIX CONNECTED AREAS</p>
@@ -184,7 +193,7 @@ export default function WorkExplorer({
       {archiveOpen && <div className="work-archive-panel">
       <div className="work-route-banner">
         <span>{groupFilter ? "AREA SELECTED" : "COMPLETE ARCHIVE"}</span>
-        <strong>{groupFilter ? CAPABILITY_GROUPS.find((group) => group.id === groupFilter)?.name : `${projects.length} project records`}</strong>
+        <strong>{selectedGroup?.name ?? `${projects.length} project records`}</strong>
         <button type="button" onClick={() => { setGroupFilter(""); setHatFilter(""); setQuery(""); setDirectoryLimit(DIRECTORY_PAGE_SIZE); setArchiveOpen(false); }}>
           ← Return to six areas
         </button>
@@ -192,7 +201,7 @@ export default function WorkExplorer({
       <div className="work-explorer-heading" id="work-results">
         <div>
           <p className="work-kicker">STRUCTURED WORK ARCHIVE</p>
-          <h2>{groupFilter ? CAPABILITY_GROUPS.find((group) => group.id === groupFilter)?.name : "Selected systems and applied work"}</h2>
+          <h2>{selectedGroup?.name ?? "Selected systems and applied work"}</h2>
         </div>
         <div className="work-view-tabs" aria-label="Work views">
           {(["projects", "work", "capabilities"] as const).map((option) => (

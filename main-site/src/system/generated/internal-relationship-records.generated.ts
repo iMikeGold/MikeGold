@@ -2291,7 +2291,7 @@ export const internalRelationshipRecords = [
     "sourceId": "46df48d3-ed81-4c4c-bc6a-ce2f28867bda",
     "sourceType": "hat",
     "relationshipType": "applied-in",
-    "targetId": "c2790a2e-9ae2-4c14-ab16-a449a0d9b9d4",
+    "targetId": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
     "targetType": "work",
     "role": "supporting"
   },
@@ -3053,6 +3053,38 @@ export const internalRelationshipRecords = [
     "targetType": "evidence"
   },
   {
+    "id": "71e0a524-5d53-4739-ad50-b94909e18a76",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "6d7abecd-134a-4f2e-8eaa-1c23c11e7d55",
+    "targetType": "evidence",
+    "role": "primary",
+    "supportedLensIds": [
+      "media-production-distribution"
+    ]
+  },
+  {
+    "id": "62f61f1b-4403-49a2-8ded-6a9fb461714a",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+    "targetType": "evidence",
+    "role": "supporting",
+    "supportedLensIds": [
+      "media-production-distribution"
+    ]
+  },
+  {
     "id": "3025ccf2-deb2-416d-b302-6340c1ce2cf6",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3065,8 +3097,8 @@ export const internalRelationshipRecords = [
     "targetType": "evidence",
     "role": "supporting",
     "supportedLensIds": [
-      "physical-technical-engineering",
-      "media-asset-systems"
+      "physical-systems-engineering",
+      "media-production-distribution"
     ],
     "displayRoles": [
       "supporting",
@@ -3087,8 +3119,8 @@ export const internalRelationshipRecords = [
     "targetType": "evidence",
     "role": "primary",
     "supportedLensIds": [
-      "physical-technical-engineering",
-      "media-asset-systems"
+      "physical-systems-engineering",
+      "media-production-distribution"
     ],
     "displayRoles": [
       "lens-card",
@@ -3096,6 +3128,22 @@ export const internalRelationshipRecords = [
       "gallery"
     ],
     "priority": 1
+  },
+  {
+    "id": "63fc7b20-3114-435f-8ee2-19c51ab4963d",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "3daf5441-fd9e-4e64-a79a-3f2193cff90c",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "70070e7d-95f0-4f9f-b10a-76372d451540",
+    "targetType": "evidence",
+    "role": "supporting",
+    "supportedLensIds": [
+      "physical-systems-engineering"
+    ]
   },
   {
     "id": "54b5d0c0-716a-4636-a9fb-780b7e21c301",
@@ -3106,7 +3154,7 @@ export const internalRelationshipRecords = [
     "sourceId": "d60b7fcd-2a34-448c-8d2c-348746b468c1",
     "sourceType": "hat",
     "relationshipType": "applied-in",
-    "targetId": "3b5f6ca1-982f-4ef2-9168-9f6f55d75247",
+    "targetId": "3daf5441-fd9e-4e64-a79a-3f2193cff90c",
     "targetType": "work",
     "role": "supporting"
   },
@@ -3651,6 +3699,22 @@ export const internalRelationshipRecords = [
     "role": "primary"
   },
   {
+    "id": "ce36e275-fdbd-45ac-80fe-eeebd235304d",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "sourceId": "f012677a-53ba-4abd-be9a-256abbe4bad4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "b075ffd9-91e5-4270-b5a5-d05578373ef8",
+    "targetType": "evidence",
+    "role": "supporting",
+    "supportedLensIds": [
+      "physical-systems-engineering"
+    ]
+  },
+  {
     "id": "7eb6536d-872c-4746-92cf-9c89c1afdb85",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3671,7 +3735,7 @@ export const internalRelationshipRecords = [
     "sourceId": "cd3c2817-852d-48fb-9895-c17de5b6082b",
     "sourceType": "hat",
     "relationshipType": "applied-in",
-    "targetId": "ddacd462-8061-45c7-b33d-2d79059c88d7",
+    "targetId": "f012677a-53ba-4abd-be9a-256abbe4bad4",
     "targetType": "work",
     "role": "supporting"
   },

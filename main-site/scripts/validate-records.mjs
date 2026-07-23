@@ -15,8 +15,8 @@ const allowedCapabilityGroups = new Set([
   "software-web-engineering",
   "infrastructure-operations",
   "brand-experience-systems",
-  "media-asset-systems",
-  "physical-technical-engineering",
+  "media-production-distribution",
+  "physical-systems-engineering",
 ]);
 const allowedEvidenceRoles = new Set([
   "cover", "interface", "identity", "process", "application", "reference",
@@ -130,18 +130,49 @@ for (const entry of collections.work) {
   if (!project || project.value.recordType !== "project") {
     errors.push(`${entry.file} references missing Project ${entry.value.projectId}.`);
   }
-  if (!Array.isArray(entry.value.capabilityGroupIds) || !entry.value.capabilityGroupIds.length) {
-    errors.push(`${entry.file} must have at least one capability group.`);
+  if ("capabilityGroupIds" in entry.value) {
+    errors.push(`${entry.file} still uses legacy capabilityGroupIds; use lensAssignments.`);
+  }
+  const assignments = entry.value.lensAssignments;
+  if (!Array.isArray(assignments) || !assignments.length) {
+    errors.push(`${entry.file} must have lensAssignments.`);
   } else {
-    for (const group of entry.value.capabilityGroupIds) {
-      if (!allowedCapabilityGroups.has(group)) {
-        errors.push(`${entry.file} has unknown capability group ${group}.`);
+    const primary = assignments.filter((assignment) => assignment.role === "primary");
+    const secondary = assignments.filter((assignment) => assignment.role === "secondary");
+    if (primary.length !== 1) errors.push(`${entry.file} must have exactly one primary lens.`);
+    if (secondary.length > 2) warnings.push(`${entry.file} has more than two secondary lenses.`);
+    if (new Set(assignments.map((assignment) => assignment.lensId)).size !== assignments.length) {
+      errors.push(`${entry.file} repeats a lens assignment.`);
+    }
+    for (const assignment of assignments) {
+      if (!allowedCapabilityGroups.has(assignment.lensId)) {
+        errors.push(`${entry.file} has unknown lens ${assignment.lensId}.`);
       }
+      if (!assignment.rationale?.trim()) errors.push(`${entry.file} has a lens assignment without a rationale.`);
+    }
+    const lensIds = new Set(assignments.map((assignment) => assignment.lensId));
+    const responsibilityText = `${entry.value.title} ${entry.value.summary} ${assignments.map((assignment) => assignment.lensSummary ?? "").join(" ")}`;
+    if (lensIds.has("physical-systems-engineering") && lensIds.has("media-production-distribution")) {
+      const physicalRationale = assignments.find((assignment) => assignment.lensId === "physical-systems-engineering")?.rationale;
+      const mediaRationale = assignments.find((assignment) => assignment.lensId === "media-production-distribution")?.rationale;
+      if (physicalRationale === mediaRationale) warnings.push(`${entry.file} assigns Physical and Media without distinct rationale.`);
+    }
+    if (lensIds.has("infrastructure-operations") && /\\binstall(?:ation|ed|ing)?\\b/i.test(`${entry.value.title} ${entry.value.summary}`) && !/cloud|server|runtime|deploy|domain|dns|release|environment|operations/i.test(`${entry.value.title} ${entry.value.summary}`)) {
+      warnings.push(`${entry.file} may assign Infrastructure merely because physical installation occurred.`);
+    }
+    if (lensIds.has("media-production-distribution") && !/creat|asset|capture|record|edit|mix|broadcast|playout|publish|archiv|media|deliver|distribution|sound.design|camera operation/i.test(responsibilityText)) {
+      warnings.push(`${entry.file} needs stronger responsibility language for its Media assignment.`);
+    }
+    if (lensIds.has("brand-experience-systems") && !/brand|identity|language|experience|visual|meaning|recogn|interface|interaction/i.test(responsibilityText)) {
+      warnings.push(`${entry.file} needs stronger responsibility language for its Brand assignment.`);
     }
   }
 }
 
 for (const entry of collections.project) {
+  if ("capabilityGroupIds" in entry.value || "lensAssignments" in entry.value) {
+    errors.push(`${entry.file} classifies a Project directly; Projects must inherit lenses from Work Contributions.`);
+  }
   for (const preference of entry.value.lensPresentationPreferences ?? []) {
     if (!allowedCapabilityGroups.has(preference.lensId)) errors.push(`${entry.file} has unknown lens presentation preference ${preference.lensId}.`);
     if (preference.editorialBoost != null && (!Number.isFinite(preference.editorialBoost) || preference.editorialBoost < -10 || preference.editorialBoost > 10)) {

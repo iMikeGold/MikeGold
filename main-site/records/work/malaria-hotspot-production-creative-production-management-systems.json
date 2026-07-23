@@ -10,7 +10,11 @@
   "summary": "Coordination and management of interdependent production requirements.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition"
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    }
   ]
 }

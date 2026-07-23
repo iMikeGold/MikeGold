@@ -1,0 +1,20 @@
+{
+  "id": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "projectId": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
+  "slug": "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+  "title": "Broadcast-audio delivery",
+  "summary": "Live audio delivery from the pitch-side system into the Eagles' broadcast channel and its audience-facing output.",
+  "status": "historical",
+  "visibility": "public",
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+    }
+  ]
+}

@@ -107,7 +107,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 5,
         "editorialBoost": 6,
         "showcase": true,
@@ -180,7 +180,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 7,
         "editorialBoost": 4,
         "showcase": true,
@@ -225,7 +225,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 6,
         "editorialBoost": 5,
         "showcase": true,
@@ -249,7 +249,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 4,
         "editorialBoost": 7,
         "showcase": true,
@@ -287,7 +287,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 3,
         "editorialBoost": 8,
         "showcase": true,
@@ -388,7 +388,7 @@ export const publicProjects = [
     "establishedYear": 2007,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 10,
         "editorialBoost": 2,
         "showcase": true,
@@ -430,7 +430,7 @@ export const publicProjects = [
     "establishedYear": 2013,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 9,
         "editorialBoost": 2,
         "showcase": true,
@@ -457,7 +457,7 @@ export const publicProjects = [
     "establishedYear": 2018,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 3,
         "editorialBoost": 8,
         "showcase": true,
@@ -475,7 +475,7 @@ export const publicProjects = [
     "establishedYear": 2007,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 7,
         "editorialBoost": 4,
         "showcase": true,
@@ -544,7 +544,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 8,
         "editorialBoost": 3,
         "showcase": true,
@@ -562,7 +562,7 @@ export const publicProjects = [
     "establishedYear": 2019,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 1,
         "editorialBoost": 10,
         "showcase": true,
@@ -604,14 +604,14 @@ export const publicProjects = [
     "context": "Living Control / CEDIA",
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 5,
         "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 2,
         "editorialBoost": 9,
         "showcase": true,
@@ -653,7 +653,7 @@ export const publicProjects = [
     "establishedYear": 2018,
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 2,
         "editorialBoost": 9,
         "showcase": true,
@@ -670,7 +670,7 @@ export const publicProjects = [
     "context": "PlayStation",
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 6,
         "editorialBoost": 5,
         "showcase": true,
@@ -695,7 +695,7 @@ export const publicProjects = [
     "context": "Stanhope-Seta",
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 8,
         "editorialBoost": 3,
         "showcase": true,
@@ -720,7 +720,7 @@ export const publicProjects = [
     "context": "bluedot festival",
     "lensPresentationPreferences": [
       {
-        "lensId": "physical-technical-engineering",
+        "lensId": "physical-systems-engineering",
         "editorialSequence": 4,
         "editorialBoost": 7,
         "showcase": true,
@@ -744,7 +744,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 9,
         "editorialBoost": 2,
         "showcase": true,
@@ -799,7 +799,7 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "media-asset-systems",
+        "lensId": "media-production-distribution",
         "editorialSequence": 1,
         "editorialBoost": 10,
         "showcase": true,

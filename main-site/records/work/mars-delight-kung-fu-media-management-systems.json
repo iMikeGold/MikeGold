@@ -10,8 +10,17 @@
   "summary": "Organisation and management of media within a creative production workflow.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "media-asset-systems"
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: Organisation and management of media within a creative production workflow."
+    }
   ]
 }

@@ -5,13 +5,16 @@
   "createdAt": "2026-07-20T00:00:00.000Z",
   "updatedAt": "2026-07-20T00:00:00.000Z",
   "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
-  "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems",
-  "title": "Sound design and audio systems",
-  "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
+  "slug": "playstation-croatia-ps5-sound-tour-sound-design",
+  "title": "Sound design",
+  "summary": "Sound-design contribution for a location-based musical presentation of the PlayStation 5 startup sound.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+    }
   ]
 }

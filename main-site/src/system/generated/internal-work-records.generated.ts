@@ -16,10 +16,24 @@ export const internalWorkRecords = [
     "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Brand identity, responsive web development and cloud deployment for a live sports service."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: Brand identity, responsive web development and cloud deployment for a live sports service."
+      }
     ]
   },
   {
@@ -34,9 +48,12 @@ export const internalWorkRecords = [
     "summary": "Engineering of reliable distribution paths supporting the test environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -51,9 +68,18 @@ export const internalWorkRecords = [
     "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Early software research exploring a graph-based product model and the systems needed to make it useful."
+      }
     ]
   },
   {
@@ -68,9 +94,18 @@ export const internalWorkRecords = [
     "summary": "Identity, content structure and web-experience direction for an independent-products project.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "software-web-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Identity, content structure and web-experience direction for an independent-products project."
+      }
     ]
   },
   {
@@ -85,9 +120,18 @@ export const internalWorkRecords = [
     "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge."
+      }
     ]
   },
   {
@@ -102,10 +146,12 @@ export const internalWorkRecords = [
     "summary": "System preparation and live audio engineering for a festival performance environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "infrastructure-operations",
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -120,10 +166,24 @@ export const internalWorkRecords = [
     "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Product and data architecture for a structured web-system project, with its delivery model in development."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: Product and data architecture for a structured web-system project, with its delivery model in development."
+      }
     ]
   },
   {
@@ -138,8 +198,12 @@ export const internalWorkRecords = [
     "summary": "Systems-level electronics contribution in an operational environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -155,10 +219,24 @@ export const internalWorkRecords = [
     "status": "in-progress",
     "visibility": "public",
     "sequence": 3,
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "system-product-definition",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Design and development of the product-facing Cannvent application: a dedicated interface component translating the brand into functional software rather than a marketing website alone."
+      }
     ]
   },
   {
@@ -174,10 +252,24 @@ export const internalWorkRecords = [
     "status": "in-progress",
     "visibility": "public",
     "sequence": 2,
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "system-product-definition",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language."
+      }
     ]
   },
   {
@@ -190,16 +282,27 @@ export const internalWorkRecords = [
     "slug": "cannvent-system-development",
     "title": "Cannvent system development",
     "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
-    "lensSummaries": {
-      "software-web-engineering": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
-    },
     "status": "in-progress",
     "visibility": "public",
     "sequence": 1,
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces."
+      }
     ]
   },
   {
@@ -214,11 +317,24 @@ export const internalWorkRecords = [
     "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
+      }
     ]
   },
   {
@@ -233,9 +349,12 @@ export const internalWorkRecords = [
     "summary": "Preparation and setup of camera systems for promotional video production.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -250,9 +369,12 @@ export const internalWorkRecords = [
     "summary": "Planning and preparation of signal distribution for a multi-area event environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -267,8 +389,12 @@ export const internalWorkRecords = [
     "summary": "Testing and production-oriented engineering around connected control-system hardware.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -283,9 +409,12 @@ export const internalWorkRecords = [
     "summary": "Deployment-oriented systems work supporting a high-power electronic supply system.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "infrastructure-operations",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -300,9 +429,12 @@ export const internalWorkRecords = [
     "summary": "Build and installation work within an electronically controlled power-system context.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "infrastructure-operations",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -317,8 +449,12 @@ export const internalWorkRecords = [
     "summary": "Setup and preparation of media playout for the finished feature.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      }
     ]
   },
   {
@@ -333,10 +469,6 @@ export const internalWorkRecords = [
     "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "system-product-definition"
-    ],
     "stages": [
       {
         "key": "concepts",
@@ -353,6 +485,19 @@ export const internalWorkRecords = [
         "label": "Concept 3 + 4 synthesis",
         "status": "in-progress"
       }
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition."
+      }
     ]
   },
   {
@@ -367,10 +512,18 @@ export const internalWorkRecords = [
     "summary": "Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures."
+      }
     ]
   },
   {
@@ -385,8 +538,12 @@ export const internalWorkRecords = [
     "summary": "Analysis of connected operational and communication requirements within a customer-experience system.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      }
     ]
   },
   {
@@ -401,8 +558,12 @@ export const internalWorkRecords = [
     "summary": "Configuration-oriented systems work supporting a connected media and communications environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "infrastructure-operations",
+        "role": "primary",
+        "rationale": "The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment."
+      }
     ]
   },
   {
@@ -417,10 +578,24 @@ export const internalWorkRecords = [
     "summary": "An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: An organisational website combining management-focused content architecture, responsive delivery and domain operations."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: An organisational website combining management-focused content architecture, responsive delivery and domain operations."
+      }
     ]
   },
   {
@@ -435,10 +610,24 @@ export const internalWorkRecords = [
     "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections."
+      }
     ]
   },
   {
@@ -454,10 +643,24 @@ export const internalWorkRecords = [
     "status": "documented",
     "visibility": "public",
     "sequence": 3,
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A structured narrative model connecting the House charter, rooms, media and intellectual-property context."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: A structured narrative model connecting the House charter, rooms, media and intellectual-property context."
+      }
     ]
   },
   {
@@ -473,9 +676,18 @@ export const internalWorkRecords = [
     "status": "documented",
     "visibility": "public",
     "sequence": 4,
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Presentation rules and interface surfaces for music, imagery and digital assets across the House experience."
+      }
     ]
   },
   {
@@ -491,10 +703,24 @@ export const internalWorkRecords = [
     "status": "documented",
     "visibility": "public",
     "sequence": 2,
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House."
+      }
     ]
   },
   {
@@ -509,11 +735,20 @@ export const internalWorkRecords = [
     "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "brand-experience-systems"
-    ],
-    "sequence": 1
+    "sequence": 1,
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey."
+      }
+    ]
   },
   {
     "id": "6282865b-d9c1-40b4-9aaa-087efff0471d",
@@ -527,8 +762,12 @@ export const internalWorkRecords = [
     "summary": "Communications-path and redundancy engineering supporting live field operations.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -543,12 +782,24 @@ export const internalWorkRecords = [
     "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: An artist identity and digital application for presenting music, releases, media and archive material."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: An artist identity and digital application for presenting music, releases, media and archive material."
+      }
     ]
   },
   {
@@ -563,11 +814,24 @@ export const internalWorkRecords = [
     "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: A company identity and corporate web presence with a structured organisational story and domain foundation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A company identity and corporate web presence with a structured organisational story and domain foundation."
+      }
     ]
   },
   {
@@ -582,9 +846,18 @@ export const internalWorkRecords = [
     "summary": "Media distribution work supporting dual-output high-definition server delivery.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      },
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment.",
+        "lensSummary": "Physical-system responsibility: Media distribution work supporting dual-output high-definition server delivery."
+      }
     ]
   },
   {
@@ -599,8 +872,12 @@ export const internalWorkRecords = [
     "summary": "Hardware prototyping and design work within a dedicated media-server product environment.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -615,8 +892,12 @@ export const internalWorkRecords = [
     "summary": "Coordination and management of interdependent production requirements.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      }
     ]
   },
   {
@@ -631,9 +912,18 @@ export const internalWorkRecords = [
     "summary": "Organisation and management of media within a creative production workflow.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Organisation and management of media within a creative production workflow."
+      }
     ]
   },
   {
@@ -648,10 +938,24 @@ export const internalWorkRecords = [
     "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR."
+      }
     ]
   },
   {
@@ -666,9 +970,18 @@ export const internalWorkRecords = [
     "summary": "Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Creation and preparation of product-facing visual assets for digital presentation and future commerce use."
+      }
     ]
   },
   {
@@ -683,9 +996,6 @@ export const internalWorkRecords = [
     "summary": "Development of the core MiCKz identity and a mark capable of supporting a wider product family.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems"
-    ],
     "stages": [
       {
         "key": "exploration",
@@ -702,6 +1012,13 @@ export const internalWorkRecords = [
         "label": "Refinement",
         "status": "in-progress"
       }
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      }
     ]
   },
   {
@@ -716,11 +1033,6 @@ export const internalWorkRecords = [
     "summary": "A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "brand-experience-systems",
-      "media-asset-systems"
-    ],
     "stages": [
       {
         "key": "category-definition",
@@ -737,6 +1049,25 @@ export const internalWorkRecords = [
         "label": "Product application",
         "status": "planned"
       }
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz."
+      }
     ]
   },
   {
@@ -751,11 +1082,24 @@ export const internalWorkRecords = [
     "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence."
+      }
     ]
   },
   {
@@ -770,11 +1114,24 @@ export const internalWorkRecords = [
     "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery."
+      }
     ]
   },
   {
@@ -789,9 +1146,18 @@ export const internalWorkRecords = [
     "summary": "Structuring the platform's artists, releases and related presentation content as reusable application data.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Structuring the platform's artists, releases and related presentation content as reusable application data."
+      }
     ]
   },
   {
@@ -806,8 +1172,12 @@ export const internalWorkRecords = [
     "summary": "Configuration and troubleshooting of the build and cloud-delivery path used to publish the current web application.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "infrastructure-operations",
+        "role": "primary",
+        "rationale": "The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment."
+      }
     ]
   },
   {
@@ -822,10 +1192,6 @@ export const internalWorkRecords = [
     "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
     "status": "completed",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "media-asset-systems"
-    ],
     "stages": [
       {
         "key": "original",
@@ -842,6 +1208,13 @@ export const internalWorkRecords = [
         "label": "Typography, geometry and colour refined",
         "status": "completed"
       }
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      }
     ]
   },
   {
@@ -856,9 +1229,18 @@ export const internalWorkRecords = [
     "summary": "Design and implementation of a responsive web surface for presenting the platform and its music content.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Design and implementation of a responsive web surface for presenting the platform and its music content."
+      }
     ]
   },
   {
@@ -873,8 +1255,12 @@ export const internalWorkRecords = [
     "summary": "Logo development for Ourgani, using an organic yin-yang construction to express balance, exchange and the relationship between complementary natural systems.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      }
     ]
   },
   {
@@ -889,10 +1275,44 @@ export const internalWorkRecords = [
     "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "software-web-engineering",
-      "infrastructure-operations"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+        "lensSummary": "Infrastructure and operations responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience."
+      }
+    ]
+  },
+  {
+    "id": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "projectId": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
+    "slug": "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+    "title": "Broadcast-audio delivery",
+    "summary": "Live audio delivery from the pitch-side system into the Eagles' broadcast channel and its audience-facing output.",
+    "status": "historical",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      }
     ]
   },
   {
@@ -902,14 +1322,37 @@ export const internalWorkRecords = [
     "createdAt": "2026-07-23T00:00:00.000Z",
     "updatedAt": "2026-07-23T00:00:00.000Z",
     "projectId": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
-    "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems",
-    "title": "Field communications and broadcast-audio systems",
-    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+    "title": "Field communications and resilient signal systems",
+    "summary": "Pitch-side communications and resilient physical signal paths supporting live field operations.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
+    ]
+  },
+  {
+    "id": "3daf5441-fd9e-4e64-a79a-3f2193cff90c",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
+    "slug": "playstation-croatia-ps5-sound-tour-audio-system-implementation",
+    "title": "Audio-system implementation",
+    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
+    "status": "historical",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -919,14 +1362,17 @@ export const internalWorkRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
-    "slug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems",
-    "title": "Sound design and audio systems",
-    "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
+    "slug": "playstation-croatia-ps5-sound-tour-sound-design",
+    "title": "Sound design",
+    "summary": "Sound-design contribution for a location-based musical presentation of the PlayStation 5 startup sound.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      }
     ]
   },
   {
@@ -941,11 +1387,24 @@ export const internalWorkRecords = [
     "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath."
+      }
     ]
   },
   {
@@ -960,12 +1419,24 @@ export const internalWorkRecords = [
     "summary": "Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge."
+      }
     ]
   },
   {
@@ -980,9 +1451,12 @@ export const internalWorkRecords = [
     "summary": "Camera operation within a structured company-video production workflow.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      }
     ]
   },
   {
@@ -997,10 +1471,6 @@ export const internalWorkRecords = [
     "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "system-product-definition"
-    ],
     "stages": [
       {
         "key": "original",
@@ -1017,6 +1487,19 @@ export const internalWorkRecords = [
         "label": "Coded-language system",
         "status": "in-progress"
       }
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+      }
     ]
   },
   {
@@ -1031,11 +1514,24 @@ export const internalWorkRecords = [
     "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "system-product-definition",
-      "infrastructure-operations",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+        "lensSummary": "System and product-definition responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+      }
     ]
   },
   {
@@ -1050,11 +1546,24 @@ export const internalWorkRecords = [
     "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+      }
     ]
   },
   {
@@ -1069,8 +1578,32 @@ export const internalWorkRecords = [
     "summary": "Test-system work supporting repeatable small-scale flash-point measurement.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
+    ]
+  },
+  {
+    "id": "f012677a-53ba-4abd-be9a-256abbe4bad4",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "projectId": "b136c34a-ec2e-414d-bb82-2561252f3103",
+    "slug": "the-frisbys-you-are-camera-system-setup",
+    "title": "Camera-system setup",
+    "summary": "Physical preparation, configuration and signal setup for the multicamera production environment.",
+    "status": "historical",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "physical-systems-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      }
     ]
   },
   {
@@ -1080,14 +1613,17 @@ export const internalWorkRecords = [
     "createdAt": "2026-07-20T00:00:00.000Z",
     "updatedAt": "2026-07-20T00:00:00.000Z",
     "projectId": "b136c34a-ec2e-414d-bb82-2561252f3103",
-    "slug": "the-frisbys-you-are-multicamera-setup-and-operation",
-    "title": "Multicamera setup and operation",
+    "slug": "the-frisbys-you-are-multicamera-operation",
+    "title": "Multicamera operation",
     "summary": "Coordination and operation of multiple camera sources within a music-production workflow.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "media-asset-systems",
-      "physical-technical-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
+      }
     ]
   },
   {
@@ -1102,10 +1638,18 @@ export const internalWorkRecords = [
     "summary": "An application product in development around product definition, user experience and structured content.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: An application product in development around product definition, user experience and structured content."
+      }
     ]
   },
   {
@@ -1120,11 +1664,24 @@ export const internalWorkRecords = [
     "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts."
+      }
     ]
   },
   {
@@ -1139,9 +1696,18 @@ export const internalWorkRecords = [
     "summary": "A reserved brand concept with early naming and identity exploration.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "software-web-engineering",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: A reserved brand concept with early naming and identity exploration."
+      }
     ]
   },
   {
@@ -1156,11 +1722,24 @@ export const internalWorkRecords = [
     "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces."
+      }
     ]
   },
   {
@@ -1175,9 +1754,18 @@ export const internalWorkRecords = [
     "summary": "A company identity and digital-presence project covering brand direction and corporate content structure.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "software-web-engineering"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: A company identity and digital-presence project covering brand direction and corporate content structure."
+      }
     ]
   },
   {
@@ -1192,9 +1780,12 @@ export const internalWorkRecords = [
     "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      }
     ]
   },
   {
@@ -1209,12 +1800,24 @@ export const internalWorkRecords = [
     "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
     "status": "in-progress",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "software-web-engineering",
-      "infrastructure-operations",
-      "brand-experience-systems",
-      "media-asset-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "software-web-engineering",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+        "lensSummary": "Software and web-engineering responsibility: Identity and web-application development for an online radio station designed around live metadata and future platform integration."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+        "lensSummary": "Media production and distribution responsibility: Identity and web-application development for an online radio station designed around live metadata and future platform integration."
+      }
     ]
   },
   {
@@ -1229,8 +1832,12 @@ export const internalWorkRecords = [
     "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
     "status": "documented",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+      }
     ]
   },
   {
@@ -1245,9 +1852,18 @@ export const internalWorkRecords = [
     "summary": "A wellness-service concept awaiting further product definition and implementation.",
     "status": "historical",
     "visibility": "public",
-    "capabilityGroupIds": [
-      "system-product-definition",
-      "brand-experience-systems"
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+        "lensSummary": "Brand and experience-system responsibility: A wellness-service concept awaiting further product definition and implementation."
+      }
     ]
   }
 ] as InternalWorkRecord[];

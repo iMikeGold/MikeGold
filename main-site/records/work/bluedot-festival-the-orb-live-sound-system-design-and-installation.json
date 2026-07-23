@@ -10,9 +10,11 @@
   "summary": "System preparation and live audio engineering for a festival performance environment.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "infrastructure-operations",
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

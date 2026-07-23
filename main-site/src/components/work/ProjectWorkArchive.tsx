@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import EvidenceDisclosure from "@/components/work/EvidenceDisclosure";
 import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
 import type { PublicHat } from "@/system/hats/hat.types";
-import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
+import { resolveCapabilityGroupId, type CapabilityGroupId } from "@/system/work/capability-groups";
 import type { PublicWorkProjection } from "@/system/work/work.types";
 
 export default function ProjectWorkArchive({ work, hats, evidence }: {
@@ -15,8 +15,8 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
   const [area, setArea] = useState<CapabilityGroupId | "">("");
 
   useEffect(() => {
-    const requested = new URLSearchParams(window.location.search).get("area");
-    if (CAPABILITY_GROUPS.some((group) => group.id === requested)) setArea(requested as CapabilityGroupId);
+    const requested = resolveCapabilityGroupId(new URLSearchParams(window.location.search).get("area"));
+    if (requested) setArea(requested);
   }, []);
 
   const hatBySlug = useMemo(() => new Map(hats.map((hat) => [hat.slug, hat])), [hats]);

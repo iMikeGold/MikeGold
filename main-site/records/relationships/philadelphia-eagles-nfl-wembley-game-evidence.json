@@ -10,7 +10,14 @@
   "targetId": "694a5d64-eb59-4689-b0d4-65656a1a186a",
   "targetType": "evidence",
   "role": "primary",
-  "supportedLensIds": ["physical-technical-engineering", "media-asset-systems"],
-  "displayRoles": ["lens-card", "supporting", "gallery"],
+  "supportedLensIds": [
+    "physical-systems-engineering",
+    "media-production-distribution"
+  ],
+  "displayRoles": [
+    "lens-card",
+    "supporting",
+    "gallery"
+  ],
   "priority": 1
 }

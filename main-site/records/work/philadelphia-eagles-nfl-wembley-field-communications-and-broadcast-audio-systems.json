@@ -5,13 +5,16 @@
   "createdAt": "2026-07-23T00:00:00.000Z",
   "updatedAt": "2026-07-23T00:00:00.000Z",
   "projectId": "d6ded8d6-74a5-4e13-ab2d-765f1e9f95ea",
-  "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems",
-  "title": "Field communications and broadcast-audio systems",
-  "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+  "slug": "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+  "title": "Field communications and resilient signal systems",
+  "summary": "Pitch-side communications and resilient physical signal paths supporting live field operations.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "physical-technical-engineering",
-    "media-asset-systems"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

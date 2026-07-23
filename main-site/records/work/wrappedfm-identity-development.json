@@ -10,5 +10,11 @@
   "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    }
+  ]
 }

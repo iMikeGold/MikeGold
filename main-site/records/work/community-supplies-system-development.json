@@ -10,10 +10,23 @@
   "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "software-web-engineering",
-    "infrastructure-operations",
-    "brand-experience-systems"
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "software-web-engineering",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+      "lensSummary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
+    }
   ]
 }

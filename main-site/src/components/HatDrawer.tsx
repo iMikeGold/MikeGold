@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import HatRadar from "@/components/Polygon/HatRadar";
-import { combineHatProfiles } from "@/system/services/polygon-engine";
+import { combineHatProfiles, composeCombinedHatDescription } from "@/system/services/polygon-engine";
 import { getHatProfile } from "@/system/profile/hat-profile";
 import { calculateWeight } from "@/system/services/weights";
 import { PROFILE_AXES, type HatProfile } from "@/system/profile/hat-profile";
@@ -50,11 +50,9 @@ export default function HatDrawer({
     polygonValues as HatProfile,
     polygonHats.map((item: any) => item.name),
   );
-  const colorForHat = (id: string) => {
-    const hue = [...id].reduce((total, character) => (total * 31 + character.charCodeAt(0)) % 360, 0);
-    return `hsl(${hue} 82% 66%)`;
-  };
-  const polygonLayers = polygonHats.slice(0, 8).map((item: any) => ({ values: getHatProfile(item), color: colorForHat(item.id) }));
+  const layerColours = ["#60a5fa", "#f472b6", "#34d399", "#fbbf24", "#a78bfa", "#22d3ee", "#fb7185"] as const;
+  const polygonLayers = polygonHats.slice(0, 7).map((item: any, index: number) => ({ values: getHatProfile(item), color: layerColours[index] }));
+  const combinedDescription = composeCombinedHatDescription(polygonHats);
 
   return (
     <div
@@ -92,7 +90,7 @@ export default function HatDrawer({
               Combined profile calculated from {selectedHats.length} selected Hats
             </div>
           )}
-          {polygonHats.length > polygonLayers.length && <div style={{ fontSize: 11, color: "#999", marginTop: 3 }}>Displaying the {polygonLayers.length} strongest individual layers.</div>}
+          {polygonHats.length > polygonLayers.length && <div style={{ fontSize: 11, color: "#999", marginTop: 3 }}>Displaying the first {polygonLayers.length} selected layers.</div>}
         </div>
         <button
           onClick={onClose}
@@ -139,7 +137,7 @@ export default function HatDrawer({
         }}
       >
         <p style={{ margin: "0 0 14px 0", opacity: 0.9 }}>
-          {hat.description}
+          {combinedDescription}
         </p>
 
         <details className="polygon-key">

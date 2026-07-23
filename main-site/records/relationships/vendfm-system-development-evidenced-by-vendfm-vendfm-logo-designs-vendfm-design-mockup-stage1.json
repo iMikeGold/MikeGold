@@ -11,7 +11,13 @@
   "targetId": "63fde8dd-184c-4e22-9236-db2832597640",
   "targetType": "evidence",
   "role": "supporting",
-  "supportedLensIds": ["brand-experience-systems", "system-product-definition"],
-  "displayRoles": ["lens-card", "supporting"],
+  "supportedLensIds": [
+    "brand-experience-systems",
+    "system-product-definition"
+  ],
+  "displayRoles": [
+    "lens-card",
+    "supporting"
+  ],
   "priority": 2
 }

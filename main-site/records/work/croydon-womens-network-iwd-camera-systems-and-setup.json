@@ -10,8 +10,11 @@
   "summary": "Preparation and setup of camera systems for promotional video production.",
   "status": "historical",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "media-asset-systems",
-    "physical-technical-engineering"
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
   ]
 }

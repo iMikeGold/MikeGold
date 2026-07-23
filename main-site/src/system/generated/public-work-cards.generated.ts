@@ -54,12 +54,12 @@ export const publicWorkCards = [
     "projectSlug": "cannvent",
     "lensId": "software-web-engineering",
     "projectName": "Cannvent",
-    "contributionTitle": "Cannvent system development · Cannvent Space community platform · Cannvent application experience",
+    "contributionTitle": "Cannvent Space community platform · Cannvent application experience · Cannvent system development",
     "summary": "Software and web-system development for the Cannvent product, including its application, community platform and connected functional interfaces.",
     "relevantWorkSlugs": [
-      "cannvent-system-development",
       "cannvent-community-space-development",
-      "cannvent-application-development"
+      "cannvent-application-development",
+      "cannvent-system-development"
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
@@ -93,10 +93,10 @@ export const publicWorkCards = [
       "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 92.34,
+    "relevanceScore": 89.78,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 25.87,
-    "finalScore": 23.085,
+    "finalScore": 22.445,
     "href": "/projects/cannvent?area=software-web-engineering"
   },
   {
@@ -104,7 +104,7 @@ export const publicWorkCards = [
     "lensId": "system-product-definition",
     "projectName": "Cannvent",
     "contributionTitle": "Cannvent system development · Cannvent Space community platform · Cannvent application experience",
-    "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+    "summary": "System and product-definition responsibility: A separate community and participation surface for Cannvent, requiring its own information architecture, interface behaviour and translation of the wider brand language.",
     "relevantWorkSlugs": [
       "cannvent-system-development",
       "cannvent-community-space-development",
@@ -139,15 +139,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 91.34,
+    "relevanceScore": 87.77,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 25.87,
     "editorialSequence": 1,
-    "finalScore": 85.83500000000001,
+    "finalScore": 84.9425,
     "href": "/projects/cannvent?area=system-product-definition"
   },
   {
@@ -155,7 +155,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Cannvent",
     "contributionTitle": "Cannvent system development · Cannvent Space community platform · Cannvent application experience",
-    "summary": "Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
+    "summary": "Brand and experience-system responsibility: Brand, language and digital-experience development for a wellness product with planned community, content and commerce surfaces.",
     "relevantWorkSlugs": [
       "cannvent-system-development",
       "cannvent-community-space-development",
@@ -190,15 +190,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 91.34,
+    "relevanceScore": 85.13,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 25.87,
     "editorialSequence": 6,
-    "finalScore": 55.835,
+    "finalScore": 54.2825,
     "href": "/projects/cannvent?area=brand-experience-systems"
   },
   {
@@ -253,7 +253,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "FindThy",
     "contributionTitle": "FindThy identity and discovery language · FindThy system development",
-    "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
+    "summary": "Brand and experience-system responsibility: Brand and experience architecture for a selective discovery agency, including positioning, language and cultural case structures.",
     "relevantWorkSlugs": [
       "findthy-identity-language-development",
       "findthy-system-development"
@@ -291,59 +291,54 @@ export const publicWorkCards = [
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 92.48,
+    "relevanceScore": 89.98,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 62.120000000000005,
+    "finalScore": 61.495000000000005,
     "href": "/projects/findthy?area=brand-experience-systems"
   },
   {
     "projectSlug": "findthy",
     "lensId": "system-product-definition",
     "projectName": "FindThy",
-    "contributionTitle": "FindThy identity and discovery language · FindThy system development",
-    "summary": "Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
+    "contributionTitle": "FindThy identity and discovery language",
+    "summary": "System and product-definition responsibility: Four related identity concepts translate recognition, focus, archival reference and the instant of discovery into a flexible mark system. Deep green carries discovery and considered selection; black provides authority and clarity; pale gold signals value, distinction and the moment of recognition.",
     "relevantWorkSlugs": [
-      "findthy-identity-language-development",
-      "findthy-system-development"
+      "findthy-identity-language-development"
     ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "data-modeler",
-      "meaning-architect"
-    ],
+    "leadHatSlugs": [],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "findthy-findthy-findthy-website",
-      "src": "/images/projects/findthy/findthy-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for FindThy.",
-      "evidenceType": "website"
+      "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
+      "src": "/images/projects/findthy/logo_designs/design_systems/findthy-concept1-green.webp",
+      "alt": "A perfect form, deliberately interrupted: the break becomes the visual moment of recognition, discovery and attention. Deep green frames FindThy as selective, considered and exploratory, with black and pale gold available as authoritative and high-value variants.",
+      "evidenceType": "image"
     },
     "supportingVisuals": [
-      {
-        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept1-green",
-        "src": "/images/projects/findthy/logo_designs/design_systems/findthy-concept1-green.webp",
-        "alt": "A perfect form, deliberately interrupted: the break becomes the visual moment of recognition, discovery and attention. Deep green frames FindThy as selective, considered and exploratory, with black and pale gold available as authoritative and high-value variants.",
-        "evidenceType": "image"
-      },
       {
         "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept2-black",
         "src": "/images/projects/findthy/logo_designs/design_systems/findthy-concept2-black.webp",
         "alt": "The FT monogram sits inside a focusing and framing device. Target-like lines make the act of finding visible: attention narrows, a subject is recognised and the identity records that moment with precision.",
         "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "findthy-findthy-logo-designs-design-systems-findthy-concept3-black",
+        "src": "/images/projects/findthy/logo_designs/design_systems/findthy-concept3-black.webp",
+        "alt": "A modular FT recognition mark built from framing corners, directional indicators and reference notation. Its language can extend into page numbers, recognised-subject IDs and archive labels rather than behaving as a logo alone.",
+        "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
+      "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 92.48,
+    "relevanceScore": 77.43,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 23.12,
+    "finalScore": 19.3575,
     "href": "/projects/findthy?area=system-product-definition"
   },
   {
@@ -441,53 +436,6 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "gouldbourne-registry",
-    "lensId": "system-product-definition",
-    "projectName": "Gouldbourne Registry",
-    "contributionTitle": "Gouldbourne Registry system development",
-    "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
-    "relevantWorkSlugs": [
-      "gouldbourne-registry-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "schema-architect",
-      "systems-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
-      "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-archive-page.webp",
-      "alt": "The archive interface exposes milestones, documents, publications and historical material produced from the registry's structured back end, making organisational history navigable as a continuing record.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
-        "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-history-page.webp",
-        "alt": "A dedicated history route shows how the same archival data can be projected editorially without duplicating or hard-coding the underlying company record system.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage",
-        "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-homepage.webp",
-        "alt": "The public projection of a long-term ownership system, translating company, intellectual-property and asset records into a deliberately restrained institutional interface.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 73.86,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.465,
-    "href": "/projects/gouldbourne-registry?area=system-product-definition"
-  },
-  {
-    "projectSlug": "gouldbourne-registry",
     "lensId": "software-web-engineering",
     "projectName": "Gouldbourne Registry",
     "contributionTitle": "Gouldbourne Registry system development",
@@ -535,10 +483,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "gouldbourne-registry",
-    "lensId": "infrastructure-operations",
+    "lensId": "system-product-definition",
     "projectName": "Gouldbourne Registry",
     "contributionTitle": "Gouldbourne Registry system development",
-    "summary": "Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
+    "summary": "System and product-definition responsibility: Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
     "relevantWorkSlugs": [
       "gouldbourne-registry-system-development"
     ],
@@ -571,15 +519,62 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 69.29,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 17.3225,
+    "href": "/projects/gouldbourne-registry?area=system-product-definition"
+  },
+  {
+    "projectSlug": "gouldbourne-registry",
+    "lensId": "infrastructure-operations",
+    "projectName": "Gouldbourne Registry",
+    "contributionTitle": "Gouldbourne Registry system development",
+    "summary": "Infrastructure and operations responsibility: Architecture and engineering of a structured institutional registry with typed records, validation, queries and public projections.",
+    "relevantWorkSlugs": [
+      "gouldbourne-registry-system-development"
+    ],
+    "leadHatSlugs": [
+      "data-modeler",
+      "schema-architect",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-archive-page",
+      "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-archive-page.webp",
+      "alt": "The archive interface exposes milestones, documents, publications and historical material produced from the registry's structured back end, making organisational history navigable as a continuing record.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-history-page",
+        "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-history-page.webp",
+        "alt": "A dedicated history route shows how the same archival data can be projected editorially without duplicating or hard-coding the underlying company record system.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "gouldbourne-registry-gouldbourne-group-web-development-gouldbourne-group-homepage",
+        "src": "/images/projects/gouldbourne_group/web_development/gouldbourne-group-homepage.webp",
+        "alt": "The public projection of a long-term ownership system, translating company, intellectual-property and asset records into a deliberately restrained institutional interface.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 7,
-    "finalScore": 45.465,
+    "finalScore": 44.322500000000005,
     "href": "/projects/gouldbourne-registry?area=infrastructure-operations"
   },
   {
@@ -682,7 +677,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "Metroplist",
     "contributionTitle": "Metroplist system development",
-    "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
+    "summary": "Software and web-engineering responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
     "relevantWorkSlugs": [
       "metroplist-system-development"
     ],
@@ -715,15 +710,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 6 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 78.16,
+    "relevanceScore": 73.59,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 24.7,
     "editorialSequence": 5,
-    "finalScore": 58.54,
+    "finalScore": 57.3975,
     "href": "/projects/metroplist?area=software-web-engineering"
   },
   {
@@ -731,7 +726,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Metroplist",
     "contributionTitle": "Metroplist system development",
-    "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
+    "summary": "Brand and experience-system responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
     "relevantWorkSlugs": [
       "metroplist-system-development"
     ],
@@ -764,13 +759,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 6 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 78.16,
+    "relevanceScore": 73.59,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 24.7,
-    "finalScore": 19.54,
+    "finalScore": 18.3975,
     "href": "/projects/metroplist?area=brand-experience-systems"
   },
   {
@@ -823,61 +818,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "mickz",
-    "lensId": "brand-experience-systems",
-    "projectName": "MiCKz",
-    "contributionTitle": "Digital product assets · Identity development · Food and drinks product system",
-    "summary": "Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
-    "relevantWorkSlugs": [
-      "mickz-digital-assets",
-      "mickz-identity-development",
-      "mickz-product-system"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "logo-systems-designer",
-      "visual-language-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
-      "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
-      "alt": "Applied brand and product-system evidence for MiCKz.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "mickz-mickz-mock-ups-hot-mickz",
-        "src": "/images/projects/mickz/mock_ups/hot-mickz.webp",
-        "alt": "Applied brand and product-system evidence for MiCKz.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "mickz-mickz-mock-ups-bissy-mickz-tea",
-        "src": "/images/projects/mickz/mock_ups/bissy-mickz-tea.webp",
-        "alt": "Applied brand and product-system evidence for MiCKz.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "3 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 12 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 101.46,
-    "editorialBoost": 3,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 8,
-    "finalScore": 46.364999999999995,
-    "href": "/projects/mickz?area=brand-experience-systems"
-  },
-  {
-    "projectSlug": "mickz",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "MiCKz",
     "contributionTitle": "Digital product assets · Food and drinks product system",
-    "summary": "Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
+    "summary": "Media production and distribution responsibility: A related visual framework that allows food and drinks products to use distinct styling while remaining recognisably MiCKz.",
     "relevantWorkSlugs": [
       "mickz-digital-assets",
       "mickz-product-system"
@@ -914,12 +858,63 @@ export const publicWorkCards = [
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 91.85,
+    "relevanceScore": 89.34,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 61.9625,
-    "href": "/projects/mickz?area=media-asset-systems"
+    "finalScore": 61.335,
+    "href": "/projects/mickz?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "mickz",
+    "lensId": "brand-experience-systems",
+    "projectName": "MiCKz",
+    "contributionTitle": "Identity development · Digital product assets · Food and drinks product system",
+    "summary": "Brand and experience-system responsibility: Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
+    "relevantWorkSlugs": [
+      "mickz-identity-development",
+      "mickz-digital-assets",
+      "mickz-product-system"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "visual-language-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
+      "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
+      "alt": "Applied brand and product-system evidence for MiCKz.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-hot-mickz",
+        "src": "/images/projects/mickz/mock_ups/hot-mickz.webp",
+        "alt": "Applied brand and product-system evidence for MiCKz.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "mickz-mickz-mock-ups-bissy-mickz-tea",
+        "src": "/images/projects/mickz/mock_ups/bissy-mickz-tea.webp",
+        "alt": "Applied brand and product-system evidence for MiCKz.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "3 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 95.9,
+    "editorialBoost": 3,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 8,
+    "finalScore": 44.975,
+    "href": "/projects/mickz?area=brand-experience-systems"
   },
   {
     "projectSlug": "mickz",
@@ -1067,7 +1062,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "MikeGold.co.uk",
     "contributionTitle": "MikeGold.co.uk system development",
-    "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
+    "summary": "Software and web-engineering responsibility: A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
     "relevantWorkSlugs": [
       "mikegold-engineer-system-development"
     ],
@@ -1100,68 +1095,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 4 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 75.46,
+    "relevanceScore": 70.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 22,
-    "finalScore": 18.865,
+    "finalScore": 17.725,
     "href": "/projects/mikegold-engineer?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "mikegold-engineer",
-    "lensId": "infrastructure-operations",
-    "projectName": "MikeGold.co.uk",
-    "contributionTitle": "MikeGold.co.uk system development",
-    "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
-    "relevantWorkSlugs": [
-      "mikegold-engineer-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "systems-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-1-hat-polygon-graph-map-display",
-      "src": "/images/projects/mike_gold/website_components/hat_registry_system/1-hat-polygon-graph-map-display.webp",
-      "alt": "A single selected Hat establishes the first weighted cognitive and delivery profile in the Registry engine.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-2-hats-polygon-graph-map-display",
-        "src": "/images/projects/mike_gold/website_components/hat_registry_system/2-hats-polygon-graph-map-display.webp",
-        "alt": "Adding a second capability changes the combined attribute wheel while retaining each Hat as an explainable layer.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "mikegold-engineer-mike-gold-website-components-hat-registry-system-3-hats-polygon-graph-map-display",
-        "src": "/images/projects/mike_gold/website_components/hat_registry_system/3-hats-polygon-graph-map-display.webp",
-        "alt": "The third Hat demonstrates how complementary skills stack into a broader, recalculated service configuration rather than a flat search result.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 4 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 75.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 22,
-    "finalScore": 18.865,
-    "href": "/projects/mikegold-engineer?area=infrastructure-operations"
   },
   {
     "projectSlug": "mikegold-engineer",
     "lensId": "brand-experience-systems",
     "projectName": "MikeGold.co.uk",
     "contributionTitle": "MikeGold.co.uk system development",
-    "summary": "A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
+    "summary": "Brand and experience-system responsibility: A professional operating system mapping multidisciplinary engineering capabilities to services, projects and applied evidence.",
     "relevantWorkSlugs": [
       "mikegold-engineer-system-development"
     ],
@@ -1194,13 +1142,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 4 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 75.46,
+    "relevanceScore": 70.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 22,
-    "finalScore": 18.865,
+    "finalScore": 17.725,
     "href": "/projects/mikegold-engineer?area=brand-experience-systems"
   },
   {
@@ -1301,11 +1249,11 @@ export const publicWorkCards = [
     "projectSlug": "musical-intelligence",
     "lensId": "software-web-engineering",
     "projectName": "Musical Intelligence",
-    "contributionTitle": "Music content architecture · Responsive web experience",
-    "summary": "Structuring the platform's artists, releases and related presentation content as reusable application data.",
+    "contributionTitle": "Responsive web experience · Music content architecture",
+    "summary": "Software and web-engineering responsibility: Structuring the platform's artists, releases and related presentation content as reusable application data.",
     "relevantWorkSlugs": [
-      "musical-intelligence-content-architecture",
-      "musical-intelligence-web-experience"
+      "musical-intelligence-web-experience",
+      "musical-intelligence-content-architecture"
     ],
     "leadHatSlugs": [
       "application-engineer",
@@ -1335,13 +1283,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 85.85,
+    "relevanceScore": 83.34,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 21.4625,
+    "finalScore": 20.835,
     "href": "/projects/musical-intelligence?area=software-web-engineering"
   },
   {
@@ -1394,7 +1342,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Musical Intelligence",
     "contributionTitle": "Musical Intelligence identity restoration · Responsive web experience",
-    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "summary": "Brand and experience-system responsibility: Design and implementation of a responsive web surface for presenting the platform and its music content.",
     "relevantWorkSlugs": [
       "musical-intelligence-identity-restoration",
       "musical-intelligence-web-experience"
@@ -1431,55 +1379,12 @@ export const publicWorkCards = [
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 91.85,
+    "relevanceScore": 89.34,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 7,
-    "finalScore": 49.9625,
+    "finalScore": 49.335,
     "href": "/projects/musical-intelligence?area=brand-experience-systems"
-  },
-  {
-    "projectSlug": "musical-intelligence",
-    "lensId": "media-asset-systems",
-    "projectName": "Musical Intelligence",
-    "contributionTitle": "Musical Intelligence identity restoration",
-    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
-    "relevantWorkSlugs": [
-      "musical-intelligence-identity-restoration"
-    ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-musical-intelligence",
-      "src": "/images/projects/musical_intelligence/logo_restore/musical-intelligence.webp",
-      "alt": "The restored Musical Intelligence lock-up: recognisably descended from the historical commission, rebuilt with controlled typography, spacing and scalable geometry.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-og-logo-musical-intelligence-3",
-        "src": "/images/projects/musical_intelligence/logo_restore/og-logo-(musical-intelligence)^3.webp",
-        "alt": "The surviving mark from the original commission approximately fifteen years ago. Its curved framing, lowercase wordmark and superscript-three notation became the source material for the requested contemporary recreation.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "musical-intelligence-musical-intelligence-logo-restore-logo-main3-red1-transparent",
-        "src": "/images/projects/musical_intelligence/logo_restore/logo-main3-red1-transparent.webp",
-        "alt": "A clean reconstruction retaining the original red, curved framing and superscript notation while correcting the wordmark for contemporary digital use.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 8 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 82,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 26,
-    "finalScore": 20.5,
-    "href": "/projects/musical-intelligence?area=media-asset-systems"
   },
   {
     "projectSlug": "ourgani",
@@ -1527,7 +1432,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Ourgani",
     "contributionTitle": "Ourgani identity design · Ourgani system development",
-    "summary": "Logo development for Ourgani, using an organic yin-yang construction to express balance, exchange and the relationship between complementary natural systems.",
+    "summary": "Brand and experience-system responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
     "relevantWorkSlugs": [
       "ourgani-identity-development",
       "ourgani-system-development"
@@ -1555,13 +1460,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 78.97,
+    "relevanceScore": 76.46,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 19.7425,
+    "finalScore": 19.115,
     "href": "/projects/ourgani?area=brand-experience-systems"
   },
   {
@@ -1610,7 +1515,7 @@ export const publicWorkCards = [
     "lensId": "infrastructure-operations",
     "projectName": "Ourgani",
     "contributionTitle": "Ourgani system development",
-    "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
+    "summary": "Infrastructure and operations responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
     "relevantWorkSlugs": [
       "ourgani-system-development"
     ],
@@ -1637,15 +1542,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 71.95,
+    "relevanceScore": 67.38,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 3,
-    "finalScore": 68.9875,
+    "finalScore": 67.845,
     "href": "/projects/ourgani?area=infrastructure-operations"
   },
   {
@@ -1700,7 +1605,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "ProtoSynthesis",
     "contributionTitle": "Multi-format web and archive development · ProtoSynthesis system development",
-    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+    "summary": "Software and web-engineering responsibility: Architecture and development of a connected research ecosystem spanning inquiry, documentary media and long-form knowledge.",
     "relevantWorkSlugs": [
       "protosynthesis-multiformat-web-development",
       "protosynthesis-system-development"
@@ -1734,121 +1639,66 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 86.36,
+    "relevanceScore": 83.85,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 25.87,
-    "finalScore": 21.59,
+    "finalScore": 20.9625,
     "href": "/projects/protosynthesis?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "protosynthesis",
-    "lensId": "infrastructure-operations",
-    "projectName": "ProtoSynthesis",
-    "contributionTitle": "Multi-format web and archive development · ProtoSynthesis system development",
-    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
-    "relevantWorkSlugs": [
-      "protosynthesis-multiformat-web-development",
-      "protosynthesis-system-development"
-    ],
-    "leadHatSlugs": [
-      "media-engineer",
-      "narrative-systems-thinker",
-      "systems-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
-      "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
-        "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
-        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
-        "alt": "An individual research entry demonstrates the intensive archive back end: typed references, document identity, version context and long-form material are projected into a readable public record.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 86.36,
-    "editorialBoost": 3,
-    "evidenceCompletenessScore": 25.87,
-    "editorialSequence": 8,
-    "finalScore": 42.59,
-    "href": "/projects/protosynthesis?area=infrastructure-operations"
   },
   {
     "projectSlug": "protosynthesis",
     "lensId": "brand-experience-systems",
     "projectName": "ProtoSynthesis",
-    "contributionTitle": "Multi-format web and archive development · ProtoSynthesis system development",
-    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+    "contributionTitle": "Multi-format web and archive development",
+    "summary": "Brand and experience-system responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
     "relevantWorkSlugs": [
-      "protosynthesis-multiformat-web-development",
-      "protosynthesis-system-development"
+      "protosynthesis-multiformat-web-development"
     ],
-    "leadHatSlugs": [
-      "media-engineer",
-      "narrative-systems-thinker",
-      "systems-engineer"
-    ],
+    "leadHatSlugs": [],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "protosynthesis-protosynthesis-logo-protosynthesis-7dot-logo-only-main-protoglyph-design2-2",
-      "src": "/images/projects/protosynthesis/logo/ProtoSynthesis-7Dot-Logo Only-Main-ProtoGlyph-Design2.2.webp",
-      "alt": "Identity-system evidence showing a logo or mark developed for ProtoSynthesis.",
-      "evidenceType": "image"
+      "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
+      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
+      "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
+      "evidenceType": "website"
     },
     "supportingVisuals": [
-      {
-        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
-        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
-        "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
-        "evidenceType": "website"
-      },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
         "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
+        "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
+        "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
+      "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Documented stages or contextual summaries strengthen the projection",
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 86.36,
+    "relevanceScore": 71.31,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 25.87,
     "editorialSequence": 1,
-    "finalScore": 84.59,
+    "finalScore": 80.8275,
     "href": "/projects/protosynthesis?area=brand-experience-systems"
   },
   {
     "projectSlug": "protosynthesis",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "ProtoSynthesis",
     "contributionTitle": "Multi-format web and archive development · ProtoSynthesis system development",
-    "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
+    "summary": "Media production and distribution responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
     "relevantWorkSlugs": [
       "protosynthesis-multiformat-web-development",
       "protosynthesis-system-development"
@@ -1882,16 +1732,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 86.36,
+    "relevanceScore": 80.45,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 25.87,
     "editorialSequence": 7,
-    "finalScore": 48.59,
-    "href": "/projects/protosynthesis?area=media-asset-systems"
+    "finalScore": 47.1125,
+    "href": "/projects/protosynthesis?area=media-production-distribution"
   },
   {
     "projectSlug": "protosynthesis",
@@ -1993,7 +1843,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "SaveOurs",
     "contributionTitle": "Identity language and coded mark development · SaveOurs archive and personal-save interfaces · SaveOurs system development",
-    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "summary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
     "relevantWorkSlugs": [
       "saveours-identity-language-development",
       "saveours-platform-interface-development",
@@ -2032,23 +1882,23 @@ export const publicWorkCards = [
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 97.46,
+    "relevanceScore": 93.9,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 9,
-    "finalScore": 39.364999999999995,
+    "finalScore": 38.475,
     "href": "/projects/saveours?area=brand-experience-systems"
   },
   {
     "projectSlug": "saveours",
     "lensId": "system-product-definition",
     "projectName": "SaveOurs",
-    "contributionTitle": "Identity language and coded mark development · SaveOurs archive and personal-save interfaces · SaveOurs system development",
-    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "contributionTitle": "SaveOurs system development · Identity language and coded mark development · SaveOurs archive and personal-save interfaces",
+    "summary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
     "relevantWorkSlugs": [
+      "saveours-system-development",
       "saveours-identity-language-development",
-      "saveours-platform-interface-development",
-      "saveours-system-development"
+      "saveours-platform-interface-development"
     ],
     "leadHatSlugs": [
       "data-modeler",
@@ -2083,28 +1933,23 @@ export const publicWorkCards = [
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 97.46,
+    "relevanceScore": 93.9,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 3,
-    "finalScore": 75.365,
+    "finalScore": 74.475,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
     "projectSlug": "saveours",
     "lensId": "software-web-engineering",
     "projectName": "SaveOurs",
-    "contributionTitle": "SaveOurs archive and personal-save interfaces · SaveOurs system development",
+    "contributionTitle": "SaveOurs archive and personal-save interfaces",
     "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
     "relevantWorkSlugs": [
-      "saveours-platform-interface-development",
-      "saveours-system-development"
+      "saveours-platform-interface-development"
     ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "symbol-systems-designer",
-      "systems-engineer"
-    ],
+    "leadHatSlugs": [],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
@@ -2124,51 +1969,6 @@ export const publicWorkCards = [
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
         "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
         "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 86.48,
-    "editorialBoost": 5,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 6,
-    "finalScore": 54.620000000000005,
-    "href": "/projects/saveours?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "saveours",
-    "lensId": "infrastructure-operations",
-    "projectName": "SaveOurs",
-    "contributionTitle": "SaveOurs archive and personal-save interfaces",
-    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
-    "relevantWorkSlugs": [
-      "saveours-platform-interface-development"
-    ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "saveours-saveours-web-development-savesite-website",
-      "src": "/images/projects/saveours/web_development/savesite-website.webp",
-      "alt": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
-        "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
-        "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "saveours-saveours-saveours-website",
-        "src": "/images/projects/saveours/web_development/saveours-website.webp",
-        "alt": "The public entry point to a living archive system that connects authored SaveSites, media objects and personal saving rather than functioning as a standalone brochure website.",
-        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
@@ -2179,18 +1979,18 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 76,
-    "editorialBoost": 2,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 9,
-    "finalScore": 34,
-    "href": "/projects/saveours?area=infrastructure-operations"
+    "editorialSequence": 6,
+    "finalScore": 52,
+    "href": "/projects/saveours?area=software-web-engineering"
   },
   {
     "projectSlug": "saveours",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "SaveOurs",
     "contributionTitle": "SaveOurs system development",
-    "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+    "summary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember.",
     "relevantWorkSlugs": [
       "saveours-system-development"
     ],
@@ -2223,16 +2023,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.46,
+    "relevanceScore": 74.9,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52.864999999999995,
-    "href": "/projects/saveours?area=media-asset-systems"
+    "finalScore": 51.725,
+    "href": "/projects/saveours?area=media-production-distribution"
   },
   {
     "projectSlug": "vendfm",
@@ -2335,7 +2135,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "VendFM",
     "contributionTitle": "VendFM system development",
-    "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
+    "summary": "Software and web-engineering responsibility: Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
     "relevantWorkSlugs": [
       "vendfm-system-development"
     ],
@@ -2368,69 +2168,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.465,
+    "finalScore": 17.3225,
     "href": "/projects/vendfm?area=software-web-engineering"
   },
   {
     "projectSlug": "vendfm",
-    "lensId": "brand-experience-systems",
+    "lensId": "media-production-distribution",
     "projectName": "VendFM",
     "contributionTitle": "VendFM system development",
-    "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
-    "relevantWorkSlugs": [
-      "vendfm-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "interactive-media-engineer",
-      "systems-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-concept1-stage3",
-      "src": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
-      "alt": "The selected semi-final identity direction developed for VendFM.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "vendfm-vendfm-logo-designs-vendfm-design-mockup-stage1",
-        "src": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
-        "alt": "An early applied mock-up used to test the VendFM identity and product direction.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "vendfm-vendfm-vendfm-website",
-        "src": "/images/projects/vendfm/vendfm-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for VendFM.",
-        "evidenceType": "website"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Evidence is explicitly connected to the selected lens"
-    ],
-    "relevanceScore": 81.86,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 20.465,
-    "href": "/projects/vendfm?area=brand-experience-systems"
-  },
-  {
-    "projectSlug": "vendfm",
-    "lensId": "media-asset-systems",
-    "projectName": "VendFM",
-    "contributionTitle": "VendFM system development",
-    "summary": "Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
+    "summary": "Media production and distribution responsibility: Product and system architecture for a multi-format media vending platform spanning identities, services and interface contexts.",
     "relevantWorkSlugs": [
       "vendfm-system-development"
     ],
@@ -2463,16 +2215,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 4,
-    "finalScore": 63.465,
-    "href": "/projects/vendfm?area=media-asset-systems"
+    "finalScore": 62.322500000000005,
+    "href": "/projects/vendfm?area=media-production-distribution"
   },
   {
     "projectSlug": "wrappedfm",
@@ -2525,17 +2277,12 @@ export const publicWorkCards = [
     "projectSlug": "wrappedfm",
     "lensId": "brand-experience-systems",
     "projectName": "WrappedFM",
-    "contributionTitle": "WrappedFM identity development · WrappedFM system development",
+    "contributionTitle": "WrappedFM identity development",
     "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
     "relevantWorkSlugs": [
-      "wrappedfm-identity-development",
-      "wrappedfm-system-development"
+      "wrappedfm-identity-development"
     ],
-    "leadHatSlugs": [
-      "deployment-engineer",
-      "media-engineer",
-      "web-design-engineer"
-    ],
+    "leadHatSlugs": [],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
@@ -2558,68 +2305,18 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
+      "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80.88,
+    "relevanceScore": 70.39,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 3,
-    "finalScore": 71.22,
+    "finalScore": 68.5975,
     "href": "/projects/wrappedfm?area=brand-experience-systems"
-  },
-  {
-    "projectSlug": "wrappedfm",
-    "lensId": "media-asset-systems",
-    "projectName": "WrappedFM",
-    "contributionTitle": "WrappedFM identity development · WrappedFM system development",
-    "summary": "Logo and visual-identity development for the WrappedFM online radio platform, including dark and pale-gold applications of the primary mark.",
-    "relevantWorkSlugs": [
-      "wrappedfm-identity-development",
-      "wrappedfm-system-development"
-    ],
-    "leadHatSlugs": [
-      "deployment-engineer",
-      "media-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
-        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 80.88,
-    "editorialBoost": 8,
-    "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 3,
-    "finalScore": 71.22,
-    "href": "/projects/wrappedfm?area=media-asset-systems"
   },
   {
     "projectSlug": "wrappedfm",
@@ -2673,7 +2370,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "WrappedFM",
     "contributionTitle": "WrappedFM system development",
-    "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
+    "summary": "Software and web-engineering responsibility: Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
     "relevantWorkSlugs": [
       "wrappedfm-system-development"
     ],
@@ -2706,23 +2403,23 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 7,
-    "finalScore": 45.465,
+    "finalScore": 44.322500000000005,
     "href": "/projects/wrappedfm?area=software-web-engineering"
   },
   {
     "projectSlug": "wrappedfm",
-    "lensId": "infrastructure-operations",
+    "lensId": "media-production-distribution",
     "projectName": "WrappedFM",
     "contributionTitle": "WrappedFM system development",
-    "summary": "Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
+    "summary": "Media production and distribution responsibility: Identity and web-application development for an online radio station designed around live metadata and future platform integration.",
     "relevantWorkSlugs": [
       "wrappedfm-system-development"
     ],
@@ -2755,16 +2452,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.86,
-    "editorialBoost": 5,
+    "relevanceScore": 69.29,
+    "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 6,
-    "finalScore": 51.465,
-    "href": "/projects/wrappedfm?area=infrastructure-operations"
+    "editorialSequence": 3,
+    "finalScore": 68.3225,
+    "href": "/projects/wrappedfm?area=media-production-distribution"
   },
   {
     "projectSlug": "118-sports",
@@ -2811,53 +2508,6 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 26,
     "finalScore": 19.865,
     "href": "/projects/118-sports"
-  },
-  {
-    "projectSlug": "118-sports",
-    "lensId": "brand-experience-systems",
-    "projectName": "118 Sports",
-    "contributionTitle": "118 Sports system development",
-    "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
-    "relevantWorkSlugs": [
-      "118-sports-system-development"
-    ],
-    "leadHatSlugs": [
-      "deployment-engineer",
-      "identity-architect",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "118-sports-118sports-logo-design-118-juve",
-      "src": "/images/projects/118sports/logo_design/118-juve.webp",
-      "alt": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "118-sports-118sports-logo-design-118-oval-gold",
-        "src": "/images/projects/118sports/logo_design/118-oval-gold.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "118-sports-118sports-mock-ups-118-pale-gold-centre-jersey-mockup",
-        "src": "/images/projects/118sports/mock_ups/118-pale-gold-centre-jersey-mockup.webp",
-        "alt": "Applied brand and product-system evidence for 118 Sports.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 10 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 79.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 26,
-    "finalScore": 19.865,
-    "href": "/projects/118-sports?area=brand-experience-systems"
   },
   {
     "projectSlug": "118-sports",
@@ -2910,10 +2560,57 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "118-sports",
+    "lensId": "brand-experience-systems",
+    "projectName": "118 Sports",
+    "contributionTitle": "118 Sports system development",
+    "summary": "Brand and experience-system responsibility: Brand identity, responsive web development and cloud deployment for a live sports service.",
+    "relevantWorkSlugs": [
+      "118-sports-system-development"
+    ],
+    "leadHatSlugs": [
+      "deployment-engineer",
+      "identity-architect",
+      "web-design-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "118-sports-118sports-logo-design-118-juve",
+      "src": "/images/projects/118sports/logo_design/118-juve.webp",
+      "alt": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "118-sports-118sports-logo-design-118-oval-gold",
+        "src": "/images/projects/118sports/logo_design/118-oval-gold.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for 118 Sports.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "118-sports-118sports-mock-ups-118-pale-gold-centre-jersey-mockup",
+        "src": "/images/projects/118sports/mock_ups/118-pale-gold-centre-jersey-mockup.webp",
+        "alt": "Applied brand and product-system evidence for 118 Sports.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 10 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 74.9,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 18.725,
+    "href": "/projects/118-sports?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "118-sports",
     "lensId": "infrastructure-operations",
     "projectName": "118 Sports",
     "contributionTitle": "118 Sports system development",
-    "summary": "Brand identity, responsive web development and cloud deployment for a live sports service.",
+    "summary": "Infrastructure and operations responsibility: Brand identity, responsive web development and cloud deployment for a live sports service.",
     "relevantWorkSlugs": [
       "118-sports-system-development"
     ],
@@ -2946,13 +2643,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 10 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 79.46,
+    "relevanceScore": 74.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 19.865,
+    "finalScore": 18.725,
     "href": "/projects/118-sports?area=infrastructure-operations"
   },
   {
@@ -2989,7 +2686,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "2xu-wetsuit-testing",
-    "lensId": "media-asset-systems",
+    "lensId": "physical-systems-engineering",
     "projectName": "2XU — Wetsuit Testing",
     "contributionTitle": "Distribution systems",
     "summary": "Engineering of reliable distribution paths supporting the test environment.",
@@ -3018,40 +2715,7 @@ export const publicWorkCards = [
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
     "finalScore": 17.2075,
-    "href": "/projects/2xu-wetsuit-testing?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "2xu-wetsuit-testing",
-    "lensId": "physical-technical-engineering",
-    "projectName": "2XU — Wetsuit Testing",
-    "contributionTitle": "Distribution systems",
-    "summary": "Engineering of reliable distribution paths supporting the test environment.",
-    "relevantWorkSlugs": [
-      "2xu-wetsuit-testing-distribution-systems"
-    ],
-    "leadHatSlugs": [
-      "signal-flow-designer",
-      "systems-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "2xu-wetsuit-testing-distribution-systems-video",
-      "src": "https://i.ytimg.com/vi/36WtEUKCctU/hqdefault.jpg",
-      "alt": "Supporting video published by 2XU.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 68.83,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.2075,
-    "href": "/projects/2xu-wetsuit-testing?area=physical-technical-engineering"
+    "href": "/projects/2xu-wetsuit-testing?area=physical-systems-engineering"
   },
   {
     "projectSlug": "bamboograph",
@@ -3151,7 +2815,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "BambooGraph",
     "contributionTitle": "BambooGraph system development",
-    "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
+    "summary": "Software and web-engineering responsibility: Early software research exploring a graph-based product model and the systems needed to make it useful.",
     "relevantWorkSlugs": [
       "bamboograph-system-development"
     ],
@@ -3184,15 +2848,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 4 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 75.46,
+    "relevanceScore": 70.9,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 22,
     "editorialSequence": 3,
-    "finalScore": 69.865,
+    "finalScore": 68.725,
     "href": "/projects/bamboograph?area=software-web-engineering"
   },
   {
@@ -3293,7 +2957,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "Best Indies",
     "contributionTitle": "Best Indies system development",
-    "summary": "Identity, content structure and web-experience direction for an independent-products project.",
+    "summary": "Software and web-engineering responsibility: Identity, content structure and web-experience direction for an independent-products project.",
     "relevantWorkSlugs": [
       "best-indies-system-development"
     ],
@@ -3326,13 +2990,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.465,
+    "finalScore": 17.3225,
     "href": "/projects/best-indies?area=software-web-engineering"
   },
   {
@@ -3395,7 +3059,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Bjórr",
     "contributionTitle": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "summary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
     "relevantWorkSlugs": [
       "bjorr-system-development"
     ],
@@ -3408,15 +3072,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "No usable contextual lead visual is registered",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 52.83,
+    "relevanceScore": 48.26,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 0,
     "editorialSequence": 2,
-    "finalScore": 70.2075,
+    "finalScore": 69.065,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {
@@ -3491,7 +3155,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "Bonsai Tree of Life",
     "contributionTitle": "Bonsai Tree of Life system development",
-    "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
+    "summary": "Software and web-engineering responsibility: Product and data architecture for a structured web-system project, with its delivery model in development.",
     "relevantWorkSlugs": [
       "bonsai-tree-of-life-system-development"
     ],
@@ -3511,13 +3175,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
     "href": "/projects/bonsai-tree-of-life?area=software-web-engineering"
   },
   {
@@ -3525,7 +3189,7 @@ export const publicWorkCards = [
     "lensId": "infrastructure-operations",
     "projectName": "Bonsai Tree of Life",
     "contributionTitle": "Bonsai Tree of Life system development",
-    "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
+    "summary": "Infrastructure and operations responsibility: Product and data architecture for a structured web-system project, with its delivery model in development.",
     "relevantWorkSlugs": [
       "bonsai-tree-of-life-system-development"
     ],
@@ -3545,13 +3209,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
     "href": "/projects/bonsai-tree-of-life?area=infrastructure-operations"
   },
   {
@@ -3589,7 +3253,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "bristow-operational-excellence",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Bristow — Operational Excellence",
     "contributionTitle": "Electronics systems engineering",
     "summary": "Systems-level electronics contribution in an operational environment.",
@@ -3621,7 +3285,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 10,
     "finalScore": 32.364999999999995,
-    "href": "/projects/bristow-operational-excellence?area=physical-technical-engineering"
+    "href": "/projects/bristow-operational-excellence?area=physical-systems-engineering"
   },
   {
     "projectSlug": "community-supplies",
@@ -3709,7 +3373,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "Community Supplies",
     "contributionTitle": "Community Supplies system development",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "summary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
     "relevantWorkSlugs": [
       "community-supplies-system-development"
     ],
@@ -3736,66 +3400,23 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 71.95,
+    "relevanceScore": 67.38,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 4,
-    "finalScore": 62.9875,
+    "finalScore": 61.845,
     "href": "/projects/community-supplies?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "community-supplies",
-    "lensId": "infrastructure-operations",
-    "projectName": "Community Supplies",
-    "contributionTitle": "Community Supplies system development",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "relevantWorkSlugs": [
-      "community-supplies-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 71.95,
-    "editorialBoost": 6,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 5,
-    "finalScore": 56.9875,
-    "href": "/projects/community-supplies?area=infrastructure-operations"
   },
   {
     "projectSlug": "community-supplies",
     "lensId": "brand-experience-systems",
     "projectName": "Community Supplies",
     "contributionTitle": "Community Supplies system development",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "summary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
     "relevantWorkSlugs": [
       "community-supplies-system-development"
     ],
@@ -3822,13 +3443,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 71.95,
+    "relevanceScore": 67.38,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.9875,
+    "finalScore": 16.845,
     "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
@@ -3866,7 +3487,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "delmatic-connected-lighting",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Connected Lighting Management",
     "contributionTitle": "Sensor test and manufacturing engineering",
     "summary": "Testing and production-oriented engineering around connected control-system hardware.",
@@ -3898,7 +3519,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 9,
     "finalScore": 32.364999999999995,
-    "href": "/projects/delmatic-connected-lighting?area=physical-technical-engineering"
+    "href": "/projects/delmatic-connected-lighting?area=physical-systems-engineering"
   },
   {
     "projectSlug": "croydon-womens-network-iwd",
@@ -3934,7 +3555,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "croydon-womens-network-iwd",
-    "lensId": "media-asset-systems",
+    "lensId": "physical-systems-engineering",
     "projectName": "Croydon Women's Network — International Women's Day",
     "contributionTitle": "Camera systems and setup",
     "summary": "Preparation and setup of camera systems for promotional video production.",
@@ -3963,40 +3584,7 @@ export const publicWorkCards = [
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
     "finalScore": 17.2075,
-    "href": "/projects/croydon-womens-network-iwd?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "croydon-womens-network-iwd",
-    "lensId": "physical-technical-engineering",
-    "projectName": "Croydon Women's Network — International Women's Day",
-    "contributionTitle": "Camera systems and setup",
-    "summary": "Preparation and setup of camera systems for promotional video production.",
-    "relevantWorkSlugs": [
-      "croydon-womens-network-iwd-camera-systems-and-setup"
-    ],
-    "leadHatSlugs": [
-      "media-engineer",
-      "media-workflow-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "croydon-womens-network-iwd-camera-systems-and-setup-video",
-      "src": "https://i.ytimg.com/vi/yivx4Q2bVBU/hqdefault.jpg",
-      "alt": "Supporting video published by Baltar Media.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 68.83,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.2075,
-    "href": "/projects/croydon-womens-network-iwd?area=physical-technical-engineering"
+    "href": "/projects/croydon-womens-network-iwd?area=physical-systems-engineering"
   },
   {
     "projectSlug": "crystal-palace-overground-festival",
@@ -4033,41 +3621,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "crystal-palace-overground-festival",
-    "lensId": "media-asset-systems",
-    "projectName": "Crystal Palace Overground Festival",
-    "contributionTitle": "Distribution systems and signal flow",
-    "summary": "Planning and preparation of signal distribution for a multi-area event environment.",
-    "relevantWorkSlugs": [
-      "crystal-palace-overground-festival-distribution-systems-and-signal-flow"
-    ],
-    "leadHatSlugs": [
-      "live-systems-designer",
-      "signal-flow-designer",
-      "systems-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "crystal-palace-overground-festival-distribution-systems-and-signal-flow-video",
-      "src": "https://i.ytimg.com/vi/I61Y9Pb3XFY/hqdefault.jpg",
-      "alt": "Supporting video published by John Edwards.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/crystal-palace-overground-festival?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "crystal-palace-overground-festival",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Crystal Palace Overground Festival",
     "contributionTitle": "Distribution systems and signal flow",
     "summary": "Planning and preparation of signal distribution for a multi-area event environment.",
@@ -4099,7 +3653,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 3,
     "finalScore": 68.365,
-    "href": "/projects/crystal-palace-overground-festival?area=physical-technical-engineering"
+    "href": "/projects/crystal-palace-overground-festival?area=physical-systems-engineering"
   },
   {
     "projectSlug": "delta-elektronika-power-systems",
@@ -4145,52 +3699,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "delta-elektronika-power-systems",
-    "lensId": "infrastructure-operations",
-    "projectName": "Delta Elektronika — Power Systems",
-    "contributionTitle": "Embedded firmware and deployment engineering · Firmware build and installation engineering",
-    "summary": "Deployment-oriented systems work supporting a high-power electronic supply system.",
-    "relevantWorkSlugs": [
-      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
-      "delta-elektronika-power-systems-firmware-build-and-installation-engineering"
-    ],
-    "leadHatSlugs": [
-      "configuration-engineer",
-      "deployment-engineer",
-      "systems-engineer",
-      "install-onboarding-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering-video",
-      "src": "https://i.ytimg.com/vi/vfgFpD2qS4g/hqdefault.jpg",
-      "alt": "Supporting video published by Delta Elektronika.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "delta-elektronika-power-systems-firmware-build-and-installation-engineering-video",
-        "src": "https://i.ytimg.com/vi/Vhir8baUfkA/hqdefault.jpg",
-        "alt": "Supporting video published by Delta Elektronika.",
-        "evidenceType": "video"
-      }
-    ],
-    "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 79.5,
-    "editorialBoost": 9,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 2,
-    "finalScore": 76.875,
-    "href": "/projects/delta-elektronika-power-systems?area=infrastructure-operations"
-  },
-  {
-    "projectSlug": "delta-elektronika-power-systems",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Delta Elektronika — Power Systems",
     "contributionTitle": "Embedded firmware and deployment engineering · Firmware build and installation engineering",
     "summary": "Deployment-oriented systems work supporting a high-power electronic supply system.",
@@ -4231,7 +3740,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 7,
     "finalScore": 46.875,
-    "href": "/projects/delta-elektronika-power-systems?area=physical-technical-engineering"
+    "href": "/projects/delta-elektronika-power-systems?area=physical-systems-engineering"
   },
   {
     "projectSlug": "fbc-london-shopping-with-grant",
@@ -4267,7 +3776,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "fbc-london-shopping-with-grant",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "FBC London — Shopping with Grant",
     "contributionTitle": "Playout systems setup",
     "summary": "Setup and preparation of media playout for the finished feature.",
@@ -4296,7 +3805,7 @@ export const publicWorkCards = [
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
     "finalScore": 17.2075,
-    "href": "/projects/fbc-london-shopping-with-grant?area=media-asset-systems"
+    "href": "/projects/fbc-london-shopping-with-grant?area=media-production-distribution"
   },
   {
     "projectSlug": "five9-customer-story-systems",
@@ -4459,40 +3968,6 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "gouldbourne-management",
-    "lensId": "system-product-definition",
-    "projectName": "Gouldbourne Management",
-    "contributionTitle": "Gouldbourne Management system development",
-    "summary": "An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
-    "relevantWorkSlugs": [
-      "gouldbourne-management-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "gouldbourne-management-gouldbourne-web-development-gouldbourne-website",
-      "src": "/images/projects/gouldbourne/web_development/gouldbourne-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Gouldbourne Management.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/gouldbourne-management?area=system-product-definition"
-  },
-  {
-    "projectSlug": "gouldbourne-management",
     "lensId": "software-web-engineering",
     "projectName": "Gouldbourne Management",
     "contributionTitle": "Gouldbourne Management system development",
@@ -4527,10 +4002,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "gouldbourne-management",
-    "lensId": "infrastructure-operations",
+    "lensId": "system-product-definition",
     "projectName": "Gouldbourne Management",
     "contributionTitle": "Gouldbourne Management system development",
-    "summary": "An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
+    "summary": "System and product-definition responsibility: An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
     "relevantWorkSlugs": [
       "gouldbourne-management-system-development"
     ],
@@ -4550,13 +4025,47 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
+    "href": "/projects/gouldbourne-management?area=system-product-definition"
+  },
+  {
+    "projectSlug": "gouldbourne-management",
+    "lensId": "infrastructure-operations",
+    "projectName": "Gouldbourne Management",
+    "contributionTitle": "Gouldbourne Management system development",
+    "summary": "Infrastructure and operations responsibility: An organisational website combining management-focused content architecture, responsive delivery and domain operations.",
+    "relevantWorkSlugs": [
+      "gouldbourne-management-system-development"
+    ],
+    "leadHatSlugs": [
+      "data-modeler",
+      "deployment-engineer",
+      "web-design-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "gouldbourne-management-gouldbourne-web-development-gouldbourne-website",
+      "src": "/images/projects/gouldbourne/web_development/gouldbourne-website.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for Gouldbourne Management.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 64.9,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 16.225,
     "href": "/projects/gouldbourne-management?area=infrastructure-operations"
   },
   {
@@ -4617,17 +4126,17 @@ export const publicWorkCards = [
     "projectSlug": "house-of-gold",
     "lensId": "system-product-definition",
     "projectName": "House of Gold",
-    "contributionTitle": "Runtime user-state and exploration systems · Content and museum information architecture",
-    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "contributionTitle": "Content and museum information architecture · Runtime user-state and exploration systems",
+    "summary": "System and product-definition responsibility: Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
     "relevantWorkSlugs": [
-      "house-of-gold-runtime-state-systems",
-      "house-of-gold-content-architecture"
+      "house-of-gold-content-architecture",
+      "house-of-gold-runtime-state-systems"
     ],
     "leadHatSlugs": [
-      "data-modeler",
-      "systems-engineer",
       "meaning-architect",
-      "narrative-systems-thinker"
+      "narrative-systems-thinker",
+      "data-modeler",
+      "systems-engineer"
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
@@ -4653,36 +4162,36 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 87.02,
+    "relevanceScore": 84.51,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 9,
-    "finalScore": 36.754999999999995,
+    "finalScore": 36.1275,
     "href": "/projects/house-of-gold?area=system-product-definition"
   },
   {
     "projectSlug": "house-of-gold",
     "lensId": "brand-experience-systems",
     "projectName": "House of Gold",
-    "contributionTitle": "Immersive web experience and interaction engineering · Content and museum information architecture · Media presentation and asset systems",
-    "summary": "A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
+    "contributionTitle": "Media presentation and asset systems · Immersive web experience and interaction engineering · Content and museum information architecture",
+    "summary": "Brand and experience-system responsibility: A navigable House interface combining responsive web engineering, spatial interaction and an exploratory visitor journey.",
     "relevantWorkSlugs": [
+      "house-of-gold-media-presentation",
       "house-of-gold-system-development",
-      "house-of-gold-content-architecture",
-      "house-of-gold-media-presentation"
+      "house-of-gold-content-architecture"
     ],
     "leadHatSlugs": [
+      "media-engineer",
+      "visual-language-engineer",
       "web-design-engineer",
-      "meaning-architect",
-      "narrative-systems-thinker",
-      "media-engineer"
+      "meaning-architect"
     ],
     "supportingHatSlugs": [
-      "visual-language-engineer"
+      "narrative-systems-thinker"
     ],
     "primaryVisual": {
       "evidenceSlug": "house-of-gold-house-of-gold-house-of-gold-website",
@@ -4707,21 +4216,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 92.47,
+    "relevanceScore": 88.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 23.1175,
+    "finalScore": 22.225,
     "href": "/projects/house-of-gold?area=brand-experience-systems"
   },
   {
     "projectSlug": "house-of-gold",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "House of Gold",
     "contributionTitle": "Content and museum information architecture · Media presentation and asset systems",
-    "summary": "A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
+    "summary": "Media production and distribution responsibility: A structured narrative model connecting the House charter, rooms, media and intellectual-property context.",
     "relevantWorkSlugs": [
       "house-of-gold-content-architecture",
       "house-of-gold-media-presentation"
@@ -4756,16 +4265,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 87.02,
+    "relevanceScore": 81.11,
     "editorialBoost": 3,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 8,
-    "finalScore": 42.754999999999995,
-    "href": "/projects/house-of-gold?area=media-asset-systems"
+    "finalScore": 41.2775,
+    "href": "/projects/house-of-gold?area=media-production-distribution"
   },
   {
     "projectSlug": "house-of-gold",
@@ -4822,7 +4331,7 @@ export const publicWorkCards = [
     "lensId": "infrastructure-operations",
     "projectName": "House of Gold",
     "contributionTitle": "Runtime user-state and exploration systems",
-    "summary": "Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
+    "summary": "Infrastructure and operations responsibility: Persistent visitor state, adaptive navigation and interaction logic supporting movement through the House.",
     "relevantWorkSlugs": [
       "house-of-gold-runtime-state-systems"
     ],
@@ -4854,15 +4363,15 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 78.83,
+    "relevanceScore": 74.26,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 4,
-    "finalScore": 64.7075,
+    "finalScore": 63.565,
     "href": "/projects/house-of-gold?area=infrastructure-operations"
   },
   {
@@ -4900,7 +4409,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "houston-texans-london-game",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Houston Texans — London Game",
     "contributionTitle": "Field communications and telecom redundancy systems",
     "summary": "Communications-path and redundancy engineering supporting live field operations.",
@@ -4932,7 +4441,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 1,
     "finalScore": 80.365,
-    "href": "/projects/houston-texans-london-game?area=physical-technical-engineering"
+    "href": "/projects/houston-texans-london-game?area=physical-systems-engineering"
   },
   {
     "projectSlug": "imikegold",
@@ -4966,40 +4475,6 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "finalScore": 17.365,
     "href": "/projects/imikegold"
-  },
-  {
-    "projectSlug": "imikegold",
-    "lensId": "system-product-definition",
-    "projectName": "iMikeGold.com",
-    "contributionTitle": "iMikeGold.com system development",
-    "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
-    "relevantWorkSlugs": [
-      "imikegold-system-development"
-    ],
-    "leadHatSlugs": [
-      "identity-architect",
-      "media-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "imikegold-imikegold-imikegold-website",
-      "src": "/images/projects/imikegold/imikegold-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for iMikeGold.com.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/imikegold?area=system-product-definition"
   },
   {
     "projectSlug": "imikegold",
@@ -5037,44 +4512,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "imikegold",
-    "lensId": "infrastructure-operations",
-    "projectName": "iMikeGold.com",
-    "contributionTitle": "iMikeGold.com system development",
-    "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
-    "relevantWorkSlugs": [
-      "imikegold-system-development"
-    ],
-    "leadHatSlugs": [
-      "identity-architect",
-      "media-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "imikegold-imikegold-imikegold-website",
-      "src": "/images/projects/imikegold/imikegold-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for iMikeGold.com.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/imikegold?area=infrastructure-operations"
-  },
-  {
-    "projectSlug": "imikegold",
     "lensId": "brand-experience-systems",
     "projectName": "iMikeGold.com",
     "contributionTitle": "iMikeGold.com system development",
-    "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
+    "summary": "Brand and experience-system responsibility: An artist identity and digital application for presenting music, releases, media and archive material.",
     "relevantWorkSlugs": [
       "imikegold-system-development"
     ],
@@ -5094,21 +4535,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
     "href": "/projects/imikegold?area=brand-experience-systems"
   },
   {
     "projectSlug": "imikegold",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "iMikeGold.com",
     "contributionTitle": "iMikeGold.com system development",
-    "summary": "An artist identity and digital application for presenting music, releases, media and archive material.",
+    "summary": "Media production and distribution responsibility: An artist identity and digital application for presenting music, releases, media and archive material.",
     "relevantWorkSlugs": [
       "imikegold-system-development"
     ],
@@ -5128,14 +4569,14 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/imikegold?area=media-asset-systems"
+    "finalScore": 16.225,
+    "href": "/projects/imikegold?area=media-production-distribution"
   },
   {
     "projectSlug": "just-enterprises",
@@ -5169,40 +4610,6 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "finalScore": 17.365,
     "href": "/projects/just-enterprises"
-  },
-  {
-    "projectSlug": "just-enterprises",
-    "lensId": "system-product-definition",
-    "projectName": "Just Enterprises",
-    "contributionTitle": "Just Enterprises system development",
-    "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
-    "relevantWorkSlugs": [
-      "just-enterprises-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "environment-architect",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "just-enterprises-just-enterprises-just-enterprises-website",
-      "src": "/images/projects/just_enterprises/just-enterprises-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Just Enterprises.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/just-enterprises?area=system-product-definition"
   },
   {
     "projectSlug": "just-enterprises",
@@ -5240,10 +4647,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "just-enterprises",
-    "lensId": "infrastructure-operations",
+    "lensId": "system-product-definition",
     "projectName": "Just Enterprises",
     "contributionTitle": "Just Enterprises system development",
-    "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
+    "summary": "System and product-definition responsibility: A company identity and corporate web presence with a structured organisational story and domain foundation.",
     "relevantWorkSlugs": [
       "just-enterprises-system-development"
     ],
@@ -5263,23 +4670,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "Documented stages or contextual summaries strengthen the projection",
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 10,
+    "relevanceScore": 64.9,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 1,
-    "finalScore": 80.365,
-    "href": "/projects/just-enterprises?area=infrastructure-operations"
+    "finalScore": 16.225,
+    "href": "/projects/just-enterprises?area=system-product-definition"
   },
   {
     "projectSlug": "just-enterprises",
     "lensId": "brand-experience-systems",
     "projectName": "Just Enterprises",
     "contributionTitle": "Just Enterprises system development",
-    "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
+    "summary": "Brand and experience-system responsibility: A company identity and corporate web presence with a structured organisational story and domain foundation.",
     "relevantWorkSlugs": [
       "just-enterprises-system-development"
     ],
@@ -5299,13 +4704,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
     "href": "/projects/just-enterprises?area=brand-experience-systems"
   },
   {
@@ -5354,7 +4759,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "living-control-media-servers",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "Living Control — Media Servers",
     "contributionTitle": "Multimedia distribution",
     "summary": "Media distribution work supporting dual-output high-definition server delivery.",
@@ -5393,26 +4798,26 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 2,
     "finalScore": 74.9875,
-    "href": "/projects/living-control-media-servers?area=media-asset-systems"
+    "href": "/projects/living-control-media-servers?area=media-production-distribution"
   },
   {
     "projectSlug": "living-control-media-servers",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Living Control — Media Servers",
-    "contributionTitle": "Multimedia distribution · PCB prototyping and design",
-    "summary": "Media distribution work supporting dual-output high-definition server delivery.",
+    "contributionTitle": "PCB prototyping and design · Multimedia distribution",
+    "summary": "Physical-system responsibility: Media distribution work supporting dual-output high-definition server delivery.",
     "relevantWorkSlugs": [
-      "living-control-media-servers-multimedia-distribution",
-      "living-control-media-servers-pcb-prototyping-and-design"
+      "living-control-media-servers-pcb-prototyping-and-design",
+      "living-control-media-servers-multimedia-distribution"
     ],
     "leadHatSlugs": [
+      "repeatability-engineer",
+      "systems-engineer",
       "media-distribution-engineer",
-      "server-engineer",
-      "signal-flow-designer",
-      "repeatability-engineer"
+      "server-engineer"
     ],
     "supportingHatSlugs": [
-      "systems-engineer"
+      "signal-flow-designer"
     ],
     "primaryVisual": {
       "evidenceSlug": "living-control-media-servers-multimedia-distribution-video",
@@ -5431,16 +4836,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.98,
+    "relevanceScore": 77.47,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 5,
-    "finalScore": 58.995000000000005,
-    "href": "/projects/living-control-media-servers?area=physical-technical-engineering"
+    "finalScore": 58.3675,
+    "href": "/projects/living-control-media-servers?area=physical-systems-engineering"
   },
   {
     "projectSlug": "malaria-hotspot-production",
@@ -5541,7 +4946,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "mars-delight-kung-fu",
-    "lensId": "system-product-definition",
+    "lensId": "media-production-distribution",
     "projectName": "Mars Delight — Kung Fu",
     "contributionTitle": "Media management systems",
     "summary": "Organisation and management of media within a creative production workflow.",
@@ -5570,14 +4975,14 @@ export const publicWorkCards = [
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
     "finalScore": 17.2075,
-    "href": "/projects/mars-delight-kung-fu?area=system-product-definition"
+    "href": "/projects/mars-delight-kung-fu?area=media-production-distribution"
   },
   {
     "projectSlug": "mars-delight-kung-fu",
-    "lensId": "media-asset-systems",
+    "lensId": "system-product-definition",
     "projectName": "Mars Delight — Kung Fu",
     "contributionTitle": "Media management systems",
-    "summary": "Organisation and management of media within a creative production workflow.",
+    "summary": "System and product-definition responsibility: Organisation and management of media within a creative production workflow.",
     "relevantWorkSlugs": [
       "mars-delight-kung-fu-media-management-systems"
     ],
@@ -5596,14 +5001,14 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 68.83,
+    "relevanceScore": 64.26,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.2075,
-    "href": "/projects/mars-delight-kung-fu?area=media-asset-systems"
+    "finalScore": 16.065,
+    "href": "/projects/mars-delight-kung-fu?area=system-product-definition"
   },
   {
     "projectSlug": "multiplied-intelligence",
@@ -5637,40 +5042,6 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "finalScore": 17.365,
     "href": "/projects/multiplied-intelligence"
-  },
-  {
-    "projectSlug": "multiplied-intelligence",
-    "lensId": "system-product-definition",
-    "projectName": "Multiplied Intelligence",
-    "contributionTitle": "Multiplied Intelligence system development",
-    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
-    "relevantWorkSlugs": [
-      "multiplied-intelligence-system-development"
-    ],
-    "leadHatSlugs": [
-      "data-modeler",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "multiplied-intelligence-multiplied-intelligence-multiplied-intelligence",
-      "src": "/images/projects/multiplied_intelligence/multiplied_intelligence.webp",
-      "alt": "The original public-facing Multiplied Intelligence website. Its restrained interface provides direct evidence of the web design, content structure and deployed digital presence.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/multiplied-intelligence?area=system-product-definition"
   },
   {
     "projectSlug": "multiplied-intelligence",
@@ -5708,10 +5079,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "multiplied-intelligence",
-    "lensId": "infrastructure-operations",
+    "lensId": "system-product-definition",
     "projectName": "Multiplied Intelligence",
     "contributionTitle": "Multiplied Intelligence system development",
-    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
+    "summary": "System and product-definition responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "relevantWorkSlugs": [
       "multiplied-intelligence-system-development"
     ],
@@ -5731,21 +5102,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/multiplied-intelligence?area=infrastructure-operations"
+    "finalScore": 16.225,
+    "href": "/projects/multiplied-intelligence?area=system-product-definition"
   },
   {
     "projectSlug": "multiplied-intelligence",
-    "lensId": "brand-experience-systems",
+    "lensId": "infrastructure-operations",
     "projectName": "Multiplied Intelligence",
     "contributionTitle": "Multiplied Intelligence system development",
-    "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
+    "summary": "Infrastructure and operations responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
     "relevantWorkSlugs": [
       "multiplied-intelligence-system-development"
     ],
@@ -5765,22 +5136,23 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/multiplied-intelligence?area=brand-experience-systems"
+    "finalScore": 16.225,
+    "href": "/projects/multiplied-intelligence?area=infrastructure-operations"
   },
   {
     "projectSlug": "philadelphia-eagles-nfl-wembley",
     "projectName": "Philadelphia Eagles — NFL Wembley",
-    "contributionTitle": "Field communications and broadcast-audio systems",
-    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "contributionTitle": "Broadcast-audio delivery · Field communications and resilient signal systems",
+    "summary": "Live audio delivery from the pitch-side system into the Eagles' broadcast channel and its audience-facing output.",
     "relevantWorkSlugs": [
-      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
     "leadHatSlugs": [
       "media-distribution-engineer",
@@ -5804,31 +5176,28 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
+      "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 72.49,
+    "relevanceScore": 79.5,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 18.1225,
+    "finalScore": 19.875,
     "href": "/projects/philadelphia-eagles-nfl-wembley"
   },
   {
     "projectSlug": "philadelphia-eagles-nfl-wembley",
-    "lensId": "physical-technical-engineering",
+    "lensId": "media-production-distribution",
     "projectName": "Philadelphia Eagles — NFL Wembley",
-    "contributionTitle": "Field communications and broadcast-audio systems",
-    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "contributionTitle": "Broadcast-audio delivery",
+    "summary": "Live audio delivery from the pitch-side system into the Eagles' broadcast channel and its audience-facing output.",
     "relevantWorkSlugs": [
-      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
     ],
     "leadHatSlugs": [
-      "media-distribution-engineer",
-      "network-engineer",
-      "reliability-engineer",
-      "systems-engineer"
+      "media-distribution-engineer"
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
@@ -5849,28 +5218,25 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Evidence is explicitly connected to the selected lens",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "1 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens"
     ],
-    "relevanceScore": 80.49,
-    "editorialBoost": 9,
+    "relevanceScore": 78.49,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 2,
-    "finalScore": 77.1225,
-    "href": "/projects/philadelphia-eagles-nfl-wembley?area=physical-technical-engineering"
+    "finalScore": 19.6225,
+    "href": "/projects/philadelphia-eagles-nfl-wembley?area=media-production-distribution"
   },
   {
     "projectSlug": "philadelphia-eagles-nfl-wembley",
-    "lensId": "media-asset-systems",
+    "lensId": "physical-systems-engineering",
     "projectName": "Philadelphia Eagles — NFL Wembley",
-    "contributionTitle": "Field communications and broadcast-audio systems",
-    "summary": "Pitch-side communications, resilient signal paths and live audio delivery supporting the Eagles' main broadcast channel.",
+    "contributionTitle": "Field communications and resilient signal systems",
+    "summary": "Pitch-side communications and resilient physical signal paths supporting live field operations.",
     "relevantWorkSlugs": [
-      "philadelphia-eagles-nfl-wembley-field-communications-and-broadcast-audio-systems"
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
     "leadHatSlugs": [
-      "media-distribution-engineer",
       "network-engineer",
       "reliability-engineer",
       "systems-engineer"
@@ -5894,22 +5260,25 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Evidence is explicitly connected to the selected lens"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80.49,
-    "editorialBoost": 0,
+    "relevanceScore": 79.95,
+    "editorialBoost": 9,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 20.1225,
-    "href": "/projects/philadelphia-eagles-nfl-wembley?area=media-asset-systems"
+    "editorialSequence": 2,
+    "finalScore": 76.9875,
+    "href": "/projects/philadelphia-eagles-nfl-wembley?area=physical-systems-engineering"
   },
   {
     "projectSlug": "playstation-croatia-ps5-sound-tour",
     "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Sound design and audio systems",
-    "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
+    "contributionTitle": "Audio-system implementation · Sound design",
+    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
     "relevantWorkSlugs": [
-      "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems"
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation",
+      "playstation-croatia-ps5-sound-tour-sound-design"
     ],
     "leadHatSlugs": [
       "audio-engineer",
@@ -5925,30 +5294,28 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
+      "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 76.48,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 19.12,
     "href": "/projects/playstation-croatia-ps5-sound-tour"
   },
   {
     "projectSlug": "playstation-croatia-ps5-sound-tour",
-    "lensId": "media-asset-systems",
+    "lensId": "physical-systems-engineering",
     "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Sound design and audio systems",
-    "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
+    "contributionTitle": "Audio-system implementation",
+    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
     "relevantWorkSlugs": [
-      "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems"
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation"
     ],
     "leadHatSlugs": [
-      "audio-engineer",
-      "experiential-engineer",
-      "sound-designer"
+      "audio-engineer"
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
@@ -5962,49 +5329,49 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/playstation-croatia-ps5-sound-tour?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "playstation-croatia-ps5-sound-tour",
-    "lensId": "physical-technical-engineering",
-    "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Sound design and audio systems",
-    "summary": "Audio-system and sound-design contribution for a location-based musical presentation.",
-    "relevantWorkSlugs": [
-      "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems"
-    ],
-    "leadHatSlugs": [
-      "audio-engineer",
-      "experiential-engineer",
-      "sound-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
-      "src": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
-      "alt": "Supporting video published by PlayStation Hrvatska.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "1 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 76,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 16,
     "editorialSequence": 6,
-    "finalScore": 50.364999999999995,
-    "href": "/projects/playstation-croatia-ps5-sound-tour?area=physical-technical-engineering"
+    "finalScore": 52,
+    "href": "/projects/playstation-croatia-ps5-sound-tour?area=physical-systems-engineering"
+  },
+  {
+    "projectSlug": "playstation-croatia-ps5-sound-tour",
+    "lensId": "media-production-distribution",
+    "projectName": "PlayStation — PS5 Sound Tour",
+    "contributionTitle": "Sound design",
+    "summary": "Sound-design contribution for a location-based musical presentation of the PlayStation 5 startup sound.",
+    "relevantWorkSlugs": [
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "leadHatSlugs": [
+      "experiential-engineer",
+      "sound-designer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
+      "src": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
+      "alt": "Supporting video published by PlayStation Hrvatska.",
+      "evidenceType": "video"
+    },
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contribution documentation is concise",
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 68.83,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.2075,
+    "href": "/projects/playstation-croatia-ps5-sound-tour?area=media-production-distribution"
   },
   {
     "projectSlug": "rockett-home-rentals-company-film",
@@ -6040,7 +5407,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "rockett-home-rentals-company-film",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "Rockett Home Rentals — Company Film",
     "contributionTitle": "Camera operation and workflow",
     "summary": "Camera operation within a structured company-video production workflow.",
@@ -6069,40 +5436,7 @@ export const publicWorkCards = [
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
     "finalScore": 17.2075,
-    "href": "/projects/rockett-home-rentals-company-film?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "rockett-home-rentals-company-film",
-    "lensId": "physical-technical-engineering",
-    "projectName": "Rockett Home Rentals — Company Film",
-    "contributionTitle": "Camera operation and workflow",
-    "summary": "Camera operation within a structured company-video production workflow.",
-    "relevantWorkSlugs": [
-      "rockett-home-rentals-company-film-camera-operation-and-workflow"
-    ],
-    "leadHatSlugs": [
-      "media-engineer",
-      "media-workflow-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "rockett-home-rentals-company-film-camera-operation-and-workflow-video",
-      "src": "https://i.ytimg.com/vi/ydEox4TatF8/hqdefault.jpg",
-      "alt": "Supporting video published by Rockett Home Rentals.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 68.83,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.2075,
-    "href": "/projects/rockett-home-rentals-company-film?area=physical-technical-engineering"
+    "href": "/projects/rockett-home-rentals-company-film?area=media-production-distribution"
   },
   {
     "projectSlug": "stanhope-seta-flash-point-testing",
@@ -6139,7 +5473,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "stanhope-seta-flash-point-testing",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "Stanhope-Seta — Flash Point Testing",
     "contributionTitle": "Scientific equipment and test systems",
     "summary": "Test-system work supporting repeatable small-scale flash-point measurement.",
@@ -6171,15 +5505,16 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 8,
     "finalScore": 38.364999999999995,
-    "href": "/projects/stanhope-seta-flash-point-testing?area=physical-technical-engineering"
+    "href": "/projects/stanhope-seta-flash-point-testing?area=physical-systems-engineering"
   },
   {
     "projectSlug": "the-frisbys-you-are",
     "projectName": "The Frisbys — You Are",
-    "contributionTitle": "Multicamera setup and operation",
-    "summary": "Coordination and operation of multiple camera sources within a music-production workflow.",
+    "contributionTitle": "Camera-system setup · Multicamera operation",
+    "summary": "Physical preparation, configuration and signal setup for the multicamera production environment.",
     "relevantWorkSlugs": [
-      "the-frisbys-you-are-multicamera-setup-and-operation"
+      "the-frisbys-you-are-camera-system-setup",
+      "the-frisbys-you-are-multicamera-operation"
     ],
     "leadHatSlugs": [
       "live-systems-designer",
@@ -6195,30 +5530,28 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
+      "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 76.48,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 19.12,
     "href": "/projects/the-frisbys-you-are"
   },
   {
     "projectSlug": "the-frisbys-you-are",
-    "lensId": "media-asset-systems",
+    "lensId": "physical-systems-engineering",
     "projectName": "The Frisbys — You Are",
-    "contributionTitle": "Multicamera setup and operation",
-    "summary": "Coordination and operation of multiple camera sources within a music-production workflow.",
+    "contributionTitle": "Camera-system setup",
+    "summary": "Physical preparation, configuration and signal setup for the multicamera production environment.",
     "relevantWorkSlugs": [
-      "the-frisbys-you-are-multicamera-setup-and-operation"
+      "the-frisbys-you-are-camera-system-setup"
     ],
     "leadHatSlugs": [
-      "live-systems-designer",
-      "media-engineer",
-      "media-workflow-designer"
+      "live-systems-designer"
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
@@ -6232,25 +5565,25 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "1 evidenced capabilities contribute a capped distinctiveness signal",
+      "Evidence is explicitly connected to the selected lens"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 76,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/the-frisbys-you-are?area=media-asset-systems"
+    "finalScore": 19,
+    "href": "/projects/the-frisbys-you-are?area=physical-systems-engineering"
   },
   {
     "projectSlug": "the-frisbys-you-are",
-    "lensId": "physical-technical-engineering",
+    "lensId": "media-production-distribution",
     "projectName": "The Frisbys — You Are",
-    "contributionTitle": "Multicamera setup and operation",
+    "contributionTitle": "Multicamera operation",
     "summary": "Coordination and operation of multiple camera sources within a music-production workflow.",
     "relevantWorkSlugs": [
-      "the-frisbys-you-are-multicamera-setup-and-operation"
+      "the-frisbys-you-are-multicamera-operation"
     ],
     "leadHatSlugs": [
-      "live-systems-designer",
       "media-engineer",
       "media-workflow-designer"
     ],
@@ -6266,13 +5599,13 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 68.83,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/the-frisbys-you-are?area=physical-technical-engineering"
+    "finalScore": 17.2075,
+    "href": "/projects/the-frisbys-you-are?area=media-production-distribution"
   },
   {
     "projectSlug": "bluedot-festival-the-orb",
@@ -6309,75 +5642,7 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "bluedot-festival-the-orb",
-    "lensId": "infrastructure-operations",
-    "projectName": "The Orb",
-    "contributionTitle": "Live sound-system design and installation",
-    "summary": "System preparation and live audio engineering for a festival performance environment.",
-    "relevantWorkSlugs": [
-      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
-    ],
-    "leadHatSlugs": [
-      "foh-engineer",
-      "live-systems-designer",
-      "sound-systems-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bluedot-festival-the-orb-live-sound-system-design-and-installation-video",
-      "src": "https://i.ytimg.com/vi/3GlBmy-Vxak/hqdefault.jpg",
-      "alt": "Supporting video published by bluedot festival.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/bluedot-festival-the-orb?area=infrastructure-operations"
-  },
-  {
-    "projectSlug": "bluedot-festival-the-orb",
-    "lensId": "media-asset-systems",
-    "projectName": "The Orb",
-    "contributionTitle": "Live sound-system design and installation",
-    "summary": "System preparation and live audio engineering for a festival performance environment.",
-    "relevantWorkSlugs": [
-      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
-    ],
-    "leadHatSlugs": [
-      "foh-engineer",
-      "live-systems-designer",
-      "sound-systems-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bluedot-festival-the-orb-live-sound-system-design-and-installation-video",
-      "src": "https://i.ytimg.com/vi/3GlBmy-Vxak/hqdefault.jpg",
-      "alt": "Supporting video published by bluedot festival.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/bluedot-festival-the-orb?area=media-asset-systems"
-  },
-  {
-    "projectSlug": "bluedot-festival-the-orb",
-    "lensId": "physical-technical-engineering",
+    "lensId": "physical-systems-engineering",
     "projectName": "The Orb",
     "contributionTitle": "Live sound-system design and installation",
     "summary": "System preparation and live audio engineering for a festival performance environment.",
@@ -6409,7 +5674,7 @@ export const publicWorkCards = [
     "evidenceCompletenessScore": 16,
     "editorialSequence": 4,
     "finalScore": 62.364999999999995,
-    "href": "/projects/bluedot-festival-the-orb?area=physical-technical-engineering"
+    "href": "/projects/bluedot-festival-the-orb?area=physical-systems-engineering"
   },
   {
     "projectSlug": "the-visionary-guide",
@@ -6485,7 +5750,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "The Visionary Guide",
     "contributionTitle": "The Visionary Guide system development",
-    "summary": "An application product in development around product definition, user experience and structured content.",
+    "summary": "Software and web-engineering responsibility: An application product in development around product definition, user experience and structured content.",
     "relevantWorkSlugs": [
       "the-visionary-guide-system-development"
     ],
@@ -6505,50 +5770,14 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 64.9,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 16.225,
     "href": "/projects/the-visionary-guide?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "the-visionary-guide",
-    "lensId": "media-asset-systems",
-    "projectName": "The Visionary Guide",
-    "contributionTitle": "The Visionary Guide system development",
-    "summary": "An application product in development around product definition, user experience and structured content.",
-    "relevantWorkSlugs": [
-      "the-visionary-guide-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "data-modeler",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 2,
-    "evidenceCompletenessScore": 16,
-    "editorialSequence": 9,
-    "finalScore": 32.364999999999995,
-    "href": "/projects/the-visionary-guide?area=media-asset-systems"
   },
   {
     "projectSlug": "viisiioiiv",
@@ -6591,48 +5820,6 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "viisiioiiv",
-    "lensId": "software-web-engineering",
-    "projectName": "VIISIIOIIV",
-    "contributionTitle": "VIISIIOIIV system development",
-    "summary": "A reserved brand concept with early naming and identity exploration.",
-    "relevantWorkSlugs": [
-      "viisiioiiv-system-development"
-    ],
-    "leadHatSlugs": [
-      "identity-architect",
-      "visual-language-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
-      "src": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
-        "src": "/images/projects/viisiioiiv/branding_language/viisiioiiv-main-logo-black.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for VIISIIOIIV.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 71.31,
-    "editorialBoost": 2,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 9,
-    "finalScore": 32.8275,
-    "href": "/projects/viisiioiiv?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "viisiioiiv",
     "lensId": "brand-experience-systems",
     "projectName": "VIISIIOIIV",
     "contributionTitle": "VIISIIOIIV system development",
@@ -6672,6 +5859,48 @@ export const publicWorkCards = [
     "editorialSequence": 4,
     "finalScore": 62.8275,
     "href": "/projects/viisiioiiv?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "viisiioiiv",
+    "lensId": "software-web-engineering",
+    "projectName": "VIISIIOIIV",
+    "contributionTitle": "VIISIIOIIV system development",
+    "summary": "Software and web-engineering responsibility: A reserved brand concept with early naming and identity exploration.",
+    "relevantWorkSlugs": [
+      "viisiioiiv-system-development"
+    ],
+    "leadHatSlugs": [
+      "identity-architect",
+      "visual-language-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
+      "src": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+        "src": "/images/projects/viisiioiiv/branding_language/viisiioiiv-main-logo-black.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for VIISIIOIIV.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 2 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 66.75,
+    "editorialBoost": 2,
+    "evidenceCompletenessScore": 18.49,
+    "editorialSequence": 9,
+    "finalScore": 31.6875,
+    "href": "/projects/viisiioiiv?area=software-web-engineering"
   },
   {
     "projectSlug": "waffll",
@@ -6770,59 +5999,10 @@ export const publicWorkCards = [
   },
   {
     "projectSlug": "waffll",
-    "lensId": "software-web-engineering",
-    "projectName": "Waffll",
-    "contributionTitle": "Design development",
-    "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
-    "relevantWorkSlugs": [
-      "waffll-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "concept-engineer",
-      "media-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "waffll-waffll-waffll-website",
-      "src": "/images/projects/waffll/waffll-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Waffll.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "waffll-waffll-logo-designs-gold-records-waffle-main-second-gen",
-        "src": "/images/projects/waffll/logo_designs/gold-records-waffle-main-second-gen.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Waffll.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "waffll-waffll-logo-designs-waffle-drip-first-gen",
-        "src": "/images/projects/waffll/logo_designs/waffle-drip-first-gen.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Waffll.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 73.86,
-    "editorialBoost": 3,
-    "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 8,
-    "finalScore": 39.465,
-    "href": "/projects/waffll?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "waffll",
     "lensId": "brand-experience-systems",
     "projectName": "Waffll",
     "contributionTitle": "Design development",
-    "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
+    "summary": "Brand and experience-system responsibility: Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
     "relevantWorkSlugs": [
       "waffll-system-development"
     ],
@@ -6855,21 +6035,21 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.465,
+    "finalScore": 17.3225,
     "href": "/projects/waffll?area=brand-experience-systems"
   },
   {
     "projectSlug": "waffll",
-    "lensId": "media-asset-systems",
+    "lensId": "media-production-distribution",
     "projectName": "Waffll",
     "contributionTitle": "Design development",
-    "summary": "Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
+    "summary": "Media production and distribution responsibility: Brand and service architecture connecting radio, publishing, production, food content and commercial surfaces.",
     "relevantWorkSlugs": [
       "waffll-system-development"
     ],
@@ -6902,16 +6082,16 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 69.29,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 1,
-    "finalScore": 81.465,
-    "href": "/projects/waffll?area=media-asset-systems"
+    "finalScore": 80.3225,
+    "href": "/projects/waffll?area=media-production-distribution"
   },
   {
     "projectSlug": "wibc",
@@ -6999,7 +6179,7 @@ export const publicWorkCards = [
     "lensId": "software-web-engineering",
     "projectName": "WIBC",
     "contributionTitle": "WIBC system development",
-    "summary": "A company identity and digital-presence project covering brand direction and corporate content structure.",
+    "summary": "Software and web-engineering responsibility: A company identity and digital-presence project covering brand direction and corporate content structure.",
     "relevantWorkSlugs": [
       "wibc-system-development"
     ],
@@ -7026,13 +6206,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 71.95,
+    "relevanceScore": 67.38,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.9875,
+    "finalScore": 16.845,
     "href": "/projects/wibc?area=software-web-engineering"
   },
   {
@@ -7073,7 +6253,7 @@ export const publicWorkCards = [
     "lensId": "brand-experience-systems",
     "projectName": "Zenthapy",
     "contributionTitle": "Zenthapy identity design · Zenthapy system development",
-    "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
+    "summary": "Brand and experience-system responsibility: A wellness-service concept awaiting further product definition and implementation.",
     "relevantWorkSlugs": [
       "zenthapy-identity-development",
       "zenthapy-system-development"
@@ -7093,13 +6273,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 75.85,
+    "relevanceScore": 73.34,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 18.9625,
+    "finalScore": 18.335,
     "href": "/projects/zenthapy?area=brand-experience-systems"
   },
   {

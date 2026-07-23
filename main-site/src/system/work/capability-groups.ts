@@ -1,46 +1,60 @@
 export const CAPABILITY_GROUPS = [
   {
-    id: "physical-technical-engineering",
+    id: "physical-systems-engineering",
     code: "01",
-    name: "Physical and Technical Engineering",
+    name: "Physical Systems Engineering",
     summary:
-      "Audio, electrical, electronics, embedded, communications, test and signal-distribution systems.",
+      "Hardware, electrical, electronic, embedded and installed signal systems operating in physical environments. Includes equipment, communications, testing, live technical systems and physical signal paths.",
+  },
+  {
+    id: "media-production-distribution",
+    code: "02",
+    name: "Media Production and Distribution",
+    summary:
+      "Creating, transforming, managing and delivering media: capture, recording, editing, mixing, broadcast, playout, publishing, archiving and distribution—not physical equipment or signal infrastructure alone.",
   },
   {
     id: "system-product-definition",
-    code: "02",
+    code: "03",
     name: "System and Product Definition",
     summary:
-      "Architecture, discovery, data and content models, product boundaries and service definition.",
-  },
-  {
-    id: "software-web-engineering",
-    code: "03",
-    name: "Software and Web Engineering",
-    summary:
-      "Front-end, back-end and application engineering, integrations and data-driven digital experiences.",
-  },
-  {
-    id: "infrastructure-operations",
-    code: "04",
-    name: "Infrastructure and Operations",
-    summary:
-      "Cloud delivery, DevOps, release workflows, servers, environments, domains, DNS and automation.",
+      "Defining what a product, service or system is before and above implementation: requirements, boundaries, architecture, data and content models, workflows and operating principles.",
   },
   {
     id: "brand-experience-systems",
-    code: "05",
+    code: "04",
     name: "Brand and Experience Systems",
     summary:
-      "Strategy, language, identity, interface direction, design systems and web experience design.",
+      "Shaping how a system is recognised, understood and experienced: strategy, language, identity, visual systems, interaction direction and designed experience.",
   },
   {
-    id: "media-asset-systems",
-    code: "06",
-    name: "Media Production and Distribution",
+    id: "software-web-engineering",
+    code: "05",
+    name: "Software and Web Engineering",
     summary:
-      "Audio, video, recording, broadcast, publishing workflows and media delivery.",
+      "Building executable digital behaviour: websites, applications, front ends, back ends, APIs, integrations, state systems and interactive interfaces.",
+  },
+  {
+    id: "infrastructure-operations",
+    code: "06",
+    name: "Infrastructure and Operations",
+    summary:
+      "Deploying and sustaining live systems: cloud platforms, servers, environments, domains, DNS, CI/CD, automation, monitoring, reliability and operational workflows.",
   },
 ] as const;
 
 export type CapabilityGroupId = (typeof CAPABILITY_GROUPS)[number]["id"];
+
+export const LEGACY_CAPABILITY_GROUP_ALIASES = {
+  "physical-technical-engineering": "physical-systems-engineering",
+  "media-asset-systems": "media-production-distribution",
+} as const satisfies Record<string, CapabilityGroupId>;
+
+export type LegacyCapabilityGroupId = keyof typeof LEGACY_CAPABILITY_GROUP_ALIASES;
+
+export function resolveCapabilityGroupId(value: string | null | undefined): CapabilityGroupId | undefined {
+  if (!value) return undefined;
+  const direct = CAPABILITY_GROUPS.find((group) => group.id === value);
+  if (direct) return direct.id;
+  return LEGACY_CAPABILITY_GROUP_ALIASES[value as LegacyCapabilityGroupId];
+}

@@ -10,10 +10,28 @@
   "summary": "Development of the core MiCKz identity and a mark capable of supporting a wider product family.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems"],
   "stages": [
-    { "key": "exploration", "label": "Exploration", "status": "historical" },
-    { "key": "direction", "label": "Direction", "status": "completed" },
-    { "key": "refinement", "label": "Refinement", "status": "in-progress" }
+    {
+      "key": "exploration",
+      "label": "Exploration",
+      "status": "historical"
+    },
+    {
+      "key": "direction",
+      "label": "Direction",
+      "status": "completed"
+    },
+    {
+      "key": "refinement",
+      "label": "Refinement",
+      "status": "in-progress"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    }
   ]
 }

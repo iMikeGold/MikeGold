@@ -10,5 +10,23 @@
   "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": ["software-web-engineering", "system-product-definition", "infrastructure-operations", "brand-experience-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+    }
+  ]
 }

@@ -27,7 +27,7 @@ const hatIds = JSON.parse(readFileSync(join(records, "migrations", "hat-id-map.v
 
 const groups = {
   system: "system-product-definition", software: "software-web-engineering", infra: "infrastructure-operations",
-  brand: "brand-experience-systems", media: "media-asset-systems", physical: "physical-technical-engineering",
+  brand: "brand-experience-systems", media: "media-production-distribution", physical: "physical-systems-engineering",
 };
 
 const catalogue = [

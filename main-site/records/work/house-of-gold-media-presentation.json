@@ -11,5 +11,17 @@
   "status": "documented",
   "visibility": "public",
   "sequence": 4,
-  "capabilityGroupIds": ["brand-experience-systems", "media-asset-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    },
+    {
+      "lensId": "media-production-distribution",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+      "lensSummary": "Media production and distribution responsibility: Presentation rules and interface surfaces for music, imagery and digital assets across the House experience."
+    }
+  ]
 }

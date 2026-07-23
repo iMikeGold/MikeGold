@@ -42,12 +42,12 @@ const typeImports = {
 };
 
 const lensFacetPriority = {
-  "physical-technical-engineering": ["installation", "hardware", "electronics", "live-audio", "video", "system-architecture", "photography", "project-overview"],
+  "physical-systems-engineering": ["installation", "hardware", "electronics", "live-audio", "system-architecture", "photography", "project-overview", "video"],
   "system-product-definition": ["product-model", "system-architecture", "information-architecture", "application-interface", "website", "process", "project-overview", "identity-system", "logo"],
   "software-web-engineering": ["website", "web-interface", "application-interface", "system-architecture", "deployment", "project-overview", "identity-system", "logo"],
   "infrastructure-operations": ["deployment", "infrastructure", "operations", "system-architecture", "application-interface", "website", "project-overview"],
   "brand-experience-systems": ["identity-system", "brand-application", "logo", "process", "web-interface", "website", "project-overview"],
-  "media-asset-systems": ["media-output", "video", "recording", "broadcast", "live-audio", "editorial", "photography", "application-interface", "website", "project-overview"],
+  "media-production-distribution": ["media-output", "video", "recording", "broadcast", "live-audio", "editorial", "photography", "application-interface", "website", "project-overview"],
 };
 
 function inferredFacets(record) {
@@ -189,7 +189,8 @@ const publicWork = work
       summary: record.summary,
       status: record.status,
       ...(record.sequence ? { sequence: record.sequence } : {}),
-      capabilityGroupIds: record.capabilityGroupIds ?? [],
+      capabilityGroupIds: record.lensAssignments.map((assignment) => assignment.lensId),
+      lensAssignments: record.lensAssignments,
       ...(record.stages ? { stages: record.stages } : {}),
       appliedHatSlugs,
       evidenceSlugs,
@@ -200,7 +201,14 @@ const publicWork = work
         ...(relationship.displayRoles?.length ? { displayRoles: relationship.displayRoles } : {}),
         ...(Number.isFinite(relationship.priority) ? { priority: relationship.priority } : {}),
       })),
-      ...(record.lensSummaries ? { lensSummaries: record.lensSummaries } : {}),
+      ...(() => {
+        const lensSummaries = Object.fromEntries(
+          record.lensAssignments
+            .filter((assignment) => assignment.lensSummary)
+            .map((assignment) => [assignment.lensId, assignment.lensSummary]),
+        );
+        return Object.keys(lensSummaries).length ? { lensSummaries } : {};
+      })(),
     };
   });
 
@@ -256,7 +264,13 @@ for (const project of publicProjects) {
   for (const lensId of [undefined, ...lenses]) {
     const relevantWork = lensId ? projectWork.filter((item) => item.capabilityGroupIds.includes(lensId)) : projectWork;
     if (!relevantWork.length) continue;
-    const orderedWork = [...relevantWork].sort((left, right) => (left.sequence ?? 999) - (right.sequence ?? 999) || left.slug.localeCompare(right.slug));
+    const orderedWork = [...relevantWork].sort((left, right) => {
+      const leftRole = left.lensAssignments.find((assignment) => assignment.lensId === lensId)?.role;
+      const rightRole = right.lensAssignments.find((assignment) => assignment.lensId === lensId)?.role;
+      return Number(rightRole === "primary") - Number(leftRole === "primary") ||
+        (left.sequence ?? 999) - (right.sequence ?? 999) ||
+        left.slug.localeCompare(right.slug);
+    });
     const allLinks = relevantWork.flatMap((item) => item.evidenceLinks);
     const directEvidenceSlugs = new Set(allLinks.map((link) => link.evidenceSlug));
     const projectEvidenceSlugs = new Set(projectWork.flatMap((item) => item.evidenceSlugs));
@@ -269,7 +283,13 @@ for (const project of publicProjects) {
     const visuals = candidates.slice(0, 3).map(({ record }) => ({ evidenceSlug: record.slug, src: record.assetPath ?? record.thumbnailUrl, alt: record.description ?? record.title, evidenceType: record.evidenceType }));
     const leadHatSlugs = [...new Set(orderedWork.flatMap((item) => item.appliedHatSlugs))];
     const summary = (lensId && orderedWork.find((item) => item.lensSummaries?.[lensId])?.lensSummaries?.[lensId]) ?? orderedWork[0]?.summary ?? project.summary;
-    const contributionScore = Math.min(62, 38 + Math.log2(orderedWork.length + 1) * 12);
+    const weightedContributionCount = lensId
+      ? orderedWork.reduce((total, item) => {
+          const role = item.lensAssignments.find((assignment) => assignment.lensId === lensId)?.role;
+          return total + (role === "primary" ? 1 : 0.45);
+        }, 0)
+      : orderedWork.length;
+    const contributionScore = Math.min(62, 38 + Math.log2(weightedContributionCount + 1) * 12);
     const directlySupportedEvidence = allLinks.filter((link) => !lensId || link.supportedLensIds?.includes(lensId)).length;
     const evidenceCompleteness = Math.min(16, Math.sqrt(candidates.length) * 6) + (visuals[0] ? 10 : 0);
     const documentationDepth = Math.min(10, orderedWork.reduce((total, item) => total + (item.stages?.length ?? 0) * 2 + Number(Boolean(item.lensSummaries?.[lensId])), 0));

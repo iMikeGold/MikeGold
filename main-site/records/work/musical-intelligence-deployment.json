@@ -10,5 +10,11 @@
   "summary": "Configuration and troubleshooting of the build and cloud-delivery path used to publish the current web application.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": ["infrastructure-operations"]
+  "lensAssignments": [
+    {
+      "lensId": "infrastructure-operations",
+      "role": "primary",
+      "rationale": "The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment."
+    }
+  ]
 }

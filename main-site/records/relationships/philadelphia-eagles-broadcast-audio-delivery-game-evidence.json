@@ -1,0 +1,16 @@
+{
+  "id": "62f61f1b-4403-49a2-8ded-6a9fb461714a",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "sourceId": "94105c89-bd8e-4fef-99b4-492b1aa4903c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "694a5d64-eb59-4689-b0d4-65656a1a186a",
+  "targetType": "evidence",
+  "role": "supporting",
+  "supportedLensIds": [
+    "media-production-distribution"
+  ]
+}

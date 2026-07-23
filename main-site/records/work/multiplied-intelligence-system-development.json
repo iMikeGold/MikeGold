@@ -10,10 +10,23 @@
   "summary": "Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "software-web-engineering",
-    "infrastructure-operations",
-    "brand-experience-systems"
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
+      "lensSummary": "System and product-definition responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery."
+    },
+    {
+      "lensId": "infrastructure-operations",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+      "lensSummary": "Infrastructure and operations responsibility: Website design and development for the Multiplied Intelligence professional platform, with structured content and multi-domain cloud delivery."
+    }
   ]
 }

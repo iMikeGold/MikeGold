@@ -20,6 +20,13 @@ export interface WorkStage {
   status: "planned" | "in-progress" | "completed" | "historical";
 }
 
+export interface WorkLensAssignment {
+  lensId: CapabilityGroupId;
+  role: "primary" | "secondary";
+  rationale: string;
+  lensSummary?: string;
+}
+
 export interface InternalWorkRecord extends BaseRecord<WorkId, "work"> {
   projectId: ProjectId;
   slug: string;
@@ -28,11 +35,10 @@ export interface InternalWorkRecord extends BaseRecord<WorkId, "work"> {
   status: WorkStatus;
   visibility: Visibility;
   sequence?: number;
-  capabilityGroupIds: CapabilityGroupId[];
+  lensAssignments: WorkLensAssignment[];
   startedAt?: string;
   completedAt?: string;
   stages?: WorkStage[];
-  lensSummaries?: Partial<Record<CapabilityGroupId, string>>;
 }
 
 export interface PublicWorkProjection {
@@ -43,6 +49,7 @@ export interface PublicWorkProjection {
   status: WorkStatus;
   sequence?: number;
   capabilityGroupIds: CapabilityGroupId[];
+  lensAssignments: WorkLensAssignment[];
   stages?: WorkStage[];
   appliedHatSlugs: string[];
   evidenceSlugs: string[];

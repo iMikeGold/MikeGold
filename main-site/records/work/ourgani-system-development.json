@@ -10,9 +10,23 @@
   "summary": "A service identity and live web presence, establishing its visual identity and delivering its public digital experience.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "brand-experience-systems",
-    "software-web-engineering",
-    "infrastructure-operations"
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience."
+    },
+    {
+      "lensId": "infrastructure-operations",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on deployment, runtime configuration, sustained delivery or the operating environment.",
+      "lensSummary": "Infrastructure and operations responsibility: A service identity and live web presence, establishing its visual identity and delivering its public digital experience."
+    }
   ]
 }

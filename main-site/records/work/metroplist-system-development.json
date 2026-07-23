@@ -10,9 +10,23 @@
   "summary": "A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR.",
   "status": "in-progress",
   "visibility": "public",
-  "capabilityGroupIds": [
-    "system-product-definition",
-    "software-web-engineering",
-    "brand-experience-systems"
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "software-web-engineering",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
+      "lensSummary": "Software and web-engineering responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: A data-driven exploration platform designed to transform the complexity of modern information into understandable, visual and meaningful intelligence. Its data and interpretation system is designed to be experienced in multiple ways, including AR and VR."
+    }
   ]
 }

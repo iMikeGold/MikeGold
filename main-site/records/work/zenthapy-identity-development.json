@@ -10,5 +10,11 @@
   "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": ["brand-experience-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "brand-experience-systems",
+      "role": "primary",
+      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
+    }
+  ]
 }

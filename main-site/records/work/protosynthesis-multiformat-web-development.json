@@ -10,5 +10,23 @@
   "summary": "Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath.",
   "status": "documented",
   "visibility": "public",
-  "capabilityGroupIds": ["software-web-engineering", "infrastructure-operations", "brand-experience-systems", "media-asset-systems"]
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
+      "lensSummary": "Brand and experience-system responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath."
+    },
+    {
+      "lensId": "media-production-distribution",
+      "role": "secondary",
+      "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
+      "lensSummary": "Media production and distribution responsibility: Front- and back-end development across the ProtoSynthesis research, media and library surfaces. A shared visual language is translated into different content formats while archive entries, navigation and structured knowledge remain connected underneath."
+    }
+  ]
 }

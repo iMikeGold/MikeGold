@@ -1,0 +1,20 @@
+{
+  "id": "f012677a-53ba-4abd-be9a-256abbe4bad4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "projectId": "b136c34a-ec2e-414d-bb82-2561252f3103",
+  "slug": "the-frisbys-you-are-camera-system-setup",
+  "title": "Camera-system setup",
+  "summary": "Physical preparation, configuration and signal setup for the multicamera production environment.",
+  "status": "historical",
+  "visibility": "public",
+  "lensAssignments": [
+    {
+      "lensId": "physical-systems-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+    }
+  ]
+}

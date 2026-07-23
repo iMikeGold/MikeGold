@@ -1,0 +1,16 @@
+{
+  "id": "63fc7b20-3114-435f-8ee2-19c51ab4963d",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "sourceId": "3daf5441-fd9e-4e64-a79a-3f2193cff90c",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "70070e7d-95f0-4f9f-b10a-76372d451540",
+  "targetType": "evidence",
+  "role": "supporting",
+  "supportedLensIds": [
+    "physical-systems-engineering"
+  ]
+}

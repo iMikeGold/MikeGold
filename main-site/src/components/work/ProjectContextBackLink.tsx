@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { CAPABILITY_GROUPS, type CapabilityGroupId } from "@/system/work/capability-groups";
+import { CAPABILITY_GROUPS, resolveCapabilityGroupId, type CapabilityGroupId } from "@/system/work/capability-groups";
 
 export default function ProjectContextBackLink() {
   const [area, setArea] = useState<CapabilityGroupId | "">("");
 
   useEffect(() => {
-    const requestedArea = new URLSearchParams(window.location.search).get("area");
-    if (CAPABILITY_GROUPS.some((group) => group.id === requestedArea)) {
-      setArea(requestedArea as CapabilityGroupId);
+    const requestedArea = resolveCapabilityGroupId(new URLSearchParams(window.location.search).get("area"));
+    if (requestedArea) {
+      setArea(requestedArea);
     }
   }, []);
 
