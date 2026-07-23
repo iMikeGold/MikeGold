@@ -118,9 +118,29 @@ export const publicWork = [
       "systems-engineer"
     ],
     "evidenceSlugs": [
+      "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+      "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+      "bamboograph-bamboo-graph-web-dev-bamboo-garden-witness",
+      "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
       "bamboograph-documentation-pending"
     ],
     "evidenceLinks": [
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-witness",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
+        "role": "supporting"
+      },
       {
         "evidenceSlug": "bamboograph-documentation-pending",
         "role": "supporting"
@@ -144,11 +164,21 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "best-indies-best-indies-best-indies-website",
+      "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+      "best-indies-best-indies-web-dev-best-indies-collection-page",
       "best-indies-documentation-pending"
     ],
     "evidenceLinks": [
       {
         "evidenceSlug": "best-indies-best-indies-best-indies-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "best-indies-best-indies-web-dev-best-indies-collection-page",
         "role": "supporting"
       },
       {
@@ -1956,11 +1986,21 @@ export const publicWork = [
       "visual-language-engineer"
     ],
     "evidenceSlugs": [
-      "viisiioiiv-documentation-pending"
+      "viisiioiiv-documentation-pending",
+      "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+      "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website"
     ],
     "evidenceLinks": [
       {
         "evidenceSlug": "viisiioiiv-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
         "role": "supporting"
       }
     ]
@@ -2023,11 +2063,16 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "wibc-documentation-pending",
+      "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
       "wibc-wibc-wibc-website"
     ],
     "evidenceLinks": [
       {
         "evidenceSlug": "wibc-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
         "role": "supporting"
       },
       {
@@ -2082,11 +2127,16 @@ export const publicWork = [
     ],
     "evidenceSlugs": [
       "wrappedfm-documentation-pending",
+      "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
       "wrappedfm-wrappedfm-wrappedfm-website"
     ],
     "evidenceLinks": [
       {
         "evidenceSlug": "wrappedfm-documentation-pending",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
         "role": "supporting"
       },
       {

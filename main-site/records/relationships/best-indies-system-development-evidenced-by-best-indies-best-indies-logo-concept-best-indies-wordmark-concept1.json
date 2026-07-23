@@ -1,0 +1,13 @@
+{
+  "id": "a1c3f78d-eefb-412b-a77d-a4ae26a588a6",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "best-indies-system-development-evidenced-by-best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+  "sourceId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "eb2c1923-148b-4aed-8387-7e7ac0207d00",
+  "targetType": "evidence"
+}

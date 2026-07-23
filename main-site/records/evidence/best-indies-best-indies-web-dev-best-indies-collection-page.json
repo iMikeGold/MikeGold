@@ -1,0 +1,17 @@
+{
+  "id": "000dc328-0440-4121-b23d-f6286ba9d5f1",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "best-indies-best-indies-web-dev-best-indies-collection-page",
+  "title": "Best Indies — interface study 01",
+  "description": "Interface evidence from the Best Indies digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/best_indies/web_dev/best-indies-collection-page.webp",
+  "sourceTitle": "Best Indies",
+  "placeholder": false
+}

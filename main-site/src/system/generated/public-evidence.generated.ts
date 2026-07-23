@@ -279,6 +279,102 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+    "title": "BambooGraph — interface study 01",
+    "description": "Interface evidence from the BambooGraph digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-garden-listening.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "BambooGraph",
+    "placeholder": false
+  },
+  {
+    "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+    "title": "BambooGraph — interface study 02",
+    "description": "Interface evidence from the BambooGraph digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 2,
+    "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-garden-view-garden-button-highlight.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "BambooGraph",
+    "placeholder": false
+  },
+  {
+    "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-witness",
+    "title": "BambooGraph — interface study 03",
+    "description": "Interface evidence from the BambooGraph digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 3,
+    "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-garden-witness.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "BambooGraph",
+    "placeholder": false
+  },
+  {
+    "slug": "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
+    "title": "BambooGraph — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for BambooGraph.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 1,
+    "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-graph-website-home.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "BambooGraph",
+    "placeholder": false
+  },
+  {
     "slug": "bamboograph-documentation-pending",
     "title": "BambooGraph project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -302,7 +398,7 @@ export const publicEvidence = [
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/best_indies/best-indies-website.webp",
+    "assetPath": "/images/projects/best_indies/web_dev/best-indies-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -314,6 +410,54 @@ export const publicEvidence = [
         "gallery"
       ],
       "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "Best Indies",
+    "placeholder": false
+  },
+  {
+    "slug": "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+    "title": "Best Indies — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for Best Indies.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/best_indies/logo_concept/best-indies-wordmark-concept1.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "Best Indies",
+    "placeholder": false
+  },
+  {
+    "slug": "best-indies-best-indies-web-dev-best-indies-collection-page",
+    "title": "Best Indies — interface study 01",
+    "description": "Interface evidence from the Best Indies digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "assetPath": "/images/projects/best_indies/web_dev/best-indies-collection-page.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
       "aspectPreference": "any"
     },
     "sourceTitle": "Best Indies",
@@ -632,7 +776,7 @@ export const publicEvidence = [
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/community_supplies/community-suuplies-website.webp",
+    "assetPath": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -2459,7 +2603,7 @@ export const publicEvidence = [
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+    "assetPath": "/images/projects/musical_intelligence/web_dev/musical-intelligence-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -2629,7 +2773,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 3,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-archive-entry-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
     "presentation": {
       "facets": [
         "web-interface",
@@ -2653,7 +2797,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 2,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
     "presentation": {
       "facets": [
         "web-interface",
@@ -2677,7 +2821,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 1,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
     "presentation": {
       "facets": [
         "web-interface",
@@ -2701,7 +2845,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 5,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-page-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-page-website.webp",
     "presentation": {
       "facets": [
         "web-interface",
@@ -2725,7 +2869,7 @@ export const publicEvidence = [
     "evidenceType": "image",
     "role": "interface",
     "sequence": 4,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-media-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-media-website.webp",
     "presentation": {
       "facets": [
         "web-interface",
@@ -2749,7 +2893,7 @@ export const publicEvidence = [
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+    "assetPath": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -3199,6 +3343,54 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+    "title": "VIISIIOIIV — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for VIISIIOIIV.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/viisiioiiv/branding_language/viisiioiiv-main-logo-black.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "VIISIIOIIV",
+    "placeholder": false
+  },
+  {
+    "slug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
+    "title": "VIISIIOIIV — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 1,
+    "assetPath": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "VIISIIOIIV",
+    "placeholder": false
+  },
+  {
     "slug": "waffll-documentation-pending",
     "title": "Waffll project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -3305,6 +3497,30 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+    "title": "WIBC — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for WIBC.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/wibc/logo_concepts/wibc-wordmark-concept1.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "WIBC",
+    "placeholder": false
+  },
+  {
     "slug": "wibc-wibc-wibc-website",
     "title": "WIBC — website and digital experience",
     "description": "Homepage interface showing the public-facing digital system developed for WIBC.",
@@ -3394,13 +3610,37 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+    "title": "WrappedFM — interface study 01",
+    "description": "Interface evidence from the WrappedFM digital experience.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 1,
+    "assetPath": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+    "presentation": {
+      "facets": [
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "WrappedFM",
+    "placeholder": false
+  },
+  {
     "slug": "wrappedfm-wrappedfm-wrappedfm-website",
     "title": "WrappedFM — website and digital experience",
     "description": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/wrappedfm/wrappedfm-website.webp",
+    "assetPath": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
     "presentation": {
       "facets": [
         "website",

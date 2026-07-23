@@ -1,0 +1,17 @@
+{
+  "id": "f94ecc96-ea59-450b-b547-77dd3eb47b2c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+  "title": "BambooGraph — interface study 01",
+  "description": "Interface evidence from the BambooGraph digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-garden-listening.webp",
+  "sourceTitle": "BambooGraph",
+  "placeholder": false
+}

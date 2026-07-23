@@ -1,0 +1,13 @@
+{
+  "id": "d1ceef15-daf9-44b1-915c-d846aef4f7fa",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "best-indies-system-development-evidenced-by-best-indies-best-indies-web-dev-best-indies-collection-page",
+  "sourceId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "000dc328-0440-4121-b23d-f6286ba9d5f1",
+  "targetType": "evidence"
+}

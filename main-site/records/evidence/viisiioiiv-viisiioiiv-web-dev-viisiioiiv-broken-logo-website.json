@@ -1,0 +1,17 @@
+{
+  "id": "7af3f1be-913e-4c34-84e0-d49cad3d3e04",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-broken-logo-website",
+  "title": "VIISIIOIIV — interface study 01",
+  "description": "Non-standard web-direction variant retained as internal evidence for VIISIIOIIV; excluded from public display by default.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "unlisted",
+  "assetPath": "/images/projects/viisiioiiv/web_dev/viisiioiiv-broken-logo-website.webp",
+  "sourceTitle": "VIISIIOIIV",
+  "placeholder": false
+}

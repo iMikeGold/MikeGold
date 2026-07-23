@@ -1,0 +1,13 @@
+{
+  "id": "9071afb7-4846-4d79-baaf-2164e7c466e8",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "cannvent-system-development-evidenced-by-cannvent-cannvent-web-development-cannvent-inverted-layout-website",
+  "sourceId": "aefb1098-1e79-478f-b1b8-ca61c21962d4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "a678b149-cb4e-4baf-a07e-4905edc94d96",
+  "targetType": "evidence"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3c6b158f-d7b5-4e7e-b49d-719a6d4b617f",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
+  "title": "VIISIIOIIV — website and digital experience",
+  "description": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
+  "sourceTitle": "VIISIIOIIV",
+  "placeholder": false
+}

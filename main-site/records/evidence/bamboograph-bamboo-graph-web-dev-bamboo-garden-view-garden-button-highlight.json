@@ -1,0 +1,17 @@
+{
+  "id": "5aa6ed9a-9e12-4406-8c57-038b68872f68",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+  "title": "BambooGraph — interface study 02",
+  "description": "Interface evidence from the BambooGraph digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-garden-view-garden-button-highlight.webp",
+  "sourceTitle": "BambooGraph",
+  "placeholder": false
+}

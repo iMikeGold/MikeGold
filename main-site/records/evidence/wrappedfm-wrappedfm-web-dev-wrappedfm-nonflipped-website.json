@@ -1,0 +1,17 @@
+{
+  "id": "a4ade8d1-a5ef-4bd3-9cf3-a1857321d6c8",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+  "title": "WrappedFM — interface study 01",
+  "description": "Interface evidence from the WrappedFM digital experience.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+  "sourceTitle": "WrappedFM",
+  "placeholder": false
+}

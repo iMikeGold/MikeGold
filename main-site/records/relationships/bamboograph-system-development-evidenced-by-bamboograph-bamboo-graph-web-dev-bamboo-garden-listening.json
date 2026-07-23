@@ -1,0 +1,13 @@
+{
+  "id": "a363f9eb-c5bc-476e-beb0-17e9b7c79efc",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "bamboograph-system-development-evidenced-by-bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+  "sourceId": "3946f995-5432-4f47-9ac7-d52b451192b1",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "f94ecc96-ea59-450b-b547-77dd3eb47b2c",
+  "targetType": "evidence"
+}

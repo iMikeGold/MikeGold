@@ -1,0 +1,17 @@
+{
+  "id": "a8c1e80f-4f24-4278-b986-d10a29fa811e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "musical-intelligence-musical-intelligence-web-dev-musical-intelligence-logo-switched-website",
+  "title": "Musical Intelligence — interface study 01",
+  "description": "Non-standard web-direction variant retained as internal evidence for Musical Intelligence; excluded from public display by default.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 1,
+  "visibility": "unlisted",
+  "assetPath": "/images/projects/musical_intelligence/web_dev/musical-intelligence-logo-switched-website.webp",
+  "sourceTitle": "Musical Intelligence",
+  "placeholder": false
+}

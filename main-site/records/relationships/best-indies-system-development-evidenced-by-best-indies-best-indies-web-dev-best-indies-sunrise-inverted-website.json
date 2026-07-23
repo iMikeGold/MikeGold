@@ -1,0 +1,13 @@
+{
+  "id": "1ad967e3-02f8-4bfa-aebd-aafbaa421d95",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "best-indies-system-development-evidenced-by-best-indies-best-indies-web-dev-best-indies-sunrise-inverted-website",
+  "sourceId": "f7d9ffcd-2649-43b0-b5cd-b280afaddba5",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d491c673-fa4d-4199-8fdc-9e70812fbda8",
+  "targetType": "evidence"
+}

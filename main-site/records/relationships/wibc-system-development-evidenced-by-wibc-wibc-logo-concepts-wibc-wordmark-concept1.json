@@ -1,0 +1,13 @@
+{
+  "id": "2ec38f27-af19-4fc7-b2c8-ebac39229275",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "wibc-system-development-evidenced-by-wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+  "sourceId": "e01c59ad-6286-480b-a26d-be5ec3d36f1a",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "fc13e919-d07c-43a6-adfe-2a0c2edebd5c",
+  "targetType": "evidence"
+}

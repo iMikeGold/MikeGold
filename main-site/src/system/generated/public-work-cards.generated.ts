@@ -1204,7 +1204,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
-      "src": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+      "src": "/images/projects/musical_intelligence/web_dev/musical-intelligence-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
       "evidenceType": "website"
     },
@@ -1249,7 +1249,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
-      "src": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+      "src": "/images/projects/musical_intelligence/web_dev/musical-intelligence-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
       "evidenceType": "website"
     },
@@ -1296,7 +1296,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
-      "src": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+      "src": "/images/projects/musical_intelligence/web_dev/musical-intelligence-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
       "evidenceType": "website"
     },
@@ -1341,7 +1341,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "musical-intelligence-musical-intelligence-musical-intelligence-website",
-      "src": "/images/projects/musical_intelligence/musical-intelligence-website.webp",
+      "src": "/images/projects/musical_intelligence/web_dev/musical-intelligence-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Musical Intelligence.",
       "evidenceType": "website"
     },
@@ -1643,20 +1643,20 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
-      "src": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
       "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
         "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
         "evidenceType": "image"
       }
@@ -1691,20 +1691,20 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
-      "src": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
       "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
         "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
         "evidenceType": "image"
       }
@@ -1739,20 +1739,20 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-      "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
       "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
       "evidenceType": "image"
     },
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
         "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-archive-entry-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-archive-entry-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-archive-entry-website.webp",
         "alt": "An individual research entry demonstrates the intensive archive back end: typed references, document identity, version context and long-form material are projected into a readable public record.",
         "evidenceType": "image"
       }
@@ -1794,13 +1794,13 @@ export const publicWorkCards = [
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
         "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
         "evidenceType": "website"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
       }
@@ -1835,20 +1835,20 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-website",
-      "src": "/images/projects/protosynthesis/web_development/protosynthesis-website.webp",
+      "src": "/images/projects/protosynthesis/web_developement/protosynthesis-website.webp",
       "alt": "The parent system presents architecture, knowledge and reference material through a restrained technical interface. It establishes the shared navigation and system language from which the Library and Media experiences diverge.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
         "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
         "evidenceType": "image"
       }
@@ -1889,13 +1889,13 @@ export const publicWorkCards = [
     "supportingVisuals": [
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-website",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-website.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-website.webp",
         "alt": "The Library reframes the system as a structured repository: research, papers and reference material are organised through a persistent archive architecture rather than a conventional collection of web pages.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "protosynthesis-protosynthesis-web-developement-protosynthesis-library-pagewebsite",
-        "src": "/images/projects/protosynthesis/web_development/protosynthesis-library-pagewebsite.webp",
+        "src": "/images/projects/protosynthesis/web_developement/protosynthesis-library-pagewebsite.webp",
         "alt": "The archive browsing view exposes the content model and navigation required to move between knowledge types while preserving the Library's own interface character.",
         "evidenceType": "image"
       }
@@ -2449,34 +2449,34 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
+      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
-        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
+        "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+        "alt": "Interface evidence from the WrappedFM digital experience.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
+        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
+        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
+        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 80.88,
+    "relevanceScore": 82.48,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 80.88,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 82.48,
     "href": "/projects/wrappedfm"
   },
   {
@@ -2510,21 +2510,21 @@ export const publicWorkCards = [
       },
       {
         "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-        "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
         "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
         "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 80.88,
+    "relevanceScore": 82.48,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 80.88,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 82.48,
     "href": "/projects/wrappedfm?area=brand-experience-systems"
   },
   {
@@ -2545,34 +2545,34 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
+      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
-        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
+        "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+        "alt": "Interface evidence from the WrappedFM digital experience.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
+        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
+        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
+        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 80.88,
+    "relevanceScore": 82.48,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 80.88,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 82.48,
     "href": "/projects/wrappedfm?area=media-asset-systems"
   },
   {
@@ -2591,35 +2591,35 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
-      "evidenceType": "website"
+      "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+      "alt": "Interface evidence from the WrappedFM digital experience.",
+      "evidenceType": "image"
     },
     "supportingVisuals": [
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
+        "evidenceType": "website"
+      },
       {
         "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
         "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
         "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
         "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
-        "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 73.86,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/wrappedfm?area=system-product-definition"
   },
   {
@@ -2639,34 +2639,34 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
+      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
-        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
+        "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+        "alt": "Interface evidence from the WrappedFM digital experience.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
+        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
+        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
+        "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 73.86,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/wrappedfm?area=software-web-engineering"
   },
   {
@@ -2685,35 +2685,35 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
-      "src": "/images/projects/wrappedfm/wrappedfm-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
-      "evidenceType": "website"
+      "evidenceSlug": "wrappedfm-wrappedfm-web-dev-wrappedfm-nonflipped-website",
+      "src": "/images/projects/wrappedfm/web_dev/wrappedfm-nonflipped-website.webp",
+      "alt": "Interface evidence from the WrappedFM digital experience.",
+      "evidenceType": "image"
     },
     "supportingVisuals": [
+      {
+        "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
+        "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for WrappedFM.",
+        "evidenceType": "website"
+      },
       {
         "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
         "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-black.webp",
         "alt": "The primary WrappedFM identity presented for light and neutral surfaces, establishing the radio platform's core visual signature.",
         "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold",
-        "src": "/images/projects/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp",
-        "alt": "A pale-gold application of the primary mark, extending the WrappedFM identity into a warmer broadcast and promotional palette.",
-        "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 73.86,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/wrappedfm?area=infrastructure-operations"
   },
   {
@@ -3015,17 +3015,36 @@ export const publicWorkCards = [
       "systems-engineer"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
+      "src": "/images/projects/bamboo_graph/web_dev/bamboo-graph-website-home.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for BambooGraph.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-listening.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-view-garden-button-highlight.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 53.46,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 53.46,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/bamboograph"
   },
   {
@@ -3043,17 +3062,36 @@ export const publicWorkCards = [
       "systems-engineer"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+      "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-listening.webp",
+      "alt": "Interface evidence from the BambooGraph digital experience.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-view-garden-button-highlight.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-witness",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-witness.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 53.46,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 53.46,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/bamboograph?area=system-product-definition"
   },
   {
@@ -3071,17 +3109,36 @@ export const publicWorkCards = [
       "systems-engineer"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
+      "src": "/images/projects/bamboo_graph/web_dev/bamboo-graph-website-home.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for BambooGraph.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-listening.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-view-garden-button-highlight",
+        "src": "/images/projects/bamboo_graph/web_dev/bamboo-garden-view-garden-button-highlight.webp",
+        "alt": "Interface evidence from the BambooGraph digital experience.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 4 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 53.46,
+    "relevanceScore": 75.46,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 53.46,
+    "evidenceCompletenessScore": 22,
+    "finalScore": 75.46,
     "href": "/projects/bamboograph?area=software-web-engineering"
   },
   {
@@ -3100,21 +3157,34 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "best-indies-best-indies-best-indies-website",
-      "src": "/images/projects/best_indies/best-indies-website.webp",
+      "src": "/images/projects/best_indies/web_dev/best-indies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Best Indies.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "best-indies-best-indies-web-dev-best-indies-collection-page",
+        "src": "/images/projects/best_indies/web_dev/best-indies-collection-page.webp",
+        "alt": "Interface evidence from the Best Indies digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+        "src": "/images/projects/best_indies/logo_concept/best-indies-wordmark-concept1.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for Best Indies.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 73.86,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/best-indies"
   },
   {
@@ -3133,22 +3203,35 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "best-indies-best-indies-best-indies-website",
-      "src": "/images/projects/best_indies/best-indies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Best Indies.",
-      "evidenceType": "website"
+      "evidenceSlug": "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+      "src": "/images/projects/best_indies/logo_concept/best-indies-wordmark-concept1.webp",
+      "alt": "Identity-system evidence showing a logo or mark developed for Best Indies.",
+      "evidenceType": "image"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "best-indies-best-indies-best-indies-website",
+        "src": "/images/projects/best_indies/web_dev/best-indies-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for Best Indies.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "best-indies-best-indies-web-dev-best-indies-collection-page",
+        "src": "/images/projects/best_indies/web_dev/best-indies-collection-page.webp",
+        "alt": "Interface evidence from the Best Indies digital experience.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 73.86,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/best-indies?area=brand-experience-systems"
   },
   {
@@ -3168,21 +3251,34 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "best-indies-best-indies-best-indies-website",
-      "src": "/images/projects/best_indies/best-indies-website.webp",
+      "src": "/images/projects/best_indies/web_dev/best-indies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Best Indies.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "best-indies-best-indies-web-dev-best-indies-collection-page",
+        "src": "/images/projects/best_indies/web_dev/best-indies-collection-page.webp",
+        "alt": "Interface evidence from the Best Indies digital experience.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "best-indies-best-indies-logo-concept-best-indies-wordmark-concept1",
+        "src": "/images/projects/best_indies/logo_concept/best-indies-wordmark-concept1.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for Best Indies.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 73.86,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 73.86,
     "href": "/projects/best-indies?area=software-web-engineering"
   },
   {
@@ -3618,7 +3714,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/community-suuplies-website.webp",
+      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
       "evidenceType": "website"
     },
@@ -3659,7 +3755,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/community-suuplies-website.webp",
+      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
       "evidenceType": "website"
     },
@@ -3700,7 +3796,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/community-suuplies-website.webp",
+      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
       "evidenceType": "website"
     },
@@ -3741,7 +3837,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/community-suuplies-website.webp",
+      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
       "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
       "evidenceType": "website"
     },
@@ -3789,7 +3885,7 @@ export const publicWorkCards = [
     "supportingVisuals": [
       {
         "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-        "src": "/images/projects/community_supplies/community-suuplies-website.webp",
+        "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
         "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
         "evidenceType": "website"
       }
@@ -6206,17 +6302,30 @@ export const publicWorkCards = [
       "visual-language-engineer"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
+      "src": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+        "src": "/images/projects/viisiioiiv/branding_language/viisiioiiv-main-logo-black.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for VIISIIOIIV.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 52.83,
+    "relevanceScore": 71.31,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 52.83,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.31,
     "href": "/projects/viisiioiiv"
   },
   {
@@ -6233,17 +6342,30 @@ export const publicWorkCards = [
       "visual-language-engineer"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "viisiioiiv-viisiioiiv-branding-language-viisiioiiv-main-logo-black",
+      "src": "/images/projects/viisiioiiv/branding_language/viisiioiiv-main-logo-black.webp",
+      "alt": "Identity-system evidence showing a logo or mark developed for VIISIIOIIV.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "viisiioiiv-viisiioiiv-web-dev-viisiioiiv-website",
+        "src": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for VIISIIOIIV.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 52.83,
+    "relevanceScore": 71.31,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 52.83,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.31,
     "href": "/projects/viisiioiiv?area=brand-experience-systems"
   },
   {
@@ -6453,17 +6575,24 @@ export const publicWorkCards = [
       "alt": "Homepage interface showing the public-facing digital system developed for WIBC.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+        "src": "/images/projects/wibc/logo_concepts/wibc-wordmark-concept1.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for WIBC.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 71.95,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/wibc"
   },
   {
@@ -6482,22 +6611,29 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "wibc-wibc-wibc-website",
-      "src": "/images/projects/wibc/wibc-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for WIBC.",
-      "evidenceType": "website"
+      "evidenceSlug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+      "src": "/images/projects/wibc/logo_concepts/wibc-wordmark-concept1.webp",
+      "alt": "Identity-system evidence showing a logo or mark developed for WIBC.",
+      "evidenceType": "image"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "wibc-wibc-wibc-website",
+        "src": "/images/projects/wibc/wibc-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for WIBC.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 71.95,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/wibc?area=brand-experience-systems"
   },
   {
@@ -6521,17 +6657,24 @@ export const publicWorkCards = [
       "alt": "Homepage interface showing the public-facing digital system developed for WIBC.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+        "src": "/images/projects/wibc/logo_concepts/wibc-wordmark-concept1.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for WIBC.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 71.95,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 69.46,
+    "evidenceCompletenessScore": 18.49,
+    "finalScore": 71.95,
     "href": "/projects/wibc?area=software-web-engineering"
   },
   {

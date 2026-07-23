@@ -1,0 +1,17 @@
+{
+  "id": "b3c7bc16-faa7-43d7-8160-94b19bbf25e1",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "bamboograph-bamboo-graph-web-dev-bamboo-graph-website-home",
+  "title": "BambooGraph — website and digital experience",
+  "description": "Homepage interface showing the public-facing digital system developed for BambooGraph.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/bamboo_graph/web_dev/bamboo-graph-website-home.webp",
+  "sourceTitle": "BambooGraph",
+  "placeholder": false
+}

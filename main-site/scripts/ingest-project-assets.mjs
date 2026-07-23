@@ -11,6 +11,7 @@ const timestamp = new Date().toISOString();
 
 const folderProjects = {
   "118sports": "118-sports",
+  bamboo_graph: "bamboograph",
   best_indies: "best-indies",
   bonsaiTOL: "bonsai-tree-of-life",
   cannvent: "cannvent",
@@ -30,6 +31,7 @@ const folderProjects = {
   protosynthesis: "protosynthesis",
   saveours: "saveours",
   vendfm: "vendfm",
+  viisiioiiv: "viisiioiiv",
   visionary_guide: "the-visionary-guide",
   waffll: "waffll",
   wibc: "wibc",
@@ -112,10 +114,11 @@ const evidenceFiles = readdirSync(join(root, "records", "evidence"))
 
 function workFor(projectSlug, relativeParts, filename) {
   const lowerFilename = filename.toLowerCase();
+  const isWebFolder = relativeParts.some((part) => ["web_dev", "web_development", "web_developement"].includes(part));
   if (projectSlug === "cannvent" && lowerFilename.includes("app-website")) return work.get("cannvent-application-development");
   if (projectSlug === "cannvent" && lowerFilename.includes("space-website")) return work.get("cannvent-community-space-development");
-  if (projectSlug === "protosynthesis" && relativeParts.includes("web_development")) return work.get("protosynthesis-multiformat-web-development");
-  if (projectSlug === "saveours" && relativeParts.includes("web_development")) return work.get("saveours-platform-interface-development");
+  if (projectSlug === "protosynthesis" && isWebFolder) return work.get("protosynthesis-multiformat-web-development");
+  if (projectSlug === "saveours" && isWebFolder) return work.get("saveours-platform-interface-development");
   const configured = preferredWork[projectSlug];
   if (configured) {
     const folderMatch = relativeParts.find((part) => configured[part]);
@@ -124,13 +127,20 @@ function workFor(projectSlug, relativeParts, filename) {
   return work.get(`${projectSlug}-system-development`);
 }
 
-function roleFor(parts, filename, projectFolder) {
+function roleFor(parts, filename, projectFolder, project) {
   const path = parts.join("/").toLowerCase();
   const stem = slugify(filename.replace(extname(filename), ""));
-  const mainWebsiteStem = slugify(`${projectFolder}-website`);
+  const mainWebsiteStems = new Set([
+    slugify(`${projectFolder}-website`),
+    slugify(`${projectFolder}-website-home`),
+    slugify(`${project.slug}-website`),
+    slugify(`${project.slug}-website-home`),
+    slugify(`${project.name}-website`),
+    slugify(`${project.name}-website-home`),
+  ]);
   if (projectFolder === "ourgani" && stem === "ourgani") return "cover";
-  if (path.includes("web_development")) {
-    return stem === mainWebsiteStem ? "cover" : "interface";
+  if (["web_dev", "web_development", "web_developement"].some((folder) => path.includes(folder))) {
+    return mainWebsiteStems.has(stem) ? "cover" : "interface";
   }
   if (filename.toLowerCase().includes("website")) return "cover";
   if (path.includes("hat_registry_system") || path.includes("spider_polygon")) return "interface";
@@ -139,6 +149,11 @@ function roleFor(parts, filename, projectFolder) {
   if (path.includes("logo")) return "identity";
   if (path.includes("branding") || path.includes("design_evolutions")) return "process";
   return "reference";
+}
+
+function isNonStandardVariant(filename) {
+  const stem = slugify(filename.replace(extname(filename), ""));
+  return /(?:^|-)(?:switched|inverted|reversed|broken)(?:-|$)/.test(stem);
 }
 
 function descriptionFor(projectName, role) {
@@ -168,7 +183,8 @@ for (const asset of filesBelow(assetRoot).sort()) {
   const contribution = workFor(projectSlug, parts.slice(1, -1), filename);
   if (!project || !contribution) throw new Error(`No Project/Work mapping for ${relativePath}.`);
 
-  const role = roleFor(parts, filename, parts[0]);
+  const role = roleFor(parts, filename, parts[0], project);
+  const nonStandardVariant = isNonStandardVariant(filename);
   const counterKey = `${projectSlug}:${role}`;
   const roleIndex = (roleCounters.get(counterKey) ?? 0) + 1;
   roleCounters.set(counterKey, roleIndex);
@@ -206,11 +222,13 @@ for (const asset of filesBelow(assetRoot).sort()) {
     updatedAt: existing?.updatedAt ?? timestamp,
     slug: existing?.slug ?? evidenceSlug,
     title: existing?.title ?? title,
-    description: existing?.description ?? descriptionFor(project.name, role),
+    description: existing?.description ?? (nonStandardVariant
+      ? `Non-standard web-direction variant retained as internal evidence for ${project.name}; excluded from public display by default.`
+      : descriptionFor(project.name, role)),
     evidenceType: existing?.evidenceType ?? (role === "cover" ? "website" : "image"),
     role: existing?.role ?? role,
     sequence: existing?.sequence ?? roleIndex,
-    visibility: existing?.visibility ?? "public",
+    visibility: nonStandardVariant ? "unlisted" : (existing?.visibility ?? "public"),
     assetPath: publicPath,
     sourceTitle: existing?.sourceTitle ?? project.name,
     ...(existing?.phase ? { phase: existing.phase } : {}),
@@ -234,11 +252,15 @@ for (const asset of filesBelow(assetRoot).sort()) {
     createdAt: existingRelationship?.createdAt ?? timestamp,
     updatedAt: existingRelationship?.updatedAt ?? timestamp,
     slug: relationshipSlug,
-    sourceId: contribution.id,
+    sourceId: existingRelationship?.sourceId ?? contribution.id,
     sourceType: "work",
     relationshipType: "evidenced-by",
     targetId: evidence.id,
     targetType: "evidence",
+    ...(existingRelationship?.role ? { role: existingRelationship.role } : {}),
+    ...(existingRelationship?.supportedLensIds?.length ? { supportedLensIds: existingRelationship.supportedLensIds } : {}),
+    ...(existingRelationship?.displayRoles?.length ? { displayRoles: existingRelationship.displayRoles } : {}),
+    ...(Number.isFinite(existingRelationship?.priority) ? { priority: existingRelationship.priority } : {}),
   });
   if (!existingRelationship) linked++;
 }

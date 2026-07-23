@@ -1,0 +1,17 @@
+{
+  "id": "fc13e919-d07c-43a6-adfe-2a0c2edebd5c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "wibc-wibc-logo-concepts-wibc-wordmark-concept1",
+  "title": "WIBC — identity development 01",
+  "description": "Identity-system evidence showing a logo or mark developed for WIBC.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/wibc/logo_concepts/wibc-wordmark-concept1.webp",
+  "sourceTitle": "WIBC",
+  "placeholder": false
+}

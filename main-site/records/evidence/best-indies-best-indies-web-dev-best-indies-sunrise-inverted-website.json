@@ -1,0 +1,17 @@
+{
+  "id": "d491c673-fa4d-4199-8fdc-9e70812fbda8",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-23T01:20:02.936Z",
+  "updatedAt": "2026-07-23T01:20:02.936Z",
+  "slug": "best-indies-best-indies-web-dev-best-indies-sunrise-inverted-website",
+  "title": "Best Indies — interface study 02",
+  "description": "Non-standard web-direction variant retained as internal evidence for Best Indies; excluded from public display by default.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "unlisted",
+  "assetPath": "/images/projects/best_indies/web_dev/best-indies-sunrise-inverted-website.webp",
+  "sourceTitle": "Best Indies",
+  "placeholder": false
+}
