@@ -1,0 +1,13 @@
+{
+  "id": "b78a313d-21d3-4968-a753-3c159f375b7c",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "e476c967-7288-4b20-8c7a-012a03b57f50",
+  "targetType": "evidence"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ff46f399-5653-4004-9ff9-b6d3e4f60dad",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-web-build-institution-institution-website",
+  "title": "Bjórr Institution website",
+  "description": "Institutional environment for academic authority, governance, standards, research and public record.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 27,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/web_build/institution/institution-website.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Digital platform",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "website",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

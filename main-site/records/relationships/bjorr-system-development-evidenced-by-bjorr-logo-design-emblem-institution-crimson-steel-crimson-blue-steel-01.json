@@ -1,0 +1,13 @@
+{
+  "id": "351bd036-7e34-439a-a8e0-fe112f86696f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-logo-design-emblem-institution-crimson-steel-crimson-blue-steel-01",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5c8ec6cb-aa1c-48b8-b304-5c1c3116a4d9",
+  "targetType": "evidence"
+}

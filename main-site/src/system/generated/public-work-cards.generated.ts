@@ -3020,28 +3020,28 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
-        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
-        "evidenceType": "image"
+        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
+        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
+        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+        "evidenceType": "website"
       },
       {
-        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
-        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
-        "evidenceType": "image"
+        "evidenceSlug": "bjorr-web-build-institution-institution-website",
+        "src": "/images/projects/bjorr/web_build/institution/institution-website.png",
+        "alt": "Institutional environment for academic authority, governance, standards, research and public record.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 79.22,
+    "relevanceScore": 84.83,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 20.39,
-    "finalScore": 19.805,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 21.2075,
     "href": "/projects/bjorr"
   },
   {
@@ -3059,37 +3059,37 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [],
     "primaryVisual": {
-      "evidenceSlug": "bjorr-identity-system-presentation",
-      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
+      "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
+      "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+      "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
       "evidenceType": "image"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
-        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
+        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course-dark.png",
+        "alt": "Dark-state course route demonstrating how the same adaptive learning structure persists across learner-controlled visual settings.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
-        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
+        "alt": "Course route showing reading, practice and connection-building activities within a visible sequence and progress model.",
         "evidenceType": "image"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.22,
+    "relevanceScore": 84.83,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 20.39,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52.805,
+    "finalScore": 54.207499999999996,
     "href": "/projects/bjorr?area=system-product-definition"
   },
   {
@@ -3114,30 +3114,30 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
-        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
+        "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+        "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
         "evidenceType": "image"
       },
       {
-        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
-        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
-        "evidenceType": "image"
+        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
+        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
+        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
+      "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 74.65,
+    "relevanceScore": 80.26,
     "editorialBoost": 9,
-    "evidenceCompletenessScore": 20.39,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 75.6625,
+    "finalScore": 77.065,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {

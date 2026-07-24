@@ -1,0 +1,13 @@
+{
+  "id": "afbb1ffe-8c54-4769-aa65-1f9b402d5e6f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "69ed849e-4df4-4f73-9636-102c8e06a7a3",
+  "targetType": "evidence"
+}

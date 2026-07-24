@@ -1,0 +1,29 @@
+{
+  "id": "e476c967-7288-4b20-8c7a-012a03b57f50",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+  "title": "School interface state — Soft White",
+  "description": "Bright School interface state using white-cream fields, soft blue structure and warm contrast.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 15,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-white.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Adaptive learning experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "archive"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

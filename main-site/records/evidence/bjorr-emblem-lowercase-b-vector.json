@@ -11,14 +11,19 @@
   "role": "identity",
   "sequence": 2,
   "visibility": "public",
-  "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+  "assetPath": "/images/projects/bjorr/logo_design/master/bjorr-emblem-lowercase-b-clean-vector.svg",
   "sourceTitle": "Bjórr",
-  "phase": "Identity development",
+  "phase": "Identity system",
   "placeholder": false,
   "presentation": {
-    "facets": ["identity-system"],
-    "displayRoles": ["supporting", "gallery"],
-    "visualQuality": "standard",
-    "aspectPreference": "portrait"
+    "facets": [
+      "identity-system",
+      "logo"
+    ],
+    "displayRoles": [
+      "archive"
+    ],
+    "visualQuality": "supporting",
+    "aspectPreference": "square"
   }
 }

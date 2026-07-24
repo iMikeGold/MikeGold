@@ -1,0 +1,13 @@
+{
+  "id": "0f8e00a9-65d4-4087-a7bc-cc79b4483fd0",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-adaptive-learning-user-accounts-my-learning",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "ddf3cfbc-680d-4d84-a601-1836a4e91e78",
+  "targetType": "evidence"
+}

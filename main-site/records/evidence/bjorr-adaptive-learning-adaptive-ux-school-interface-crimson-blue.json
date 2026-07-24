@@ -1,0 +1,29 @@
+{
+  "id": "1772acb7-7614-4b8f-9aef-96b6f549ab7e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-crimson-blue",
+  "title": "School interface state — Dark Crimson",
+  "description": "Deep School interface state combining midnight blue foundations with crimson action and warm cream typography.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 14,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-crimson-blue.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Adaptive learning experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "archive"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

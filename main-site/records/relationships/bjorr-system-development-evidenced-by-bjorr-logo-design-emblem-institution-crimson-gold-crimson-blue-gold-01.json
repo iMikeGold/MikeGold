@@ -1,0 +1,13 @@
+{
+  "id": "9ff0aacc-dfdc-4a1d-aa56-6a6390c49e55",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-logo-design-emblem-institution-crimson-gold-crimson-blue-gold-01",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "381f3e84-b86f-45bb-9806-8a00783cf12c",
+  "targetType": "evidence"
+}

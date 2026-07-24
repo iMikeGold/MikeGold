@@ -1,0 +1,13 @@
+{
+  "id": "ccd591f7-a49b-48a9-aff9-9e1d93ab9e11",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-bjorr-logo-design-emblem-school-yellow-silver-yellow-stone-shadow300",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "b6475fe5-92ee-4d5f-8d5b-5f0edc0b3fff",
+  "targetType": "evidence"
+}

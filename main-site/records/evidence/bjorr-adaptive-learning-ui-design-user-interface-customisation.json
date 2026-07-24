@@ -1,0 +1,30 @@
+{
+  "id": "a96d93e6-3a34-4256-af70-36549564d9d5",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-adaptive-learning-ui-design-user-interface-customisation",
+  "title": "Learner environment — colour-state controls",
+  "description": "Settings interface allowing a learner to choose Dark Crimson, Soft Black, Cream or Soft White while retaining the same information hierarchy.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 16,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/adaptive_learning/ui_design/user-interface-customisation.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Adaptive learning experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

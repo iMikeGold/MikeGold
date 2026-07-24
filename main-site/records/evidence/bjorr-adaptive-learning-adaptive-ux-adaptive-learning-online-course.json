@@ -1,0 +1,30 @@
+{
+  "id": "69ed849e-4df4-4f73-9636-102c8e06a7a3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+  "title": "Adaptive course — light learning state",
+  "description": "Course route showing reading, practice and connection-building activities within a visible sequence and progress model.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 11,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Adaptive learning experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

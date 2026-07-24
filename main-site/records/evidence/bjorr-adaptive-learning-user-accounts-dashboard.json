@@ -1,0 +1,30 @@
+{
+  "id": "b17a5d1e-dd05-4d09-b83a-8fd073641e09",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-adaptive-learning-user-accounts-dashboard",
+  "title": "Learner account — current learning dashboard",
+  "description": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
+  "evidenceType": "image",
+  "role": "interface",
+  "sequence": 17,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+  "sourceTitle": "Bjórr",
+  "phase": "Adaptive learning experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "application-interface",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  }
+}

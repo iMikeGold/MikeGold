@@ -367,6 +367,272 @@ export const internalEvidenceRecords = [
     "placeholder": true
   },
   {
+    "id": "f204851b-5441-41e5-b08d-2941861343cf",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
+    "title": "Adaptive course — dark learning state",
+    "description": "Dark-state course route demonstrating how the same adaptive learning structure persists across learner-controlled visual settings.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 10,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course-dark.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "69ed849e-4df4-4f73-9636-102c8e06a7a3",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+    "title": "Adaptive course — light learning state",
+    "description": "Course route showing reading, practice and connection-building activities within a visible sequence and progress model.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 11,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "6b5b2ed5-503e-4f8d-83fd-00f3a788a6d7",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-black",
+    "title": "School interface state — Soft Black",
+    "description": "Reduced-glare School interface state using near-black surfaces, restrained blue depth and quiet crimson signals.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 12,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-black.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "88d4d3bc-45b5-48c8-8f08-367ab0db6c8a",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-cream",
+    "title": "School interface state — Cream",
+    "description": "Warm School interface state using institutional cream, ink-blue text and deliberate crimson accents.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 13,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-cream.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "1772acb7-7614-4b8f-9aef-96b6f549ab7e",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-crimson-blue",
+    "title": "School interface state — Dark Crimson",
+    "description": "Deep School interface state combining midnight blue foundations with crimson action and warm cream typography.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 14,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-crimson-blue.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "e476c967-7288-4b20-8c7a-012a03b57f50",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+    "title": "School interface state — Soft White",
+    "description": "Bright School interface state using white-cream fields, soft blue structure and warm contrast.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 15,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-white.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "a96d93e6-3a34-4256-af70-36549564d9d5",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-ui-design-user-interface-customisation",
+    "title": "Learner environment — colour-state controls",
+    "description": "Settings interface allowing a learner to choose Dark Crimson, Soft Black, Cream or Soft White while retaining the same information hierarchy.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 16,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/ui_design/user-interface-customisation.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "b17a5d1e-dd05-4d09-b83a-8fd073641e09",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-user-accounts-dashboard",
+    "title": "Learner account — current learning dashboard",
+    "description": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 17,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "ddf3cfbc-680d-4d84-a601-1836a4e91e78",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-adaptive-learning-user-accounts-my-learning",
+    "title": "Learner account — connected courses and progress",
+    "description": "My Learning view connecting each course to the learner’s current state, study mode, expected duration and recorded progress.",
+    "evidenceType": "image",
+    "role": "interface",
+    "sequence": 18,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/adaptive_learning/user_accounts/my-learning.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Adaptive learning experience",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "application-interface",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
     "id": "0ea5805c-a0ec-4cc3-8ee9-4e0e46e6f029",
     "recordType": "evidence",
     "schemaVersion": 1,
@@ -379,20 +645,20 @@ export const internalEvidenceRecords = [
     "role": "identity",
     "sequence": 2,
     "visibility": "public",
-    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+    "assetPath": "/images/projects/bjorr/logo_design/master/bjorr-emblem-lowercase-b-clean-vector.svg",
     "sourceTitle": "Bjórr",
-    "phase": "Identity development",
+    "phase": "Identity system",
     "placeholder": false,
     "presentation": {
       "facets": [
-        "identity-system"
+        "identity-system",
+        "logo"
       ],
       "displayRoles": [
-        "supporting",
-        "gallery"
+        "archive"
       ],
-      "visualQuality": "standard",
-      "aspectPreference": "portrait"
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
     }
   },
   {
@@ -408,20 +674,49 @@ export const internalEvidenceRecords = [
     "role": "identity",
     "sequence": 3,
     "visibility": "public",
-    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+    "assetPath": "/images/projects/bjorr/logo_design/master/bjorr-emblem-uppercase-B-clean-vector.svg",
     "sourceTitle": "Bjórr",
-    "phase": "Identity development",
+    "phase": "Identity system",
     "placeholder": false,
     "presentation": {
       "facets": [
-        "identity-system"
+        "identity-system",
+        "logo"
       ],
       "displayRoles": [
-        "supporting",
-        "gallery"
+        "archive"
       ],
-      "visualQuality": "standard",
-      "aspectPreference": "portrait"
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "565230a0-9bee-4fc5-b269-34a0dcc72f54",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-identity-design-bjorr-gold-silver-registers",
+    "title": "Bjórr identity registers — School and Institution",
+    "description": "Permanent paired identity asset preserving the lowercase-b School mark in old gold and shadow beside the uppercase-B Institution mark in white, silver, steel and stone.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 10,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/identity_design/bjorr-gold-silver-registers.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
     }
   },
   {
@@ -452,6 +747,389 @@ export const internalEvidenceRecords = [
         "gallery"
       ],
       "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "381f3e84-b86f-45bb-9806-8a00783cf12c",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-institution-crimson-gold-crimson-blue-gold-01",
+    "title": "Institution emblem — crimson blue and gold",
+    "description": "Uppercase-B Institution emblem treatment connecting institutional blue to the shared gold identity.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 20,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/institution/crimson_gold/crimson-blue-gold-01.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "5c8ec6cb-aa1c-48b8-b304-5c1c3116a4d9",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-institution-crimson-steel-crimson-blue-steel-01",
+    "title": "Institution emblem — crimson blue and steel",
+    "description": "Uppercase-B Institution emblem treatment combining the foundation blue with structural steel.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 19,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/institution/crimson/steel/crimson-blue-steel-01.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "c5f683ff-a1a4-4c60-933d-e46db2c17a3a",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-institution-white-gold-white-gold-01",
+    "title": "Institution emblem — white and gold",
+    "description": "Uppercase-B Institution emblem treatment for dark grounds, combining white clarity with shared gold.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 22,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/institution/white_gold/white-gold-01.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "5088a8f4-0629-4cd4-81fe-7eb8172c2561",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-institution-white-steel-white-steel-01",
+    "title": "Institution emblem — white and steel",
+    "description": "Uppercase-B Institution emblem treatment using the core white and steel institutional palette.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 23,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/institution/white_steel/white-steel-01.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "58a3f233-613d-441f-9208-cfff18b8bf75",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-institution-white-stone-white-stone-01",
+    "title": "Institution emblem — white and stone",
+    "description": "Uppercase-B Institution emblem treatment using white and stone for grounded institutional applications.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 21,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/institution/white-stone/white-stone-01.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "61f11c9e-d16f-46f9-bc54-3f6b97e6b3cd",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-school-cream-gold-shadow-emblem-cream-gold-shadow",
+    "title": "School emblem — cream and gold shadow",
+    "description": "Lowercase-b School emblem treatment combining warm cream with the ceremonial gold-shadow register.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 24,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/school/cream/gold-shadow/emblem-cream-gold-shadow.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "b6475fe5-92ee-4d5f-8d5b-5f0edc0b3fff",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-logo-design-emblem-school-yellow-silver-yellow-stone-shadow300",
+    "title": "School emblem — yellow and stone shadow",
+    "description": "Compact School emblem application pairing a bright learning colour with the grounded stone-shadow register.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 25,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/emblem/school/yellow/silver/yellow-stone-shadow300.webp",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "square"
+    }
+  },
+  {
+    "id": "0c731546-5247-4132-8a17-d45cbb1cc5e9",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-bjorr-main-main-website",
+    "title": "Bjórr connected-system website",
+    "description": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 26,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "ff46f399-5653-4004-9ff9-b6d3e4f60dad",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-institution-institution-website",
+    "title": "Bjórr Institution website",
+    "description": "Institutional environment for academic authority, governance, standards, research and public record.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 27,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/institution/institution-website.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "dd543c7b-40b7-4e66-a869-2861bd59f1b5",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-school-website-school-website-black",
+    "title": "School of Bjórr website — Soft Black",
+    "description": "Public School and learner-environment entry point shown in its reduced-glare Soft Black state.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 28,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-black.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "f258ef05-3800-4782-b9cf-d8f87570160b",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-school-website-school-website-crimson-blue",
+    "title": "School of Bjórr website — Dark Crimson",
+    "description": "Public School and learner-environment entry point shown in its Dark Crimson state.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 29,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-crimson-blue.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "a6e6059d-0102-4fe2-a55a-7f26a0b185d5",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-school-website-school-website-website",
+    "title": "School of Bjórr website — Cream",
+    "description": "Public School and learner-environment entry point shown in its warm Cream state.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 30,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-website.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    }
+  },
+  {
+    "id": "477e14e5-1ab0-4973-9b43-f4664753e0fa",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-web-build-school-website-school-website-white",
+    "title": "School of Bjórr website — Soft White",
+    "description": "Public School and learner-environment entry point shown in its bright Soft White state.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 31,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-white.png",
+    "sourceTitle": "Bjórr",
+    "phase": "Digital platform",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
       "aspectPreference": "landscape"
     }
   },

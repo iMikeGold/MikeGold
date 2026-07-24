@@ -296,11 +296,126 @@ export const publicWork = [
       "identity-architect"
     ],
     "evidenceSlugs": [
+      "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
+      "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+      "bjorr-adaptive-learning-adaptive-ux-school-interface-black",
+      "bjorr-adaptive-learning-adaptive-ux-school-interface-cream",
+      "bjorr-adaptive-learning-adaptive-ux-school-interface-crimson-blue",
+      "bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+      "bjorr-adaptive-learning-ui-design-user-interface-customisation",
+      "bjorr-adaptive-learning-user-accounts-dashboard",
+      "bjorr-adaptive-learning-user-accounts-my-learning",
+      "bjorr-identity-design-bjorr-gold-silver-registers",
+      "bjorr-logo-design-emblem-institution-crimson-gold-crimson-blue-gold-01",
+      "bjorr-logo-design-emblem-institution-crimson-steel-crimson-blue-steel-01",
+      "bjorr-logo-design-emblem-institution-white-gold-white-gold-01",
+      "bjorr-logo-design-emblem-institution-white-steel-white-steel-01",
+      "bjorr-logo-design-emblem-institution-white-stone-white-stone-01",
+      "bjorr-logo-design-emblem-school-cream-gold-shadow-emblem-cream-gold-shadow",
+      "bjorr-logo-design-emblem-school-yellow-silver-yellow-stone-shadow300",
+      "bjorr-web-build-bjorr-main-main-website",
+      "bjorr-web-build-institution-institution-website",
+      "bjorr-web-build-school-website-school-website-black",
+      "bjorr-web-build-school-website-school-website-crimson-blue",
+      "bjorr-web-build-school-website-school-website-website",
+      "bjorr-web-build-school-website-school-website-white",
       "bjorr-identity-system-presentation",
       "bjorr-emblem-lowercase-b-vector",
       "bjorr-emblem-uppercase-b-vector"
     ],
     "evidenceLinks": [
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-school-interface-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-school-interface-cream",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-school-interface-crimson-blue",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-ui-design-user-interface-customisation",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-user-accounts-my-learning",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-identity-design-bjorr-gold-silver-registers",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-institution-crimson-gold-crimson-blue-gold-01",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-institution-crimson-steel-crimson-blue-steel-01",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-institution-white-gold-white-gold-01",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-institution-white-steel-white-steel-01",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-institution-white-stone-white-stone-01",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-school-cream-gold-shadow-emblem-cream-gold-shadow",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-logo-design-emblem-school-yellow-silver-yellow-stone-shadow300",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-institution-institution-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-school-website-school-website-black",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-school-website-school-website-crimson-blue",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-school-website-school-website-website",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-school-website-school-website-white",
+        "role": "supporting"
+      },
       {
         "evidenceSlug": "bjorr-identity-system-presentation",
         "role": "supporting"
