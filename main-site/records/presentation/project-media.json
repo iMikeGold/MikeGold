@@ -1,7 +1,7 @@
 [
   { "projectSlug": "2xu-wetsuit-testing", "assetPath": "/images/projects/2xu/2xu.webp", "label": "2XU presentation logo" },
   { "assetPath": "/images/projects/3mobile/3-mobile.webp", "label": "3 Mobile presentation logo" },
-  { "projectSlug": "bjorr", "assetPath": "/images/projects/bjorr/identity-design.png", "label": "Bjórr presentation identity" },
+  { "projectSlug": "bjorr", "assetPath": "/images/projects/bjorr/identity_design/identity-design.webp", "label": "Bjórr presentation identity" },
   { "projectSlug": "bristow-operational-excellence", "assetPath": "/images/projects/bristow_helicopters/bristow-logo.webp", "label": "Bristow presentation logo" },
   { "projectSlug": "bristow-operational-excellence", "assetPath": "/images/projects/bristow_helicopters/bristow.webp", "label": "Bristow presentation image" },
   { "assetPath": "/images/projects/chemical_brothers/chemical-brothers.webp", "label": "Chemical Brothers presentation logo" },

@@ -276,11 +276,21 @@ export const publicWork = [
       "identity-architect"
     ],
     "evidenceSlugs": [
-      "bjorr-documentation-pending"
+      "bjorr-identity-system-presentation",
+      "bjorr-emblem-lowercase-b-vector",
+      "bjorr-emblem-uppercase-b-vector"
     ],
     "evidenceLinks": [
       {
-        "evidenceSlug": "bjorr-documentation-pending",
+        "evidenceSlug": "bjorr-identity-system-presentation",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
         "role": "supporting"
       }
     ],
@@ -1352,7 +1362,9 @@ export const publicWork = [
     "appliedHatSlugs": [
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "systems-engineer",
+      "live-systems-designer",
+      "operations-engineer"
     ],
     "evidenceSlugs": [
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video"
@@ -2297,7 +2309,11 @@ export const publicWork = [
       }
     ],
     "appliedHatSlugs": [
-      "media-distribution-engineer"
+      "media-distribution-engineer",
+      "broadcast-audio-engineer",
+      "signal-flow-designer",
+      "audio-engineer",
+      "systems-engineer"
     ],
     "evidenceSlugs": [
       "philadelphia-eagles-nfl-wembley-broadcast-evidence",
@@ -2339,7 +2355,10 @@ export const publicWork = [
     "appliedHatSlugs": [
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "systems-engineer",
+      "live-systems-designer",
+      "signal-flow-designer",
+      "operations-engineer"
     ],
     "evidenceSlugs": [
       "philadelphia-eagles-nfl-wembley-broadcast-evidence",

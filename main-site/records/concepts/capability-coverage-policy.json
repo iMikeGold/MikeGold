@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "weights": {
+    "direct": 1,
+    "core": 0.75,
+    "supporting": 0.4,
+    "contextual": 0.15
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "live-systems-designer": {
+      "coverage": {"direct": [], "core": ["live-field-operations", "field-communications", "systems-integration", "live-operational-support"], "supporting": [], "contextual": []},
+      "stageKeys": ["discovery", "design", "live-operation"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "systems-engineer": {
+      "coverage": {"direct": [], "core": ["systems-integration", "communications-networking", "media-system", "product-definition", "testing-commissioning", "technical-handover"], "supporting": [], "contextual": []},
+      "stageKeys": ["requirements", "system-definition", "integration", "handover"],
+      "source": "confirmed",
+      "confidence": 0.97
+    },
+    "network-engineer": {
+      "coverage": {"direct": [], "core": ["communications-networking", "field-communications", "primary-signal-path", "fallback-signal-path"], "supporting": [], "contextual": []},
+      "stageKeys": ["system-definition", "detailed-design", "integration"],
+      "source": "confirmed",
+      "confidence": 0.96
+    },
+    "reliability-engineer": {
+      "coverage": {"direct": [], "core": ["signal-path-resilience", "reliability-engineering", "fallback-signal-path", "testing-commissioning"], "supporting": [], "contextual": []},
+      "stageKeys": ["detailed-design", "testing", "live-operation"],
+      "source": "confirmed",
+      "confidence": 0.97
+    },
+    "signal-flow-designer": {
+      "coverage": {"direct": [], "core": ["signal-flow-design", "primary-signal-path", "fallback-signal-path", "broadcast-audio-delivery"], "supporting": [], "contextual": []},
+      "stageKeys": ["system-definition", "detailed-design", "integration"],
+      "source": "confirmed",
+      "confidence": 0.96
+    },
+    "broadcast-audio-engineer": {
+      "coverage": {"direct": [], "core": ["audio-engineering", "audio-medium", "broadcast-audio-delivery", "programme-audio-feed", "signal-flow-design", "live-broadcast"], "supporting": [], "contextual": []},
+      "stageKeys": ["detailed-design", "integration", "live-operation"],
+      "source": "confirmed",
+      "confidence": 0.97
+    },
+    "media-distribution-engineer": {
+      "coverage": {"direct": [], "core": ["media-system", "media-distribution-system", "media-distribution", "broadcast-audio-delivery", "programme-audio-feed"], "supporting": [], "contextual": []},
+      "stageKeys": ["integration", "live-operation", "handover"],
+      "source": "confirmed",
+      "confidence": 0.94
+    },
+    "audio-engineer": {
+      "coverage": {"direct": [], "core": ["audio-engineering", "studio-engineering", "audio-medium", "signal-flow-design", "programme-audio-feed", "audio-production"], "supporting": [], "contextual": []},
+      "stageKeys": ["integration", "live-operation"],
+      "source": "confirmed",
+      "confidence": 0.93
+    },
+    "sound-engineer": {
+      "coverage": {"direct": [], "core": ["audio-engineering", "studio-engineering", "audio-medium", "audio-production", "physical-audio-systems", "live-operational-support"], "supporting": [], "contextual": []},
+      "stageKeys": ["integration", "live-operation"],
+      "source": "confirmed",
+      "confidence": 0.93
+    },
+    "music-engineer": {
+      "coverage": {"direct": [], "core": ["music-domain", "audio-engineering", "audio-production"], "supporting": [], "contextual": []},
+      "stageKeys": ["definition", "integration"],
+      "source": "confirmed",
+      "confidence": 0.9
+    },
+    "acoustic-engineer": {
+      "coverage": {"direct": [], "core": ["audio-medium", "physical-audio-systems"], "supporting": [], "contextual": []},
+      "stageKeys": ["requirements", "detailed-design"],
+      "source": "confirmed",
+      "confidence": 0.9
+    },
+    "web-design-engineer": {
+      "coverage": {
+        "direct": ["design-activity"],
+        "core": ["web-application"],
+        "supporting": ["build-activity", "software-engineering"],
+        "contextual": []
+      },
+      "stageKeys": ["definition", "build", "deployment"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "application-engineer": {
+      "coverage": {
+        "direct": ["web-application", "build-activity"],
+        "core": ["software-engineering"],
+        "supporting": ["data-systems"],
+        "contextual": []
+      },
+      "stageKeys": ["definition", "build", "deployment"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "software-engineer": {
+      "coverage": {
+        "direct": ["software-engineering", "build-activity"],
+        "core": ["web-application"],
+        "supporting": ["data-systems"],
+        "contextual": []
+      },
+      "stageKeys": ["definition", "build", "testing", "deployment"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "access-control-engineer": {
+      "coverage": {
+        "direct": ["access-control"],
+        "core": [],
+        "supporting": [],
+        "contextual": ["web-application", "software-engineering", "data-systems"]
+      },
+      "stageKeys": ["definition", "build", "testing"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "logo-systems-designer": {
+      "coverage": {"direct": [], "core": ["logo-design", "logo-artwork", "identity-systems", "design-activity"], "supporting": [], "contextual": []},
+      "stageKeys": ["definition", "application"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "identity-architect": {
+      "coverage": {"direct": [], "core": ["identity-systems", "logo-design", "design-activity", "product-definition"], "supporting": [], "contextual": []},
+      "stageKeys": ["requirements", "definition"],
+      "source": "confirmed",
+      "confidence": 0.95
+    },
+    "operations-engineer": {
+      "coverage": {"direct": [], "core": ["live-operational-support", "reliability-engineering", "technical-handover"], "supporting": [], "contextual": []},
+      "stageKeys": ["live-operation", "handover"],
+      "source": "confirmed",
+      "confidence": 0.92
+    }
+  }
+}

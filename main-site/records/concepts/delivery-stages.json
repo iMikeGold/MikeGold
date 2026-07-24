@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "knowledgeVersion": "delivery-stages/1.0",
+  "stages": [
+    "application",
+    "build",
+    "definition",
+    "delivery",
+    "deployment",
+    "detailed-design",
+    "discovery",
+    "handover",
+    "integration",
+    "live-operation",
+    "operation",
+    "production",
+    "requirements",
+    "system-definition",
+    "testing"
+  ]
+}

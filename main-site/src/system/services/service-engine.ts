@@ -25,9 +25,10 @@ const normalize = (value: string) =>
     .trim();
 
 const tokens = (value: string) => normalize(value).split(/\s+/).filter(Boolean);
-const STOP_WORDS = new Set(["a", "an", "and", "for", "i", "make", "need", "the", "to", "want", "with", "build", "create", "help", "engineer", "engineering"]);
+const STOP_WORDS = new Set(["a", "an", "and", "for", "i", "make", "need", "the", "to", "want", "with", "build", "create", "help", "hat", "hats", "engineer", "engineering", "designer", "specialist"]);
 
-export const getMeaningfulSearchTerms = (value: string) => tokens(value).filter((term) => !STOP_WORDS.has(term));
+export const getMeaningfulSearchTerms = (value: string) => tokens(value)
+  .filter((term) => term.length >= 3 && !STOP_WORDS.has(term));
 
 function termFamily(term: string, semantic: boolean) {
   const registryAliases = new Set(["foh", "pcb", "rf", "ui", "ux"]);
@@ -97,18 +98,11 @@ export function searchHats(
     .sort((a, b) => b.score - a.score || a.hat.name.localeCompare(b.hat.name));
 }
 
-const tagSet = (hat: Hat) =>
-  new Set(
-    [...hat.tags.core, ...hat.tags.adjacent, ...(hat.tags.meta ?? [])]
-      .flatMap(tokens)
-  );
-
 export function findRelatedHats(
   source: Hat,
   allHats: Hat[],
   limit = 12
 ): RelatedHat[] {
-  const sourceTags = tagSet(source);
   const explicit = new Map(
     (source.relationships ?? []).map((relationship) => [
       relationship.targetId,
@@ -118,22 +112,9 @@ export function findRelatedHats(
 
   return allHats
     .filter((hat) => hat.id !== source.id)
-    .map((hat) => {
-      const candidateTags = tagSet(hat);
-      const shared = [...sourceTags].filter((tag) => candidateTags.has(tag)).length;
-      const union = new Set([...sourceTags, ...candidateTags]).size || 1;
-      const semantic = shared / union;
-      const categoryAffinity = source.category === hat.category ? 0.08 : 0;
-      const typeAffinity = source.type === hat.type ? 0.12 : 0;
-      const declared = explicit.get(hat.id) ?? 0;
-      const strength = Math.min(
-        1,
-        declared * 0.65 + semantic * 0.3 + categoryAffinity + typeAffinity
-      );
-
-      return { hat, strength: Number(strength.toFixed(2)) };
-    })
-    .filter(({ strength }) => strength >= 0.12)
+    .filter((hat) => explicit.has(hat.id))
+    .map((hat) => ({ hat, strength: Number((explicit.get(hat.id) ?? 0).toFixed(2)) }))
+    .filter(({ strength }) => strength > 0)
     .sort((a, b) => b.strength - a.strength || a.hat.name.localeCompare(b.hat.name))
     .slice(0, limit);
 }
@@ -155,13 +136,14 @@ export function findRelatedHatsForSelection(
     }
   }
   return [...scores.values()]
-    .map(({ hat, strengths }) => ({
-      hat,
-      strength: Number(
-        (Math.max(...strengths) * 0.7 +
-          (strengths.reduce((sum, value) => sum + value, 0) / strengths.length) * 0.3).toFixed(2),
-      ),
-    }))
+    .map(({ hat, strengths }) => {
+      const relationship = Math.max(...strengths) * 0.65 + (strengths.reduce((sum, value) => sum + value, 0) / strengths.length) * 0.2;
+      return {
+        hat,
+        // Keep semantic relevance independent from legacy visual profiles.
+        strength: Number(Math.max(0, relationship).toFixed(2)),
+      };
+    })
     .sort((a, b) => b.strength - a.strength || a.hat.name.localeCompare(b.hat.name))
-    .slice(0, limit);
+    .slice(0, Math.min(limit, Math.max(3, 8 - Math.floor(selected.length / 3))));
 }

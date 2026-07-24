@@ -1,0 +1,24 @@
+{
+  "id": "a111e778-508a-4dd7-b012-615636b428e1",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-identity-system-presentation",
+  "title": "Bjórr identity-system presentation",
+  "description": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/identity_design/identity-design.webp",
+  "sourceTitle": "Bjórr",
+  "phase": "Identity system",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["identity-system", "brand-application"],
+    "displayRoles": ["lens-card", "supporting", "gallery"],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  }
+}

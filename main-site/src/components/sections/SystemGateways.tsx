@@ -13,7 +13,7 @@ export default function SystemGateways() {
 
       <GatewayCard
         title="Service Engine"
-        description="Intent → service configuration → scope → proof"
+        description="Intent → configuration → delivery route → experience"
         href="/engine"
         action="Build"
       />

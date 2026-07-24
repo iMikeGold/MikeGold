@@ -367,17 +367,93 @@ export const internalEvidenceRecords = [
     "placeholder": true
   },
   {
-    "id": "2f732ad4-df9b-4e2c-8db0-9dc39065bbd5",
+    "id": "0ea5805c-a0ec-4cc3-8ee9-4e0e46e6f029",
     "recordType": "evidence",
     "schemaVersion": 1,
-    "createdAt": "2026-07-20T00:00:00.000Z",
-    "updatedAt": "2026-07-20T00:00:00.000Z",
-    "slug": "bjorr-documentation-pending",
-    "title": "Bjórr project evidence",
-    "description": "Supporting material is being selected and documented for this project record.",
-    "evidenceType": "placeholder",
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-emblem-lowercase-b-vector",
+    "title": "Bjórr emblem — lowercase b",
+    "description": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
     "visibility": "public",
-    "placeholder": true
+    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity development",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "portrait"
+    }
+  },
+  {
+    "id": "4cd7d79f-7b7a-40db-ad37-1cdea60e7130",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-emblem-uppercase-b-vector",
+    "title": "Bjórr emblem — uppercase B",
+    "description": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity development",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "portrait"
+    }
+  },
+  {
+    "id": "a111e778-508a-4dd7-b012-615636b428e1",
+    "recordType": "evidence",
+    "schemaVersion": 1,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "updatedAt": "2026-07-24T00:00:00.000Z",
+    "slug": "bjorr-identity-system-presentation",
+    "title": "Bjórr identity-system presentation",
+    "description": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "visibility": "public",
+    "assetPath": "/images/projects/bjorr/identity_design/identity-design.webp",
+    "sourceTitle": "Bjórr",
+    "phase": "Identity system",
+    "placeholder": false,
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "brand-application"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    }
   },
   {
     "id": "65b0cec9-9adf-4890-bf47-51f3f013df9d",

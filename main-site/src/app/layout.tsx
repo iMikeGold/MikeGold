@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import EngineNavigationLink from "@/components/services/EngineNavigationLink";
+import { ServiceEngineSessionProvider } from "@/components/services/ServiceEngineSession";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-black text-white">
+        <ServiceEngineSessionProvider>
 
         {/* =========================
             GLOBAL HEADER v1.1
@@ -74,7 +77,7 @@ export default function RootLayout({
             }}
           >
             <Link href="/registry">Hats</Link>
-            <Link href="/engine">Engine</Link>
+            <EngineNavigationLink />
             <Link href="/projects">Work</Link>
             <Link href="/contact">Contact</Link>
           </nav>
@@ -99,6 +102,7 @@ export default function RootLayout({
           {children}
         </div>
       </main>
+      </ServiceEngineSessionProvider>
 
       </body>
     </html>

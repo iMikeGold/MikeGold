@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "knowledgeVersion": "semantic-knowledge/1.2",
+  "concepts": [
+    {
+      "slug": "media-system",
+      "label": "Media system",
+      "definition": "An umbrella system for producing, controlling, storing, playing or distributing media whose primary function still needs to be resolved.",
+      "kind": "object",
+      "phrases": ["media system", "media systems", "multimedia system", "multimedia systems"],
+      "breadth": "umbrella",
+      "narrowerConceptSlugs": ["media-production-system", "broadcast-system", "media-distribution-system", "streaming-platform", "physical-playback-system", "interactive-media-installation", "media-control-system", "media-archive-platform"],
+      "ambiguityPolicy": {"requiresResolution": true, "promptMode": "choose-branch"},
+      "commonRequirementConceptSlugs": ["product-definition", "systems-integration", "reliability-engineering", "testing-commissioning"],
+      "possibleModuleSlugs": ["media-system-definition"],
+      "language": {"question": "Which media function is primary: production, broadcast, distribution, streaming, physical playback, interactive installation, control, or archive and access?"}
+    },
+    {
+      "slug": "media-production-system",
+      "label": "Media production system",
+      "definition": "A system used to capture, create or transform media.",
+      "kind": "object",
+      "phrases": ["media production system", "production workflow"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["audio-production"]
+    },
+    {
+      "slug": "broadcast-system",
+      "label": "Broadcast system",
+      "definition": "A system carrying programme material into a live or scheduled broadcast output.",
+      "kind": "object",
+      "phrases": ["broadcast system", "broadcast infrastructure"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["broadcast-audio-delivery"]
+    },
+    {
+      "slug": "media-distribution-system",
+      "label": "Media distribution system",
+      "definition": "A system for routing and delivering media across destinations.",
+      "kind": "object",
+      "phrases": ["media distribution system", "multimedia distribution"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["media-distribution"]
+    },
+    {
+      "slug": "streaming-platform",
+      "label": "Streaming platform",
+      "definition": "A digital platform that prepares and delivers media streams.",
+      "kind": "object",
+      "phrases": ["streaming platform", "media streaming", "streaming backend"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["cloud-operations"]
+    },
+    {
+      "slug": "physical-playback-system",
+      "label": "Physical playback system",
+      "definition": "Installed equipment that reproduces media in a physical environment.",
+      "kind": "object",
+      "phrases": ["physical playback", "physical media playback installation", "media playback installation", "playback system"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["physical-audio-systems"]
+    },
+    {
+      "slug": "interactive-media-installation",
+      "label": "Interactive media installation",
+      "definition": "A physical experience whose media responds to people, state or environment.",
+      "kind": "object",
+      "phrases": ["interactive media installation", "interactive installation"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["systems-integration"]
+    },
+    {
+      "slug": "media-control-system",
+      "label": "Media-control system",
+      "definition": "A system coordinating media devices, routing and operational control.",
+      "kind": "object",
+      "phrases": ["media control system", "media-control system", "connected media control"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["systems-integration"]
+    },
+    {
+      "slug": "media-archive-platform",
+      "label": "Media archive platform",
+      "definition": "A structured platform for retaining and accessing media.",
+      "kind": "object",
+      "phrases": ["media archive", "media archive platform", "archive and access"],
+      "broaderConceptSlugs": ["media-system"],
+      "relatedConceptSlugs": ["data-systems"]
+    },
+    {
+      "slug": "community-platform",
+      "label": "Community platform",
+      "definition": "An umbrella digital service supporting participation, publishing, membership or shared resources for a community.",
+      "kind": "object",
+      "phrases": ["community platform", "community service"],
+      "breadth": "umbrella",
+      "narrowerConceptSlugs": ["community-publishing-platform", "community-membership-platform", "community-resource-platform"],
+      "ambiguityPolicy": {"requiresResolution": true, "promptMode": "choose-branch"},
+      "commonRequirementConceptSlugs": ["product-definition", "web-application", "data-systems", "systems-integration"],
+      "possibleModuleSlugs": ["community-platform-definition"],
+      "language": {"question": "Is the primary community function publishing, membership, participation, shared resources, or a combination?"}
+    },
+    {
+      "slug": "community-publishing-platform",
+      "label": "Community publishing platform",
+      "definition": "A community service centred on creating and distributing shared content.",
+      "kind": "object",
+      "phrases": ["community publishing"],
+      "broaderConceptSlugs": ["community-platform"]
+    },
+    {
+      "slug": "community-membership-platform",
+      "label": "Community membership platform",
+      "definition": "A community service centred on accounts, membership and participation.",
+      "kind": "object",
+      "phrases": ["community membership"],
+      "broaderConceptSlugs": ["community-platform"]
+    },
+    {
+      "slug": "community-resource-platform",
+      "label": "Community resource platform",
+      "definition": "A community service centred on discovering and sharing structured resources.",
+      "kind": "object",
+      "phrases": ["community resources"],
+      "broaderConceptSlugs": ["community-platform"]
+    },
+    {
+      "slug": "digital-platform",
+      "label": "Digital platform",
+      "definition": "An umbrella digital service whose audience, data, participation and operating model still need to be resolved.",
+      "kind": "object",
+      "phrases": ["digital platform", "online platform"],
+      "breadth": "umbrella",
+      "narrowerConceptSlugs": ["web-application", "community-platform", "streaming-platform", "data-systems"],
+      "ambiguityPolicy": {"requiresResolution": true, "promptMode": "choose-branch"},
+      "commonRequirementConceptSlugs": ["product-definition", "software-engineering", "data-systems", "cloud-operations"],
+      "possibleModuleSlugs": ["generic-system-definition"],
+      "language": {"question": "Which platform function is primary: application, community participation, media streaming, or structured data?"}
+    },
+    {
+      "slug": "hardware-product",
+      "label": "Hardware product",
+      "definition": "A physical product combining electronic, embedded, mechanical or software-controlled behaviour.",
+      "kind": "object",
+      "phrases": ["hardware product", "embedded product", "device product"],
+      "breadth": "category",
+      "commonRequirementConceptSlugs": ["product-definition", "electronics-integration", "systems-integration", "testing-commissioning"],
+      "possibleModuleSlugs": ["electronics-integration"]
+    },
+    {
+      "slug": "content-system",
+      "label": "Content system",
+      "definition": "An umbrella system for structuring, creating, managing and publishing content across destinations.",
+      "kind": "object",
+      "phrases": ["content system", "publishing system"],
+      "breadth": "umbrella",
+      "narrowerConceptSlugs": ["editorial-content-system", "multiformat-publishing-system", "content-archive-system"],
+      "ambiguityPolicy": {"requiresResolution": true, "promptMode": "choose-branch"},
+      "commonRequirementConceptSlugs": ["product-definition", "data-systems", "media-distribution"],
+      "possibleModuleSlugs": ["generic-system-definition"],
+      "language": {"question": "Is the primary content function editorial production, multi-format publishing, archive and access, or a combination?"}
+    },
+    {
+      "slug": "scalability",
+      "label": "Scalability",
+      "definition": "The ability of a system to grow in users, data, delivery volume or operating reach.",
+      "kind": "quality",
+      "phrases": ["scalable", "scalability", "scale up"],
+      "modifierPolicy": {"canModifyKinds": ["object", "workflow", "activity", "outcome", "system-layer"], "requiresTarget": true}
+    },
+    {
+      "slug": "accessibility",
+      "label": "Accessibility",
+      "definition": "The quality of remaining usable and understandable across differing access needs.",
+      "kind": "quality",
+      "phrases": ["accessible", "accessibility", "inclusive"],
+      "modifierPolicy": {"canModifyKinds": ["object", "workflow", "outcome"], "requiresTarget": true}
+    },
+    {
+      "slug": "security",
+      "label": "Security",
+      "definition": "Protection of access, information and operation against unauthorised or unsafe use.",
+      "kind": "quality",
+      "phrases": ["secure", "security", "protected"],
+      "modifierPolicy": {"canModifyKinds": ["object", "workflow", "activity", "system-layer"], "requiresTarget": true}
+    },
+    {
+      "slug": "organisational-identity", "label": "Organisational identity", "definition": "An identity system representing an organisation.", "kind": "object", "phrases": ["organisational identity", "organization identity"], "broaderConceptSlugs": ["identity-systems"]
+    },
+    {
+      "slug": "product-identity", "label": "Product identity", "definition": "An identity system representing a product or product family.", "kind": "object", "phrases": ["product identity", "product family identity"], "broaderConceptSlugs": ["identity-systems"]
+    },
+    {
+      "slug": "visual-language-system", "label": "Visual-language system", "definition": "A repeatable visual language governing recognition and expression.", "kind": "object", "phrases": ["visual language system", "visual-language system"], "broaderConceptSlugs": ["identity-systems"]
+    },
+    {
+      "slug": "operational-data-system", "label": "Operational data system", "definition": "A data system centred on live operational records.", "kind": "system-layer", "phrases": ["operational data system"], "broaderConceptSlugs": ["data-systems"]
+    },
+    {
+      "slug": "knowledge-system", "label": "Knowledge system", "definition": "A structured system for connecting, interpreting and retrieving knowledge.", "kind": "system-layer", "phrases": ["knowledge system"], "broaderConceptSlugs": ["data-systems"]
+    },
+    {
+      "slug": "analytics-system", "label": "Analytics system", "definition": "A data system centred on measurement and interpretation.", "kind": "system-layer", "phrases": ["analytics system"], "broaderConceptSlugs": ["data-systems"]
+    },
+    {
+      "slug": "editorial-content-system", "label": "Editorial content system", "definition": "A system supporting editorial creation and governance.", "kind": "object", "phrases": ["editorial content system"], "broaderConceptSlugs": ["content-system"]
+    },
+    {
+      "slug": "multiformat-publishing-system", "label": "Multi-format publishing system", "definition": "A system publishing structured content across multiple formats.", "kind": "object", "phrases": ["multi-format publishing", "multiformat publishing"], "broaderConceptSlugs": ["content-system"]
+    },
+    {
+      "slug": "content-archive-system", "label": "Content archive system", "definition": "A system retaining and exposing archived content.", "kind": "object", "phrases": ["content archive system"], "broaderConceptSlugs": ["content-system"]
+    },
+    {
+      "slug": "engineer-role", "label": "Engineering role", "definition": "A request to discover engineering capabilities relevant to another resolved object, medium or environment.", "kind": "workflow", "phrases": ["engineer", "engineering"], "breadth": "category"
+    },
+    {
+      "slug": "designer-role", "label": "Design role", "definition": "A request to discover design capabilities relevant to another resolved object, medium or environment.", "kind": "workflow", "phrases": ["designer"], "breadth": "category"
+    },
+    {
+      "slug": "audio-engineering", "label": "Audio engineering", "definition": "An engineering capability family spanning sound systems, signal flow, recording, broadcast and live audio.", "kind": "activity", "phrases": ["audio engineer", "audio engineering", "sound engineer", "sound engineering"], "relatedConceptSlugs": ["audio-medium", "audio-production", "physical-audio-systems", "broadcast-audio-delivery"]
+    },
+    {
+      "slug": "studio-engineering", "label": "Studio engineering", "definition": "Audio engineering and technical signal-flow work within a studio environment.", "kind": "activity", "phrases": ["studio engineer", "studio engineering"], "relatedConceptSlugs": ["audio-engineering", "audio-production", "signal-flow-design"]
+    },
+    {
+      "slug": "studio-environment", "label": "Studio environment", "definition": "A controlled environment for recording, production, monitoring or technical media work.", "kind": "environment", "phrases": ["studio"], "relatedConceptSlugs": ["audio-production", "signal-flow-design"]
+    },
+    {
+      "slug": "music-domain", "label": "Music", "definition": "Music as a creative, production and technical domain.", "kind": "medium", "phrases": ["music", "musical"], "relatedConceptSlugs": ["audio-medium", "audio-production"]
+    },
+    {
+      "slug": "audio-medium", "label": "Audio", "definition": "Sound treated as a technical medium, production material or delivery signal.", "kind": "medium", "phrases": ["audio", "sound"], "relatedConceptSlugs": ["audio-production", "physical-audio-systems", "broadcast-audio-delivery"]
+    },
+    {
+      "slug": "field-recording", "label": "Field recording", "definition": "Capturing audio within a live or location environment.", "kind": "activity", "phrases": ["field recording", "location recording"], "relatedConceptSlugs": ["audio-production", "live-field-operations"]
+    },
+    {
+      "slug": "design-activity", "label": "Design", "definition": "Defining form, behaviour, structure or experience before implementation.", "kind": "activity", "phrases": ["design", "designing"]
+    },
+    {
+      "slug": "build-activity", "label": "Build", "definition": "Implementing or assembling a defined digital or physical system.", "kind": "activity", "phrases": ["build", "building", "create"]
+    },
+    {
+      "slug": "install-activity", "label": "Install", "definition": "Placing, connecting and commissioning a system in its operating environment.", "kind": "activity", "phrases": ["install", "installation", "fit"]
+    },
+    {
+      "slug": "repair-activity", "label": "Repair", "definition": "Diagnosing and correcting a fault in an existing system.", "kind": "activity", "phrases": ["repair", "fix", "restore"]
+    },
+    {
+      "slug": "configure-activity", "label": "Configure", "definition": "Setting system relationships and operating parameters.", "kind": "activity", "phrases": ["configure", "configuration", "set up"]
+    },
+    {
+      "slug": "operate-activity", "label": "Operate", "definition": "Running and supporting a system in active use.", "kind": "activity", "phrases": ["operate", "operation", "run", "maintain", "maintenance"]
+    },
+    {
+      "slug": "make-activity", "label": "Make", "definition": "A general request to cause or create a result whose precise activity depends on the requested target or state.", "kind": "activity", "phrases": ["make"], "modifierPolicy": {"canModifyKinds": ["object", "quality"], "requiresTarget": true}, "senseBindings": [
+        {"targetConceptSlugs": ["operational-state"], "resolvedConceptSlugs": ["transition-to-live"]}
+      ]
+    },
+    {
+      "slug": "transition-to-live", "label": "Transition to live operation", "definition": "Moving a system or service from preparation into its public or operational state.", "kind": "activity", "phrases": ["go live", "take live", "launch", "deploy", "publish", "put into production"]
+    },
+    {
+      "slug": "access-control", "label": "Access control", "definition": "Defining and enforcing permission, trust and security boundaries around systems and data.", "kind": "system-layer", "phrases": ["access control", "authentication", "authorisation", "authorization", "permissions", "user accounts", "role permissions", "role-based access", "login", "permission enforcement", "security boundary", "secure zones"]
+    },
+    {
+      "slug": "migrate-activity", "label": "Migrate", "definition": "Moving a system, service or information set between operating environments.", "kind": "activity", "phrases": ["migrate", "migration"]
+    },
+    {
+      "slug": "recreate-activity", "label": "Recreate", "definition": "Reconstructing an existing visual or technical artefact from surviving source material.", "kind": "activity", "phrases": ["recreate", "rebuild", "redraw"]
+    },
+    {
+      "slug": "server-system", "label": "Server system", "definition": "An ambiguous server request that may concern physical hardware, server software or a hosted runtime.", "kind": "object", "phrases": ["server", "server system"], "breadth": "umbrella", "narrowerConceptSlugs": ["physical-server", "server-software", "cloud-operations"], "ambiguityPolicy": {"requiresResolution": true, "promptMode": "choose-branch"}, "commonRequirementConceptSlugs": ["product-definition", "systems-integration"], "language": {"question": "Is this a physical server, server software, or a hosted runtime?"}
+    },
+    {
+      "slug": "physical-server", "label": "Physical server", "definition": "Physical compute equipment installed and connected within technical infrastructure.", "kind": "object", "phrases": ["physical server", "server hardware"], "broaderConceptSlugs": ["server-system"]
+    },
+    {
+      "slug": "server-software", "label": "Server software", "definition": "Software providing a networked service or application runtime.", "kind": "object", "phrases": ["server software", "service backend"], "broaderConceptSlugs": ["server-system"], "relatedConceptSlugs": ["software-engineering"]
+    },
+    {
+      "slug": "server-rack", "label": "Server rack", "definition": "A physical rack environment for equipment layout, power, cooling, cabling and networking.", "kind": "object", "phrases": ["server rack", "equipment rack", "rack installation"], "relatedConceptSlugs": ["physical-server", "communications-networking", "systems-integration"], "possibleModuleSlugs": ["physical-infrastructure-integration"]
+    },
+    {
+      "slug": "logo-artwork", "label": "Logo artwork", "definition": "A mark or logo treated as a specific visual artefact rather than an entire identity system.", "kind": "deliverable", "phrases": ["logo", "logo artwork", "mark artwork"], "relatedConceptSlugs": ["identity-systems"]
+    },
+    {
+      "slug": "logo-design", "label": "Logo and identity design", "definition": "Design capability for marks, visual language and identity applications.", "kind": "activity", "phrases": ["logo designer", "logo design"], "relatedConceptSlugs": ["logo-artwork", "identity-systems"], "possibleModuleSlugs": ["logo-identity-design"]
+    },
+    {
+      "slug": "source-image", "label": "Source image", "definition": "Existing image material supplied as the reference for transformation or reconstruction.", "kind": "constraint", "phrases": ["from image", "source image", "reference image"]
+    },
+    {
+      "slug": "communications-system", "label": "Communications system", "definition": "An operational system carrying communications between connected participants or endpoints.", "kind": "object", "phrases": ["communications system", "communication system"], "relatedConceptSlugs": ["communications-networking", "field-communications"], "possibleModuleSlugs": ["communications-network-architecture"]
+    },
+    {
+      "slug": "live-environment", "label": "Live environment", "definition": "An operating context where technical decisions and delivery occur in real time.", "kind": "environment", "phrases": ["live event environment", "live production environment"], "relatedConceptSlugs": ["live-operational-support", "live-broadcast", "live-field-operations"]
+    },
+    {
+      "slug": "operational-state", "label": "Operational state", "definition": "A system or service active in its intended operating context.", "kind": "quality", "phrases": ["live", "operational", "in production"], "modifierPolicy": {"canModifyKinds": ["object", "workflow", "activity", "system-layer", "medium"], "requiresTarget": true}, "senseBindings": [
+        {"targetConceptSlugs": ["web-application", "software-engineering", "digital-platform", "community-platform", "streaming-platform", "data-systems"], "resolvedConceptSlugs": ["operational-state"]},
+        {"targetConceptSlugs": ["audio-medium", "audio-engineering", "studio-engineering", "physical-audio-systems", "broadcast-audio-delivery", "live-sport", "live-broadcast"], "resolvedConceptSlugs": ["live-environment"]}
+      ]
+    },
+    {
+      "slug": "ecommerce-storefront", "label": "Ecommerce storefront", "definition": "A public digital commerce surface supporting product discovery and purchase journeys.", "kind": "object", "phrases": ["ecommerce", "e-commerce", "eccomerce", "online shop", "web shop", "online storefront", "digital storefront", "e-commerce site", "ecommerce site"], "lexicalEntries": [{"phrase": "eccomerce", "relationship": "MISSPELLING_OF"}], "broaderConceptSlugs": ["web-application"], "relatedConceptSlugs": ["software-engineering", "data-systems", "product-definition"], "commonRequirementConceptSlugs": ["web-application", "software-engineering", "product-definition"], "possibleModuleSlugs": ["web-application"]
+    },
+    {
+      "slug": "checkout-system", "label": "Checkout system", "definition": "A transaction component handling basket, checkout and purchase completion within a wider digital service.", "kind": "object", "phrases": ["checkout", "checkout system", "payment checkout", "purchase flow"], "broaderConceptSlugs": ["web-application"], "relatedConceptSlugs": ["systems-integration", "data-systems"], "typedRelationships": [{"type": "PART_OF", "targetConceptSlug": "ecommerce-storefront", "traversal": "non-activating"}], "commonRequirementConceptSlugs": ["web-application", "software-engineering", "systems-integration"], "possibleModuleSlugs": ["web-application"]
+    },
+    {
+      "slug": "product-catalogue", "label": "Product catalogue", "definition": "A structured collection and presentation of product information, independent of whether transactions are supported.", "kind": "object", "phrases": ["product catalogue", "product catalog", "catalogue interface", "catalog interface"], "broaderConceptSlugs": ["content-system"], "relatedConceptSlugs": ["data-systems", "product-definition"], "typedRelationships": [{"type": "PART_OF", "targetConceptSlug": "ecommerce-storefront", "traversal": "non-activating"}], "commonRequirementConceptSlugs": ["product-definition", "data-systems"], "possibleModuleSlugs": ["generic-system-definition"]
+    }
+  ]
+}

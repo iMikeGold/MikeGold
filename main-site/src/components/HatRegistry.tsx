@@ -10,12 +10,17 @@
 // ------------------------------
 // IMPORTS — FIRST
 // ------------------------------
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useLayoutEffect, useRef } from "react";
 import { hats, type Hat } from "../system/registry";
 import { getHatProfile, PROFILE_AXES } from "../system/profile/hat-profile";
 import { findRelatedHatsForSelection, searchHats } from "../system/services/service-engine";
 import { calculateWeight } from "../system/services/weights";
+import { PROFILE_AXIS_COLOURS, resolveContextualDominanceMap } from "../system/services/profile-interpreter";
+
+const HAT_LAYER_COLOURS = ["#60a5fa", "#f472b6", "#34d399", "#fbbf24", "#a78bfa", "#22d3ee", "#fb7185"] as const;
+import { selectPrincipalLayerHats } from "../system/services/polygon-engine";
 import HatDrawer from "./HatDrawer";
+import HatRadar from "./Polygon/HatRadar";
 import { useInteractionKernel } from "./interaction/InteractionKernel";
 
 // ------------------------------
@@ -54,17 +59,23 @@ html, body {
   0% {background-position:200% 0;}
   100% {background-position:-200% 0;}
 }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-hat-tile-face] {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+[data-hat-tile]:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
 `;
 
 // ------------------------------
 // DATA HELPERS
 // ------------------------------
-function getHouseScore(hatsList: Hat[]): number {
-  if (!hatsList.length) return 0;
-  const total = hatsList.reduce((sum, hat) => sum + calculateWeight(hat), 0);
-  return total / hatsList.length;
-}
-
 function getHatStats(hat: Hat) {
   const profile = getHatProfile(hat);
   return Object.fromEntries(
@@ -99,6 +110,10 @@ export default function HatRegistry() {
     engineering: true
   });
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
+  const [colourSlots, setColourSlots] = useState<Record<string, number>>({});
+  const [pendingRevealHatId, setPendingRevealHatId] = useState<string | null>(null);
+  const tileBrowserRef = useRef<HTMLDivElement | null>(null);
+  const tileRefs = useRef(new Map<string, HTMLDivElement>());
 
   // ------------------------------
   // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
@@ -116,11 +131,12 @@ export default function HatRegistry() {
     const checkLayout = () => {
       const w = window.innerWidth;
       const h = window.innerHeight;
+      const portrait = h > w;
       const touchDevice = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
       setIsMobile(touchDevice || w < 768);
-      setIsPortrait(h > w);
+      setIsPortrait(portrait);
 
-      const newW = Math.max(DRAWER_MIN_WIDTH, Math.min(DRAWER_MAX_WIDTH, w * 0.38));
+      const newW = Math.max(portrait ? DRAWER_MIN_WIDTH : 280, Math.min(DRAWER_MAX_WIDTH, w * 0.4));
       setDrawerWidth(newW);
 
       document.documentElement.style.setProperty('--vh', `${h * 0.01}px`);
@@ -131,14 +147,18 @@ export default function HatRegistry() {
     if (initialHat) {
       const match = hats.find((hat) => hat.slug === initialHat || hat.id === initialHat);
       if (match) {
-        setSelectedHats([match]); setActiveHat(match);
-        window.setTimeout(() => document.getElementById("hat-registry-root")?.scrollIntoView({ block: "start" }), 0);
+        window.setTimeout(() => {
+          setSelectedHats([match]);
+          setActiveHat(match);
+          document.getElementById("hat-registry-root")?.scrollIntoView({ block: "start" });
+        }, 0);
       }
     }
     window.addEventListener("resize", checkLayout);
     window.addEventListener("orientationchange", checkLayout);
-    setIsMounted(true);
+    const mountedTimer = window.setTimeout(() => setIsMounted(true), 0);
     return () => {
+      window.clearTimeout(mountedTimer);
       window.removeEventListener("resize", checkLayout);
       window.removeEventListener("orientationchange", checkLayout);
     };
@@ -158,10 +178,54 @@ export default function HatRegistry() {
     });
     return groups;
   }, [filteredHats]);
+  const registryHouseCounts = useMemo(() => hats.reduce<Record<string, number>>((counts, hat) => {
+    counts[hat.category] = (counts[hat.category] ?? 0) + 1;
+    return counts;
+  }, {}), []);
 
   const relatedHats = useMemo(() => {
     return findRelatedHatsForSelection(selectedHats.length ? selectedHats : activeHat ? [activeHat] : [], hats);
   }, [activeHat, selectedHats]);
+  const principalLayerHats = useMemo(() => selectPrincipalLayerHats(selectedHats, 7), [selectedHats]);
+  const contextualDominance = useMemo(
+    () => resolveContextualDominanceMap(selectedHats),
+    [selectedHats],
+  );
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setColourSlots((previous) => {
+        const visibleIds = new Set(principalLayerHats.map((hat) => hat.id));
+        const next = Object.fromEntries(Object.entries(previous).filter(([id]) => visibleIds.has(id)));
+        const occupied = new Set(Object.values(next));
+        for (const hat of principalLayerHats) {
+          if (Number.isInteger(next[hat.id])) continue;
+          const slot = [0, 1, 2, 3, 4, 5, 6].find((candidate) => !occupied.has(candidate));
+          if (slot === undefined) continue;
+          next[hat.id] = slot;
+          occupied.add(slot);
+        }
+        return next;
+      });
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [principalLayerHats]);
+
+  useLayoutEffect(() => {
+    if (!pendingRevealHatId) return;
+    const tile = tileRefs.current.get(pendingRevealHatId);
+    const browserRegion = tileBrowserRef.current;
+    if (!tile || !browserRegion) return;
+    const frame = window.requestAnimationFrame(() => {
+      const browserBox = browserRegion.getBoundingClientRect();
+      const tileBox = tile.getBoundingClientRect();
+      const nextTop = browserRegion.scrollTop + tileBox.top - browserBox.top - Math.max(8, (browserBox.height - tileBox.height) / 2);
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      browserRegion.scrollTo({ top: Math.max(0, nextTop), behavior: reduceMotion ? "auto" : "smooth" });
+      tile.focus({ preventScroll: true });
+      window.setTimeout(() => setPendingRevealHatId(null), 0);
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [collapsedSections, filteredHats, pendingRevealHatId]);
 
   // ------------------------------
   // ACTIONS — NO BUGS
@@ -183,6 +247,10 @@ export default function HatRegistry() {
   const handleSelectRelated = (hat: Hat) => {
     setActiveHat(hat);
     setSelectedHats(prev => prev.some(h => h.id === hat.id) ? prev : [...prev, hat]);
+    setFlippedTiles((previous) => ({ ...previous, [hat.id]: true }));
+    setCollapsedSections((previous) => ({ ...previous, [hat.category]: false }));
+    setSearchQuery("");
+    setPendingRevealHatId(hat.id);
   };
 
   // ------------------------------
@@ -218,8 +286,8 @@ export default function HatRegistry() {
           position: "absolute",
           top: 0,
           left: 0,
-          bottom: activeHat && isMobile && isPortrait ? "58dvh" : "56px",
-          width: isPortrait && isMobile ? "100%" : (activeHat ? `calc(100% - ${drawerWidth}px)` : "100%"),
+          bottom: isMobile && isPortrait ? "54dvh" : "56px",
+          width: isPortrait && isMobile ? "100%" : `calc(100% - ${drawerWidth}px)`,
           height: "auto",
           display: "flex",
           flexDirection: "column",
@@ -240,7 +308,10 @@ export default function HatRegistry() {
               type="text"
               placeholder="Search hats, tags, capabilities..."
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setPendingRevealHatId(null);
+                setSearchQuery(e.target.value);
+              }}
               style={{
                 width:"100%", padding:"8px 12px",
                 background:"#151515", border:"1px solid #333",
@@ -251,6 +322,7 @@ export default function HatRegistry() {
 
           {/* SCROLL AREA */}
           <div
+            ref={tileBrowserRef}
             style={{
               flex: 1,
               overflowY: "auto",
@@ -272,7 +344,8 @@ export default function HatRegistry() {
             )}
             {Object.entries(hatsByHouse).map(([house, hatsList]) => {
               if (hatsList.length === 0) return null;
-              const housePercent = Math.round(getHouseScore(hatsList) * 100);
+              const registryCount = registryHouseCounts[house] ?? hatsList.length;
+              const registryShare = hats.length ? registryCount / hats.length : 0;
 
               return (
                 <div key={house}>
@@ -286,25 +359,24 @@ export default function HatRegistry() {
                   >
                     <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:4 }}>
                       <h3 style={{ margin:0, textTransform:"capitalize", fontSize:15 }}>
-                        {house} <span style={{ opacity:0.5, fontSize:12 }}>({hatsList.length})</span>
+                        {house} <span style={{ opacity:0.5, fontSize:12 }}>({registryCount})</span>
                       </h3>
                       <span style={{ opacity:0.6 }}>{collapsedSections[house] ? "▼" : "▲"}</span>
                     </div>
-                    <div style={{ display:"flex", alignItems:"center", gap:8 }}>
-                      <div style={{ flex:1, height:6, background:"#222", borderRadius:3, overflow:"hidden" }}>
-                        <div style={{
-                          width:`${housePercent}%`, height:"100%",
-                          background:"linear-gradient(90deg, #2563eb, #3b82f6)", borderRadius:3, transition:"width 0.3s"
-                        }} />
+                    <div aria-label={`${house} represents ${(registryShare * 100).toFixed(1)} percent of loaded Hats`} style={{ display:"flex", alignItems:"center", gap:8 }}>
+                      <div style={{ height:6, flex:1, background:"#242424", borderRadius:4, overflow:"hidden" }}>
+                        <div style={{ width:`${registryShare * 100}%`, height:"100%", background:"#3b82f6", borderRadius:4 }} />
                       </div>
-                      <span style={{ fontSize:12, opacity:0.7, minWidth:32 }}>{housePercent}%</span>
+                      <span style={{ opacity:0.72, fontSize:11, minWidth:78, textAlign:"right" }}>
+                        {registryCount} / {hats.length} · {(registryShare * 100).toFixed(1)}%
+                      </span>
                     </div>
                   </div>
 
                   {!collapsedSections[house] && (
                     <div style={{
                       display:"grid",
-                      gridTemplateColumns:"repeat(auto-fill, minmax(80px, 1fr))",
+                      gridTemplateColumns:"repeat(auto-fill, minmax(86px, 1fr))",
                       gap:4,
                       width:"100%"
                     }}>
@@ -314,10 +386,20 @@ export default function HatRegistry() {
                         const stats = getHatStats(hat);
                         const isFlipped = flippedTiles[hat.id] || false;
                         const overlayText = interaction.getOverlay(hat.id);
+                        const dominance = contextualDominance.get(hat.id);
+                        const layerColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
 
                         return (
                           <div
                             key={hat.id}
+                            id={`hat-tile-${hat.id}`}
+                            ref={(element) => {
+                              if (element) tileRefs.current.set(hat.id, element);
+                              else tileRefs.current.delete(hat.id);
+                            }}
+                            role="button"
+                            data-hat-tile
+                            tabIndex={0}
                             onMouseEnter={() => interaction.enter(hat.id, hat)}
                             onMouseLeave={interaction.leave}
                             onTouchStart={() => interaction.touchStart(hat.id, hat)}
@@ -331,19 +413,27 @@ export default function HatRegistry() {
                                 () => toggleSelectHat(hat)
                               )
                             }
+                            onKeyDown={(event) => {
+                              if (event.key !== "Enter" && event.key !== " ") return;
+                              event.preventDefault();
+                              interaction.click(
+                                () => setFlippedTiles((previous) => ({ ...previous, [hat.id]: !previous[hat.id] })),
+                                () => toggleSelectHat(hat),
+                              );
+                            }}
                             style={{
                               aspectRatio:"1/1", cursor:"pointer",
                               width:"100%", position:"relative",
                               overflow:"hidden", borderRadius:6, isolation:"isolate"
                             }}
                           >
-                            <div style={{
+                            <div data-hat-tile-face style={{
                               width:"100%", height:"100%", position:"relative",
                               transformStyle:"preserve-3d", transformOrigin:"center",
                               transition:"transform 0.42s cubic-bezier(0.4,0,0.2,1)",
                               transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
-                              boxShadow: isSelected ? "0 0 10px #2563eb, inset 0 0 15px rgba(37,99,235,0.4)" : "none",
-                              backgroundImage: isSelected ? "linear-gradient(90deg, #2563eb33, #3b82f655, #2563eb33)" : "none",
+                              boxShadow: isSelected ? `0 0 10px ${layerColour}, inset 0 0 15px ${layerColour}55` : "none",
+                              backgroundImage: isSelected ? `linear-gradient(90deg, ${layerColour}22, ${layerColour}55, ${layerColour}22)` : "none",
                               backgroundSize:"200% 100%", backgroundPosition:"0% 0%",
                               backgroundRepeat:"no-repeat",
                               animation: isSelected ? "shimmer 0.6s linear infinite" : "none"
@@ -352,8 +442,8 @@ export default function HatRegistry() {
                               {/* FRONT FACE */}
                               <div style={{
                                 position:"absolute", inset:0,
-                                background: isSelected ? "#2563eb22" : "#151515",
-                                border: isSelected ? "1px solid #2563eb" : "1px solid #333",
+                                background: isSelected ? `${layerColour}22` : "#151515",
+                                border: isSelected ? `1px solid ${layerColour}` : "1px solid #333",
                                 borderRadius:6, padding:3,
                                 display:"flex", flexDirection:"column",
                                 justifyContent:"center", alignItems:"center",
@@ -367,6 +457,16 @@ export default function HatRegistry() {
                                 }}>
                                   {hat.name}
                                 </strong>
+                                {isSelected && dominance && (
+                                  <span aria-label={dominance.confidence === "balanced" ? `Balanced contribution: ${dominance.coDominantAxes.join(", ")}` : `Distinctive contribution: ${dominance.primaryAxis}`} style={{
+                                    position: "absolute", left: 3, bottom: 2, fontSize: 6.5,
+                                    color: dominance.colour, textTransform: "uppercase", letterSpacing: "0.04em",
+                                  }}>
+                                    {dominance.confidence === "balanced"
+                                      ? "Visual: balanced"
+                                      : selectedHats.length > 1 ? `Visual model adds ${dominance.primaryAxis}` : dominance.primaryAxis}
+                                  </span>
+                                )}
                                 <div style={{ position:"absolute", bottom:2, right:2, fontSize:8, opacity:0.5 }}>
                                   {weightScore.toFixed(2)}
                                 </div>
@@ -376,7 +476,7 @@ export default function HatRegistry() {
                               <div style={{
                                 position:"absolute", inset:0,
                                 background:"#1a1a1a",
-                                border: isSelected ? "1px solid #2563eb" : "1px solid #444",
+                                border: isSelected ? `1px solid ${layerColour}` : "1px solid #444",
                                 borderRadius:6, padding:4,
                                 backfaceVisibility:"hidden", transform:"rotateY(180deg)",
                                 display:"flex", flexDirection:"column",
@@ -384,7 +484,7 @@ export default function HatRegistry() {
                                 textAlign:"center", zIndex:1,
                                 width:"100%", height:"100%", overflow:"hidden"
                               }}>
-                                {Object.entries(stats).map(([key, value]) => (
+                                {Object.entries(stats).map(([key, value], axisIndex) => (
                                   <div key={key} style={{ width:"88%", minWidth:0 }}>
                                     <div style={{
                                       fontSize:6, opacity:0.68, marginBottom:1,
@@ -396,7 +496,7 @@ export default function HatRegistry() {
                                     <div style={{ height:3, background:"#222", borderRadius:1, overflow:"hidden", width:"100%" }}>
                                       <div style={{
                                         width:`${Math.round(value * 100)}%`, height:"100%",
-                                        background:"linear-gradient(90deg, #2563eb, #3b82f6)", borderRadius:1
+                                        background: PROFILE_AXIS_COLOURS[axisIndex], borderRadius:1
                                       }} />
                                     </div>
                                   </div>
@@ -438,7 +538,7 @@ export default function HatRegistry() {
           position: "absolute",
           bottom: 0,
           left: 0,
-          right: activeHat && !(isPortrait && isMobile) ? `${drawerWidth}px` : "0",
+          right: !(isPortrait && isMobile) ? `${drawerWidth}px` : "0",
           background: "#0a0a0a",
           padding: "8px 12px 12px",
           borderTop: "1px solid #222",
@@ -456,32 +556,41 @@ export default function HatRegistry() {
           }}>
             <div style={{ fontSize:13, opacity:0.7, flexShrink:0 }}>Selected ({selectedHats.length})</div>
             <div style={{ flex:1, overflowX:"auto", display:"flex", gap:6, paddingBottom:2, minWidth:0 }}>
-              {selectedHats.map(hat => (
+              {selectedHats.map(hat => {
+                const slotColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
+                return (
                 <div key={hat.id} style={{
-                  background:"#2563eb22", border:"1px solid #2563eb66",
+                  background: `${slotColour}18`,
+                  border: `1px solid ${slotColour}`,
                   padding:"3px 8px", borderRadius:12, fontSize:12,
                   display:"flex", alignItems:"center", gap:4, flexShrink:0
                 }}>
+                  <i aria-hidden="true" style={{ width: 6, height: 6, borderRadius: "50%", background: slotColour }} />
                   {hat.name}
                   <button onClick={() => {
                     setFlippedTiles((previous) => ({ ...previous, [hat.id]: false }));
                     toggleSelectHat(hat);
                   }} style={{ background:"none", border:"none", color:"#fff", cursor:"pointer", fontSize:14 }}>×</button>
                 </div>
-              ))}
+              )})}
             </div>
-            <button onClick={() => { setSelectedHats([]); setActiveHat(null); setFlippedTiles({}); }} style={{ fontSize:12, opacity:0.6, background:"none", border:"none", color:"#fff", cursor:"pointer", flexShrink:0 }}>Clear All</button>
+            <button onClick={() => {
+              setSelectedHats([]);
+              setActiveHat(null);
+              setFlippedTiles({});
+              setPendingRevealHatId(null);
+              setColourSlots({});
+            }} style={{ fontSize:12, opacity:0.6, background:"none", border:"none", color:"#fff", cursor:"pointer", flexShrink:0 }}>Clear All</button>
           </div>
         </div>
 
         {/* DRAWER — RECEIVES WIDTH FROM REGISTRY, NO CONFLICT */}
-        {activeHat && (
-          <div style={{
+        <div style={{
             position: "fixed",
-            top: isPortrait && isMobile ? "42dvh" : "56px",
+            top: isPortrait && isMobile ? "46dvh" : "56px",
             right: 0,
             width: isPortrait && isMobile ? "100%" : `${drawerWidth}px`,
-            height: isPortrait && isMobile ? "58dvh" : "calc(100dvh - 56px)",
+            height: isPortrait && isMobile ? "54dvh" : "calc(100dvh - 56px)",
             minWidth: DRAWER_MIN_WIDTH,
             maxWidth: DRAWER_MAX_WIDTH,
             overflowY: "hidden",
@@ -490,7 +599,7 @@ export default function HatRegistry() {
             borderTop: isPortrait && isMobile ? "1px solid #222" : "none",
             zIndex: 70
           }}>
-            <HatDrawer
+          {activeHat ? <HatDrawer
               hat={activeHat}
               selectedHats={selectedHats}
               relatedHats={relatedHats}
@@ -498,9 +607,22 @@ export default function HatRegistry() {
               onClose={() => setActiveHat(null)}
               drawerWidth={drawerWidth}
               POLYGON_SIZE={POLYGON_SIZE}
-            />
+              colourSlots={colourSlots}
+            /> : (
+              <div style={{ height: "100%", background: "#111", display: "flex", flexDirection: "column", borderLeft: "1px solid #222" }}>
+                <div style={{ padding: "16px 18px 10px", borderBottom: "1px solid #222" }}>
+                  <h2 style={{ margin: 0, fontSize: 17 }}>Capability profile</h2>
+                  <p style={{ margin: "5px 0 0", color: "#777", fontSize: 11 }}>Select a Hat to shape the profile.</p>
+                </div>
+                <div style={{ minHeight: POLYGON_SIZE + 8, display: "flex", alignItems: "center", justifyContent: "center", borderBottom: "1px solid #222" }}>
+                  <HatRadar values={[0, 0, 0, 0, 0, 0]} layers={[]} size={Math.min(POLYGON_SIZE, drawerWidth - 24)} />
+                </div>
+                <div style={{ padding: 18, color: "#777", fontSize: 12, lineHeight: 1.5 }}>
+                  The polygon remains fixed while the selected capability stack changes. Related nodes open the corresponding tile&apos;s detail face.
+                </div>
+              </div>
+            )}
           </div>
-        )}
 
       </div>
     </>

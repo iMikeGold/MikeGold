@@ -1,0 +1,1746 @@
+{
+  "schemaVersion": 1,
+  "hats": {
+    "access-control-engineer": {
+      "coverage": {
+        "direct": [
+          "access-control"
+        ],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "web-application",
+          "software-engineering",
+          "data-systems"
+        ]
+      },
+      "source": "confirmed"
+    },
+    "acoustic-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "audio-medium",
+          "physical-audio-systems"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "application-engineer": {
+      "coverage": {
+        "direct": [
+          "web-application",
+          "build-activity"
+        ],
+        "core": [
+          "software-engineering"
+        ],
+        "supporting": [
+          "data-systems"
+        ],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "asgi-service-runner-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "broadcast-audio-delivery",
+          "cloud-operations",
+          "data-systems",
+          "engineer-role",
+          "media-system",
+          "reliability-engineering",
+          "scalability",
+          "signal-flow-design",
+          "signal-path-resilience",
+          "software-engineering",
+          "streaming-platform",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "audio-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "audio-engineering",
+          "studio-engineering",
+          "audio-medium",
+          "signal-flow-design",
+          "programme-audio-feed",
+          "audio-production"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "audio-test-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "automation-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "backend-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "backup-snapshot-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "engineer-role",
+          "repair-activity",
+          "security"
+        ]
+      },
+      "source": "derived"
+    },
+    "bash-shell-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "engineer-role",
+          "operate-activity",
+          "server-system"
+        ]
+      },
+      "source": "derived"
+    },
+    "bootstrap-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "design-activity",
+          "engineer-role",
+          "operate-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "boundary-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "brand-systems-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "identity-systems",
+          "install-activity",
+          "scalability",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "broadcast-audio-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "audio-engineering",
+          "audio-medium",
+          "broadcast-audio-delivery",
+          "programme-audio-feed",
+          "signal-flow-design",
+          "live-broadcast"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "cognitive-load-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "concept-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "engineer-role",
+          "operate-activity",
+          "reliability-engineering",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "configuration-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "control-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "operational-state",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "software-engineering",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "creative-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-production",
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "media-production-system",
+          "media-system",
+          "operational-state",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "creative-project-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    },
+    "creative-technologist": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "data-systems",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "data-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "operational-state",
+          "reliability-engineering",
+          "scalability",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "data-modeler": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport"
+        ]
+      },
+      "source": "derived"
+    },
+    "database-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "product-definition",
+          "security",
+          "software-engineering"
+        ]
+      },
+      "source": "derived"
+    },
+    "debug-diagnostics-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "software-engineering",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "deployment-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "cloud-operations",
+          "configure-activity",
+          "data-systems",
+          "design-activity",
+          "electronics-integration",
+          "engineer-role",
+          "operational-state",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "devops-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "operational-state",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "software-engineering",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "disaster-recovery-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "electronics-integration",
+          "engineer-role",
+          "reliability-engineering",
+          "repair-activity",
+          "signal-path-resilience",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "environment-architect": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "access-control",
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "live-field-operations",
+          "live-operational-support",
+          "operate-activity",
+          "operational-state",
+          "reliability-engineering",
+          "security",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "environment-sync-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "cloud-operations",
+          "configure-activity",
+          "data-systems",
+          "engineer-role",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport",
+          "operational-state",
+          "reliability-engineering",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "error-handling-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "electronics-integration",
+          "engineer-role",
+          "operate-activity",
+          "operational-state",
+          "repair-activity",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "experiential-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "expression-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "identity-systems",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "fail-safe-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "designer-role",
+          "electronics-integration",
+          "engineer-role",
+          "operational-state",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "firewall-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "security"
+        ]
+      },
+      "source": "derived"
+    },
+    "foh-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "engineer-role",
+          "make-activity",
+          "media-distribution",
+          "music-domain",
+          "operational-state",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "format-standardisation-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "graphic-design-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "scalability"
+        ]
+      },
+      "source": "derived"
+    },
+    "graphic-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "install-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "human-error-reduction-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "make-activity",
+          "operate-activity",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "human-system-translator": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "accessibility",
+          "design-activity",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "idempotency-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "engineer-role",
+          "operate-activity",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "identity-architect": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "identity-systems",
+          "logo-design",
+          "design-activity",
+          "product-definition"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "immersive-media-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "design-activity",
+          "engineer-role",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "infrastructure-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "cloud-operations",
+          "design-activity",
+          "electronics-integration",
+          "engineer-role",
+          "operate-activity",
+          "operational-state",
+          "reliability-engineering",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "install-onboarding-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "electronics-integration",
+          "engineer-role",
+          "install-activity",
+          "reliability-engineering",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "interactive-media-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "engineer-role",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "isolation-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "electronics-integration",
+          "engineer-role",
+          "security",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "legacy-aware-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "accessibility",
+          "data-systems",
+          "electronics-integration",
+          "engineer-role",
+          "migrate-activity",
+          "operate-activity",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "lighting-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "communications-networking",
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "linux-systems-administrator": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "cloud-operations",
+          "configure-activity",
+          "engineer-role",
+          "install-activity",
+          "operate-activity",
+          "security",
+          "server-system",
+          "software-engineering"
+        ]
+      },
+      "source": "derived"
+    },
+    "live-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "live-field-operations",
+          "field-communications",
+          "systems-integration",
+          "live-operational-support"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "logo-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "logo-design",
+          "logo-artwork",
+          "identity-systems",
+          "design-activity"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "mastering-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "media-distribution",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "meaning-architect": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "broadcast-audio-delivery",
+          "design-activity",
+          "signal-flow-design",
+          "signal-path-resilience"
+        ]
+      },
+      "source": "derived"
+    },
+    "media-archiving-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "accessibility",
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    },
+    "media-consultant": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "derived"
+    },
+    "media-distribution-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "media-system",
+          "media-distribution-system",
+          "media-distribution",
+          "broadcast-audio-delivery",
+          "programme-audio-feed"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "media-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "media-distribution",
+          "operational-state",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-flow-design",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "media-quality-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "reliability-engineering",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "media-workflow-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "designer-role",
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    },
+    "metadata-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    },
+    "mix-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "engineer-role",
+          "media-distribution",
+          "music-domain",
+          "operational-state",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "monitor-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "media-distribution",
+          "operational-state",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "music-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "music-domain",
+          "audio-engineering",
+          "audio-production"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "narrative-systems-thinker": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "network-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "communications-networking",
+          "field-communications",
+          "primary-signal-path",
+          "fallback-signal-path"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "operations-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "live-operational-support",
+          "reliability-engineering",
+          "technical-handover"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "performance-systems-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "configure-activity",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "operational-state",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "systems-integration",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "permissions-identity-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "access-control",
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "identity-systems",
+          "product-definition",
+          "security"
+        ]
+      },
+      "source": "derived"
+    },
+    "pipeline-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "cloud-operations",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "operational-state",
+          "reliability-engineering",
+          "security",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "platform-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "cloud-operations",
+          "configure-activity",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "software-engineering",
+          "transition-to-live"
+        ]
+      },
+      "source": "derived"
+    },
+    "post-production-audio-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-engineering",
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "media-distribution",
+          "music-domain",
+          "physical-audio-systems",
+          "repair-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "pre-schema-logic-first-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "designer-role",
+          "engineer-role",
+          "install-activity",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport"
+        ]
+      },
+      "source": "derived"
+    },
+    "process-lifecycle-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "engineer-role",
+          "operate-activity",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "projection-systems-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "engineer-role",
+          "install-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "provisioning-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "cloud-operations",
+          "engineer-role",
+          "software-engineering"
+        ]
+      },
+      "source": "derived"
+    },
+    "python-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "design-activity",
+          "electronics-integration",
+          "engineer-role",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "recording-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "engineer-role",
+          "media-distribution",
+          "physical-audio-systems",
+          "signal-flow-design",
+          "studio-environment"
+        ]
+      },
+      "source": "derived"
+    },
+    "refactor-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "reliability-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "signal-path-resilience",
+          "reliability-engineering",
+          "fallback-signal-path",
+          "testing-commissioning"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "repeatability-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "cloud-operations",
+          "configure-activity",
+          "engineer-role",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "software-engineering",
+          "testing-commissioning",
+          "transition-to-live"
+        ]
+      },
+      "source": "derived"
+    },
+    "restore-migration-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "engineer-role",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport",
+          "migrate-activity",
+          "operate-activity",
+          "reliability-engineering",
+          "repair-activity",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "runtime-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "engineer-role",
+          "operate-activity",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "runtime-systems-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "engineer-role",
+          "operational-state",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "schema-architect": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    },
+    "script-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "engineer-role",
+          "live-field-operations",
+          "live-operational-support",
+          "operate-activity",
+          "operational-state",
+          "reliability-engineering",
+          "security",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "sensory-design-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "accessibility",
+          "design-activity",
+          "engineer-role",
+          "install-activity",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport"
+        ]
+      },
+      "source": "derived"
+    },
+    "server-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "configure-activity",
+          "data-systems",
+          "electronics-integration",
+          "engineer-role",
+          "live-broadcast",
+          "live-field-operations",
+          "live-sport",
+          "server-system",
+          "software-engineering",
+          "systems-integration",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "service-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "software-engineering",
+          "testing-commissioning",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "signal-flow-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "signal-flow-design",
+          "primary-signal-path",
+          "fallback-signal-path",
+          "broadcast-audio-delivery"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "software-engineer": {
+      "coverage": {
+        "direct": [
+          "software-engineering",
+          "build-activity"
+        ],
+        "core": [
+          "web-application"
+        ],
+        "supporting": [
+          "data-systems"
+        ],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "sound-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "design-activity",
+          "designer-role",
+          "media-distribution",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "sound-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "audio-engineering",
+          "studio-engineering",
+          "audio-medium",
+          "audio-production",
+          "physical-audio-systems",
+          "live-operational-support"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "sound-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "designer-role",
+          "physical-audio-systems",
+          "product-definition"
+        ]
+      },
+      "source": "derived"
+    },
+    "spatial-audio-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "audio-engineering",
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "engineer-role",
+          "physical-audio-systems"
+        ]
+      },
+      "source": "derived"
+    },
+    "sql-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "make-activity"
+        ]
+      },
+      "source": "derived"
+    },
+    "state-management-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "data-systems",
+          "engineer-role",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "symbol-systems-designer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "accessibility",
+          "audio-medium",
+          "audio-production",
+          "broadcast-audio-delivery",
+          "design-activity",
+          "designer-role",
+          "physical-audio-systems",
+          "reliability-engineering",
+          "signal-path-resilience",
+          "testing-commissioning"
+        ]
+      },
+      "source": "derived"
+    },
+    "systems-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [
+          "systems-integration",
+          "communications-networking",
+          "media-system",
+          "product-definition",
+          "testing-commissioning",
+          "technical-handover"
+        ],
+        "supporting": [],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "toolchain-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "operational-state"
+        ]
+      },
+      "source": "derived"
+    },
+    "visual-language-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "data-systems",
+          "design-activity",
+          "engineer-role",
+          "identity-systems",
+          "software-engineering",
+          "web-application"
+        ]
+      },
+      "source": "derived"
+    },
+    "web-design-engineer": {
+      "coverage": {
+        "direct": [
+          "design-activity"
+        ],
+        "core": [
+          "web-application"
+        ],
+        "supporting": [
+          "build-activity",
+          "software-engineering"
+        ],
+        "contextual": []
+      },
+      "source": "confirmed"
+    },
+    "workflow-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "design-activity",
+          "engineer-role",
+          "operate-activity",
+          "operational-state"
+        ]
+      },
+      "source": "derived"
+    },
+    "world-building-engineer": {
+      "coverage": {
+        "direct": [],
+        "core": [],
+        "supporting": [],
+        "contextual": [
+          "build-activity",
+          "design-activity",
+          "engineer-role"
+        ]
+      },
+      "source": "derived"
+    }
+  }
+}

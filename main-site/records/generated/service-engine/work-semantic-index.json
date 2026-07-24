@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "118-sports-system-development": {
+      "projectSlug": "118-sports",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "identity-systems",
+        "live-sport",
+        "operational-state",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "2xu-wetsuit-testing-distribution-systems": {
+      "projectSlug": "2xu-wetsuit-testing",
+      "concepts": [
+        "engineer-role",
+        "reliability-engineering"
+      ],
+      "source": "derived"
+    },
+    "bamboograph-system-development": {
+      "projectSlug": "bamboograph",
+      "concepts": [
+        "engineer-role",
+        "make-activity",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "best-indies-system-development": {
+      "projectSlug": "best-indies",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "bjorr-system-development": {
+      "projectSlug": "bjorr",
+      "concepts": [
+        "identity-systems",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "bluedot-festival-the-orb-live-sound-system-design-and-installation": {
+      "projectSlug": "bluedot-festival-the-orb",
+      "concepts": [
+        "audio-engineering",
+        "audio-medium",
+        "design-activity",
+        "engineer-role",
+        "install-activity",
+        "operational-state",
+        "physical-audio-systems"
+      ],
+      "source": "derived"
+    },
+    "bonsai-tree-of-life-system-development": {
+      "projectSlug": "bonsai-tree-of-life",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "engineer-role",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "bristow-operational-excellence-electronics-systems-engineering": {
+      "projectSlug": "bristow-operational-excellence",
+      "concepts": [
+        "electronics-integration",
+        "engineer-role",
+        "operational-state"
+      ],
+      "source": "derived"
+    },
+    "cannvent-application-development": {
+      "projectSlug": "cannvent",
+      "concepts": [
+        "design-activity",
+        "identity-systems",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "cannvent-community-space-development": {
+      "projectSlug": "cannvent",
+      "concepts": [
+        "community-platform",
+        "identity-systems",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "cannvent-system-development": {
+      "projectSlug": "cannvent",
+      "concepts": [
+        "community-platform",
+        "identity-systems",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "community-supplies-system-development": {
+      "projectSlug": "community-supplies",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "operate-activity",
+        "product-catalogue",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "croydon-womens-network-iwd-camera-systems-and-setup": {
+      "projectSlug": "croydon-womens-network-iwd",
+      "concepts": [],
+      "source": "derived"
+    },
+    "crystal-palace-overground-festival-distribution-systems-and-signal-flow": {
+      "projectSlug": "crystal-palace-overground-festival",
+      "concepts": [
+        "signal-flow-design"
+      ],
+      "source": "derived"
+    },
+    "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering": {
+      "projectSlug": "delmatic-connected-lighting",
+      "concepts": [
+        "electronics-integration",
+        "engineer-role",
+        "testing-commissioning"
+      ],
+      "source": "derived"
+    },
+    "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering": {
+      "projectSlug": "delta-elektronika-power-systems",
+      "concepts": [
+        "cloud-operations",
+        "electronics-integration",
+        "engineer-role"
+      ],
+      "source": "derived"
+    },
+    "delta-elektronika-power-systems-firmware-build-and-installation-engineering": {
+      "projectSlug": "delta-elektronika-power-systems",
+      "concepts": [
+        "build-activity",
+        "electronics-integration",
+        "engineer-role",
+        "install-activity"
+      ],
+      "source": "derived"
+    },
+    "fbc-london-shopping-with-grant-playout-systems-setup": {
+      "projectSlug": "fbc-london-shopping-with-grant",
+      "concepts": [
+        "media-distribution"
+      ],
+      "source": "derived"
+    },
+    "findthy-identity-language-development": {
+      "projectSlug": "findthy",
+      "concepts": [
+        "identity-systems",
+        "operate-activity",
+        "product-definition"
+      ],
+      "source": "derived"
+    },
+    "findthy-system-development": {
+      "projectSlug": "findthy",
+      "concepts": [
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "five9-customer-story-systems-research-and-systems-thinking": {
+      "projectSlug": "five9-customer-story-systems",
+      "concepts": [
+        "operate-activity",
+        "operational-state",
+        "product-definition"
+      ],
+      "source": "derived"
+    },
+    "five9-customer-story-systems-server-systems-and-configuration": {
+      "projectSlug": "five9-customer-story-systems",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "server-system"
+      ],
+      "source": "derived"
+    },
+    "gouldbourne-management-system-development": {
+      "projectSlug": "gouldbourne-management",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "gouldbourne-registry-system-development": {
+      "projectSlug": "gouldbourne-registry",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "engineer-role",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "testing-commissioning",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "house-of-gold-content-architecture": {
+      "projectSlug": "house-of-gold",
+      "concepts": [
+        "identity-systems",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "house-of-gold-media-presentation": {
+      "projectSlug": "house-of-gold",
+      "concepts": [
+        "identity-systems",
+        "music-domain",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "house-of-gold-runtime-state-systems": {
+      "projectSlug": "house-of-gold",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "house-of-gold-system-development": {
+      "projectSlug": "house-of-gold",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "houston-texans-london-game-field-communications-and-telecom-redundancy-systems": {
+      "projectSlug": "houston-texans-london-game",
+      "concepts": [
+        "communications-networking",
+        "fallback-signal-path",
+        "field-communications",
+        "live-field-operations",
+        "live-sport",
+        "primary-signal-path",
+        "reliability-engineering",
+        "signal-path-resilience",
+        "systems-integration"
+      ],
+      "source": "confirmed-claims"
+    },
+    "imikegold-system-development": {
+      "projectSlug": "imikegold",
+      "concepts": [
+        "identity-systems",
+        "music-domain",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "just-enterprises-system-development": {
+      "projectSlug": "just-enterprises",
+      "concepts": [
+        "identity-systems",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "living-control-media-servers-multimedia-distribution": {
+      "projectSlug": "living-control-media-servers",
+      "concepts": [
+        "media-distribution",
+        "media-distribution-system",
+        "server-system"
+      ],
+      "source": "derived"
+    },
+    "living-control-media-servers-pcb-prototyping-and-design": {
+      "projectSlug": "living-control-media-servers",
+      "concepts": [
+        "design-activity",
+        "electronics-integration",
+        "server-system"
+      ],
+      "source": "derived"
+    },
+    "malaria-hotspot-production-creative-production-management-systems": {
+      "projectSlug": "malaria-hotspot-production",
+      "concepts": [
+        "operate-activity",
+        "product-definition"
+      ],
+      "source": "derived"
+    },
+    "mars-delight-kung-fu-media-management-systems": {
+      "projectSlug": "mars-delight-kung-fu",
+      "concepts": [
+        "media-production-system",
+        "operate-activity",
+        "product-definition"
+      ],
+      "source": "derived"
+    },
+    "metroplist-system-development": {
+      "projectSlug": "metroplist",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "mickz-digital-assets": {
+      "projectSlug": "mickz",
+      "concepts": [
+        "identity-systems"
+      ],
+      "source": "derived"
+    },
+    "mickz-identity-development": {
+      "projectSlug": "mickz",
+      "concepts": [
+        "identity-systems"
+      ],
+      "source": "derived"
+    },
+    "mickz-product-system": {
+      "projectSlug": "mickz",
+      "concepts": [
+        "identity-systems",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "mikegold-engineer-system-development": {
+      "projectSlug": "mikegold-engineer",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "multiplied-intelligence-system-development": {
+      "projectSlug": "multiplied-intelligence",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "design-activity",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "musical-intelligence-content-architecture": {
+      "projectSlug": "musical-intelligence",
+      "concepts": [
+        "engineer-role",
+        "music-domain",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "musical-intelligence-deployment": {
+      "projectSlug": "musical-intelligence",
+      "concepts": [
+        "build-activity",
+        "cloud-operations",
+        "configure-activity",
+        "software-engineering",
+        "transition-to-live",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "musical-intelligence-identity-restoration": {
+      "projectSlug": "musical-intelligence",
+      "concepts": [
+        "identity-systems",
+        "music-domain",
+        "scalability"
+      ],
+      "source": "derived"
+    },
+    "musical-intelligence-web-experience": {
+      "projectSlug": "musical-intelligence",
+      "concepts": [
+        "design-activity",
+        "identity-systems",
+        "music-domain",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "ourgani-identity-development": {
+      "projectSlug": "ourgani",
+      "concepts": [
+        "design-activity",
+        "identity-systems",
+        "logo-artwork"
+      ],
+      "source": "derived"
+    },
+    "ourgani-system-development": {
+      "projectSlug": "ourgani",
+      "concepts": [
+        "cloud-operations",
+        "configure-activity",
+        "identity-systems",
+        "operational-state",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery": {
+      "projectSlug": "philadelphia-eagles-nfl-wembley",
+      "concepts": [
+        "broadcast-audio-delivery",
+        "live-broadcast",
+        "live-sport",
+        "media-distribution",
+        "programme-audio-feed",
+        "reliability-engineering",
+        "signal-flow-design",
+        "systems-integration"
+      ],
+      "source": "confirmed-claims"
+    },
+    "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems": {
+      "projectSlug": "philadelphia-eagles-nfl-wembley",
+      "concepts": [
+        "communications-networking",
+        "fallback-signal-path",
+        "field-communications",
+        "live-field-operations",
+        "live-sport",
+        "primary-signal-path",
+        "reliability-engineering",
+        "signal-flow-design",
+        "signal-path-resilience",
+        "systems-integration"
+      ],
+      "source": "confirmed-claims"
+    },
+    "playstation-croatia-ps5-sound-tour-audio-system-implementation": {
+      "projectSlug": "playstation-croatia-ps5-sound-tour",
+      "concepts": [
+        "audio-medium",
+        "physical-audio-systems"
+      ],
+      "source": "derived"
+    },
+    "playstation-croatia-ps5-sound-tour-sound-design": {
+      "projectSlug": "playstation-croatia-ps5-sound-tour",
+      "concepts": [
+        "audio-medium",
+        "audio-production",
+        "design-activity",
+        "music-domain"
+      ],
+      "source": "derived"
+    },
+    "protosynthesis-multiformat-web-development": {
+      "projectSlug": "protosynthesis",
+      "concepts": [
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "protosynthesis-system-development": {
+      "projectSlug": "protosynthesis",
+      "concepts": [
+        "engineer-role",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "rockett-home-rentals-company-film-camera-operation-and-workflow": {
+      "projectSlug": "rockett-home-rentals-company-film",
+      "concepts": [
+        "media-production-system",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "saveours-identity-language-development": {
+      "projectSlug": "saveours",
+      "concepts": [
+        "identity-systems",
+        "operate-activity",
+        "product-definition",
+        "software-engineering"
+      ],
+      "source": "derived"
+    },
+    "saveours-platform-interface-development": {
+      "projectSlug": "saveours",
+      "concepts": [
+        "identity-systems",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "saveours-system-development": {
+      "projectSlug": "saveours",
+      "concepts": [
+        "build-activity",
+        "identity-systems",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems": {
+      "projectSlug": "stanhope-seta-flash-point-testing",
+      "concepts": [],
+      "source": "derived"
+    },
+    "the-frisbys-you-are-camera-system-setup": {
+      "projectSlug": "the-frisbys-you-are",
+      "concepts": [
+        "configure-activity"
+      ],
+      "source": "derived"
+    },
+    "the-frisbys-you-are-multicamera-operation": {
+      "projectSlug": "the-frisbys-you-are",
+      "concepts": [
+        "media-production-system",
+        "music-domain",
+        "operate-activity"
+      ],
+      "source": "derived"
+    },
+    "the-visionary-guide-system-development": {
+      "projectSlug": "the-visionary-guide",
+      "concepts": [
+        "engineer-role",
+        "operate-activity",
+        "product-definition",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "vendfm-system-development": {
+      "projectSlug": "vendfm",
+      "concepts": [
+        "engineer-role",
+        "operate-activity",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "viisiioiiv-system-development": {
+      "projectSlug": "viisiioiiv",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "waffll-system-development": {
+      "projectSlug": "waffll",
+      "concepts": [
+        "design-activity",
+        "identity-systems",
+        "media-distribution",
+        "operate-activity",
+        "product-definition"
+      ],
+      "source": "derived"
+    },
+    "wibc-system-development": {
+      "projectSlug": "wibc",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "wrappedfm-identity-development": {
+      "projectSlug": "wrappedfm",
+      "concepts": [
+        "identity-systems",
+        "logo-artwork"
+      ],
+      "source": "derived"
+    },
+    "wrappedfm-system-development": {
+      "projectSlug": "wrappedfm",
+      "concepts": [
+        "engineer-role",
+        "identity-systems",
+        "operate-activity",
+        "operational-state",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "zenthapy-identity-development": {
+      "projectSlug": "zenthapy",
+      "concepts": [
+        "design-activity",
+        "identity-systems"
+      ],
+      "source": "derived"
+    },
+    "zenthapy-system-development": {
+      "projectSlug": "zenthapy",
+      "concepts": [
+        "identity-systems",
+        "operate-activity",
+        "product-definition"
+      ],
+      "source": "derived"
+    }
+  }
+}

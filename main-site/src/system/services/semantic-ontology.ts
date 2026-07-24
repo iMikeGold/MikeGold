@@ -1,6 +1,13 @@
+import "server-only";
+
 import type { PublicHat } from "@/system/hats/hat.types";
 import type { PublicWorkProjection } from "@/system/work/work.types";
-import workSemanticProfiles from "../../../records/concepts/work-semantic-profiles.json";
+import coreConcepts from "../../../records/concepts/semantic-concepts-core.json";
+import conceptExtensions from "../../../records/concepts/semantic-concept-extensions.json";
+import workIndexData from "../../../records/generated/service-engine/work-semantic-index.json";
+import hatIndexData from "../../../records/generated/service-engine/hat-semantic-index.json";
+import conceptToWorkData from "../../../records/generated/service-engine/concept-to-work-index.json";
+import hatToWorkData from "../../../records/generated/service-engine/hat-to-work-index.json";
 
 export type ConceptKind =
   | "object" | "activity" | "outcome" | "environment" | "constraint"
@@ -12,8 +19,22 @@ export type SemanticConcept = {
   definition: string;
   kind: ConceptKind;
   phrases: string[];
+  lexicalEntries?: Array<{ phrase: string; relationship: "ALIAS_OF" | "MISSPELLING_OF" | "ABBREVIATION_OF" }>;
+  typedRelationships?: Array<{
+    type: "PARENT_OF" | "CHILD_OF" | "PART_OF" | "REQUIRES" | "USED_IN" | "OVERLAPS_WITH" | "CONTRASTS_WITH" | "AMBIGUOUS_SENSE";
+    targetConceptSlug: string;
+    traversal: "activating" | "non-activating" | "disambiguation-only";
+  }>;
   related?: string[];
-  language?: { scope?: string; outcome?: string };
+  broaderConceptSlugs?: string[];
+  narrowerConceptSlugs?: string[];
+  breadth?: "specific" | "category" | "umbrella";
+  ambiguityPolicy?: { requiresResolution: boolean; promptMode?: "choose-branch" | "request-object" | "request-outcome" };
+  modifierPolicy?: { canModifyKinds?: ConceptKind[]; requiresTarget?: boolean };
+  senseBindings?: Array<{ targetConceptSlugs: string[]; resolvedConceptSlugs: string[] }>;
+  commonRequirementConceptSlugs?: string[];
+  possibleModuleSlugs?: string[];
+  language?: { scope?: string; outcome?: string; question?: string };
 };
 
 export type SemanticSignature = {
@@ -21,81 +42,161 @@ export type SemanticSignature = {
   source: "authored" | "derived";
 };
 
-const concept = (
-  slug: string,
-  label: string,
-  kind: ConceptKind,
-  phrases: string[],
-  definition: string,
-  related: string[] = [],
-  language?: SemanticConcept["language"],
-): SemanticConcept => ({ slug, label, kind, phrases, definition, related, language });
-
-export const SEMANTIC_CONCEPTS: SemanticConcept[] = [
-  concept("field-communications", "Field communications", "object", ["field communications", "pitch communications", "pitch-side communications", "sideline communications", "comms"], "Communications systems used by teams operating within a live field environment.", ["communications-networking", "live-field-operations", "signal-path-resilience"], { scope: "field communications", outcome: "maintain dependable field communications" }),
-  concept("communications-networking", "Communications networking", "system-layer", ["communications network", "telecom", "networked communications"], "Connected paths and endpoints that carry operational communications.", ["field-communications", "systems-integration"]),
-  concept("signal-path-resilience", "Signal-path resilience", "quality", ["resilient signal paths", "signal redundancy", "telecom redundancy", "backup signal route", "failover"], "Maintaining dependable signal delivery through planned redundancy, routing and failure tolerance.", ["reliability-engineering", "signal-flow-design"], { scope: "resilient primary and fallback signal paths", outcome: "maintain dependable signal delivery" }),
-  concept("signal-flow-design", "Signal-flow design", "activity", ["signal flow", "signal routing", "audio routing", "routing"], "Defining how signals travel between sources, processing stages and destinations.", ["signal-path-resilience", "broadcast-audio-delivery"]),
-  concept("broadcast-audio-delivery", "Broadcast-audio delivery", "workflow", ["broadcast audio", "broadcast-audio", "programme audio", "program audio", "radio broadcast"], "Routing and delivering live programme audio into a broadcast workflow and audience output.", ["media-distribution", "signal-flow-design", "live-broadcast"], { scope: "broadcast-audio routing and delivery", outcome: "deliver continuous programme audio into the broadcast workflow" }),
-  concept("media-distribution", "Media distribution", "workflow", ["media distribution", "content delivery", "playout", "publishing"], "Carrying prepared media through a delivery workflow to an audience.", ["broadcast-audio-delivery"]),
-  concept("live-field-operations", "Live field operations", "environment", ["field operations", "live field", "pitch-side", "sideline", "stadium"], "Time-critical technical operation within a live sporting field environment.", ["live-sport", "field-communications"]),
-  concept("live-sport", "Live sport", "environment", ["sport", "sports", "nfl", "football game", "match"], "A live sporting production or operational environment.", ["live-field-operations", "live-broadcast"]),
-  concept("live-broadcast", "Live broadcast", "environment", ["live broadcast", "broadcast channel", "outside broadcast", "ob"], "A time-critical media workflow producing a live audience output.", ["broadcast-audio-delivery", "live-sport"]),
-  concept("reliability-engineering", "Reliability engineering", "quality", ["reliability", "resilience", "redundancy", "high availability", "fail-safe"], "Designing for continuity, fault tolerance and dependable operation.", ["signal-path-resilience", "testing-commissioning"]),
-  concept("systems-integration", "Systems integration", "activity", ["system integration", "systems integration", "technical integration", "hardware software integration"], "Connecting distinct components and responsibilities into one functioning system.", ["testing-commissioning", "communications-networking"]),
-  concept("testing-commissioning", "Testing and commissioning", "activity", ["testing", "commissioning", "validation", "system test"], "Verifying an integrated system before operational use.", ["systems-integration", "reliability-engineering"]),
-  concept("audio-production", "Audio production", "activity", ["recording", "mixing", "audio production", "sound design"], "Creating or transforming audio as media.", ["broadcast-audio-delivery", "media-distribution"]),
-  concept("web-application", "Web application", "object", ["website", "web app", "web application", "frontend", "interface"], "Executable browser-based digital behaviour.", ["software-engineering"]),
-  concept("software-engineering", "Software engineering", "activity", ["software", "backend", "api", "application", "code"], "Designing and building executable digital systems.", ["web-application", "data-systems"]),
-  concept("data-systems", "Data systems", "system-layer", ["data system", "database", "data model", "information system"], "Structured models and operations for storing, interpreting and presenting information.", ["software-engineering", "product-definition"]),
-  concept("product-definition", "Product and system definition", "activity", ["product definition", "system definition", "requirements", "service architecture"], "Defining a system's purpose, boundaries, model and intended operation.", ["data-systems"]),
-  concept("cloud-operations", "Cloud deployment and operations", "system-layer", ["cloud", "hosting", "deployment", "server", "ci/cd"], "The runtime and release environment sustaining a live digital service.", ["software-engineering"]),
-  concept("identity-systems", "Identity systems", "object", ["brand", "identity", "logo", "visual language"], "A coherent system by which an organisation or product is recognised.", []),
-  concept("physical-audio-systems", "Physical audio systems", "object", ["sound system", "audio system", "loudspeaker", "mixing desk", "audio installation"], "Installed equipment and physical signal paths used to reproduce or control sound.", ["signal-flow-design", "systems-integration"]),
-  concept("electronics-integration", "Electronics integration", "activity", ["electronics", "pcb", "firmware", "embedded", "sensor", "hardware"], "Integrating electronic hardware and embedded control into a working physical system.", ["systems-integration", "testing-commissioning"]),
-];
+const mergedConcepts = new Map<string, SemanticConcept>();
+for (const record of [...coreConcepts.concepts, ...conceptExtensions.concepts]) {
+  if (mergedConcepts.has(record.slug)) throw new Error(`Duplicate semantic concept slug: ${record.slug}`);
+  const related = "relatedConceptSlugs" in record ? record.relatedConceptSlugs : undefined;
+  mergedConcepts.set(record.slug, { ...record, ...(related ? { related } : {}) } as SemanticConcept);
+}
+export const SEMANTIC_CONCEPTS = [...mergedConcepts.values()].sort((a, b) => a.slug.localeCompare(b.slug));
+export const SEMANTIC_KNOWLEDGE_VERSION = `${coreConcepts.knowledgeVersion}/${conceptExtensions.knowledgeVersion}`;
 
 export const CONCEPT_BY_SLUG = new Map(SEMANTIC_CONCEPTS.map((item) => [item.slug, item]));
 
-const AUTHORED_WORK_CONCEPTS: Record<string, string[]> = workSemanticProfiles.profiles;
+const indexedWork = workIndexData.work as Record<string, { projectSlug: string; concepts: string[]; source: "authored" | "derived" }>;
+type CoverageRelationship = "direct" | "core" | "supporting" | "contextual";
+const indexedHats = hatIndexData.hats as Record<string, {
+  coverage: Record<CoverageRelationship, string[]>;
+  source: string;
+}>;
+const conceptToWork = conceptToWorkData.concepts as Record<string, string[]>;
+const hatToWork = hatToWorkData.hats as Record<string, string[]>;
+export const tokeniseSemanticInput = (value: string) =>
+  value.toLowerCase().match(/[a-z0-9]+/g) ?? [];
 
-const normalise = (value: string) => ` ${value.toLowerCase().replaceAll(/[^a-z0-9]+/g, " ").trim()} `;
-const phraseMatches = (text: string, phrase: string) => normalise(text).includes(` ${normalise(phrase).trim()} `);
+function withinOneEdit(left: string, right: string) {
+  if (left === right) return true;
+  if (Math.abs(left.length - right.length) > 1) return false;
+  let leftIndex = 0;
+  let rightIndex = 0;
+  let edits = 0;
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] === right[rightIndex]) {
+      leftIndex++;
+      rightIndex++;
+      continue;
+    }
+    if (++edits > 1) return false;
+    if (left.length > right.length) leftIndex++;
+    else if (right.length > left.length) rightIndex++;
+    else if (
+      left[leftIndex] === right[rightIndex + 1]
+      && left[leftIndex + 1] === right[rightIndex]
+    ) {
+      leftIndex += 2;
+      rightIndex += 2;
+    } else {
+      leftIndex++;
+      rightIndex++;
+    }
+  }
+  return edits + Number(leftIndex < left.length || rightIndex < right.length) <= 1;
+}
 
 export function expandConcepts(slugs: Iterable<string>, depth = 1): Set<string> {
   const expanded = new Set(slugs);
   let frontier = [...expanded];
   for (let step = 0; step < depth; step++) {
-    const next = frontier.flatMap((slug) => CONCEPT_BY_SLUG.get(slug)?.related ?? []).filter((slug) => !expanded.has(slug));
+    const next = frontier.flatMap((slug) => {
+      const concept = CONCEPT_BY_SLUG.get(slug);
+      return [...(concept?.related ?? []), ...(concept?.broaderConceptSlugs ?? [])].sort();
+    }).filter((slug) => !expanded.has(slug));
     next.forEach((slug) => expanded.add(slug));
     frontier = next;
   }
   return expanded;
 }
 
-export function interpretConcepts(input: string) {
-  const direct = SEMANTIC_CONCEPTS
-    .map((item) => ({ item, matches: item.phrases.filter((phrase) => phraseMatches(input, phrase)) }))
-    .filter(({ matches }) => matches.length)
-    .sort((a, b) => Math.max(...b.matches.map((value) => value.length)) - Math.max(...a.matches.map((value) => value.length)));
-  return { direct, expanded: expandConcepts(direct.map(({ item }) => item.slug)) };
+export function expandBroaderConcepts(slugs: Iterable<string>): Set<string> {
+  const expanded = new Set(slugs);
+  const frontier = [...expanded];
+  while (frontier.length) {
+    const slug = frontier.shift()!;
+    for (const broader of [...(CONCEPT_BY_SLUG.get(slug)?.broaderConceptSlugs ?? [])].sort()) {
+      if (expanded.has(broader)) continue;
+      expanded.add(broader);
+      frontier.push(broader);
+    }
+  }
+  return expanded;
 }
 
-export function workSemanticSignature(work: PublicWorkProjection): SemanticSignature {
-  const authored = AUTHORED_WORK_CONCEPTS[work.slug];
-  if (authored) return { concepts: authored, source: "authored" };
-  const text = `${work.title} ${work.summary} ${work.lensAssignments.map((item) => `${item.rationale} ${item.lensSummary ?? ""}`).join(" ")}`;
+export function interpretConcepts(input: string) {
+  const tokens = tokeniseSemanticInput(input);
+  const candidates = SEMANTIC_CONCEPTS.flatMap((item) =>
+    item.phrases.flatMap((phrase) => {
+      const phraseTokens = tokeniseSemanticInput(phrase);
+      if (!phraseTokens.length || phraseTokens.length > tokens.length) return [];
+      const matches: Array<{ start: number; end: number; exact: boolean; fuzzy: boolean }> = [];
+      for (let start = 0; start <= tokens.length - phraseTokens.length; start++) {
+        const querySlice = tokens.slice(start, start + phraseTokens.length);
+        const exact = querySlice.every((token, index) => token === phraseTokens[index]);
+        const finalToken = querySlice.at(-1) ?? "";
+        const prefix = !exact
+          && finalToken.length >= 3
+          && querySlice.slice(0, -1).every((token, index) => token === phraseTokens[index])
+          && (phraseTokens.at(-1)?.startsWith(finalToken) ?? false);
+        const typo = !exact && !prefix
+          && finalToken.length >= 5
+          && querySlice.slice(0, -1).every((token, index) => token === phraseTokens[index])
+          && withinOneEdit(finalToken, phraseTokens.at(-1) ?? "");
+        if (exact || prefix || typo) matches.push({ start, end: start + phraseTokens.length, exact, fuzzy: prefix || typo });
+      }
+      return matches.map((match) => ({ item, phrase, ...match, length: phraseTokens.length }));
+    }),
+  ).sort((left, right) =>
+    right.length - left.length
+    || Number(right.exact) - Number(left.exact)
+    || (left.item.breadth === "umbrella" ? 1 : 0) - (right.item.breadth === "umbrella" ? 1 : 0)
+    || left.item.slug.localeCompare(right.item.slug),
+  );
+  const consumed = new Set<number>();
+  const accepted: typeof candidates = [];
+  for (const candidate of candidates) {
+    const span = Array.from({ length: candidate.end - candidate.start }, (_, index) => candidate.start + index);
+    if (span.some((index) => consumed.has(index))) continue;
+    accepted.push(candidate);
+    span.forEach((index) => consumed.add(index));
+  }
+  const direct = accepted.map(({ item, phrase, start, end, exact, fuzzy }) => ({
+    item,
+    matches: [tokens.slice(start, end).join(" ")],
+    canonicalPhrase: phrase,
+    span: { start, end },
+    confidence: exact ? 0.98 : fuzzy ? 0.78 : 0.7,
+  }));
   return {
-    concepts: SEMANTIC_CONCEPTS.filter((item) => item.phrases.some((phrase) => phraseMatches(text, phrase))).map((item) => item.slug),
-    source: "derived",
+    tokens,
+    consumedTokenIndexes: consumed,
+    direct,
+    expanded: expandConcepts(direct.map(({ item }) => item.slug)),
   };
 }
 
-export function hatSemanticConcepts(hat: PublicHat): Set<string> {
-  const text = [
-    hat.name, hat.type, hat.category, hat.description,
-    ...hat.tags.core, ...hat.tags.adjacent, ...(hat.tags.meta ?? []),
-    hat.details?.overview, ...(hat.details?.capabilities ?? []), ...(hat.details?.usedFor ?? []),
-  ].filter(Boolean).join(" ");
-  return expandConcepts(SEMANTIC_CONCEPTS.filter((item) => item.phrases.some((phrase) => phraseMatches(text, phrase))).map((item) => item.slug));
+export function workSemanticSignature(work: PublicWorkProjection): SemanticSignature {
+  const signature = indexedWork[work.slug];
+  if (!signature) throw new Error(`Work ${work.slug} is missing from the generated Service Engine index.`);
+  return { concepts: signature.concepts, source: signature.source };
 }
+
+export function hatSemanticConcepts(hat: PublicHat): Set<string> {
+  const signature = indexedHats[hat.slug];
+  if (!signature) throw new Error(`Hat ${hat.slug} is missing from the generated Service Engine index.`);
+  return new Set(Object.values(signature.coverage).flat());
+}
+
+export const hatSemanticSource = (hatSlug: string) => indexedHats[hatSlug]?.source ?? "missing";
+export const hatSemanticCoverage = (hatSlug: string) => {
+  const coverage = indexedHats[hatSlug]?.coverage;
+  if (!coverage) return new Map<string, CoverageRelationship>();
+  return new Map(
+    (["contextual", "supporting", "core", "direct"] as CoverageRelationship[])
+      .flatMap((relationship) => coverage[relationship].map((slug) => [slug, relationship] as const)),
+  );
+};
+
+export const workCandidatesForConcepts = (slugs: Iterable<string>) =>
+  new Set([...slugs].flatMap((slug) => conceptToWork[slug] ?? []));
+
+export const workCandidatesForHats = (slugs: Iterable<string>) =>
+  new Set([...slugs].flatMap((slug) => hatToWork[slug] ?? []));

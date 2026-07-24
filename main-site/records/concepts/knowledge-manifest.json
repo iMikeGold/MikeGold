@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "service-knowledge/1.1",
+  "moduleSource": "records/concepts/service-modules.json",
+  "canonicalKnowledgeHash": "6b6993ec0d3f0e4a0fb6deca8e185b499d42e60ce0faafa2c4744e82339e7b34"
+}

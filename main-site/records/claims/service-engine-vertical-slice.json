@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "claims": [
+    {
+      "id": "philadelphia-field-responsibility",
+      "workSlug": "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+      "claimType": "responsibility",
+      "statement": "Designed and operated resilient pitch-side communications and physical signal paths for live field operations.",
+      "conceptSlugs": ["field-communications", "communications-networking", "primary-signal-path", "fallback-signal-path", "signal-path-resilience", "live-field-operations", "live-sport"],
+      "stageKeys": ["system-definition", "detailed-design", "integration", "live-operation"],
+      "hatAssignments": [
+        {"hatSlug": "systems-engineer", "role": "lead", "weight": 0.96},
+        {"hatSlug": "network-engineer", "role": "core", "weight": 0.94},
+        {"hatSlug": "reliability-engineer", "role": "core", "weight": 0.92},
+        {"hatSlug": "live-systems-designer", "role": "core", "weight": 0.9},
+        {"hatSlug": "signal-flow-designer", "role": "supporting", "weight": 0.82},
+        {"hatSlug": "operations-engineer", "role": "supporting", "weight": 0.78}
+      ],
+      "status": "confirmed",
+      "confidence": 1,
+      "visibility": "public"
+    },
+    {
+      "id": "philadelphia-broadcast-responsibility",
+      "workSlug": "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "claimType": "responsibility",
+      "statement": "Routed live programme audio from the pitch-side system into the Eagles broadcast channel.",
+      "conceptSlugs": ["broadcast-audio-delivery", "programme-audio-feed", "signal-flow-design", "media-distribution", "live-broadcast", "live-sport"],
+      "stageKeys": ["detailed-design", "integration", "live-operation"],
+      "hatAssignments": [
+        {"hatSlug": "broadcast-audio-engineer", "role": "lead", "weight": 0.97},
+        {"hatSlug": "signal-flow-designer", "role": "core", "weight": 0.94},
+        {"hatSlug": "media-distribution-engineer", "role": "core", "weight": 0.92},
+        {"hatSlug": "audio-engineer", "role": "supporting", "weight": 0.84},
+        {"hatSlug": "systems-engineer", "role": "supporting", "weight": 0.8}
+      ],
+      "status": "confirmed",
+      "confidence": 1,
+      "visibility": "public"
+    },
+    {
+      "id": "houston-field-responsibility",
+      "workSlug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "claimType": "responsibility",
+      "statement": "Engineered communications paths and telecom redundancy supporting live field operations.",
+      "conceptSlugs": ["field-communications", "communications-networking", "primary-signal-path", "fallback-signal-path", "signal-path-resilience", "live-field-operations", "live-sport"],
+      "stageKeys": ["system-definition", "detailed-design", "integration", "live-operation"],
+      "hatAssignments": [
+        {"hatSlug": "systems-engineer", "role": "lead", "weight": 0.95},
+        {"hatSlug": "network-engineer", "role": "core", "weight": 0.94},
+        {"hatSlug": "reliability-engineer", "role": "core", "weight": 0.92},
+        {"hatSlug": "live-systems-designer", "role": "core", "weight": 0.88},
+        {"hatSlug": "operations-engineer", "role": "supporting", "weight": 0.76}
+      ],
+      "status": "confirmed",
+      "confidence": 1,
+      "visibility": "public"
+    }
+  ],
+  "evidenceClaimLinks": [
+    {
+      "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
+      "claimId": "philadelphia-field-responsibility",
+      "supportRole": "contextual",
+      "strength": 0.72,
+      "rationale": "Documents the live NFL field environment and delivery context, but does not independently establish authorship of the technical design.",
+      "publicVisibility": true
+    },
+    {
+      "evidenceSlug": "philadelphia-eagles-nfl-wembley-broadcast-evidence",
+      "claimId": "philadelphia-broadcast-responsibility",
+      "supportRole": "corroborating",
+      "strength": 0.82,
+      "rationale": "Documents the resulting broadcast output and operating environment.",
+      "publicVisibility": true
+    },
+    {
+      "evidenceSlug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video",
+      "claimId": "houston-field-responsibility",
+      "supportRole": "contextual",
+      "strength": 0.68,
+      "rationale": "Documents the comparable live sporting environment rather than the technical responsibility by itself.",
+      "publicVisibility": true
+    }
+  ]
+}

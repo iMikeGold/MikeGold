@@ -3012,17 +3012,36 @@ export const publicWorkCards = [
       "identity-architect"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 52.83,
+    "relevanceScore": 73.22,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 13.2075,
+    "evidenceCompletenessScore": 20.39,
+    "finalScore": 18.305,
     "href": "/projects/bjorr"
   },
   {
@@ -3039,19 +3058,38 @@ export const publicWorkCards = [
       "identity-architect"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 52.83,
+    "relevanceScore": 73.22,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 0,
+    "evidenceCompletenessScore": 20.39,
     "editorialSequence": 6,
-    "finalScore": 46.207499999999996,
+    "finalScore": 51.305,
     "href": "/projects/bjorr?area=system-product-definition"
   },
   {
@@ -3068,19 +3106,38 @@ export const publicWorkCards = [
       "identity-architect"
     ],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 3 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 48.26,
+    "relevanceScore": 68.65,
     "editorialBoost": 9,
-    "evidenceCompletenessScore": 0,
+    "evidenceCompletenessScore": 20.39,
     "editorialSequence": 2,
-    "finalScore": 69.065,
+    "finalScore": 74.1625,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {
@@ -4385,9 +4442,12 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "systems-engineer",
+      "live-systems-designer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "operations-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video",
       "src": "https://i.ytimg.com/vi/H0jTge4APYs/hqdefault.jpg",
@@ -4399,12 +4459,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 70.47,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
+    "finalScore": 17.6175,
     "href": "/projects/houston-texans-london-game"
   },
   {
@@ -4419,9 +4479,12 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "systems-engineer",
+      "live-systems-designer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "operations-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "houston-texans-london-game-field-communications-and-telecom-redundancy-systems-video",
       "src": "https://i.ytimg.com/vi/H0jTge4APYs/hqdefault.jpg",
@@ -4433,14 +4496,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 70.47,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 16,
     "editorialSequence": 1,
-    "finalScore": 80.365,
+    "finalScore": 80.6175,
     "href": "/projects/houston-texans-london-game?area=physical-systems-engineering"
   },
   {
@@ -5156,11 +5219,17 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "media-distribution-engineer",
+      "broadcast-audio-engineer",
+      "signal-flow-designer",
+      "audio-engineer"
+    ],
+    "supportingHatSlugs": [
+      "systems-engineer",
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "live-systems-designer",
+      "operations-engineer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
       "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
@@ -5179,12 +5248,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal"
+      "9 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 79.5,
+    "relevanceScore": 81.5,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 19.875,
+    "finalScore": 20.375,
     "href": "/projects/philadelphia-eagles-nfl-wembley"
   },
   {
@@ -5197,9 +5266,14 @@ export const publicWorkCards = [
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
     ],
     "leadHatSlugs": [
-      "media-distribution-engineer"
+      "media-distribution-engineer",
+      "broadcast-audio-engineer",
+      "signal-flow-designer",
+      "audio-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "systems-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
       "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
@@ -5218,13 +5292,13 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "1 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Evidence is explicitly connected to the selected lens"
     ],
-    "relevanceScore": 78.49,
+    "relevanceScore": 80.96,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 19.6225,
+    "finalScore": 20.24,
     "href": "/projects/philadelphia-eagles-nfl-wembley?area=media-production-distribution"
   },
   {
@@ -5239,9 +5313,13 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "network-engineer",
       "reliability-engineer",
-      "systems-engineer"
+      "systems-engineer",
+      "live-systems-designer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "signal-flow-designer",
+      "operations-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "philadelphia-eagles-nfl-wembley-game-evidence",
       "src": "https://i.ytimg.com/vi/3R-MfF6ysZs/hqdefault.jpg",
@@ -5260,15 +5338,15 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Evidence is explicitly connected to the selected lens",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.95,
+    "relevanceScore": 81.38,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 18.49,
     "editorialSequence": 2,
-    "finalScore": 76.9875,
+    "finalScore": 77.345,
     "href": "/projects/philadelphia-eagles-nfl-wembley?area=physical-systems-engineering"
   },
   {

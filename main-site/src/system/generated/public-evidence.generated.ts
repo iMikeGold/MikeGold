@@ -481,21 +481,75 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
-    "slug": "bjorr-documentation-pending",
-    "title": "Bjórr project evidence",
-    "description": "Supporting material is being selected and documented for this project record.",
-    "evidenceType": "placeholder",
+    "slug": "bjorr-emblem-lowercase-b-vector",
+    "title": "Bjórr emblem — lowercase b",
+    "description": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "phase": "Identity development",
+    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
     "presentation": {
       "facets": [
-        "project-overview"
+        "identity-system"
       ],
       "displayRoles": [
-        "archive"
+        "supporting",
+        "gallery"
       ],
       "visualQuality": "standard",
-      "aspectPreference": "any"
+      "aspectPreference": "portrait"
     },
-    "placeholder": true
+    "sourceTitle": "Bjórr",
+    "placeholder": false
+  },
+  {
+    "slug": "bjorr-emblem-uppercase-b-vector",
+    "title": "Bjórr emblem — uppercase B",
+    "description": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "phase": "Identity development",
+    "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+    "presentation": {
+      "facets": [
+        "identity-system"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "portrait"
+    },
+    "sourceTitle": "Bjórr",
+    "placeholder": false
+  },
+  {
+    "slug": "bjorr-identity-system-presentation",
+    "title": "Bjórr identity-system presentation",
+    "description": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "phase": "Identity system",
+    "assetPath": "/images/projects/bjorr/identity_design/identity-design.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "brand-application"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Bjórr",
+    "placeholder": false
   },
   {
     "slug": "bluedot-festival-the-orb-live-sound-system-design-and-installation-video",

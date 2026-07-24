@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import HatRadar from "@/components/Polygon/HatRadar";
-import { combineHatProfiles, composeCombinedHatDescription } from "@/system/services/polygon-engine";
+import { combineHatProfiles, composeCombinedHatDescription, selectPrincipalLayerHats } from "@/system/services/polygon-engine";
 import { getHatProfile } from "@/system/profile/hat-profile";
 import { calculateWeight } from "@/system/services/weights";
 import { PROFILE_AXES, type HatProfile } from "@/system/profile/hat-profile";
@@ -10,6 +10,7 @@ import {
   interpretHatProfile,
   PROFILE_AXIS_COLOURS,
   PROFILE_AXIS_MEANINGS,
+  resolveDominantAxis,
 } from "@/system/services/profile-interpreter";
 
 // ------------------------------
@@ -34,7 +35,8 @@ export default function HatDrawer({
   onSelectHat,
   onClose,
   drawerWidth,
-  POLYGON_SIZE
+  POLYGON_SIZE,
+  colourSlots = {}
 }: any) {
   const effectivePolygonSize = useMemo(() => {
     const maxWidth = Math.min(drawerWidth - 24, Math.max(POLYGON_SIZE, 240));
@@ -46,12 +48,14 @@ export default function HatDrawer({
   const tags = flattenTags(hat);
   const polygonHats = selectedHats.length ? selectedHats : [hat];
   const polygonValues = combineHatProfiles(polygonHats);
+  const stackDominance = resolveDominantAxis(polygonValues);
   const interpretation = interpretHatProfile(
     polygonValues as HatProfile,
     polygonHats.map((item: any) => item.name),
   );
   const layerColours = ["#60a5fa", "#f472b6", "#34d399", "#fbbf24", "#a78bfa", "#22d3ee", "#fb7185"] as const;
-  const polygonLayers = polygonHats.slice(0, 7).map((item: any, index: number) => ({ values: getHatProfile(item), color: layerColours[index] }));
+  const principalLayerHats = selectPrincipalLayerHats(polygonHats, 7);
+  const polygonLayers = principalLayerHats.map((item: any, index: number) => ({ values: getHatProfile(item), color: layerColours[colourSlots[item.id] ?? index] }));
   const combinedDescription = composeCombinedHatDescription(polygonHats);
 
   return (
@@ -86,11 +90,11 @@ export default function HatDrawer({
             {hat.category} • {hat.type} • Score {weightScore.toFixed(2)}
           </div>
           {selectedHats.length > 1 && (
-            <div style={{ fontSize: 11, color: "#60a5fa", marginTop: 4 }}>
-              Combined profile calculated from {selectedHats.length} selected Hats
+            <div style={{ fontSize: 11, color: stackDominance.colour, marginTop: 4 }}>
+              Current stack · combined legacy profile from {selectedHats.length} selected Hats
             </div>
           )}
-          {polygonHats.length > polygonLayers.length && <div style={{ fontSize: 11, color: "#999", marginTop: 3 }}>Displaying the first {polygonLayers.length} selected layers.</div>}
+          {polygonHats.length > polygonLayers.length && <div style={{ fontSize: 11, color: "#999", marginTop: 3 }}>{polygonHats.length} Hats combined · {polygonLayers.length} principal layers shown · +{polygonHats.length - polygonLayers.length} additional contributing Hats</div>}
         </div>
         <button
           onClick={onClose}
@@ -122,7 +126,13 @@ export default function HatDrawer({
           overflow: "hidden"
         }}
       >
-        <HatRadar values={polygonValues} layers={polygonLayers} size={effectivePolygonSize} />
+        <HatRadar
+          values={polygonValues}
+          layers={polygonLayers}
+          size={effectivePolygonSize}
+          stroke={stackDominance.colour}
+          fill={`${stackDominance.colour}61`}
+        />
       </div>
 
       {/* CONTENT — FULLY UNCHANGED */}
@@ -154,7 +164,7 @@ export default function HatDrawer({
           </div>
           {polygonHats.length > 1 && (
             <p className="polygon-layer-note">
-              The solid blue shape is the combined profile. The quieter coloured outlines show each selected Hat so their contribution remains visible.
+              The filled shape shows the current combined profile. The finer outlines show each selected Hat so their contribution remains visible.
             </p>
           )}
         </details>

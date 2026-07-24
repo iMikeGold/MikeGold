@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "assertions": [
+    {
+      "id": "playstation-ps5-sound-tour-production-context-review",
+      "targetWorkSlugs": [
+        "playstation-croatia-ps5-sound-tour-audio-system-implementation",
+        "playstation-croatia-ps5-sound-tour-sound-design"
+      ],
+      "status": "pending-confirmation",
+      "source": "user-authored-review",
+      "assertion": "The PlayStation work was studio and controlled-production work involving voice-over recording, recording engineering, sound engineering, mixing, mastering, sound design, quality control and format preparation for commercial release promotion. It was not live sound, live-event operation or physical installation.",
+      "numericEffectsApplied": false,
+      "claimEffectsApplied": false
+    }
+  ]
+}

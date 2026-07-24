@@ -1,7 +1,5 @@
 import ServiceIntentExplorer from "@/components/services/ServiceIntentExplorer";
-import { publicHats } from "@/system/generated/public-hats.generated";
-import { publicProjects } from "@/system/generated/public-projects.generated";
-import { publicWork } from "@/system/generated/public-work.generated";
+import HomeSuggestions from "@/components/services/HomeSuggestions";
 
 export default function SystemEntryNode() {
   return (
@@ -11,17 +9,8 @@ export default function SystemEntryNode() {
       <h2>Systems Architect | Audio. Electrical. Media. Software.
       </h2>
 
-      <ServiceIntentExplorer hats={publicHats} projects={publicProjects} work={publicWork} compact />
-
-      <div className="hero-suggestions">
-        Suggestions:
-        <ul>
-          <li>Audio system for live performance</li>
-          <li>Backend infrastructure for media</li>
-          <li>Interactive installation</li>
-          <li>Hardware + software product</li>
-        </ul>
-      </div>
+      <ServiceIntentExplorer compact />
+      <HomeSuggestions />
 
     </section>
   );

@@ -1,0 +1,24 @@
+{
+  "id": "4cd7d79f-7b7a-40db-ad37-1cdea60e7130",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-emblem-uppercase-b-vector",
+  "title": "Bjórr emblem — uppercase B",
+  "description": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+  "sourceTitle": "Bjórr",
+  "phase": "Identity development",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["identity-system"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "portrait"
+  }
+}

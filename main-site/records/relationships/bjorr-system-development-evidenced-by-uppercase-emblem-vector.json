@@ -1,0 +1,13 @@
+{
+  "id": "ff08032f-faca-40f2-b7c1-68b097b94887",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-system-development-evidenced-by-uppercase-emblem-vector",
+  "sourceId": "0e351510-1e97-4e2b-9055-025a9d4df553",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "4cd7d79f-7b7a-40db-ad37-1cdea60e7130",
+  "targetType": "evidence"
+}

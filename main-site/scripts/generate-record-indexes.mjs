@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -8,6 +9,8 @@ const scriptDirectory = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(scriptDirectory, "..");
 const recordsRoot = join(projectRoot, "records");
 const generatedDirectory = join(projectRoot, "src", "system", "generated");
+const serviceIndexDirectory = join(recordsRoot, "generated", "service-engine");
+mkdirSync(serviceIndexDirectory, { recursive: true });
 
 function readCollection(directory) {
   const path = join(recordsRoot, directory);
@@ -76,6 +79,14 @@ const relationships = readCollection("relationships");
 const lensPriorityCalibration = JSON.parse(
   readFileSync(join(recordsRoot, "editorial", "lens-priority-calibration.json"), "utf8"),
 );
+const serviceEngineClaims = JSON.parse(
+  readFileSync(join(recordsRoot, "claims", "service-engine-vertical-slice.json"), "utf8"),
+).claims;
+const coreConceptKnowledge = JSON.parse(readFileSync(join(recordsRoot, "concepts", "semantic-concepts-core.json"), "utf8"));
+const extendedConceptKnowledge = JSON.parse(readFileSync(join(recordsRoot, "concepts", "semantic-concept-extensions.json"), "utf8"));
+const workSemanticProfiles = JSON.parse(readFileSync(join(recordsRoot, "concepts", "work-semantic-profiles.json"), "utf8")).profiles;
+const hatSemanticProfiles = JSON.parse(readFileSync(join(recordsRoot, "concepts", "hat-semantic-profiles.json"), "utf8")).profiles;
+const capabilityCoveragePolicy = JSON.parse(readFileSync(join(recordsRoot, "concepts", "capability-coverage-policy.json"), "utf8"));
 const allRecords = [...hats, ...projects, ...work, ...evidence, ...relationships];
 const byId = new Map(allRecords.map((record) => [record.id, record]));
 
@@ -161,7 +172,7 @@ const publicWork = work
     if (!project || project.recordType !== "project" || project.visibility !== "public") {
       throw new Error(`Public Work ${record.slug} has no public Project.`);
     }
-    const appliedHatSlugs = relationships
+    const relationshipHatSlugs = relationships
       .filter(
         (relationship) =>
           relationship.relationshipType === "applied-in" &&
@@ -170,6 +181,12 @@ const publicWork = work
       .map((relationship) => byId.get(relationship.sourceId))
       .filter((hat) => hat?.recordType === "hat" && hat.status === "published")
       .map((hat) => hat.slug);
+    const claimHatSlugs = serviceEngineClaims
+      .filter((claim) => claim.workSlug === record.slug && ["authored", "confirmed"].includes(claim.status))
+      .flatMap((claim) => claim.hatAssignments ?? [])
+      .map((assignment) => assignment.hatSlug)
+      .filter((slug) => publicHats.some((hat) => hat.slug === slug));
+    const appliedHatSlugs = [...new Set([...relationshipHatSlugs, ...claimHatSlugs])];
     const evidenceRelationships = relationships
       .filter(
         (relationship) =>
@@ -233,6 +250,118 @@ const publicEvidence = evidence
     ...(record.sourceAuthor ? { sourceAuthor: record.sourceAuthor } : {}),
     placeholder: record.placeholder,
   }));
+
+const semanticConcepts = [...coreConceptKnowledge.concepts, ...extendedConceptKnowledge.concepts]
+  .sort((left, right) => left.slug.localeCompare(right.slug));
+const conceptBySlug = new Map(semanticConcepts.map((concept) => [concept.slug, concept]));
+const normaliseSemanticText = (value) => ` ${value.toLowerCase().replaceAll(/[^a-z0-9]+/g, " ").trim()} `;
+const normalisedPhrases = new Map(semanticConcepts.map((concept) => [
+  concept.slug,
+  concept.phrases.map((phrase) => ` ${normaliseSemanticText(phrase).trim()} `),
+]));
+const matchingConcepts = (text) => {
+  const normalised = normaliseSemanticText(text);
+  return semanticConcepts
+    .filter((concept) => normalisedPhrases.get(concept.slug).some((phrase) => normalised.includes(phrase)))
+    .map((concept) => concept.slug);
+};
+const expandConceptSlugs = (slugs) => [...new Set(slugs.flatMap((slug) => {
+  const concept = conceptBySlug.get(slug);
+  return [slug, ...(concept?.relatedConceptSlugs ?? []), ...(concept?.broaderConceptSlugs ?? [])];
+}))].sort();
+const confirmedClaimConceptsByWork = new Map();
+for (const claim of serviceEngineClaims.filter((item) => item.status === "confirmed")) {
+  const current = confirmedClaimConceptsByWork.get(claim.workSlug) ?? [];
+  confirmedClaimConceptsByWork.set(
+    claim.workSlug,
+    [...new Set([...current, ...(claim.conceptSlugs ?? [])])].sort(),
+  );
+}
+const workSemanticIndex = Object.fromEntries(publicWork.map((item) => {
+  const authored = workSemanticProfiles[item.slug];
+  const claimConcepts = confirmedClaimConceptsByWork.get(item.slug) ?? [];
+  const text = `${item.title} ${item.summary} ${item.lensAssignments.map((assignment) => `${assignment.rationale} ${assignment.lensSummary ?? ""}`).join(" ")}`;
+  const concepts = [...new Set([...(authored ?? matchingConcepts(text)), ...claimConcepts])].sort();
+  return [item.slug, {
+    projectSlug: item.projectSlug,
+    concepts,
+    source: claimConcepts.length ? "confirmed-claims" : authored ? "authored" : "derived",
+  }];
+}).sort(([left], [right]) => left.localeCompare(right)));
+const hatSemanticIndex = Object.fromEntries(publicHats.map((hat) => {
+  const profile = hatSemanticProfiles[hat.slug];
+  const authoredCoverage = profile?.coverage;
+  const authored = authoredCoverage
+    ? [...authoredCoverage.direct, ...authoredCoverage.core, ...authoredCoverage.supporting, ...authoredCoverage.contextual]
+    : undefined;
+  const text = [
+    hat.name, hat.type, hat.category, hat.description,
+    ...hat.tags.core, ...hat.tags.adjacent, ...(hat.tags.meta ?? []),
+    hat.details?.overview, ...(hat.details?.capabilities ?? []), ...(hat.details?.usedFor ?? []),
+  ].filter(Boolean).join(" ");
+  const indexedConceptSlugs = expandConceptSlugs(authored ?? matchingConcepts(text));
+  return [hat.slug, {
+    coverage: authoredCoverage ?? {
+      direct: [],
+      core: authored ? indexedConceptSlugs : [],
+      supporting: [],
+      contextual: authored ? [] : indexedConceptSlugs,
+    },
+    source: authored ? profile.source : "derived",
+  }];
+}).sort(([left], [right]) => left.localeCompare(right)));
+const conceptToWorkIndex = Object.fromEntries(semanticConcepts.map((concept) => [
+  concept.slug,
+  Object.entries(workSemanticIndex)
+    .filter(([, signature]) => signature.concepts.includes(concept.slug))
+    .map(([workSlug]) => workSlug)
+    .sort(),
+]));
+const hatToWorkIndex = Object.fromEntries(publicHats.map((hat) => [
+  hat.slug,
+  publicWork.filter((item) => item.appliedHatSlugs.includes(hat.slug)).map((item) => item.slug).sort(),
+]));
+const projectContributionIndex = Object.fromEntries(publicProjects.map((project) => [
+  project.slug,
+  publicWork.filter((item) => item.projectSlug === project.slug).map((item) => item.slug).sort(),
+]));
+const canonicalise = (value) => Array.isArray(value)
+  ? value.map(canonicalise).sort((left, right) => JSON.stringify(left).localeCompare(JSON.stringify(right)))
+  : value && typeof value === "object"
+    ? Object.fromEntries(Object.entries(value).sort(([left], [right]) => left.localeCompare(right)).map(([key, item]) => [key, canonicalise(item)]))
+    : value;
+const contentHash = (value) => createHash("sha256").update(JSON.stringify(canonicalise(value))).digest("hex");
+const archiveSourceHash = contentHash({
+  hats,
+  work,
+  relationships,
+  serviceEngineClaims,
+  workSemanticProfiles,
+  hatSemanticProfiles,
+  capabilityCoveragePolicy,
+  semanticConcepts,
+});
+const serviceIndexes = {
+  workSemanticIndex,
+  hatSemanticIndex,
+  conceptToWorkIndex,
+  hatToWorkIndex,
+  projectContributionIndex,
+};
+const generatedIndexHash = contentHash(serviceIndexes);
+for (const [file, data] of [
+  ["work-semantic-index.json", { schemaVersion: 1, work: workSemanticIndex }],
+  ["hat-semantic-index.json", { schemaVersion: 1, hats: hatSemanticIndex }],
+  ["concept-to-work-index.json", { schemaVersion: 1, concepts: conceptToWorkIndex }],
+  ["hat-to-work-index.json", { schemaVersion: 1, hats: hatToWorkIndex }],
+  ["project-contribution-index.json", { schemaVersion: 1, projects: projectContributionIndex }],
+  ["index-manifest.json", {
+    schemaVersion: 1,
+    generatorVersion: "service-index-generator/1.0",
+    archiveSourceHash,
+    generatedIndexHash,
+  }],
+]) writeFileSync(join(serviceIndexDirectory, file), `${JSON.stringify(data, null, 2)}\n`);
 
 const publicEvidenceBySlug = new Map(publicEvidence.map((record) => [record.slug, record]));
 
@@ -437,6 +566,13 @@ console.log(
         evidence: publicEvidence.length,
       },
       uuidLeaks: 0,
+      serviceIndexes: {
+        work: Object.keys(workSemanticIndex).length,
+        hats: Object.keys(hatSemanticIndex).length,
+        concepts: Object.keys(conceptToWorkIndex).length,
+        archiveSourceHash,
+        generatedIndexHash,
+      },
     },
     null,
     2,

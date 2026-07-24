@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "hats": {
+    "access-control-engineer": [],
+    "acoustic-engineer": [],
+    "application-engineer": [
+      "musical-intelligence-content-architecture",
+      "musical-intelligence-web-experience"
+    ],
+    "asgi-service-runner-engineer": [],
+    "audio-engineer": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation"
+    ],
+    "audio-test-engineer": [],
+    "automation-engineer": [],
+    "backend-engineer": [],
+    "backup-snapshot-engineer": [],
+    "bash-shell-engineer": [],
+    "bootstrap-engineer": [],
+    "boundary-engineer": [],
+    "brand-systems-engineer": [
+      "cannvent-system-development",
+      "community-supplies-system-development",
+      "findthy-system-development",
+      "just-enterprises-system-development",
+      "mickz-identity-development",
+      "mickz-product-system",
+      "ourgani-system-development",
+      "waffll-system-development",
+      "wibc-system-development",
+      "zenthapy-system-development"
+    ],
+    "broadcast-audio-engineer": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+    ],
+    "cognitive-load-designer": [],
+    "concept-engineer": [
+      "bamboograph-system-development",
+      "bjorr-system-development",
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "metroplist-system-development",
+      "the-visionary-guide-system-development",
+      "waffll-system-development",
+      "zenthapy-system-development"
+    ],
+    "configuration-engineer": [
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
+      "five9-customer-story-systems-server-systems-and-configuration"
+    ],
+    "control-systems-designer": [
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering"
+    ],
+    "creative-engineer": [],
+    "creative-project-engineer": [
+      "malaria-hotspot-production-creative-production-management-systems"
+    ],
+    "creative-technologist": [],
+    "data-engineer": [],
+    "data-modeler": [
+      "bamboograph-system-development",
+      "bonsai-tree-of-life-system-development",
+      "findthy-system-development",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "metroplist-system-development",
+      "mikegold-engineer-system-development",
+      "multiplied-intelligence-system-development",
+      "saveours-system-development",
+      "the-visionary-guide-system-development",
+      "vendfm-system-development"
+    ],
+    "database-engineer": [],
+    "debug-diagnostics-engineer": [],
+    "deployment-engineer": [
+      "118-sports-system-development",
+      "community-supplies-system-development",
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "gouldbourne-management-system-development",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-deployment",
+      "ourgani-system-development",
+      "wrappedfm-system-development"
+    ],
+    "devops-engineer": [],
+    "disaster-recovery-engineer": [],
+    "environment-architect": [
+      "cannvent-system-development",
+      "just-enterprises-system-development"
+    ],
+    "environment-sync-engineer": [],
+    "error-handling-engineer": [],
+    "experiential-engineer": [
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "expression-systems-designer": [],
+    "fail-safe-systems-designer": [],
+    "firewall-engineer": [],
+    "foh-engineer": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
+    ],
+    "format-standardisation-engineer": [],
+    "graphic-design-engineer": [],
+    "graphic-systems-designer": [],
+    "human-error-reduction-engineer": [],
+    "human-system-translator": [],
+    "idempotency-engineer": [],
+    "identity-architect": [
+      "118-sports-system-development",
+      "best-indies-system-development",
+      "bjorr-system-development",
+      "imikegold-system-development",
+      "viisiioiiv-system-development"
+    ],
+    "immersive-media-engineer": [],
+    "infrastructure-engineer": [],
+    "install-onboarding-engineer": [
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering"
+    ],
+    "interactive-media-engineer": [
+      "vendfm-system-development"
+    ],
+    "isolation-engineer": [],
+    "legacy-aware-engineer": [],
+    "lighting-systems-designer": [
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering"
+    ],
+    "linux-systems-administrator": [],
+    "live-systems-designer": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+      "the-frisbys-you-are-camera-system-setup"
+    ],
+    "logo-systems-designer": [
+      "best-indies-system-development",
+      "mickz-identity-development",
+      "wibc-system-development"
+    ],
+    "mastering-engineer": [],
+    "meaning-architect": [
+      "cannvent-system-development",
+      "findthy-system-development",
+      "house-of-gold-content-architecture"
+    ],
+    "media-archiving-engineer": [
+      "mars-delight-kung-fu-media-management-systems"
+    ],
+    "media-consultant": [],
+    "media-distribution-engineer": [
+      "fbc-london-shopping-with-grant-playout-systems-setup",
+      "living-control-media-servers-multimedia-distribution",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+    ],
+    "media-engineer": [
+      "croydon-womens-network-iwd-camera-systems-and-setup",
+      "fbc-london-shopping-with-grant-playout-systems-setup",
+      "house-of-gold-media-presentation",
+      "imikegold-system-development",
+      "protosynthesis-system-development",
+      "rockett-home-rentals-company-film-camera-operation-and-workflow",
+      "the-frisbys-you-are-multicamera-operation",
+      "waffll-system-development",
+      "wrappedfm-system-development"
+    ],
+    "media-quality-engineer": [],
+    "media-workflow-designer": [
+      "croydon-womens-network-iwd-camera-systems-and-setup",
+      "mars-delight-kung-fu-media-management-systems",
+      "rockett-home-rentals-company-film-camera-operation-and-workflow",
+      "the-frisbys-you-are-multicamera-operation"
+    ],
+    "metadata-engineer": [],
+    "mix-engineer": [],
+    "monitor-engineer": [],
+    "music-engineer": [],
+    "narrative-systems-thinker": [
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "house-of-gold-content-architecture",
+      "protosynthesis-system-development"
+    ],
+    "network-engineer": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "operations-engineer": [
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "malaria-hotspot-production-creative-production-management-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "performance-systems-engineer": [],
+    "permissions-identity-engineer": [],
+    "pipeline-engineer": [],
+    "platform-engineer": [],
+    "post-production-audio-engineer": [],
+    "pre-schema-logic-first-designer": [],
+    "process-lifecycle-engineer": [
+      "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems"
+    ],
+    "projection-systems-engineer": [],
+    "provisioning-engineer": [],
+    "python-engineer": [],
+    "recording-engineer": [],
+    "refactor-engineer": [],
+    "reliability-engineer": [
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "repeatability-engineer": [
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering",
+      "living-control-media-servers-pcb-prototyping-and-design",
+      "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems"
+    ],
+    "restore-migration-engineer": [],
+    "runtime-engineer": [],
+    "runtime-systems-engineer": [],
+    "schema-architect": [
+      "gouldbourne-registry-system-development"
+    ],
+    "script-engineer": [],
+    "sensory-design-engineer": [],
+    "server-engineer": [
+      "five9-customer-story-systems-server-systems-and-configuration",
+      "living-control-media-servers-multimedia-distribution"
+    ],
+    "service-engineer": [],
+    "signal-flow-designer": [
+      "2xu-wetsuit-testing-distribution-systems",
+      "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
+      "living-control-media-servers-multimedia-distribution",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "software-engineer": [],
+    "sound-designer": [
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "sound-engineer": [],
+    "sound-systems-designer": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
+    ],
+    "spatial-audio-engineer": [],
+    "sql-engineer": [],
+    "state-management-engineer": [],
+    "symbol-systems-designer": [
+      "saveours-system-development"
+    ],
+    "systems-engineer": [
+      "2xu-wetsuit-testing-distribution-systems",
+      "bamboograph-system-development",
+      "bonsai-tree-of-life-system-development",
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "five9-customer-story-systems-server-systems-and-configuration",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "living-control-media-servers-pcb-prototyping-and-design",
+      "mikegold-engineer-system-development",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+      "protosynthesis-system-development",
+      "saveours-system-development",
+      "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems",
+      "vendfm-system-development"
+    ],
+    "toolchain-engineer": [],
+    "visual-language-engineer": [
+      "house-of-gold-media-presentation",
+      "metroplist-system-development",
+      "mickz-product-system",
+      "viisiioiiv-system-development"
+    ],
+    "web-design-engineer": [
+      "118-sports-system-development",
+      "best-indies-system-development",
+      "bonsai-tree-of-life-system-development",
+      "community-supplies-system-development",
+      "gouldbourne-management-system-development",
+      "house-of-gold-system-development",
+      "imikegold-system-development",
+      "just-enterprises-system-development",
+      "mikegold-engineer-system-development",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-web-experience",
+      "ourgani-system-development",
+      "the-visionary-guide-system-development",
+      "wibc-system-development",
+      "wrappedfm-system-development"
+    ],
+    "workflow-engineer": [],
+    "world-building-engineer": []
+  }
+}

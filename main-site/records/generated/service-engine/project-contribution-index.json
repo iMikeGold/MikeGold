@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "projects": {
+    "cannvent": [
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "cannvent-system-development"
+    ],
+    "findthy": [
+      "findthy-identity-language-development",
+      "findthy-system-development"
+    ],
+    "gouldbourne-registry": [
+      "gouldbourne-registry-system-development"
+    ],
+    "metroplist": [
+      "metroplist-system-development"
+    ],
+    "mickz": [
+      "mickz-digital-assets",
+      "mickz-identity-development",
+      "mickz-product-system"
+    ],
+    "mikegold-engineer": [
+      "mikegold-engineer-system-development"
+    ],
+    "musical-intelligence": [
+      "musical-intelligence-content-architecture",
+      "musical-intelligence-deployment",
+      "musical-intelligence-identity-restoration",
+      "musical-intelligence-web-experience"
+    ],
+    "ourgani": [
+      "ourgani-identity-development",
+      "ourgani-system-development"
+    ],
+    "protosynthesis": [
+      "protosynthesis-multiformat-web-development",
+      "protosynthesis-system-development"
+    ],
+    "saveours": [
+      "saveours-identity-language-development",
+      "saveours-platform-interface-development",
+      "saveours-system-development"
+    ],
+    "vendfm": [
+      "vendfm-system-development"
+    ],
+    "wrappedfm": [
+      "wrappedfm-identity-development",
+      "wrappedfm-system-development"
+    ],
+    "118-sports": [
+      "118-sports-system-development"
+    ],
+    "2xu-wetsuit-testing": [
+      "2xu-wetsuit-testing-distribution-systems"
+    ],
+    "bamboograph": [
+      "bamboograph-system-development"
+    ],
+    "best-indies": [
+      "best-indies-system-development"
+    ],
+    "bjorr": [
+      "bjorr-system-development"
+    ],
+    "bonsai-tree-of-life": [
+      "bonsai-tree-of-life-system-development"
+    ],
+    "bristow-operational-excellence": [
+      "bristow-operational-excellence-electronics-systems-engineering"
+    ],
+    "community-supplies": [
+      "community-supplies-system-development"
+    ],
+    "delmatic-connected-lighting": [
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering"
+    ],
+    "croydon-womens-network-iwd": [
+      "croydon-womens-network-iwd-camera-systems-and-setup"
+    ],
+    "crystal-palace-overground-festival": [
+      "crystal-palace-overground-festival-distribution-systems-and-signal-flow"
+    ],
+    "delta-elektronika-power-systems": [
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering"
+    ],
+    "fbc-london-shopping-with-grant": [
+      "fbc-london-shopping-with-grant-playout-systems-setup"
+    ],
+    "five9-customer-story-systems": [
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "five9-customer-story-systems-server-systems-and-configuration"
+    ],
+    "gouldbourne-management": [
+      "gouldbourne-management-system-development"
+    ],
+    "house-of-gold": [
+      "house-of-gold-content-architecture",
+      "house-of-gold-media-presentation",
+      "house-of-gold-runtime-state-systems",
+      "house-of-gold-system-development"
+    ],
+    "houston-texans-london-game": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems"
+    ],
+    "imikegold": [
+      "imikegold-system-development"
+    ],
+    "just-enterprises": [
+      "just-enterprises-system-development"
+    ],
+    "living-control-media-servers": [
+      "living-control-media-servers-multimedia-distribution",
+      "living-control-media-servers-pcb-prototyping-and-design"
+    ],
+    "malaria-hotspot-production": [
+      "malaria-hotspot-production-creative-production-management-systems"
+    ],
+    "mars-delight-kung-fu": [
+      "mars-delight-kung-fu-media-management-systems"
+    ],
+    "multiplied-intelligence": [
+      "multiplied-intelligence-system-development"
+    ],
+    "philadelphia-eagles-nfl-wembley": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "playstation-croatia-ps5-sound-tour": [
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation",
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "rockett-home-rentals-company-film": [
+      "rockett-home-rentals-company-film-camera-operation-and-workflow"
+    ],
+    "stanhope-seta-flash-point-testing": [
+      "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems"
+    ],
+    "the-frisbys-you-are": [
+      "the-frisbys-you-are-camera-system-setup",
+      "the-frisbys-you-are-multicamera-operation"
+    ],
+    "bluedot-festival-the-orb": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
+    ],
+    "the-visionary-guide": [
+      "the-visionary-guide-system-development"
+    ],
+    "viisiioiiv": [
+      "viisiioiiv-system-development"
+    ],
+    "waffll": [
+      "waffll-system-development"
+    ],
+    "wibc": [
+      "wibc-system-development"
+    ],
+    "zenthapy": [
+      "zenthapy-identity-development",
+      "zenthapy-system-development"
+    ]
+  }
+}

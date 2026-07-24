@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "concepts": {
+    "access-control": [],
+    "accessibility": [],
+    "analytics-system": [],
+    "audio-engineering": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation"
+    ],
+    "audio-medium": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation",
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "audio-production": [
+      "playstation-croatia-ps5-sound-tour-sound-design"
+    ],
+    "broadcast-audio-delivery": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+    ],
+    "broadcast-system": [],
+    "build-activity": [
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
+      "musical-intelligence-deployment",
+      "saveours-system-development"
+    ],
+    "checkout-system": [],
+    "cloud-operations": [
+      "118-sports-system-development",
+      "bonsai-tree-of-life-system-development",
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "five9-customer-story-systems-server-systems-and-configuration",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-deployment",
+      "ourgani-system-development"
+    ],
+    "communications-networking": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "communications-system": [],
+    "community-membership-platform": [],
+    "community-platform": [
+      "cannvent-community-space-development",
+      "cannvent-system-development"
+    ],
+    "community-publishing-platform": [],
+    "community-resource-platform": [],
+    "configure-activity": [
+      "118-sports-system-development",
+      "bonsai-tree-of-life-system-development",
+      "five9-customer-story-systems-server-systems-and-configuration",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-deployment",
+      "ourgani-system-development",
+      "the-frisbys-you-are-camera-system-setup"
+    ],
+    "content-archive-system": [],
+    "content-system": [],
+    "data-systems": [],
+    "design-activity": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "cannvent-application-development",
+      "living-control-media-servers-pcb-prototyping-and-design",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-web-experience",
+      "ourgani-identity-development",
+      "playstation-croatia-ps5-sound-tour-sound-design",
+      "waffll-system-development",
+      "zenthapy-identity-development"
+    ],
+    "designer-role": [],
+    "digital-platform": [],
+    "ecommerce-storefront": [],
+    "editorial-content-system": [],
+    "electronics-integration": [
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering",
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
+      "living-control-media-servers-pcb-prototyping-and-design"
+    ],
+    "engineer-role": [
+      "2xu-wetsuit-testing-distribution-systems",
+      "bamboograph-system-development",
+      "best-indies-system-development",
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "bonsai-tree-of-life-system-development",
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "community-supplies-system-development",
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering",
+      "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-system-development",
+      "metroplist-system-development",
+      "mikegold-engineer-system-development",
+      "musical-intelligence-content-architecture",
+      "protosynthesis-system-development",
+      "the-visionary-guide-system-development",
+      "vendfm-system-development",
+      "viisiioiiv-system-development",
+      "wibc-system-development",
+      "wrappedfm-system-development"
+    ],
+    "fallback-signal-path": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "field-communications": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "field-recording": [],
+    "hardware-product": [],
+    "identity-systems": [
+      "118-sports-system-development",
+      "best-indies-system-development",
+      "bjorr-system-development",
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "cannvent-system-development",
+      "community-supplies-system-development",
+      "findthy-identity-language-development",
+      "findthy-system-development",
+      "house-of-gold-content-architecture",
+      "house-of-gold-media-presentation",
+      "house-of-gold-system-development",
+      "imikegold-system-development",
+      "just-enterprises-system-development",
+      "metroplist-system-development",
+      "mickz-digital-assets",
+      "mickz-identity-development",
+      "mickz-product-system",
+      "mikegold-engineer-system-development",
+      "musical-intelligence-identity-restoration",
+      "musical-intelligence-web-experience",
+      "ourgani-identity-development",
+      "ourgani-system-development",
+      "protosynthesis-multiformat-web-development",
+      "saveours-identity-language-development",
+      "saveours-platform-interface-development",
+      "saveours-system-development",
+      "viisiioiiv-system-development",
+      "waffll-system-development",
+      "wibc-system-development",
+      "wrappedfm-identity-development",
+      "wrappedfm-system-development",
+      "zenthapy-identity-development",
+      "zenthapy-system-development"
+    ],
+    "install-activity": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "delta-elektronika-power-systems-firmware-build-and-installation-engineering"
+    ],
+    "interactive-media-installation": [],
+    "knowledge-system": [],
+    "live-broadcast": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+    ],
+    "live-environment": [],
+    "live-field-operations": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "live-operational-support": [],
+    "live-sport": [
+      "118-sports-system-development",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "logo-artwork": [
+      "ourgani-identity-development",
+      "wrappedfm-identity-development"
+    ],
+    "logo-design": [],
+    "make-activity": [
+      "bamboograph-system-development"
+    ],
+    "media-archive-platform": [],
+    "media-control-system": [],
+    "media-distribution": [
+      "fbc-london-shopping-with-grant-playout-systems-setup",
+      "living-control-media-servers-multimedia-distribution",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "waffll-system-development"
+    ],
+    "media-distribution-system": [
+      "living-control-media-servers-multimedia-distribution"
+    ],
+    "media-production-system": [
+      "mars-delight-kung-fu-media-management-systems",
+      "rockett-home-rentals-company-film-camera-operation-and-workflow",
+      "the-frisbys-you-are-multicamera-operation"
+    ],
+    "media-system": [],
+    "migrate-activity": [],
+    "multiformat-publishing-system": [],
+    "music-domain": [
+      "house-of-gold-media-presentation",
+      "imikegold-system-development",
+      "musical-intelligence-content-architecture",
+      "musical-intelligence-identity-restoration",
+      "musical-intelligence-web-experience",
+      "playstation-croatia-ps5-sound-tour-sound-design",
+      "the-frisbys-you-are-multicamera-operation"
+    ],
+    "operate-activity": [
+      "bamboograph-system-development",
+      "bjorr-system-development",
+      "bonsai-tree-of-life-system-development",
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "cannvent-system-development",
+      "community-supplies-system-development",
+      "findthy-identity-language-development",
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-content-architecture",
+      "house-of-gold-runtime-state-systems",
+      "just-enterprises-system-development",
+      "malaria-hotspot-production-creative-production-management-systems",
+      "mars-delight-kung-fu-media-management-systems",
+      "metroplist-system-development",
+      "mickz-product-system",
+      "mikegold-engineer-system-development",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-content-architecture",
+      "protosynthesis-system-development",
+      "rockett-home-rentals-company-film-camera-operation-and-workflow",
+      "saveours-identity-language-development",
+      "saveours-platform-interface-development",
+      "saveours-system-development",
+      "the-frisbys-you-are-multicamera-operation",
+      "the-visionary-guide-system-development",
+      "vendfm-system-development",
+      "waffll-system-development",
+      "wrappedfm-system-development",
+      "zenthapy-system-development"
+    ],
+    "operational-data-system": [],
+    "operational-state": [
+      "118-sports-system-development",
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "bristow-operational-excellence-electronics-systems-engineering",
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "ourgani-system-development",
+      "wrappedfm-system-development"
+    ],
+    "organisational-identity": [],
+    "physical-audio-systems": [
+      "bluedot-festival-the-orb-live-sound-system-design-and-installation",
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation"
+    ],
+    "physical-playback-system": [],
+    "physical-server": [],
+    "primary-signal-path": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "product-catalogue": [
+      "community-supplies-system-development"
+    ],
+    "product-definition": [
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "community-supplies-system-development",
+      "findthy-identity-language-development",
+      "five9-customer-story-systems-research-and-systems-thinking",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "just-enterprises-system-development",
+      "malaria-hotspot-production-creative-production-management-systems",
+      "mars-delight-kung-fu-media-management-systems",
+      "multiplied-intelligence-system-development",
+      "saveours-identity-language-development",
+      "saveours-platform-interface-development",
+      "the-visionary-guide-system-development",
+      "waffll-system-development",
+      "zenthapy-system-development"
+    ],
+    "product-identity": [],
+    "programme-audio-feed": [
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+    ],
+    "recreate-activity": [],
+    "reliability-engineering": [
+      "2xu-wetsuit-testing-distribution-systems",
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "repair-activity": [],
+    "scalability": [
+      "musical-intelligence-identity-restoration"
+    ],
+    "security": [],
+    "server-rack": [],
+    "server-software": [],
+    "server-system": [
+      "five9-customer-story-systems-server-systems-and-configuration",
+      "living-control-media-servers-multimedia-distribution",
+      "living-control-media-servers-pcb-prototyping-and-design"
+    ],
+    "signal-flow-design": [
+      "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "signal-path-resilience": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "software-engineering": [
+      "118-sports-system-development",
+      "bamboograph-system-development",
+      "best-indies-system-development",
+      "bonsai-tree-of-life-system-development",
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "cannvent-system-development",
+      "community-supplies-system-development",
+      "findthy-system-development",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-runtime-state-systems",
+      "house-of-gold-system-development",
+      "imikegold-system-development",
+      "just-enterprises-system-development",
+      "metroplist-system-development",
+      "mikegold-engineer-system-development",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-content-architecture",
+      "musical-intelligence-deployment",
+      "musical-intelligence-web-experience",
+      "ourgani-system-development",
+      "protosynthesis-multiformat-web-development",
+      "protosynthesis-system-development",
+      "saveours-identity-language-development",
+      "saveours-platform-interface-development",
+      "the-visionary-guide-system-development",
+      "vendfm-system-development",
+      "viisiioiiv-system-development",
+      "wibc-system-development",
+      "wrappedfm-system-development"
+    ],
+    "source-image": [],
+    "streaming-platform": [],
+    "studio-engineering": [],
+    "studio-environment": [],
+    "systems-integration": [
+      "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+    ],
+    "technical-handover": [],
+    "testing-commissioning": [
+      "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering",
+      "gouldbourne-registry-system-development"
+    ],
+    "transition-to-live": [
+      "musical-intelligence-deployment"
+    ],
+    "visual-language-system": [],
+    "web-application": [
+      "118-sports-system-development",
+      "bamboograph-system-development",
+      "best-indies-system-development",
+      "bonsai-tree-of-life-system-development",
+      "cannvent-application-development",
+      "cannvent-community-space-development",
+      "cannvent-system-development",
+      "community-supplies-system-development",
+      "findthy-system-development",
+      "gouldbourne-management-system-development",
+      "gouldbourne-registry-system-development",
+      "house-of-gold-media-presentation",
+      "house-of-gold-runtime-state-systems",
+      "house-of-gold-system-development",
+      "imikegold-system-development",
+      "just-enterprises-system-development",
+      "metroplist-system-development",
+      "mikegold-engineer-system-development",
+      "multiplied-intelligence-system-development",
+      "musical-intelligence-content-architecture",
+      "musical-intelligence-deployment",
+      "musical-intelligence-web-experience",
+      "ourgani-system-development",
+      "protosynthesis-multiformat-web-development",
+      "protosynthesis-system-development",
+      "saveours-platform-interface-development",
+      "the-visionary-guide-system-development",
+      "vendfm-system-development",
+      "viisiioiiv-system-development",
+      "wibc-system-development",
+      "wrappedfm-system-development"
+    ]
+  }
+}

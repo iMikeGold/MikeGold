@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "knowledgeVersion": "service-modules/1.2",
+  "modules": [
+    {
+      "id": "field-communications-design",
+      "name": "Field communications design",
+      "activation": ["field-communications", "live-field-operations"],
+      "required": ["field-communications", "communications-networking"],
+      "supporting": ["live-field-operations"],
+      "dependencies": ["systems-integration", "testing-commissioning", "live-operational-support", "technical-handover"],
+      "outcomes": ["dependable operational communications across the live field environment"],
+      "deliverables": ["field-communications topology", "endpoint and interface definition", "operational configuration"],
+      "stages": ["requirements", "system-definition", "detailed-design"],
+      "questions": ["Which intercom, radio, IEM and pitch-side interfaces must remain compatible?"]
+    },
+    {
+      "id": "communications-network-architecture",
+      "name": "Communications-network architecture",
+      "activation": ["communications-networking", "primary-signal-path"],
+      "required": ["communications-networking", "primary-signal-path"],
+      "supporting": ["systems-integration"],
+      "dependencies": ["systems-integration", "testing-commissioning"],
+      "outcomes": ["a coherent primary communications route across required endpoints"],
+      "deliverables": ["communications-network architecture", "primary path definition", "interface schedule"],
+      "stages": ["system-definition", "detailed-design"],
+      "questions": ["Which endpoints, carriers and physical paths form the primary communications route?"]
+    },
+    {
+      "id": "signal-path-redundancy",
+      "name": "Signal-path and redundancy planning",
+      "activation": ["signal-path-resilience", "fallback-signal-path", "reliability-engineering"],
+      "required": ["signal-path-resilience", "fallback-signal-path"],
+      "supporting": ["reliability-engineering"],
+      "dependencies": ["testing-commissioning"],
+      "outcomes": ["continuity through defined primary and fallback paths"],
+      "deliverables": ["redundancy strategy", "fallback routing plan", "failure-response checks"],
+      "stages": ["detailed-design", "testing"],
+      "questions": ["What failures must the fallback route tolerate without interrupting operation?"]
+    },
+    {
+      "id": "broadcast-audio-delivery",
+      "name": "Broadcast-audio delivery",
+      "activation": ["broadcast-audio-delivery", "programme-audio-feed", "live-broadcast"],
+      "required": ["broadcast-audio-delivery", "programme-audio-feed", "signal-flow-design"],
+      "supporting": ["media-distribution"],
+      "dependencies": ["systems-integration", "testing-commissioning", "live-operational-support", "technical-handover"],
+      "outcomes": ["continuous programme-audio delivery into transmission"],
+      "deliverables": ["programme-audio path", "broadcast interface configuration", "delivery continuity plan"],
+      "stages": ["detailed-design", "integration", "live-operation"],
+      "questions": ["Is the required feed programme audio, production communications, in-ear monitoring or a combination?"]
+    },
+    {
+      "id": "systems-integration",
+      "name": "Technical systems integration",
+      "activation": ["systems-integration"],
+      "required": ["systems-integration"],
+      "supporting": [],
+      "outcomes": ["connected technical components operating as one system"],
+      "deliverables": ["integration plan", "interface checks", "configured system"],
+      "stages": ["integration"],
+      "questions": ["Which existing systems, connectors and ownership boundaries must be integrated?"]
+    },
+    {
+      "id": "testing-commissioning",
+      "name": "Testing and commissioning",
+      "activation": ["testing-commissioning"],
+      "required": ["testing-commissioning"],
+      "supporting": ["reliability-engineering"],
+      "outcomes": ["a verified system ready for operation"],
+      "deliverables": ["test plan", "path and fallback checks", "commissioning record"],
+      "stages": ["testing"],
+      "questions": ["What acceptance criteria define readiness for use?"]
+    },
+    {
+      "id": "live-operational-support",
+      "name": "Live operational support",
+      "activation": ["live-operational-support", "live-field-operations"],
+      "required": ["live-operational-support"],
+      "supporting": ["reliability-engineering"],
+      "outcomes": ["stable operation through the live delivery window"],
+      "deliverables": ["operating plan", "live technical support", "incident response route"],
+      "stages": ["live-operation"],
+      "questions": ["Who owns live decisions, escalation and recovery during operation?"]
+    },
+    {
+      "id": "technical-handover",
+      "name": "Technical documentation and handover",
+      "activation": ["technical-handover"],
+      "required": ["technical-handover"],
+      "supporting": [],
+      "outcomes": ["a traceable configuration that can be operated and maintained"],
+      "deliverables": ["configuration record", "operating notes", "handover"],
+      "stages": ["handover"],
+      "questions": ["Who will own the system and documentation after delivery?"]
+    },
+    {
+      "id": "audio-production",
+      "name": "Audio production and publishing",
+      "activation": ["audio-production", "media-distribution"],
+      "required": ["audio-production"],
+      "supporting": ["media-distribution"],
+      "outcomes": ["prepared audio delivered to its intended audience"],
+      "deliverables": ["edited audio", "delivery master", "publishing workflow"],
+      "stages": ["production", "delivery"],
+      "questions": ["What source material, edit standard and publishing destination are required?"]
+    },
+    {
+      "id": "web-application",
+      "name": "Web and application engineering",
+      "activation": ["web-application", "software-engineering"],
+      "required": ["web-application", "software-engineering"],
+      "supporting": ["data-systems"],
+      "outcomes": ["a usable executable digital service"],
+      "deliverables": ["application architecture", "responsive interface", "production build"],
+      "stages": ["definition", "build", "deployment"],
+      "questions": ["Which accounts, data sources, APIs and deployment environments must integrate with the service?"]
+    },
+    {
+      "id": "data-system",
+      "name": "Data-system definition and engineering",
+      "activation": ["data-systems", "product-definition"],
+      "required": ["data-systems"],
+      "supporting": ["product-definition"],
+      "outcomes": ["structured information that can be interpreted and experienced in multiple ways"],
+      "deliverables": ["data model", "interpretation model", "system definition"],
+      "stages": ["requirements", "definition", "build"],
+      "questions": ["Which sources, relationships and interpretations must the data system preserve?"]
+    },
+    {
+      "id": "cloud-operations",
+      "name": "Cloud deployment and operations",
+      "activation": ["cloud-operations"],
+      "activationCompositions": [
+        {"allOf": ["operate-activity", "operational-state", "web-application"]},
+        {"allOf": ["transition-to-live", "web-application"]},
+        {"allOf": ["operate-activity", "operational-state", "digital-platform"]},
+        {"allOf": ["transition-to-live", "digital-platform"]}
+      ],
+      "required": ["cloud-operations"],
+      "supporting": ["software-engineering"],
+      "outcomes": ["a reliable live production service"],
+      "deliverables": ["runtime environment", "release workflow", "operational documentation"],
+      "stages": ["deployment", "operation"],
+      "questions": ["Which hosting, security, monitoring and release constraints apply?"]
+    },
+    {
+      "id": "identity-system",
+      "name": "Brand and identity system",
+      "activation": ["identity-systems"],
+      "required": ["identity-systems"],
+      "supporting": [],
+      "outcomes": ["a coherent system of recognition and expression"],
+      "deliverables": ["identity direction", "visual language", "application system"],
+      "stages": ["discovery", "definition", "application"],
+      "questions": ["Which existing name, mark, product family or visual-language elements must be retained?"]
+    },
+    {
+      "id": "electronics-integration",
+      "name": "Electronics and physical-system integration",
+      "activation": ["electronics-integration"],
+      "required": ["electronics-integration", "systems-integration"],
+      "supporting": ["testing-commissioning"],
+      "dependencies": ["testing-commissioning", "technical-handover"],
+      "outcomes": ["coordinated device behaviour, software control and system-level testing"],
+      "deliverables": ["technical architecture", "integrated build", "test plan"],
+      "stages": ["definition", "integration", "testing"],
+      "questions": ["Which electrical interfaces, firmware constraints, enclosure limits and test conditions apply?"]
+    },
+    {
+      "id": "media-system-definition",
+      "name": "Media-system definition",
+      "activation": ["media-system"],
+      "required": ["media-system", "product-definition"],
+      "supporting": ["systems-integration", "reliability-engineering", "testing-commissioning"],
+      "outcomes": ["a defined media-system boundary with dependable flow, integration and operating requirements"],
+      "deliverables": ["media-system definition", "media or signal-flow architecture", "integration boundaries", "reliability requirements"],
+      "stages": ["requirements", "system-definition"],
+      "questions": ["Which media function is primary: production, broadcast, distribution, streaming, physical playback, interactive installation, control, or archive and access?"]
+    },
+    {
+      "id": "physical-infrastructure-integration",
+      "name": "Physical infrastructure integration",
+      "activation": ["server-rack", "physical-server"],
+      "required": ["server-rack", "systems-integration", "communications-networking"],
+      "supporting": ["testing-commissioning", "reliability-engineering"],
+      "dependencies": ["testing-commissioning", "technical-handover"],
+      "outcomes": ["a physically organised, powered, connected and commissioned equipment environment"],
+      "deliverables": ["rack and equipment layout", "power and cooling requirements", "cabling and network plan", "commissioning record"],
+      "stages": ["requirements", "detailed-design", "integration", "testing", "handover"],
+      "questions": ["Which equipment, power, cooling, cabling and network interfaces must the rack support?"]
+    },
+    {
+      "id": "logo-identity-design",
+      "name": "Logo and identity design",
+      "activation": ["logo-design"],
+      "required": ["logo-design", "logo-artwork"],
+      "supporting": ["identity-systems", "design-activity"],
+      "outcomes": ["a distinctive, usable mark and visual identity direction"],
+      "deliverables": ["logo direction", "mark artwork", "visual-language application"],
+      "stages": ["definition", "application"],
+      "questions": ["Is the requirement limited to a mark, or should it establish a wider identity system?"]
+    },
+    {
+      "id": "logo-artwork-recreation",
+      "name": "Logo recreation and vector artwork",
+      "activation": ["recreate-activity", "source-image"],
+      "required": ["logo-artwork", "recreate-activity", "source-image"],
+      "supporting": ["design-activity"],
+      "outcomes": ["clean scalable logo artwork reconstructed from the available visual reference"],
+      "deliverables": ["reconstructed mark", "scalable vector artwork", "export-ready artwork"],
+      "stages": ["definition", "application"],
+      "questions": ["Which source image and final artwork formats are available or required?"]
+    },
+    {
+      "id": "community-platform-definition",
+      "name": "Community-platform definition",
+      "activation": ["community-platform"],
+      "required": ["community-platform", "product-definition"],
+      "supporting": ["web-application", "data-systems", "systems-integration"],
+      "outcomes": ["a defined community service with clear participation, content and operating boundaries"],
+      "deliverables": ["community-service definition", "participation model", "content and data boundaries", "delivery architecture"],
+      "stages": ["requirements", "system-definition"],
+      "questions": ["Is the primary community function publishing, membership, participation, shared resources, or a combination?"]
+    },
+    {
+      "id": "generic-system-definition",
+      "name": "System and delivery definition",
+      "activation": ["digital-platform", "content-system"],
+      "required": ["product-definition", "systems-integration"],
+      "supporting": ["data-systems", "software-engineering"],
+      "outcomes": ["a clear system boundary, operating model and delivery route"],
+      "deliverables": ["system definition", "relationship model", "delivery boundary", "implementation route"],
+      "stages": ["requirements", "system-definition"],
+      "questions": ["Which users, information, interfaces and operating outcomes define the system?"]
+    }
+  ]
+}

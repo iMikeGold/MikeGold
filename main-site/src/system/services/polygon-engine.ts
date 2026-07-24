@@ -27,6 +27,20 @@ export function combineHatProfiles(selectedHats: Hat[]): HatProfile {
   }) as HatProfile;
 }
 
+export function selectPrincipalLayerHats(selectedHats: Hat[], limit = 7): Hat[] {
+  if (selectedHats.length <= limit) return [...selectedHats].sort((a, b) => a.id.localeCompare(b.id));
+  const combined = combineHatProfiles(selectedHats);
+  return selectedHats
+    .map((hat) => {
+      const withoutHat = combineHatProfiles(selectedHats.filter((item) => item.id !== hat.id));
+      const impact = Math.sqrt(combined.reduce((sum, value, axis) => sum + (value - withoutHat[axis]) ** 2, 0));
+      return { hat, impact };
+    })
+    .sort((left, right) => right.impact - left.impact || left.hat.id.localeCompare(right.hat.id))
+    .slice(0, limit)
+    .map(({ hat }) => hat);
+}
+
 const unique = (values: string[]) => [...new Set(values.filter(Boolean))];
 
 /** Deterministic language composition from the complete selection. */

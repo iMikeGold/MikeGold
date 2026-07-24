@@ -1,0 +1,24 @@
+{
+  "id": "0ea5805c-a0ec-4cc3-8ee9-4e0e46e6f029",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "slug": "bjorr-emblem-lowercase-b-vector",
+  "title": "Bjórr emblem — lowercase b",
+  "description": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+  "sourceTitle": "Bjórr",
+  "phase": "Identity development",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["identity-system"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "portrait"
+  }
+}
