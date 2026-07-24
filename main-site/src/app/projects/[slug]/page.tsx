@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Footer from "@/components/sections/Footer";
+import BjorrIdentityLanguage from "@/components/work/BjorrIdentityLanguage";
 import ProjectContextBackLink from "@/components/work/ProjectContextBackLink";
 import ProjectWorkArchive from "@/components/work/ProjectWorkArchive";
 import { publicEvidence } from "@/system/generated/public-evidence.generated";
@@ -25,7 +26,7 @@ export default async function ProjectRecordPage({
   const work = publicWork.filter((item) => item.projectSlug === project.slug);
   return (
     <main>
-      <article className="page project-record-page">
+      <article className={`page project-record-page project-record-page-${project.slug}`}>
         <ProjectContextBackLink />
         <header className="project-record-hero">
           <div className="record-status-row">
@@ -35,6 +36,8 @@ export default async function ProjectRecordPage({
           <h1>{project.name}</h1>
           <p>{project.summary}</p>
         </header>
+
+        {project.slug === "bjorr" && <BjorrIdentityLanguage />}
 
         <section>
           <p className="work-kicker">MY CONTRIBUTION</p>

@@ -3,13 +3,33 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-07-24T00:00:00.000Z",
   "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
   "slug": "bjorr-system-development",
   "title": "Bjórr system development",
-  "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+  "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
   "status": "in-progress",
   "visibility": "public",
+  "stages": [
+    {
+      "key": "learning-framework",
+      "label": "Adaptive learning framework",
+      "summary": "Defining the school, learner and pathway model.",
+      "status": "in-progress"
+    },
+    {
+      "key": "school-language",
+      "label": "School branding language",
+      "summary": "Gold-shadow identity for teaching, learning and school life.",
+      "status": "completed"
+    },
+    {
+      "key": "institution-register",
+      "label": "Institutional identity register",
+      "summary": "White, silver, steel and stone system for institutional use.",
+      "status": "completed"
+    }
+  ],
   "lensAssignments": [
     {
       "lensId": "system-product-definition",

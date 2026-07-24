@@ -3003,7 +3003,7 @@ export const publicWorkCards = [
     "projectSlug": "bjorr",
     "projectName": "Bjórr",
     "contributionTitle": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
     "relevantWorkSlugs": [
       "bjorr-system-development"
     ],
@@ -3015,7 +3015,7 @@ export const publicWorkCards = [
     "primaryVisual": {
       "evidenceSlug": "bjorr-identity-system-presentation",
       "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
       "evidenceType": "image"
     },
     "supportingVisuals": [
@@ -3035,13 +3035,13 @@ export const publicWorkCards = [
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
+      "Documented stages or contextual summaries strengthen the projection",
       "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.22,
+    "relevanceScore": 79.22,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.305,
+    "finalScore": 19.805,
     "href": "/projects/bjorr"
   },
   {
@@ -3049,7 +3049,7 @@ export const publicWorkCards = [
     "lensId": "system-product-definition",
     "projectName": "Bjórr",
     "contributionTitle": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
     "relevantWorkSlugs": [
       "bjorr-system-development"
     ],
@@ -3061,55 +3061,7 @@ export const publicWorkCards = [
     "primaryVisual": {
       "evidenceSlug": "bjorr-identity-system-presentation",
       "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
-        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
-        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
-        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 3 relevant evidence records",
-      "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 73.22,
-    "editorialBoost": 5,
-    "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 6,
-    "finalScore": 51.305,
-    "href": "/projects/bjorr?area=system-product-definition"
-  },
-  {
-    "projectSlug": "bjorr",
-    "lensId": "brand-experience-systems",
-    "projectName": "Bjórr",
-    "contributionTitle": "Bjórr system development",
-    "summary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
-    "relevantWorkSlugs": [
-      "bjorr-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "identity-architect"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bjorr-identity-system-presentation",
-      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "Presentation board showing the Bjórr emblem, School of Bjórr and Bjórr Institute lockups, light and dark applications, embossed treatment, and the crimson-blue and old-gold palette.",
+      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
       "evidenceType": "image"
     },
     "supportingVisuals": [
@@ -3133,11 +3085,59 @@ export const publicWorkCards = [
       "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 68.65,
+    "relevanceScore": 79.22,
+    "editorialBoost": 5,
+    "evidenceCompletenessScore": 20.39,
+    "editorialSequence": 6,
+    "finalScore": 52.805,
+    "href": "/projects/bjorr?area=system-product-definition"
+  },
+  {
+    "projectSlug": "bjorr",
+    "lensId": "brand-experience-systems",
+    "projectName": "Bjórr",
+    "contributionTitle": "Bjórr system development",
+    "summary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "relevantWorkSlugs": [
+      "bjorr-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "identity-architect"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-emblem-lowercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-lowercase-b-clean-vector.svg",
+        "alt": "Clean vector construction of the joined j-form, lowercase b-form and three-leaf emblem in crimson blue and old gold.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-emblem-uppercase-b-vector",
+        "src": "/images/projects/bjorr/logo_design/bjorr-emblem-uppercase-B-clean-vector.svg",
+        "alt": "Clean vector variant of the Bjórr emblem using the joined j-form, uppercase B-form and three-leaf construction.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 3 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 74.65,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 2,
-    "finalScore": 74.1625,
+    "finalScore": 75.6625,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {

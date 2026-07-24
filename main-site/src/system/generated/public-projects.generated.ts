@@ -349,7 +349,7 @@ export const publicProjects = [
   {
     "slug": "bjorr",
     "name": "Bjórr",
-    "summary": "An adaptive learning framework, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge.",
+    "summary": "An adaptive learning institution, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge. Its identity balances the warmth of learning with the permanence of an institution.",
     "status": "active-development",
     "featured": false,
     "establishedYear": 2022,

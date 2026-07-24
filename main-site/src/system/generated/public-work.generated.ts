@@ -252,7 +252,7 @@ export const publicWork = [
     "slug": "bjorr-system-development",
     "projectSlug": "bjorr",
     "title": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
@@ -269,6 +269,26 @@ export const publicWork = [
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
         "lensSummary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge."
+      }
+    ],
+    "stages": [
+      {
+        "key": "learning-framework",
+        "label": "Adaptive learning framework",
+        "summary": "Defining the school, learner and pathway model.",
+        "status": "in-progress"
+      },
+      {
+        "key": "school-language",
+        "label": "School branding language",
+        "summary": "Gold-shadow identity for teaching, learning and school life.",
+        "status": "completed"
+      },
+      {
+        "key": "institution-register",
+        "label": "Institutional identity register",
+        "summary": "White, silver, steel and stone system for institutional use.",
+        "status": "completed"
       }
     ],
     "appliedHatSlugs": [
