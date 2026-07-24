@@ -1,0 +1,12 @@
+{
+  "name": "mikegold-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix main-site run dev",
+    "build": "npm --prefix main-site run build",
+    "start": "npm --prefix main-site run start",
+    "lint": "npm --prefix main-site run lint",
+    "records:check": "npm --prefix main-site run records:check"
+  }
+}
