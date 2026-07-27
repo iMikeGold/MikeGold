@@ -1,7 +1,12 @@
 import HatRegistry from "@/components/HatRegistry";
 import Footer from "@/components/sections/Footer";
 
-export default function RegistryPage() {
+export default async function RegistryPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string; hat?: string }>;
+}) {
+  const { q = "", hat = "" } = await searchParams;
   return (
     <main> 
     
@@ -36,7 +41,7 @@ export default function RegistryPage() {
       </div>
 
       {/* CORE SYSTEM */}
-      <HatRegistry />
+      <HatRegistry initialSearchQuery={q} initialHatId={hat} />
       </div>
       <Footer />
     </main>

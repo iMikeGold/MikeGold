@@ -100,9 +100,9 @@ export default function HatRadar({
               cy={center + Math.sin(angle) * (radius + 3)}
               r={index === strongestAxis ? 3.6 : 2.2}
               fill={colour}
-            >
-              <title>{PROFILE_AXES[index]}: {values[index].toFixed(1)}</title>
-            </circle>
+              role="img"
+              aria-label={`${PROFILE_AXES[index]}: ${values[index].toFixed(1)}`}
+            />
           );
         })}
         {displayValues.map((_, i) => {

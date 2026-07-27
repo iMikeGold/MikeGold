@@ -17,19 +17,29 @@ export default function WorkExplorer({
   work,
   hats,
   cards,
+  initialGroup = "",
+  initialQuery = "",
+  initialHat = "",
+  initialSort = "relevance",
+  initialLimit = DIRECTORY_PAGE_SIZE,
 }: {
   projects: PublicProjectProjection[];
   work: PublicWorkProjection[];
   hats: PublicHat[];
   cards: PublicWorkCardProjection[];
+  initialGroup?: CapabilityGroupId | "";
+  initialQuery?: string;
+  initialHat?: string;
+  initialSort?: ProjectSort;
+  initialLimit?: number;
 }) {
   const [view, setView] = useState<View>("projects");
-  const [query, setQuery] = useState("");
-  const [hatFilter, setHatFilter] = useState("");
-  const [groupFilter, setGroupFilter] = useState<CapabilityGroupId | "">("");
-  const [archiveOpen, setArchiveOpen] = useState(false);
-  const [projectSort, setProjectSort] = useState<ProjectSort>("relevance");
-  const [directoryLimit, setDirectoryLimit] = useState(DIRECTORY_PAGE_SIZE);
+  const [query, setQuery] = useState(initialQuery);
+  const [hatFilter, setHatFilter] = useState(initialHat);
+  const [groupFilter, setGroupFilter] = useState<CapabilityGroupId | "">(initialGroup);
+  const [archiveOpen, setArchiveOpen] = useState(Boolean(initialGroup || initialQuery || initialHat));
+  const [projectSort, setProjectSort] = useState<ProjectSort>(initialSort);
+  const [directoryLimit, setDirectoryLimit] = useState(initialLimit);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -150,11 +160,10 @@ export default function WorkExplorer({
           const connectedWork = work.filter((item) => item.capabilityGroupIds.includes(group.id));
           const projectCount = new Set(connectedWork.map((item) => item.projectSlug)).size;
           return (
-            <button
-              type="button"
+            <Link
+              href={`/projects?area=${group.id}`}
               key={group.id}
               className={groupFilter === group.id ? "capability-group-card is-active" : "capability-group-card"}
-              aria-pressed={groupFilter === group.id}
               onClick={() => {
                 setGroupFilter(group.id);
                 setHatFilter("");
@@ -175,7 +184,7 @@ export default function WorkExplorer({
                   {projectCount} project{projectCount === 1 ? "" : "s"} · {connectedWork.length} contributions
                 </span>
               </span>
-            </button>
+            </Link>
           );
         })}
       </div>
@@ -217,10 +226,13 @@ export default function WorkExplorer({
         </div>
       </div>
 
-      <div className="work-filters">
+      <form className="work-filters" action="/projects" method="get">
+        {groupFilter && <input type="hidden" name="area" value={groupFilter} />}
         <label>
           <span>Search</span>
           <input
+            name="q"
+            enterKeyHint="search"
             value={query}
             onChange={(event) => { setQuery(event.target.value); setDirectoryLimit(DIRECTORY_PAGE_SIZE); }}
             placeholder="Project, work or contribution"
@@ -228,7 +240,7 @@ export default function WorkExplorer({
         </label>
         <label>
           <span>Capability</span>
-          <select value={hatFilter} onChange={(event) => { setHatFilter(event.target.value); setDirectoryLimit(DIRECTORY_PAGE_SIZE); }}>
+          <select name="hat" value={hatFilter} onChange={(event) => { setHatFilter(event.target.value); setDirectoryLimit(DIRECTORY_PAGE_SIZE); }}>
             <option value="">All applied Hats</option>
             {usedHatSlugs.map((slug) => (
               <option key={slug} value={slug}>
@@ -239,14 +251,15 @@ export default function WorkExplorer({
         </label>
         <label>
           <span>Sort projects</span>
-          <select value={projectSort} onChange={(event) => { setProjectSort(event.target.value as ProjectSort); setDirectoryLimit(DIRECTORY_PAGE_SIZE); }}>
+          <select name="sort" value={projectSort} onChange={(event) => { setProjectSort(event.target.value as ProjectSort); setDirectoryLimit(DIRECTORY_PAGE_SIZE); }}>
             <option value="relevance">Editorial relevance</option>
             <option value="name">Project name</option>
             <option value="newest">Newest first</option>
             <option value="oldest">Oldest first</option>
           </select>
         </label>
-      </div>
+        <button type="submit" className="work-filter-submit">Apply filters</button>
+      </form>
 
       {archiveOpen && (
         <button
@@ -285,7 +298,7 @@ export default function WorkExplorer({
                   </div>
                 )}
                 <div className="record-status-row">
-                  <span>{project.status.replaceAll("-", " ")}</span>
+                  <span>{project.status.replace(/-/g, " ")}</span>
                   <span>{project.context ?? project.establishedYear ?? "Period being documented"}</span>
                 </div>
                 <span className="work-project-label">PROJECT</span>
@@ -336,7 +349,7 @@ export default function WorkExplorer({
               <div>
                 <span className="work-project-label">
                   {projects.find((project) => project.slug === item.projectSlug)?.name ??
-                    item.projectSlug.replaceAll("-", " ")}
+                    item.projectSlug.replace(/-/g, " ")}
                 </span>
                 <h3>{item.title}</h3>
                 <p>{item.summary}</p>

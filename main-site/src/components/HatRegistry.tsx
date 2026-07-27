@@ -71,6 +71,28 @@ html, body {
   outline: 2px solid #fff;
   outline-offset: 2px;
 }
+
+#hat-registry-root {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  #hat-registry-left-panel {
+    width: 100% !important;
+    bottom: 54vh !important;
+  }
+
+  #hat-registry-drawer {
+    top: 46vh !important;
+    width: 100% !important;
+    height: 54vh !important;
+  }
+
+  #hat-registry-bottom-bar {
+    right: 0 !important;
+  }
+}
 `;
 
 // ------------------------------
@@ -78,15 +100,23 @@ html, body {
 // ------------------------------
 function getHatStats(hat: Hat) {
   const profile = getHatProfile(hat);
-  return Object.fromEntries(
-    PROFILE_AXES.map((axis, index) => [axis, profile[index] / 10])
-  );
+  return PROFILE_AXES.reduce<Record<string, number>>((stats, axis, index) => {
+    stats[axis] = profile[index] / 10;
+    return stats;
+  }, {});
 }
 
 // ------------------------------
 // COMPONENT — WIDTH SYNCED WITH DRAWER
 // ------------------------------
-export default function HatRegistry() {
+export default function HatRegistry({
+  initialSearchQuery = "",
+  initialHatId = "",
+}: {
+  initialSearchQuery?: string;
+  initialHatId?: string;
+}) {
+  const initialHat = hats.find((hat) => hat.slug === initialHatId || hat.id === initialHatId) ?? null;
   // ------------------------------
   // MATCH DRAWER'S POLYGON SIZE EXACTLY
   // ------------------------------
@@ -96,14 +126,13 @@ export default function HatRegistry() {
   const DRAWER_MIN_WIDTH = POLYGON_SIZE + 40; // 220px — SAME AS DRAWER'S CONTENT_WIDTH
   const DRAWER_MAX_WIDTH = 450;
   const [drawerWidth, setDrawerWidth] = useState(DRAWER_MIN_WIDTH);
-  const [isMounted, setIsMounted] = useState(false);
 
   // ------------------------------
   // STATE
   // ------------------------------
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedHats, setSelectedHats] = useState<Hat[]>([]);
-  const [activeHat, setActiveHat] = useState<Hat | null>(null);
+  const [searchQuery, setSearchQuery] = useState(initialSearchQuery);
+  const [selectedHats, setSelectedHats] = useState<Hat[]>(initialHat ? [initialHat] : []);
+  const [activeHat, setActiveHat] = useState<Hat | null>(initialHat);
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({
     creative: true,
     design: true,
@@ -113,7 +142,7 @@ export default function HatRegistry() {
   const [colourSlots, setColourSlots] = useState<Record<string, number>>({});
   const [pendingRevealHatId, setPendingRevealHatId] = useState<string | null>(null);
   const tileBrowserRef = useRef<HTMLDivElement | null>(null);
-  const tileRefs = useRef(new Map<string, HTMLDivElement>());
+  const tileRefs = useRef(new Map<string, HTMLElement>());
 
   // ------------------------------
   // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
@@ -143,22 +172,9 @@ export default function HatRegistry() {
     };
 
     checkLayout();
-    const initialHat = new URLSearchParams(window.location.search).get("hat");
-    if (initialHat) {
-      const match = hats.find((hat) => hat.slug === initialHat || hat.id === initialHat);
-      if (match) {
-        window.setTimeout(() => {
-          setSelectedHats([match]);
-          setActiveHat(match);
-          document.getElementById("hat-registry-root")?.scrollIntoView({ block: "start" });
-        }, 0);
-      }
-    }
     window.addEventListener("resize", checkLayout);
     window.addEventListener("orientationchange", checkLayout);
-    const mountedTimer = window.setTimeout(() => setIsMounted(true), 0);
     return () => {
-      window.clearTimeout(mountedTimer);
       window.removeEventListener("resize", checkLayout);
       window.removeEventListener("orientationchange", checkLayout);
     };
@@ -195,7 +211,10 @@ export default function HatRegistry() {
     const timer = window.setTimeout(() => {
       setColourSlots((previous) => {
         const visibleIds = new Set(principalLayerHats.map((hat) => hat.id));
-        const next = Object.fromEntries(Object.entries(previous).filter(([id]) => visibleIds.has(id)));
+        const next = Object.entries(previous).reduce<Record<string, number>>((slots, [id, slot]) => {
+          if (visibleIds.has(id)) slots[id] = slot;
+          return slots;
+        }, {});
         const occupied = new Set(Object.values(next));
         for (const hat of principalLayerHats) {
           if (Number.isInteger(next[hat.id])) continue;
@@ -235,7 +254,7 @@ export default function HatRegistry() {
       const exists = prev.some(h => h.id === hat.id);
       if (exists) {
         const updated = prev.filter(h => h.id !== hat.id);
-        if (activeHat?.id === hat.id) setActiveHat(updated.at(-1) || null);
+        if (activeHat?.id === hat.id) setActiveHat(updated.length ? updated[updated.length - 1] : null);
         return updated;
       } else {
         setActiveHat(hat);
@@ -256,10 +275,6 @@ export default function HatRegistry() {
   // ------------------------------
   // RENDER — PERFECT ALIGNMENT
   // ------------------------------
-  if (!isMounted) {
-    return <div style={{ color: "#fff", padding: 20, background:"#0a0a0a", height:"100dvh" }}>Loading...</div>;
-  }
-
   return (
     <>
       {/* 1. VIEWPORT TAG — FIXES MOBILE ZOOM / SNAPS TO SCREEN */}
@@ -282,7 +297,7 @@ export default function HatRegistry() {
       }}>
 
         {/* LEFT PANEL */}
-        <div style={{
+        <div id="hat-registry-left-panel" style={{
           position: "absolute",
           top: 0,
           left: 0,
@@ -297,28 +312,47 @@ export default function HatRegistry() {
         }}>
 
           {/* SEARCH BAR */}
-          <div style={{
+          <form action="/registry" method="get" style={{
             flexShrink: 0,
             background: "#0a0a0a",
             padding: "8px 12px 10px",
             borderBottom: "1px solid #222",
-            zIndex: 20
+            zIndex: 20,
+            display: "flex",
+            gap: 6,
           }}>
             <input
               type="text"
+              name="q"
+              enterKeyHint="search"
               placeholder="Search hats, tags, capabilities..."
               value={searchQuery}
+              onKeyDown={(event) => {
+                if (event.key !== "Enter") return;
+                event.preventDefault();
+                event.currentTarget.form?.submit();
+              }}
               onChange={(e) => {
                 setPendingRevealHatId(null);
                 setSearchQuery(e.target.value);
               }}
               style={{
-                width:"100%", padding:"8px 12px",
+                width:"100%", minWidth: 0, padding:"8px 12px",
                 background:"#151515", border:"1px solid #333",
                 borderRadius:6, color:"#fff", fontSize:13
               }}
             />
-          </div>
+            <button
+              type="submit"
+              aria-label="Search Hats"
+              style={{
+                minWidth: 44, minHeight: 38, border: "1px solid #333",
+                borderRadius: 6, background: "#202020", color: "#fff",
+              }}
+            >
+              Go
+            </button>
+          </form>
 
           {/* SCROLL AREA */}
           <div
@@ -373,7 +407,7 @@ export default function HatRegistry() {
                     </div>
                   </div>
 
-                  {!collapsedSections[house] && (
+                  {(searchQuery.trim() || !collapsedSections[house]) && (
                     <div style={{
                       display:"grid",
                       gridTemplateColumns:"repeat(auto-fill, minmax(86px, 1fr))",
@@ -390,21 +424,21 @@ export default function HatRegistry() {
                         const layerColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
 
                         return (
-                          <div
+                          <a
                             key={hat.id}
                             id={`hat-tile-${hat.id}`}
+                            href={`/registry?hat=${encodeURIComponent(hat.slug)}`}
                             ref={(element) => {
                               if (element) tileRefs.current.set(hat.id, element);
                               else tileRefs.current.delete(hat.id);
                             }}
-                            role="button"
                             data-hat-tile
-                            tabIndex={0}
                             onMouseEnter={() => interaction.enter(hat.id, hat)}
                             onMouseLeave={interaction.leave}
                             onTouchStart={() => interaction.touchStart(hat.id, hat)}
                             onTouchEnd={() => interaction.touchEnd()}
-                            onClick={() =>
+                            onClick={(event) => {
+                              event.preventDefault();
                               interaction.click(
                                 () => setFlippedTiles((previous) => ({
                                   ...previous,
@@ -412,7 +446,7 @@ export default function HatRegistry() {
                                 })),
                                 () => toggleSelectHat(hat)
                               )
-                            }
+                            }}
                             onKeyDown={(event) => {
                               if (event.key !== "Enter" && event.key !== " ") return;
                               event.preventDefault();
@@ -424,7 +458,8 @@ export default function HatRegistry() {
                             style={{
                               aspectRatio:"1/1", cursor:"pointer",
                               width:"100%", position:"relative",
-                              overflow:"hidden", borderRadius:6, isolation:"isolate"
+                              overflow:"hidden", borderRadius:6, isolation:"isolate",
+                              color: "inherit", textDecoration: "none",
                             }}
                           >
                             <div data-hat-tile-face style={{
@@ -522,7 +557,7 @@ export default function HatRegistry() {
                                 </span>
                                 </div>
                               )}
-                          </div>
+                          </a>
                         );
                       })}
                     </div>
@@ -534,7 +569,7 @@ export default function HatRegistry() {
         </div>
 
         {/* BOTTOM BAR — FULL LOGIC, SHIFTS CORRECTLY */}
-        <div style={{
+        <div id="hat-registry-bottom-bar" style={{
           position: "absolute",
           bottom: 0,
           left: 0,
@@ -585,7 +620,7 @@ export default function HatRegistry() {
         </div>
 
         {/* DRAWER — RECEIVES WIDTH FROM REGISTRY, NO CONFLICT */}
-        <div style={{
+        <div id="hat-registry-drawer" style={{
             position: "fixed",
             top: isPortrait && isMobile ? "46dvh" : "56px",
             right: 0,

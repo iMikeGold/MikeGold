@@ -266,6 +266,7 @@ width:100%;
 }
 
 .capability-group-card {
+  display: block;
   position: relative;
   min-height: 180px;
   border: 1px solid #303030;
@@ -276,6 +277,7 @@ width:100%;
   cursor: pointer;
   perspective: 900px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .capability-group-card:hover,
@@ -346,6 +348,17 @@ width:100%;
   border: 0;
   color: #aaa;
   background: transparent;
+  cursor: pointer;
+}
+
+.work-filter-submit {
+  min-height: 44px;
+  align-self: end;
+  border: 1px solid #34558f;
+  border-radius: 6px;
+  padding: .65rem 1rem;
+  color: #fff;
+  background: #173467;
   cursor: pointer;
 }
 
