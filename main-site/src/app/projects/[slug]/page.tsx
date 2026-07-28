@@ -8,7 +8,10 @@ import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
 
-export const dynamicParams = false;
+// OpenNext must be allowed to resolve the generated project slugs at request
+// time. Closing the route with `dynamicParams = false` caused the Worker to
+// return its 404 page for every otherwise valid `/projects/<slug>` URL.
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return publicProjects.map((project) => ({ slug: project.slug }));

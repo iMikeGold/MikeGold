@@ -78,18 +78,36 @@ html, body {
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
+  #hat-registry-root {
+    height: auto !important;
+    min-height: calc(100vh - 56px) !important;
+    overflow: visible !important;
+  }
+
   #hat-registry-left-panel {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    bottom: auto !important;
     width: 100% !important;
-    bottom: 54vh !important;
+    height: auto !important;
+    min-height: 50vh !important;
+    overflow: visible !important;
   }
 
   #hat-registry-drawer {
-    top: 46vh !important;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
     width: 100% !important;
-    height: 54vh !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 360px !important;
   }
 
   #hat-registry-bottom-bar {
+    position: relative !important;
     right: 0 !important;
   }
 }
@@ -382,20 +400,19 @@ export default function HatRegistry({
               const registryShare = hats.length ? registryCount / hats.length : 0;
 
               return (
-                <div key={house}>
-                  <div
-                    onClick={() => setCollapsedSections(prev => ({ ...prev, [house]: !prev[house] }))}
+                <details key={house} open={searchQuery.trim() ? true : !collapsedSections[house]}>
+                  <summary
                     style={{
                       padding:"8px 12px", background:"#121212",
                       border:"1px solid #222", borderRadius:8,
-                      cursor:"pointer", marginBottom:6
+                      cursor:"pointer", marginBottom:6, listStyle:"none"
                     }}
                   >
                     <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:4 }}>
                       <h3 style={{ margin:0, textTransform:"capitalize", fontSize:15 }}>
                         {house} <span style={{ opacity:0.5, fontSize:12 }}>({registryCount})</span>
                       </h3>
-                      <span style={{ opacity:0.6 }}>{collapsedSections[house] ? "▼" : "▲"}</span>
+                      <span style={{ opacity:0.6 }}>▼</span>
                     </div>
                     <div aria-label={`${house} represents ${(registryShare * 100).toFixed(1)} percent of loaded Hats`} style={{ display:"flex", alignItems:"center", gap:8 }}>
                       <div style={{ height:6, flex:1, background:"#242424", borderRadius:4, overflow:"hidden" }}>
@@ -405,10 +422,9 @@ export default function HatRegistry({
                         {registryCount} / {hats.length} · {(registryShare * 100).toFixed(1)}%
                       </span>
                     </div>
-                  </div>
+                  </summary>
 
-                  {(searchQuery.trim() || !collapsedSections[house]) && (
-                    <div style={{
+                  <div style={{
                       display:"grid",
                       gridTemplateColumns:"repeat(auto-fill, minmax(86px, 1fr))",
                       gap:4,
@@ -560,9 +576,8 @@ export default function HatRegistry({
                           </a>
                         );
                       })}
-                    </div>
-                  )}
-                </div>
+                  </div>
+                </details>
               );
             })}
           </div>
