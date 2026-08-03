@@ -10,5 +10,6 @@
   "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["software-engineer", "web-design-engineer", "backend-engineer", "platform-engineer"],
   "lensAssignments": [{ "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface." }]
 }

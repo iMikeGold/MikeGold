@@ -68,6 +68,12 @@ export const internalWorkRecords = [
     "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
     "status": "in-progress",
     "visibility": "public",
+    "appliedHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
     "lensAssignments": [
       {
         "lensId": "brand-experience-systems",
@@ -88,6 +94,12 @@ export const internalWorkRecords = [
     "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
     "status": "in-progress",
     "visibility": "public",
+    "appliedHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer"
+    ],
     "lensAssignments": [
       {
         "lensId": "media-production-distribution",
@@ -108,6 +120,14 @@ export const internalWorkRecords = [
     "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
     "status": "in-progress",
     "visibility": "public",
+    "appliedHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer",
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
     "lensAssignments": [
       {
         "lensId": "system-product-definition",
@@ -135,6 +155,12 @@ export const internalWorkRecords = [
     "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
     "status": "in-progress",
     "visibility": "public",
+    "appliedHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer",
+      "platform-engineer"
+    ],
     "lensAssignments": [
       {
         "lensId": "software-web-engineering",

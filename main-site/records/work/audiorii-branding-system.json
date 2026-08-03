@@ -10,5 +10,6 @@
   "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["brand-systems-engineer", "logo-systems-designer", "graphic-systems-designer", "symbol-systems-designer"],
   "lensAssignments": [{ "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on identity, visual language and brand experience." }]
 }

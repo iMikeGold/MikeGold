@@ -522,6 +522,10 @@ width:100%;
 .project-evidence-preview img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .project-evidence-preview img[src$=".svg"],
 .evidence-image-identity img[src$=".svg"] { background: #eeeae1; }
+.evidence-image-identity img[src*="/audiorii/"] { background: #000; }
+.evidence-image-identity img[src*="/wrappedfm/logo_design/wrapped-logo-main-black.webp"] { background: #eeeae1; }
+.evidence-image-identity img[src*="/wrappedfm/logo_design/wrapped-logo-main-pale-gold.webp"] { background: #000; }
+.project-evidence-preview img[src*="/wrappedfm/logo_design/wrapped-logo-main-black.webp"] { background: #eeeae1; }
 .project-evidence-preview figcaption {
   min-height: 3.2em;
   padding: .5rem;

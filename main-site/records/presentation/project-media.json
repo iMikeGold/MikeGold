@@ -1,5 +1,9 @@
 [
   { "projectSlug": "audiorii", "assetPath": "/images/projects/audiorii/mock_ups/website-mock.webp", "label": "AudioRii website concept" },
+  { "projectSlug": "viisiioiiv", "assetPath": "/images/projects/viisiioiiv/web_dev/viisiioiiv-website.webp", "label": "ViiSiiOiiV website" },
+  { "projectSlug": "bjorr", "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-website.png", "label": "School of Bjórr website" },
+  { "projectSlug": "community-supplies", "assetPath": "/images/projects/community_supplies/web_development/community-suuplies-website.webp", "label": "Community Supplies website" },
+  { "projectSlug": "metroplist", "assetPath": "/images/projects/metroplist/metroplist-website.webp", "label": "Metroplist website" },
   { "projectSlug": "2xu-wetsuit-testing", "assetPath": "/images/projects/2xu/2xu.webp", "label": "2XU presentation logo" },
   { "assetPath": "/images/projects/3mobile/3-mobile.webp", "label": "3 Mobile presentation logo" },
   { "projectSlug": "bjorr", "assetPath": "/images/projects/bjorr/identity_design/identity-design.webp", "label": "Bjórr presentation identity" },

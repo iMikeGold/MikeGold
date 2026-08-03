@@ -9,17 +9,21 @@
     ],
     "asgi-service-runner-engineer": [],
     "audio-engineer": [
+      "audiorii-digital-assets",
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
       "playstation-croatia-ps5-sound-tour-audio-system-implementation"
     ],
     "audio-test-engineer": [],
     "automation-engineer": [],
-    "backend-engineer": [],
+    "backend-engineer": [
+      "audiorii-website-development"
+    ],
     "backup-snapshot-engineer": [],
     "bash-shell-engineer": [],
     "bootstrap-engineer": [],
     "boundary-engineer": [],
     "brand-systems-engineer": [
+      "audiorii-branding-system",
       "cannvent-system-development",
       "community-supplies-system-development",
       "findthy-system-development",
@@ -27,8 +31,11 @@
       "mickz-identity-development",
       "mickz-product-system",
       "ourgani-system-development",
+      "saveours-system-development",
       "waffll-system-development",
       "wibc-system-development",
+      "wrappedfm-identity-development",
+      "wrappedfm-system-development",
       "zenthapy-system-development"
     ],
     "broadcast-audio-engineer": [
@@ -84,7 +91,9 @@
       "ourgani-system-development",
       "wrappedfm-system-development"
     ],
-    "devops-engineer": [],
+    "devops-engineer": [
+      "audiorii-system-development"
+    ],
     "disaster-recovery-engineer": [],
     "environment-architect": [
       "cannvent-system-development",
@@ -103,9 +112,13 @@
     ],
     "format-standardisation-engineer": [],
     "graphic-design-engineer": [],
-    "graphic-systems-designer": [],
+    "graphic-systems-designer": [
+      "audiorii-branding-system"
+    ],
     "human-error-reduction-engineer": [],
-    "human-system-translator": [],
+    "human-system-translator": [
+      "saveours-platform-interface-development"
+    ],
     "idempotency-engineer": [],
     "identity-architect": [
       "118-sports-system-development",
@@ -115,7 +128,9 @@
       "viisiioiiv-system-development"
     ],
     "immersive-media-engineer": [],
-    "infrastructure-engineer": [],
+    "infrastructure-engineer": [
+      "audiorii-system-development"
+    ],
     "install-onboarding-engineer": [
       "delta-elektronika-power-systems-firmware-build-and-installation-engineering"
     ],
@@ -136,9 +151,11 @@
       "the-frisbys-you-are-camera-system-setup"
     ],
     "logo-systems-designer": [
+      "audiorii-branding-system",
       "best-indies-system-development",
       "mickz-identity-development",
-      "wibc-system-development"
+      "wibc-system-development",
+      "wrappedfm-identity-development"
     ],
     "mastering-engineer": [],
     "meaning-architect": [
@@ -151,11 +168,14 @@
     ],
     "media-consultant": [],
     "media-distribution-engineer": [
+      "audiorii-digital-assets",
       "fbc-london-shopping-with-grant-playout-systems-setup",
       "living-control-media-servers-multimedia-distribution",
-      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
+      "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
+      "wrappedfm-system-development"
     ],
     "media-engineer": [
+      "audiorii-digital-assets",
       "croydon-womens-network-iwd-camera-systems-and-setup",
       "fbc-london-shopping-with-grant-playout-systems-setup",
       "house-of-gold-media-presentation",
@@ -168,6 +188,7 @@
     ],
     "media-quality-engineer": [],
     "media-workflow-designer": [
+      "audiorii-digital-assets",
       "croydon-womens-network-iwd-camera-systems-and-setup",
       "mars-delight-kung-fu-media-management-systems",
       "rockett-home-rentals-company-film-camera-operation-and-workflow",
@@ -187,6 +208,7 @@
       "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
     "operations-engineer": [
+      "audiorii-system-development",
       "bristow-operational-excellence-electronics-systems-engineering",
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
       "malaria-hotspot-production-creative-production-management-systems",
@@ -194,8 +216,15 @@
     ],
     "performance-systems-engineer": [],
     "permissions-identity-engineer": [],
-    "pipeline-engineer": [],
-    "platform-engineer": [],
+    "pipeline-engineer": [
+      "audiorii-system-development"
+    ],
+    "platform-engineer": [
+      "audiorii-system-development",
+      "audiorii-website-development",
+      "saveours-system-development",
+      "wrappedfm-system-development"
+    ],
     "post-production-audio-engineer": [],
     "pre-schema-logic-first-designer": [],
     "process-lifecycle-engineer": [
@@ -236,7 +265,12 @@
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
       "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
-    "software-engineer": [],
+    "software-engineer": [
+      "audiorii-website-development",
+      "saveours-platform-interface-development",
+      "saveours-system-development",
+      "wrappedfm-system-development"
+    ],
     "sound-designer": [
       "playstation-croatia-ps5-sound-tour-sound-design"
     ],
@@ -248,10 +282,12 @@
     "sql-engineer": [],
     "state-management-engineer": [],
     "symbol-systems-designer": [
+      "audiorii-branding-system",
       "saveours-system-development"
     ],
     "systems-engineer": [
       "2xu-wetsuit-testing-distribution-systems",
+      "audiorii-system-development",
       "bamboograph-system-development",
       "bonsai-tree-of-life-system-development",
       "bristow-operational-excellence-electronics-systems-engineering",
@@ -281,6 +317,7 @@
     ],
     "web-design-engineer": [
       "118-sports-system-development",
+      "audiorii-website-development",
       "best-indies-system-development",
       "bonsai-tree-of-life-system-development",
       "community-supplies-system-development",
@@ -292,6 +329,7 @@
       "multiplied-intelligence-system-development",
       "musical-intelligence-web-experience",
       "ourgani-system-development",
+      "saveours-platform-interface-development",
       "the-visionary-guide-system-development",
       "wibc-system-development",
       "wrappedfm-system-development"

@@ -27,27 +27,33 @@
       "concepts": [
         "design-activity",
         "identity-systems",
+        "product-identity",
+        "visual-language-system",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "audiorii-digital-assets": {
       "projectSlug": "audiorii",
       "concepts": [
         "audio-medium",
+        "audio-production",
+        "media-distribution",
         "software-engineering"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "audiorii-system-development": {
       "projectSlug": "audiorii",
       "concepts": [
         "build-activity",
         "cloud-operations",
+        "media-distribution",
         "operational-state",
-        "software-engineering"
+        "software-engineering",
+        "systems-integration"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "audiorii-website-development": {
       "projectSlug": "audiorii",
@@ -57,7 +63,7 @@
         "software-engineering",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "bamboograph-system-development": {
       "projectSlug": "bamboograph",
@@ -604,16 +610,19 @@
         "software-engineering",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "saveours-system-development": {
       "projectSlug": "saveours",
       "concepts": [
         "build-activity",
         "identity-systems",
-        "operate-activity"
+        "operate-activity",
+        "product-identity",
+        "systems-integration",
+        "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems": {
       "projectSlug": "stanhope-seta-flash-point-testing",
@@ -692,21 +701,25 @@
       "projectSlug": "wrappedfm",
       "concepts": [
         "identity-systems",
-        "logo-artwork"
+        "logo-artwork",
+        "product-identity",
+        "visual-language-system"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "wrappedfm-system-development": {
       "projectSlug": "wrappedfm",
       "concepts": [
         "engineer-role",
         "identity-systems",
+        "media-distribution",
         "operate-activity",
         "operational-state",
+        "product-identity",
         "software-engineering",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "zenthapy-identity-development": {
       "projectSlug": "zenthapy",

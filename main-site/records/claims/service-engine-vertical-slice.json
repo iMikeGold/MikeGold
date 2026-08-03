@@ -55,6 +55,34 @@
       "status": "confirmed",
       "confidence": 1,
       "visibility": "public"
+    },{
+      "id": "audiorii-capability-responsibility", "workSlug": "audiorii-system-development", "claimType": "capability-application",
+      "statement": "AudioRii applies software, platform, brand, media and infrastructure capabilities across its product ecosystem.", "conceptSlugs": ["systems-integration", "software-engineering", "media-distribution"],
+      "hatAssignments": [{"hatSlug":"systems-engineer","role":"lead","weight":0.9},{"hatSlug":"platform-engineer","role":"core","weight":0.88},{"hatSlug":"infrastructure-engineer","role":"core","weight":0.84},{"hatSlug":"operations-engineer","role":"supporting","weight":0.8},{"hatSlug":"devops-engineer","role":"supporting","weight":0.78},{"hatSlug":"pipeline-engineer","role":"supporting","weight":0.76}],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id": "audiorii-web-capability-responsibility", "workSlug": "audiorii-website-development", "claimType": "capability-application",
+      "statement": "AudioRii develops public-facing website architecture, software interfaces and platform foundations for professional audio products and services.", "conceptSlugs": ["web-application", "software-engineering"],
+      "hatAssignments": [{"hatSlug":"software-engineer","role":"lead","weight":0.9},{"hatSlug":"web-design-engineer","role":"core","weight":0.86},{"hatSlug":"backend-engineer","role":"core","weight":0.82},{"hatSlug":"platform-engineer","role":"supporting","weight":0.78}],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id": "audiorii-brand-capability-responsibility", "workSlug": "audiorii-branding-system", "claimType": "capability-application",
+      "statement": "AudioRii develops a coherent identity, product language and signal-led visual system across products and communications.", "conceptSlugs": ["product-identity", "visual-language-system"],
+      "hatAssignments": [{"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},{"hatSlug":"logo-systems-designer","role":"core","weight":0.86},{"hatSlug":"graphic-systems-designer","role":"supporting","weight":0.8},{"hatSlug":"symbol-systems-designer","role":"supporting","weight":0.78}],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id": "audiorii-media-capability-responsibility", "workSlug": "audiorii-digital-assets", "claimType": "capability-application",
+      "statement": "AudioRii develops professional-audio software assets, creator tooling and systems for delivering audio products.", "conceptSlugs": ["audio-production", "media-distribution"],
+      "hatAssignments": [{"hatSlug":"audio-engineer","role":"lead","weight":0.9},{"hatSlug":"media-engineer","role":"core","weight":0.84},{"hatSlug":"media-distribution-engineer","role":"core","weight":0.82},{"hatSlug":"media-workflow-designer","role":"supporting","weight":0.78}],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id":"wrappedfm-capability-responsibility","workSlug":"wrappedfm-system-development","claimType":"capability-application","statement":"WrappedFM establishes an online radio platform through identity, live metadata, web application and media-distribution systems.","conceptSlugs":["web-application","media-distribution","product-identity"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.88},{"hatSlug":"media-distribution-engineer","role":"core","weight":0.84},{"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.8},{"hatSlug":"platform-engineer","role":"supporting","weight":0.78}],"status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id":"wrappedfm-identity-capability","workSlug":"wrappedfm-identity-development","claimType":"capability-application","statement":"WrappedFM identity development defines a recognisable visual system for the online radio platform.","conceptSlugs":["product-identity","visual-language-system"],"hatAssignments":[{"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},{"hatSlug":"logo-systems-designer","role":"core","weight":0.84}],"status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id":"saveours-capability-responsibility","workSlug":"saveours-system-development","claimType":"capability-application","statement":"SaveOurs develops a public platform and identity system for structured personal-save and archive experiences.","conceptSlugs":["web-application","systems-integration","product-identity"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.88},{"hatSlug":"platform-engineer","role":"core","weight":0.84},{"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.78}],"status":"confirmed","confidence":1,"visibility":"public"
+    },{
+      "id":"saveours-interface-capability","workSlug":"saveours-platform-interface-development","claimType":"capability-application","statement":"SaveOurs platform interface development connects public, personal and signed-in user journeys through software interfaces.","conceptSlugs":["web-application","software-engineering"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.9},{"hatSlug":"web-design-engineer","role":"core","weight":0.84},{"hatSlug":"human-system-translator","role":"supporting","weight":0.76}],"status":"confirmed","confidence":1,"visibility":"public"
     }
   ],
   "evidenceClaimLinks": [

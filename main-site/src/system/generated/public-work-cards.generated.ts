@@ -140,14 +140,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 87.77,
-    "editorialBoost": 10,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 25.87,
-    "editorialSequence": 1,
-    "finalScore": 84.9425,
+    "finalScore": 21.9425,
     "href": "/projects/cannvent?area=system-product-definition"
   },
   {
@@ -615,12 +613,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 6 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 78.16,
-    "editorialBoost": 0,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 24.7,
-    "finalScore": 19.54,
+    "editorialSequence": 6,
+    "finalScore": 52.54,
     "href": "/projects/metroplist"
   },
   {
@@ -666,10 +666,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 78.16,
-    "editorialBoost": 9,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 24.7,
-    "editorialSequence": 2,
-    "finalScore": 76.53999999999999,
+    "editorialSequence": 6,
+    "finalScore": 52.54,
     "href": "/projects/metroplist?area=system-product-definition"
   },
   {
@@ -808,12 +808,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 101.46,
-    "editorialBoost": 0,
+    "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
-    "finalScore": 25.365,
+    "editorialSequence": 2,
+    "finalScore": 82.365,
     "href": "/projects/mickz"
   },
   {
@@ -956,10 +958,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 84.83,
-    "editorialBoost": 3,
+    "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 8,
-    "finalScore": 42.207499999999996,
+    "editorialSequence": 2,
+    "finalScore": 78.2075,
     "href": "/projects/mickz?area=system-product-definition"
   },
   {
@@ -1799,11 +1801,17 @@ export const publicWorkCards = [
       "saveours-system-development"
     ],
     "leadHatSlugs": [
-      "data-modeler",
-      "symbol-systems-designer",
-      "systems-engineer"
+      "software-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "data-modeler"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "symbol-systems-designer",
+      "systems-engineer",
+      "platform-engineer",
+      "brand-systems-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
       "src": "/images/projects/saveours/web_development/saveours-website.webp",
@@ -1828,12 +1836,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "8 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 97.46,
+    "relevanceScore": 99.66,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 24.365,
+    "finalScore": 24.915,
     "href": "/projects/saveours"
   },
   {
@@ -1848,11 +1856,17 @@ export const publicWorkCards = [
       "saveours-system-development"
     ],
     "leadHatSlugs": [
-      "data-modeler",
-      "symbol-systems-designer",
-      "systems-engineer"
+      "software-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "data-modeler"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "symbol-systems-designer",
+      "systems-engineer",
+      "platform-engineer",
+      "brand-systems-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
       "src": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
@@ -1877,14 +1891,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 93.9,
+    "relevanceScore": 96.09,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 9,
-    "finalScore": 38.475,
+    "finalScore": 39.0225,
     "href": "/projects/saveours?area=brand-experience-systems"
   },
   {
@@ -1901,9 +1915,15 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "data-modeler",
       "symbol-systems-designer",
-      "systems-engineer"
+      "systems-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "platform-engineer",
+      "brand-systems-engineer",
+      "web-design-engineer",
+      "human-system-translator"
+    ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-web-development-savesite-website",
       "src": "/images/projects/saveours/web_development/savesite-website.webp",
@@ -1928,12 +1948,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "8 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 93.9,
+    "relevanceScore": 96.09,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 23.475,
+    "finalScore": 24.0225,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
@@ -1945,7 +1965,11 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "saveours-platform-interface-development"
     ],
-    "leadHatSlugs": [],
+    "leadHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "human-system-translator"
+    ],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
@@ -1971,14 +1995,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76,
+    "relevanceScore": 79.46,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52,
+    "finalScore": 52.864999999999995,
     "href": "/projects/saveours?area=software-web-engineering"
   },
   {
@@ -1993,9 +2017,13 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "data-modeler",
       "symbol-systems-designer",
-      "systems-engineer"
+      "systems-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "platform-engineer",
+      "brand-systems-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
       "src": "/images/projects/saveours/web_development/saveours-website.webp",
@@ -2020,14 +2048,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 74.9,
+    "relevanceScore": 76.33,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 57.725,
+    "finalScore": 58.082499999999996,
     "href": "/projects/saveours?area=media-production-distribution"
   },
   {
@@ -2116,14 +2144,12 @@ export const publicWorkCards = [
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
       "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Evidence is explicitly connected to the selected lens",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "Evidence is explicitly connected to the selected lens"
     ],
     "relevanceScore": 81.86,
-    "editorialBoost": 6,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 5,
-    "finalScore": 59.465,
+    "finalScore": 20.465,
     "href": "/projects/vendfm?area=system-product-definition"
   },
   {
@@ -2232,11 +2258,17 @@ export const publicWorkCards = [
       "wrappedfm-system-development"
     ],
     "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
       "deployment-engineer",
-      "media-engineer",
-      "web-design-engineer"
+      "media-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "web-design-engineer",
+      "software-engineer",
+      "media-distribution-engineer",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
       "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
@@ -2261,12 +2293,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "8 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 80.88,
+    "relevanceScore": 83.07,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 20.22,
+    "finalScore": 20.7675,
     "href": "/projects/wrappedfm"
   },
   {
@@ -2278,7 +2310,10 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "wrappedfm-identity-development"
     ],
-    "leadHatSlugs": [],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer"
+    ],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
@@ -2304,14 +2339,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "2 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 70.39,
+    "relevanceScore": 73.22,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 3,
-    "finalScore": 68.5975,
+    "finalScore": 69.305,
     "href": "/projects/wrappedfm?area=brand-experience-systems"
   },
   {
@@ -2326,9 +2361,14 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "deployment-engineer",
       "media-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "media-distribution-engineer",
+      "brand-systems-engineer",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
       "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
@@ -2353,12 +2393,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.86,
+    "relevanceScore": 75.68,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.465,
+    "finalScore": 18.92,
     "href": "/projects/wrappedfm?area=system-product-definition"
   },
   {
@@ -2373,9 +2413,14 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "deployment-engineer",
       "media-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "media-distribution-engineer",
+      "brand-systems-engineer",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
       "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
@@ -2400,14 +2445,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 69.29,
+    "relevanceScore": 71.12,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 7,
-    "finalScore": 44.322500000000005,
+    "finalScore": 44.78,
     "href": "/projects/wrappedfm?area=software-web-engineering"
   },
   {
@@ -2422,9 +2467,14 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "deployment-engineer",
       "media-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "media-distribution-engineer",
+      "brand-systems-engineer",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "wrappedfm-wrappedfm-wrappedfm-website",
       "src": "/images/projects/wrappedfm/web_dev/wrappedfm-website.webp",
@@ -2449,14 +2499,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 69.29,
+    "relevanceScore": 71.12,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 3,
-    "finalScore": 68.3225,
+    "finalScore": 68.78,
     "href": "/projects/wrappedfm?area=media-production-distribution"
   },
   {
@@ -2724,8 +2774,27 @@ export const publicWorkCards = [
       "audiorii-system-development",
       "audiorii-website-development"
     ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
+    "supportingHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer",
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer",
+      "devops-engineer",
+      "pipeline-engineer",
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
       "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
@@ -2750,12 +2819,14 @@ export const publicWorkCards = [
       "4 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
+      "17 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 88,
-    "editorialBoost": 0,
+    "relevanceScore": 96,
+    "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
-    "finalScore": 22,
+    "editorialSequence": 1,
+    "finalScore": 87,
     "href": "/projects/audiorii"
   },
   {
@@ -2767,7 +2838,12 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "audiorii-branding-system"
     ],
-    "leadHatSlugs": [],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
@@ -2793,14 +2869,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76,
+    "relevanceScore": 80,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 1,
-    "finalScore": 82,
+    "finalScore": 83,
     "href": "/projects/audiorii?area=brand-experience-systems"
   },
   {
@@ -2812,7 +2888,12 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "audiorii-digital-assets"
     ],
-    "leadHatSlugs": [],
+    "leadHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer"
+    ],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
@@ -2838,14 +2919,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76,
+    "relevanceScore": 80,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 4,
-    "finalScore": 64,
+    "finalScore": 65,
     "href": "/projects/audiorii?area=media-production-distribution"
   },
   {
@@ -2857,8 +2938,16 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "audiorii-system-development"
     ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer"
+    ],
+    "supportingHatSlugs": [
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
       "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
@@ -2883,14 +2972,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 77,
-    "editorialBoost": 8,
+    "relevanceScore": 81.9,
+    "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 3,
-    "finalScore": 70.25,
+    "editorialSequence": 1,
+    "finalScore": 83.475,
     "href": "/projects/audiorii?area=system-product-definition"
   },
   {
@@ -2902,8 +2991,16 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "audiorii-system-development"
     ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer"
+    ],
+    "supportingHatSlugs": [
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
       "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
@@ -2928,14 +3025,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 71.43,
+    "relevanceScore": 76.33,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 74.8575,
+    "finalScore": 76.0825,
     "href": "/projects/audiorii?area=infrastructure-operations"
   },
   {
@@ -2947,7 +3044,12 @@ export const publicWorkCards = [
     "relevantWorkSlugs": [
       "audiorii-website-development"
     ],
-    "leadHatSlugs": [],
+    "leadHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer",
+      "platform-engineer"
+    ],
     "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
@@ -2973,14 +3075,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76,
+    "relevanceScore": 80,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 1,
-    "finalScore": 82,
+    "finalScore": 83,
     "href": "/projects/audiorii?area=software-web-engineering"
   },
   {
@@ -3302,12 +3404,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
+      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 84.83,
-    "editorialBoost": 0,
+    "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
-    "finalScore": 21.2075,
+    "editorialSequence": 4,
+    "finalScore": 66.2075,
     "href": "/projects/bjorr"
   },
   {
@@ -3352,10 +3456,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 84.83,
-    "editorialBoost": 5,
+    "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 6,
-    "finalScore": 54.207499999999996,
+    "editorialSequence": 4,
+    "finalScore": 66.2075,
     "href": "/projects/bjorr?area=system-product-definition"
   },
   {
@@ -3642,12 +3746,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 71.95,
-    "editorialBoost": 0,
+    "editorialBoost": 6,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.9875,
+    "editorialSequence": 5,
+    "finalScore": 56.9875,
     "href": "/projects/community-supplies"
   },
   {
@@ -3683,12 +3789,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 71.95,
-    "editorialBoost": 0,
+    "editorialBoost": 6,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.9875,
+    "editorialSequence": 5,
+    "finalScore": 56.9875,
     "href": "/projects/community-supplies?area=system-product-definition"
   },
   {
@@ -4486,14 +4594,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 84.51,
-    "editorialBoost": 2,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 9,
-    "finalScore": 36.1275,
+    "finalScore": 21.1275,
     "href": "/projects/house-of-gold?area=system-product-definition"
   },
   {
@@ -6079,14 +6185,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 69.46,
-    "editorialBoost": 7,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "editorialSequence": 4,
-    "finalScore": 62.364999999999995,
+    "finalScore": 17.365,
     "href": "/projects/the-visionary-guide?area=system-product-definition"
   },
   {
@@ -6154,12 +6258,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 2 relevant evidence records",
       "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
+      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 71.31,
-    "editorialBoost": 0,
+    "editorialBoost": 8,
     "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.8275,
+    "editorialSequence": 3,
+    "finalScore": 68.8275,
     "href": "/projects/viisiioiiv"
   },
   {
@@ -6331,14 +6437,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 73.86,
-    "editorialBoost": 4,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 7,
-    "finalScore": 45.465,
+    "finalScore": 18.465,
     "href": "/projects/waffll?area=system-product-definition"
   },
   {

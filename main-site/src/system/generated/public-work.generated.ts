@@ -147,7 +147,12 @@ export const publicWork = [
         "rationale": "The responsibility centres on identity, visual language and brand experience."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
     "evidenceSlugs": [
       "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
       "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
@@ -209,7 +214,12 @@ export const publicWork = [
         "rationale": "The responsibility centres on creating and preparing media assets for presentation."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer"
+    ],
     "evidenceSlugs": [
       "audiorii-audiorii-digital-asset-creation-flowarch-box",
       "audiorii-audiorii-digital-asset-creation-flowarch-flat",
@@ -289,7 +299,14 @@ export const publicWork = [
         "lensSummary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer",
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
     "evidenceSlugs": [],
     "evidenceLinks": [],
     "lensSummaries": {
@@ -313,7 +330,12 @@ export const publicWork = [
         "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer",
+      "platform-engineer"
+    ],
     "evidenceSlugs": [
       "audiorii-audiorii-mock-ups-website-mock",
       "audiorii-audiorii-web-development-audiorii-website"
@@ -3047,7 +3069,11 @@ export const publicWork = [
         "lensSummary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "human-system-translator"
+    ],
     "evidenceSlugs": [
       "saveours-saveours-saveours-website",
       "saveours-saveours-web-development-saveours-mysaves-savesite",
@@ -3105,7 +3131,10 @@ export const publicWork = [
     "appliedHatSlugs": [
       "data-modeler",
       "symbol-systems-designer",
-      "systems-engineer"
+      "systems-engineer",
+      "software-engineer",
+      "platform-engineer",
+      "brand-systems-engineer"
     ],
     "evidenceSlugs": [
       "saveours-documentation-pending"
@@ -3522,7 +3551,10 @@ export const publicWork = [
         "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer"
+    ],
     "evidenceSlugs": [
       "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-black",
       "wrappedfm-wrappedfm-logo-design-wrapped-logo-main-pale-gold"
@@ -3571,7 +3603,11 @@ export const publicWork = [
     "appliedHatSlugs": [
       "deployment-engineer",
       "media-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "software-engineer",
+      "media-distribution-engineer",
+      "brand-systems-engineer",
+      "platform-engineer"
     ],
     "evidenceSlugs": [
       "wrappedfm-documentation-pending",

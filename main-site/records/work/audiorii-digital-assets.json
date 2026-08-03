@@ -10,5 +10,6 @@
   "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["audio-engineer", "media-engineer", "media-distribution-engineer", "media-workflow-designer"],
   "lensAssignments": [{ "lensId": "media-production-distribution", "role": "primary", "rationale": "The responsibility centres on creating and preparing media assets for presentation." }]
 }

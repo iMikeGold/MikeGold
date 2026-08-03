@@ -15,6 +15,7 @@
       "playstation-croatia-ps5-sound-tour-sound-design"
     ],
     "audio-production": [
+      "audiorii-digital-assets",
       "playstation-croatia-ps5-sound-tour-sound-design"
     ],
     "broadcast-audio-delivery": [
@@ -194,10 +195,13 @@
     "media-archive-platform": [],
     "media-control-system": [],
     "media-distribution": [
+      "audiorii-digital-assets",
+      "audiorii-system-development",
       "fbc-london-shopping-with-grant-playout-systems-setup",
       "living-control-media-servers-multimedia-distribution",
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
-      "waffll-system-development"
+      "waffll-system-development",
+      "wrappedfm-system-development"
     ],
     "media-distribution-system": [
       "living-control-media-servers-multimedia-distribution"
@@ -296,7 +300,12 @@
       "waffll-system-development",
       "zenthapy-system-development"
     ],
-    "product-identity": [],
+    "product-identity": [
+      "audiorii-branding-system",
+      "saveours-system-development",
+      "wrappedfm-identity-development",
+      "wrappedfm-system-development"
+    ],
     "programme-audio-feed": [
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery"
     ],
@@ -369,9 +378,11 @@
     "studio-engineering": [],
     "studio-environment": [],
     "systems-integration": [
+      "audiorii-system-development",
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
-      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
+      "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
+      "saveours-system-development"
     ],
     "technical-handover": [],
     "testing-commissioning": [
@@ -381,7 +392,10 @@
     "transition-to-live": [
       "musical-intelligence-deployment"
     ],
-    "visual-language-system": [],
+    "visual-language-system": [
+      "audiorii-branding-system",
+      "wrappedfm-identity-development"
+    ],
     "web-application": [
       "118-sports-system-development",
       "audiorii-branding-system",
@@ -411,6 +425,7 @@
       "protosynthesis-multiformat-web-development",
       "protosynthesis-system-development",
       "saveours-platform-interface-development",
+      "saveours-system-development",
       "the-visionary-guide-system-development",
       "vendfm-system-development",
       "viisiioiiv-system-development",

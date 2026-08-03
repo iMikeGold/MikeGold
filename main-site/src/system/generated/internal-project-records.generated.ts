@@ -44,7 +44,8 @@ export const internalProjectRecords = [
     "summary": "Identity and web-development work for AudioRii.",
     "status": "active-development",
     "visibility": "public",
-    "featured": false
+    "featured": false,
+    "establishedYear": 2026
   },
   {
     "id": "57c17721-d988-49da-9a07-b448ee464748",

@@ -425,7 +425,9 @@ for (const project of publicProjects) {
     const capabilityDistinctiveness = Math.min(8, Math.sqrt(leadHatSlugs.length) * 2);
     const directLensSupport = lensId && directlySupportedEvidence ? 8 : 0;
     const relevanceScore = Math.round((contributionScore + evidenceCompleteness + documentationDepth + capabilityDistinctiveness + directLensSupport) * 100) / 100;
-    const preference = lensId ? project.lensPresentationPreferences?.find((item) => item.lensId === lensId) : undefined;
+    const preference = lensId
+      ? project.lensPresentationPreferences?.find((item) => item.lensId === lensId)
+      : project.lensPresentationPreferences?.find((item) => item.lensId === "system-product-definition");
     const editorialBoost = Math.max(-10, Math.min(10, preference?.editorialBoost ?? 0));
     // Editorial relevance is a composite, not a fixed rank:
     // 25% evidence-derived system score, a bounded 12–60 editorial calibration,
