@@ -57,6 +57,46 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-03T00:00:00.000Z",
+    "updatedAt": "2026-08-03T00:00:00.000Z",
+    "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+    "slug": "audiorii-branding-system",
+    "title": "Branding-system development",
+    "summary": "Branding-system and logo-development work for AudioRii.",
+    "status": "in-progress",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on identity, visual language and brand experience."
+      }
+    ]
+  },
+  {
+    "id": "3c8b6b1f-8a38-4d91-9c0a-6e9e9f0be67d",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-03T00:00:00.000Z",
+    "updatedAt": "2026-08-03T00:00:00.000Z",
+    "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+    "slug": "audiorii-digital-assets",
+    "title": "Digital product assets",
+    "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+    "status": "in-progress",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating and preparing media assets for presentation."
+      }
+    ]
+  },
+  {
     "id": "7b2b5b2e-0b4e-4d63-a0a0-1f40e2e9c6b4",
     "recordType": "work",
     "schemaVersion": 1,
@@ -78,6 +118,26 @@ export const internalWorkRecords = [
         "lensId": "brand-experience-systems",
         "role": "secondary",
         "rationale": "The responsibility includes identity-system and brand-experience development."
+      }
+    ]
+  },
+  {
+    "id": "9a5d2d5d-efc8-45d0-b0b8-7c0d2aa48df2",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-03T00:00:00.000Z",
+    "updatedAt": "2026-08-03T00:00:00.000Z",
+    "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+    "slug": "audiorii-website-development",
+    "title": "Website development",
+    "summary": "Website and interface development for AudioRii.",
+    "status": "in-progress",
+    "visibility": "public",
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface."
       }
     ]
   },

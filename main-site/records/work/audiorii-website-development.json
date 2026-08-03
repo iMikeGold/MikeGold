@@ -1,0 +1,14 @@
+{
+  "id": "9a5d2d5d-efc8-45d0-b0b8-7c0d2aa48df2",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T00:00:00.000Z",
+  "updatedAt": "2026-08-03T00:00:00.000Z",
+  "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+  "slug": "audiorii-website-development",
+  "title": "Website development",
+  "summary": "Website and interface development for AudioRii.",
+  "status": "in-progress",
+  "visibility": "public",
+  "lensAssignments": [{ "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface." }]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "9c111db0-710b-44bb-a181-dacb1d89ac4f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-digital-assets-evidenced-by-audiorii-audiorii-digital-asset-creation-riimix",
+  "sourceId": "3c8b6b1f-8a38-4d91-9c0a-6e9e9f0be67d",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "dfc39a16-a8af-453c-9b8f-a74131ae74dd",
+  "targetType": "evidence"
+}

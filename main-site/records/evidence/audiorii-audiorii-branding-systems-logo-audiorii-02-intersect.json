@@ -1,0 +1,17 @@
+{
+  "id": "1acca1c1-53ee-4e16-b551-6893a9f81576",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+  "title": "AudioRii — identity development 01",
+  "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

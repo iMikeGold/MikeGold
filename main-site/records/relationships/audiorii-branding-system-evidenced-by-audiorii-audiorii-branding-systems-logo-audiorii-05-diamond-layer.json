@@ -1,0 +1,13 @@
+{
+  "id": "72fe613f-9025-4c1b-b7c4-0a2a254b88ae",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-branding-system-evidenced-by-audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+  "sourceId": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "5635f04b-e111-4b49-a5f7-3c8eb4e623de",
+  "targetType": "evidence"
+}

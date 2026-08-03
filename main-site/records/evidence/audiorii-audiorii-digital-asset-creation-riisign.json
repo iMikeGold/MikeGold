@@ -1,0 +1,17 @@
+{
+  "id": "895773fe-b438-4414-b116-ea74fb641d84",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riisign",
+  "title": "AudioRii — supporting visual 09",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 9,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiSign.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

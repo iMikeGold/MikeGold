@@ -1,0 +1,17 @@
+{
+  "id": "aca6d6a2-5311-4dd8-806d-1ffa26213f43",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-branding-systems-logo-audiorii-flow-arc",
+  "title": "AudioRii — identity development 06",
+  "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 6,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-flow-arc.svg",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

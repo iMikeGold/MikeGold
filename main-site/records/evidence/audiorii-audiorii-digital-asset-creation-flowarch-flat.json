@@ -1,0 +1,17 @@
+{
+  "id": "15160b46-dca7-49e2-bfd9-cf4c6582c83d",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+  "title": "AudioRii — supporting visual 02",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/FlowArch-Flat.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dc3535de-2a82-461d-9c66-18dfb7cbd684",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-branding-systems-logo-audiorii-signal-s-curve",
+  "title": "AudioRii — identity development 07",
+  "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 7,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-signal-s-curve.svg",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

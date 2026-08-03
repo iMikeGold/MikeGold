@@ -1,0 +1,17 @@
+{
+  "id": "dd488909-52d3-41fb-9d8e-0cd0c3ba5ee0",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+  "title": "AudioRii — identity development 02",
+  "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

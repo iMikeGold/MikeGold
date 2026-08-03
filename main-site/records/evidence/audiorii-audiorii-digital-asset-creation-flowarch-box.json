@@ -1,0 +1,17 @@
+{
+  "id": "c0e989a9-7910-4639-90f6-89cdecb194c1",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
+  "title": "AudioRii — supporting visual 01",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/FlowArch-Box.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

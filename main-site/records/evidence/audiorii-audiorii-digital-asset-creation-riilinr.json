@@ -1,0 +1,17 @@
+{
+  "id": "d8c4826a-5b5e-463b-9457-bfd89e3cfc52",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riilinr",
+  "title": "AudioRii — supporting visual 04",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiLinr.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "3c8b6b1f-8a38-4d91-9c0a-6e9e9f0be67d",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T00:00:00.000Z",
+  "updatedAt": "2026-08-03T00:00:00.000Z",
+  "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+  "slug": "audiorii-digital-assets",
+  "title": "Digital product assets",
+  "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+  "status": "in-progress",
+  "visibility": "public",
+  "lensAssignments": [{ "lensId": "media-production-distribution", "role": "primary", "rationale": "The responsibility centres on creating and preparing media assets for presentation." }]
+}

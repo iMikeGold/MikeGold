@@ -1,0 +1,13 @@
+{
+  "id": "f6723b47-e44c-4ef8-a540-0c5c58cb88ad",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-branding-system-evidenced-by-audiorii-audiorii-branding-systems-logo-logo-design-concepts",
+  "sourceId": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d990b031-6dea-46b3-954e-d7436e47f3f3",
+  "targetType": "evidence"
+}

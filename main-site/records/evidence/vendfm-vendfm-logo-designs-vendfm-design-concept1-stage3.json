@@ -13,6 +13,18 @@
   "visibility": "public",
   "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-concept1-stage3.webp",
   "sourceTitle": "VendFM",
-  "presentation": { "facets": ["identity-system", "logo"], "displayRoles": ["lens-card", "work-hero", "gallery"], "visualQuality": "hero", "aspectPreference": "landscape" },
+  "presentation": {
+    "facets": [
+      "identity-system",
+      "logo"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "work-hero",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  },
   "placeholder": false
 }

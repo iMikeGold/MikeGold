@@ -279,6 +279,476 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+    "title": "AudioRii — identity development 01",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 1,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+    "title": "AudioRii — identity development 02",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 2,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+    "title": "AudioRii — identity development 03",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 3,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-05-diamond-layer.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-07-minimal-arc",
+    "title": "AudioRii — identity development 04",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 4,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-07-minimal-arc.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-bracket-flow",
+    "title": "AudioRii — identity development 05",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 5,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-bracket-flow.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-flow-arc",
+    "title": "AudioRii — identity development 06",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 6,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-flow-arc.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-audiorii-signal-s-curve",
+    "title": "AudioRii — identity development 07",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 7,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/audiorii-signal-s-curve.svg",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-branding-systems-logo-logo-design-concepts",
+    "title": "AudioRii — identity development 08",
+    "description": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+    "evidenceType": "image",
+    "role": "identity",
+    "sequence": 8,
+    "assetPath": "/images/projects/audiorii/branding_systems/Logo/logo-design-concepts.webp",
+    "presentation": {
+      "facets": [
+        "identity-system",
+        "logo"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
+    "title": "AudioRii — supporting visual 01",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 1,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/FlowArch-Box.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+    "title": "AudioRii — supporting visual 02",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 2,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/FlowArch-Flat.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riiform",
+    "title": "AudioRii — supporting visual 03",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 3,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riilinr",
+    "title": "AudioRii — supporting visual 04",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 4,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiLinr.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riimix",
+    "title": "AudioRii — supporting visual 05",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 5,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiMix.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riimix2",
+    "title": "AudioRii — supporting visual 06",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 6,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiMix2.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riipulsiv",
+    "title": "AudioRii — supporting visual 07",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 7,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiPulsiv.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riisamplr",
+    "title": "AudioRii — supporting visual 08",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 8,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiSamplr.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riisign",
+    "title": "AudioRii — supporting visual 09",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 9,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiSign.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-digital-asset-creation-riispace",
+    "title": "AudioRii — supporting visual 10",
+    "description": "Supporting visual material recorded for AudioRii.",
+    "evidenceType": "image",
+    "role": "reference",
+    "sequence": 10,
+    "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiSpace.webp",
+    "presentation": {
+      "facets": [
+        "photography"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-mock-ups-website-mock",
+    "title": "AudioRii — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 1,
+    "assetPath": "/images/projects/audiorii/mock_ups/website-mock.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
+    "slug": "audiorii-audiorii-web-development-audiorii-website",
+    "title": "AudioRii — website and digital experience",
+    "description": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 2,
+    "assetPath": "/images/projects/audiorii/web_development/audiorii-website.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface"
+      ],
+      "displayRoles": [
+        "lens-card",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "any"
+    },
+    "sourceTitle": "AudioRii",
+    "placeholder": false
+  },
+  {
     "slug": "bamboograph-bamboo-graph-web-dev-bamboo-garden-listening",
     "title": "BambooGraph — interface study 01",
     "description": "Interface evidence from the BambooGraph digital experience.",

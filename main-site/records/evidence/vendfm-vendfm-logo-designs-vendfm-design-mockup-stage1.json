@@ -13,6 +13,19 @@
   "visibility": "public",
   "assetPath": "/images/projects/vendfm/logo_designs/vendfm-design-mockup-stage1.webp",
   "sourceTitle": "VendFM",
-  "presentation": { "facets": ["brand-application", "product-model", "logo"], "displayRoles": ["lens-card", "supporting", "gallery"], "visualQuality": "standard", "aspectPreference": "landscape" },
+  "presentation": {
+    "facets": [
+      "brand-application",
+      "product-model",
+      "logo"
+    ],
+    "displayRoles": [
+      "lens-card",
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  },
   "placeholder": false
 }

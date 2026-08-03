@@ -2720,73 +2720,178 @@ export const publicWorkCards = [
   {
     "projectSlug": "audiorii",
     "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development",
-    "summary": "Identity and web-development work for AudioRii.",
+    "contributionTitle": "Branding-system development · Digital product assets · AudioRii system development · Website development",
+    "summary": "Branding-system and logo-development work for AudioRii.",
     "relevantWorkSlugs": [
-      "audiorii-system-development"
+      "audiorii-branding-system",
+      "audiorii-digital-assets",
+      "audiorii-system-development",
+      "audiorii-website-development"
     ],
     "leadHatSlugs": [],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "4 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
       "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 50,
+    "relevanceScore": 88,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 12.5,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 22,
     "href": "/projects/audiorii"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "software-web-engineering",
-    "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development",
-    "summary": "Identity and web-development work for AudioRii.",
-    "relevantWorkSlugs": [
-      "audiorii-system-development"
-    ],
-    "leadHatSlugs": [],
-    "supportingHatSlugs": [],
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
-      "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 50,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 12.5,
-    "href": "/projects/audiorii?area=software-web-engineering"
   },
   {
     "projectSlug": "audiorii",
     "lensId": "brand-experience-systems",
     "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development",
-    "summary": "Identity and web-development work for AudioRii.",
+    "contributionTitle": "Branding-system development · AudioRii system development",
+    "summary": "Branding-system and logo-development work for AudioRii.",
     "relevantWorkSlugs": [
+      "audiorii-branding-system",
       "audiorii-system-development"
     ],
     "leadHatSlugs": [],
     "supportingHatSlugs": [],
-    "supportingVisuals": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+      "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+      "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-05-diamond-layer.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
       "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 44.43,
+    "relevanceScore": 79.51,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 11.1075,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 19.8775,
     "href": "/projects/audiorii?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "media-production-distribution",
+    "projectName": "AudioRii",
+    "contributionTitle": "Digital product assets",
+    "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-digital-assets"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
+      "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Box.webp",
+      "alt": "Supporting visual material recorded for AudioRii.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+        "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Flat.webp",
+        "alt": "Supporting visual material recorded for AudioRii.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riiform",
+        "src": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
+        "alt": "Supporting visual material recorded for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 76,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 19,
+    "href": "/projects/audiorii?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "software-web-engineering",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development · Website development",
+    "summary": "Identity and web-development work for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development",
+      "audiorii-website-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 83.02,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 20.755,
+    "href": "/projects/audiorii?area=software-web-engineering"
   },
   {
     "projectSlug": "bamboograph",

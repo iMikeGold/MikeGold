@@ -1,0 +1,14 @@
+{
+  "id": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T00:00:00.000Z",
+  "updatedAt": "2026-08-03T00:00:00.000Z",
+  "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+  "slug": "audiorii-branding-system",
+  "title": "Branding-system development",
+  "summary": "Branding-system and logo-development work for AudioRii.",
+  "status": "in-progress",
+  "visibility": "public",
+  "lensAssignments": [{ "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on identity, visual language and brand experience." }]
+}

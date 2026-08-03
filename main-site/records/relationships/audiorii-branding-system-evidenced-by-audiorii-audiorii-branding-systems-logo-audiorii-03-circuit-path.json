@@ -1,0 +1,13 @@
+{
+  "id": "1e927a31-d1d4-4e37-91a9-912c421e58f2",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-branding-system-evidenced-by-audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+  "sourceId": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "dd488909-52d3-41fb-9d8e-0cd0c3ba5ee0",
+  "targetType": "evidence"
+}

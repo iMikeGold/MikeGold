@@ -1,0 +1,17 @@
+{
+  "id": "e255be0a-96d3-4797-8a8d-0d4d59334163",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riipulsiv",
+  "title": "AudioRii — supporting visual 07",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 7,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiPulsiv.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fbf658dd-216f-44a4-9d16-e4f715ea3c56",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-branding-system-evidenced-by-audiorii-audiorii-branding-systems-logo-audiorii-bracket-flow",
+  "sourceId": "a7d34af0-4d6f-4dd3-9c9a-6cc39d4c1c91",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "f4634792-c756-42c2-abca-79d49ef7c10c",
+  "targetType": "evidence"
+}

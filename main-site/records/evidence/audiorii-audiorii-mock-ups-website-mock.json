@@ -1,0 +1,17 @@
+{
+  "id": "24dee2cb-450c-4910-a382-37f037f1c397",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-mock-ups-website-mock",
+  "title": "AudioRii — website and digital experience",
+  "description": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/mock_ups/website-mock.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

@@ -22,11 +22,33 @@
       ],
       "source": "derived"
     },
+    "audiorii-branding-system": {
+      "projectSlug": "audiorii",
+      "concepts": [
+        "identity-systems",
+        "logo-artwork"
+      ],
+      "source": "derived"
+    },
+    "audiorii-digital-assets": {
+      "projectSlug": "audiorii",
+      "concepts": [
+        "web-application"
+      ],
+      "source": "derived"
+    },
     "audiorii-system-development": {
       "projectSlug": "audiorii",
       "concepts": [
         "identity-systems",
         "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
+    "audiorii-website-development": {
+      "projectSlug": "audiorii",
+      "concepts": [
         "web-application"
       ],
       "source": "derived"

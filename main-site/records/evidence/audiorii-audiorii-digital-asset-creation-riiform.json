@@ -1,0 +1,17 @@
+{
+  "id": "03da0654-150a-49b0-9dd5-9751ca58375c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riiform",
+  "title": "AudioRii — supporting visual 03",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

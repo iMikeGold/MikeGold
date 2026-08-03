@@ -1,0 +1,17 @@
+{
+  "id": "1861b2bc-7292-408d-92e0-a3ec2c73ce7c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riimix2",
+  "title": "AudioRii — supporting visual 06",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 6,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiMix2.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

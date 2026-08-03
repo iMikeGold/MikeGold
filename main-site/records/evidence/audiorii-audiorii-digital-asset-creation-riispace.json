@@ -1,0 +1,17 @@
+{
+  "id": "f36ecf99-ecd6-4df2-8354-70b39bed1127",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "slug": "audiorii-audiorii-digital-asset-creation-riispace",
+  "title": "AudioRii — supporting visual 10",
+  "description": "Supporting visual material recorded for AudioRii.",
+  "evidenceType": "image",
+  "role": "reference",
+  "sequence": 10,
+  "visibility": "public",
+  "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiSpace.webp",
+  "sourceTitle": "AudioRii",
+  "placeholder": false
+}

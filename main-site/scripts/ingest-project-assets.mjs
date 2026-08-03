@@ -41,6 +41,13 @@ const folderProjects = {
 };
 
 const preferredWork = {
+  audiorii: {
+    branding_systems: "audiorii-branding-system",
+    web_development: "audiorii-website-development",
+    mock_ups: "audiorii-website-development",
+    digital_asset_creation: "audiorii-digital-assets",
+    default: "audiorii-system-development",
+  },
   "mikegold-engineer": { default: "mikegold-engineer-system-development" },
   mickz: {
     branding_systems: "mickz-identity-development",
@@ -178,7 +185,7 @@ for (const asset of filesBelow(assetRoot).sort()) {
   const relativePath = relative(assetRoot, asset);
   const parts = relativePath.split(sep);
   const projectSlug = folderProjects[parts[0]];
-  if (!projectSlug) throw new Error(`No Project mapping for asset folder ${parts[0]}.`);
+  if (!projectSlug) continue;
   const project = projects.get(projectSlug);
   const filename = basename(asset);
   const contribution = workFor(projectSlug, parts.slice(1, -1), filename);

@@ -132,6 +132,140 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "audiorii-branding-system",
+    "projectSlug": "audiorii",
+    "title": "Branding-system development",
+    "summary": "Branding-system and logo-development work for AudioRii.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "brand-experience-systems"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "brand-experience-systems",
+        "role": "primary",
+        "rationale": "The responsibility centres on identity, visual language and brand experience."
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+      "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+      "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+      "audiorii-audiorii-branding-systems-logo-audiorii-07-minimal-arc",
+      "audiorii-audiorii-branding-systems-logo-audiorii-bracket-flow",
+      "audiorii-audiorii-branding-systems-logo-audiorii-flow-arc",
+      "audiorii-audiorii-branding-systems-logo-audiorii-signal-s-curve",
+      "audiorii-audiorii-branding-systems-logo-logo-design-concepts"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-07-minimal-arc",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-bracket-flow",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-flow-arc",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-signal-s-curve",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-logo-design-concepts",
+        "role": "supporting"
+      }
+    ]
+  },
+  {
+    "slug": "audiorii-digital-assets",
+    "projectSlug": "audiorii",
+    "title": "Digital product assets",
+    "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "media-production-distribution"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The responsibility centres on creating and preparing media assets for presentation."
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "audiorii-audiorii-digital-asset-creation-flowarch-box",
+      "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+      "audiorii-audiorii-digital-asset-creation-riiform",
+      "audiorii-audiorii-digital-asset-creation-riilinr",
+      "audiorii-audiorii-digital-asset-creation-riimix",
+      "audiorii-audiorii-digital-asset-creation-riimix2",
+      "audiorii-audiorii-digital-asset-creation-riipulsiv",
+      "audiorii-audiorii-digital-asset-creation-riisamplr",
+      "audiorii-audiorii-digital-asset-creation-riisign",
+      "audiorii-audiorii-digital-asset-creation-riispace"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riiform",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riilinr",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riimix",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riimix2",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riipulsiv",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riisamplr",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riisign",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riispace",
+        "role": "supporting"
+      }
+    ]
+  },
+  {
     "slug": "audiorii-system-development",
     "projectSlug": "audiorii",
     "title": "AudioRii system development",
@@ -156,6 +290,38 @@ export const publicWork = [
     "appliedHatSlugs": [],
     "evidenceSlugs": [],
     "evidenceLinks": []
+  },
+  {
+    "slug": "audiorii-website-development",
+    "projectSlug": "audiorii",
+    "title": "Website development",
+    "summary": "Website and interface development for AudioRii.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "software-web-engineering"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface."
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [
+      "audiorii-audiorii-mock-ups-website-mock",
+      "audiorii-audiorii-web-development-audiorii-website"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+        "role": "supporting"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "role": "supporting"
+      }
+    ]
   },
   {
     "slug": "bamboograph-system-development",
