@@ -121,6 +121,7 @@
     "hardware-product": [],
     "identity-systems": [
       "118-sports-system-development",
+      "audiorii-system-development",
       "best-indies-system-development",
       "bjorr-system-development",
       "cannvent-application-development",
@@ -322,6 +323,7 @@
     ],
     "software-engineering": [
       "118-sports-system-development",
+      "audiorii-system-development",
       "bamboograph-system-development",
       "best-indies-system-development",
       "bonsai-tree-of-life-system-development",
@@ -373,6 +375,7 @@
     "visual-language-system": [],
     "web-application": [
       "118-sports-system-development",
+      "audiorii-system-development",
       "bamboograph-system-development",
       "best-indies-system-development",
       "bonsai-tree-of-life-system-development",

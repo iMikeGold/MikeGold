@@ -10,6 +10,7 @@ const assetRoot = join(root, "public", "images", "projects");
 const timestamp = new Date().toISOString();
 
 const folderProjects = {
+  audiorii: "audiorii",
   "118sports": "118-sports",
   bamboo_graph: "bamboograph",
   best_indies: "best-indies",

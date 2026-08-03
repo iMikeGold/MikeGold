@@ -132,6 +132,32 @@ export const publicWork = [
     ]
   },
   {
+    "slug": "audiorii-system-development",
+    "projectSlug": "audiorii",
+    "title": "AudioRii system development",
+    "summary": "Identity and web-development work for AudioRii.",
+    "status": "in-progress",
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "brand-experience-systems"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on executable digital behaviour implemented in a website or connected software system."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "The responsibility includes identity-system and brand-experience development."
+      }
+    ],
+    "appliedHatSlugs": [],
+    "evidenceSlugs": [],
+    "evidenceLinks": []
+  },
+  {
     "slug": "bamboograph-system-development",
     "projectSlug": "bamboograph",
     "title": "BambooGraph system development",

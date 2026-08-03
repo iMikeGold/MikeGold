@@ -1,0 +1,17 @@
+{
+  "id": "7b2b5b2e-0b4e-4d63-a0a0-1f40e2e9c6b4",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-03T00:00:00.000Z",
+  "updatedAt": "2026-08-03T00:00:00.000Z",
+  "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
+  "slug": "audiorii-system-development",
+  "title": "AudioRii system development",
+  "summary": "Identity and web-development work for AudioRii.",
+  "status": "in-progress",
+  "visibility": "public",
+  "lensAssignments": [
+    { "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable digital behaviour implemented in a website or connected software system." },
+    { "lensId": "brand-experience-systems", "role": "secondary", "rationale": "The responsibility includes identity-system and brand-experience development." }
+  ]
+}

@@ -22,6 +22,15 @@
       ],
       "source": "derived"
     },
+    "audiorii-system-development": {
+      "projectSlug": "audiorii",
+      "concepts": [
+        "identity-systems",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "derived"
+    },
     "bamboograph-system-development": {
       "projectSlug": "bamboograph",
       "concepts": [

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">AudioRii Bracket Flow logo</title>
+  <desc id="desc">A metallic AudioRii wordmark enclosed by two open signal-flow brackets, with cyan input and warm-white output nodes, on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fbfd"/>
+      <stop offset="0.22" stop-color="#aab4bc"/>
+      <stop offset="0.5" stop-color="#f0f4f7"/>
+      <stop offset="0.73" stop-color="#6c7680"/>
+      <stop offset="1" stop-color="#d9e0e5"/>
+    </linearGradient>
+
+    <linearGradient id="leftFlow" x1="118" y1="310" x2="345" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6fd9fb"/>
+      <stop offset="1" stop-color="#bfefff"/>
+    </linearGradient>
+
+    <linearGradient id="rightFlow" x1="1255" y1="310" x2="1482" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#ffd8aa"/>
+    </linearGradient>
+
+    <radialGradient id="cyanNode">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#d7f8ff"/>
+      <stop offset="1" stop-color="#68d6f4"/>
+    </radialGradient>
+
+    <radialGradient id="warmNode">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.38" stop-color="#fff5e7"/>
+      <stop offset="1" stop-color="#ffd09a"/>
+    </radialGradient>
+
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- left bracket / signal input -->
+  <path d="M345 162
+           H286
+           Q250 162 250 198
+           V274
+           H118"
+        fill="none" stroke="url(#leftFlow)" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M118 346
+           H250
+           V422
+           Q250 458 286 458
+           H345"
+        fill="none" stroke="url(#leftFlow)" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right bracket / signal output -->
+  <path d="M1255 162
+           H1314
+           Q1350 162 1350 198
+           V274
+           H1482"
+        fill="none" stroke="url(#rightFlow)" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1482 346
+           H1350
+           V422
+           Q1350 458 1314 458
+           H1255"
+        fill="none" stroke="url(#rightFlow)" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- centre route -->
+  <path d="M118 310 H1482" fill="none" stroke="#d8eef7" stroke-opacity="0.18" stroke-width="18" filter="url(#glow)"/>
+  <path d="M118 310 H1482" fill="none" stroke="url(#leftFlow)" stroke-width="5" opacity="0.85"/>
+
+  <!-- nodes -->
+  <circle cx="118" cy="310" r="12" fill="url(#cyanNode)" filter="url(#glow)"/>
+  <circle cx="1482" cy="310" r="12" fill="url(#warmNode)" filter="url(#glow)"/>
+
+  <!-- vector wordmark -->
+  <path d="M310.000,390.000 L329.556,390.000 L350.024,332.657 L433.511,332.657 L454.393,390.000 L473.783,390.000 L402.436,197.090 L380.684,197.090 L310.000,390.000 Z M355.824,316.333 L374.635,263.879 C378.902,251.698 384.454,235.125 391.456,211.964 C398.459,234.876 403.886,251.077 408.527,263.879 L427.586,316.333 L355.824,316.333 Z M552.893,391.947 C572.325,391.947 589.147,383.661 598.096,363.193 L598.096,390.000 L615.167,390.000 L615.167,245.235 L597.558,245.235 L597.558,335.475 C597.558,360.334 580.363,375.871 557.575,375.871 C535.285,375.871 520.907,361.246 520.907,337.546 L520.907,245.235 L503.299,245.235 L503.299,338.872 C503.299,373.178 523.518,391.947 552.893,391.947 Z M711.238,393.107 C737.424,393.107 749.978,376.410 755.778,362.945 L757.726,362.945 L757.726,390.000 L774.713,390.000 L774.713,197.090 L757.229,197.090 L757.229,273.077 L755.778,273.077 C750.102,259.860 737.921,243.287 711.404,243.287 C676.021,243.287 651.948,273.326 651.948,317.990 C651.948,363.069 675.896,393.107 711.238,393.107 Z M713.600,377.197 C685.343,377.197 669.682,351.136 669.682,317.866 C669.682,284.720 685.219,259.239 713.600,259.239 C741.567,259.239 757.353,283.435 757.353,317.866 C757.353,352.462 741.443,377.197 713.600,377.197 Z M819.093,390.000 L836.702,390.000 L836.702,245.235 L819.093,245.235 L819.093,390.000 Z M827.918,218.428 C835.044,218.428 840.845,213.000 840.845,206.122 C840.845,199.286 835.044,193.858 827.918,193.858 C820.916,193.858 815.115,199.286 815.115,206.122 C815.115,213.000 820.916,218.428 827.918,218.428 Z M937.455,393.107 C975.117,393.107 1001.427,362.406 1001.427,318.404 C1001.427,273.989 974.993,243.287 937.455,243.287 C899.793,243.287 873.483,273.989 873.483,318.404 C873.483,362.406 899.793,393.107 937.455,393.107 Z M937.455,377.197 C907.914,377.197 891.216,350.515 891.216,318.404 C891.216,286.170 907.914,259.239 937.455,259.239 C967.121,259.239 983.818,286.170 983.818,318.404 C983.818,350.515 967.121,377.197 937.455,377.197 Z M1041.565,390.000 L1059.920,390.000 L1059.920,312.438 L1104.625,312.438 C1107.070,312.438 1109.390,312.314 1111.710,312.190 L1153.557,390.000 L1174.771,390.000 L1130.521,308.544 C1154.345,300.671 1166.774,280.991 1166.774,255.220 C1166.774,221.162 1145.271,197.090 1104.460,197.090 L1041.565,197.090 L1041.565,390.000 Z M1059.920,295.865 L1059.920,213.539 L1103.714,213.539 C1133.753,213.539 1148.503,229.946 1148.503,255.220 C1148.503,280.079 1133.753,295.865 1103.838,295.865 L1059.920,295.865 Z M1206.358,390.000 L1223.967,390.000 L1223.967,245.235 L1206.358,245.235 L1206.358,390.000 Z M1215.183,218.428 C1222.309,218.428 1228.110,213.000 1228.110,206.122 C1228.110,199.286 1222.309,193.858 1215.183,193.858 C1208.181,193.858 1202.380,199.286 1202.380,206.122 C1202.380,213.000 1208.181,218.428 1215.183,218.428 Z M1268.248,390.000 L1285.857,390.000 L1285.857,245.235 L1268.248,245.235 L1268.248,390.000 Z M1277.073,218.428 C1284.199,218.428 1290.000,213.000 1290.000,206.122 C1290.000,199.286 1284.199,193.858 1277.073,193.858 C1270.071,193.858 1264.270,199.286 1264.270,206.122 C1264.270,213.000 1270.071,218.428 1277.073,218.428 Z" fill="url(#metal)"/>
+</svg>

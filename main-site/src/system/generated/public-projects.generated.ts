@@ -322,6 +322,13 @@ export const publicProjects = [
     "establishedYear": 2008
   },
   {
+    "slug": "audiorii",
+    "name": "AudioRii",
+    "summary": "Identity and web-development work for AudioRii.",
+    "status": "active-development",
+    "featured": false
+  },
+  {
     "slug": "bamboograph",
     "name": "BambooGraph",
     "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",

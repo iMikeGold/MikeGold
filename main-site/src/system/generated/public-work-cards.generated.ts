@@ -2718,6 +2718,77 @@ export const publicWorkCards = [
     "href": "/projects/2xu-wetsuit-testing?area=physical-systems-engineering"
   },
   {
+    "projectSlug": "audiorii",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Identity and web-development work for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 50,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 12.5,
+    "href": "/projects/audiorii"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "software-web-engineering",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Identity and web-development work for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 50,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 12.5,
+    "href": "/projects/audiorii?area=software-web-engineering"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "brand-experience-systems",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Identity and web-development work for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "No usable contextual lead visual is registered",
+      "Contribution documentation is concise",
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 44.43,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 0,
+    "finalScore": 11.1075,
+    "href": "/projects/audiorii?area=brand-experience-systems"
+  },
+  {
     "projectSlug": "bamboograph",
     "projectName": "BambooGraph",
     "contributionTitle": "BambooGraph system development",
