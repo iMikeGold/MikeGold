@@ -1,63 +1,52 @@
 import Link from "next/link";
 
-export default function CapabilityCards() {
-  return (
-    <section style={{ padding: "60px 40px" }}>
+const capabilities = [
+  {
+    title: "Audio Engineering",
+    summary: "Signal flow, live systems, studio environments.",
+  },
+  {
+    title: "Electrical Systems",
+    summary: "Hardware, circuits, embedded design.",
+  },
+  {
+    title: "Software Systems",
+    summary: "Backend logic, automation, infrastructure.",
+  },
+  {
+    title: "Design Systems",
+    summary: "UI, UX, interaction structure.",
+  },
+  {
+    title: "Media Systems",
+    summary: "Experience design, interactive environments.",
+  },
+] as const;
 
+export default function CapabilitySystem() {
+  return (
+    <section className="core-capability-system">
       <h2>CORE CAPABiLiTY SYSTEMS</h2>
 
-      <p style={{ opacity: 0.7, maxWidth: 700 }}>
-        These are functional domains within the system.
-        Each one expands into a full operational layer.
+      <p className="core-capability-system-intro">
+        These are functional domains within the system. Each one expands into a
+        full operational layer.
       </p>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20, marginTop: 30 }}>
-
-        <Link href="/capabilities">
-          <div style={card}>
-            <h3>Audio Engineering</h3>
-            <p>Signal flow, live systems, studio environments.</p>
-          </div>
-        </Link>
-
-        <Link href="/capabilities">
-          <div style={card}>
-            <h3>Electrical Systems</h3>
-            <p>Hardware, circuits, embedded design.</p>
-          </div>
-        </Link>
-
-        <Link href="/capabilities">
-          <div style={card}>
-            <h3>Software Systems</h3>
-            <p>Backend logic, automation, infrastructure.</p>
-          </div>
-        </Link>
-
-        <Link href="/capabilities">
-          <div style={card}>
-            <h3>Design Systems</h3>
-            <p>UI, UX, interaction structure.</p>
-          </div>
-        </Link>
-
-        <Link href="/capabilities">
-          <div style={card}>
-            <h3>Media Systems</h3>
-            <p>Experience design, interactive environments.</p>
-          </div>
-        </Link>
-
+      <div className="core-capability-system-grid">
+        {capabilities.map((capability) => (
+          <Link
+            href="/capabilities"
+            className="core-capability-system-link"
+            key={capability.title}
+          >
+            <article className="core-capability-system-card">
+              <h3>{capability.title}</h3>
+              <p>{capability.summary}</p>
+            </article>
+          </Link>
+        ))}
       </div>
-
     </section>
   );
 }
-
-const card: React.CSSProperties = {
-  padding: "20px",
-  border: "1px solid #222",
-  borderRadius: "8px",
-  cursor: "pointer",
-  transition: "0.2s",
-};
