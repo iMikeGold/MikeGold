@@ -8,6 +8,8 @@
       "bluedot-festival-the-orb-live-sound-system-design-and-installation"
     ],
     "audio-medium": [
+      "audiorii-digital-assets",
+      "audiorii-website-development",
       "bluedot-festival-the-orb-live-sound-system-design-and-installation",
       "playstation-croatia-ps5-sound-tour-audio-system-implementation",
       "playstation-croatia-ps5-sound-tour-sound-design"
@@ -20,6 +22,7 @@
     ],
     "broadcast-system": [],
     "build-activity": [
+      "audiorii-system-development",
       "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
       "musical-intelligence-deployment",
       "saveours-system-development"
@@ -27,6 +30,7 @@
     "checkout-system": [],
     "cloud-operations": [
       "118-sports-system-development",
+      "audiorii-system-development",
       "bonsai-tree-of-life-system-development",
       "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
       "five9-customer-story-systems-server-systems-and-configuration",
@@ -65,6 +69,7 @@
     "content-system": [],
     "data-systems": [],
     "design-activity": [
+      "audiorii-branding-system",
       "bluedot-festival-the-orb-live-sound-system-design-and-installation",
       "cannvent-application-development",
       "living-control-media-servers-pcb-prototyping-and-design",
@@ -88,6 +93,7 @@
     ],
     "engineer-role": [
       "2xu-wetsuit-testing-distribution-systems",
+      "audiorii-website-development",
       "bamboograph-system-development",
       "best-indies-system-development",
       "bluedot-festival-the-orb-live-sound-system-design-and-installation",
@@ -122,7 +128,6 @@
     "identity-systems": [
       "118-sports-system-development",
       "audiorii-branding-system",
-      "audiorii-system-development",
       "best-indies-system-development",
       "bjorr-system-development",
       "cannvent-application-development",
@@ -179,7 +184,6 @@
       "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
     "logo-artwork": [
-      "audiorii-branding-system",
       "ourgani-identity-development",
       "wrappedfm-identity-development"
     ],
@@ -252,6 +256,7 @@
     "operational-data-system": [],
     "operational-state": [
       "118-sports-system-development",
+      "audiorii-system-development",
       "bluedot-festival-the-orb-live-sound-system-design-and-installation",
       "bristow-operational-excellence-electronics-systems-engineering",
       "five9-customer-story-systems-research-and-systems-thinking",
@@ -325,7 +330,9 @@
     ],
     "software-engineering": [
       "118-sports-system-development",
+      "audiorii-digital-assets",
       "audiorii-system-development",
+      "audiorii-website-development",
       "bamboograph-system-development",
       "best-indies-system-development",
       "bonsai-tree-of-life-system-development",
@@ -377,8 +384,7 @@
     "visual-language-system": [],
     "web-application": [
       "118-sports-system-development",
-      "audiorii-digital-assets",
-      "audiorii-system-development",
+      "audiorii-branding-system",
       "audiorii-website-development",
       "bamboograph-system-development",
       "best-indies-system-development",

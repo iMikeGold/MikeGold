@@ -7,11 +7,11 @@
   "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
   "slug": "audiorii-system-development",
   "title": "AudioRii system development",
-  "summary": "Identity and web-development work for AudioRii.",
+  "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [
-    { "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable digital behaviour implemented in a website or connected software system." },
-    { "lensId": "brand-experience-systems", "role": "secondary", "rationale": "The responsibility includes identity-system and brand-experience development." }
+    { "lensId": "system-product-definition", "role": "primary", "rationale": "AudioRii defines an ecosystem of products, services, platform relationships, licensing, creator structure, boundaries and delivery planning." , "lensSummary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii." },
+    { "lensId": "infrastructure-operations", "role": "secondary", "rationale": "The work establishes operational foundations for product and service delivery, including infrastructure, backend services, deployment, release and licensing systems." , "lensSummary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling." }
   ]
 }

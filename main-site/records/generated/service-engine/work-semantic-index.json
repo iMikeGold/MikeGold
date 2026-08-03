@@ -25,30 +25,36 @@
     "audiorii-branding-system": {
       "projectSlug": "audiorii",
       "concepts": [
+        "design-activity",
         "identity-systems",
-        "logo-artwork"
+        "web-application"
       ],
       "source": "derived"
     },
     "audiorii-digital-assets": {
       "projectSlug": "audiorii",
       "concepts": [
-        "web-application"
+        "audio-medium",
+        "software-engineering"
       ],
       "source": "derived"
     },
     "audiorii-system-development": {
       "projectSlug": "audiorii",
       "concepts": [
-        "identity-systems",
-        "software-engineering",
-        "web-application"
+        "build-activity",
+        "cloud-operations",
+        "operational-state",
+        "software-engineering"
       ],
       "source": "derived"
     },
     "audiorii-website-development": {
       "projectSlug": "audiorii",
       "concepts": [
+        "audio-medium",
+        "engineer-role",
+        "software-engineering",
         "web-application"
       ],
       "source": "derived"

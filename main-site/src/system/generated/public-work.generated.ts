@@ -135,7 +135,7 @@ export const publicWork = [
     "slug": "audiorii-branding-system",
     "projectSlug": "audiorii",
     "title": "Branding-system development",
-    "summary": "Branding-system and logo-development work for AudioRii.",
+    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "brand-experience-systems"
@@ -197,7 +197,7 @@ export const publicWork = [
     "slug": "audiorii-digital-assets",
     "projectSlug": "audiorii",
     "title": "Digital product assets",
-    "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+    "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "media-production-distribution"
@@ -269,33 +269,39 @@ export const publicWork = [
     "slug": "audiorii-system-development",
     "projectSlug": "audiorii",
     "title": "AudioRii system development",
-    "summary": "Identity and web-development work for AudioRii.",
+    "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
     "status": "in-progress",
     "capabilityGroupIds": [
-      "software-web-engineering",
-      "brand-experience-systems"
+      "system-product-definition",
+      "infrastructure-operations"
     ],
     "lensAssignments": [
       {
-        "lensId": "software-web-engineering",
+        "lensId": "system-product-definition",
         "role": "primary",
-        "rationale": "The responsibility centres on executable digital behaviour implemented in a website or connected software system."
+        "rationale": "AudioRii defines an ecosystem of products, services, platform relationships, licensing, creator structure, boundaries and delivery planning.",
+        "lensSummary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii."
       },
       {
-        "lensId": "brand-experience-systems",
+        "lensId": "infrastructure-operations",
         "role": "secondary",
-        "rationale": "The responsibility includes identity-system and brand-experience development."
+        "rationale": "The work establishes operational foundations for product and service delivery, including infrastructure, backend services, deployment, release and licensing systems.",
+        "lensSummary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling."
       }
     ],
     "appliedHatSlugs": [],
     "evidenceSlugs": [],
-    "evidenceLinks": []
+    "evidenceLinks": [],
+    "lensSummaries": {
+      "system-product-definition": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
+      "infrastructure-operations": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling."
+    }
   },
   {
     "slug": "audiorii-website-development",
     "projectSlug": "audiorii",
     "title": "Website development",
-    "summary": "Website and interface development for AudioRii.",
+    "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "software-web-engineering"

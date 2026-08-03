@@ -53,8 +53,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "infrastructure-operations",
-        "editorialSequence": 7,
-        "editorialBoost": 4,
+        "editorialSequence": 3,
+        "editorialBoost": 8,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -105,13 +105,6 @@ export const publicProjects = [
         "editorialBoost": 3,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "media-production-distribution",
-        "editorialSequence": 5,
-        "editorialBoost": 6,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
     ]
   },
@@ -132,6 +125,13 @@ export const publicProjects = [
     "establishedYear": 2013,
     "lensPresentationPreferences": [
       {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 6,
+        "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
         "lensId": "brand-experience-systems",
         "editorialSequence": 7,
         "editorialBoost": 4,
@@ -150,8 +150,8 @@ export const publicProjects = [
     "lensPresentationPreferences": [
       {
         "lensId": "infrastructure-operations",
-        "editorialSequence": 3,
-        "editorialBoost": 8,
+        "editorialSequence": 1,
+        "editorialBoost": 10,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -165,20 +165,6 @@ export const publicProjects = [
     "featured": true,
     "establishedYear": 2026,
     "lensPresentationPreferences": [
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 8,
-        "editorialBoost": 3,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "brand-experience-systems",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
       {
         "lensId": "media-production-distribution",
         "editorialSequence": 7,
@@ -204,13 +190,6 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 9,
-        "editorialBoost": 2,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
         "lensId": "brand-experience-systems",
         "editorialSequence": 9,
         "editorialBoost": 2,
@@ -218,16 +197,9 @@ export const publicProjects = [
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
       {
-        "lensId": "system-product-definition",
-        "editorialSequence": 3,
-        "editorialBoost": 8,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
         "lensId": "media-production-distribution",
-        "editorialSequence": 6,
-        "editorialBoost": 5,
+        "editorialSequence": 5,
+        "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -250,8 +222,8 @@ export const publicProjects = [
       },
       {
         "lensId": "media-production-distribution",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
+        "editorialSequence": 6,
+        "editorialBoost": 5,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -269,13 +241,6 @@ export const publicProjects = [
         "lensId": "software-web-engineering",
         "editorialSequence": 7,
         "editorialBoost": 4,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 6,
-        "editorialBoost": 5,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
@@ -304,9 +269,9 @@ export const publicProjects = [
     "establishedYear": 2013,
     "lensPresentationPreferences": [
       {
-        "lensId": "software-web-engineering",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -326,7 +291,44 @@ export const publicProjects = [
     "name": "AudioRii",
     "summary": "Identity and web-development work for AudioRii.",
     "status": "active-development",
-    "featured": false
+    "featured": false,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 3,
+        "editorialBoost": 8,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
   },
   {
     "slug": "bamboograph",
@@ -417,13 +419,6 @@ export const publicProjects = [
         "editorialBoost": 7,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 5,
-        "editorialBoost": 6,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
     ]
   },
@@ -487,13 +482,6 @@ export const publicProjects = [
         "editorialBoost": 4,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 2,
-        "editorialBoost": 9,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
     ]
   },
@@ -538,8 +526,8 @@ export const publicProjects = [
       },
       {
         "lensId": "infrastructure-operations",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
+        "editorialSequence": 5,
+        "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       },
@@ -591,16 +579,7 @@ export const publicProjects = [
     "summary": "A company identity and corporate web presence with a structured organisational story and domain foundation.",
     "status": "design-development",
     "featured": false,
-    "establishedYear": 2009,
-    "lensPresentationPreferences": [
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      }
-    ]
+    "establishedYear": 2009
   },
   {
     "slug": "living-control-media-servers",

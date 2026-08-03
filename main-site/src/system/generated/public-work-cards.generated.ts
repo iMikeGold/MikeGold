@@ -571,10 +571,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.29,
-    "editorialBoost": 4,
+    "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 7,
-    "finalScore": 44.322500000000005,
+    "editorialSequence": 3,
+    "finalScore": 68.3225,
     "href": "/projects/gouldbourne-registry?area=infrastructure-operations"
   },
   {
@@ -855,14 +855,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "2 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 89.34,
-    "editorialBoost": 6,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 5,
-    "finalScore": 61.335,
+    "finalScore": 22.335,
     "href": "/projects/mickz?area=media-production-distribution"
   },
   {
@@ -1329,12 +1327,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Contribution documentation is concise",
-      "1 evidenced capabilities contribute a capped distinctiveness signal"
+      "1 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 78,
-    "editorialBoost": 0,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
-    "finalScore": 19.5,
+    "editorialSequence": 6,
+    "finalScore": 52.5,
     "href": "/projects/musical-intelligence?area=infrastructure-operations"
   },
   {
@@ -1547,10 +1547,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 67.38,
-    "editorialBoost": 8,
+    "editorialBoost": 10,
     "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 3,
-    "finalScore": 67.845,
+    "editorialSequence": 1,
+    "finalScore": 79.845,
     "href": "/projects/ourgani?area=infrastructure-operations"
   },
   {
@@ -1683,14 +1683,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 7 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "0 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "0 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 71.31,
-    "editorialBoost": 10,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 25.87,
-    "editorialSequence": 1,
-    "finalScore": 80.8275,
+    "finalScore": 17.8275,
     "href": "/projects/protosynthesis?area=brand-experience-systems"
   },
   {
@@ -1930,14 +1928,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 93.9,
-    "editorialBoost": 8,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 3,
-    "finalScore": 74.475,
+    "finalScore": 23.475,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
@@ -2028,10 +2024,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 74.9,
-    "editorialBoost": 5,
+    "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 6,
-    "finalScore": 51.725,
+    "editorialSequence": 5,
+    "finalScore": 57.725,
     "href": "/projects/saveours?area=media-production-distribution"
   },
   {
@@ -2220,10 +2216,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 69.29,
-    "editorialBoost": 7,
+    "editorialBoost": 5,
     "evidenceCompletenessScore": 20.39,
-    "editorialSequence": 4,
-    "finalScore": 62.322500000000005,
+    "editorialSequence": 6,
+    "finalScore": 50.322500000000005,
     "href": "/projects/vendfm?area=media-production-distribution"
   },
   {
@@ -2548,14 +2544,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 10 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+      "3 evidenced capabilities contribute a capped distinctiveness signal"
     ],
     "relevanceScore": 79.46,
-    "editorialBoost": 10,
+    "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 1,
-    "finalScore": 82.865,
+    "finalScore": 19.865,
     "href": "/projects/118-sports?area=software-web-engineering"
   },
   {
@@ -2644,12 +2638,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 10 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 74.9,
-    "editorialBoost": 0,
+    "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
-    "finalScore": 18.725,
+    "editorialSequence": 4,
+    "finalScore": 63.725,
     "href": "/projects/118-sports?area=infrastructure-operations"
   },
   {
@@ -2721,7 +2717,7 @@ export const publicWorkCards = [
     "projectSlug": "audiorii",
     "projectName": "AudioRii",
     "contributionTitle": "Branding-system development · Digital product assets · AudioRii system development · Website development",
-    "summary": "Branding-system and logo-development work for AudioRii.",
+    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
     "relevantWorkSlugs": [
       "audiorii-branding-system",
       "audiorii-digital-assets",
@@ -2766,11 +2762,10 @@ export const publicWorkCards = [
     "projectSlug": "audiorii",
     "lensId": "brand-experience-systems",
     "projectName": "AudioRii",
-    "contributionTitle": "Branding-system development · AudioRii system development",
-    "summary": "Branding-system and logo-development work for AudioRii.",
+    "contributionTitle": "Branding-system development",
+    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
     "relevantWorkSlugs": [
-      "audiorii-branding-system",
-      "audiorii-system-development"
+      "audiorii-branding-system"
     ],
     "leadHatSlugs": [],
     "supportingHatSlugs": [],
@@ -2795,15 +2790,17 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
+      "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.51,
-    "editorialBoost": 0,
+    "relevanceScore": 76,
+    "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
-    "finalScore": 19.8775,
+    "editorialSequence": 1,
+    "finalScore": 82,
     "href": "/projects/audiorii?area=brand-experience-systems"
   },
   {
@@ -2811,7 +2808,7 @@ export const publicWorkCards = [
     "lensId": "media-production-distribution",
     "projectName": "AudioRii",
     "contributionTitle": "Digital product assets",
-    "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+    "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
     "relevantWorkSlugs": [
       "audiorii-digital-assets"
     ],
@@ -2841,22 +2838,113 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 76,
-    "editorialBoost": 0,
+    "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
-    "finalScore": 19,
+    "editorialSequence": 4,
+    "finalScore": 64,
     "href": "/projects/audiorii?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "system-product-definition",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 77,
+    "editorialBoost": 8,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 3,
+    "finalScore": 70.25,
+    "href": "/projects/audiorii?area=system-product-definition"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "infrastructure-operations",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 71.43,
+    "editorialBoost": 9,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 2,
+    "finalScore": 74.8575,
+    "href": "/projects/audiorii?area=infrastructure-operations"
   },
   {
     "projectSlug": "audiorii",
     "lensId": "software-web-engineering",
     "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development · Website development",
-    "summary": "Identity and web-development work for AudioRii.",
+    "contributionTitle": "Website development",
+    "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
     "relevantWorkSlugs": [
-      "audiorii-system-development",
       "audiorii-website-development"
     ],
     "leadHatSlugs": [],
@@ -2882,15 +2970,17 @@ export const publicWorkCards = [
       }
     ],
     "relevanceReasons": [
-      "2 directly relevant contributions with diminishing breadth weighting",
+      "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "0 evidenced capabilities contribute a capped distinctiveness signal"
+      "0 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 83.02,
-    "editorialBoost": 0,
+    "relevanceScore": 76,
+    "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
-    "finalScore": 20.755,
+    "editorialSequence": 1,
+    "finalScore": 82,
     "href": "/projects/audiorii?area=software-web-engineering"
   },
   {
@@ -4601,10 +4691,10 @@ export const publicWorkCards = [
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 74.26,
-    "editorialBoost": 7,
+    "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
-    "editorialSequence": 4,
-    "finalScore": 63.565,
+    "editorialSequence": 5,
+    "finalScore": 57.565,
     "href": "/projects/house-of-gold?area=infrastructure-operations"
   },
   {

@@ -7,7 +7,7 @@
   "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
   "slug": "audiorii-website-development",
   "title": "Website development",
-  "summary": "Website and interface development for AudioRii.",
+  "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [{ "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable digital behaviour implemented in a website or interface." }]

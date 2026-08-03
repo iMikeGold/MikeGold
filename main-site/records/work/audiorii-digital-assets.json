@@ -7,7 +7,7 @@
   "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
   "slug": "audiorii-digital-assets",
   "title": "Digital product assets",
-  "summary": "Digital product, interface and product-concept asset creation for AudioRii.",
+  "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [{ "lensId": "media-production-distribution", "role": "primary", "rationale": "The responsibility centres on creating and preparing media assets for presentation." }]
