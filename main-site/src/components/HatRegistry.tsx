@@ -162,6 +162,28 @@ export default function HatRegistry({
   const tileBrowserRef = useRef<HTMLDivElement | null>(null);
   const tileRefs = useRef(new Map<string, HTMLElement>());
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requestedQuery = params.get("q")?.trim();
+    if (requestedQuery) setSearchQuery(requestedQuery);
+
+    const requestedHatId = params.get("hat")?.trim();
+    if (!requestedHatId) return;
+
+    const requestedHat = hats.find(
+      (hat) => hat.slug === requestedHatId || hat.id === requestedHatId,
+    );
+    if (!requestedHat) return;
+
+    setSelectedHats([requestedHat]);
+    setActiveHat(requestedHat);
+    setCollapsedSections((previous) => ({
+      ...previous,
+      [requestedHat.category]: false,
+    }));
+    setPendingRevealHatId(requestedHat.id);
+  }, []);
+
   // ------------------------------
   // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
   // ------------------------------

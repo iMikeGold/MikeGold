@@ -8,10 +8,20 @@ import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
 
-// OpenNext must be allowed to resolve the generated project slugs at request
-// time. Closing the route with `dynamicParams = false` caused the Worker to
-// return its 404 page for every otherwise valid `/projects/<slug>` URL.
+export const dynamic = "force-static";
 export const dynamicParams = true;
+export const revalidate = false;
+
+const projectBySlug = new Map(publicProjects.map((project) => [project.slug, project]));
+const evidenceBySlug = new Map(publicEvidence.map((evidence) => [evidence.slug, evidence]));
+const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
+const workByProjectSlug = new Map<string, Array<(typeof publicWork)[number]>>();
+
+for (const item of publicWork) {
+  const projectWork = workByProjectSlug.get(item.projectSlug) ?? [];
+  projectWork.push(item);
+  workByProjectSlug.set(item.projectSlug, projectWork);
+}
 
 export function generateStaticParams() {
   return publicProjects.map((project) => ({ slug: project.slug }));
@@ -23,10 +33,19 @@ export default async function ProjectRecordPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const project = publicProjects.find((candidate) => candidate.slug === slug);
+  const project = projectBySlug.get(slug);
   if (!project) notFound();
 
-  const work = publicWork.filter((item) => item.projectSlug === project.slug);
+  const work = workByProjectSlug.get(project.slug) ?? [];
+  const hats = [...new Set(work.flatMap((item) => item.appliedHatSlugs))].flatMap((hatSlug) => {
+    const hat = hatBySlug.get(hatSlug);
+    return hat ? [{ slug: hat.slug, name: hat.name }] : [];
+  });
+  const evidence = [...new Set(work.flatMap((item) => item.evidenceSlugs))].flatMap((evidenceSlug) => {
+    const item = evidenceBySlug.get(evidenceSlug);
+    return item ? [item] : [];
+  });
+
   return (
     <main>
       <article className={`page project-record-page project-record-page-${project.slug}`}>
@@ -45,7 +64,7 @@ export default async function ProjectRecordPage({
         <section>
           <p className="work-kicker">MY CONTRIBUTION</p>
           <h2>Documented work</h2>
-          <ProjectWorkArchive work={work} hats={publicHats} evidence={publicEvidence} />
+          <ProjectWorkArchive work={work} hats={hats} evidence={evidence} />
         </section>
       </article>
       <Footer />

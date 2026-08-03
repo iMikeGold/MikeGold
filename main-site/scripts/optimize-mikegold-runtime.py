@@ -1,4 +1,327 @@
-"use client";
+#!/usr/bin/env python3
+# Apply the MikeGold archive runtime optimisation.
+#
+# Run from ~/Dev/MikeGold/main-site, or let the script use that default path:
+#   python3 optimize_mikegold_runtime.py
+#   python3 optimize_mikegold_runtime.py --build
+#
+# The script is idempotent and aborts if expected source markers cannot be found.
+
+from __future__ import annotations
+
+import argparse
+import subprocess
+import sys
+from pathlib import Path
+
+
+OPEN_NEXT_CONFIG = '''import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
+
+export default defineCloudflareConfig({
+  incrementalCache: staticAssetsIncrementalCache,
+  enableCacheInterception: true,
+});
+'''
+
+PROJECTS_PAGE = '''import WorkExplorer from "@/components/work/WorkExplorer";
+import Footer from "@/components/sections/Footer";
+import { publicHats } from "@/system/generated/public-hats.generated";
+import { publicProjects } from "@/system/generated/public-projects.generated";
+import { publicWork } from "@/system/generated/public-work.generated";
+import { publicWorkCards } from "@/system/generated/public-work-cards.generated";
+
+export const dynamic = "force-static";
+
+const explorerProjects = publicProjects.map(({
+  slug,
+  name,
+  summary,
+  status,
+  context,
+  establishedYear,
+}) => ({
+  slug,
+  name,
+  summary,
+  status,
+  context,
+  establishedYear,
+}));
+
+const explorerWork = publicWork.map(({
+  slug,
+  projectSlug,
+  title,
+  summary,
+  capabilityGroupIds,
+  appliedHatSlugs,
+}) => ({
+  slug,
+  projectSlug,
+  title,
+  summary,
+  capabilityGroupIds,
+  appliedHatSlugs,
+}));
+
+const explorerHats = publicHats.map(({ slug, name }) => ({ slug, name }));
+
+const explorerCards = publicWorkCards.map(({
+  projectSlug,
+  lensId,
+  projectName,
+  contributionTitle,
+  summary,
+  relevantWorkSlugs,
+  leadHatSlugs,
+  supportingHatSlugs,
+  primaryVisual,
+  evidenceCompletenessScore,
+  editorialSequence,
+  finalScore,
+  href,
+}) => ({
+  projectSlug,
+  lensId,
+  projectName,
+  contributionTitle,
+  summary,
+  relevantWorkSlugs,
+  leadHatSlugs,
+  supportingHatSlugs,
+  primaryVisual,
+  evidenceCompletenessScore,
+  editorialSequence,
+  finalScore,
+  href,
+}));
+
+export default function ProjectsPage() {
+  return (
+    <main>
+      <div className="page work-page">
+        <WorkExplorer
+          projects={explorerProjects}
+          work={explorerWork}
+          hats={explorerHats}
+          cards={explorerCards}
+        />
+      </div>
+      <Footer />
+    </main>
+  );
+}
+'''
+
+REGISTRY_PAGE = '''import HatRegistry from "@/components/HatRegistry";
+import Footer from "@/components/sections/Footer";
+
+export const dynamic = "force-static";
+
+export default function RegistryPage() {
+  return (
+    <main> 
+
+    <div style={{ padding: "40px" }}>
+
+      {/* SYSTEM HEADER */}
+      <div style={{ marginBottom: "24px" }}>
+        <h1 style={{ margin: 0 }}>HAT REGiSTRY</h1>
+
+        <p style={{ opacity: 0.7, marginTop: "8px" }}>
+          133 capabilities forming a connected system graph.
+        </p>
+
+        <p style={{ opacity: 0.5 }}>
+          Expand nodes to explore relationships, overlap, and system strength.
+        </p>
+      </div>
+
+      {/* SYSTEM STATUS BAR (optional but powerful) */}
+      <div
+        style={{
+          display: "flex",
+          gap: "12px",
+          marginBottom: "20px",
+          fontSize: "12px",
+          opacity: 0.6
+        }}
+      >
+        <span>● ACTIVE SYSTEM</span>
+        <span>● GRAPH MODE</span>
+        <span>● 105 NODES LOADED</span>
+      </div>
+
+      {/* CORE SYSTEM */}
+      <HatRegistry />
+      </div>
+      <Footer />
+    </main>
+  );
+}
+'''
+
+PROJECT_DETAIL_PAGE = '''import { notFound } from "next/navigation";
+import Footer from "@/components/sections/Footer";
+import BjorrIdentityLanguage from "@/components/work/BjorrIdentityLanguage";
+import ProjectContextBackLink from "@/components/work/ProjectContextBackLink";
+import ProjectWorkArchive from "@/components/work/ProjectWorkArchive";
+import { publicEvidence } from "@/system/generated/public-evidence.generated";
+import { publicHats } from "@/system/generated/public-hats.generated";
+import { publicProjects } from "@/system/generated/public-projects.generated";
+import { publicWork } from "@/system/generated/public-work.generated";
+
+export const dynamic = "force-static";
+export const dynamicParams = true;
+export const revalidate = false;
+
+const projectBySlug = new Map(publicProjects.map((project) => [project.slug, project]));
+const evidenceBySlug = new Map(publicEvidence.map((evidence) => [evidence.slug, evidence]));
+const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
+const workByProjectSlug = new Map<string, Array<(typeof publicWork)[number]>>();
+
+for (const item of publicWork) {
+  const projectWork = workByProjectSlug.get(item.projectSlug) ?? [];
+  projectWork.push(item);
+  workByProjectSlug.set(item.projectSlug, projectWork);
+}
+
+export function generateStaticParams() {
+  return publicProjects.map((project) => ({ slug: project.slug }));
+}
+
+export default async function ProjectRecordPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const project = projectBySlug.get(slug);
+  if (!project) notFound();
+
+  const work = workByProjectSlug.get(project.slug) ?? [];
+  const hats = [...new Set(work.flatMap((item) => item.appliedHatSlugs))].flatMap((hatSlug) => {
+    const hat = hatBySlug.get(hatSlug);
+    return hat ? [{ slug: hat.slug, name: hat.name }] : [];
+  });
+  const evidence = [...new Set(work.flatMap((item) => item.evidenceSlugs))].flatMap((evidenceSlug) => {
+    const item = evidenceBySlug.get(evidenceSlug);
+    return item ? [item] : [];
+  });
+
+  return (
+    <main>
+      <article className={`page project-record-page project-record-page-${project.slug}`}>
+        <ProjectContextBackLink />
+        <header className="project-record-hero">
+          <div className="record-status-row">
+            <span>{project.status.replaceAll("-", " ")}</span>
+            <span>{project.context ?? project.establishedYear ?? "Period being documented"}</span>
+          </div>
+          <h1>{project.name}</h1>
+          <p>{project.summary}</p>
+        </header>
+
+        {project.slug === "bjorr" && <BjorrIdentityLanguage />}
+
+        <section>
+          <p className="work-kicker">MY CONTRIBUTION</p>
+          <h2>Documented work</h2>
+          <ProjectWorkArchive work={work} hats={hats} evidence={evidence} />
+        </section>
+      </article>
+      <Footer />
+    </main>
+  );
+}
+'''
+
+PROJECT_WORK_ARCHIVE = '''"use client";
+
+import { useEffect, useMemo, useState } from "react";
+import EvidenceDisclosure from "@/components/work/EvidenceDisclosure";
+import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
+import { resolveCapabilityGroupId, type CapabilityGroupId } from "@/system/work/capability-groups";
+import type { PublicWorkProjection } from "@/system/work/work.types";
+
+type HatLabel = {
+  slug: string;
+  name: string;
+};
+
+export default function ProjectWorkArchive({ work, hats, evidence }: {
+  work: PublicWorkProjection[];
+  hats: HatLabel[];
+  evidence: PublicEvidenceProjection[];
+}) {
+  const [area, setArea] = useState<CapabilityGroupId | "">("");
+
+  useEffect(() => {
+    const requested = resolveCapabilityGroupId(new URLSearchParams(window.location.search).get("area"));
+    if (requested) setArea(requested);
+  }, []);
+
+  const hatBySlug = useMemo(() => new Map(hats.map((hat) => [hat.slug, hat])), [hats]);
+  const evidenceBySlug = useMemo(() => new Map(evidence.map((item) => [item.slug, item])), [evidence]);
+  const orderedWork = useMemo(
+    () => work
+      .map((item, index) => ({ item, index }))
+      .sort((left, right) => {
+        const leftContext = area && left.item.capabilityGroupIds.includes(area) ? 0 : 1;
+        const rightContext = area && right.item.capabilityGroupIds.includes(area) ? 0 : 1;
+        return leftContext - rightContext
+          || (left.item.sequence ?? 999) - (right.item.sequence ?? 999)
+          || left.index - right.index;
+      })
+      .map(({ item }) => item),
+    [area, work],
+  );
+
+  return (
+    <div className="project-work-sections">
+      {orderedWork.map((item) => {
+        const isContextual = !area || item.capabilityGroupIds.includes(area);
+        const itemEvidence = item.evidenceSlugs.flatMap((slug) => {
+          const record = evidenceBySlug.get(slug);
+          return record ? [record] : [];
+        });
+
+        return (
+          <article key={item.slug} className={`project-work-section${isContextual ? " is-contextual" : ""}`}>
+            <div className="record-status-row">
+              <span>{item.status.replaceAll("-", " ")}</span>
+              <span>Work contribution</span>
+            </div>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            {!!item.appliedHatSlugs.length && (
+              <div className="applied-hat-list" aria-label="Applied Hats">
+                {item.appliedHatSlugs.map((slug) => (
+                  <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
+                ))}
+              </div>
+            )}
+            {!!item.stages?.length && (
+              <ol className="work-stage-list">
+                {item.stages.map((stage) => (
+                  <li key={stage.key}>
+                    <strong>{stage.label}</strong>
+                    <span>{stage.status.replaceAll("-", " ")}</span>
+                  </li>
+                ))}
+              </ol>
+            )}
+            <EvidenceDisclosure evidence={itemEvidence} defaultOpen={false} />
+          </article>
+        );
+      })}
+    </div>
+  );
+}
+'''
+
+WORK_EXPLORER = '''"use client";
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
@@ -642,3 +965,236 @@ export default function WorkExplorer({
     </section>
   );
 }
+'''
+
+VALIDATE_RUNTIME = '''import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
+
+const root = new URL("..", import.meta.url).pathname;
+const requiredFiles = [
+  "open-next.config.ts",
+  "wrangler.jsonc",
+  "src/app/api/engine/analyse/route.ts",
+  "src/server/service-engine/analyse-public-service.ts",
+  "src/app/projects/page.tsx",
+  "src/app/projects/[slug]/page.tsx",
+  "src/app/registry/page.tsx",
+];
+const errors = requiredFiles
+  .filter((file) => !existsSync(join(root, file)))
+  .map((file) => `Missing Service Engine runtime file: ${file}`);
+
+const nextConfig = readFileSync(join(root, "next.config.ts"), "utf8");
+if (/output\\s*:\\s*["']export["']/.test(nextConfig)) {
+  errors.push("Static export cannot be enabled while the private Service Engine route exists.");
+}
+
+const route = readFileSync(join(root, "src/app/api/engine/analyse/route.ts"), "utf8");
+if (!route.includes("export async function POST")) errors.push("Service Engine route must expose POST.");
+if (!route.includes("private, no-store")) errors.push("Service Engine route must return private, no-store responses.");
+
+const openNextConfig = readFileSync(join(root, "open-next.config.ts"), "utf8");
+if (!openNextConfig.includes("staticAssetsIncrementalCache")) {
+  errors.push("OpenNext must use the static-assets incremental cache for prerendered routes.");
+}
+if (!openNextConfig.includes("enableCacheInterception: true")) {
+  errors.push("OpenNext cache interception must remain enabled for prerendered routes.");
+}
+
+for (const file of ["src/app/projects/page.tsx", "src/app/registry/page.tsx"]) {
+  const source = readFileSync(join(root, file), "utf8");
+  if (!source.includes('export const dynamic = "force-static"')) {
+    errors.push(`${file} must remain force-static.`);
+  }
+  if (source.includes("searchParams")) {
+    errors.push(`${file} must read URL filters in its client component, not at Worker runtime.`);
+  }
+}
+
+const projectRoute = readFileSync(join(root, "src/app/projects/[slug]/page.tsx"), "utf8");
+if (!projectRoute.includes("generateStaticParams")) {
+  errors.push("Project records must enumerate known slugs at build time.");
+}
+if (!projectRoute.includes('export const dynamic = "force-static"')) {
+  errors.push("Known project records must remain force-static.");
+}
+
+if (errors.length) {
+  console.error(JSON.stringify({ errors }, null, 2));
+  process.exit(1);
+}
+
+console.log(JSON.stringify({
+  runtime: "OpenNext Cloudflare Worker",
+  staticExport: false,
+  privateAnalyserRoute: true,
+  prerenderedRouteCache: "Workers Static Assets",
+  staticArchiveRoutes: ["/projects", "/registry", "/projects/[slug]"],
+  errors: [],
+}, null, 2));
+'''
+
+HEADERS = '''/_next/static/*
+  Cache-Control: public,max-age=31536000,immutable
+'''
+
+HAT_URL_EFFECT = '''  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requestedQuery = params.get("q")?.trim();
+    if (requestedQuery) setSearchQuery(requestedQuery);
+
+    const requestedHatId = params.get("hat")?.trim();
+    if (!requestedHatId) return;
+
+    const requestedHat = hats.find(
+      (hat) => hat.slug === requestedHatId || hat.id === requestedHatId,
+    );
+    if (!requestedHat) return;
+
+    setSelectedHats([requestedHat]);
+    setActiveHat(requestedHat);
+    setCollapsedSections((previous) => ({
+      ...previous,
+      [requestedHat.category]: false,
+    }));
+    setPendingRevealHatId(requestedHat.id);
+  }, []);
+
+'''
+
+
+def write_text(path: Path, content: str) -> bool:
+    current = path.read_text(encoding="utf-8") if path.exists() else None
+    if current == content:
+        print(f"unchanged  {path}")
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
+    print(f"updated    {path}")
+    return True
+
+
+def insert_hat_url_effect(path: Path) -> bool:
+    source = path.read_text(encoding="utf-8")
+    if 'const requestedHatId = params.get("hat")?.trim();' in source:
+        print(f"unchanged  {path}")
+        return False
+
+    marker = '''  const tileBrowserRef = useRef<HTMLDivElement | null>(null);
+  const tileRefs = useRef(new Map<string, HTMLElement>());
+
+'''
+    if marker not in source:
+        raise RuntimeError(f"Expected HatRegistry state marker was not found in {path}")
+
+    path.write_text(source.replace(marker, marker + HAT_URL_EFFECT, 1), encoding="utf-8")
+    print(f"updated    {path}")
+    return True
+
+
+def update_wrangler(path: Path) -> bool:
+    source = path.read_text(encoding="utf-8")
+    if '"run_worker_first": false' in source:
+        print(f"unchanged  {path}")
+        return False
+
+    marker = '''  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },'''
+    replacement = '''  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    "run_worker_first": false
+  },'''
+    if marker not in source:
+        raise RuntimeError(f"Expected Wrangler assets block was not found in {path}")
+
+    updated = source.replace(marker, replacement, 1)
+    if not updated.endswith("\n"):
+        updated += "\n"
+    path.write_text(updated, encoding="utf-8")
+    print(f"updated    {path}")
+    return True
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--root",
+        type=Path,
+        default=Path.cwd(),
+        help="Path to main-site (defaults to the current directory).",
+    )
+    parser.add_argument(
+        "--build",
+        action="store_true",
+        help="Run npm run build:cloudflare after applying the patch.",
+    )
+    args = parser.parse_args()
+
+    root = args.root.expanduser().resolve()
+    if not (root / "package.json").exists():
+        fallback = Path.home() / "Dev" / "MikeGold" / "main-site"
+        if fallback.exists():
+            root = fallback.resolve()
+        else:
+            print("Run this script from ~/Dev/MikeGold/main-site or pass --root.", file=sys.stderr)
+            return 2
+
+    required = [
+        root / "open-next.config.ts",
+        root / "wrangler.jsonc",
+        root / "src/app/projects/page.tsx",
+        root / "src/app/projects/[slug]/page.tsx",
+        root / "src/app/registry/page.tsx",
+        root / "src/components/HatRegistry.tsx",
+        root / "src/components/work/ProjectWorkArchive.tsx",
+        root / "src/components/work/WorkExplorer.tsx",
+        root / "scripts/validate-service-runtime.mjs",
+    ]
+    missing = [str(path) for path in required if not path.exists()]
+    if missing:
+        print("Missing required files:\n" + "\n".join(missing), file=sys.stderr)
+        return 2
+
+    changed = []
+    replacements = {
+        root / "open-next.config.ts": OPEN_NEXT_CONFIG,
+        root / "src/app/projects/page.tsx": PROJECTS_PAGE,
+        root / "src/app/registry/page.tsx": REGISTRY_PAGE,
+        root / "src/app/projects/[slug]/page.tsx": PROJECT_DETAIL_PAGE,
+        root / "src/components/work/ProjectWorkArchive.tsx": PROJECT_WORK_ARCHIVE,
+        root / "src/components/work/WorkExplorer.tsx": WORK_EXPLORER,
+        root / "scripts/validate-service-runtime.mjs": VALIDATE_RUNTIME,
+        root / "public/_headers": HEADERS,
+    }
+
+    for path, content in replacements.items():
+        if write_text(path, content):
+            changed.append(path)
+
+    if insert_hat_url_effect(root / "src/components/HatRegistry.tsx"):
+        changed.append(root / "src/components/HatRegistry.tsx")
+    if update_wrangler(root / "wrangler.jsonc"):
+        changed.append(root / "wrangler.jsonc")
+
+    print("\nApplied MikeGold runtime optimisation.")
+    print(f"Changed files: {len(changed)}")
+    for path in changed:
+        print(f"  - {path.relative_to(root)}")
+
+    if args.build:
+        print("\nRunning npm run build:cloudflare ...")
+        completed = subprocess.run(["npm", "run", "build:cloudflare"], cwd=root)
+        return completed.returncode
+
+    print("\nNext:")
+    print("  npm run build:cloudflare")
+    print("  git diff --check")
+    print("  git status --short")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

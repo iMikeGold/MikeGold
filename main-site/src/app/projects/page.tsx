@@ -5,35 +5,81 @@ import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
 import { publicWorkCards } from "@/system/generated/public-work-cards.generated";
 
-import { resolveCapabilityGroupId, type CapabilityGroupId } from "@/system/work/capability-groups";
+export const dynamic = "force-static";
 
-export default async function ProjectsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ area?: string; q?: string; hat?: string; sort?: string; limit?: string }>;
-}) {
-  const params = await searchParams;
-  const initialGroup = (resolveCapabilityGroupId(params.area ?? null) ?? "") as CapabilityGroupId | "";
-  const initialSort = params.sort === "name" || params.sort === "newest" || params.sort === "oldest"
-    ? params.sort
-    : "relevance";
-  const requestedLimit = Number(params.limit);
-  const initialLimit = Number.isFinite(requestedLimit) && requestedLimit > 7
-    ? Math.ceil(requestedLimit / 7) * 7
-    : 7;
+const explorerProjects = publicProjects.map(({
+  slug,
+  name,
+  summary,
+  status,
+  context,
+  establishedYear,
+}) => ({
+  slug,
+  name,
+  summary,
+  status,
+  context,
+  establishedYear,
+}));
+
+const explorerWork = publicWork.map(({
+  slug,
+  projectSlug,
+  title,
+  summary,
+  capabilityGroupIds,
+  appliedHatSlugs,
+}) => ({
+  slug,
+  projectSlug,
+  title,
+  summary,
+  capabilityGroupIds,
+  appliedHatSlugs,
+}));
+
+const explorerHats = publicHats.map(({ slug, name }) => ({ slug, name }));
+
+const explorerCards = publicWorkCards.map(({
+  projectSlug,
+  lensId,
+  projectName,
+  contributionTitle,
+  summary,
+  relevantWorkSlugs,
+  leadHatSlugs,
+  supportingHatSlugs,
+  primaryVisual,
+  evidenceCompletenessScore,
+  editorialSequence,
+  finalScore,
+  href,
+}) => ({
+  projectSlug,
+  lensId,
+  projectName,
+  contributionTitle,
+  summary,
+  relevantWorkSlugs,
+  leadHatSlugs,
+  supportingHatSlugs,
+  primaryVisual,
+  evidenceCompletenessScore,
+  editorialSequence,
+  finalScore,
+  href,
+}));
+
+export default function ProjectsPage() {
   return (
     <main>
       <div className="page work-page">
         <WorkExplorer
-          projects={publicProjects}
-          work={publicWork}
-          hats={publicHats}
-          cards={publicWorkCards}
-          initialGroup={initialGroup}
-          initialQuery={params.q ?? ""}
-          initialHat={params.hat ?? ""}
-          initialSort={initialSort}
-          initialLimit={initialLimit}
+          projects={explorerProjects}
+          work={explorerWork}
+          hats={explorerHats}
+          cards={explorerCards}
         />
       </div>
       <Footer />
