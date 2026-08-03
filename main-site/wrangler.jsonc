@@ -4,10 +4,11 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-23",
   "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
   "routes": [
     {
-      "pattern": "mikegold.co.uk/*",
-      "zone_name": "mikegold.co.uk"
+      "pattern": "mikegold.co.uk",
+      "custom_domain": true
     }
   ],
   "assets": {
