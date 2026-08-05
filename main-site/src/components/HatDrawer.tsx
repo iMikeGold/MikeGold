@@ -116,16 +116,27 @@ const drawerCSS = `
 }
 
 .hat-console__content {
-  min-height: 150px;
+  min-height: 0 !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  padding-bottom: max(30px, env(safe-area-inset-bottom)) !important;
 }
 
-@media (max-width: 1100px) and (min-width: 768px) {
-  .hat-console__content {
-    min-height: 170px;
-  }
+.hat-console__related {
+  padding-bottom: 22px;
+}
+
+#hat-registry-root[data-portrait="false"] .hat-console {
+  grid-template-rows: auto auto auto auto minmax(0, 1fr) !important;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="false"] {
+  height: max(580px, calc(100svh - 40px)) !important;
+  min-height: 580px !important;
+  max-height: 760px !important;
   grid-template-columns: minmax(0, 1fr) minmax(350px, 48%) !important;
 }
 
@@ -160,13 +171,22 @@ const drawerCSS = `
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] {
-  height: max(900px, calc(100dvh + 70px)) !important;
-  min-height: 900px !important;
-  grid-template-rows: clamp(590px, 68dvh, 640px) 58px minmax(250px, 1fr) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  grid-template-rows: auto 58px minmax(340px, 55svh) !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] #hat-registry-drawer {
+  height: auto;
+  min-height: 0;
+  overflow: visible;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console {
-  grid-template-rows: auto auto auto auto minmax(170px, 1fr) !important;
+  height: auto;
+  grid-template-rows: auto auto auto auto auto !important;
+  overflow: visible;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__visual {
@@ -210,6 +230,13 @@ const drawerCSS = `
   overflow: visible !important;
   max-height: none !important;
   padding: 12px !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__content {
+  width: 100%;
+  max-height: clamp(170px, 28svh, 280px);
+  min-height: 0 !important;
+  overflow-y: auto !important;
 }
 `;
 
