@@ -3,11 +3,11 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-system-development",
   "title": "SaveOurs system development",
-  "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+  "summary": "Product and platform architecture for a social saving experience built around the things people love, share and collect.",
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [
@@ -20,13 +20,13 @@
       "lensId": "brand-experience-systems",
       "role": "secondary",
       "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+      "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
     },
     {
       "lensId": "media-production-distribution",
       "role": "secondary",
       "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
-      "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+      "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
     }
   ]
 }
