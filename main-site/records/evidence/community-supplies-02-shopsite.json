@@ -1,0 +1,24 @@
+{
+  "id": "78fdc8af-1b5f-49ae-9317-f0aa89ab6139",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "community-supplies-02-shopsite",
+  "title": "Community Supplies — shop experience",
+  "description": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+  "sourceTitle": "Community Supplies",
+  "phase": "Commerce interface",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

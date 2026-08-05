@@ -1,0 +1,24 @@
+{
+  "id": "ef9b9810-bb29-4f34-82c8-f753eae81f85",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "metroplist-02-appsite",
+  "title": "Metroplist — application experience",
+  "description": "Application interface translating place and density intelligence into an exploratory product surface.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 2,
+  "visibility": "public",
+  "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+  "sourceTitle": "Metroplist",
+  "phase": "Application experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

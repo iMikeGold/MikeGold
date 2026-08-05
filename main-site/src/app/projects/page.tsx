@@ -6,12 +6,26 @@ import { publicWork } from "@/system/generated/public-work.generated";
 import { publicWorkCards } from "@/system/generated/public-work-cards.generated";
 import type { ProjectCaseStudyRecord } from "@/system/projects/project-case-study.types";
 import caseStudyRecords from "../../../records/presentation/project-case-studies.json";
+import projectMediaRecords from "../../../records/presentation/project-media.json";
 
 export const dynamic = "force-static";
+
+type ProjectMediaRecord = {
+  projectSlug?: string;
+  assetPath: string;
+  label: string;
+};
 
 const caseStudyByProjectSlug = new Map(
   (caseStudyRecords as ProjectCaseStudyRecord[]).map((caseStudy) => [caseStudy.projectSlug, caseStudy]),
 );
+
+const projectMediaByProjectSlug = new Map<string, ProjectMediaRecord>();
+for (const media of projectMediaRecords as ProjectMediaRecord[]) {
+  if (media.projectSlug && !projectMediaByProjectSlug.has(media.projectSlug)) {
+    projectMediaByProjectSlug.set(media.projectSlug, media);
+  }
+}
 
 const explorerProjects = publicProjects.map(({
   slug,
@@ -63,7 +77,10 @@ const explorerCards = publicWorkCards.map(({
   href,
 }) => {
   const caseStudy = lensId ? undefined : caseStudyByProjectSlug.get(projectSlug);
+  const currentMedia = lensId ? undefined : projectMediaByProjectSlug.get(projectSlug);
   const featuredOrder = caseStudy?.featuredOrder;
+  const heroSrc = currentMedia?.assetPath ?? caseStudy?.heroImage?.src;
+  const heroAlt = caseStudy?.heroImage?.alt ?? currentMedia?.label ?? `${projectName} project`;
 
   return {
     projectSlug,
@@ -74,11 +91,11 @@ const explorerCards = publicWorkCards.map(({
     relevantWorkSlugs,
     leadHatSlugs,
     supportingHatSlugs,
-    primaryVisual: caseStudy?.heroImage
+    primaryVisual: heroSrc
       ? {
           evidenceSlug: `case-study-${projectSlug}`,
-          src: caseStudy.heroImage.src,
-          alt: caseStudy.heroImage.alt,
+          src: heroSrc,
+          alt: heroAlt,
           evidenceType: "image" as const,
         }
       : primaryVisual,

@@ -1,0 +1,24 @@
+{
+  "id": "b2c1449e-13f1-4dba-bd0c-109fc1b94616",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "metroplist-03-appsite-explore",
+  "title": "Metroplist — spatial exploration view",
+  "description": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+  "sourceTitle": "Metroplist",
+  "phase": "Application experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

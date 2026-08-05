@@ -1,0 +1,16 @@
+{
+  "id": "d6d5cf2b-3235-45cf-abaa-00a3fd263d88",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "the-visionary-guide-03-appsite-positions-evidenced-by-link",
+  "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "ab90829b-0226-45d1-bab2-986acfd69221",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["supporting", "gallery"],
+  "priority": 3
+}

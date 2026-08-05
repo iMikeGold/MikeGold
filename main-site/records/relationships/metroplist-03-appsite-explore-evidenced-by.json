@@ -1,0 +1,16 @@
+{
+  "id": "510c4789-d8fb-43f4-bda4-a47520adff0f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "metroplist-03-appsite-explore-evidenced-by-link",
+  "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "b2c1449e-13f1-4dba-bd0c-109fc1b94616",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["supporting", "gallery"],
+  "priority": 3
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cedd7328-d066-425b-9c43-75f0972f7fb0",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "metroplist-04-appsite-compare",
+  "title": "Metroplist — place comparison view",
+  "description": "Comparison interface showing how Metroplist frames multiple places through a consistent visual and statistical language.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite-compare.webp",
+  "sourceTitle": "Metroplist",
+  "phase": "Application experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

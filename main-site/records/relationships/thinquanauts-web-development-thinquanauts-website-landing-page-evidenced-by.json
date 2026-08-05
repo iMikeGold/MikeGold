@@ -1,0 +1,16 @@
+{
+  "id": "39992ca8-d20a-40bb-9add-8dd6e49bf98e",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "thinquanauts-web-development-thinquanauts-website-landing-page-evidenced-by-link",
+  "sourceId": "0ef3e4f2-0818-4740-99f3-5281989356a8",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "e881b56b-46e2-4a5f-8581-4226bdd04ab6",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["supporting", "gallery"],
+  "priority": 1
+}

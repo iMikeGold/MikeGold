@@ -10,10 +10,17 @@ import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
 import type { ProjectCaseStudyRecord } from "@/system/projects/project-case-study.types";
 import caseStudyRecords from "../../../../records/presentation/project-case-studies.json";
+import projectMediaRecords from "../../../../records/presentation/project-media.json";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = false;
+
+type ProjectMediaRecord = {
+  projectSlug?: string;
+  assetPath: string;
+  label: string;
+};
 
 const projectBySlug = new Map(publicProjects.map((project) => [project.slug, project]));
 const evidenceBySlug = new Map(publicEvidence.map((evidence) => [evidence.slug, evidence]));
@@ -21,6 +28,12 @@ const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
 const caseStudyByProjectSlug = new Map(
   (caseStudyRecords as ProjectCaseStudyRecord[]).map((caseStudy) => [caseStudy.projectSlug, caseStudy]),
 );
+const projectMediaByProjectSlug = new Map<string, ProjectMediaRecord>();
+for (const media of projectMediaRecords as ProjectMediaRecord[]) {
+  if (media.projectSlug && !projectMediaByProjectSlug.has(media.projectSlug)) {
+    projectMediaByProjectSlug.set(media.projectSlug, media);
+  }
+}
 const workByProjectSlug = new Map<string, Array<(typeof publicWork)[number]>>();
 
 for (const item of publicWork) {
@@ -52,6 +65,17 @@ export default async function ProjectRecordPage({
     return item ? [item] : [];
   });
   const caseStudy = caseStudyByProjectSlug.get(project.slug);
+  const currentMedia = projectMediaByProjectSlug.get(project.slug);
+  const presentedCaseStudy = caseStudy && currentMedia
+    ? {
+        ...caseStudy,
+        heroImage: {
+          src: currentMedia.assetPath,
+          alt: caseStudy.heroImage?.alt ?? currentMedia.label,
+          caption: caseStudy.heroImage?.caption ?? currentMedia.label,
+        },
+      }
+    : caseStudy;
 
   return (
     <main>
@@ -66,9 +90,9 @@ export default async function ProjectRecordPage({
           <p>{project.summary}</p>
         </header>
 
-        {caseStudy && (
+        {presentedCaseStudy && (
           <ProjectCaseStudy
-            caseStudy={caseStudy}
+            caseStudy={presentedCaseStudy}
             work={work}
             hats={hats}
             evidence={evidence}
