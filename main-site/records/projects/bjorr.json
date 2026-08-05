@@ -3,12 +3,12 @@
   "recordType": "project",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
   "slug": "bjorr",
   "name": "Bjórr",
-  "summary": "An adaptive learning institution, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge. Its identity balances the warmth of learning with the permanence of an institution.",
+  "summary": "An adaptive learning institution, online school and teaching platform designed around different learners, subjects and pathways through knowledge, with distinct School, learner and institutional environments.",
   "status": "active-development",
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "establishedYear": 2022
 }
