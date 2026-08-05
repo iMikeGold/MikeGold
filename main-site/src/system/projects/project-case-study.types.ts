@@ -5,37 +5,29 @@ export interface ProjectCaseStudyTextBlock {
   description: string;
 }
 
-export interface ProjectCaseStudyState {
-  summary: string;
-  capabilities?: string[];
+export interface ProjectCaseStudyImage {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+export interface ProjectCaseStudyIdentityMark extends ProjectCaseStudyImage {
+  tone?: "cream" | "light" | "dark";
 }
 
 export interface ProjectCaseStudyRecord {
   projectSlug: string;
   maturity: ProjectCaseStudyMaturity;
   featuredOrder?: number;
+  showcase?: boolean;
   eyebrow?: string;
-  definition: string;
-  context?: string[];
-  challenge?: string[];
-  proposition?: string[];
-  role?: {
-    summary?: string;
-    responsibilities: string[];
-  };
-  architecture?: ProjectCaseStudyTextBlock[];
-  decisions?: ProjectCaseStudyTextBlock[];
-  constraints?: ProjectCaseStudyTextBlock[];
-  currentState?: ProjectCaseStudyState;
-  plannedDevelopment?: ProjectCaseStudyState;
-  significance?: string;
-  heroImage?: {
-    src: string;
-    alt: string;
-    caption?: string;
-  };
-  evidence?: {
-    galleryLimit?: number;
-    note?: string;
-  };
+  title?: string;
+  definition?: string;
+  roleSummary?: string;
+  responsibilities?: string[];
+  highlights?: ProjectCaseStudyTextBlock[];
+  heroImage?: ProjectCaseStudyImage;
+  gallery?: ProjectCaseStudyImage[];
+  identityMarks?: ProjectCaseStudyIdentityMark[];
+  note?: string;
 }

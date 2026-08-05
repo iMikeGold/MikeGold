@@ -3,11 +3,11 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-identity-language-development",
   "title": "Identity language and coded mark development",
-  "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+  "summary": "Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction.",
   "status": "in-progress",
   "visibility": "public",
   "stages": [
@@ -18,7 +18,7 @@
     },
     {
       "key": "revisit",
-      "label": "Identity revisited",
+      "label": "Identity development",
       "status": "completed"
     },
     {
@@ -37,7 +37,7 @@
       "lensId": "system-product-definition",
       "role": "secondary",
       "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-      "lensSummary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+      "lensSummary": "System and product-definition responsibility: Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction."
     }
   ]
 }

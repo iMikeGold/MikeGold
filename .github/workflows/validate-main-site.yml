@@ -9,6 +9,7 @@ on:
     branches:
       - main
       - agent/featured-project-case-studies
+      - agent/refine-project-showcases
     paths:
       - "main-site/**"
       - ".github/workflows/validate-main-site.yml"
@@ -37,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate records and reviewed Hats
+      - name: Validate records and knowledge
         run: npm run records:check
 
       - name: Typecheck services
