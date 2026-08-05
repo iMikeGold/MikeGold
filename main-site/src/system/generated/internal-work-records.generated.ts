@@ -1786,6 +1786,90 @@ export const internalWorkRecords = [
     ]
   },
   {
+    "id": "fb58345e-8be2-4b37-8ee3-df8a347076ae",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
+    "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+    "slug": "thinquanauts-editorial-architecture",
+    "title": "Thinquanauts editorial and publication architecture",
+    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes so the wider writing practice can be published without being flattened into a children's collection.",
+    "status": "in-progress",
+    "visibility": "public",
+    "sequence": 3,
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The work structures written media, publication formats, editorial routes and future distribution across the Thinquanauts catalogue.",
+        "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "Publication records, audience levels and thematic relationships require a coherent information model rather than page-by-page classification.",
+        "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
+      }
+    ]
+  },
+  {
+    "id": "1444bb84-5545-4f05-ac26-a074a75f0b3e",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
+    "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+    "slug": "thinquanauts-system-development",
+    "title": "Thinquanauts publishing-system development",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+    "status": "in-progress",
+    "visibility": "public",
+    "sequence": 1,
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The work defines the parent publishing system, its boundaries, publication relationships, audience routes and intended operation.",
+        "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "The work establishes the meaning, recognition and public framing that allows distinct story and audience routes to remain part of one Thinquanauts world.",
+        "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
+      }
+    ]
+  },
+  {
+    "id": "0ef3e4f2-0818-4740-99f3-5281989356a8",
+    "recordType": "work",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
+    "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+    "slug": "thinquanauts-web-experience",
+    "title": "Thinquanauts public web experience",
+    "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+    "status": "in-progress",
+    "visibility": "public",
+    "sequence": 2,
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on the public website, responsive reading experience, navigation and executable interface structure.",
+        "lensSummary": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+        "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
+      }
+    ]
+  },
+  {
     "id": "092ae2fd-e716-4458-9f14-25b61d5405f7",
     "recordType": "work",
     "schemaVersion": 1,

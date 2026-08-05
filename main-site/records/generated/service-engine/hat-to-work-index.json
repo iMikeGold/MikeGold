@@ -4,8 +4,15 @@
     "access-control-engineer": [],
     "acoustic-engineer": [],
     "application-engineer": [
+      "bjorr-system-development",
+      "community-supplies-system-development",
+      "metroplist-system-development",
+      "mickz-product-system",
       "musical-intelligence-content-architecture",
-      "musical-intelligence-web-experience"
+      "musical-intelligence-web-experience",
+      "saveours-platform-interface-development",
+      "the-visionary-guide-system-development",
+      "thinquanauts-web-experience"
     ],
     "asgi-service-runner-engineer": [],
     "audio-engineer": [
@@ -14,16 +21,22 @@
       "playstation-croatia-ps5-sound-tour-audio-system-implementation"
     ],
     "audio-test-engineer": [],
-    "automation-engineer": [],
+    "automation-engineer": [
+      "the-visionary-guide-system-development"
+    ],
     "backend-engineer": [
-      "audiorii-website-development"
+      "audiorii-website-development",
+      "the-visionary-guide-system-development"
     ],
     "backup-snapshot-engineer": [],
     "bash-shell-engineer": [],
     "bootstrap-engineer": [],
-    "boundary-engineer": [],
+    "boundary-engineer": [
+      "the-visionary-guide-system-development"
+    ],
     "brand-systems-engineer": [
       "audiorii-branding-system",
+      "bjorr-system-development",
       "cannvent-system-development",
       "community-supplies-system-development",
       "findthy-system-development",
@@ -31,7 +44,9 @@
       "mickz-identity-development",
       "mickz-product-system",
       "ourgani-system-development",
+      "saveours-identity-language-development",
       "saveours-system-development",
+      "thinquanauts-system-development",
       "waffll-system-development",
       "wibc-system-development",
       "wrappedfm-identity-development",
@@ -64,10 +79,15 @@
       "malaria-hotspot-production-creative-production-management-systems"
     ],
     "creative-technologist": [],
-    "data-engineer": [],
+    "data-engineer": [
+      "metroplist-system-development",
+      "the-visionary-guide-system-development"
+    ],
     "data-modeler": [
       "bamboograph-system-development",
+      "bjorr-system-development",
       "bonsai-tree-of-life-system-development",
+      "community-supplies-system-development",
       "findthy-system-development",
       "gouldbourne-management-system-development",
       "gouldbourne-registry-system-development",
@@ -79,7 +99,11 @@
       "the-visionary-guide-system-development",
       "vendfm-system-development"
     ],
-    "database-engineer": [],
+    "database-engineer": [
+      "community-supplies-system-development",
+      "metroplist-system-development",
+      "the-visionary-guide-system-development"
+    ],
     "debug-diagnostics-engineer": [],
     "deployment-engineer": [
       "118-sports-system-development",
@@ -96,6 +120,7 @@
     ],
     "disaster-recovery-engineer": [],
     "environment-architect": [
+      "bjorr-system-development",
       "cannvent-system-development",
       "just-enterprises-system-development"
     ],
@@ -113,18 +138,31 @@
     "format-standardisation-engineer": [],
     "graphic-design-engineer": [],
     "graphic-systems-designer": [
-      "audiorii-branding-system"
+      "audiorii-branding-system",
+      "mickz-identity-development",
+      "saveours-identity-language-development"
     ],
     "human-error-reduction-engineer": [],
     "human-system-translator": [
-      "saveours-platform-interface-development"
+      "bjorr-system-development",
+      "metroplist-system-development",
+      "saveours-platform-interface-development",
+      "the-visionary-guide-system-development",
+      "thinquanauts-editorial-architecture",
+      "thinquanauts-web-experience"
     ],
     "idempotency-engineer": [],
     "identity-architect": [
       "118-sports-system-development",
       "best-indies-system-development",
       "bjorr-system-development",
+      "community-supplies-system-development",
       "imikegold-system-development",
+      "mickz-identity-development",
+      "mickz-product-system",
+      "saveours-identity-language-development",
+      "thinquanauts-system-development",
+      "thinquanauts-web-experience",
       "viisiioiiv-system-development"
     ],
     "immersive-media-engineer": [],
@@ -154,14 +192,20 @@
       "audiorii-branding-system",
       "best-indies-system-development",
       "mickz-identity-development",
+      "saveours-identity-language-development",
       "wibc-system-development",
       "wrappedfm-identity-development"
     ],
     "mastering-engineer": [],
     "meaning-architect": [
+      "bjorr-system-development",
       "cannvent-system-development",
       "findthy-system-development",
-      "house-of-gold-content-architecture"
+      "house-of-gold-content-architecture",
+      "metroplist-system-development",
+      "saveours-identity-language-development",
+      "thinquanauts-editorial-architecture",
+      "thinquanauts-system-development"
     ],
     "media-archiving-engineer": [
       "mars-delight-kung-fu-media-management-systems"
@@ -180,9 +224,11 @@
       "fbc-london-shopping-with-grant-playout-systems-setup",
       "house-of-gold-media-presentation",
       "imikegold-system-development",
+      "mickz-digital-assets",
       "protosynthesis-system-development",
       "rockett-home-rentals-company-film-camera-operation-and-workflow",
       "the-frisbys-you-are-multicamera-operation",
+      "thinquanauts-editorial-architecture",
       "waffll-system-development",
       "wrappedfm-system-development"
     ],
@@ -191,10 +237,17 @@
       "audiorii-digital-assets",
       "croydon-womens-network-iwd-camera-systems-and-setup",
       "mars-delight-kung-fu-media-management-systems",
+      "mickz-digital-assets",
       "rockett-home-rentals-company-film-camera-operation-and-workflow",
-      "the-frisbys-you-are-multicamera-operation"
+      "the-frisbys-you-are-multicamera-operation",
+      "thinquanauts-editorial-architecture"
     ],
-    "metadata-engineer": [],
+    "metadata-engineer": [
+      "metroplist-system-development",
+      "saveours-system-development",
+      "the-visionary-guide-system-development",
+      "thinquanauts-editorial-architecture"
+    ],
     "mix-engineer": [],
     "monitor-engineer": [],
     "music-engineer": [],
@@ -210,19 +263,30 @@
     "operations-engineer": [
       "audiorii-system-development",
       "bristow-operational-excellence-electronics-systems-engineering",
+      "community-supplies-system-development",
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
       "malaria-hotspot-production-creative-production-management-systems",
       "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems"
     ],
     "performance-systems-engineer": [],
-    "permissions-identity-engineer": [],
+    "permissions-identity-engineer": [
+      "bjorr-system-development",
+      "saveours-platform-interface-development"
+    ],
     "pipeline-engineer": [
-      "audiorii-system-development"
+      "audiorii-system-development",
+      "the-visionary-guide-system-development"
     ],
     "platform-engineer": [
       "audiorii-system-development",
       "audiorii-website-development",
+      "bjorr-system-development",
+      "community-supplies-system-development",
+      "metroplist-system-development",
+      "mickz-product-system",
       "saveours-system-development",
+      "the-visionary-guide-system-development",
+      "thinquanauts-system-development",
       "wrappedfm-system-development"
     ],
     "post-production-audio-engineer": [],
@@ -267,8 +331,14 @@
     ],
     "software-engineer": [
       "audiorii-website-development",
+      "bjorr-system-development",
+      "community-supplies-system-development",
+      "metroplist-system-development",
+      "mickz-digital-assets",
       "saveours-platform-interface-development",
       "saveours-system-development",
+      "the-visionary-guide-system-development",
+      "thinquanauts-web-experience",
       "wrappedfm-system-development"
     ],
     "sound-designer": [
@@ -283,14 +353,18 @@
     "state-management-engineer": [],
     "symbol-systems-designer": [
       "audiorii-branding-system",
+      "mickz-identity-development",
+      "saveours-identity-language-development",
       "saveours-system-development"
     ],
     "systems-engineer": [
       "2xu-wetsuit-testing-distribution-systems",
       "audiorii-system-development",
       "bamboograph-system-development",
+      "bjorr-system-development",
       "bonsai-tree-of-life-system-development",
       "bristow-operational-excellence-electronics-systems-engineering",
+      "community-supplies-system-development",
       "crystal-palace-overground-festival-distribution-systems-and-signal-flow",
       "delta-elektronika-power-systems-embedded-firmware-and-deployment-engineering",
       "delta-elektronika-power-systems-firmware-build-and-installation-engineering",
@@ -300,12 +374,16 @@
       "house-of-gold-runtime-state-systems",
       "houston-texans-london-game-field-communications-and-telecom-redundancy-systems",
       "living-control-media-servers-pcb-prototyping-and-design",
+      "metroplist-system-development",
+      "mickz-product-system",
       "mikegold-engineer-system-development",
       "philadelphia-eagles-nfl-wembley-broadcast-audio-delivery",
       "philadelphia-eagles-nfl-wembley-field-communications-and-resilient-signal-systems",
       "protosynthesis-system-development",
       "saveours-system-development",
       "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems",
+      "the-visionary-guide-system-development",
+      "thinquanauts-system-development",
       "vendfm-system-development"
     ],
     "toolchain-engineer": [],
@@ -319,18 +397,22 @@
       "118-sports-system-development",
       "audiorii-website-development",
       "best-indies-system-development",
+      "bjorr-system-development",
       "bonsai-tree-of-life-system-development",
       "community-supplies-system-development",
       "gouldbourne-management-system-development",
       "house-of-gold-system-development",
       "imikegold-system-development",
       "just-enterprises-system-development",
+      "metroplist-system-development",
+      "mickz-digital-assets",
       "mikegold-engineer-system-development",
       "multiplied-intelligence-system-development",
       "musical-intelligence-web-experience",
       "ourgani-system-development",
       "saveours-platform-interface-development",
       "the-visionary-guide-system-development",
+      "thinquanauts-web-experience",
       "wibc-system-development",
       "wrappedfm-system-development"
     ],

@@ -513,7 +513,18 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "concept-engineer",
-      "identity-architect"
+      "identity-architect",
+      "systems-engineer",
+      "platform-engineer",
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "data-modeler",
+      "permissions-identity-engineer",
+      "brand-systems-engineer",
+      "human-system-translator",
+      "meaning-architect",
+      "environment-architect"
     ],
     "evidenceSlugs": [
       "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
@@ -969,7 +980,15 @@ export const publicWork = [
     "appliedHatSlugs": [
       "brand-systems-engineer",
       "deployment-engineer",
-      "web-design-engineer"
+      "web-design-engineer",
+      "systems-engineer",
+      "application-engineer",
+      "software-engineer",
+      "data-modeler",
+      "database-engineer",
+      "platform-engineer",
+      "operations-engineer",
+      "identity-architect"
     ],
     "evidenceSlugs": [
       "community-supplies-community-supplies-community-suuplies-website",
@@ -2013,7 +2032,17 @@ export const publicWork = [
     "appliedHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer",
+      "data-engineer",
+      "database-engineer",
+      "software-engineer",
+      "application-engineer",
+      "platform-engineer",
+      "web-design-engineer",
+      "metadata-engineer",
+      "meaning-architect",
+      "human-system-translator"
     ],
     "evidenceSlugs": [
       "metroplist-documentation-pending",
@@ -2082,7 +2111,12 @@ export const publicWork = [
         "lensSummary": "Brand and experience-system responsibility: Creation and preparation of product-facing visual assets for digital presentation and future commerce use."
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "media-engineer",
+      "media-workflow-designer",
+      "web-design-engineer",
+      "software-engineer"
+    ],
     "evidenceSlugs": [
       "mickz-mickz-mickz-website"
     ],
@@ -2131,7 +2165,10 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "brand-systems-engineer",
-      "logo-systems-designer"
+      "logo-systems-designer",
+      "identity-architect",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
     ],
     "evidenceSlugs": [
       "mickz-mickz-branding-systems-drinks-mickz-main",
@@ -2217,7 +2254,11 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "brand-systems-engineer",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer",
+      "application-engineer",
+      "identity-architect",
+      "platform-engineer"
     ],
     "evidenceSlugs": [
       "mickz-product-system",
@@ -3005,7 +3046,14 @@ export const publicWork = [
         "status": "in-progress"
       }
     ],
-    "appliedHatSlugs": [],
+    "appliedHatSlugs": [
+      "identity-architect",
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer",
+      "meaning-architect"
+    ],
     "evidenceSlugs": [
       "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
       "saveours-saveours-design-evolutions-first-generation-designs-15year-old-logo-og-saveours",
@@ -3071,8 +3119,10 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "software-engineer",
+      "application-engineer",
       "web-design-engineer",
-      "human-system-translator"
+      "human-system-translator",
+      "permissions-identity-engineer"
     ],
     "evidenceSlugs": [
       "saveours-saveours-saveours-website",
@@ -3134,6 +3184,7 @@ export const publicWork = [
       "systems-engineer",
       "software-engineer",
       "platform-engineer",
+      "metadata-engineer",
       "brand-systems-engineer"
     ],
     "evidenceSlugs": [
@@ -3269,7 +3320,19 @@ export const publicWork = [
     "appliedHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "web-design-engineer"
+      "web-design-engineer",
+      "systems-engineer",
+      "platform-engineer",
+      "data-engineer",
+      "database-engineer",
+      "backend-engineer",
+      "application-engineer",
+      "software-engineer",
+      "pipeline-engineer",
+      "automation-engineer",
+      "boundary-engineer",
+      "metadata-engineer",
+      "human-system-translator"
     ],
     "evidenceSlugs": [
       "the-visionary-guide-documentation-pending",
@@ -3287,6 +3350,123 @@ export const publicWork = [
     ],
     "lensSummaries": {
       "software-web-engineering": "Software and web-engineering responsibility: An application product in development around product definition, user experience and structured content."
+    }
+  },
+  {
+    "slug": "thinquanauts-editorial-architecture",
+    "projectSlug": "thinquanauts",
+    "title": "Thinquanauts editorial and publication architecture",
+    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes so the wider writing practice can be published without being flattened into a children's collection.",
+    "status": "in-progress",
+    "sequence": 3,
+    "capabilityGroupIds": [
+      "media-production-distribution",
+      "system-product-definition"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "media-production-distribution",
+        "role": "primary",
+        "rationale": "The work structures written media, publication formats, editorial routes and future distribution across the Thinquanauts catalogue.",
+        "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
+      },
+      {
+        "lensId": "system-product-definition",
+        "role": "secondary",
+        "rationale": "Publication records, audience levels and thematic relationships require a coherent information model rather than page-by-page classification.",
+        "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
+      }
+    ],
+    "appliedHatSlugs": [
+      "media-workflow-designer",
+      "metadata-engineer",
+      "media-engineer",
+      "meaning-architect",
+      "human-system-translator"
+    ],
+    "evidenceSlugs": [],
+    "evidenceLinks": [],
+    "lensSummaries": {
+      "media-production-distribution": "Editorial, publication and distribution architecture for stories and connected publication families.",
+      "system-product-definition": "Structured publication and metadata model for the Thinquanauts story universe."
+    }
+  },
+  {
+    "slug": "thinquanauts-system-development",
+    "projectSlug": "thinquanauts",
+    "title": "Thinquanauts publishing-system development",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+    "status": "in-progress",
+    "sequence": 1,
+    "capabilityGroupIds": [
+      "system-product-definition",
+      "brand-experience-systems"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "system-product-definition",
+        "role": "primary",
+        "rationale": "The work defines the parent publishing system, its boundaries, publication relationships, audience routes and intended operation.",
+        "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "The work establishes the meaning, recognition and public framing that allows distinct story and audience routes to remain part of one Thinquanauts world.",
+        "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
+      }
+    ],
+    "appliedHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "meaning-architect",
+      "brand-systems-engineer",
+      "identity-architect"
+    ],
+    "evidenceSlugs": [],
+    "evidenceLinks": [],
+    "lensSummaries": {
+      "system-product-definition": "Publishing-system architecture for a mixed-age speculative and cognitive story universe.",
+      "brand-experience-systems": "Identity and meaning architecture for the wider Thinquanauts story world."
+    }
+  },
+  {
+    "slug": "thinquanauts-web-experience",
+    "projectSlug": "thinquanauts",
+    "title": "Thinquanauts public web experience",
+    "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+    "status": "in-progress",
+    "sequence": 2,
+    "capabilityGroupIds": [
+      "software-web-engineering",
+      "brand-experience-systems"
+    ],
+    "lensAssignments": [
+      {
+        "lensId": "software-web-engineering",
+        "role": "primary",
+        "rationale": "The responsibility centres on the public website, responsive reading experience, navigation and executable interface structure.",
+        "lensSummary": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "role": "secondary",
+        "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+        "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
+      }
+    ],
+    "appliedHatSlugs": [
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "identity-architect"
+    ],
+    "evidenceSlugs": [],
+    "evidenceLinks": [],
+    "lensSummaries": {
+      "software-web-engineering": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world.",
+      "brand-experience-systems": "Audience-facing experience and identity structure across the Thinquanauts website."
     }
   },
   {

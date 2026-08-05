@@ -1425,7 +1425,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 26,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
+    "assetPath": "/images/projects/bjorr/web_build/bjorr-main/main-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -1449,7 +1449,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 27,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/institution/institution-website.png",
+    "assetPath": "/images/projects/bjorr/web_build/institution/institution-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -1473,7 +1473,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 28,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-black.png",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-black.webp",
     "presentation": {
       "facets": [
         "website",
@@ -1497,7 +1497,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 29,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-crimson-blue.png",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-crimson-blue.webp",
     "presentation": {
       "facets": [
         "website",
@@ -1521,7 +1521,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 30,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-website.png",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-website.webp",
     "presentation": {
       "facets": [
         "website",
@@ -1545,7 +1545,7 @@ export const publicEvidence = [
     "role": "interface",
     "sequence": 31,
     "phase": "Digital platform",
-    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-white.png",
+    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-white.webp",
     "presentation": {
       "facets": [
         "website",

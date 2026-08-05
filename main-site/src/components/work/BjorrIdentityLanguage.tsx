@@ -299,7 +299,7 @@ export default function BjorrIdentityLanguage() {
         <div className="bjorr-platform-grid">
           <figure>
             <img
-              src="/images/projects/bjorr/web_build/school_website/school-website-website.png"
+              src="/images/projects/bjorr/web_build/school_website/school-website-website.webp"
               alt="School of Bjórr public website"
               loading="lazy"
             />
@@ -307,7 +307,7 @@ export default function BjorrIdentityLanguage() {
           </figure>
           <figure>
             <img
-              src="/images/projects/bjorr/web_build/bjorr-main/main-website.png"
+              src="/images/projects/bjorr/web_build/bjorr-main/main-website.webp"
               alt="Bjórr connected digital environment"
               loading="lazy"
             />
@@ -315,7 +315,7 @@ export default function BjorrIdentityLanguage() {
           </figure>
           <figure>
             <img
-              src="/images/projects/bjorr/web_build/institution/institution-website.png"
+              src="/images/projects/bjorr/web_build/institution/institution-website.webp"
               alt="Bjórr Institution website"
               loading="lazy"
             />

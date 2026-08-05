@@ -3,6 +3,75 @@ import type { PublicProjectProjection } from "@/system/projects/project.types";
 
 export const publicProjects = [
   {
+    "slug": "audiorii",
+    "name": "AudioRii",
+    "summary": "A professional-audio product and service ecosystem connecting software instruments, effects, sound libraries, creator services, licensing, delivery infrastructure and a signal-led identity system.",
+    "status": "active-development",
+    "featured": true,
+    "establishedYear": 2026,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "infrastructure-operations",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 1,
+        "editorialBoost": 10,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "media-production-distribution",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
+    "slug": "bjorr",
+    "name": "Bjórr",
+    "summary": "An adaptive learning institution, online school and teaching platform designed around different learners, subjects and pathways through knowledge, with distinct School, learner and institutional environments.",
+    "status": "active-development",
+    "featured": true,
+    "establishedYear": 2022,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "brand-experience-systems",
+        "editorialSequence": 2,
+        "editorialBoost": 9,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
     "slug": "cannvent",
     "name": "Cannvent",
     "summary": "A connected wellness product system spanning its application, community platform, knowledge, content and commerce surfaces.",
@@ -14,6 +83,30 @@ export const publicProjects = [
         "lensId": "brand-experience-systems",
         "editorialSequence": 6,
         "editorialBoost": 5,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
+    "slug": "community-supplies",
+    "name": "Community Supplies",
+    "summary": "An independent commerce and distribution platform built around modular product, brand and range records, a responsive storefront and future fulfilment relationships.",
+    "status": "live",
+    "featured": true,
+    "establishedYear": 2017,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "software-web-engineering",
+        "editorialSequence": 4,
+        "editorialBoost": 7,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      },
+      {
+        "lensId": "system-product-definition",
+        "editorialSequence": 5,
+        "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -170,7 +263,7 @@ export const publicProjects = [
   {
     "slug": "saveours",
     "name": "SaveOurs",
-    "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+    "summary": "A public and personal living-archive platform connecting authored SaveSites, media objects, source context and user-owned collections through a deliberate language of saving.",
     "status": "awaiting-implementation",
     "featured": true,
     "establishedYear": 2014,
@@ -193,6 +286,23 @@ export const publicProjects = [
         "lensId": "media-production-distribution",
         "editorialSequence": 5,
         "editorialBoost": 6,
+        "showcase": true,
+        "reason": "Curated lens priority calibrated against the shared editorial rubric."
+      }
+    ]
+  },
+  {
+    "slug": "the-visionary-guide",
+    "name": "The Visionary Guide",
+    "summary": "A data-to-interpretation-to-publication platform that resolves authoritative celestial state, natal and user context, interpretive rules and curated content into a canonical, versioned personalised annual 365-day Guide.",
+    "status": "active-development",
+    "featured": true,
+    "establishedYear": 2024,
+    "lensPresentationPreferences": [
+      {
+        "lensId": "media-production-distribution",
+        "editorialSequence": 9,
+        "editorialBoost": 2,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -273,51 +383,6 @@ export const publicProjects = [
     "establishedYear": 2008
   },
   {
-    "slug": "audiorii",
-    "name": "AudioRii",
-    "summary": "Identity and web-development work for AudioRii.",
-    "status": "active-development",
-    "featured": false,
-    "establishedYear": 2026,
-    "lensPresentationPreferences": [
-      {
-        "lensId": "software-web-engineering",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "infrastructure-operations",
-        "editorialSequence": 2,
-        "editorialBoost": 9,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "brand-experience-systems",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "system-product-definition",
-        "editorialSequence": 1,
-        "editorialBoost": 10,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "media-production-distribution",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      }
-    ]
-  },
-  {
     "slug": "bamboograph",
     "name": "BambooGraph",
     "summary": "Early software research exploring a graph-based product model and the systems needed to make it useful.",
@@ -343,30 +408,6 @@ export const publicProjects = [
     "establishedYear": 2023
   },
   {
-    "slug": "bjorr",
-    "name": "Bjórr",
-    "summary": "An adaptive learning institution, online school and teaching platform designed to respond to different learners, subjects and pathways through knowledge. Its identity balances the warmth of learning with the permanence of an institution.",
-    "status": "active-development",
-    "featured": false,
-    "establishedYear": 2022,
-    "lensPresentationPreferences": [
-      {
-        "lensId": "brand-experience-systems",
-        "editorialSequence": 2,
-        "editorialBoost": 9,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "system-product-definition",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      }
-    ]
-  },
-  {
     "slug": "bonsai-tree-of-life",
     "name": "Bonsai Tree of Life",
     "summary": "Product and data architecture for a structured web-system project, with its delivery model in development.",
@@ -387,30 +428,6 @@ export const publicProjects = [
         "lensId": "physical-systems-engineering",
         "editorialSequence": 10,
         "editorialBoost": 2,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      }
-    ]
-  },
-  {
-    "slug": "community-supplies",
-    "name": "Community Supplies",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "status": "live",
-    "featured": false,
-    "establishedYear": 2017,
-    "lensPresentationPreferences": [
-      {
-        "lensId": "software-web-engineering",
-        "editorialSequence": 4,
-        "editorialBoost": 7,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      },
-      {
-        "lensId": "system-product-definition",
-        "editorialSequence": 5,
-        "editorialBoost": 6,
         "showcase": true,
         "reason": "Curated lens priority calibrated against the shared editorial rubric."
       }
@@ -702,21 +719,12 @@ export const publicProjects = [
     ]
   },
   {
-    "slug": "the-visionary-guide",
-    "name": "The Visionary Guide",
-    "summary": "An application product in development around product definition, user experience and structured content.",
+    "slug": "thinquanauts",
+    "name": "Thinquanauts",
+    "summary": "A mature speculative, philosophical and cognitive storytelling and publishing universe spanning different levels of accessibility, formats and audiences, with children's stories retained as one bounded section.",
     "status": "active-development",
     "featured": false,
-    "establishedYear": 2024,
-    "lensPresentationPreferences": [
-      {
-        "lensId": "media-production-distribution",
-        "editorialSequence": 9,
-        "editorialBoost": 2,
-        "showcase": true,
-        "reason": "Curated lens priority calibrated against the shared editorial rubric."
-      }
-    ]
+    "establishedYear": 2026
   },
   {
     "slug": "viisiioiiv",
