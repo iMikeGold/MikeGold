@@ -1,0 +1,17 @@
+{
+  "id": "6f9851f3-9445-448f-a207-5007f3dd6707",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:42:00.000Z",
+  "updatedAt": "2026-08-05T13:42:00.000Z",
+  "slug": "the-visionary-guide-system-development-evidenced-by-the-visionary-guide-99-website-old",
+  "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "398040d8-dacb-4df5-bbc4-d0a881a532e3",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["archive"],
+  "priority": 99,
+  "note": "Previous Visionary Guide website retained only as archive evidence and excluded from the current case-study presentation."
+}
