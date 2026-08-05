@@ -1,249 +1,136 @@
 import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
-import type { ProjectCaseStudyRecord } from "@/system/projects/project-case-study.types";
-import type { PublicWorkProjection } from "@/system/work/work.types";
+import type {
+  ProjectCaseStudyImage,
+  ProjectCaseStudyRecord,
+} from "@/system/projects/project-case-study.types";
 import styles from "./ProjectCaseStudy.module.css";
 
-const lensLabels: Record<string, string> = {
-  "physical-systems-engineering": "Physical systems engineering",
-  "system-product-definition": "System and product definition",
-  "software-web-engineering": "Software and web engineering",
-  "infrastructure-operations": "Infrastructure and operations",
-  "brand-experience-systems": "Brand and experience systems",
-  "media-production-distribution": "Media production and distribution",
+const identityToneClasses = {
+  cream: styles.identityCream,
+  light: styles.identityLight,
+  dark: styles.identityDark,
 };
 
-type CaseStudyHat = {
-  slug: string;
-  name: string;
-};
-
-function TextSection({
-  kicker,
-  title,
-  paragraphs,
-}: {
-  kicker: string;
-  title: string;
-  paragraphs: string[];
-}) {
-  if (!paragraphs.length) return null;
-
-  return (
-    <section className={styles.proseSection}>
-      <header>
-        <p className="work-kicker">{kicker}</p>
-        <h2>{title}</h2>
-      </header>
-      <div className={styles.proseColumns}>
-        {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-      </div>
-    </section>
-  );
-}
-
-function BlockSection({
-  kicker,
-  title,
-  blocks,
-}: {
-  kicker: string;
-  title: string;
-  blocks: Array<{ title: string; description: string }>;
-}) {
-  if (!blocks.length) return null;
-
-  return (
-    <section className={styles.blockSection}>
-      <header>
-        <p className="work-kicker">{kicker}</p>
-        <h2>{title}</h2>
-      </header>
-      <div className={styles.blockGrid}>
-        {blocks.map((block, index) => (
-          <article key={`${block.title}-${index}`}>
-            <span>{String(index + 1).padStart(2, "0")}</span>
-            <h3>{block.title}</h3>
-            <p>{block.description}</p>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
+function evidenceGallery(
+  evidence: PublicEvidenceProjection[],
+  heroSrc?: string,
+): ProjectCaseStudyImage[] {
+  return evidence
+    .filter((item) => {
+      if (item.placeholder || (!item.assetPath && !item.thumbnailUrl)) return false;
+      if (item.presentation?.displayRoles?.length === 1
+        && item.presentation.displayRoles[0] === "archive") return false;
+      return (item.assetPath ?? item.thumbnailUrl) !== heroSrc;
+    })
+    .slice(0, 3)
+    .flatMap((item) => {
+      const src = item.assetPath ?? item.thumbnailUrl;
+      return src
+        ? [{
+            src,
+            alt: item.description ?? item.title,
+            caption: item.title,
+          }]
+        : [];
+    });
 }
 
 export default function ProjectCaseStudy({
   caseStudy,
-  work,
-  hats,
   evidence,
 }: {
   caseStudy: ProjectCaseStudyRecord;
-  work: PublicWorkProjection[];
-  hats: CaseStudyHat[];
   evidence: PublicEvidenceProjection[];
 }) {
-  const hero = caseStudy.heroImage;
-  const galleryLimit = caseStudy.evidence?.galleryLimit ?? 4;
-  const gallery = evidence
-    .filter((item) => {
-      if (item.placeholder) return false;
-      if (!item.assetPath && !item.thumbnailUrl) return false;
-      if (item.presentation?.displayRoles?.length === 1
-        && item.presentation.displayRoles[0] === "archive") return false;
-      return (item.assetPath ?? item.thumbnailUrl) !== hero?.src;
-    })
-    .slice(0, galleryLimit);
+  if (caseStudy.showcase === false || !caseStudy.definition) return null;
 
-  const stateSections = [
-    caseStudy.currentState
-      ? { kicker: "CURRENT IMPLEMENTATION", title: "What exists now", value: caseStudy.currentState }
-      : null,
-    caseStudy.plannedDevelopment
-      ? { kicker: "PLANNED DEVELOPMENT", title: "What follows", value: caseStudy.plannedDevelopment }
-      : null,
-  ].filter((item): item is NonNullable<typeof item> => Boolean(item));
+  const gallery = caseStudy.gallery?.length
+    ? caseStudy.gallery
+    : evidenceGallery(evidence, caseStudy.heroImage?.src);
 
   return (
-    <div className={styles.caseStudy}>
-      <section className={styles.introduction} aria-labelledby="case-study-definition">
-        <div className={styles.introductionCopy}>
-          <p className="work-kicker">{caseStudy.eyebrow ?? "EXPANDED PROJECT CASE STUDY"}</p>
-          <h2 id="case-study-definition">Engineering definition</h2>
-          <p>{caseStudy.definition}</p>
-          <span className={styles.maturity}>{caseStudy.maturity.replaceAll("-", " ")}</span>
+    <div className={styles.caseStudy} data-project={caseStudy.projectSlug}>
+      <section className={styles.feature} aria-labelledby={`showcase-${caseStudy.projectSlug}`}>
+        <div className={styles.featureCopy}>
+          <p className="work-kicker">{caseStudy.eyebrow ?? "SELECTED PROJECT WORK"}</p>
+          <h2 id={`showcase-${caseStudy.projectSlug}`}>
+            {caseStudy.title ?? "Selected project work"}
+          </h2>
+          <p className={styles.definition}>{caseStudy.definition}</p>
+          {caseStudy.roleSummary && (
+            <p className={styles.roleSummary}>{caseStudy.roleSummary}</p>
+          )}
+          {!!caseStudy.responsibilities?.length && (
+            <div className={styles.responsibilityList} aria-label="Areas of work">
+              {caseStudy.responsibilities.map((responsibility) => (
+                <span key={responsibility}>{responsibility}</span>
+              ))}
+            </div>
+          )}
         </div>
-        {hero && (
+
+        {caseStudy.heroImage && (
           <figure className={styles.heroFigure}>
-            <img src={hero.src} alt={hero.alt} />
-            {hero.caption && <figcaption>{hero.caption}</figcaption>}
+            <img src={caseStudy.heroImage.src} alt={caseStudy.heroImage.alt} />
+            {caseStudy.heroImage.caption && (
+              <figcaption>{caseStudy.heroImage.caption}</figcaption>
+            )}
           </figure>
         )}
       </section>
 
-      <TextSection
-        kicker="01 · CONTEXT"
-        title="Why this project exists"
-        paragraphs={caseStudy.context ?? []}
-      />
-      <TextSection
-        kicker="02 · THE CHALLENGE"
-        title="What an ordinary implementation could not solve"
-        paragraphs={caseStudy.challenge ?? []}
-      />
-      <TextSection
-        kicker="03 · ENGINEERING PROPOSITION"
-        title="The response"
-        paragraphs={caseStudy.proposition ?? []}
-      />
-
-      {caseStudy.role && (
-        <section className={styles.roleSection}>
-          <header>
-            <p className="work-kicker">04 · MY ROLE</p>
-            <h2>Responsibilities across the system</h2>
-            {caseStudy.role.summary && <p>{caseStudy.role.summary}</p>}
-          </header>
-          <div className={styles.responsibilityGrid}>
-            {caseStudy.role.responsibilities.map((responsibility) => (
-              <span key={responsibility}>{responsibility}</span>
+      {!!caseStudy.highlights?.length && (
+        <section className={styles.highlights} aria-label="Project highlights">
+          <div className={styles.highlightGrid}>
+            {caseStudy.highlights.map((highlight, index) => (
+              <article key={highlight.title}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <h3>{highlight.title}</h3>
+                <p>{highlight.description}</p>
+              </article>
             ))}
           </div>
         </section>
       )}
 
-      <BlockSection
-        kicker="05 · SYSTEM ARCHITECTURE"
-        title="How the project is organised"
-        blocks={caseStudy.architecture ?? []}
-      />
-      <BlockSection
-        kicker="06 · IMPORTANT DECISIONS"
-        title="Choices that shape the build"
-        blocks={caseStudy.decisions ?? []}
-      />
-      <BlockSection
-        kicker="07 · CONSTRAINTS AND BOUNDARIES"
-        title="What must remain explicit"
-        blocks={caseStudy.constraints ?? []}
-      />
-
-      {!!stateSections.length && (
-        <section className={styles.stateGrid}>
-          {stateSections.map((section) => (
-            <article key={section.kicker}>
-              <p className="work-kicker">{section.kicker}</p>
-              <h2>{section.title}</h2>
-              <p>{section.value.summary}</p>
-              {!!section.value.capabilities?.length && (
-                <ul>
-                  {section.value.capabilities.map((capability) => (
-                    <li key={capability}>{capability}</li>
-                  ))}
-                </ul>
-              )}
-            </article>
-          ))}
+      {!!caseStudy.identityMarks?.length && (
+        <section className={styles.identitySection}>
+          <header>
+            <p className="work-kicker">SELECTED IDENTITY DEVELOPMENT</p>
+            <h3>Compact mark family</h3>
+          </header>
+          <div className={styles.identityGrid}>
+            {caseStudy.identityMarks.map((mark) => (
+              <figure
+                className={identityToneClasses[mark.tone ?? "dark"]}
+                key={mark.src}
+              >
+                <img src={mark.src} alt={mark.alt} loading="lazy" />
+                {mark.caption && <figcaption>{mark.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
         </section>
       )}
-
-      <section className={styles.systemRecord}>
-        <header>
-          <p className="work-kicker">DOCUMENTED SYSTEM RECORD</p>
-          <h2>{work.length} contribution{work.length === 1 ? "" : "s"} · {hats.length} applied Hats</h2>
-          <p>
-            The case study explains the parent system. These records preserve the
-            individual responsibilities and capabilities evidenced within it.
-          </p>
-        </header>
-        <div className={styles.workGrid}>
-          {work.map((item) => (
-            <article key={item.slug}>
-              <span>
-                {item.capabilityGroupIds.map((lensId) => lensLabels[lensId] ?? lensId).join(" · ")}
-              </span>
-              <h3>{item.title}</h3>
-              <p>{item.summary}</p>
-            </article>
-          ))}
-        </div>
-        {!!hats.length && (
-          <div className={styles.hatList} aria-label="Applied engineering Hats">
-            {hats.map((hat) => <span key={hat.slug}>{hat.name}</span>)}
-          </div>
-        )}
-      </section>
 
       {!!gallery.length && (
-        <section className={styles.evidenceSection}>
+        <section className={styles.gallerySection}>
           <header>
-            <p className="work-kicker">SELECTED EVIDENCE</p>
-            <h2>Interfaces, identity and development states</h2>
-            {caseStudy.evidence?.note && <p>{caseStudy.evidence.note}</p>}
+            <p className="work-kicker">SELECTED PROJECT VIEWS</p>
+            <h3>Interfaces and applications</h3>
           </header>
-          <div className={styles.evidenceGrid}>
-            {gallery.map((item) => {
-              const src = item.assetPath ?? item.thumbnailUrl;
-              if (!src) return null;
-              return (
-                <figure key={item.slug}>
-                  <img src={src} alt={item.description ?? item.title} loading="lazy" />
-                  <figcaption>
-                    <strong>{item.title}</strong>
-                    {item.phase && <span>{item.phase}</span>}
-                  </figcaption>
-                </figure>
-              );
-            })}
+          <div className={styles.galleryGrid}>
+            {gallery.map((image) => (
+              <figure key={image.src}>
+                <img src={image.src} alt={image.alt} loading="lazy" />
+                {image.caption && <figcaption>{image.caption}</figcaption>}
+              </figure>
+            ))}
           </div>
         </section>
       )}
 
-      {caseStudy.significance && (
-        <section className={styles.significance}>
-          <p className="work-kicker">SIGNIFICANCE</p>
-          <p>{caseStudy.significance}</p>
-        </section>
-      )}
+      {caseStudy.note && <p className={styles.note}>{caseStudy.note}</p>}
     </div>
   );
 }
