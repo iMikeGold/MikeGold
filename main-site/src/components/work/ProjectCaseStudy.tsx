@@ -44,7 +44,7 @@ export default function ProjectCaseStudy({
 }) {
   if (caseStudy.showcase === false || !caseStudy.definition) return null;
 
-  const gallery = caseStudy.gallery?.length
+  const gallery = caseStudy.gallery !== undefined
     ? caseStudy.gallery
     : evidenceGallery(evidence, caseStudy.heroImage?.src);
 
