@@ -11,6 +11,8 @@ type HatLabel = {
   name: string;
 };
 
+const visibleHatLimit = 5;
+
 export default function ProjectWorkArchive({ work, hats, evidence }: {
   work: PublicWorkProjection[];
   hats: HatLabel[];
@@ -47,6 +49,8 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
           const record = evidenceBySlug.get(slug);
           return record ? [record] : [];
         });
+        const visibleHats = item.appliedHatSlugs.slice(0, visibleHatLimit);
+        const additionalHats = item.appliedHatSlugs.slice(visibleHatLimit);
 
         return (
           <article key={item.slug} className={`project-work-section${isContextual ? " is-contextual" : ""}`}>
@@ -56,11 +60,21 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
             </div>
             <h3>{item.title}</h3>
             <p>{item.summary}</p>
-            {!!item.appliedHatSlugs.length && (
+            {!!visibleHats.length && (
               <div className="applied-hat-list" aria-label="Applied Hats">
-                {item.appliedHatSlugs.map((slug) => (
+                {visibleHats.map((slug) => (
                   <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
                 ))}
+                {!!additionalHats.length && (
+                  <details className="applied-hat-disclosure">
+                    <summary>+{additionalHats.length} more</summary>
+                    <div>
+                      {additionalHats.map((slug) => (
+                        <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
+                      ))}
+                    </div>
+                  </details>
+                )}
               </div>
             )}
             {!!item.stages?.length && (
