@@ -1,8 +1,4 @@
-import type { PublicEvidenceProjection } from "@/system/evidence/evidence.types";
-import type {
-  ProjectCaseStudyImage,
-  ProjectCaseStudyRecord,
-} from "@/system/projects/project-case-study.types";
+import type { ProjectCaseStudyRecord } from "@/system/projects/project-case-study.types";
 import styles from "./ProjectCaseStudy.module.css";
 
 const identityToneClasses = {
@@ -11,42 +7,14 @@ const identityToneClasses = {
   dark: styles.identityDark,
 };
 
-function evidenceGallery(
-  evidence: PublicEvidenceProjection[],
-  heroSrc?: string,
-): ProjectCaseStudyImage[] {
-  return evidence
-    .filter((item) => {
-      if (item.placeholder || (!item.assetPath && !item.thumbnailUrl)) return false;
-      if (item.presentation?.displayRoles?.length === 1
-        && item.presentation.displayRoles[0] === "archive") return false;
-      return (item.assetPath ?? item.thumbnailUrl) !== heroSrc;
-    })
-    .slice(0, 3)
-    .flatMap((item) => {
-      const src = item.assetPath ?? item.thumbnailUrl;
-      return src
-        ? [{
-            src,
-            alt: item.description ?? item.title,
-            caption: item.title,
-          }]
-        : [];
-    });
-}
-
 export default function ProjectCaseStudy({
   caseStudy,
-  evidence,
 }: {
   caseStudy: ProjectCaseStudyRecord;
-  evidence: PublicEvidenceProjection[];
 }) {
   if (caseStudy.showcase === false || !caseStudy.definition) return null;
 
-  const gallery = caseStudy.gallery !== undefined
-    ? caseStudy.gallery
-    : evidenceGallery(evidence, caseStudy.heroImage?.src);
+  const gallery = caseStudy.gallery ?? [];
 
   return (
     <div className={styles.caseStudy} data-project={caseStudy.projectSlug}>
