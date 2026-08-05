@@ -1,12 +1,15 @@
 import { notFound } from "next/navigation";
 import Footer from "@/components/sections/Footer";
 import BjorrIdentityLanguage from "@/components/work/BjorrIdentityLanguage";
+import ProjectCaseStudy from "@/components/work/ProjectCaseStudy";
 import ProjectContextBackLink from "@/components/work/ProjectContextBackLink";
 import ProjectWorkArchive from "@/components/work/ProjectWorkArchive";
 import { publicEvidence } from "@/system/generated/public-evidence.generated";
 import { publicHats } from "@/system/generated/public-hats.generated";
 import { publicProjects } from "@/system/generated/public-projects.generated";
 import { publicWork } from "@/system/generated/public-work.generated";
+import type { ProjectCaseStudyRecord } from "@/system/projects/project-case-study.types";
+import caseStudyRecords from "../../../../records/presentation/project-case-studies.json";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
@@ -15,6 +18,9 @@ export const revalidate = false;
 const projectBySlug = new Map(publicProjects.map((project) => [project.slug, project]));
 const evidenceBySlug = new Map(publicEvidence.map((evidence) => [evidence.slug, evidence]));
 const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
+const caseStudyByProjectSlug = new Map(
+  (caseStudyRecords as ProjectCaseStudyRecord[]).map((caseStudy) => [caseStudy.projectSlug, caseStudy]),
+);
 const workByProjectSlug = new Map<string, Array<(typeof publicWork)[number]>>();
 
 for (const item of publicWork) {
@@ -45,6 +51,7 @@ export default async function ProjectRecordPage({
     const item = evidenceBySlug.get(evidenceSlug);
     return item ? [item] : [];
   });
+  const caseStudy = caseStudyByProjectSlug.get(project.slug);
 
   return (
     <main>
@@ -58,6 +65,15 @@ export default async function ProjectRecordPage({
           <h1>{project.name}</h1>
           <p>{project.summary}</p>
         </header>
+
+        {caseStudy && (
+          <ProjectCaseStudy
+            caseStudy={caseStudy}
+            work={work}
+            hats={hats}
+            evidence={evidence}
+          />
+        )}
 
         {project.slug === "bjorr" && <BjorrIdentityLanguage />}
 
