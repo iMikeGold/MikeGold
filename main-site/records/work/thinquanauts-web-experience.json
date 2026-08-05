@@ -1,0 +1,28 @@
+{
+  "id": "0ef3e4f2-0818-4740-99f3-5281989356a8",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+  "slug": "thinquanauts-web-experience",
+  "title": "Thinquanauts public web experience",
+  "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+  "status": "in-progress",
+  "visibility": "public",
+  "sequence": 2,
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on the public website, responsive reading experience, navigation and executable interface structure.",
+      "lensSummary": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+      "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
+    }
+  ]
+}
