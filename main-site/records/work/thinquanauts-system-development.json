@@ -1,0 +1,28 @@
+{
+  "id": "1444bb84-5545-4f05-ac26-a074a75f0b3e",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+  "slug": "thinquanauts-system-development",
+  "title": "Thinquanauts publishing-system development",
+  "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+  "status": "in-progress",
+  "visibility": "public",
+  "sequence": 1,
+  "lensAssignments": [
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The work defines the parent publishing system, its boundaries, publication relationships, audience routes and intended operation.",
+      "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "The work establishes the meaning, recognition and public framing that allows distinct story and audience routes to remain part of one Thinquanauts world.",
+      "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
+    }
+  ]
+}
