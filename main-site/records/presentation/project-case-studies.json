@@ -1,0 +1,653 @@
+[
+  {
+    "projectSlug": "metroplist",
+    "maturity": "full",
+    "featuredOrder": 1,
+    "eyebrow": "GEOGRAPHICAL INTELLIGENCE PLATFORM",
+    "definition": "A geographical intelligence platform translating population density, place-based statistics and spatial relationships into immediate, comparable forms.",
+    "context": [
+      "Metroplist began from a need to make complex place data understandable without stripping away its source, time period or geographic meaning.",
+      "The public website is one surface of a wider data-and-interpretation system intended to support comparison, exploration and later spatial experiences."
+    ],
+    "challenge": [
+      "Population, transport, infrastructure and risk datasets arrive with different boundaries, definitions, release dates and levels of trust.",
+      "A conventional collection of charts would not provide a durable model for comparing places or explaining why two apparently similar figures may not describe the same thing."
+    ],
+    "proposition": [
+      "Treat every displayed value as a traceable observation with source, geography, time and transformation history.",
+      "Translate density and place statistics into a consistent comparison language while preserving the ability to inspect the original record.",
+      "Build the website, future tools and exploratory interfaces as consumers of the same canonical spatial model."
+    ],
+    "role": {
+      "summary": "Product definition, data-system architecture, spatial reasoning, interface engineering, provenance design and technical direction.",
+      "responsibilities": [
+        "Geographical product architecture",
+        "Data modelling and comparison logic",
+        "Statistical provenance and source boundaries",
+        "Frontend and interaction engineering",
+        "Visual language and density translation",
+        "Future AR and VR experience planning"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Source and provenance layer",
+        "description": "Records where each dataset came from, which geography and period it describes, and how it may be used or compared."
+      },
+      {
+        "title": "Canonical place model",
+        "description": "Connects locations, boundaries, transport, density and other observations without flattening their different meanings into one number."
+      },
+      {
+        "title": "Translation layer",
+        "description": "Converts statistical and spatial records into comparable forms, explanatory language and visual encodings."
+      },
+      {
+        "title": "Experience surfaces",
+        "description": "Supports the public web interface now and leaves a coherent route into map, immersive, AR and VR experiences later."
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Provenance before spectacle",
+        "description": "The platform must be able to explain a value before using it in a compelling visual comparison."
+      },
+      {
+        "title": "Time-aware data",
+        "description": "Place records must retain their observation period so historical and current states are not silently merged."
+      },
+      {
+        "title": "Multiple experiences, one model",
+        "description": "Web, mapping and immersive outputs should consume the same resolved data rather than becoming independent products with conflicting facts."
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Uneven public data",
+        "description": "Coverage, update cadence and geographic precision vary between authorities and countries."
+      },
+      {
+        "title": "Current versus intended capability",
+        "description": "The case study must distinguish implemented web and data foundations from planned global, AR and VR experiences."
+      }
+    ],
+    "currentState": {
+      "summary": "The active build establishes the project identity, public product experience and the foundations for a provenance-led data platform.",
+      "capabilities": [
+        "Public project and product interface",
+        "Density-led visual language",
+        "Structured data and provenance direction",
+        "Place-comparison and exploration model"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "Development continues toward broader spatial coverage and richer ways to interrogate place relationships.",
+      "capabilities": [
+        "Cross-source geographic ingestion",
+        "Timeline-aware place comparisons",
+        "Transport, infrastructure and risk queries",
+        "Immersive and augmented spatial exploration"
+      ]
+    },
+    "significance": "Metroplist demonstrates that the engineering challenge is not drawing maps; it is building a trustworthy translation system between raw spatial evidence and human understanding.",
+    "heroImage": {
+      "src": "/images/projects/metroplist/metroplist-website.webp",
+      "alt": "Metroplist geographical intelligence website",
+      "caption": "Current public-facing Metroplist product experience"
+    },
+    "evidence": {
+      "galleryLimit": 5,
+      "note": "Development imagery is presented separately from claims about implemented data coverage."
+    }
+  },
+  {
+    "projectSlug": "audiorii",
+    "maturity": "full",
+    "featuredOrder": 2,
+    "eyebrow": "PROFESSIONAL AUDIO PRODUCT ECOSYSTEM",
+    "definition": "A professional-audio product and service ecosystem connecting software instruments, effects, sound libraries, creator services, licensing and delivery infrastructure.",
+    "context": [
+      "AudioRii grows from a long-standing ambition to develop original professional-audio equipment and software rather than only work within other manufacturers' systems.",
+      "The project is being built as an ecosystem: products, libraries and services share a signal-led language and a common operational foundation."
+    ],
+    "challenge": [
+      "A credible audio-product company requires more than a website or a collection of plug-in mock-ups. Product identity, DSP and application direction, licensing, release pipelines, creator services and delivery infrastructure must develop as one system.",
+      "The architecture must support learning and prototyping now without closing off commercial software, hardware and cloud-assisted products later."
+    ],
+    "proposition": [
+      "Define products, libraries and services as connected parts of one AudioRii platform.",
+      "Use a continuous signal-path grammar across identity, interfaces, diagrams and future physical controls.",
+      "Separate public product presentation from private engine, licensing, build and delivery infrastructure."
+    ],
+    "role": {
+      "summary": "System architecture, professional-audio product direction, software and web engineering, infrastructure planning, identity-system design and creator-platform definition.",
+      "responsibilities": [
+        "Product and service architecture",
+        "Audio software and DSP direction",
+        "Website and application engineering",
+        "Backend, licensing and release planning",
+        "Brand, naming and interaction systems",
+        "Digital audio asset and creator workflow design"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Products",
+        "description": "RiiSign, RiiSampl and RiiPulsiv establish the initial software-product family, with room for further instruments, effects and hardware."
+      },
+      {
+        "title": "Libraries",
+        "description": "Harmonic Atlas, Impulse Archive and Spatial Profiles organise reusable sound and acoustic intelligence."
+      },
+      {
+        "title": "Services",
+        "description": "Soundbase, Creator Hub and related services provide learning, account, delivery and creator-facing capabilities."
+      },
+      {
+        "title": "Operational foundation",
+        "description": "Private infrastructure supports builds, licensing, updates, deployment, automation and future cloud-assisted audio services."
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Signal never teleports",
+        "description": "Every visual and technical representation should imply a route, transformation boundary and continuation of signal."
+      },
+      {
+        "title": "Products first, platform underneath",
+        "description": "The public experience presents understandable audio products while the shared engine and services remain modular beneath them."
+      },
+      {
+        "title": "Commercial boundaries remain explicit",
+        "description": "Learning prototypes, open-source experiments and future closed-source releases must not be blurred into one licensing claim."
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Early product stage",
+        "description": "Product concepts and infrastructure are active development; mock-ups must not be described as released plug-ins."
+      },
+      {
+        "title": "Private engine work",
+        "description": "Internal architecture and licensing detail should be evidenced without exposing sensitive implementation."
+      }
+    ],
+    "currentState": {
+      "summary": "AudioRii currently has a defined ecosystem, public website, product language, visual system, prototype product assets and operational infrastructure direction.",
+      "capabilities": [
+        "Product-family and service architecture",
+        "Public web experience",
+        "Signal-led identity and interface language",
+        "Audio product and creator asset development",
+        "Backend and deployment foundations"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "The next phases turn the product definitions into testable audio software and connect them to the private delivery platform.",
+      "capabilities": [
+        "Local Logic Pro plug-in prototypes",
+        "DSP and model experimentation",
+        "Licensing and update services",
+        "Soundbase learning services",
+        "Creator delivery and account systems"
+      ]
+    },
+    "significance": "AudioRii brings Mike Gold's audio, software, infrastructure, product and identity disciplines into one deliberately engineered product company.",
+    "heroImage": {
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "AudioRii professional audio product website concept",
+      "caption": "AudioRii public product and identity system"
+    },
+    "evidence": {
+      "galleryLimit": 6,
+      "note": "Product imagery records design and development states; it does not imply public release."
+    }
+  },
+  {
+    "projectSlug": "the-visionary-guide",
+    "maturity": "full",
+    "featuredOrder": 3,
+    "eyebrow": "DATA-TO-INTERPRETATION-TO-PUBLICATION PLATFORM",
+    "definition": "A personalised annual-guide platform that resolves authoritative celestial state, natal and user context, interpretive rules and curated content into a canonical, versioned 365-day physical and digital Guide.",
+    "context": [
+      "Visionary Guide is organised around a person ordering an individualised annual physical Guide, not around a generic horoscope feed.",
+      "The app, web experience, APIs and later exploratory products are consumers of the same generation and publication engine."
+    ],
+    "challenge": [
+      "Astronomical state, natal context, interpretive rules, preferences and editorial content must resolve into one internally consistent annual dataset.",
+      "The generated Guide must be reproducible, auditable and frozen before publication so digital and physical outputs do not drift apart."
+    ],
+    "proposition": [
+      "Calculate and validate authoritative celestial state independently from the interpretive layer.",
+      "Generate a canonical Guide dataset containing the complete annual sequence, version information and source snapshot.",
+      "Publish print, app and web outputs from the frozen dataset rather than recalculating content independently in each surface."
+    ],
+    "role": {
+      "summary": "Product architecture, generation-system design, astronomy and interpretation boundaries, data modelling, publication architecture, application direction and technical governance.",
+      "responsibilities": [
+        "Annual Guide product architecture",
+        "Canonical generation and versioning model",
+        "Astronomy and interpretation boundaries",
+        "Personalisation and content-system design",
+        "Publication and print workflow architecture",
+        "Web, app and API experience direction"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Authoritative astronomy state",
+        "description": "Resolves current, historical or future celestial positions from trusted ephemeris data without using the visual universe as a calculation source."
+      },
+      {
+        "title": "Interpretation engine",
+        "description": "Applies natal context, aspects, houses, day types, preferences and proprietary interpretive rules as a separate, versioned layer."
+      },
+      {
+        "title": "Canonical Guide generation",
+        "description": "Creates and freezes the person's complete annual Guide dataset with engine versions, source snapshots and audit information."
+      },
+      {
+        "title": "Publication system",
+        "description": "Renders the canonical dataset into the physical 365-day Guide, app, web, downloads and future licensed outputs."
+      }
+    ],
+    "decisions": [
+      {
+        "title": "The physical annual Guide comes first",
+        "description": "The generation algorithm and publication object organise the platform; the standalone app follows rather than replacing them."
+      },
+      {
+        "title": "Generation outputs are immutable",
+        "description": "A published Guide remains tied to the exact data snapshot and engine versions used to produce it."
+      },
+      {
+        "title": "Mirror interactions do not rewrite print",
+        "description": "Later reflective or exploratory products may learn from use, but they never silently alter an already generated physical Guide."
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Controlled disclosure",
+        "description": "The public case study should demonstrate responsive application and publication engineering without revealing proprietary rules or premature product detail."
+      },
+      {
+        "title": "Current versus future consumers",
+        "description": "The annual Guide and core generation system must remain clearly distinct from later Mirror, AR, marketplace and licensing extensions."
+      }
+    ],
+    "currentState": {
+      "summary": "The active project has a defined canonical architecture, product sequence, publication model and public application direction.",
+      "capabilities": [
+        "Annual Guide product and data model",
+        "Generation snapshot and versioning principles",
+        "Astronomy and interpretive-system separation",
+        "Publication and fulfilment architecture",
+        "Responsive app and web experience development"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "Development proceeds from authoritative calculation and canonical generation into publication, account and companion-app implementation.",
+      "capabilities": [
+        "Ephemeris ingestion and validation",
+        "Guide-generation engine",
+        "Versioned daily Guide dataset",
+        "Print-ready publication renderer",
+        "Account, app and API delivery",
+        "Later exploratory and licensed consumers"
+      ]
+    },
+    "significance": "Visionary Guide demonstrates the design of a publication product whose trust depends on data lineage, interpretive governance and reproducible generation—not merely interface styling.",
+    "heroImage": {
+      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
+      "alt": "Visionary Guide application landing experience",
+      "caption": "Public-facing application and Guide experience"
+    },
+    "evidence": {
+      "galleryLimit": 3,
+      "note": "Only deliberately public interface evidence is shown. Compact and developmental component studies remain supporting material rather than the main reveal."
+    }
+  },
+  {
+    "projectSlug": "bjorr",
+    "maturity": "full",
+    "featuredOrder": 4,
+    "eyebrow": "ADAPTIVE LEARNING INSTITUTION",
+    "definition": "An adaptive learning institution, online school and teaching platform organised around different learners, subjects and pathways through knowledge.",
+    "context": [
+      "Bjórr combines an enduring institutional structure with learner-controlled environments and adaptive pathways.",
+      "The School and the wider Institution share a family identity while retaining distinct public, learning and governance roles."
+    ],
+    "challenge": [
+      "The platform must remain coherent across public prospectus, authenticated learning, learner progress and institutional record.",
+      "Adaptation should support the learner without turning the system into an opaque or unbounded authority."
+    ],
+    "proposition": [
+      "Separate School, learner and Institution environments while preserving a shared knowledge model.",
+      "Keep learner state, pathway, course and mastery relationships visible and understandable.",
+      "Allow controlled visual adaptation without changing the information hierarchy or learning structure."
+    ],
+    "role": {
+      "summary": "Institution and product architecture, learning-system design, adaptive interface engineering, account and pathway modelling, identity architecture and technical direction.",
+      "responsibilities": [
+        "Learning and pathway system architecture",
+        "Learner account and progress modelling",
+        "Adaptive interface and colour-state design",
+        "School and Institution web engineering",
+        "Identity family and production assets",
+        "Governance and system-boundary definition"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Public School",
+        "description": "Presents the learning proposition, subjects and routes into study."
+      },
+      {
+        "title": "Learner environment",
+        "description": "Connects active fields, pathways, courses, activities, progress and bounded adaptive observations."
+      },
+      {
+        "title": "Bjórr Institution",
+        "description": "Provides the wider research, governance and public-record register."
+      },
+      {
+        "title": "Connected identity system",
+        "description": "Uses distinct School and Institution registers without fragmenting recognition."
+      }
+    ],
+    "currentState": {
+      "summary": "Bjórr has a substantial public, learner and institutional interface system alongside a developed identity architecture and adaptive learning model.",
+      "capabilities": [
+        "Public School and Institution experiences",
+        "Learner dashboard and course pathways",
+        "Progress and current-state interfaces",
+        "Learner-controlled visual environments",
+        "Two-register identity family"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "Further work will deepen learning content, adaptation rules, institutional governance and the connection between study evidence and progression.",
+      "capabilities": [
+        "Expanded course and pathway content",
+        "Bounded adaptive-support rules",
+        "Assessment and evidence records",
+        "Institutional publishing and governance"
+      ]
+    },
+    "significance": "Bjórr is a strong example of product, education, identity and interface architecture operating as one institution rather than as separate website features.",
+    "heroImage": {
+      "src": "/images/projects/bjorr/web_build/school_website/school-website-website.png",
+      "alt": "School of Bjórr public learning website",
+      "caption": "The public School surface within the wider Bjórr institution"
+    },
+    "evidence": {
+      "galleryLimit": 4,
+      "note": "The dedicated identity and adaptive-learning chapters below provide the deeper visual evidence."
+    }
+  },
+  {
+    "projectSlug": "community-supplies",
+    "maturity": "full",
+    "featuredOrder": 5,
+    "eyebrow": "INDEPENDENT COMMERCE AND DISTRIBUTION PLATFORM",
+    "definition": "A modular retail and distribution platform built to support products, brand records, exclusive ranges and future fulfilment relationships.",
+    "context": [
+      "Community Supplies is being established as an independent commerce system rather than a generic storefront skin.",
+      "Its catalogue must accommodate products, brands, ranges and future operational relationships without tying the public experience to one inherited content model."
+    ],
+    "challenge": [
+      "Retail presentation, catalogue structure and distribution requirements often become entangled inside page templates.",
+      "The platform needs a durable product and brand model that can support new ranges and fulfilment arrangements without repeatedly rebuilding the storefront."
+    ],
+    "proposition": [
+      "Model products, brands, ranges and distribution relationships independently from the page layout.",
+      "Keep the storefront modular so commerce, content and future operational integrations can evolve separately.",
+      "Use the public shop as a clear consumer surface over a structured product system."
+    ],
+    "role": {
+      "summary": "Commerce architecture, product and brand modelling, storefront engineering, interface design, independent deployment and operational planning.",
+      "responsibilities": [
+        "Commerce and catalogue architecture",
+        "Product, brand and range modelling",
+        "Responsive storefront engineering",
+        "Independent frontend implementation",
+        "Deployment and service boundaries",
+        "Future fulfilment and distribution planning"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Product catalogue",
+        "description": "Provides structured product records, ranges, variants and consumer-facing presentation."
+      },
+      {
+        "title": "Brand and exclusivity model",
+        "description": "Allows products and ranges to retain their identity and relationship to Community Supplies."
+      },
+      {
+        "title": "Storefront experience",
+        "description": "Translates the underlying catalogue into a responsive, navigable retail interface."
+      },
+      {
+        "title": "Operational boundary",
+        "description": "Leaves fulfilment, distribution and later integrations able to change without rewriting the product presentation."
+      }
+    ],
+    "currentState": {
+      "summary": "The live project establishes the independent public storefront, product presentation and modular commerce direction.",
+      "capabilities": [
+        "Responsive public shop",
+        "Product and range presentation",
+        "Brand-aware catalogue structure",
+        "Independent deployment foundation"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "The next operational phases deepen catalogue management, fulfilment relationships and distribution workflows.",
+      "capabilities": [
+        "Expanded product and brand records",
+        "Exclusive range handling",
+        "Fulfilment and stock integrations",
+        "Distribution and partner workflows"
+      ]
+    },
+    "significance": "Community Supplies shows commerce engineering as product, catalogue and operational architecture—not merely the visual assembly of an online shop.",
+    "heroImage": {
+      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
+      "alt": "Community Supplies independent commerce website",
+      "caption": "Current Community Supplies storefront experience"
+    },
+    "evidence": {
+      "galleryLimit": 4
+    }
+  },
+  {
+    "projectSlug": "saveours",
+    "maturity": "full",
+    "featuredOrder": 6,
+    "eyebrow": "LIVING ARCHIVE AND PERSONAL SAVING PLATFORM",
+    "definition": "A public and personal archive platform connecting authored SaveSites, media objects and user-owned collections through a deliberate language of saving.",
+    "context": [
+      "SaveOurs revisits a long-held identity and develops it into a system for preserving, organising and carrying meaningful material.",
+      "The public archive, authored collection pages and private My Saves cabinet form different views of the same saving model."
+    ],
+    "challenge": [
+      "A saved item must retain enough source, context and collection meaning to remain useful after it leaves its original page.",
+      "Public discovery, authored collections and private ownership need distinct permissions and journeys without becoming disconnected products."
+    ],
+    "proposition": [
+      "Represent saved material as structured objects connected to source, collection and user state.",
+      "Separate public SaveSites from the signed-in personal cabinet while preserving a clear route between them.",
+      "Use the SOS and barcode-coded identity as a meaningful system rather than decoration."
+    ],
+    "role": {
+      "summary": "Product architecture, archive and object modelling, public and signed-in interface engineering, identity-language development and human-system translation.",
+      "responsibilities": [
+        "Archive and saved-object architecture",
+        "Public SaveSite experience",
+        "Personal My Saves cabinet",
+        "Account and permission boundaries",
+        "Coded identity and visual language",
+        "Responsive interface engineering"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Public archive",
+        "description": "Provides discovery and access to saved media, ideas and authored collections."
+      },
+      {
+        "title": "SaveSites",
+        "description": "Creates contextual, authored collection views rather than undifferentiated bookmark folders."
+      },
+      {
+        "title": "My Saves",
+        "description": "Gives each signed-in user a private cabinet for material deliberately carried from the wider archive."
+      },
+      {
+        "title": "Identity language",
+        "description": "Encodes SOS, SaveOurS and barcode rhythm into a recognisable system tied to preservation and retrieval."
+      }
+    ],
+    "currentState": {
+      "summary": "The project has a developed public website, SaveSite and My Saves interface direction, plus a documented multi-generation identity system.",
+      "capabilities": [
+        "Public archive entry experience",
+        "Authored SaveSite interfaces",
+        "Personal saving cabinet",
+        "Coded identity system",
+        "Connected public and signed-in journeys"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "Further implementation will deepen object provenance, saving actions, account state and archive relationships.",
+      "capabilities": [
+        "Saved-object and source records",
+        "Account and permission implementation",
+        "Collection authorship workflows",
+        "Search, filters and archive relationships"
+      ]
+    },
+    "significance": "SaveOurs demonstrates how identity, archive modelling and personal software can combine around a clear human action: deciding what should be carried forward.",
+    "heroImage": {
+      "src": "/images/projects/saveours/web_development/saveours-website.webp",
+      "alt": "SaveOurs public archive and saving platform",
+      "caption": "The public entry point to the SaveOurs living archive"
+    },
+    "evidence": {
+      "galleryLimit": 5
+    }
+  },
+  {
+    "projectSlug": "mickz",
+    "maturity": "developing",
+    "featuredOrder": 7,
+    "eyebrow": "PRODUCT, IDENTITY AND DIGITAL SYSTEM",
+    "definition": "A connected product and identity system translating the MiCKz brand into recognisable products, digital assets and a public web experience.",
+    "context": [
+      "MiCKz contains distinct identity, product and digital-output work that should be understood as one connected system rather than isolated artwork."
+    ],
+    "challenge": [
+      "The project needs enough structure to connect brand language, product development and digital presentation without treating every asset as an independent project."
+    ],
+    "proposition": [
+      "Use the project record as the parent system and retain identity, products and digital assets as separate evidence-backed contributions."
+    ],
+    "role": {
+      "responsibilities": [
+        "Product-system definition",
+        "Identity architecture",
+        "Logo and visual-language development",
+        "Digital asset creation",
+        "Website and presentation engineering"
+      ]
+    },
+    "currentState": {
+      "summary": "MiCKz has documented identity, product-system and digital-asset contributions connected to one project record."
+    },
+    "plannedDevelopment": {
+      "summary": "The case study can expand as further product and implementation evidence is made public."
+    },
+    "significance": "MiCKz shows how a recognisable brand is carried through product, identity and digital presentation rather than ending at a logo.",
+    "heroImage": {
+      "src": "/images/projects/mickz/mickz-website.webp",
+      "alt": "MiCKz website and product identity system",
+      "caption": "MiCKz public digital experience"
+    },
+    "evidence": {
+      "galleryLimit": 4
+    }
+  },
+  {
+    "projectSlug": "thinquanauts",
+    "maturity": "developing",
+    "eyebrow": "SPECULATIVE STORY AND PUBLISHING UNIVERSE",
+    "definition": "A mature speculative, philosophical and cognitive storytelling universe spanning different levels of accessibility, formats and audiences, with children's stories retained as one clearly bounded section.",
+    "context": [
+      "Thinquanauts is being reimagined around a broader writing background and mixed-age audience rather than organised primarily as a children's-story website.",
+      "Its stories explore cognition, identity, perception, systems and world-models through different narrative forms."
+    ],
+    "challenge": [
+      "The public structure must hold mature speculative work, accessible stories and children's publishing without making one audience define the entire project.",
+      "Related ProtoSynthesis publication families need clear relationships without collapsing distinct fictional and non-fictional outputs together."
+    ],
+    "proposition": [
+      "Present Thinquanauts as the parent story and publishing world.",
+      "Organise works by audience, accessibility, format and thematic route rather than by a single age category.",
+      "Keep children's stories visible but intentionally isolated as one section of a wider universe."
+    ],
+    "role": {
+      "summary": "Publishing-system architecture, story-world definition, information architecture, editorial framing, website engineering and identity direction.",
+      "responsibilities": [
+        "Story-world and publication architecture",
+        "Audience and accessibility structure",
+        "Editorial and information architecture",
+        "Website and reading-experience direction",
+        "Relationship modelling across publication families",
+        "Identity and public positioning"
+      ]
+    },
+    "architecture": [
+      {
+        "title": "Story universe",
+        "description": "Holds the shared speculative and cognitive territory across stories, worlds and recurring ideas."
+      },
+      {
+        "title": "Audience routes",
+        "description": "Allows mature, general, accessible and children's work to be discovered without flattening them into one category."
+      },
+      {
+        "title": "Publication families",
+        "description": "Connects books, stories, serial work and related ProtoSynthesis expressions while retaining their own identities."
+      },
+      {
+        "title": "Public reading surface",
+        "description": "Provides a website structure capable of presenting the wider writing practice and later publication releases."
+      }
+    ],
+    "currentState": {
+      "summary": "The repository and foundational canon structure exist, and the public framing is being rebuilt around the larger mixed-age publishing world.",
+      "capabilities": [
+        "Canonical premise and world structure",
+        "Creative and governance principles",
+        "Initial website and repository foundation",
+        "Revised mixed-age positioning"
+      ]
+    },
+    "plannedDevelopment": {
+      "summary": "The next phase establishes the complete public information architecture and begins connecting publication records, story routes and evidence.",
+      "capabilities": [
+        "Mixed-age public website",
+        "Publication and story registry",
+        "Audience and format navigation",
+        "Children's section boundary",
+        "Related-world and ProtoSynthesis connections"
+      ]
+    },
+    "significance": "Thinquanauts demonstrates publishing architecture as a system for preserving creative breadth rather than forcing an entire body of writing into its most immediately accessible category.",
+    "evidence": {
+      "galleryLimit": 0,
+      "note": "Public imagery will be connected when the newly organised project assets are available in the repository."
+    }
+  }
+]
