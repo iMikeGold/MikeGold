@@ -3,17 +3,17 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-08-05T13:18:00.000Z",
-  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T16:40:00.000Z",
   "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-  "title": "The Visionary Guide — full landing experience",
-  "description": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+  "title": "The Visionary Guide — public application direction",
+  "description": "Selected landing-page view showing the public product and responsive interface design.",
   "evidenceType": "website",
   "role": "cover",
   "sequence": 1,
   "visibility": "public",
   "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
   "sourceTitle": "The Visionary Guide",
-  "phase": "Current public application direction",
+  "phase": "Public application direction",
   "placeholder": false,
   "presentation": {
     "facets": [
@@ -24,8 +24,7 @@
       "project-cover",
       "lens-card",
       "work-hero",
-      "supporting",
-      "gallery"
+      "supporting"
     ],
     "visualQuality": "hero",
     "aspectPreference": "landscape"
