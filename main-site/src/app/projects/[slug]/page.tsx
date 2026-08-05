@@ -90,12 +90,7 @@ export default async function ProjectRecordPage({
           <p>{project.summary}</p>
         </header>
 
-        {presentedCaseStudy && (
-          <ProjectCaseStudy
-            caseStudy={presentedCaseStudy}
-            evidence={evidence}
-          />
-        )}
+        {presentedCaseStudy && <ProjectCaseStudy caseStudy={presentedCaseStudy} />}
 
         {project.slug === "bjorr" && <BjorrIdentityLanguage />}
 
