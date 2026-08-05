@@ -78,7 +78,13 @@ const explorerCards = publicWorkCards.map(({
 }) => {
   const caseStudy = lensId ? undefined : caseStudyByProjectSlug.get(projectSlug);
   const currentMedia = lensId ? undefined : projectMediaByProjectSlug.get(projectSlug);
-  const featuredOrder = caseStudy?.featuredOrder;
+  const featuredOrder = lensId
+    ? undefined
+    : projectSlug === "audiorii"
+      ? 1
+      : projectSlug === "metroplist"
+        ? 2
+        : caseStudy?.featuredOrder;
   const heroSrc = currentMedia?.assetPath ?? caseStudy?.heroImage?.src;
   const heroAlt = caseStudy?.heroImage?.alt ?? currentMedia?.label ?? `${projectName} project`;
 
