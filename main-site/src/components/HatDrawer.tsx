@@ -52,7 +52,11 @@ const SECTION_LABELS: Record<DrawerSection, string> = {
 const drawerCSS = `
 .hat-console__visual {
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
+  grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.82fr) !important;
+  align-items: center;
+  gap: 8px !important;
+  padding: 14px 10px 18px !important;
 }
 
 .hat-console__visual > * {
@@ -62,7 +66,8 @@ const drawerCSS = `
 
 .hat-console__radar {
   overflow: visible;
-  padding: 8px 4px 14px;
+  justify-content: center;
+  padding: 0;
 }
 
 .hat-console__axis-inspector,
@@ -72,8 +77,32 @@ const drawerCSS = `
   max-width: 100%;
 }
 
+.hat-console__axis-inspector {
+  overflow: hidden;
+}
+
+.hat-console__axis-focus {
+  padding: 7px 8px;
+}
+
+.hat-console__axis-focus strong {
+  font-size: 18px;
+}
+
+.hat-console__axis-focus p {
+  font-size: 8px;
+  line-height: 1.25;
+}
+
 .hat-console__axis-list button {
   overflow: hidden;
+  padding: 4px;
+  font-size: 7.6px;
+}
+
+.hat-console__axis-list span {
+  white-space: normal;
+  line-height: 1.05;
 }
 
 .hat-console__summary {
@@ -101,19 +130,33 @@ const drawerCSS = `
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__visual {
-  grid-template-columns: minmax(116px, 0.78fr) minmax(0, 1.22fr) !important;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr) !important;
   gap: 8px !important;
-  padding: 6px 8px 14px !important;
+  padding: 14px 8px 18px !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-focus {
+  padding: 6px 7px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-focus strong {
+  font-size: 17px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-focus p {
+  font-size: 7.4px;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-list button {
-  padding: 3px 4px;
-  font-size: 7.5px;
+  padding: 3px;
+  font-size: 7.2px;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-list span {
   overflow: visible;
   text-overflow: clip;
+  white-space: normal;
+  line-height: 1.05;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] {
@@ -127,21 +170,33 @@ const drawerCSS = `
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__visual {
-  grid-template-columns: minmax(112px, 0.68fr) minmax(0, 1.32fr) !important;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr) !important;
   align-items: center;
   gap: 8px !important;
-  padding: 8px 8px 16px !important;
-  overflow: hidden;
+  padding: 14px 8px 18px !important;
+  overflow: visible;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__radar {
-  justify-content: flex-start;
-  padding: 6px 0 14px;
+  justify-content: center;
+  padding: 0;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-focus {
+  padding: 6px 7px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-focus strong {
+  font-size: 17px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-focus p {
+  font-size: 7.4px;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-list button {
-  padding: 3px 4px;
-  font-size: 7.5px;
+  padding: 3px;
+  font-size: 7.2px;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-list span {
@@ -211,8 +266,8 @@ export default function HatDrawer({
   }, [dominantAxis, polygonSignature]);
 
   const effectivePolygonSize = useMemo(() => {
-    const widthAllowance = drawerWidth < 430 ? drawerWidth * 0.34 : drawerWidth * 0.4;
-    return Math.round(Math.max(116, Math.min(POLYGON_SIZE, widthAllowance, 184)));
+    const widthAllowance = drawerWidth < 430 ? drawerWidth * 0.52 : drawerWidth * 0.48;
+    return Math.round(Math.max(184, Math.min(POLYGON_SIZE, widthAllowance)));
   }, [drawerWidth, POLYGON_SIZE]);
 
   const title = hat?.name ?? "Capability profile";
