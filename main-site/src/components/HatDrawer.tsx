@@ -50,18 +50,40 @@ const SECTION_LABELS: Record<DrawerSection, string> = {
 };
 
 const drawerCSS = `
+.hat-console__visual {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.hat-console__visual > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .hat-console__radar {
   overflow: visible;
-  padding: 4px;
+  padding: 8px 4px 14px;
+}
+
+.hat-console__axis-inspector,
+.hat-console__axis-focus,
+.hat-console__axis-list {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hat-console__axis-list button {
+  overflow: hidden;
 }
 
 .hat-console__summary {
   display: block !important;
-  overflow-y: auto !important;
+  overflow: visible !important;
   -webkit-box-orient: initial !important;
   -webkit-line-clamp: unset !important;
-  max-height: 6.4em;
-  scrollbar-gutter: stable;
+  max-height: none !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
 
 .hat-console__content {
@@ -69,27 +91,70 @@ const drawerCSS = `
 }
 
 @media (max-width: 1100px) and (min-width: 768px) {
-  .hat-console__summary {
-    max-height: 7em;
-  }
-
   .hat-console__content {
     min-height: 170px;
   }
 }
 
+#hat-registry-root[data-mobile="true"][data-portrait="false"] {
+  grid-template-columns: minmax(0, 1fr) minmax(350px, 48%) !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__visual {
+  grid-template-columns: minmax(116px, 0.78fr) minmax(0, 1.22fr) !important;
+  gap: 8px !important;
+  padding: 6px 8px 14px !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-list button {
+  padding: 3px 4px;
+  font-size: 7.5px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="false"] .hat-console__axis-list span {
+  overflow: visible;
+  text-overflow: clip;
+}
+
 #hat-registry-root[data-mobile="true"][data-portrait="true"] {
-  height: max(850px, calc(100dvh + 30px)) !important;
-  min-height: 850px !important;
-  grid-template-rows: clamp(520px, 61dvh, 570px) 58px minmax(250px, 1fr) !important;
+  height: max(900px, calc(100dvh + 70px)) !important;
+  min-height: 900px !important;
+  grid-template-rows: clamp(590px, 68dvh, 640px) 58px minmax(250px, 1fr) !important;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console {
-  grid-template-rows: auto auto minmax(64px, auto) auto minmax(155px, 1fr) !important;
+  grid-template-rows: auto auto auto auto minmax(170px, 1fr) !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__visual {
+  grid-template-columns: minmax(112px, 0.68fr) minmax(0, 1.32fr) !important;
+  align-items: center;
+  gap: 8px !important;
+  padding: 8px 8px 16px !important;
+  overflow: hidden;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__radar {
+  justify-content: flex-start;
+  padding: 6px 0 14px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-list button {
+  padding: 3px 4px;
+  font-size: 7.5px;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__axis-list span {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+  line-height: 1.05;
 }
 
 #hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__summary {
-  max-height: 7.2em;
+  overflow: visible !important;
+  max-height: none !important;
+  padding: 12px !important;
 }
 `;
 
@@ -146,8 +211,8 @@ export default function HatDrawer({
   }, [dominantAxis, polygonSignature]);
 
   const effectivePolygonSize = useMemo(() => {
-    const widthAllowance = drawerWidth < 380 ? drawerWidth * 0.42 : drawerWidth * 0.46;
-    return Math.round(Math.max(140, Math.min(POLYGON_SIZE, widthAllowance, 196)));
+    const widthAllowance = drawerWidth < 430 ? drawerWidth * 0.34 : drawerWidth * 0.4;
+    return Math.round(Math.max(116, Math.min(POLYGON_SIZE, widthAllowance, 184)));
   }, [drawerWidth, POLYGON_SIZE]);
 
   const title = hat?.name ?? "Capability profile";
