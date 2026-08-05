@@ -994,6 +994,7 @@ export const publicWork = [
       "community-supplies-02-shopsite",
       "community-supplies-03-shopsite-marketplace",
       "community-supplies-04-shopsite-colour-language",
+      "community-supplies-99-website-old-design",
       "community-supplies-community-supplies-community-suuplies-website",
       "community-supplies-community-supplies-logo-design-logo-main",
       "community-supplies-documentation-pending"
@@ -1025,6 +1026,14 @@ export const publicWork = [
           "gallery"
         ],
         "priority": 4
+      },
+      {
+        "evidenceSlug": "community-supplies-99-website-old-design",
+        "role": "supporting",
+        "displayRoles": [
+          "archive"
+        ],
+        "priority": 99
       },
       {
         "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
@@ -2078,6 +2087,7 @@ export const publicWork = [
       "metroplist-02-appsite",
       "metroplist-03-appsite-explore",
       "metroplist-04-appsite-compare",
+      "metroplist-99-website-old",
       "metroplist-documentation-pending",
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
@@ -2113,6 +2123,14 @@ export const publicWork = [
           "gallery"
         ],
         "priority": 4
+      },
+      {
+        "evidenceSlug": "metroplist-99-website-old",
+        "role": "supporting",
+        "displayRoles": [
+          "archive"
+        ],
+        "priority": 99
       },
       {
         "evidenceSlug": "metroplist-documentation-pending",
@@ -3400,6 +3418,7 @@ export const publicWork = [
       "the-visionary-guide-04-appsite-results",
       "the-visionary-guide-05-appsite-results-comparison",
       "the-visionary-guide-90-appsite-landing-compact",
+      "the-visionary-guide-99-website-old",
       "the-visionary-guide-documentation-pending",
       "the-visionary-guide-visionary-guide-visionary-guide-website"
     ],
@@ -3448,6 +3467,14 @@ export const publicWork = [
           "gallery"
         ],
         "priority": 90
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-99-website-old",
+        "role": "supporting",
+        "displayRoles": [
+          "archive"
+        ],
+        "priority": 99
       },
       {
         "evidenceSlug": "the-visionary-guide-documentation-pending",

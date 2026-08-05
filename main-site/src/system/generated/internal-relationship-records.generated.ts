@@ -1328,6 +1328,25 @@ export const internalRelationshipRecords = [
     "priority": 4
   },
   {
+    "id": "ce10f45c-8a8e-4e89-9578-cd827d0e3dd2",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:42:00.000Z",
+    "updatedAt": "2026-08-05T13:42:00.000Z",
+    "slug": "community-supplies-system-development-evidenced-by-community-supplies-99-website-old-design",
+    "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "86e6b810-e9d9-4b9f-bbbf-fa09d5d213c3",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "archive"
+    ],
+    "priority": 99,
+    "note": "Previous public website retained only as archive evidence of the platform's design development."
+  },
+  {
     "id": "8613f322-8483-4177-b273-2d987826f599",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -3065,6 +3084,25 @@ export const internalRelationshipRecords = [
     "priority": 4
   },
   {
+    "id": "57ca337e-12c4-4cb1-8249-48f123a2ea66",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:42:00.000Z",
+    "updatedAt": "2026-08-05T13:42:00.000Z",
+    "slug": "metroplist-system-development-evidenced-by-metroplist-99-website-old",
+    "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "cf999738-cd05-47e8-9cf5-7397925ccd4c",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "archive"
+    ],
+    "priority": 99,
+    "note": "Previous Metroplist website retained only as archive evidence of the public product's development."
+  },
+  {
     "id": "a56d1a9a-b5da-4476-a416-ab4eff14475d",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -4558,6 +4596,25 @@ export const internalRelationshipRecords = [
       "gallery"
     ],
     "priority": 90
+  },
+  {
+    "id": "6f9851f3-9445-448f-a207-5007f3dd6707",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:42:00.000Z",
+    "updatedAt": "2026-08-05T13:42:00.000Z",
+    "slug": "the-visionary-guide-system-development-evidenced-by-the-visionary-guide-99-website-old",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "398040d8-dacb-4df5-bbc4-d0a881a532e3",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "archive"
+    ],
+    "priority": 99,
+    "note": "Previous Visionary Guide website retained only as archive evidence and excluded from the current case-study presentation."
   },
   {
     "id": "34fdde40-2f63-4f8e-aa97-f74fb592d053",
