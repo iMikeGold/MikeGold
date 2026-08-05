@@ -42,55 +42,75 @@ export default function ProjectWorkArchive({ work, hats, evidence }: {
   );
 
   return (
-    <div className="project-work-sections">
-      {orderedWork.map((item) => {
-        const isContextual = !area || item.capabilityGroupIds.includes(area);
-        const itemEvidence = item.evidenceSlugs.flatMap((slug) => {
-          const record = evidenceBySlug.get(slug);
-          return record ? [record] : [];
-        });
-        const visibleHats = item.appliedHatSlugs.slice(0, visibleHatLimit);
-        const additionalHats = item.appliedHatSlugs.slice(visibleHatLimit);
+    <>
+      <style>{`
+        .applied-hat-disclosure {
+          flex-basis: 100%;
+          margin-top: .1rem;
+        }
+        .applied-hat-disclosure > summary {
+          width: max-content;
+          color: #9fc0ff;
+          cursor: pointer;
+          font-size: .7rem;
+        }
+        .applied-hat-disclosure > div {
+          display: flex;
+          flex-wrap: wrap;
+          gap: .4rem;
+          margin-top: .55rem;
+        }
+      `}</style>
+      <div className="project-work-sections">
+        {orderedWork.map((item) => {
+          const isContextual = !area || item.capabilityGroupIds.includes(area);
+          const itemEvidence = item.evidenceSlugs.flatMap((slug) => {
+            const record = evidenceBySlug.get(slug);
+            return record ? [record] : [];
+          });
+          const visibleHats = item.appliedHatSlugs.slice(0, visibleHatLimit);
+          const additionalHats = item.appliedHatSlugs.slice(visibleHatLimit);
 
-        return (
-          <article key={item.slug} className={`project-work-section${isContextual ? " is-contextual" : ""}`}>
-            <div className="record-status-row">
-              <span>{item.status.replaceAll("-", " ")}</span>
-              <span>Work contribution</span>
-            </div>
-            <h3>{item.title}</h3>
-            <p>{item.summary}</p>
-            {!!visibleHats.length && (
-              <div className="applied-hat-list" aria-label="Applied Hats">
-                {visibleHats.map((slug) => (
-                  <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
-                ))}
-                {!!additionalHats.length && (
-                  <details className="applied-hat-disclosure">
-                    <summary>+{additionalHats.length} more</summary>
-                    <div>
-                      {additionalHats.map((slug) => (
-                        <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
-                      ))}
-                    </div>
-                  </details>
-                )}
+          return (
+            <article key={item.slug} className={`project-work-section${isContextual ? " is-contextual" : ""}`}>
+              <div className="record-status-row">
+                <span>{item.status.replaceAll("-", " ")}</span>
+                <span>Work contribution</span>
               </div>
-            )}
-            {!!item.stages?.length && (
-              <ol className="work-stage-list">
-                {item.stages.map((stage) => (
-                  <li key={stage.key}>
-                    <strong>{stage.label}</strong>
-                    <span>{stage.status.replaceAll("-", " ")}</span>
-                  </li>
-                ))}
-              </ol>
-            )}
-            <EvidenceDisclosure evidence={itemEvidence} defaultOpen={false} />
-          </article>
-        );
-      })}
-    </div>
+              <h3>{item.title}</h3>
+              <p>{item.summary}</p>
+              {!!visibleHats.length && (
+                <div className="applied-hat-list" aria-label="Applied Hats">
+                  {visibleHats.map((slug) => (
+                    <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
+                  ))}
+                  {!!additionalHats.length && (
+                    <details className="applied-hat-disclosure">
+                      <summary>+{additionalHats.length} more</summary>
+                      <div>
+                        {additionalHats.map((slug) => (
+                          <span key={slug}>{hatBySlug.get(slug)?.name ?? slug}</span>
+                        ))}
+                      </div>
+                    </details>
+                  )}
+                </div>
+              )}
+              {!!item.stages?.length && (
+                <ol className="work-stage-list">
+                  {item.stages.map((stage) => (
+                    <li key={stage.key}>
+                      <strong>{stage.label}</strong>
+                      <span>{stage.status.replaceAll("-", " ")}</span>
+                    </li>
+                  ))}
+                </ol>
+              )}
+              <EvidenceDisclosure evidence={itemEvidence} defaultOpen={false} />
+            </article>
+          );
+        })}
+      </div>
+    </>
   );
 }
