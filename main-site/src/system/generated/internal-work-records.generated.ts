@@ -1318,11 +1318,11 @@ export const internalWorkRecords = [
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-21T00:00:00.000Z",
-    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
     "projectId": "71ac31c2-c8a2-46e6-8e39-d25f15c2a98e",
     "slug": "musical-intelligence-identity-restoration",
     "title": "Musical Intelligence identity restoration",
-    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "summary": "Recreated from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean, contemporary and scalable digital use.",
     "status": "completed",
     "visibility": "public",
     "stages": [
@@ -1473,18 +1473,18 @@ export const internalWorkRecords = [
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-23T00:00:00.000Z",
-    "updatedAt": "2026-07-23T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
     "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
     "slug": "playstation-croatia-ps5-sound-tour-audio-system-implementation",
-    "title": "Audio-system implementation",
-    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
+    "title": "Studio recording and release preparation",
+    "summary": "Studio and controlled-production work covering voice-over recording, recording engineering, sound engineering, mixing, mastering, quality control and format preparation for commercial release promotion.",
     "status": "historical",
     "visibility": "public",
     "lensAssignments": [
       {
-        "lensId": "physical-systems-engineering",
+        "lensId": "media-production-distribution",
         "role": "primary",
-        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+        "rationale": "The responsibility centres on studio recording, post-production, quality control and preparation of finished audio media for commercial release promotion."
       }
     ]
   },
@@ -1597,11 +1597,11 @@ export const internalWorkRecords = [
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-21T00:00:00.000Z",
-    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
     "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
     "slug": "saveours-identity-language-development",
     "title": "Identity language and coded mark development",
-    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "summary": "Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction.",
     "status": "in-progress",
     "visibility": "public",
     "stages": [
@@ -1612,7 +1612,7 @@ export const internalWorkRecords = [
       },
       {
         "key": "revisit",
-        "label": "Identity revisited",
+        "label": "Identity development",
         "status": "completed"
       },
       {
@@ -1631,7 +1631,7 @@ export const internalWorkRecords = [
         "lensId": "system-product-definition",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-        "lensSummary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+        "lensSummary": "System and product-definition responsibility: Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction."
       }
     ]
   },
@@ -1640,11 +1640,11 @@ export const internalWorkRecords = [
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-21T00:00:00.000Z",
-    "updatedAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
     "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
     "slug": "saveours-platform-interface-development",
-    "title": "SaveOurs archive and personal-save interfaces",
-    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "title": "SaveOurs social and personal-saving interfaces",
+    "summary": "Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
     "status": "in-progress",
     "visibility": "public",
     "lensAssignments": [
@@ -1657,13 +1657,13 @@ export const internalWorkRecords = [
         "lensId": "system-product-definition",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-        "lensSummary": "System and product-definition responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+        "lensSummary": "System and product-definition responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
       },
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-        "lensSummary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+        "lensSummary": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
       }
     ]
   },
@@ -1672,11 +1672,11 @@ export const internalWorkRecords = [
     "recordType": "work",
     "schemaVersion": 1,
     "createdAt": "2026-07-20T00:00:00.000Z",
-    "updatedAt": "2026-07-20T00:00:00.000Z",
+    "updatedAt": "2026-08-05T00:00:00.000Z",
     "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
     "slug": "saveours-system-development",
     "title": "SaveOurs system development",
-    "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+    "summary": "Product and platform architecture for a social saving experience built around the things people love, share and collect.",
     "status": "in-progress",
     "visibility": "public",
     "lensAssignments": [
@@ -1689,13 +1689,13 @@ export const internalWorkRecords = [
         "lensId": "brand-experience-systems",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-        "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+        "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
       },
       {
         "lensId": "media-production-distribution",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
-        "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+        "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
       }
     ]
   },
@@ -1794,7 +1794,7 @@ export const internalWorkRecords = [
     "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
     "slug": "thinquanauts-editorial-architecture",
     "title": "Thinquanauts editorial and publication architecture",
-    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes so the wider writing practice can be published without being flattened into a children's collection.",
+    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes across the wider writing practice.",
     "status": "in-progress",
     "visibility": "public",
     "sequence": 3,
@@ -1802,13 +1802,13 @@ export const internalWorkRecords = [
       {
         "lensId": "media-production-distribution",
         "role": "primary",
-        "rationale": "The work structures written media, publication formats, editorial routes and future distribution across the Thinquanauts catalogue.",
+        "rationale": "The work structures written media, publication formats, editorial routes and distribution across the Thinquanauts catalogue.",
         "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
       },
       {
         "lensId": "system-product-definition",
         "role": "secondary",
-        "rationale": "Publication records, audience levels and thematic relationships require a coherent information model rather than page-by-page classification.",
+        "rationale": "Publication records, audience levels and thematic relationships are organised through a coherent information model.",
         "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
       }
     ]
@@ -1822,7 +1822,7 @@ export const internalWorkRecords = [
     "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
     "slug": "thinquanauts-system-development",
     "title": "Thinquanauts publishing-system development",
-    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families and canon structure.",
     "status": "in-progress",
     "visibility": "public",
     "sequence": 1,
@@ -1830,13 +1830,13 @@ export const internalWorkRecords = [
       {
         "lensId": "system-product-definition",
         "role": "primary",
-        "rationale": "The work defines the parent publishing system, its boundaries, publication relationships, audience routes and intended operation.",
+        "rationale": "The work defines the parent publishing system, publication relationships, audience routes and intended operation.",
         "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
       },
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
-        "rationale": "The work establishes the meaning, recognition and public framing that allows distinct story and audience routes to remain part of one Thinquanauts world.",
+        "rationale": "The work establishes the meaning, recognition and public framing shared across the Thinquanauts story world.",
         "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
       }
     ]
@@ -1850,7 +1850,7 @@ export const internalWorkRecords = [
     "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
     "slug": "thinquanauts-web-experience",
     "title": "Thinquanauts public web experience",
-    "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+    "summary": "Information architecture and responsive web direction for mature speculative work, accessible stories, publication families and a dedicated children's section.",
     "status": "in-progress",
     "visibility": "public",
     "sequence": 2,
@@ -1864,7 +1864,7 @@ export const internalWorkRecords = [
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
-        "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+        "rationale": "The interface communicates distinct audience and publication routes through a recognisable parent world.",
         "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
       }
     ]

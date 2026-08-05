@@ -27,33 +27,27 @@
       "concepts": [
         "design-activity",
         "identity-systems",
-        "product-identity",
-        "visual-language-system",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "audiorii-digital-assets": {
       "projectSlug": "audiorii",
       "concepts": [
         "audio-medium",
-        "audio-production",
-        "media-distribution",
         "software-engineering"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "audiorii-system-development": {
       "projectSlug": "audiorii",
       "concepts": [
         "build-activity",
         "cloud-operations",
-        "media-distribution",
         "operational-state",
-        "software-engineering",
-        "systems-integration"
+        "software-engineering"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "audiorii-website-development": {
       "projectSlug": "audiorii",
@@ -63,7 +57,7 @@
         "software-engineering",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "bamboograph-system-development": {
       "projectSlug": "bamboograph",
@@ -90,12 +84,9 @@
       "projectSlug": "bjorr",
       "concepts": [
         "identity-systems",
-        "operate-activity",
-        "product-identity",
-        "software-engineering",
-        "web-application"
+        "operate-activity"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "bluedot-festival-the-orb-live-sound-system-design-and-installation": {
       "projectSlug": "bluedot-festival-the-orb",
@@ -174,11 +165,10 @@
         "operate-activity",
         "product-catalogue",
         "product-definition",
-        "product-identity",
         "software-engineering",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "croydon-womens-network-iwd-camera-systems-and-setup": {
       "projectSlug": "croydon-womens-network-iwd",
@@ -406,40 +396,31 @@
         "identity-systems",
         "operate-activity",
         "software-engineering",
-        "systems-integration",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "mickz-digital-assets": {
       "projectSlug": "mickz",
       "concepts": [
-        "identity-systems",
-        "media-distribution",
-        "product-identity",
-        "web-application"
+        "identity-systems"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "mickz-identity-development": {
       "projectSlug": "mickz",
       "concepts": [
-        "identity-systems",
-        "product-identity",
-        "visual-language-system"
+        "identity-systems"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "mickz-product-system": {
       "projectSlug": "mickz",
       "concepts": [
         "identity-systems",
-        "operate-activity",
-        "product-identity",
-        "systems-integration",
-        "web-application"
+        "operate-activity"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "mikegold-engineer-system-development": {
       "projectSlug": "mikegold-engineer",
@@ -562,8 +543,11 @@
     "playstation-croatia-ps5-sound-tour-audio-system-implementation": {
       "projectSlug": "playstation-croatia-ps5-sound-tour",
       "concepts": [
+        "audio-engineering",
         "audio-medium",
-        "physical-audio-systems"
+        "audio-production",
+        "engineer-role",
+        "studio-environment"
       ],
       "source": "derived"
     },
@@ -610,11 +594,9 @@
         "identity-systems",
         "operate-activity",
         "product-definition",
-        "product-identity",
-        "software-engineering",
-        "visual-language-system"
+        "software-engineering"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "saveours-platform-interface-development": {
       "projectSlug": "saveours",
@@ -625,19 +607,15 @@
         "software-engineering",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "saveours-system-development": {
       "projectSlug": "saveours",
       "concepts": [
-        "build-activity",
         "identity-systems",
-        "operate-activity",
-        "product-identity",
-        "systems-integration",
-        "web-application"
+        "operate-activity"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "stanhope-seta-flash-point-testing-scientific-equipment-and-test-systems": {
       "projectSlug": "stanhope-seta-flash-point-testing",
@@ -667,18 +645,14 @@
         "operate-activity",
         "product-definition",
         "software-engineering",
-        "systems-integration",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "thinquanauts-editorial-architecture": {
       "projectSlug": "thinquanauts",
-      "concepts": [
-        "media-distribution",
-        "systems-integration"
-      ],
-      "source": "confirmed-claims"
+      "concepts": [],
+      "source": "derived"
     },
     "thinquanauts-system-development": {
       "projectSlug": "thinquanauts",
@@ -686,11 +660,9 @@
         "content-system",
         "identity-systems",
         "media-distribution",
-        "operate-activity",
-        "product-identity",
-        "systems-integration"
+        "operate-activity"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "thinquanauts-web-experience": {
       "projectSlug": "thinquanauts",
@@ -699,10 +671,9 @@
         "engineer-role",
         "identity-systems",
         "media-distribution",
-        "software-engineering",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "vendfm-system-development": {
       "projectSlug": "vendfm",
@@ -749,25 +720,21 @@
       "projectSlug": "wrappedfm",
       "concepts": [
         "identity-systems",
-        "logo-artwork",
-        "product-identity",
-        "visual-language-system"
+        "logo-artwork"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "wrappedfm-system-development": {
       "projectSlug": "wrappedfm",
       "concepts": [
         "engineer-role",
         "identity-systems",
-        "media-distribution",
         "operate-activity",
         "operational-state",
-        "product-identity",
         "software-engineering",
         "web-application"
       ],
-      "source": "confirmed-claims"
+      "source": "derived"
     },
     "zenthapy-identity-development": {
       "projectSlug": "zenthapy",

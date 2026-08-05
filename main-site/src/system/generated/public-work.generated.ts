@@ -149,6 +149,7 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer",
       "graphic-systems-designer",
       "symbol-systems-designer"
@@ -216,8 +217,8 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "audio-engineer",
+      "sound-engineer",
       "media-engineer",
-      "media-distribution-engineer",
       "media-workflow-designer"
     ],
     "evidenceSlugs": [
@@ -333,6 +334,7 @@ export const publicWork = [
     "appliedHatSlugs": [
       "software-engineer",
       "web-design-engineer",
+      "application-engineer",
       "backend-engineer",
       "platform-engineer"
     ],
@@ -516,15 +518,10 @@ export const publicWork = [
       "identity-architect",
       "systems-engineer",
       "platform-engineer",
-      "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "data-modeler",
-      "permissions-identity-engineer",
-      "brand-systems-engineer",
-      "human-system-translator",
-      "meaning-architect",
-      "environment-architect"
+      "human-system-translator"
     ],
     "evidenceSlugs": [
       "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
@@ -984,11 +981,7 @@ export const publicWork = [
       "systems-engineer",
       "application-engineer",
       "software-engineer",
-      "data-modeler",
-      "database-engineer",
-      "platform-engineer",
-      "operations-engineer",
-      "identity-architect"
+      "data-modeler"
     ],
     "evidenceSlugs": [
       "community-supplies-02-shopsite",
@@ -2074,14 +2067,9 @@ export const publicWork = [
       "visual-language-engineer",
       "systems-engineer",
       "data-engineer",
-      "database-engineer",
       "software-engineer",
       "application-engineer",
-      "platform-engineer",
-      "web-design-engineer",
-      "metadata-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "web-design-engineer"
     ],
     "evidenceSlugs": [
       "metroplist-02-appsite",
@@ -2193,7 +2181,7 @@ export const publicWork = [
       "media-engineer",
       "media-workflow-designer",
       "web-design-engineer",
-      "software-engineer"
+      "graphic-design-engineer"
     ],
     "evidenceSlugs": [
       "mickz-mickz-mickz-website"
@@ -2245,8 +2233,7 @@ export const publicWork = [
       "brand-systems-engineer",
       "logo-systems-designer",
       "identity-architect",
-      "graphic-systems-designer",
-      "symbol-systems-designer"
+      "graphic-systems-designer"
     ],
     "evidenceSlugs": [
       "mickz-mickz-branding-systems-drinks-mickz-main",
@@ -2334,9 +2321,8 @@ export const publicWork = [
       "brand-systems-engineer",
       "visual-language-engineer",
       "systems-engineer",
-      "application-engineer",
       "identity-architect",
-      "platform-engineer"
+      "application-engineer"
     ],
     "evidenceSlugs": [
       "mickz-product-system",
@@ -2570,7 +2556,7 @@ export const publicWork = [
     "slug": "musical-intelligence-identity-restoration",
     "projectSlug": "musical-intelligence",
     "title": "Musical Intelligence identity restoration",
-    "summary": "Recreated my own identity from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean contemporary and scalable digital use.",
+    "summary": "Recreated from the surviving original as the historical reference. The restoration preserves its curved framing, lowercase wordmark and superscript-three language while rebuilding typography, spacing, proportion, alignment and colour for clean, contemporary and scalable digital use.",
     "status": "completed",
     "capabilityGroupIds": [
       "brand-experience-systems"
@@ -2871,21 +2857,28 @@ export const publicWork = [
   {
     "slug": "playstation-croatia-ps5-sound-tour-audio-system-implementation",
     "projectSlug": "playstation-croatia-ps5-sound-tour",
-    "title": "Audio-system implementation",
-    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
+    "title": "Studio recording and release preparation",
+    "summary": "Studio and controlled-production work covering voice-over recording, recording engineering, sound engineering, mixing, mastering, quality control and format preparation for commercial release promotion.",
     "status": "historical",
     "capabilityGroupIds": [
-      "physical-systems-engineering"
+      "media-production-distribution"
     ],
     "lensAssignments": [
       {
-        "lensId": "physical-systems-engineering",
+        "lensId": "media-production-distribution",
         "role": "primary",
-        "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+        "rationale": "The responsibility centres on studio recording, post-production, quality control and preparation of finished audio media for commercial release promotion."
       }
     ],
     "appliedHatSlugs": [
-      "audio-engineer"
+      "audio-engineer",
+      "recording-engineer",
+      "sound-engineer",
+      "mix-engineer",
+      "mastering-engineer",
+      "post-production-audio-engineer",
+      "media-quality-engineer",
+      "format-standardisation-engineer"
     ],
     "evidenceSlugs": [
       "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video"
@@ -2918,7 +2911,12 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "experiential-engineer",
-      "sound-designer"
+      "sound-designer",
+      "audio-engineer",
+      "sound-engineer",
+      "post-production-audio-engineer",
+      "mix-engineer",
+      "media-quality-engineer"
     ],
     "evidenceSlugs": [
       "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video"
@@ -3088,7 +3086,7 @@ export const publicWork = [
     "slug": "saveours-identity-language-development",
     "projectSlug": "saveours",
     "title": "Identity language and coded mark development",
-    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "summary": "Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "brand-experience-systems",
@@ -3104,7 +3102,7 @@ export const publicWork = [
         "lensId": "system-product-definition",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-        "lensSummary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+        "lensSummary": "System and product-definition responsibility: Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction."
       }
     ],
     "stages": [
@@ -3115,7 +3113,7 @@ export const publicWork = [
       },
       {
         "key": "revisit",
-        "label": "Identity revisited",
+        "label": "Identity development",
         "status": "completed"
       },
       {
@@ -3128,9 +3126,7 @@ export const publicWork = [
       "identity-architect",
       "brand-systems-engineer",
       "logo-systems-designer",
-      "graphic-systems-designer",
-      "symbol-systems-designer",
-      "meaning-architect"
+      "symbol-systems-designer"
     ],
     "evidenceSlugs": [
       "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
@@ -3162,14 +3158,14 @@ export const publicWork = [
       }
     ],
     "lensSummaries": {
-      "system-product-definition": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark."
+      "system-product-definition": "System and product-definition responsibility: Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction."
     }
   },
   {
     "slug": "saveours-platform-interface-development",
     "projectSlug": "saveours",
-    "title": "SaveOurs archive and personal-save interfaces",
-    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "title": "SaveOurs social and personal-saving interfaces",
+    "summary": "Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "software-web-engineering",
@@ -3186,21 +3182,20 @@ export const publicWork = [
         "lensId": "system-product-definition",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-        "lensSummary": "System and product-definition responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+        "lensSummary": "System and product-definition responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
       },
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-        "lensSummary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+        "lensSummary": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
       }
     ],
     "appliedHatSlugs": [
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
-      "human-system-translator",
-      "permissions-identity-engineer"
+      "human-system-translator"
     ],
     "evidenceSlugs": [
       "saveours-saveours-saveours-website",
@@ -3222,15 +3217,15 @@ export const publicWork = [
       }
     ],
     "lensSummaries": {
-      "system-product-definition": "System and product-definition responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
-      "brand-experience-systems": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page."
+      "system-product-definition": "System and product-definition responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
+      "brand-experience-systems": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
     }
   },
   {
     "slug": "saveours-system-development",
     "projectSlug": "saveours",
     "title": "SaveOurs system development",
-    "summary": "Product and platform architecture for a living museum built around what people create, collect and remember.",
+    "summary": "Product and platform architecture for a social saving experience built around the things people love, share and collect.",
     "status": "in-progress",
     "capabilityGroupIds": [
       "system-product-definition",
@@ -3247,22 +3242,21 @@ export const publicWork = [
         "lensId": "brand-experience-systems",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-        "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+        "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
       },
       {
         "lensId": "media-production-distribution",
         "role": "secondary",
         "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
-        "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+        "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
       }
     ],
     "appliedHatSlugs": [
       "data-modeler",
       "symbol-systems-designer",
       "systems-engineer",
-      "software-engineer",
       "platform-engineer",
-      "metadata-engineer",
+      "software-engineer",
       "brand-systems-engineer"
     ],
     "evidenceSlugs": [
@@ -3275,8 +3269,8 @@ export const publicWork = [
       }
     ],
     "lensSummaries": {
-      "brand-experience-systems": "Brand and experience-system responsibility: Product and platform architecture for a living museum built around what people create, collect and remember.",
-      "media-production-distribution": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember."
+      "brand-experience-systems": "Brand and experience-system responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect.",
+      "media-production-distribution": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
     }
   },
   {
@@ -3401,81 +3395,14 @@ export const publicWork = [
       "web-design-engineer",
       "systems-engineer",
       "platform-engineer",
-      "data-engineer",
-      "database-engineer",
-      "backend-engineer",
       "application-engineer",
-      "software-engineer",
-      "pipeline-engineer",
-      "automation-engineer",
-      "boundary-engineer",
-      "metadata-engineer",
-      "human-system-translator"
+      "media-workflow-designer"
     ],
     "evidenceSlugs": [
-      "the-visionary-guide-02-website-app-live",
-      "the-visionary-guide-03-appsite-positions",
-      "the-visionary-guide-04-appsite-results",
-      "the-visionary-guide-05-appsite-results-comparison",
-      "the-visionary-guide-90-appsite-landing-compact",
-      "the-visionary-guide-99-website-old",
       "the-visionary-guide-documentation-pending",
       "the-visionary-guide-visionary-guide-visionary-guide-website"
     ],
     "evidenceLinks": [
-      {
-        "evidenceSlug": "the-visionary-guide-02-website-app-live",
-        "role": "supporting",
-        "displayRoles": [
-          "supporting",
-          "gallery"
-        ],
-        "priority": 2
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
-        "role": "supporting",
-        "displayRoles": [
-          "supporting",
-          "gallery"
-        ],
-        "priority": 3
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-04-appsite-results",
-        "role": "supporting",
-        "displayRoles": [
-          "supporting",
-          "gallery"
-        ],
-        "priority": 4
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-05-appsite-results-comparison",
-        "role": "supporting",
-        "displayRoles": [
-          "supporting",
-          "gallery"
-        ],
-        "priority": 5
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-90-appsite-landing-compact",
-        "role": "supporting",
-        "displayRoles": [
-          "supporting",
-          "gallery"
-        ],
-        "priority": 90
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-99-website-old",
-        "role": "supporting",
-        "displayRoles": [
-          "archive"
-        ],
-        "priority": 99
-      },
       {
         "evidenceSlug": "the-visionary-guide-documentation-pending",
         "role": "supporting"
@@ -3493,7 +3420,7 @@ export const publicWork = [
     "slug": "thinquanauts-editorial-architecture",
     "projectSlug": "thinquanauts",
     "title": "Thinquanauts editorial and publication architecture",
-    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes so the wider writing practice can be published without being flattened into a children's collection.",
+    "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes across the wider writing practice.",
     "status": "in-progress",
     "sequence": 3,
     "capabilityGroupIds": [
@@ -3504,13 +3431,13 @@ export const publicWork = [
       {
         "lensId": "media-production-distribution",
         "role": "primary",
-        "rationale": "The work structures written media, publication formats, editorial routes and future distribution across the Thinquanauts catalogue.",
+        "rationale": "The work structures written media, publication formats, editorial routes and distribution across the Thinquanauts catalogue.",
         "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
       },
       {
         "lensId": "system-product-definition",
         "role": "secondary",
-        "rationale": "Publication records, audience levels and thematic relationships require a coherent information model rather than page-by-page classification.",
+        "rationale": "Publication records, audience levels and thematic relationships are organised through a coherent information model.",
         "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
       }
     ],
@@ -3518,8 +3445,8 @@ export const publicWork = [
       "media-workflow-designer",
       "metadata-engineer",
       "media-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "narrative-systems-thinker",
+      "meaning-architect"
     ],
     "evidenceSlugs": [],
     "evidenceLinks": [],
@@ -3532,7 +3459,7 @@ export const publicWork = [
     "slug": "thinquanauts-system-development",
     "projectSlug": "thinquanauts",
     "title": "Thinquanauts publishing-system development",
-    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families and canon structure.",
     "status": "in-progress",
     "sequence": 1,
     "capabilityGroupIds": [
@@ -3543,22 +3470,22 @@ export const publicWork = [
       {
         "lensId": "system-product-definition",
         "role": "primary",
-        "rationale": "The work defines the parent publishing system, its boundaries, publication relationships, audience routes and intended operation.",
+        "rationale": "The work defines the parent publishing system, publication relationships, audience routes and intended operation.",
         "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
       },
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
-        "rationale": "The work establishes the meaning, recognition and public framing that allows distinct story and audience routes to remain part of one Thinquanauts world.",
+        "rationale": "The work establishes the meaning, recognition and public framing shared across the Thinquanauts story world.",
         "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
       }
     ],
     "appliedHatSlugs": [
       "systems-engineer",
-      "platform-engineer",
       "meaning-architect",
-      "brand-systems-engineer",
-      "identity-architect"
+      "narrative-systems-thinker",
+      "world-building-engineer",
+      "data-modeler"
     ],
     "evidenceSlugs": [],
     "evidenceLinks": [],
@@ -3571,7 +3498,7 @@ export const publicWork = [
     "slug": "thinquanauts-web-experience",
     "projectSlug": "thinquanauts",
     "title": "Thinquanauts public web experience",
-    "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+    "summary": "Information architecture and responsive web direction for mature speculative work, accessible stories, publication families and a dedicated children's section.",
     "status": "in-progress",
     "sequence": 2,
     "capabilityGroupIds": [
@@ -3588,7 +3515,7 @@ export const publicWork = [
       {
         "lensId": "brand-experience-systems",
         "role": "secondary",
-        "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+        "rationale": "The interface communicates distinct audience and publication routes through a recognisable parent world.",
         "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
       }
     ],
@@ -3596,8 +3523,7 @@ export const publicWork = [
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
-      "human-system-translator",
-      "identity-architect"
+      "human-system-translator"
     ],
     "evidenceSlugs": [
       "thinquanauts-web-development-thinquanauts-website-landing-page"
@@ -3882,6 +3808,7 @@ export const publicWork = [
     ],
     "appliedHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer"
     ],
     "evidenceSlugs": [
@@ -3935,7 +3862,6 @@ export const publicWork = [
       "web-design-engineer",
       "software-engineer",
       "media-distribution-engineer",
-      "brand-systems-engineer",
       "platform-engineer"
     ],
     "evidenceSlugs": [
