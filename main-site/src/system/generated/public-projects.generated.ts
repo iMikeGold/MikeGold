@@ -5,7 +5,7 @@ export const publicProjects = [
   {
     "slug": "audiorii",
     "name": "AudioRii",
-    "summary": "A professional-audio product and service ecosystem connecting software instruments, effects, sound libraries, creator services, licensing, delivery infrastructure and a signal-led identity system.",
+    "summary": "Product, software, web and identity development for a professional-audio ecosystem spanning instruments, effects, sound libraries and creator tools.",
     "status": "active-development",
     "featured": true,
     "establishedYear": 2026,
@@ -91,7 +91,7 @@ export const publicProjects = [
   {
     "slug": "community-supplies",
     "name": "Community Supplies",
-    "summary": "An independent commerce and distribution platform built around modular product, brand and range records, a responsive storefront and future fulfilment relationships.",
+    "summary": "Commerce architecture, catalogue modelling, responsive storefront development and brand presentation for Community Supplies.",
     "status": "live",
     "featured": true,
     "establishedYear": 2017,
@@ -149,7 +149,7 @@ export const publicProjects = [
   {
     "slug": "metroplist",
     "name": "Metroplist",
-    "summary": "A data-driven exploration platform that transforms complex modern information into understandable, visual and meaningful intelligence through a data and interpretation system designed for multiple experiences, including AR and VR.",
+    "summary": "Product, data and interface development for a spatial platform that makes population density, infrastructure and place relationships easier to explore and compare.",
     "status": "active-development",
     "featured": true,
     "establishedYear": 2024,
@@ -263,7 +263,7 @@ export const publicProjects = [
   {
     "slug": "saveours",
     "name": "SaveOurs",
-    "summary": "A public and personal living-archive platform connecting authored SaveSites, media objects, source context and user-owned collections through a deliberate language of saving.",
+    "summary": "Product, interface and identity development for a social platform built around saving, sharing and personal collections.",
     "status": "awaiting-implementation",
     "featured": true,
     "establishedYear": 2014,
@@ -294,7 +294,7 @@ export const publicProjects = [
   {
     "slug": "the-visionary-guide",
     "name": "The Visionary Guide",
-    "summary": "A data-to-interpretation-to-publication platform that resolves authoritative celestial state, natal and user context, interpretive rules and curated content into a canonical, versioned personalised annual 365-day Guide.",
+    "summary": "Private product, publication and responsive application development for a personalised annual guide platform.",
     "status": "active-development",
     "featured": true,
     "establishedYear": 2024,
@@ -721,7 +721,7 @@ export const publicProjects = [
   {
     "slug": "thinquanauts",
     "name": "Thinquanauts",
-    "summary": "A mature speculative, philosophical and cognitive storytelling and publishing universe spanning different levels of accessibility, formats and audiences, with children's stories retained as one bounded section.",
+    "summary": "A mixed-age speculative, philosophical and cognitive publishing world spanning mature fiction, accessible stories, serial work and a dedicated children's section.",
     "status": "active-development",
     "featured": false,
     "establishedYear": 2026

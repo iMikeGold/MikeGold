@@ -15,14 +15,15 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer",
-      "graphic-systems-designer",
-      "symbol-systems-designer"
+      "graphic-systems-designer"
     ],
     "supportingHatSlugs": [
+      "symbol-systems-designer",
       "audio-engineer",
+      "sound-engineer",
       "media-engineer",
-      "media-distribution-engineer",
       "media-workflow-designer",
       "systems-engineer",
       "platform-engineer",
@@ -32,6 +33,7 @@ export const publicWorkCards = [
       "pipeline-engineer",
       "software-engineer",
       "web-design-engineer",
+      "application-engineer",
       "backend-engineer"
     ],
     "primaryVisual": {
@@ -58,7 +60,7 @@ export const publicWorkCards = [
       "4 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "17 evidenced capabilities contribute a capped distinctiveness signal",
+      "19 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
     "relevanceScore": 96,
@@ -79,11 +81,13 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer",
-      "graphic-systems-designer",
+      "graphic-systems-designer"
+    ],
+    "supportingHatSlugs": [
       "symbol-systems-designer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
       "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
@@ -108,14 +112,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80,
+    "relevanceScore": 80.47,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 1,
-    "finalScore": 83,
+    "finalScore": 83.1175,
     "href": "/projects/audiorii?area=brand-experience-systems"
   },
   {
@@ -129,8 +133,8 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "audio-engineer",
+      "sound-engineer",
       "media-engineer",
-      "media-distribution-engineer",
       "media-workflow-designer"
     ],
     "supportingHatSlugs": [],
@@ -286,10 +290,12 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "software-engineer",
       "web-design-engineer",
-      "backend-engineer",
+      "application-engineer",
+      "backend-engineer"
+    ],
+    "supportingHatSlugs": [
       "platform-engineer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
       "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
@@ -314,14 +320,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 20 relevant evidence records",
       "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80,
+    "relevanceScore": 80.47,
     "editorialBoost": 10,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 1,
-    "finalScore": 83,
+    "finalScore": 83.1175,
     "href": "/projects/audiorii?area=software-web-engineering"
   },
   {
@@ -339,15 +345,10 @@ export const publicWorkCards = [
       "platform-engineer"
     ],
     "supportingHatSlugs": [
-      "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "data-modeler",
-      "permissions-identity-engineer",
-      "brand-systems-engineer",
-      "human-system-translator",
-      "meaning-architect",
-      "environment-architect"
+      "human-system-translator"
     ],
     "primaryVisual": {
       "evidenceSlug": "bjorr-identity-system-presentation",
@@ -373,14 +374,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 89.21,
+    "relevanceScore": 87.66,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 4,
-    "finalScore": 67.3025,
+    "finalScore": 66.91499999999999,
     "href": "/projects/bjorr"
   },
   {
@@ -399,15 +400,10 @@ export const publicWorkCards = [
       "platform-engineer"
     ],
     "supportingHatSlugs": [
-      "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "data-modeler",
-      "permissions-identity-engineer",
-      "brand-systems-engineer",
-      "human-system-translator",
-      "meaning-architect",
-      "environment-architect"
+      "human-system-translator"
     ],
     "primaryVisual": {
       "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
@@ -433,14 +429,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 89.21,
+    "relevanceScore": 87.66,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 4,
-    "finalScore": 67.3025,
+    "finalScore": 66.91499999999999,
     "href": "/projects/bjorr?area=system-product-definition"
   },
   {
@@ -459,15 +455,10 @@ export const publicWorkCards = [
       "platform-engineer"
     ],
     "supportingHatSlugs": [
-      "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "data-modeler",
-      "permissions-identity-engineer",
-      "brand-systems-engineer",
-      "human-system-translator",
-      "meaning-architect",
-      "environment-architect"
+      "human-system-translator"
     ],
     "primaryVisual": {
       "evidenceSlug": "bjorr-identity-system-presentation",
@@ -493,14 +484,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 84.64,
+    "relevanceScore": 83.09,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 78.16,
+    "finalScore": 77.77250000000001,
     "href": "/projects/bjorr?area=brand-experience-systems"
   },
   {
@@ -717,11 +708,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "application-engineer",
       "software-engineer",
-      "data-modeler",
-      "database-engineer",
-      "platform-engineer",
-      "operations-engineer",
-      "identity-architect"
+      "data-modeler"
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
@@ -747,14 +734,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 5 relevant evidence records",
       "Contribution documentation is concise",
-      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80.05,
+    "relevanceScore": 78.71,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 23.42,
     "editorialSequence": 5,
-    "finalScore": 59.0125,
+    "finalScore": 58.677499999999995,
     "href": "/projects/community-supplies"
   },
   {
@@ -775,11 +762,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "application-engineer",
       "software-engineer",
-      "data-modeler",
-      "database-engineer",
-      "platform-engineer",
-      "operations-engineer",
-      "identity-architect"
+      "data-modeler"
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
@@ -805,14 +788,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 5 relevant evidence records",
       "Contribution documentation is concise",
-      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80.05,
+    "relevanceScore": 78.71,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 23.42,
     "editorialSequence": 5,
-    "finalScore": 59.0125,
+    "finalScore": 58.677499999999995,
     "href": "/projects/community-supplies?area=system-product-definition"
   },
   {
@@ -833,11 +816,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "application-engineer",
       "software-engineer",
-      "data-modeler",
-      "database-engineer",
-      "platform-engineer",
-      "operations-engineer",
-      "identity-architect"
+      "data-modeler"
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
@@ -863,14 +842,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 5 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 75.48,
+    "relevanceScore": 74.14,
     "editorialBoost": 7,
     "evidenceCompletenessScore": 23.42,
     "editorialSequence": 4,
-    "finalScore": 63.870000000000005,
+    "finalScore": 63.535,
     "href": "/projects/community-supplies?area=software-web-engineering"
   },
   {
@@ -891,11 +870,7 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "application-engineer",
       "software-engineer",
-      "data-modeler",
-      "database-engineer",
-      "platform-engineer",
-      "operations-engineer",
-      "identity-architect"
+      "data-modeler"
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
@@ -921,12 +896,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 5 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "11 evidenced capabilities contribute a capped distinctiveness signal"
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 75.48,
+    "relevanceScore": 74.14,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 23.42,
-    "finalScore": 18.87,
+    "finalScore": 18.535,
     "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
@@ -1321,14 +1296,9 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "data-engineer",
-      "database-engineer",
       "software-engineer",
       "application-engineer",
-      "platform-engineer",
-      "web-design-engineer",
-      "metadata-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "web-design-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
@@ -1354,14 +1324,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 83.21,
+    "relevanceScore": 81.66,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 53.802499999999995,
+    "finalScore": 53.415,
     "href": "/projects/metroplist"
   },
   {
@@ -1381,14 +1351,9 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "data-engineer",
-      "database-engineer",
       "software-engineer",
       "application-engineer",
-      "platform-engineer",
-      "web-design-engineer",
-      "metadata-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "web-design-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
@@ -1414,14 +1379,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 83.21,
+    "relevanceScore": 81.66,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 53.802499999999995,
+    "finalScore": 53.415,
     "href": "/projects/metroplist?area=system-product-definition"
   },
   {
@@ -1441,14 +1406,9 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "data-engineer",
-      "database-engineer",
       "software-engineer",
       "application-engineer",
-      "platform-engineer",
-      "web-design-engineer",
-      "metadata-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "web-design-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
@@ -1474,14 +1434,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "8 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 78.64,
+    "relevanceScore": 77.09,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 58.66,
+    "finalScore": 58.2725,
     "href": "/projects/metroplist?area=software-web-engineering"
   },
   {
@@ -1501,14 +1461,9 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "data-engineer",
-      "database-engineer",
       "software-engineer",
       "application-engineer",
-      "platform-engineer",
-      "web-design-engineer",
-      "metadata-engineer",
-      "meaning-architect",
-      "human-system-translator"
+      "web-design-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
@@ -1534,12 +1489,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal"
+      "8 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 78.64,
+    "relevanceScore": 77.09,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 19.66,
+    "finalScore": 19.2725,
     "href": "/projects/metroplist?area=brand-experience-systems"
   },
   {
@@ -1556,18 +1511,16 @@ export const publicWorkCards = [
       "media-engineer",
       "media-workflow-designer",
       "web-design-engineer",
-      "software-engineer"
+      "graphic-design-engineer"
     ],
     "supportingHatSlugs": [
       "brand-systems-engineer",
       "logo-systems-designer",
       "identity-architect",
       "graphic-systems-designer",
-      "symbol-systems-designer",
       "visual-language-engineer",
       "systems-engineer",
-      "application-engineer",
-      "platform-engineer"
+      "application-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mickz-website",
@@ -1593,14 +1546,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 105.21,
+    "relevanceScore": 104.63,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 83.3025,
+    "finalScore": 83.1575,
     "href": "/projects/mickz"
   },
   {
@@ -1617,15 +1570,14 @@ export const publicWorkCards = [
       "media-engineer",
       "media-workflow-designer",
       "web-design-engineer",
-      "software-engineer"
+      "graphic-design-engineer"
     ],
     "supportingHatSlugs": [
       "brand-systems-engineer",
       "visual-language-engineer",
       "systems-engineer",
-      "application-engineer",
       "identity-architect",
-      "platform-engineer"
+      "application-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mickz-website",
@@ -1651,12 +1603,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "10 evidenced capabilities contribute a capped distinctiveness signal"
+      "9 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 92.84,
+    "relevanceScore": 92.51,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 23.21,
+    "finalScore": 23.1275,
     "href": "/projects/mickz?area=media-production-distribution"
   },
   {
@@ -1677,15 +1629,13 @@ export const publicWorkCards = [
       "graphic-systems-designer"
     ],
     "supportingHatSlugs": [
-      "symbol-systems-designer",
       "media-engineer",
       "media-workflow-designer",
       "web-design-engineer",
-      "software-engineer",
+      "graphic-design-engineer",
       "visual-language-engineer",
       "systems-engineer",
-      "application-engineer",
-      "platform-engineer"
+      "application-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
@@ -1711,14 +1661,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 99.64,
+    "relevanceScore": 99.07,
     "editorialBoost": 3,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 8,
-    "finalScore": 45.91,
+    "finalScore": 45.7675,
     "href": "/projects/mickz?area=brand-experience-systems"
   },
   {
@@ -1734,11 +1684,10 @@ export const publicWorkCards = [
       "brand-systems-engineer",
       "visual-language-engineer",
       "systems-engineer",
-      "application-engineer"
+      "identity-architect"
     ],
     "supportingHatSlugs": [
-      "identity-architect",
-      "platform-engineer"
+      "application-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
@@ -1764,14 +1713,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "6 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 86.9,
+    "relevanceScore": 86.47,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 78.725,
+    "finalScore": 78.6175,
     "href": "/projects/mickz?area=system-product-definition"
   },
   {
@@ -2603,8 +2552,8 @@ export const publicWorkCards = [
   {
     "projectSlug": "saveours",
     "projectName": "SaveOurs",
-    "contributionTitle": "Identity language and coded mark development · SaveOurs archive and personal-save interfaces · SaveOurs system development",
-    "summary": "A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "contributionTitle": "Identity language and coded mark development · SaveOurs social and personal-saving interfaces · SaveOurs system development",
+    "summary": "Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction.",
     "relevantWorkSlugs": [
       "saveours-identity-language-development",
       "saveours-platform-interface-development",
@@ -2614,20 +2563,16 @@ export const publicWorkCards = [
       "identity-architect",
       "brand-systems-engineer",
       "logo-systems-designer",
-      "graphic-systems-designer"
+      "symbol-systems-designer"
     ],
     "supportingHatSlugs": [
-      "symbol-systems-designer",
-      "meaning-architect",
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "human-system-translator",
-      "permissions-identity-engineer",
       "data-modeler",
       "systems-engineer",
-      "platform-engineer",
-      "metadata-engineer"
+      "platform-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
@@ -2639,13 +2584,13 @@ export const publicWorkCards = [
       {
         "evidenceSlug": "saveours-saveours-web-development-savesite-website",
         "src": "/images/projects/saveours/web_development/savesite-website.webp",
-        "alt": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+        "alt": "A public collection space bringing films, music and other favourites together around a person, theme or shared interest.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
-        "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+        "alt": "A signed-in collection view for keeping and organising the films, music, images, ideas and other things a person loves.",
         "evidenceType": "image"
       }
     ],
@@ -2653,20 +2598,20 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "15 evidenced capabilities contribute a capped distinctiveness signal"
+      "11 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 101.75,
+    "relevanceScore": 100.63,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 25.4375,
+    "finalScore": 25.1575,
     "href": "/projects/saveours"
   },
   {
     "projectSlug": "saveours",
     "lensId": "brand-experience-systems",
     "projectName": "SaveOurs",
-    "contributionTitle": "Identity language and coded mark development · SaveOurs archive and personal-save interfaces · SaveOurs system development",
-    "summary": "Brand and experience-system responsibility: Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "contributionTitle": "Identity language and coded mark development · SaveOurs social and personal-saving interfaces · SaveOurs system development",
+    "summary": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
     "relevantWorkSlugs": [
       "saveours-identity-language-development",
       "saveours-platform-interface-development",
@@ -2676,20 +2621,16 @@ export const publicWorkCards = [
       "identity-architect",
       "brand-systems-engineer",
       "logo-systems-designer",
-      "graphic-systems-designer"
+      "symbol-systems-designer"
     ],
     "supportingHatSlugs": [
-      "symbol-systems-designer",
-      "meaning-architect",
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
       "human-system-translator",
-      "permissions-identity-engineer",
       "data-modeler",
       "systems-engineer",
-      "platform-engineer",
-      "metadata-engineer"
+      "platform-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
@@ -2715,22 +2656,22 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "15 evidenced capabilities contribute a capped distinctiveness signal",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 98.18,
+    "relevanceScore": 97.07,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 9,
-    "finalScore": 39.545,
+    "finalScore": 39.2675,
     "href": "/projects/saveours?area=brand-experience-systems"
   },
   {
     "projectSlug": "saveours",
     "lensId": "system-product-definition",
     "projectName": "SaveOurs",
-    "contributionTitle": "SaveOurs system development · Identity language and coded mark development · SaveOurs archive and personal-save interfaces",
-    "summary": "System and product-definition responsibility: A fifteen-year identity evolution: revisiting the original commission, developing the SOS / SaveOurS abbreviation as Morse code, then embedding a second barcode-like machine-readable challenge inside the mark.",
+    "contributionTitle": "SaveOurs system development · Identity language and coded mark development · SaveOurs social and personal-saving interfaces",
+    "summary": "System and product-definition responsibility: Development of the SaveOurs identity from the original commission into the SOS / SaveOurS Morse-code rhythm and its barcode construction.",
     "relevantWorkSlugs": [
       "saveours-system-development",
       "saveours-identity-language-development",
@@ -2740,32 +2681,28 @@ export const publicWorkCards = [
       "data-modeler",
       "symbol-systems-designer",
       "systems-engineer",
-      "software-engineer"
+      "platform-engineer"
     ],
     "supportingHatSlugs": [
-      "platform-engineer",
-      "metadata-engineer",
+      "software-engineer",
       "brand-systems-engineer",
       "identity-architect",
       "logo-systems-designer",
-      "graphic-systems-designer",
-      "meaning-architect",
       "application-engineer",
       "web-design-engineer",
-      "human-system-translator",
-      "permissions-identity-engineer"
+      "human-system-translator"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-web-development-savesite-website",
       "src": "/images/projects/saveours/web_development/savesite-website.webp",
-      "alt": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+      "alt": "A public collection space bringing films, music and other favourites together around a person, theme or shared interest.",
       "evidenceType": "image"
     },
     "supportingVisuals": [
       {
         "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
-        "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+        "alt": "A signed-in collection view for keeping and organising the films, music, images, ideas and other things a person loves.",
         "evidenceType": "image"
       },
       {
@@ -2779,20 +2716,20 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "15 evidenced capabilities contribute a capped distinctiveness signal"
+      "11 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 98.18,
+    "relevanceScore": 97.07,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 24.545,
+    "finalScore": 24.2675,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
     "projectSlug": "saveours",
     "lensId": "software-web-engineering",
     "projectName": "SaveOurs",
-    "contributionTitle": "SaveOurs archive and personal-save interfaces",
-    "summary": "Interface and platform development spanning the public SaveOurs experience, individual SaveSites and the signed-in My Saves view. The screenshots support discussion of distinct user journeys and the archive system behind them, rather than acting as decoration for one project page.",
+    "contributionTitle": "SaveOurs social and personal-saving interfaces",
+    "summary": "Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
     "relevantWorkSlugs": [
       "saveours-platform-interface-development"
     ],
@@ -2802,9 +2739,7 @@ export const publicWorkCards = [
       "web-design-engineer",
       "human-system-translator"
     ],
-    "supportingHatSlugs": [
-      "permissions-identity-engineer"
-    ],
+    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
       "src": "/images/projects/saveours/web_development/saveours-website.webp",
@@ -2815,13 +2750,13 @@ export const publicWorkCards = [
       {
         "evidenceSlug": "saveours-saveours-web-development-savesite-website",
         "src": "/images/projects/saveours/web_development/savesite-website.webp",
-        "alt": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+        "alt": "A public collection space bringing films, music and other favourites together around a person, theme or shared interest.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
-        "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+        "alt": "A signed-in collection view for keeping and organising the films, music, images, ideas and other things a person loves.",
         "evidenceType": "image"
       }
     ],
@@ -2829,14 +2764,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Contribution documentation is concise",
-      "5 evidenced capabilities contribute a capped distinctiveness signal",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 80.47,
+    "relevanceScore": 80,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 53.1175,
+    "finalScore": 53,
     "href": "/projects/saveours?area=software-web-engineering"
   },
   {
@@ -2844,7 +2779,7 @@ export const publicWorkCards = [
     "lensId": "media-production-distribution",
     "projectName": "SaveOurs",
     "contributionTitle": "SaveOurs system development",
-    "summary": "Media production and distribution responsibility: Product and platform architecture for a living museum built around what people create, collect and remember.",
+    "summary": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect.",
     "relevantWorkSlugs": [
       "saveours-system-development"
     ],
@@ -2852,11 +2787,10 @@ export const publicWorkCards = [
       "data-modeler",
       "symbol-systems-designer",
       "systems-engineer",
-      "software-engineer"
+      "platform-engineer"
     ],
     "supportingHatSlugs": [
-      "platform-engineer",
-      "metadata-engineer",
+      "software-engineer",
       "brand-systems-engineer"
     ],
     "primaryVisual": {
@@ -2869,13 +2803,13 @@ export const publicWorkCards = [
       {
         "evidenceSlug": "saveours-saveours-web-development-savesite-website",
         "src": "/images/projects/saveours/web_development/savesite-website.webp",
-        "alt": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+        "alt": "A public collection space bringing films, music and other favourites together around a person, theme or shared interest.",
         "evidenceType": "image"
       },
       {
         "evidenceSlug": "saveours-saveours-web-development-saveours-mysaves-savesite",
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
-        "alt": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+        "alt": "A signed-in collection view for keeping and organising the films, music, images, ideas and other things a person loves.",
         "evidenceType": "image"
       }
     ],
@@ -2883,14 +2817,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "7 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76.72,
+    "relevanceScore": 76.33,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 58.18,
+    "finalScore": 58.082499999999996,
     "href": "/projects/saveours?area=media-production-distribution"
   },
   {
@@ -2909,47 +2843,26 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "platform-engineer",
-      "data-engineer",
-      "database-engineer",
-      "backend-engineer",
       "application-engineer",
-      "software-engineer",
-      "pipeline-engineer",
-      "automation-engineer",
-      "boundary-engineer",
-      "metadata-engineer",
-      "human-system-translator"
+      "media-workflow-designer"
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
       "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
-      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "alt": "Selected landing-page view showing the public product and responsive interface design.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "the-visionary-guide-02-website-app-live",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
-        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
-        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
-        "evidenceType": "website"
-      }
-    ],
+    "supportingVisuals": [],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "15 evidenced capabilities contribute a capped distinctiveness signal"
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 82.44,
+    "relevanceScore": 71.29,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 24.7,
-    "finalScore": 20.61,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.8225,
     "href": "/projects/the-visionary-guide"
   },
   {
@@ -2969,47 +2882,26 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "platform-engineer",
-      "data-engineer",
-      "database-engineer",
-      "backend-engineer",
       "application-engineer",
-      "software-engineer",
-      "pipeline-engineer",
-      "automation-engineer",
-      "boundary-engineer",
-      "metadata-engineer",
-      "human-system-translator"
+      "media-workflow-designer"
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
       "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
-      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "alt": "Selected landing-page view showing the public product and responsive interface design.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "the-visionary-guide-02-website-app-live",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
-        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
-        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
-        "evidenceType": "website"
-      }
-    ],
+    "supportingVisuals": [],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "15 evidenced capabilities contribute a capped distinctiveness signal"
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 82.44,
+    "relevanceScore": 71.29,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 24.7,
-    "finalScore": 20.61,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.8225,
     "href": "/projects/the-visionary-guide?area=system-product-definition"
   },
   {
@@ -3029,47 +2921,26 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "platform-engineer",
-      "data-engineer",
-      "database-engineer",
-      "backend-engineer",
       "application-engineer",
-      "software-engineer",
-      "pipeline-engineer",
-      "automation-engineer",
-      "boundary-engineer",
-      "metadata-engineer",
-      "human-system-translator"
+      "media-workflow-designer"
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
       "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
-      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "alt": "Selected landing-page view showing the public product and responsive interface design.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "the-visionary-guide-02-website-app-live",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
-        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
-        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
-        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
-        "evidenceType": "website"
-      }
-    ],
+    "supportingVisuals": [],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
-      "15 evidenced capabilities contribute a capped distinctiveness signal"
+      "7 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 77.88,
+    "relevanceScore": 66.72,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 24.7,
-    "finalScore": 19.47,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 16.68,
     "href": "/projects/the-visionary-guide?area=software-web-engineering"
   },
   {
@@ -3273,11 +3144,12 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer",
-      "deployment-engineer",
-      "media-engineer"
+      "deployment-engineer"
     ],
     "supportingHatSlugs": [
+      "media-engineer",
       "web-design-engineer",
       "software-engineer",
       "media-distribution-engineer",
@@ -3307,12 +3179,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "8 evidenced capabilities contribute a capped distinctiveness signal"
+      "9 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 83.07,
+    "relevanceScore": 83.41,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 20.7675,
+    "finalScore": 20.8525,
     "href": "/projects/wrappedfm"
   },
   {
@@ -3326,6 +3198,7 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
+      "identity-architect",
       "logo-systems-designer"
     ],
     "supportingHatSlugs": [],
@@ -3353,14 +3226,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "3 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.22,
+    "relevanceScore": 73.86,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 3,
-    "finalScore": 69.305,
+    "finalScore": 69.465,
     "href": "/projects/wrappedfm?area=brand-experience-systems"
   },
   {
@@ -3380,7 +3253,6 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "media-distribution-engineer",
-      "brand-systems-engineer",
       "platform-engineer"
     ],
     "primaryVisual": {
@@ -3407,12 +3279,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Contribution documentation is concise",
-      "7 evidenced capabilities contribute a capped distinctiveness signal"
+      "6 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 75.68,
+    "relevanceScore": 75.29,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 20.39,
-    "finalScore": 18.92,
+    "finalScore": 18.8225,
     "href": "/projects/wrappedfm?area=system-product-definition"
   },
   {
@@ -3432,7 +3304,6 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "media-distribution-engineer",
-      "brand-systems-engineer",
       "platform-engineer"
     ],
     "primaryVisual": {
@@ -3459,14 +3330,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "7 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 71.12,
+    "relevanceScore": 70.72,
     "editorialBoost": 4,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 7,
-    "finalScore": 44.78,
+    "finalScore": 44.68,
     "href": "/projects/wrappedfm?area=software-web-engineering"
   },
   {
@@ -3486,7 +3357,6 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "media-distribution-engineer",
-      "brand-systems-engineer",
       "platform-engineer"
     ],
     "primaryVisual": {
@@ -3513,14 +3383,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 3 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "7 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 71.12,
+    "relevanceScore": 70.72,
     "editorialBoost": 8,
     "evidenceCompletenessScore": 20.39,
     "editorialSequence": 3,
-    "finalScore": 68.78,
+    "finalScore": 68.68,
     "href": "/projects/wrappedfm?area=media-production-distribution"
   },
   {
@@ -6104,18 +5974,26 @@ export const publicWorkCards = [
   {
     "projectSlug": "playstation-croatia-ps5-sound-tour",
     "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Audio-system implementation · Sound design",
-    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
+    "contributionTitle": "Studio recording and release preparation · Sound design",
+    "summary": "Studio and controlled-production work covering voice-over recording, recording engineering, sound engineering, mixing, mastering, quality control and format preparation for commercial release promotion.",
     "relevantWorkSlugs": [
       "playstation-croatia-ps5-sound-tour-audio-system-implementation",
       "playstation-croatia-ps5-sound-tour-sound-design"
     ],
     "leadHatSlugs": [
       "audio-engineer",
+      "recording-engineer",
+      "sound-engineer",
+      "mix-engineer"
+    ],
+    "supportingHatSlugs": [
+      "mastering-engineer",
+      "post-production-audio-engineer",
+      "media-quality-engineer",
+      "format-standardisation-engineer",
       "experiential-engineer",
       "sound-designer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
       "src": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
@@ -6127,63 +6005,38 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "10 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 76.48,
+    "relevanceScore": 79.34,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 19.12,
+    "finalScore": 19.835,
     "href": "/projects/playstation-croatia-ps5-sound-tour"
-  },
-  {
-    "projectSlug": "playstation-croatia-ps5-sound-tour",
-    "lensId": "physical-systems-engineering",
-    "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Audio-system implementation",
-    "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
-    "relevantWorkSlugs": [
-      "playstation-croatia-ps5-sound-tour-audio-system-implementation"
-    ],
-    "leadHatSlugs": [
-      "audio-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
-      "src": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
-      "alt": "Supporting video published by PlayStation Hrvatska.",
-      "evidenceType": "video"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "1 evidenced capabilities contribute a capped distinctiveness signal",
-      "Evidence is explicitly connected to the selected lens",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 76,
-    "editorialBoost": 5,
-    "evidenceCompletenessScore": 16,
-    "editorialSequence": 6,
-    "finalScore": 52,
-    "href": "/projects/playstation-croatia-ps5-sound-tour?area=physical-systems-engineering"
   },
   {
     "projectSlug": "playstation-croatia-ps5-sound-tour",
     "lensId": "media-production-distribution",
     "projectName": "PlayStation — PS5 Sound Tour",
-    "contributionTitle": "Sound design",
-    "summary": "Sound-design contribution for a location-based musical presentation of the PlayStation 5 startup sound.",
+    "contributionTitle": "Studio recording and release preparation · Sound design",
+    "summary": "Studio and controlled-production work covering voice-over recording, recording engineering, sound engineering, mixing, mastering, quality control and format preparation for commercial release promotion.",
     "relevantWorkSlugs": [
+      "playstation-croatia-ps5-sound-tour-audio-system-implementation",
       "playstation-croatia-ps5-sound-tour-sound-design"
     ],
     "leadHatSlugs": [
+      "audio-engineer",
+      "recording-engineer",
+      "sound-engineer",
+      "mix-engineer"
+    ],
+    "supportingHatSlugs": [
+      "mastering-engineer",
+      "post-production-audio-engineer",
+      "media-quality-engineer",
+      "format-standardisation-engineer",
       "experiential-engineer",
       "sound-designer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "playstation-croatia-ps5-sound-tour-sound-design-and-audio-systems-video",
       "src": "https://i.ytimg.com/vi/n2usGeet2Gk/hqdefault.jpg",
@@ -6192,15 +6045,15 @@ export const publicWorkCards = [
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
+      "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
+      "10 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 68.83,
+    "relevanceScore": 79.34,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.2075,
+    "finalScore": 19.835,
     "href": "/projects/playstation-croatia-ps5-sound-tour?area=media-production-distribution"
   },
   {
@@ -6510,7 +6363,7 @@ export const publicWorkCards = [
     "projectSlug": "thinquanauts",
     "projectName": "Thinquanauts",
     "contributionTitle": "Thinquanauts publishing-system development · Thinquanauts public web experience · Thinquanauts editorial and publication architecture",
-    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families and canon structure.",
     "relevantWorkSlugs": [
       "thinquanauts-system-development",
       "thinquanauts-web-experience",
@@ -6518,12 +6371,12 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "systems-engineer",
-      "platform-engineer",
       "meaning-architect",
-      "brand-systems-engineer"
+      "narrative-systems-thinker",
+      "world-building-engineer"
     ],
     "supportingHatSlugs": [
-      "identity-architect",
+      "data-modeler",
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
@@ -6564,10 +6417,10 @@ export const publicWorkCards = [
       "media-workflow-designer",
       "metadata-engineer",
       "media-engineer",
-      "meaning-architect"
+      "narrative-systems-thinker"
     ],
     "supportingHatSlugs": [
-      "human-system-translator"
+      "meaning-architect"
     ],
     "primaryVisual": {
       "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
@@ -6600,16 +6453,15 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "systems-engineer",
-      "platform-engineer",
       "meaning-architect",
-      "brand-systems-engineer"
+      "narrative-systems-thinker",
+      "world-building-engineer"
     ],
     "supportingHatSlugs": [
-      "identity-architect",
+      "data-modeler",
       "media-workflow-designer",
       "metadata-engineer",
-      "media-engineer",
-      "human-system-translator"
+      "media-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
@@ -6622,12 +6474,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
-      "9 evidenced capabilities contribute a capped distinctiveness signal"
+      "8 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 77.51,
+    "relevanceScore": 77.17,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 19.3775,
+    "finalScore": 19.2925,
     "href": "/projects/thinquanauts?area=system-product-definition"
   },
   {
@@ -6642,12 +6494,12 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "systems-engineer",
-      "platform-engineer",
       "meaning-architect",
-      "brand-systems-engineer"
+      "narrative-systems-thinker",
+      "world-building-engineer"
     ],
     "supportingHatSlugs": [
-      "identity-architect",
+      "data-modeler",
       "software-engineer",
       "application-engineer",
       "web-design-engineer",
@@ -6687,9 +6539,7 @@ export const publicWorkCards = [
       "web-design-engineer",
       "human-system-translator"
     ],
-    "supportingHatSlugs": [
-      "identity-architect"
-    ],
+    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
       "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
@@ -6701,12 +6551,12 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
-      "5 evidenced capabilities contribute a capped distinctiveness signal"
+      "4 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 71.47,
+    "relevanceScore": 71,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.8675,
+    "finalScore": 17.75,
     "href": "/projects/thinquanauts?area=software-web-engineering"
   },
   {

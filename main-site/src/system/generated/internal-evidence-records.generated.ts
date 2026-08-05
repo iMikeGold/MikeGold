@@ -3927,10 +3927,10 @@ export const internalEvidenceRecords = [
     "recordType": "evidence",
     "schemaVersion": 1,
     "createdAt": "2026-07-21T14:28:37.460Z",
-    "updatedAt": "2026-07-21T14:28:37.460Z",
+    "updatedAt": "2026-08-05T16:42:00.000Z",
     "slug": "saveours-saveours-web-development-saveours-mysaves-savesite",
-    "title": "My Saves — personal cabinet",
-    "description": "The user-owned side of SaveOurs: a private cabinet for material deliberately carried from the wider archive. Filters, source counts and saved-object states turn the act of attention into an organised personal collection.",
+    "title": "My Saves — personal collection",
+    "description": "A signed-in collection view for keeping and organising the films, music, images, ideas and other things a person loves.",
     "evidenceType": "image",
     "role": "interface",
     "sequence": 2,
@@ -3944,10 +3944,10 @@ export const internalEvidenceRecords = [
     "recordType": "evidence",
     "schemaVersion": 1,
     "createdAt": "2026-07-21T14:28:37.460Z",
-    "updatedAt": "2026-07-21T14:28:37.460Z",
+    "updatedAt": "2026-08-05T16:42:00.000Z",
     "slug": "saveours-saveours-web-development-savesite-website",
-    "title": "SaveSite — authored collection view",
-    "description": "A public authored space within the platform, showing how film, sound and other records from several source systems are normalised into one catalogue while retaining media type, duration and save controls.",
+    "title": "SaveSite — shared collection view",
+    "description": "A public collection space bringing films, music and other favourites together around a person, theme or shared interest.",
     "evidenceType": "image",
     "role": "interface",
     "sequence": 1,
@@ -3991,190 +3991,6 @@ export const internalEvidenceRecords = [
     "placeholder": false
   },
   {
-    "id": "53db42a4-e1fc-4e07-bf26-f170196452cc",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-02-website-app-live",
-    "title": "The Visionary Guide — live web application surface",
-    "description": "Current web application surface connecting the public product story to the Guide platform experience.",
-    "evidenceType": "website",
-    "role": "interface",
-    "sequence": 2,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Application development",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "application-interface"
-      ],
-      "displayRoles": [
-        "supporting",
-        "gallery"
-      ],
-      "visualQuality": "standard",
-      "aspectPreference": "landscape"
-    }
-  },
-  {
-    "id": "ab90829b-0226-45d1-bab2-986acfd69221",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-03-appsite-positions",
-    "title": "The Visionary Guide — celestial positions interface",
-    "description": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
-    "evidenceType": "website",
-    "role": "interface",
-    "sequence": 3,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Application development",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "application-interface"
-      ],
-      "displayRoles": [
-        "supporting",
-        "gallery"
-      ],
-      "visualQuality": "standard",
-      "aspectPreference": "landscape"
-    }
-  },
-  {
-    "id": "0e8144f2-43fe-4104-a8a8-2862ee241bb3",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-04-appsite-results",
-    "title": "The Visionary Guide — generated results interface",
-    "description": "Results view demonstrating how resolved data and interpretation are presented within the digital Guide experience.",
-    "evidenceType": "website",
-    "role": "interface",
-    "sequence": 4,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Application development",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "application-interface"
-      ],
-      "displayRoles": [
-        "supporting",
-        "gallery"
-      ],
-      "visualQuality": "standard",
-      "aspectPreference": "landscape"
-    }
-  },
-  {
-    "id": "dea916da-120c-4fa6-95d4-ed84229d5abf",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-05-appsite-results-comparison",
-    "title": "The Visionary Guide — results comparison interface",
-    "description": "Comparison view supporting inspection of generated interpretations without replacing the canonical annual Guide.",
-    "evidenceType": "website",
-    "role": "interface",
-    "sequence": 5,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page-comparison.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Application development",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "application-interface"
-      ],
-      "displayRoles": [
-        "supporting",
-        "gallery"
-      ],
-      "visualQuality": "standard",
-      "aspectPreference": "landscape"
-    }
-  },
-  {
-    "id": "1c45e7a6-cf93-4949-82d2-0cde07e45316",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-90-appsite-landing-compact",
-    "title": "The Visionary Guide — compact landing study",
-    "description": "Compact landing-page study retained as supporting responsive-interface evidence rather than the main project reveal.",
-    "evidenceType": "website",
-    "role": "interface",
-    "sequence": 90,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-compact.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Responsive supporting study",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "application-interface"
-      ],
-      "displayRoles": [
-        "supporting"
-      ],
-      "visualQuality": "supporting",
-      "aspectPreference": "portrait"
-    }
-  },
-  {
-    "id": "398040d8-dacb-4df5-bbc4-d0a881a532e3",
-    "recordType": "evidence",
-    "schemaVersion": 1,
-    "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
-    "slug": "the-visionary-guide-99-website-old",
-    "title": "The Visionary Guide — previous website design",
-    "description": "Earlier website design retained as archive evidence and excluded from the current case-study presentation.",
-    "evidenceType": "website",
-    "role": "reference",
-    "sequence": 99,
-    "visibility": "public",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-old.webp",
-    "sourceTitle": "The Visionary Guide",
-    "phase": "Archive",
-    "placeholder": false,
-    "presentation": {
-      "facets": [
-        "website",
-        "web-interface",
-        "process"
-      ],
-      "displayRoles": [
-        "archive"
-      ],
-      "visualQuality": "archive",
-      "aspectPreference": "landscape"
-    }
-  },
-  {
     "id": "d678bbb9-6fe2-4c70-93a6-24e7e659e7b2",
     "recordType": "evidence",
     "schemaVersion": 1,
@@ -4192,17 +4008,17 @@ export const internalEvidenceRecords = [
     "recordType": "evidence",
     "schemaVersion": 1,
     "createdAt": "2026-08-05T13:18:00.000Z",
-    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T16:40:00.000Z",
     "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-    "title": "The Visionary Guide — full landing experience",
-    "description": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+    "title": "The Visionary Guide — public application direction",
+    "description": "Selected landing-page view showing the public product and responsive interface design.",
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
     "visibility": "public",
     "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
     "sourceTitle": "The Visionary Guide",
-    "phase": "Current public application direction",
+    "phase": "Public application direction",
     "placeholder": false,
     "presentation": {
       "facets": [
@@ -4213,8 +4029,7 @@ export const internalEvidenceRecords = [
         "project-cover",
         "lens-card",
         "work-hero",
-        "supporting",
-        "gallery"
+        "supporting"
       ],
       "visualQuality": "hero",
       "aspectPreference": "landscape"
