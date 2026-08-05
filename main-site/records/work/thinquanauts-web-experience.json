@@ -7,7 +7,7 @@
   "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
   "slug": "thinquanauts-web-experience",
   "title": "Thinquanauts public web experience",
-  "summary": "Information architecture and responsive web direction for presenting mature speculative work, accessible stories, publication families and a deliberately bounded children's section within one coherent public experience.",
+  "summary": "Information architecture and responsive web direction for mature speculative work, accessible stories, publication families and a dedicated children's section.",
   "status": "in-progress",
   "visibility": "public",
   "sequence": 2,
@@ -21,7 +21,7 @@
     {
       "lensId": "brand-experience-systems",
       "role": "secondary",
-      "rationale": "The interface must communicate distinct audience and publication routes without fragmenting recognition of the parent world.",
+      "rationale": "The interface communicates distinct audience and publication routes through a recognisable parent world.",
       "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
     }
   ]
