@@ -93,8 +93,6 @@ export default async function ProjectRecordPage({
         {presentedCaseStudy && (
           <ProjectCaseStudy
             caseStudy={presentedCaseStudy}
-            work={work}
-            hats={hats}
             evidence={evidence}
           />
         )}
