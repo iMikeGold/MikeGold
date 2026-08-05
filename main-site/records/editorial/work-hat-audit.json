@@ -1,1 +1,10 @@
-<TOO_BIG_PLACEHOLDER>
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-05T14:10:00.000Z",
+  "reviewScope": {
+    "projects": 48,
+    "workContributions": 76,
+    "hatVocabulary": 105
+  },
+  "method": "Every public Work Contribution was reviewed against its recorded responsibility, evidence and confirmed corrections. Files in records/editorial/work-hat-audit contain the final reviewed public Hat set for each contribution."
+}
