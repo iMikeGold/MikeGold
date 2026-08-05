@@ -5,16 +5,23 @@ export const dynamic = "force-static";
 
 export default function RegistryPage() {
   return (
-    <main>
+    <main className="registry-page">
+      <style>{`
+        .registry-page > footer {
+          margin-top: 0 !important;
+        }
+      `}</style>
+
       <div
         style={{
           width: "100%",
           maxWidth: 1500,
           margin: "0 auto",
-          padding: "clamp(20px, 4vw, 40px)",
+          padding: "clamp(16px, 3vw, 34px)",
+          paddingBottom: 0,
         }}
       >
-        <header style={{ marginBottom: 20 }}>
+        <header style={{ marginBottom: 16 }}>
           <h1 style={{ margin: 0 }}>HAT REGiSTRY</h1>
           <p style={{ opacity: 0.7, margin: "8px 0 0" }}>
             133 capabilities forming a connected system graph.
@@ -29,7 +36,7 @@ export default function RegistryPage() {
             display: "flex",
             flexWrap: "wrap",
             gap: "8px 14px",
-            marginBottom: 18,
+            marginBottom: 14,
             fontSize: 12,
             opacity: 0.6,
           }}
