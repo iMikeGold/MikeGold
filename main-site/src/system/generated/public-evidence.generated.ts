@@ -1834,25 +1834,127 @@ export const publicEvidence = [
     "placeholder": true
   },
   {
+    "slug": "community-supplies-02-shopsite",
+    "title": "Community Supplies — shop experience",
+    "description": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 2,
+    "phase": "Commerce interface",
+    "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
+    "slug": "community-supplies-03-shopsite-marketplace",
+    "title": "Community Supplies — marketplace structure",
+    "description": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 3,
+    "phase": "Commerce interface",
+    "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
+    "slug": "community-supplies-04-shopsite-colour-language",
+    "title": "Community Supplies — commerce colour language",
+    "description": "Interface study documenting the colour and visual language carried across the shop experience.",
+    "evidenceType": "website",
+    "role": "process",
+    "sequence": 4,
+    "phase": "Brand and interface system",
+    "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite-colour-language.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
+    "slug": "community-supplies-99-website-old-design",
+    "title": "Community Supplies — previous website design",
+    "description": "Earlier public website retained as archive evidence of the platform's design development.",
+    "evidenceType": "website",
+    "role": "reference",
+    "sequence": 99,
+    "phase": "Archive",
+    "assetPath": "/images/projects/community_supplies/web_development/community-supplies-website-old-design.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "process"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "archive",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Community Supplies",
+    "placeholder": false
+  },
+  {
     "slug": "community-supplies-community-supplies-community-suuplies-website",
-    "title": "Community Supplies — website and digital experience",
-    "description": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+    "title": "Community Supplies — current website and digital experience",
+    "description": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
+    "phase": "Current public website",
+    "assetPath": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
     "presentation": {
       "facets": [
         "website",
         "web-interface"
       ],
       "displayRoles": [
+        "project-cover",
         "lens-card",
+        "work-hero",
         "supporting",
         "gallery"
       ],
       "visualQuality": "hero",
-      "aspectPreference": "any"
+      "aspectPreference": "landscape"
     },
     "sourceTitle": "Community Supplies",
     "placeholder": false
@@ -2852,6 +2954,105 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "metroplist-02-appsite",
+    "title": "Metroplist — application experience",
+    "description": "Application interface translating place and density intelligence into an exploratory product surface.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 2,
+    "phase": "Application experience",
+    "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-03-appsite-explore",
+    "title": "Metroplist — spatial exploration view",
+    "description": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 3,
+    "phase": "Application experience",
+    "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-04-appsite-compare",
+    "title": "Metroplist — place comparison view",
+    "description": "Comparison interface showing how Metroplist frames multiple places through a consistent visual and statistical language.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 4,
+    "phase": "Application experience",
+    "assetPath": "/images/projects/metroplist/web_development/metroplist-appsite-compare.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
+    "slug": "metroplist-99-website-old",
+    "title": "Metroplist — previous website design",
+    "description": "Earlier Metroplist website retained as archive evidence of the public product's development.",
+    "evidenceType": "website",
+    "role": "reference",
+    "sequence": 99,
+    "phase": "Archive",
+    "assetPath": "/images/projects/metroplist/web_development/metroplist-website-old.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "process"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "archive",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Metroplist",
+    "placeholder": false
+  },
+  {
     "slug": "metroplist-documentation-pending",
     "title": "Metroplist project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -2985,24 +3186,27 @@ export const publicEvidence = [
   },
   {
     "slug": "metroplist-metroplist-metroplist-website",
-    "title": "Metroplist — website and digital experience",
-    "description": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+    "title": "Metroplist — current website and geographical intelligence experience",
+    "description": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/metroplist/metroplist-website.webp",
+    "phase": "Current public website",
+    "assetPath": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
     "presentation": {
       "facets": [
         "website",
         "web-interface"
       ],
       "displayRoles": [
+        "project-cover",
         "lens-card",
+        "work-hero",
         "supporting",
         "gallery"
       ],
       "visualQuality": "hero",
-      "aspectPreference": "any"
+      "aspectPreference": "landscape"
     },
     "sourceTitle": "Metroplist",
     "placeholder": false
@@ -4310,6 +4514,154 @@ export const publicEvidence = [
     "placeholder": false
   },
   {
+    "slug": "the-visionary-guide-02-website-app-live",
+    "title": "The Visionary Guide — live web application surface",
+    "description": "Current web application surface connecting the public product story to the Guide platform experience.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 2,
+    "phase": "Application development",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "the-visionary-guide-03-appsite-positions",
+    "title": "The Visionary Guide — celestial positions interface",
+    "description": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 3,
+    "phase": "Application development",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "the-visionary-guide-04-appsite-results",
+    "title": "The Visionary Guide — generated results interface",
+    "description": "Results view demonstrating how resolved data and interpretation are presented within the digital Guide experience.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 4,
+    "phase": "Application development",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "the-visionary-guide-05-appsite-results-comparison",
+    "title": "The Visionary Guide — results comparison interface",
+    "description": "Comparison view supporting inspection of generated interpretations without replacing the canonical annual Guide.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 5,
+    "phase": "Application development",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page-comparison.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "standard",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "the-visionary-guide-90-appsite-landing-compact",
+    "title": "The Visionary Guide — compact landing study",
+    "description": "Compact landing-page study retained as supporting responsive-interface evidence rather than the main project reveal.",
+    "evidenceType": "website",
+    "role": "interface",
+    "sequence": 90,
+    "phase": "Responsive supporting study",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-compact.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "application-interface"
+      ],
+      "displayRoles": [
+        "supporting"
+      ],
+      "visualQuality": "supporting",
+      "aspectPreference": "portrait"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "the-visionary-guide-99-website-old",
+    "title": "The Visionary Guide — previous website design",
+    "description": "Earlier website design retained as archive evidence and excluded from the current case-study presentation.",
+    "evidenceType": "website",
+    "role": "reference",
+    "sequence": 99,
+    "phase": "Archive",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-old.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "process"
+      ],
+      "displayRoles": [
+        "archive"
+      ],
+      "visualQuality": "archive",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
     "slug": "the-visionary-guide-documentation-pending",
     "title": "The Visionary Guide project evidence",
     "description": "Supporting material is being selected and documented for this project record.",
@@ -4328,26 +4680,57 @@ export const publicEvidence = [
   },
   {
     "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-    "title": "The Visionary Guide — website and digital experience",
-    "description": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+    "title": "The Visionary Guide — full landing experience",
+    "description": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
     "evidenceType": "website",
     "role": "cover",
     "sequence": 1,
-    "assetPath": "/images/projects/visionary_guide/visionary-guide-website.webp",
+    "phase": "Current public application direction",
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
     "presentation": {
       "facets": [
         "website",
         "web-interface"
       ],
       "displayRoles": [
+        "project-cover",
         "lens-card",
+        "work-hero",
         "supporting",
         "gallery"
       ],
       "visualQuality": "hero",
-      "aspectPreference": "any"
+      "aspectPreference": "landscape"
     },
     "sourceTitle": "The Visionary Guide",
+    "placeholder": false
+  },
+  {
+    "slug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+    "title": "Thinquanauts — public website landing page",
+    "description": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+    "evidenceType": "website",
+    "role": "cover",
+    "sequence": 1,
+    "phase": "Public web experience",
+    "assetPath": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+    "presentation": {
+      "facets": [
+        "website",
+        "web-interface",
+        "editorial"
+      ],
+      "displayRoles": [
+        "project-cover",
+        "lens-card",
+        "work-hero",
+        "supporting",
+        "gallery"
+      ],
+      "visualQuality": "hero",
+      "aspectPreference": "landscape"
+    },
+    "sourceTitle": "Thinquanauts",
     "placeholder": false
   },
   {

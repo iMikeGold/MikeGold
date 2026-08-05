@@ -1271,6 +1271,63 @@ export const internalRelationshipRecords = [
     "targetType": "evidence"
   },
   {
+    "id": "80543731-2522-4b8e-bc7b-a9e73608a168",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "community-supplies-02-shopsite-evidenced-by-link",
+    "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "78fdc8af-1b5f-49ae-9317-f0aa89ab6139",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "f250fe7c-11c0-4199-afb8-7d7144ac279d",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "community-supplies-03-shopsite-marketplace-evidenced-by-link",
+    "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "d58fe5c1-8acd-4837-a73a-5b61c781a08e",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "1213ba48-0ec5-4c3f-a569-8ef3bd888a73",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "community-supplies-04-shopsite-colour-language-evidenced-by-link",
+    "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "0445e2f5-4c9a-413a-b4ea-019ab11c2593",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 4
+  },
+  {
     "id": "8613f322-8483-4177-b273-2d987826f599",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -2951,6 +3008,63 @@ export const internalRelationshipRecords = [
     "role": "primary"
   },
   {
+    "id": "12db911d-8b80-4790-a1f2-1cbdf2158ae9",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "metroplist-02-appsite-evidenced-by-link",
+    "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "ef9b9810-bb29-4f34-82c8-f753eae81f85",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "510c4789-d8fb-43f4-bda4-a47520adff0f",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "metroplist-03-appsite-explore-evidenced-by-link",
+    "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "b2c1449e-13f1-4dba-bd0c-109fc1b94616",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "fc86afc5-16b9-4046-95dd-a0aafeba1447",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "metroplist-04-appsite-compare-evidenced-by-link",
+    "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "cedd7328-d066-425b-9c43-75f0972f7fb0",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 4
+  },
+  {
     "id": "a56d1a9a-b5da-4476-a416-ab4eff14475d",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -4351,6 +4465,101 @@ export const internalRelationshipRecords = [
     "role": "supporting"
   },
   {
+    "id": "b4efaeda-c221-48a4-9efe-e9f72c03ec64",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "the-visionary-guide-02-website-app-live-evidenced-by-link",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "53db42a4-e1fc-4e07-bf26-f170196452cc",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "d6d5cf2b-3235-45cf-abaa-00a3fd263d88",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "the-visionary-guide-03-appsite-positions-evidenced-by-link",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "ab90829b-0226-45d1-bab2-986acfd69221",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "6da49b1d-f50d-4034-8762-aed46fb86de1",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "the-visionary-guide-04-appsite-results-evidenced-by-link",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "0e8144f2-43fe-4104-a8a8-2862ee241bb3",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "36f34106-e4aa-445e-820c-0bf1a8801798",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "the-visionary-guide-05-appsite-results-comparison-evidenced-by-link",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "dea916da-120c-4fa6-95d4-ed84229d5abf",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "63f78bc2-9f3d-49b0-a654-92dc54e80ea8",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "the-visionary-guide-90-appsite-landing-compact-evidenced-by-link",
+    "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "1c45e7a6-cf93-4949-82d2-0cde07e45316",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 90
+  },
+  {
     "id": "34fdde40-2f63-4f8e-aa97-f74fb592d053",
     "recordType": "relationship",
     "schemaVersion": 1,
@@ -4375,6 +4584,25 @@ export const internalRelationshipRecords = [
     "relationshipType": "evidenced-by",
     "targetId": "f2ad785b-5911-4770-8acd-2ba38d70a1b3",
     "targetType": "evidence"
+  },
+  {
+    "id": "39992ca8-d20a-40bb-9add-8dd6e49bf98e",
+    "recordType": "relationship",
+    "schemaVersion": 1,
+    "createdAt": "2026-08-05T13:18:00.000Z",
+    "updatedAt": "2026-08-05T13:18:00.000Z",
+    "slug": "thinquanauts-web-development-thinquanauts-website-landing-page-evidenced-by-link",
+    "sourceId": "0ef3e4f2-0818-4740-99f3-5281989356a8",
+    "sourceType": "work",
+    "relationshipType": "evidenced-by",
+    "targetId": "e881b56b-46e2-4a5f-8581-4226bdd04ab6",
+    "targetType": "evidence",
+    "role": "supporting",
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "priority": 1
   },
   {
     "id": "eba24d84-d222-4b0e-9694-2f9f06af2279",

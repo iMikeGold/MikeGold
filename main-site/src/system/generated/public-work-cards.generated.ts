@@ -725,8 +725,8 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
@@ -735,20 +735,26 @@ export const publicWorkCards = [
         "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
         "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
         "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contextual lead visual selected from 5 relevant evidence records",
       "Contribution documentation is concise",
       "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 75.12,
+    "relevanceScore": 80.05,
     "editorialBoost": 6,
-    "evidenceCompletenessScore": 18.49,
+    "evidenceCompletenessScore": 23.42,
     "editorialSequence": 5,
-    "finalScore": 57.78,
+    "finalScore": 59.0125,
     "href": "/projects/community-supplies"
   },
   {
@@ -777,30 +783,36 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-03-shopsite-marketplace",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+        "alt": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contextual lead visual selected from 5 relevant evidence records",
       "Contribution documentation is concise",
       "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 75.12,
+    "relevanceScore": 80.05,
     "editorialBoost": 6,
-    "evidenceCompletenessScore": 18.49,
+    "evidenceCompletenessScore": 23.42,
     "editorialSequence": 5,
-    "finalScore": 57.78,
+    "finalScore": 59.0125,
     "href": "/projects/community-supplies?area=system-product-definition"
   },
   {
@@ -829,30 +841,36 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-03-shopsite-marketplace",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+        "alt": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contextual lead visual selected from 5 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "11 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 70.55,
+    "relevanceScore": 75.48,
     "editorialBoost": 7,
-    "evidenceCompletenessScore": 18.49,
+    "evidenceCompletenessScore": 23.42,
     "editorialSequence": 4,
-    "finalScore": 62.6375,
+    "finalScore": 63.870000000000005,
     "href": "/projects/community-supplies?area=software-web-engineering"
   },
   {
@@ -888,21 +906,27 @@ export const publicWorkCards = [
     "supportingVisuals": [
       {
         "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-        "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+        "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
         "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
+      "Contextual lead visual selected from 5 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "11 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 70.55,
+    "relevanceScore": 75.48,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 18.49,
-    "finalScore": 17.6375,
+    "evidenceCompletenessScore": 23.42,
+    "finalScore": 18.87,
     "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
@@ -1308,36 +1332,36 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-02-appsite",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+        "alt": "Application interface translating place and density intelligence into an exploratory product surface.",
+        "evidenceType": "website"
       },
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-03-appsite-explore",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+        "alt": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
       "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 81.91,
+    "relevanceScore": 83.21,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 53.4775,
+    "finalScore": 53.802499999999995,
     "href": "/projects/metroplist"
   },
   {
@@ -1368,8 +1392,8 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
@@ -1388,16 +1412,16 @@ export const publicWorkCards = [
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
       "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 81.91,
+    "relevanceScore": 83.21,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 53.4775,
+    "finalScore": 53.802499999999995,
     "href": "/projects/metroplist?area=system-product-definition"
   },
   {
@@ -1428,36 +1452,36 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-02-appsite",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+        "alt": "Application interface translating place and density intelligence into an exploratory product surface.",
+        "evidenceType": "website"
       },
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-03-appsite-explore",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+        "alt": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 77.34,
+    "relevanceScore": 78.64,
     "editorialBoost": 6,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 58.335,
+    "finalScore": 58.66,
     "href": "/projects/metroplist?area=software-web-engineering"
   },
   {
@@ -1508,14 +1532,14 @@ export const publicWorkCards = [
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "13 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 77.34,
+    "relevanceScore": 78.64,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 24.7,
-    "finalScore": 19.335,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 19.66,
     "href": "/projects/metroplist?area=brand-experience-systems"
   },
   {
@@ -2898,21 +2922,34 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 6 relevant evidence records",
       "Contribution documentation is concise",
       "15 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.75,
+    "relevanceScore": 82.44,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 18.4375,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 20.61,
     "href": "/projects/the-visionary-guide"
   },
   {
@@ -2945,21 +2982,34 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 6 relevant evidence records",
       "Contribution documentation is concise",
       "15 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.75,
+    "relevanceScore": 82.44,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 18.4375,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 20.61,
     "href": "/projects/the-visionary-guide?area=system-product-definition"
   },
   {
@@ -2992,21 +3042,34 @@ export const publicWorkCards = [
     ],
     "primaryVisual": {
       "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
       "evidenceType": "website"
     },
-    "supportingVisuals": [],
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
+      "Contextual lead visual selected from 6 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
       "15 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.18,
+    "relevanceScore": 77.88,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.295,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 19.47,
     "href": "/projects/the-visionary-guide?area=software-web-engineering"
   },
   {
@@ -6469,17 +6532,23 @@ export const publicWorkCards = [
       "metadata-engineer",
       "media-engineer"
     ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
     "supportingVisuals": [],
     "relevanceReasons": [
       "3 directly relevant contributions with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
       "12 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 68.93,
+    "relevanceScore": 84.93,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 17.2325,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 21.2325,
     "href": "/projects/thinquanauts"
   },
   {
@@ -6500,17 +6569,23 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "human-system-translator"
     ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
     "supportingVisuals": [],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
       "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 55.47,
+    "relevanceScore": 71.47,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 13.8675,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.8675,
     "href": "/projects/thinquanauts?area=media-production-distribution"
   },
   {
@@ -6536,17 +6611,23 @@ export const publicWorkCards = [
       "media-engineer",
       "human-system-translator"
     ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
     "supportingVisuals": [],
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
       "9 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 61.51,
+    "relevanceScore": 77.51,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 15.3775,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 19.3775,
     "href": "/projects/thinquanauts?area=system-product-definition"
   },
   {
@@ -6572,17 +6653,23 @@ export const publicWorkCards = [
       "web-design-engineer",
       "human-system-translator"
     ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
     "supportingVisuals": [],
     "relevanceReasons": [
       "2 directly relevant contributions with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
       "9 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 57.11,
+    "relevanceScore": 73.11,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 14.2775,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 18.2775,
     "href": "/projects/thinquanauts?area=brand-experience-systems"
   },
   {
@@ -6603,17 +6690,23 @@ export const publicWorkCards = [
     "supportingHatSlugs": [
       "identity-architect"
     ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
     "supportingVisuals": [],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "No usable contextual lead visual is registered",
+      "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
       "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 55.47,
+    "relevanceScore": 71.47,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 0,
-    "finalScore": 13.8675,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.8675,
     "href": "/projects/thinquanauts?area=software-web-engineering"
   },
   {

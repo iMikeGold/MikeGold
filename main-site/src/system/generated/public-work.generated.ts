@@ -991,11 +991,41 @@ export const publicWork = [
       "identity-architect"
     ],
     "evidenceSlugs": [
+      "community-supplies-02-shopsite",
+      "community-supplies-03-shopsite-marketplace",
+      "community-supplies-04-shopsite-colour-language",
       "community-supplies-community-supplies-community-suuplies-website",
       "community-supplies-community-supplies-logo-design-logo-main",
       "community-supplies-documentation-pending"
     ],
     "evidenceLinks": [
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 2
+      },
+      {
+        "evidenceSlug": "community-supplies-03-shopsite-marketplace",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 3
+      },
+      {
+        "evidenceSlug": "community-supplies-04-shopsite-colour-language",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 4
+      },
       {
         "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
         "role": "supporting"
@@ -2045,6 +2075,9 @@ export const publicWork = [
       "human-system-translator"
     ],
     "evidenceSlugs": [
+      "metroplist-02-appsite",
+      "metroplist-03-appsite-explore",
+      "metroplist-04-appsite-compare",
       "metroplist-documentation-pending",
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
       "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
@@ -2054,6 +2087,33 @@ export const publicWork = [
       "metroplist-metroplist-metroplist-website"
     ],
     "evidenceLinks": [
+      {
+        "evidenceSlug": "metroplist-02-appsite",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 2
+      },
+      {
+        "evidenceSlug": "metroplist-03-appsite-explore",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 3
+      },
+      {
+        "evidenceSlug": "metroplist-04-appsite-compare",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 4
+      },
       {
         "evidenceSlug": "metroplist-documentation-pending",
         "role": "supporting"
@@ -3335,10 +3395,60 @@ export const publicWork = [
       "human-system-translator"
     ],
     "evidenceSlugs": [
+      "the-visionary-guide-02-website-app-live",
+      "the-visionary-guide-03-appsite-positions",
+      "the-visionary-guide-04-appsite-results",
+      "the-visionary-guide-05-appsite-results-comparison",
+      "the-visionary-guide-90-appsite-landing-compact",
       "the-visionary-guide-documentation-pending",
       "the-visionary-guide-visionary-guide-visionary-guide-website"
     ],
     "evidenceLinks": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 2
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 3
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-04-appsite-results",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 4
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-05-appsite-results-comparison",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 5
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-90-appsite-landing-compact",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 90
+      },
       {
         "evidenceSlug": "the-visionary-guide-documentation-pending",
         "role": "supporting"
@@ -3462,8 +3572,20 @@ export const publicWork = [
       "human-system-translator",
       "identity-architect"
     ],
-    "evidenceSlugs": [],
-    "evidenceLinks": [],
+    "evidenceSlugs": [
+      "thinquanauts-web-development-thinquanauts-website-landing-page"
+    ],
+    "evidenceLinks": [
+      {
+        "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+        "role": "supporting",
+        "displayRoles": [
+          "supporting",
+          "gallery"
+        ],
+        "priority": 1
+      }
+    ],
     "lensSummaries": {
       "software-web-engineering": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world.",
       "brand-experience-systems": "Audience-facing experience and identity structure across the Thinquanauts website."
