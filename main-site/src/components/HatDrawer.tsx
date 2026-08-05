@@ -49,6 +49,50 @@ const SECTION_LABELS: Record<DrawerSection, string> = {
   related: "Related",
 };
 
+const drawerCSS = `
+.hat-console__radar {
+  overflow: visible;
+  padding: 4px;
+}
+
+.hat-console__summary {
+  display: block !important;
+  overflow-y: auto !important;
+  -webkit-box-orient: initial !important;
+  -webkit-line-clamp: unset !important;
+  max-height: 6.4em;
+  scrollbar-gutter: stable;
+}
+
+.hat-console__content {
+  min-height: 150px;
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+  .hat-console__summary {
+    max-height: 7em;
+  }
+
+  .hat-console__content {
+    min-height: 170px;
+  }
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] {
+  height: max(850px, calc(100dvh + 30px)) !important;
+  min-height: 850px !important;
+  grid-template-rows: clamp(520px, 61dvh, 570px) 58px minmax(250px, 1fr) !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console {
+  grid-template-rows: auto auto minmax(64px, auto) auto minmax(155px, 1fr) !important;
+}
+
+#hat-registry-root[data-mobile="true"][data-portrait="true"] .hat-console__summary {
+  max-height: 7.2em;
+}
+`;
+
 function flattenTags(hat: Hat | null): string[] {
   if (!hat?.tags) return [];
   return [
@@ -102,8 +146,8 @@ export default function HatDrawer({
   }, [dominantAxis, polygonSignature]);
 
   const effectivePolygonSize = useMemo(() => {
-    const widthAllowance = drawerWidth < 380 ? drawerWidth * 0.46 : drawerWidth * 0.48;
-    return Math.round(Math.max(148, Math.min(POLYGON_SIZE, widthAllowance, 210)));
+    const widthAllowance = drawerWidth < 380 ? drawerWidth * 0.42 : drawerWidth * 0.46;
+    return Math.round(Math.max(140, Math.min(POLYGON_SIZE, widthAllowance, 196)));
   }, [drawerWidth, POLYGON_SIZE]);
 
   const title = hat?.name ?? "Capability profile";
@@ -130,6 +174,8 @@ export default function HatDrawer({
 
   return (
     <section className="hat-console" aria-label="Capability profile inspector">
+      <style dangerouslySetInnerHTML={{ __html: drawerCSS }} />
+
       <header className="hat-console__header">
         <div className="hat-console__title-block">
           <h2>{title}</h2>
