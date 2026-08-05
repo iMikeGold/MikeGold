@@ -1,121 +1,42 @@
-// ==================================================
-// iD Gravity Core — Hat Registry v7.2 — MATCHING DRAWER WIDTH
-// Clear Selection BAR FIXED TO BOTTOM (always visible)
-// Drawer size synced perfectly with HatDrawer
-// NO OVERLAP / NO MASKING
-// ==================================================
-
 "use client";
 
-// ------------------------------
-// IMPORTS — FIRST
-// ------------------------------
-import { useMemo, useState, useEffect, useLayoutEffect, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { hats, type Hat } from "../system/registry";
 import { getHatProfile, PROFILE_AXES } from "../system/profile/hat-profile";
 import { findRelatedHatsForSelection, searchHats } from "../system/services/service-engine";
 import { calculateWeight } from "../system/services/weights";
 import { PROFILE_AXIS_COLOURS, resolveContextualDominanceMap } from "../system/services/profile-interpreter";
-
-const HAT_LAYER_COLOURS = ["#60a5fa", "#f472b6", "#34d399", "#fbbf24", "#a78bfa", "#22d3ee", "#fb7185"] as const;
 import { selectPrincipalLayerHats } from "../system/services/polygon-engine";
 import HatDrawer from "./HatDrawer";
 import HatRadar from "./Polygon/HatRadar";
 import { useInteractionKernel } from "./interaction/InteractionKernel";
 
-// ------------------------------
-// GLOBAL CSS — DEFINED HERE
-// ------------------------------
+const HAT_LAYER_COLOURS = ["#60a5fa", "#f472b6", "#34d399", "#fbbf24", "#a78bfa", "#22d3ee", "#fb7185"] as const;
+const POLYGON_SIZE = 200;
+const DRAWER_MIN_WIDTH = POLYGON_SIZE + 40;
+const DRAWER_MAX_WIDTH = 450;
+
 const globalCSS = `
-html, body {
-  height: 100%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  position: relative;
-  overscroll-behavior-y: auto;
-}
-
-#__next {
-  height: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-@supports (-webkit-touch-callout: none) {
-  body {
-    min-height: -webkit-fill-available;
-  }
-}
-
-@keyframes shimmer {
-  0% {background-position:200% 0;}
-  100% {background-position:-200% 0;}
-}
-
+html, body { margin:0; padding:0; overflow-x:hidden; }
+* { box-sizing:border-box; }
+@keyframes shimmer { 0% { background-position:200% 0; } 100% { background-position:-200% 0; } }
 @media (prefers-reduced-motion: reduce) {
-  [data-hat-tile-face] {
-    transition: none !important;
-    animation: none !important;
-  }
+  [data-hat-tile-face] { transition:none !important; animation:none !important; }
 }
-
-[data-hat-tile]:focus-visible {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-
-#hat-registry-root {
-  height: 100vh;
-  min-height: 100vh;
-}
-
-@media (max-width: 767px) and (orientation: portrait) {
+[data-hat-tile]:focus-visible { outline:2px solid #fff; outline-offset:2px; }
+#hat-registry-root { overscroll-behavior:contain; }
+#hat-registry-browser, #hat-registry-profile { -webkit-overflow-scrolling:touch; }
+@media (max-width:767px) and (orientation:portrait) {
   #hat-registry-root {
-    height: auto !important;
-    min-height: calc(100vh - 56px) !important;
-    overflow: visible !important;
+    grid-template-columns:minmax(0,1fr) !important;
+    grid-template-rows:minmax(250px,42dvh) 56px minmax(0,1fr) !important;
   }
-
-  #hat-registry-left-panel {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    bottom: auto !important;
-    width: 100% !important;
-    height: auto !important;
-    min-height: 50vh !important;
-    overflow: visible !important;
-  }
-
-  #hat-registry-drawer {
-    position: relative !important;
-    top: auto !important;
-    right: auto !important;
-    width: 100% !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    height: auto !important;
-    min-height: 360px !important;
-  }
-
-  #hat-registry-bottom-bar {
-    position: relative !important;
-    right: 0 !important;
-  }
+  #hat-registry-profile { grid-column:1 !important; grid-row:1 !important; border-left:0 !important; border-bottom:1px solid #222; }
+  #hat-registry-bottom-bar { grid-column:1 !important; grid-row:2 !important; }
+  #hat-registry-left-panel { grid-column:1 !important; grid-row:3 !important; }
 }
 `;
 
-// ------------------------------
-// DATA HELPERS
-// ------------------------------
 function getHatStats(hat: Hat) {
   const profile = getHatProfile(hat);
   return PROFILE_AXES.reduce<Record<string, number>>((stats, axis, index) => {
@@ -124,9 +45,6 @@ function getHatStats(hat: Hat) {
   }, {});
 }
 
-// ------------------------------
-// COMPONENT — WIDTH SYNCED WITH DRAWER
-// ------------------------------
 export default function HatRegistry({
   initialSearchQuery = "",
   initialHatId = "",
@@ -135,82 +53,27 @@ export default function HatRegistry({
   initialHatId?: string;
 }) {
   const initialHat = hats.find((hat) => hat.slug === initialHatId || hat.id === initialHatId) ?? null;
-  // ------------------------------
-  // MATCH DRAWER'S POLYGON SIZE EXACTLY
-  // ------------------------------
   const [isMobile, setIsMobile] = useState(false);
   const [isPortrait, setIsPortrait] = useState(false);
-  const POLYGON_SIZE = 200; // SAME AS DRAWER
-  const DRAWER_MIN_WIDTH = POLYGON_SIZE + 40; // 220px — SAME AS DRAWER'S CONTENT_WIDTH
-  const DRAWER_MAX_WIDTH = 450;
   const [drawerWidth, setDrawerWidth] = useState(DRAWER_MIN_WIDTH);
-
-  // ------------------------------
-  // STATE
-  // ------------------------------
   const [searchQuery, setSearchQuery] = useState(initialSearchQuery);
   const [selectedHats, setSelectedHats] = useState<Hat[]>(initialHat ? [initialHat] : []);
   const [activeHat, setActiveHat] = useState<Hat | null>(initialHat);
-  const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({
-    creative: true,
-    design: true,
-    engineering: true
-  });
+  const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({ creative: true, design: true, engineering: true });
   const [flippedTiles, setFlippedTiles] = useState<Record<string, boolean>>({});
   const [colourSlots, setColourSlots] = useState<Record<string, number>>({});
-  const [pendingRevealHatId, setPendingRevealHatId] = useState<string | null>(null);
   const tileBrowserRef = useRef<HTMLDivElement | null>(null);
-  const tileRefs = useRef(new Map<string, HTMLElement>());
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const requestedQuery = params.get("q")?.trim();
-    if (requestedQuery) setSearchQuery(requestedQuery);
-
-    const requestedHatId = params.get("hat")?.trim();
-    if (!requestedHatId) return;
-
-    const requestedHat = hats.find(
-      (hat) => hat.slug === requestedHatId || hat.id === requestedHatId,
-    );
-    if (!requestedHat) return;
-
-    setSelectedHats([requestedHat]);
-    setActiveHat(requestedHat);
-    setCollapsedSections((previous) => ({
-      ...previous,
-      [requestedHat.category]: false,
-    }));
-    setPendingRevealHatId(requestedHat.id);
-  }, []);
-
-  // ------------------------------
-  // INTERACTION — NOW PASS LAYOUT (NO ERRORS)
-  // ------------------------------
-  const interaction = useInteractionKernel(flippedTiles, {
-    isMobile,
-    isCompact: false,
-    isPortrait
-  });
-
-  // ------------------------------
-  // RESPONSIVE — FULL MOBILE/PORTRAIT LOGIC
-  // ------------------------------
   useEffect(() => {
     const checkLayout = () => {
-      const w = window.innerWidth;
-      const h = window.innerHeight;
-      const portrait = h > w;
-      const touchDevice = typeof window !== "undefined" && ("ontouchstart" in window || navigator.maxTouchPoints > 0);
-      setIsMobile(touchDevice || w < 768);
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      const portrait = height > width;
+      const touch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+      setIsMobile(touch || width < 768);
       setIsPortrait(portrait);
-
-      const newW = Math.max(portrait ? DRAWER_MIN_WIDTH : 280, Math.min(DRAWER_MAX_WIDTH, w * 0.4));
-      setDrawerWidth(newW);
-
-      document.documentElement.style.setProperty('--vh', `${h * 0.01}px`);
+      setDrawerWidth(Math.max(portrait ? DRAWER_MIN_WIDTH : 280, Math.min(DRAWER_MAX_WIDTH, width * 0.4)));
     };
-
     checkLayout();
     window.addEventListener("resize", checkLayout);
     window.addEventListener("orientationchange", checkLayout);
@@ -218,484 +81,168 @@ export default function HatRegistry({
       window.removeEventListener("resize", checkLayout);
       window.removeEventListener("orientationchange", checkLayout);
     };
-  }, [DRAWER_MIN_WIDTH, DRAWER_MAX_WIDTH]);
+  }, []);
 
-  // ------------------------------
-  // DATA
-  // ------------------------------
-  const filteredHats = useMemo(() => {
-    return searchHats(hats, searchQuery).map(({ hat }) => hat);
-  }, [searchQuery]);
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requestedQuery = params.get("q")?.trim();
+    if (requestedQuery) setSearchQuery(requestedQuery);
+    const requestedHatId = params.get("hat")?.trim();
+    if (!requestedHatId) return;
+    const requestedHat = hats.find((hat) => hat.slug === requestedHatId || hat.id === requestedHatId);
+    if (!requestedHat) return;
+    setSelectedHats([requestedHat]);
+    setActiveHat(requestedHat);
+    setCollapsedSections((previous) => ({ ...previous, [requestedHat.category]: true }));
+  }, []);
 
+  const interaction = useInteractionKernel(flippedTiles, { isMobile, isCompact: false, isPortrait });
+  const filteredHats = useMemo(() => searchHats(hats, searchQuery).map(({ hat }) => hat), [searchQuery]);
   const hatsByHouse = useMemo(() => {
     const groups: Record<string, Hat[]> = { creative: [], design: [], engineering: [] };
-    filteredHats.forEach((hat) => {
-      if (groups[hat.category]) groups[hat.category].push(hat);
-    });
+    filteredHats.forEach((hat) => groups[hat.category]?.push(hat));
     return groups;
   }, [filteredHats]);
   const registryHouseCounts = useMemo(() => hats.reduce<Record<string, number>>((counts, hat) => {
     counts[hat.category] = (counts[hat.category] ?? 0) + 1;
     return counts;
   }, {}), []);
-
-  const relatedHats = useMemo(() => {
-    return findRelatedHatsForSelection(selectedHats.length ? selectedHats : activeHat ? [activeHat] : [], hats);
-  }, [activeHat, selectedHats]);
+  const relatedHats = useMemo(() => findRelatedHatsForSelection(selectedHats.length ? selectedHats : activeHat ? [activeHat] : [], hats), [activeHat, selectedHats]);
   const principalLayerHats = useMemo(() => selectPrincipalLayerHats(selectedHats, 7), [selectedHats]);
-  const contextualDominance = useMemo(
-    () => resolveContextualDominanceMap(selectedHats),
-    [selectedHats],
-  );
+  const contextualDominance = useMemo(() => resolveContextualDominanceMap(selectedHats), [selectedHats]);
+
   useEffect(() => {
-    const timer = window.setTimeout(() => {
-      setColourSlots((previous) => {
-        const visibleIds = new Set(principalLayerHats.map((hat) => hat.id));
-        const next = Object.entries(previous).reduce<Record<string, number>>((slots, [id, slot]) => {
-          if (visibleIds.has(id)) slots[id] = slot;
-          return slots;
-        }, {});
-        const occupied = new Set(Object.values(next));
-        for (const hat of principalLayerHats) {
-          if (Number.isInteger(next[hat.id])) continue;
-          const slot = [0, 1, 2, 3, 4, 5, 6].find((candidate) => !occupied.has(candidate));
-          if (slot === undefined) continue;
-          next[hat.id] = slot;
-          occupied.add(slot);
-        }
-        return next;
+    setColourSlots((previous) => {
+      const visibleIds = new Set(principalLayerHats.map((hat) => hat.id));
+      const next = Object.entries(previous).reduce<Record<string, number>>((slots, [id, slot]) => {
+        if (visibleIds.has(id)) slots[id] = slot;
+        return slots;
+      }, {});
+      const occupied = new Set(Object.values(next));
+      principalLayerHats.forEach((hat) => {
+        if (Number.isInteger(next[hat.id])) return;
+        const slot = [0, 1, 2, 3, 4, 5, 6].find((candidate) => !occupied.has(candidate));
+        if (slot === undefined) return;
+        next[hat.id] = slot;
+        occupied.add(slot);
       });
-    }, 0);
-    return () => window.clearTimeout(timer);
+      return next;
+    });
   }, [principalLayerHats]);
 
-  useLayoutEffect(() => {
-    if (!pendingRevealHatId) return;
-    const tile = tileRefs.current.get(pendingRevealHatId);
-    const browserRegion = tileBrowserRef.current;
-    if (!tile || !browserRegion) return;
-    const frame = window.requestAnimationFrame(() => {
-      const browserBox = browserRegion.getBoundingClientRect();
-      const tileBox = tile.getBoundingClientRect();
-      const nextTop = browserRegion.scrollTop + tileBox.top - browserBox.top - Math.max(8, (browserBox.height - tileBox.height) / 2);
-      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      browserRegion.scrollTo({ top: Math.max(0, nextTop), behavior: reduceMotion ? "auto" : "smooth" });
-      tile.focus({ preventScroll: true });
-      window.setTimeout(() => setPendingRevealHatId(null), 0);
-    });
-    return () => window.cancelAnimationFrame(frame);
-  }, [collapsedSections, filteredHats, pendingRevealHatId]);
-
-  // ------------------------------
-  // ACTIONS — NO BUGS
-  // ------------------------------
   const toggleSelectHat = (hat: Hat) => {
-    setSelectedHats(prev => {
-      const exists = prev.some(h => h.id === hat.id);
+    setSelectedHats((previous) => {
+      const exists = previous.some((item) => item.id === hat.id);
       if (exists) {
-        const updated = prev.filter(h => h.id !== hat.id);
-        if (activeHat?.id === hat.id) setActiveHat(updated.length ? updated[updated.length - 1] : null);
+        const updated = previous.filter((item) => item.id !== hat.id);
+        if (activeHat?.id === hat.id) setActiveHat(updated.at(-1) ?? null);
         return updated;
-      } else {
-        setActiveHat(hat);
-        return [...prev, hat];
       }
+      setActiveHat(hat);
+      if (isMobile) setCollapsedSections((sections) => ({ ...sections, [hat.category]: true }));
+      return [...previous, hat];
     });
   };
 
   const handleSelectRelated = (hat: Hat) => {
     setActiveHat(hat);
-    setSelectedHats(prev => prev.some(h => h.id === hat.id) ? prev : [...prev, hat]);
+    setSelectedHats((previous) => previous.some((item) => item.id === hat.id) ? previous : [...previous, hat]);
     setFlippedTiles((previous) => ({ ...previous, [hat.id]: true }));
-    setCollapsedSections((previous) => ({ ...previous, [hat.category]: false }));
     setSearchQuery("");
-    setPendingRevealHatId(hat.id);
+    setCollapsedSections((previous) => ({ ...previous, [hat.category]: true }));
   };
 
-  // ------------------------------
-  // RENDER — PERFECT ALIGNMENT
-  // ------------------------------
+  const portraitMobile = isMobile && isPortrait;
+  const gridColumns = portraitMobile ? "minmax(0,1fr)" : `minmax(0,1fr) ${drawerWidth}px`;
+  const gridRows = portraitMobile ? "minmax(250px,42dvh) 56px minmax(0,1fr)" : "minmax(0,1fr) 56px";
+
   return (
     <>
-      {/* 1. VIEWPORT TAG — FIXES MOBILE ZOOM / SNAPS TO SCREEN */}
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-      {/* 2. GLOBAL CSS — NOW DEFINED ABOVE, NO ERROR */}
       <style dangerouslySetInnerHTML={{ __html: globalCSS }} />
-
-      {/* 3. REST OF YOUR EXACT CODE — NO CHANGES */}
       <div id="hat-registry-root" style={{
-        position: "relative",
-        height: isMobile ? "100dvh" : "calc(100dvh - 56px)",
-        minHeight: isMobile ? "100dvh" : "calc(100dvh - 56px)",
-        display: isPortrait && isMobile ? "flex" : "block",
-        flexDirection: "column",
-        background: "#0a0a0a",
-        color: "#fff",
-        fontFamily: "sans-serif",
-        overflow: "hidden"
+        height: "calc(100dvh - 56px)", minHeight: 0, display: "grid", gridTemplateColumns: gridColumns,
+        gridTemplateRows: gridRows, background: "#0a0a0a", color: "#fff", fontFamily: "sans-serif", overflow: "hidden",
       }}>
-
-        {/* LEFT PANEL */}
-        <div id="hat-registry-left-panel" style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          bottom: isMobile && isPortrait ? "54dvh" : "56px",
-          width: isPortrait && isMobile ? "100%" : `calc(100% - ${drawerWidth}px)`,
-          height: "auto",
-          display: "flex",
-          flexDirection: "column",
-          overflow: "hidden",
-          zIndex: 10,
-          transition: "width 0.2s ease"
-        }}>
-
-          {/* SEARCH BAR */}
-          <form action="/registry" method="get" style={{
-            flexShrink: 0,
-            background: "#0a0a0a",
-            padding: "8px 12px 10px",
-            borderBottom: "1px solid #222",
-            zIndex: 20,
-            display: "flex",
-            gap: 6,
-          }}>
-            <input
-              type="text"
-              name="q"
-              enterKeyHint="search"
-              placeholder="Search hats, tags, capabilities..."
-              value={searchQuery}
-              onKeyDown={(event) => {
-                if (event.key !== "Enter") return;
-                event.preventDefault();
-                event.currentTarget.form?.submit();
-              }}
-              onChange={(e) => {
-                setPendingRevealHatId(null);
-                setSearchQuery(e.target.value);
-              }}
-              style={{
-                width:"100%", minWidth: 0, padding:"8px 12px",
-                background:"#151515", border:"1px solid #333",
-                borderRadius:6, color:"#fff", fontSize:13
-              }}
-            />
-            <button
-              type="submit"
-              aria-label="Search Hats"
-              style={{
-                minWidth: 44, minHeight: 38, border: "1px solid #333",
-                borderRadius: 6, background: "#202020", color: "#fff",
-              }}
-            >
-              Go
-            </button>
+        <div id="hat-registry-left-panel" style={{ gridColumn: 1, gridRow: 1, minWidth: 0, minHeight: 0, display: "flex", flexDirection: "column", overflow: "hidden" }}>
+          <form action="/registry" method="get" style={{ flexShrink: 0, background: "#0a0a0a", padding: "8px 12px 10px", borderBottom: "1px solid #222", display: "flex", gap: 6 }}>
+            <input type="text" name="q" enterKeyHint="search" placeholder="Search hats, tags, capabilities..." value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+              style={{ width: "100%", minWidth: 0, padding: "8px 12px", background: "#151515", border: "1px solid #333", borderRadius: 6, color: "#fff", fontSize: 13 }} />
+            <button type="submit" aria-label="Search Hats" style={{ minWidth: 44, minHeight: 38, border: "1px solid #333", borderRadius: 6, background: "#202020", color: "#fff" }}>Go</button>
           </form>
 
-          {/* SCROLL AREA */}
-          <div
-            ref={tileBrowserRef}
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              overflowX: "hidden",
-              padding: "8px 12px",
-              display: "flex",
-              flexDirection: "column",
-              gap: 12,
-              minHeight: 0,
-              zIndex: 10
-            }}
-            onWheel={(e) => e.stopPropagation()}
-          >
-            {searchQuery.trim() && filteredHats.length === 0 && (
-              <div style={{ padding: "18px", border: "1px solid #292929", color: "#888" }}>
-                Add a specialist term such as media, web, audio, PCB or deployment.
-                Generic role words such as engineer are ignored.
-              </div>
-            )}
+          <div id="hat-registry-browser" ref={tileBrowserRef} style={{ flex: 1, overflowY: "auto", overflowX: "hidden", padding: "8px 12px 18px", display: "flex", flexDirection: "column", gap: 12, minHeight: 0 }}>
+            {searchQuery.trim() && filteredHats.length === 0 && <div style={{ padding: 18, border: "1px solid #292929", color: "#888" }}>Add a specialist term such as media, web, audio, PCB or deployment. Generic role words such as engineer are ignored.</div>}
             {Object.entries(hatsByHouse).map(([house, hatsList]) => {
-              if (hatsList.length === 0) return null;
+              if (!hatsList.length) return null;
               const registryCount = registryHouseCounts[house] ?? hatsList.length;
               const registryShare = hats.length ? registryCount / hats.length : 0;
-
-              return (
-                <details key={house} open={searchQuery.trim() ? true : !collapsedSections[house]}>
-                  <summary
-                    style={{
-                      padding:"8px 12px", background:"#121212",
-                      border:"1px solid #222", borderRadius:8,
-                      cursor:"pointer", marginBottom:6, listStyle:"none"
-                    }}
-                  >
-                    <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:4 }}>
-                      <h3 style={{ margin:0, textTransform:"capitalize", fontSize:15 }}>
-                        {house} <span style={{ opacity:0.5, fontSize:12 }}>({registryCount})</span>
-                      </h3>
-                      <span style={{ opacity:0.6 }}>▼</span>
-                    </div>
-                    <div aria-label={`${house} represents ${(registryShare * 100).toFixed(1)} percent of loaded Hats`} style={{ display:"flex", alignItems:"center", gap:8 }}>
-                      <div style={{ height:6, flex:1, background:"#242424", borderRadius:4, overflow:"hidden" }}>
-                        <div style={{ width:`${registryShare * 100}%`, height:"100%", background:"#3b82f6", borderRadius:4 }} />
-                      </div>
-                      <span style={{ opacity:0.72, fontSize:11, minWidth:78, textAlign:"right" }}>
-                        {registryCount} / {hats.length} · {(registryShare * 100).toFixed(1)}%
-                      </span>
-                    </div>
-                  </summary>
-
-                  <div style={{
-                      display:"grid",
-                      gridTemplateColumns:"repeat(auto-fill, minmax(86px, 1fr))",
-                      gap:4,
-                      width:"100%"
-                    }}>
-                      {hatsList.map((hat) => {
-                        const isSelected = selectedHats.some(h => h.id === hat.id);
-                        const weightScore = calculateWeight(hat);
-                        const stats = getHatStats(hat);
-                        const isFlipped = flippedTiles[hat.id] || false;
-                        const overlayText = interaction.getOverlay(hat.id);
-                        const dominance = contextualDominance.get(hat.id);
-                        const layerColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
-
-                        return (
-                          <a
-                            key={hat.id}
-                            id={`hat-tile-${hat.id}`}
-                            href={`/registry?hat=${encodeURIComponent(hat.slug)}`}
-                            ref={(element) => {
-                              if (element) tileRefs.current.set(hat.id, element);
-                              else tileRefs.current.delete(hat.id);
-                            }}
-                            data-hat-tile
-                            onMouseEnter={() => interaction.enter(hat.id, hat)}
-                            onMouseLeave={interaction.leave}
-                            onTouchStart={() => interaction.touchStart(hat.id, hat)}
-                            onTouchEnd={() => interaction.touchEnd()}
-                            onClick={(event) => {
-                              event.preventDefault();
-                              interaction.click(
-                                () => setFlippedTiles((previous) => ({
-                                  ...previous,
-                                  [hat.id]: !previous[hat.id],
-                                })),
-                                () => toggleSelectHat(hat)
-                              )
-                            }}
-                            onKeyDown={(event) => {
-                              if (event.key !== "Enter" && event.key !== " ") return;
-                              event.preventDefault();
-                              interaction.click(
-                                () => setFlippedTiles((previous) => ({ ...previous, [hat.id]: !previous[hat.id] })),
-                                () => toggleSelectHat(hat),
-                              );
-                            }}
-                            style={{
-                              aspectRatio:"1/1", cursor:"pointer",
-                              width:"100%", position:"relative",
-                              overflow:"hidden", borderRadius:6, isolation:"isolate",
-                              color: "inherit", textDecoration: "none",
-                            }}
-                          >
-                            <div data-hat-tile-face style={{
-                              width:"100%", height:"100%", position:"relative",
-                              transformStyle:"preserve-3d", transformOrigin:"center",
-                              transition:"transform 0.42s cubic-bezier(0.4,0,0.2,1)",
-                              transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
-                              boxShadow: isSelected ? `0 0 10px ${layerColour}, inset 0 0 15px ${layerColour}55` : "none",
-                              backgroundImage: isSelected ? `linear-gradient(90deg, ${layerColour}22, ${layerColour}55, ${layerColour}22)` : "none",
-                              backgroundSize:"200% 100%", backgroundPosition:"0% 0%",
-                              backgroundRepeat:"no-repeat",
-                              animation: isSelected ? "shimmer 0.6s linear infinite" : "none"
-                            }}>
-
-                              {/* FRONT FACE */}
-                              <div style={{
-                                position:"absolute", inset:0,
-                                background: isSelected ? `${layerColour}22` : "#151515",
-                                border: isSelected ? `1px solid ${layerColour}` : "1px solid #333",
-                                borderRadius:6, padding:3,
-                                display:"flex", flexDirection:"column",
-                                justifyContent:"center", alignItems:"center",
-                                textAlign:"center", fontSize:10, lineHeight:1.1,
-                                backfaceVisibility:"hidden", zIndex:2,
-                                width:"100%", height:"100%"
-                              }}>
-                                <strong style={{
-                                  fontSize:10, textAlign:"center", width:"100%",
-                                  whiteSpace:"normal", wordWrap:"break-word", display:"block"
-                                }}>
-                                  {hat.name}
-                                </strong>
-                                {isSelected && dominance && (
-                                  <span aria-label={dominance.confidence === "balanced" ? `Balanced contribution: ${dominance.coDominantAxes.join(", ")}` : `Distinctive contribution: ${dominance.primaryAxis}`} style={{
-                                    position: "absolute", left: 3, bottom: 2, fontSize: 6.5,
-                                    color: dominance.colour, textTransform: "uppercase", letterSpacing: "0.04em",
-                                  }}>
-                                    {dominance.confidence === "balanced"
-                                      ? "Visual: balanced"
-                                      : selectedHats.length > 1 ? `Visual model adds ${dominance.primaryAxis}` : dominance.primaryAxis}
-                                  </span>
-                                )}
-                                <div style={{ position:"absolute", bottom:2, right:2, fontSize:8, opacity:0.5 }}>
-                                  {weightScore.toFixed(2)}
-                                </div>
-                              </div>
-
-                              {/* BACK FACE */}
-                              <div style={{
-                                position:"absolute", inset:0,
-                                background:"#1a1a1a",
-                                border: isSelected ? `1px solid ${layerColour}` : "1px solid #444",
-                                borderRadius:6, padding:4,
-                                backfaceVisibility:"hidden", transform:"rotateY(180deg)",
-                                display:"flex", flexDirection:"column",
-                                justifyContent:"space-around", alignItems:"center",
-                                textAlign:"center", zIndex:1,
-                                width:"100%", height:"100%", overflow:"hidden"
-                              }}>
-                                {Object.entries(stats).map(([key, value], axisIndex) => (
-                                  <div key={key} style={{ width:"88%", minWidth:0 }}>
-                                    <div style={{
-                                      fontSize:6, opacity:0.68, marginBottom:1,
-                                      overflow:"hidden", textOverflow:"ellipsis",
-                                      textTransform:"capitalize", whiteSpace:"nowrap"
-                                    }}>
-                                      {key}
-                                    </div>
-                                    <div style={{ height:3, background:"#222", borderRadius:1, overflow:"hidden", width:"100%" }}>
-                                      <div style={{
-                                        width:`${Math.round(value * 100)}%`, height:"100%",
-                                        background: PROFILE_AXIS_COLOURS[axisIndex], borderRadius:1
-                                      }} />
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-
-                            {overlayText && !isFlipped && (
-                              <div style={{
-                                position:"absolute", inset:0,
-                                background:"rgba(0,0,0,0.88)", border:"1px solid #666",
-                                borderRadius:6, zIndex:5, fontSize:9,
-                                display:"flex", alignItems:"center", justifyContent:"center",
-                                textAlign:"center", padding:3,
-                                overflow:"hidden",
-                                whiteSpace:"normal", width:"100%", height:"100%"
-                              }}>
-                                <span style={{
-                                  display:"-webkit-box", overflow:"hidden",
-                                  WebkitBoxOrient:"vertical", WebkitLineClamp:5
-                                }}>
-                                  {overlayText}
-                                </span>
-                                </div>
-                              )}
-                          </a>
-                        );
-                      })}
+              const expanded = Boolean(searchQuery.trim()) || !collapsedSections[house];
+              return <section key={house}>
+                <button type="button" aria-expanded={expanded} onClick={() => setCollapsedSections((previous) => ({ ...previous, [house]: !previous[house] }))}
+                  style={{ width: "100%", padding: "8px 12px", background: "#121212", color: "#fff", border: "1px solid #222", borderRadius: 8, cursor: "pointer", marginBottom: 6, textAlign: "left" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 4 }}>
+                    <h3 style={{ margin: 0, textTransform: "capitalize", fontSize: 15 }}>{house} <span style={{ opacity: 0.5, fontSize: 12 }}>({registryCount})</span></h3>
+                    <span style={{ opacity: 0.6 }}>{expanded ? "▲" : "▼"}</span>
                   </div>
-                </details>
-              );
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{ height: 6, flex: 1, background: "#242424", borderRadius: 4, overflow: "hidden" }}><div style={{ width: `${registryShare * 100}%`, height: "100%", background: "#3b82f6" }} /></div>
+                    <span style={{ opacity: 0.72, fontSize: 11, minWidth: 78, textAlign: "right" }}>{registryCount} / {hats.length} · {(registryShare * 100).toFixed(1)}%</span>
+                  </div>
+                </button>
+                {expanded && <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(86px,1fr))", gap: 4, width: "100%" }}>
+                  {hatsList.map((hat) => {
+                    const isSelected = selectedHats.some((item) => item.id === hat.id);
+                    const weightScore = calculateWeight(hat);
+                    const stats = getHatStats(hat);
+                    const isFlipped = flippedTiles[hat.id] || false;
+                    const overlayText = interaction.getOverlay(hat.id);
+                    const dominance = contextualDominance.get(hat.id);
+                    const layerColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
+                    const activate = () => interaction.click(
+                      () => setFlippedTiles((previous) => ({ ...previous, [hat.id]: !previous[hat.id] })),
+                      () => toggleSelectHat(hat),
+                    );
+                    return <a key={hat.id} href={`/registry?hat=${encodeURIComponent(hat.slug)}`} data-hat-tile
+                      onMouseEnter={() => interaction.enter(hat.id, hat)} onMouseLeave={interaction.leave}
+                      onTouchStart={() => interaction.touchStart(hat.id, hat)} onTouchEnd={() => interaction.touchEnd()}
+                      onClick={(event) => { event.preventDefault(); activate(); }}
+                      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); activate(); } }}
+                      style={{ aspectRatio: "1/1", cursor: "pointer", width: "100%", position: "relative", overflow: "hidden", borderRadius: 6, isolation: "isolate", color: "inherit", textDecoration: "none" }}>
+                      <div data-hat-tile-face style={{ width: "100%", height: "100%", position: "relative", transformStyle: "preserve-3d", transition: "transform .42s cubic-bezier(.4,0,.2,1)", transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)", boxShadow: isSelected ? `0 0 10px ${layerColour}, inset 0 0 15px ${layerColour}55` : "none", backgroundImage: isSelected ? `linear-gradient(90deg,${layerColour}22,${layerColour}55,${layerColour}22)` : "none", backgroundSize: "200% 100%", animation: isSelected ? "shimmer .6s linear infinite" : "none" }}>
+                        <div style={{ position: "absolute", inset: 0, background: isSelected ? `${layerColour}22` : "#151515", border: isSelected ? `1px solid ${layerColour}` : "1px solid #333", borderRadius: 6, padding: 3, display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", backfaceVisibility: "hidden", zIndex: 2 }}>
+                          <strong style={{ fontSize: 10, lineHeight: 1.1, overflowWrap: "anywhere" }}>{hat.name}</strong>
+                          {isSelected && dominance && <span style={{ position: "absolute", left: 3, bottom: 2, fontSize: 6.5, color: dominance.colour, textTransform: "uppercase" }}>{dominance.confidence === "balanced" ? "Visual: balanced" : dominance.primaryAxis}</span>}
+                          <div style={{ position: "absolute", bottom: 2, right: 2, fontSize: 8, opacity: 0.5 }}>{weightScore.toFixed(2)}</div>
+                        </div>
+                        <div style={{ position: "absolute", inset: 0, background: "#1a1a1a", border: isSelected ? `1px solid ${layerColour}` : "1px solid #444", borderRadius: 6, padding: 4, backfaceVisibility: "hidden", transform: "rotateY(180deg)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center" }}>
+                          {Object.entries(stats).map(([key, value], index) => <div key={key} style={{ width: "88%" }}><div style={{ fontSize: 6, opacity: .68, textTransform: "capitalize" }}>{key}</div><div style={{ height: 3, background: "#222", overflow: "hidden" }}><div style={{ width: `${Math.round(value * 100)}%`, height: "100%", background: PROFILE_AXIS_COLOURS[index] }} /></div></div>)}
+                        </div>
+                      </div>
+                      {overlayText && !isFlipped && <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,.88)", border: "1px solid #666", borderRadius: 6, zIndex: 5, fontSize: 9, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 3 }}>{overlayText}</div>}
+                    </a>;
+                  })}
+                </div>}
+              </section>;
             })}
           </div>
         </div>
 
-        {/* BOTTOM BAR — FULL LOGIC, SHIFTS CORRECTLY */}
-        <div id="hat-registry-bottom-bar" style={{
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-          right: !(isPortrait && isMobile) ? `${drawerWidth}px` : "0",
-          background: "#0a0a0a",
-          padding: "8px 12px 12px",
-          borderTop: "1px solid #222",
-          zIndex: 55,
-          height: "56px",
-          transition: "right 0.2s ease"
-        }}>
-          <div style={{
-            padding:"8px 12px", 
-            background:"#151515",
-            border:"1px solid #222", 
-            borderRadius:8,
-            height:44, display:"flex", 
-            alignItems:"center", gap:8
-          }}>
-            <div style={{ fontSize:13, opacity:0.7, flexShrink:0 }}>Selected ({selectedHats.length})</div>
-            <div style={{ flex:1, overflowX:"auto", display:"flex", gap:6, paddingBottom:2, minWidth:0 }}>
-              {selectedHats.map(hat => {
-                const slotColour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
-                return (
-                <div key={hat.id} style={{
-                  background: `${slotColour}18`,
-                  border: `1px solid ${slotColour}`,
-                  padding:"3px 8px", borderRadius:12, fontSize:12,
-                  display:"flex", alignItems:"center", gap:4, flexShrink:0
-                }}>
-                  <i aria-hidden="true" style={{ width: 6, height: 6, borderRadius: "50%", background: slotColour }} />
-                  {hat.name}
-                  <button onClick={() => {
-                    setFlippedTiles((previous) => ({ ...previous, [hat.id]: false }));
-                    toggleSelectHat(hat);
-                  }} style={{ background:"none", border:"none", color:"#fff", cursor:"pointer", fontSize:14 }}>×</button>
-                </div>
-              )})}
-            </div>
-            <button onClick={() => {
-              setSelectedHats([]);
-              setActiveHat(null);
-              setFlippedTiles({});
-              setPendingRevealHatId(null);
-              setColourSlots({});
-            }} style={{ fontSize:12, opacity:0.6, background:"none", border:"none", color:"#fff", cursor:"pointer", flexShrink:0 }}>Clear All</button>
+        <div id="hat-registry-bottom-bar" style={{ gridColumn: 1, gridRow: 2, minWidth: 0, background: "#0a0a0a", padding: "6px 12px", borderTop: "1px solid #222", zIndex: 20 }}>
+          <div style={{ padding: "6px 10px", background: "#151515", border: "1px solid #222", borderRadius: 8, height: 44, display: "flex", alignItems: "center", gap: 8 }}>
+            <div style={{ fontSize: 13, opacity: .7, flexShrink: 0 }}>Selected ({selectedHats.length})</div>
+            <div style={{ flex: 1, overflowX: "auto", display: "flex", gap: 6, minWidth: 0 }}>{selectedHats.map((hat) => {
+              const colour = HAT_LAYER_COLOURS[colourSlots[hat.id] ?? 0];
+              return <div key={hat.id} style={{ background: `${colour}18`, border: `1px solid ${colour}`, padding: "3px 8px", borderRadius: 12, fontSize: 12, display: "flex", alignItems: "center", gap: 4, flexShrink: 0 }}><i style={{ width: 6, height: 6, borderRadius: "50%", background: colour }} />{hat.name}<button onClick={() => toggleSelectHat(hat)} style={{ background: "none", border: 0, color: "#fff", fontSize: 14 }}>×</button></div>;
+            })}</div>
+            <button onClick={() => { setSelectedHats([]); setActiveHat(null); setFlippedTiles({}); setColourSlots({}); }} style={{ fontSize: 12, opacity: .6, background: "none", border: 0, color: "#fff", flexShrink: 0 }}>Clear All</button>
           </div>
         </div>
 
-        {/* DRAWER — RECEIVES WIDTH FROM REGISTRY, NO CONFLICT */}
-        <div id="hat-registry-drawer" style={{
-            position: "fixed",
-            top: isPortrait && isMobile ? "46dvh" : "56px",
-            right: 0,
-            width: isPortrait && isMobile ? "100%" : `${drawerWidth}px`,
-            height: isPortrait && isMobile ? "54dvh" : "calc(100dvh - 56px)",
-            minWidth: DRAWER_MIN_WIDTH,
-            maxWidth: DRAWER_MAX_WIDTH,
-            overflowY: "hidden",
-            background: "#111",
-            borderLeft: isMobile && !isPortrait ? "none" : "1px solid #222",
-            borderTop: isPortrait && isMobile ? "1px solid #222" : "none",
-            zIndex: 70
-          }}>
-          {activeHat ? <HatDrawer
-              hat={activeHat}
-              selectedHats={selectedHats}
-              relatedHats={relatedHats}
-              onSelectHat={handleSelectRelated}
-              onClose={() => setActiveHat(null)}
-              drawerWidth={drawerWidth}
-              POLYGON_SIZE={POLYGON_SIZE}
-              colourSlots={colourSlots}
-            /> : (
-              <div style={{ height: "100%", background: "#111", display: "flex", flexDirection: "column", borderLeft: "1px solid #222" }}>
-                <div style={{ padding: "16px 18px 10px", borderBottom: "1px solid #222" }}>
-                  <h2 style={{ margin: 0, fontSize: 17 }}>Capability profile</h2>
-                  <p style={{ margin: "5px 0 0", color: "#777", fontSize: 11 }}>Select a Hat to shape the profile.</p>
-                </div>
-                <div style={{ minHeight: POLYGON_SIZE + 8, display: "flex", alignItems: "center", justifyContent: "center", borderBottom: "1px solid #222" }}>
-                  <HatRadar values={[0, 0, 0, 0, 0, 0]} layers={[]} size={Math.min(POLYGON_SIZE, drawerWidth - 24)} />
-                </div>
-                <div style={{ padding: 18, color: "#777", fontSize: 12, lineHeight: 1.5 }}>
-                  The polygon remains fixed while the selected capability stack changes. Related nodes open the corresponding tile&apos;s detail face.
-                </div>
-              </div>
-            )}
-          </div>
-
+        <aside id="hat-registry-profile" style={{ gridColumn: 2, gridRow: "1 / span 2", minWidth: 0, minHeight: 0, overflow: "hidden", background: "#111", borderLeft: "1px solid #222" }}>
+          {activeHat ? <HatDrawer hat={activeHat} selectedHats={selectedHats} relatedHats={relatedHats} onSelectHat={handleSelectRelated} onClose={() => setActiveHat(null)} drawerWidth={portraitMobile ? DRAWER_MAX_WIDTH : drawerWidth} POLYGON_SIZE={POLYGON_SIZE} colourSlots={colourSlots} /> :
+            <div style={{ height: "100%", display: "flex", flexDirection: "column" }}><div style={{ padding: "14px 18px 9px", borderBottom: "1px solid #222" }}><h2 style={{ margin: 0, fontSize: 17 }}>Capability profile</h2><p style={{ margin: "5px 0 0", color: "#777", fontSize: 11 }}>Select a Hat to shape the profile.</p></div><div style={{ minHeight: POLYGON_SIZE + 8, display: "flex", alignItems: "center", justifyContent: "center" }}><HatRadar values={[0,0,0,0,0,0]} layers={[]} size={POLYGON_SIZE} /></div></div>}
+        </aside>
       </div>
     </>
   );
