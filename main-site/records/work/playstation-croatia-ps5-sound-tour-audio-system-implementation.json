@@ -3,18 +3,18 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-23T00:00:00.000Z",
-  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
   "projectId": "e0b2407b-dde1-45cb-9970-4dcdc333ce1f",
   "slug": "playstation-croatia-ps5-sound-tour-audio-system-implementation",
-  "title": "Audio-system implementation",
-  "summary": "Physical audio-system preparation and implementation for the location-based presentation.",
+  "title": "Studio recording and release preparation",
+  "summary": "Studio and controlled-production work covering voice-over recording, recording engineering, sound engineering, mixing, mastering, quality control and format preparation for commercial release promotion.",
   "status": "historical",
   "visibility": "public",
   "lensAssignments": [
     {
-      "lensId": "physical-systems-engineering",
+      "lensId": "media-production-distribution",
       "role": "primary",
-      "rationale": "The responsibility centres on equipment, installed technical systems or physical signal paths operating in a physical environment."
+      "rationale": "The responsibility centres on studio recording, post-production, quality control and preparation of finished audio media for commercial release promotion."
     }
   ]
 }
