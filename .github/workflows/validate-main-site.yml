@@ -10,13 +10,9 @@ on:
       - main
       - agent/featured-project-case-studies
       - agent/refine-project-showcases
-      - agent/regenerate-refined-project-indexes
     paths:
       - "main-site/**"
       - ".github/workflows/validate-main-site.yml"
-
-permissions:
-  contents: write
 
 concurrency:
   group: validate-main-site-${{ github.ref }}
@@ -50,14 +46,3 @@ jobs:
 
       - name: Build Next.js application
         run: npm run build
-
-      - name: Commit regenerated indexes
-        if: github.event_name == 'push' && github.ref == 'refs/heads/agent/regenerate-refined-project-indexes'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add records/generated src/system/generated
-          if ! git diff --cached --quiet; then
-            git commit -m "regenerate refined project indexes"
-            git push
-          fi
