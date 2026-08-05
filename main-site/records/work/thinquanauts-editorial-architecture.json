@@ -1,0 +1,28 @@
+{
+  "id": "fb58345e-8be2-4b37-8ee3-df8a347076ae",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
+  "slug": "thinquanauts-editorial-architecture",
+  "title": "Thinquanauts editorial and publication architecture",
+  "summary": "Organisation of stories, worlds, publication families, audience levels, formats and thematic routes so the wider writing practice can be published without being flattened into a children's collection.",
+  "status": "in-progress",
+  "visibility": "public",
+  "sequence": 3,
+  "lensAssignments": [
+    {
+      "lensId": "media-production-distribution",
+      "role": "primary",
+      "rationale": "The work structures written media, publication formats, editorial routes and future distribution across the Thinquanauts catalogue.",
+      "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
+    },
+    {
+      "lensId": "system-product-definition",
+      "role": "secondary",
+      "rationale": "Publication records, audience levels and thematic relationships require a coherent information model rather than page-by-page classification.",
+      "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
+    }
+  ]
+}

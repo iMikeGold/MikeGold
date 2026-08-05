@@ -90,9 +90,12 @@
       "projectSlug": "bjorr",
       "concepts": [
         "identity-systems",
-        "operate-activity"
+        "operate-activity",
+        "product-identity",
+        "software-engineering",
+        "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "bluedot-festival-the-orb-live-sound-system-design-and-installation": {
       "projectSlug": "bluedot-festival-the-orb",
@@ -171,10 +174,11 @@
         "operate-activity",
         "product-catalogue",
         "product-definition",
+        "product-identity",
         "software-engineering",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "croydon-womens-network-iwd-camera-systems-and-setup": {
       "projectSlug": "croydon-womens-network-iwd",
@@ -402,31 +406,40 @@
         "identity-systems",
         "operate-activity",
         "software-engineering",
+        "systems-integration",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "mickz-digital-assets": {
       "projectSlug": "mickz",
       "concepts": [
-        "identity-systems"
+        "identity-systems",
+        "media-distribution",
+        "product-identity",
+        "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "mickz-identity-development": {
       "projectSlug": "mickz",
       "concepts": [
-        "identity-systems"
+        "identity-systems",
+        "product-identity",
+        "visual-language-system"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "mickz-product-system": {
       "projectSlug": "mickz",
       "concepts": [
         "identity-systems",
-        "operate-activity"
+        "operate-activity",
+        "product-identity",
+        "systems-integration",
+        "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "mikegold-engineer-system-development": {
       "projectSlug": "mikegold-engineer",
@@ -597,9 +610,11 @@
         "identity-systems",
         "operate-activity",
         "product-definition",
-        "software-engineering"
+        "product-identity",
+        "software-engineering",
+        "visual-language-system"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
     },
     "saveours-platform-interface-development": {
       "projectSlug": "saveours",
@@ -652,9 +667,42 @@
         "operate-activity",
         "product-definition",
         "software-engineering",
+        "systems-integration",
         "web-application"
       ],
-      "source": "derived"
+      "source": "confirmed-claims"
+    },
+    "thinquanauts-editorial-architecture": {
+      "projectSlug": "thinquanauts",
+      "concepts": [
+        "media-distribution",
+        "systems-integration"
+      ],
+      "source": "confirmed-claims"
+    },
+    "thinquanauts-system-development": {
+      "projectSlug": "thinquanauts",
+      "concepts": [
+        "content-system",
+        "identity-systems",
+        "media-distribution",
+        "operate-activity",
+        "product-identity",
+        "systems-integration"
+      ],
+      "source": "confirmed-claims"
+    },
+    "thinquanauts-web-experience": {
+      "projectSlug": "thinquanauts",
+      "concepts": [
+        "accessibility",
+        "engineer-role",
+        "identity-systems",
+        "media-distribution",
+        "software-engineering",
+        "web-application"
+      ],
+      "source": "confirmed-claims"
     },
     "vendfm-system-development": {
       "projectSlug": "vendfm",

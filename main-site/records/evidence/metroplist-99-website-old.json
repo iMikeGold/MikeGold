@@ -1,0 +1,24 @@
+{
+  "id": "cf999738-cd05-47e8-9cf5-7397925ccd4c",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "metroplist-99-website-old",
+  "title": "Metroplist — previous website design",
+  "description": "Earlier Metroplist website retained as archive evidence of the public product's development.",
+  "evidenceType": "website",
+  "role": "reference",
+  "sequence": 99,
+  "visibility": "public",
+  "assetPath": "/images/projects/metroplist/web_development/metroplist-website-old.webp",
+  "sourceTitle": "Metroplist",
+  "phase": "Archive",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "process"],
+    "displayRoles": ["archive"],
+    "visualQuality": "archive",
+    "aspectPreference": "landscape"
+  }
+}

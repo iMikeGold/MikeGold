@@ -1,0 +1,16 @@
+{
+  "id": "6da49b1d-f50d-4034-8762-aed46fb86de1",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "the-visionary-guide-04-appsite-results-evidenced-by-link",
+  "sourceId": "66647a22-d7aa-4e71-9594-135188124fdd",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "0e8144f2-43fe-4104-a8a8-2862ee241bb3",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["supporting", "gallery"],
+  "priority": 4
+}

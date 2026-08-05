@@ -1,0 +1,24 @@
+{
+  "id": "e881b56b-46e2-4a5f-8581-4226bdd04ab6",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+  "title": "Thinquanauts — public website landing page",
+  "description": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+  "evidenceType": "website",
+  "role": "cover",
+  "sequence": 1,
+  "visibility": "public",
+  "assetPath": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+  "sourceTitle": "Thinquanauts",
+  "phase": "Public web experience",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "editorial"],
+    "displayRoles": ["project-cover", "lens-card", "work-hero", "supporting", "gallery"],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  }
+}

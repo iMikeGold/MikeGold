@@ -1,0 +1,16 @@
+{
+  "id": "f250fe7c-11c0-4199-afb8-7d7144ac279d",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "community-supplies-03-shopsite-marketplace-evidenced-by-link",
+  "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "d58fe5c1-8acd-4837-a73a-5b61c781a08e",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["supporting", "gallery"],
+  "priority": 3
+}

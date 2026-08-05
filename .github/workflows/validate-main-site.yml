@@ -1,0 +1,47 @@
+name: Validate main site
+
+on:
+  pull_request:
+    paths:
+      - "main-site/**"
+      - ".github/workflows/validate-main-site.yml"
+  push:
+    branches:
+      - main
+      - agent/featured-project-case-studies
+    paths:
+      - "main-site/**"
+      - ".github/workflows/validate-main-site.yml"
+
+concurrency:
+  group: validate-main-site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: main-site
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: main-site/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate records and reviewed Hats
+        run: npm run records:check
+
+      - name: Typecheck services
+        run: npm run services:typecheck
+
+      - name: Build Next.js application
+        run: npm run build

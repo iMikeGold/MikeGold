@@ -1,0 +1,24 @@
+{
+  "id": "86e6b810-e9d9-4b9f-bbbf-fa09d5d213c3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "community-supplies-99-website-old-design",
+  "title": "Community Supplies — previous website design",
+  "description": "Earlier public website retained as archive evidence of the platform's design development.",
+  "evidenceType": "website",
+  "role": "reference",
+  "sequence": 99,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/web_development/community-supplies-website-old-design.webp",
+  "sourceTitle": "Community Supplies",
+  "phase": "Archive",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "process"],
+    "displayRoles": ["archive"],
+    "visualQuality": "archive",
+    "aspectPreference": "landscape"
+  }
+}

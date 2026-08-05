@@ -55,34 +55,313 @@
       "status": "confirmed",
       "confidence": 1,
       "visibility": "public"
-    },{
-      "id": "audiorii-capability-responsibility", "workSlug": "audiorii-system-development", "claimType": "capability-application",
-      "statement": "AudioRii applies software, platform, brand, media and infrastructure capabilities across its product ecosystem.", "conceptSlugs": ["systems-integration", "software-engineering", "media-distribution"],
-      "hatAssignments": [{"hatSlug":"systems-engineer","role":"lead","weight":0.9},{"hatSlug":"platform-engineer","role":"core","weight":0.88},{"hatSlug":"infrastructure-engineer","role":"core","weight":0.84},{"hatSlug":"operations-engineer","role":"supporting","weight":0.8},{"hatSlug":"devops-engineer","role":"supporting","weight":0.78},{"hatSlug":"pipeline-engineer","role":"supporting","weight":0.76}],
+    },
+    {
+      "id": "audiorii-capability-responsibility",
+      "workSlug": "audiorii-system-development",
+      "claimType": "capability-application",
+      "statement": "AudioRii applies software, platform, brand, media and infrastructure capabilities across its product ecosystem.",
+      "conceptSlugs": ["systems-integration", "software-engineering", "media-distribution"],
+      "hatAssignments": [
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"platform-engineer","role":"core","weight":0.88},
+        {"hatSlug":"infrastructure-engineer","role":"core","weight":0.84},
+        {"hatSlug":"operations-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"devops-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"pipeline-engineer","role":"supporting","weight":0.76}
+      ],
       "status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id": "audiorii-web-capability-responsibility", "workSlug": "audiorii-website-development", "claimType": "capability-application",
-      "statement": "AudioRii develops public-facing website architecture, software interfaces and platform foundations for professional audio products and services.", "conceptSlugs": ["web-application", "software-engineering"],
-      "hatAssignments": [{"hatSlug":"software-engineer","role":"lead","weight":0.9},{"hatSlug":"web-design-engineer","role":"core","weight":0.86},{"hatSlug":"backend-engineer","role":"core","weight":0.82},{"hatSlug":"platform-engineer","role":"supporting","weight":0.78}],
+    },
+    {
+      "id": "audiorii-web-capability-responsibility",
+      "workSlug": "audiorii-website-development",
+      "claimType": "capability-application",
+      "statement": "AudioRii develops public-facing website architecture, software interfaces and platform foundations for professional audio products and services.",
+      "conceptSlugs": ["web-application", "software-engineering"],
+      "hatAssignments": [
+        {"hatSlug":"software-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"web-design-engineer","role":"core","weight":0.86},
+        {"hatSlug":"backend-engineer","role":"core","weight":0.82},
+        {"hatSlug":"platform-engineer","role":"supporting","weight":0.78}
+      ],
       "status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id": "audiorii-brand-capability-responsibility", "workSlug": "audiorii-branding-system", "claimType": "capability-application",
-      "statement": "AudioRii develops a coherent identity, product language and signal-led visual system across products and communications.", "conceptSlugs": ["product-identity", "visual-language-system"],
-      "hatAssignments": [{"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},{"hatSlug":"logo-systems-designer","role":"core","weight":0.86},{"hatSlug":"graphic-systems-designer","role":"supporting","weight":0.8},{"hatSlug":"symbol-systems-designer","role":"supporting","weight":0.78}],
+    },
+    {
+      "id": "audiorii-brand-capability-responsibility",
+      "workSlug": "audiorii-branding-system",
+      "claimType": "capability-application",
+      "statement": "AudioRii develops a coherent identity, product language and signal-led visual system across products and communications.",
+      "conceptSlugs": ["product-identity", "visual-language-system"],
+      "hatAssignments": [
+        {"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"logo-systems-designer","role":"core","weight":0.86},
+        {"hatSlug":"graphic-systems-designer","role":"supporting","weight":0.8},
+        {"hatSlug":"symbol-systems-designer","role":"supporting","weight":0.78}
+      ],
       "status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id": "audiorii-media-capability-responsibility", "workSlug": "audiorii-digital-assets", "claimType": "capability-application",
-      "statement": "AudioRii develops professional-audio software assets, creator tooling and systems for delivering audio products.", "conceptSlugs": ["audio-production", "media-distribution"],
-      "hatAssignments": [{"hatSlug":"audio-engineer","role":"lead","weight":0.9},{"hatSlug":"media-engineer","role":"core","weight":0.84},{"hatSlug":"media-distribution-engineer","role":"core","weight":0.82},{"hatSlug":"media-workflow-designer","role":"supporting","weight":0.78}],
+    },
+    {
+      "id": "audiorii-media-capability-responsibility",
+      "workSlug": "audiorii-digital-assets",
+      "claimType": "capability-application",
+      "statement": "AudioRii develops professional-audio software assets, creator tooling and systems for delivering audio products.",
+      "conceptSlugs": ["audio-production", "media-distribution"],
+      "hatAssignments": [
+        {"hatSlug":"audio-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"media-engineer","role":"core","weight":0.84},
+        {"hatSlug":"media-distribution-engineer","role":"core","weight":0.82},
+        {"hatSlug":"media-workflow-designer","role":"supporting","weight":0.78}
+      ],
       "status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id":"wrappedfm-capability-responsibility","workSlug":"wrappedfm-system-development","claimType":"capability-application","statement":"WrappedFM establishes an online radio platform through identity, live metadata, web application and media-distribution systems.","conceptSlugs":["web-application","media-distribution","product-identity"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.88},{"hatSlug":"media-distribution-engineer","role":"core","weight":0.84},{"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.8},{"hatSlug":"platform-engineer","role":"supporting","weight":0.78}],"status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id":"wrappedfm-identity-capability","workSlug":"wrappedfm-identity-development","claimType":"capability-application","statement":"WrappedFM identity development defines a recognisable visual system for the online radio platform.","conceptSlugs":["product-identity","visual-language-system"],"hatAssignments":[{"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},{"hatSlug":"logo-systems-designer","role":"core","weight":0.84}],"status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id":"saveours-capability-responsibility","workSlug":"saveours-system-development","claimType":"capability-application","statement":"SaveOurs develops a public platform and identity system for structured personal-save and archive experiences.","conceptSlugs":["web-application","systems-integration","product-identity"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.88},{"hatSlug":"platform-engineer","role":"core","weight":0.84},{"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.78}],"status":"confirmed","confidence":1,"visibility":"public"
-    },{
-      "id":"saveours-interface-capability","workSlug":"saveours-platform-interface-development","claimType":"capability-application","statement":"SaveOurs platform interface development connects public, personal and signed-in user journeys through software interfaces.","conceptSlugs":["web-application","software-engineering"],"hatAssignments":[{"hatSlug":"software-engineer","role":"lead","weight":0.9},{"hatSlug":"web-design-engineer","role":"core","weight":0.84},{"hatSlug":"human-system-translator","role":"supporting","weight":0.76}],"status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"wrappedfm-capability-responsibility",
+      "workSlug":"wrappedfm-system-development",
+      "claimType":"capability-application",
+      "statement":"WrappedFM establishes an online radio platform through identity, live metadata, web application and media-distribution systems.",
+      "conceptSlugs":["web-application","media-distribution","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"software-engineer","role":"lead","weight":0.88},
+        {"hatSlug":"media-distribution-engineer","role":"core","weight":0.84},
+        {"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"platform-engineer","role":"supporting","weight":0.78}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"wrappedfm-identity-capability",
+      "workSlug":"wrappedfm-identity-development",
+      "claimType":"capability-application",
+      "statement":"WrappedFM identity development defines a recognisable visual system for the online radio platform.",
+      "conceptSlugs":["product-identity","visual-language-system"],
+      "hatAssignments":[
+        {"hatSlug":"brand-systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"logo-systems-designer","role":"core","weight":0.84}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"saveours-capability-responsibility",
+      "workSlug":"saveours-system-development",
+      "claimType":"capability-application",
+      "statement":"SaveOurs develops a public and personal archive platform with structured saved objects, authored collections, user state and source context.",
+      "conceptSlugs":["web-application","systems-integration","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"software-engineer","role":"core","weight":0.88},
+        {"hatSlug":"platform-engineer","role":"core","weight":0.84},
+        {"hatSlug":"data-modeler","role":"core","weight":0.82},
+        {"hatSlug":"metadata-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.78}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"saveours-interface-capability",
+      "workSlug":"saveours-platform-interface-development",
+      "claimType":"capability-application",
+      "statement":"SaveOurs platform interface development connects public, authored and signed-in personal journeys through software interfaces.",
+      "conceptSlugs":["web-application","software-engineering"],
+      "hatAssignments":[
+        {"hatSlug":"software-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"application-engineer","role":"core","weight":0.86},
+        {"hatSlug":"web-design-engineer","role":"core","weight":0.84},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.8},
+        {"hatSlug":"permissions-identity-engineer","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"saveours-identity-capability",
+      "workSlug":"saveours-identity-language-development",
+      "claimType":"capability-application",
+      "statement":"SaveOurs develops a coded identity language built from SOS rhythm, SaveOurS naming and barcode structure.",
+      "conceptSlugs":["product-identity","visual-language-system"],
+      "hatAssignments":[
+        {"hatSlug":"identity-architect","role":"lead","weight":0.9},
+        {"hatSlug":"brand-systems-engineer","role":"core","weight":0.88},
+        {"hatSlug":"logo-systems-designer","role":"core","weight":0.84},
+        {"hatSlug":"graphic-systems-designer","role":"supporting","weight":0.8},
+        {"hatSlug":"symbol-systems-designer","role":"supporting","weight":0.78},
+        {"hatSlug":"meaning-architect","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"bjorr-system-capability",
+      "workSlug":"bjorr-system-development",
+      "claimType":"capability-application",
+      "statement":"Bjórr connects institution architecture, adaptive learning, learner accounts, pathways, public web environments and a two-register identity family.",
+      "conceptSlugs":["web-application","software-engineering","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.94},
+        {"hatSlug":"platform-engineer","role":"core","weight":0.9},
+        {"hatSlug":"software-engineer","role":"core","weight":0.88},
+        {"hatSlug":"application-engineer","role":"core","weight":0.86},
+        {"hatSlug":"web-design-engineer","role":"core","weight":0.84},
+        {"hatSlug":"data-modeler","role":"supporting","weight":0.82},
+        {"hatSlug":"permissions-identity-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"identity-architect","role":"supporting","weight":0.8},
+        {"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.76},
+        {"hatSlug":"meaning-architect","role":"supporting","weight":0.74},
+        {"hatSlug":"environment-architect","role":"supporting","weight":0.72}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"metroplist-system-capability",
+      "workSlug":"metroplist-system-development",
+      "claimType":"capability-application",
+      "statement":"Metroplist defines a provenance-led geographical intelligence system for spatial data, place comparison, statistical translation and multiple public experience surfaces.",
+      "conceptSlugs":["software-engineering","web-application","systems-integration"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.94},
+        {"hatSlug":"data-engineer","role":"core","weight":0.92},
+        {"hatSlug":"data-modeler","role":"core","weight":0.9},
+        {"hatSlug":"database-engineer","role":"core","weight":0.86},
+        {"hatSlug":"software-engineer","role":"core","weight":0.86},
+        {"hatSlug":"application-engineer","role":"supporting","weight":0.84},
+        {"hatSlug":"platform-engineer","role":"supporting","weight":0.82},
+        {"hatSlug":"web-design-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"metadata-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"meaning-architect","role":"supporting","weight":0.76},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.74}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"visionary-guide-system-capability",
+      "workSlug":"the-visionary-guide-system-development",
+      "claimType":"capability-application",
+      "statement":"Visionary Guide defines a versioned data-to-interpretation-to-publication platform for canonical annual Guide generation and physical and digital delivery.",
+      "conceptSlugs":["software-engineering","web-application","systems-integration"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.96},
+        {"hatSlug":"platform-engineer","role":"core","weight":0.92},
+        {"hatSlug":"data-engineer","role":"core","weight":0.9},
+        {"hatSlug":"data-modeler","role":"core","weight":0.9},
+        {"hatSlug":"database-engineer","role":"core","weight":0.86},
+        {"hatSlug":"backend-engineer","role":"core","weight":0.86},
+        {"hatSlug":"application-engineer","role":"core","weight":0.84},
+        {"hatSlug":"software-engineer","role":"supporting","weight":0.84},
+        {"hatSlug":"web-design-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"pipeline-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"automation-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"boundary-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"metadata-engineer","role":"supporting","weight":0.76},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.74}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"community-supplies-system-capability",
+      "workSlug":"community-supplies-system-development",
+      "claimType":"capability-application",
+      "statement":"Community Supplies establishes an independent commerce system across catalogue, brand, storefront, deployment and future fulfilment boundaries.",
+      "conceptSlugs":["web-application","software-engineering","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"application-engineer","role":"core","weight":0.88},
+        {"hatSlug":"software-engineer","role":"core","weight":0.86},
+        {"hatSlug":"web-design-engineer","role":"core","weight":0.84},
+        {"hatSlug":"data-modeler","role":"supporting","weight":0.82},
+        {"hatSlug":"database-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"platform-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"operations-engineer","role":"supporting","weight":0.78},
+        {"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.76},
+        {"hatSlug":"identity-architect","role":"supporting","weight":0.74}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"mickz-system-capability",
+      "workSlug":"mickz-product-system",
+      "claimType":"capability-application",
+      "statement":"MiCKz connects product definition, category treatments and public presentation within one flexible brand system.",
+      "conceptSlugs":["systems-integration","product-identity","web-application"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.88},
+        {"hatSlug":"application-engineer","role":"core","weight":0.84},
+        {"hatSlug":"brand-systems-engineer","role":"core","weight":0.84},
+        {"hatSlug":"identity-architect","role":"supporting","weight":0.8},
+        {"hatSlug":"platform-engineer","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"mickz-identity-capability",
+      "workSlug":"mickz-identity-development",
+      "claimType":"capability-application",
+      "statement":"MiCKz identity development creates recognisable but distinct treatments across the wider product family.",
+      "conceptSlugs":["product-identity","visual-language-system"],
+      "hatAssignments":[
+        {"hatSlug":"identity-architect","role":"lead","weight":0.9},
+        {"hatSlug":"brand-systems-engineer","role":"core","weight":0.88},
+        {"hatSlug":"logo-systems-designer","role":"core","weight":0.84},
+        {"hatSlug":"graphic-systems-designer","role":"supporting","weight":0.8},
+        {"hatSlug":"symbol-systems-designer","role":"supporting","weight":0.78}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"mickz-digital-capability",
+      "workSlug":"mickz-digital-assets",
+      "claimType":"capability-application",
+      "statement":"MiCKz digital assets carry the product and identity system into public media and web presentation.",
+      "conceptSlugs":["media-distribution","web-application","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"media-engineer","role":"lead","weight":0.86},
+        {"hatSlug":"media-workflow-designer","role":"core","weight":0.82},
+        {"hatSlug":"web-design-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"software-engineer","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"thinquanauts-system-capability",
+      "workSlug":"thinquanauts-system-development",
+      "claimType":"capability-application",
+      "statement":"Thinquanauts defines the parent speculative story and publishing universe, its audience routes, canon boundaries and publication-family relationships.",
+      "conceptSlugs":["systems-integration","product-identity"],
+      "hatAssignments":[
+        {"hatSlug":"systems-engineer","role":"lead","weight":0.9},
+        {"hatSlug":"platform-engineer","role":"core","weight":0.86},
+        {"hatSlug":"meaning-architect","role":"core","weight":0.86},
+        {"hatSlug":"brand-systems-engineer","role":"supporting","weight":0.8},
+        {"hatSlug":"identity-architect","role":"supporting","weight":0.78}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"thinquanauts-web-capability",
+      "workSlug":"thinquanauts-web-experience",
+      "claimType":"capability-application",
+      "statement":"Thinquanauts develops a responsive public reading and navigation experience for mixed-age stories and publication routes.",
+      "conceptSlugs":["web-application","software-engineering"],
+      "hatAssignments":[
+        {"hatSlug":"software-engineer","role":"lead","weight":0.88},
+        {"hatSlug":"application-engineer","role":"core","weight":0.84},
+        {"hatSlug":"web-design-engineer","role":"core","weight":0.84},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.8},
+        {"hatSlug":"identity-architect","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
+    },
+    {
+      "id":"thinquanauts-editorial-capability",
+      "workSlug":"thinquanauts-editorial-architecture",
+      "claimType":"capability-application",
+      "statement":"Thinquanauts structures stories, formats, audience levels, thematic routes and publication records for editorial presentation and distribution.",
+      "conceptSlugs":["media-distribution","systems-integration"],
+      "hatAssignments":[
+        {"hatSlug":"media-workflow-designer","role":"lead","weight":0.86},
+        {"hatSlug":"metadata-engineer","role":"core","weight":0.84},
+        {"hatSlug":"media-engineer","role":"core","weight":0.82},
+        {"hatSlug":"meaning-architect","role":"supporting","weight":0.8},
+        {"hatSlug":"human-system-translator","role":"supporting","weight":0.76}
+      ],
+      "status":"confirmed","confidence":1,"visibility":"public"
     }
   ],
   "evidenceClaimLinks": [

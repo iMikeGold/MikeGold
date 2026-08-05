@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
   "projects": {
+    "audiorii": [
+      "audiorii-branding-system",
+      "audiorii-digital-assets",
+      "audiorii-system-development",
+      "audiorii-website-development"
+    ],
+    "bjorr": [
+      "bjorr-system-development"
+    ],
     "cannvent": [
       "cannvent-application-development",
       "cannvent-community-space-development",
       "cannvent-system-development"
+    ],
+    "community-supplies": [
+      "community-supplies-system-development"
     ],
     "findthy": [
       "findthy-identity-language-development",
@@ -43,6 +55,9 @@
       "saveours-platform-interface-development",
       "saveours-system-development"
     ],
+    "the-visionary-guide": [
+      "the-visionary-guide-system-development"
+    ],
     "vendfm": [
       "vendfm-system-development"
     ],
@@ -56,29 +71,17 @@
     "2xu-wetsuit-testing": [
       "2xu-wetsuit-testing-distribution-systems"
     ],
-    "audiorii": [
-      "audiorii-branding-system",
-      "audiorii-digital-assets",
-      "audiorii-system-development",
-      "audiorii-website-development"
-    ],
     "bamboograph": [
       "bamboograph-system-development"
     ],
     "best-indies": [
       "best-indies-system-development"
     ],
-    "bjorr": [
-      "bjorr-system-development"
-    ],
     "bonsai-tree-of-life": [
       "bonsai-tree-of-life-system-development"
     ],
     "bristow-operational-excellence": [
       "bristow-operational-excellence-electronics-systems-engineering"
-    ],
-    "community-supplies": [
-      "community-supplies-system-development"
     ],
     "delmatic-connected-lighting": [
       "delmatic-connected-lighting-sensor-test-and-manufacturing-engineering"
@@ -152,8 +155,10 @@
     "bluedot-festival-the-orb": [
       "bluedot-festival-the-orb-live-sound-system-design-and-installation"
     ],
-    "the-visionary-guide": [
-      "the-visionary-guide-system-development"
+    "thinquanauts": [
+      "thinquanauts-editorial-architecture",
+      "thinquanauts-system-development",
+      "thinquanauts-web-experience"
     ],
     "viisiioiiv": [
       "viisiioiiv-system-development"

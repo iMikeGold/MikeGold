@@ -2,16 +2,32 @@
   "id": "f2ad785b-5911-4770-8acd-2ba38d70a1b3",
   "recordType": "evidence",
   "schemaVersion": 1,
-  "createdAt": "2026-07-21T12:43:28.870Z",
-  "updatedAt": "2026-07-21T13:09:49.165Z",
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
   "slug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-  "title": "The Visionary Guide — website and digital experience",
-  "description": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+  "title": "The Visionary Guide — full landing experience",
+  "description": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
   "evidenceType": "website",
   "role": "cover",
   "sequence": 1,
   "visibility": "public",
-  "assetPath": "/images/projects/visionary_guide/visionary-guide-website.webp",
+  "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
   "sourceTitle": "The Visionary Guide",
-  "placeholder": false
+  "phase": "Current public application direction",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "website",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "project-cover",
+      "lens-card",
+      "work-hero",
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "ce10f45c-8a8e-4e89-9578-cd827d0e3dd2",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:42:00.000Z",
+  "updatedAt": "2026-08-05T13:42:00.000Z",
+  "slug": "community-supplies-system-development-evidenced-by-community-supplies-99-website-old-design",
+  "sourceId": "07975e5f-9a82-40a5-b6c4-8a7b801ffea4",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "86e6b810-e9d9-4b9f-bbbf-fa09d5d213c3",
+  "targetType": "evidence",
+  "role": "supporting",
+  "displayRoles": ["archive"],
+  "priority": 99,
+  "note": "Previous public website retained only as archive evidence of the platform's design development."
+}

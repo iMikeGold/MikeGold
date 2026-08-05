@@ -3,6 +3,507 @@ import type { PublicWorkCardProjection } from "@/system/work/work.types";
 
 export const publicWorkCards = [
   {
+    "projectSlug": "audiorii",
+    "projectName": "AudioRii",
+    "contributionTitle": "Branding-system development · Digital product assets · AudioRii system development · Website development",
+    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
+    "relevantWorkSlugs": [
+      "audiorii-branding-system",
+      "audiorii-digital-assets",
+      "audiorii-system-development",
+      "audiorii-website-development"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
+    "supportingHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer",
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer",
+      "devops-engineer",
+      "pipeline-engineer",
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "4 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "17 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 96,
+    "editorialBoost": 10,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 1,
+    "finalScore": 87,
+    "href": "/projects/audiorii"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "brand-experience-systems",
+    "projectName": "AudioRii",
+    "contributionTitle": "Branding-system development",
+    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
+    "relevantWorkSlugs": [
+      "audiorii-branding-system"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "symbol-systems-designer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+      "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+      "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-05-diamond-layer.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80,
+    "editorialBoost": 10,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 1,
+    "finalScore": 83,
+    "href": "/projects/audiorii?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "media-production-distribution",
+    "projectName": "AudioRii",
+    "contributionTitle": "Digital product assets",
+    "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
+    "relevantWorkSlugs": [
+      "audiorii-digital-assets"
+    ],
+    "leadHatSlugs": [
+      "audio-engineer",
+      "media-engineer",
+      "media-distribution-engineer",
+      "media-workflow-designer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
+      "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Box.webp",
+      "alt": "Supporting visual material recorded for AudioRii.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
+        "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Flat.webp",
+        "alt": "Supporting visual material recorded for AudioRii.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riiform",
+        "src": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
+        "alt": "Supporting visual material recorded for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80,
+    "editorialBoost": 7,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 4,
+    "finalScore": 65,
+    "href": "/projects/audiorii?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "system-product-definition",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer"
+    ],
+    "supportingHatSlugs": [
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 81.9,
+    "editorialBoost": 10,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 1,
+    "finalScore": 83.475,
+    "href": "/projects/audiorii?area=system-product-definition"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "infrastructure-operations",
+    "projectName": "AudioRii",
+    "contributionTitle": "AudioRii system development",
+    "summary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling.",
+    "relevantWorkSlugs": [
+      "audiorii-system-development"
+    ],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "infrastructure-engineer",
+      "operations-engineer"
+    ],
+    "supportingHatSlugs": [
+      "devops-engineer",
+      "pipeline-engineer"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 76.33,
+    "editorialBoost": 9,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 2,
+    "finalScore": 76.0825,
+    "href": "/projects/audiorii?area=infrastructure-operations"
+  },
+  {
+    "projectSlug": "audiorii",
+    "lensId": "software-web-engineering",
+    "projectName": "AudioRii",
+    "contributionTitle": "Website development",
+    "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
+    "relevantWorkSlugs": [
+      "audiorii-website-development"
+    ],
+    "leadHatSlugs": [
+      "software-engineer",
+      "web-design-engineer",
+      "backend-engineer",
+      "platform-engineer"
+    ],
+    "supportingHatSlugs": [],
+    "primaryVisual": {
+      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
+      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
+      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
+        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
+        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
+        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 20 relevant evidence records",
+      "Contribution documentation is concise",
+      "4 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80,
+    "editorialBoost": 10,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 1,
+    "finalScore": 83,
+    "href": "/projects/audiorii?area=software-web-engineering"
+  },
+  {
+    "projectSlug": "bjorr",
+    "projectName": "Bjórr",
+    "contributionTitle": "Bjórr system development",
+    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
+    "relevantWorkSlugs": [
+      "bjorr-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "identity-architect",
+      "systems-engineer",
+      "platform-engineer"
+    ],
+    "supportingHatSlugs": [
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "data-modeler",
+      "permissions-identity-engineer",
+      "brand-systems-engineer",
+      "human-system-translator",
+      "meaning-architect",
+      "environment-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
+        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.webp",
+        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-institution-institution-website",
+        "src": "/images/projects/bjorr/web_build/institution/institution-website.webp",
+        "alt": "Institutional environment for academic authority, governance, standards, research and public record.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 89.21,
+    "editorialBoost": 7,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 4,
+    "finalScore": 67.3025,
+    "href": "/projects/bjorr"
+  },
+  {
+    "projectSlug": "bjorr",
+    "lensId": "system-product-definition",
+    "projectName": "Bjórr",
+    "contributionTitle": "Bjórr system development",
+    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
+    "relevantWorkSlugs": [
+      "bjorr-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "identity-architect",
+      "systems-engineer",
+      "platform-engineer"
+    ],
+    "supportingHatSlugs": [
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "data-modeler",
+      "permissions-identity-engineer",
+      "brand-systems-engineer",
+      "human-system-translator",
+      "meaning-architect",
+      "environment-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
+      "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+      "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
+        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course-dark.png",
+        "alt": "Dark-state course route demonstrating how the same adaptive learning structure persists across learner-controlled visual settings.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
+        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
+        "alt": "Course route showing reading, practice and connection-building activities within a visible sequence and progress model.",
+        "evidenceType": "image"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 89.21,
+    "editorialBoost": 7,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 4,
+    "finalScore": 67.3025,
+    "href": "/projects/bjorr?area=system-product-definition"
+  },
+  {
+    "projectSlug": "bjorr",
+    "lensId": "brand-experience-systems",
+    "projectName": "Bjórr",
+    "contributionTitle": "Bjórr system development",
+    "summary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
+    "relevantWorkSlugs": [
+      "bjorr-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "identity-architect",
+      "systems-engineer",
+      "platform-engineer"
+    ],
+    "supportingHatSlugs": [
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "data-modeler",
+      "permissions-identity-engineer",
+      "brand-systems-engineer",
+      "human-system-translator",
+      "meaning-architect",
+      "environment-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "bjorr-identity-system-presentation",
+      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
+      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
+        "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+        "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
+        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.webp",
+        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 12 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 84.64,
+    "editorialBoost": 9,
+    "evidenceCompletenessScore": 26,
+    "editorialSequence": 2,
+    "finalScore": 78.16,
+    "href": "/projects/bjorr?area=brand-experience-systems"
+  },
+  {
     "projectSlug": "cannvent",
     "projectName": "Cannvent",
     "contributionTitle": "Cannvent system development · Cannvent Space community platform · Cannvent application experience",
@@ -198,6 +699,235 @@ export const publicWorkCards = [
     "editorialSequence": 6,
     "finalScore": 54.2825,
     "href": "/projects/cannvent?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "community-supplies",
+    "projectName": "Community Supplies",
+    "contributionTitle": "Community Supplies system development",
+    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "relevantWorkSlugs": [
+      "community-supplies-system-development"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "deployment-engineer",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "application-engineer",
+      "software-engineer",
+      "data-modeler",
+      "database-engineer",
+      "platform-engineer",
+      "operations-engineer",
+      "identity-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
+        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
+        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
+        "evidenceType": "image"
+      },
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 5 relevant evidence records",
+      "Contribution documentation is concise",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80.05,
+    "editorialBoost": 6,
+    "evidenceCompletenessScore": 23.42,
+    "editorialSequence": 5,
+    "finalScore": 59.0125,
+    "href": "/projects/community-supplies"
+  },
+  {
+    "projectSlug": "community-supplies",
+    "lensId": "system-product-definition",
+    "projectName": "Community Supplies",
+    "contributionTitle": "Community Supplies system development",
+    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "relevantWorkSlugs": [
+      "community-supplies-system-development"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "deployment-engineer",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "application-engineer",
+      "software-engineer",
+      "data-modeler",
+      "database-engineer",
+      "platform-engineer",
+      "operations-engineer",
+      "identity-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-03-shopsite-marketplace",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+        "alt": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 5 relevant evidence records",
+      "Contribution documentation is concise",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 80.05,
+    "editorialBoost": 6,
+    "evidenceCompletenessScore": 23.42,
+    "editorialSequence": 5,
+    "finalScore": 59.0125,
+    "href": "/projects/community-supplies?area=system-product-definition"
+  },
+  {
+    "projectSlug": "community-supplies",
+    "lensId": "software-web-engineering",
+    "projectName": "Community Supplies",
+    "contributionTitle": "Community Supplies system development",
+    "summary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "relevantWorkSlugs": [
+      "community-supplies-system-development"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "deployment-engineer",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "application-engineer",
+      "software-engineer",
+      "data-modeler",
+      "database-engineer",
+      "platform-engineer",
+      "operations-engineer",
+      "identity-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
+      "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+      "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-03-shopsite-marketplace",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+        "alt": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 5 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "11 evidenced capabilities contribute a capped distinctiveness signal",
+      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
+    ],
+    "relevanceScore": 75.48,
+    "editorialBoost": 7,
+    "evidenceCompletenessScore": 23.42,
+    "editorialSequence": 4,
+    "finalScore": 63.870000000000005,
+    "href": "/projects/community-supplies?area=software-web-engineering"
+  },
+  {
+    "projectSlug": "community-supplies",
+    "lensId": "brand-experience-systems",
+    "projectName": "Community Supplies",
+    "contributionTitle": "Community Supplies system development",
+    "summary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+    "relevantWorkSlugs": [
+      "community-supplies-system-development"
+    ],
+    "leadHatSlugs": [
+      "brand-systems-engineer",
+      "deployment-engineer",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "application-engineer",
+      "software-engineer",
+      "data-modeler",
+      "database-engineer",
+      "platform-engineer",
+      "operations-engineer",
+      "identity-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
+      "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
+      "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
+      "evidenceType": "image"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-website-updated.webp",
+        "alt": "Updated public website establishing the current Community Supplies commerce, catalogue and brand experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "community-supplies-02-shopsite",
+        "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
+        "alt": "Consumer-facing shop interface showing the modular product and catalogue experience.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 5 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "11 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 75.48,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 23.42,
+    "finalScore": 18.87,
+    "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
     "projectSlug": "findthy",
@@ -586,41 +1316,52 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "data-engineer",
+      "database-engineer",
+      "software-engineer",
+      "application-engineer",
+      "platform-engineer",
+      "web-design-engineer",
+      "metadata-engineer",
+      "meaning-architect",
+      "human-system-translator"
+    ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-02-appsite",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+        "alt": "Application interface translating place and density intelligence into an exploratory product surface.",
+        "evidenceType": "website"
       },
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-03-appsite-explore",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+        "alt": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 78.16,
+    "relevanceScore": 83.21,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52.54,
+    "finalScore": 53.802499999999995,
     "href": "/projects/metroplist"
   },
   {
@@ -635,13 +1376,24 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "data-engineer",
+      "database-engineer",
+      "software-engineer",
+      "application-engineer",
+      "platform-engineer",
+      "web-design-engineer",
+      "metadata-engineer",
+      "meaning-architect",
+      "human-system-translator"
+    ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
@@ -660,16 +1412,16 @@ export const publicWorkCards = [
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 78.16,
+    "relevanceScore": 83.21,
     "editorialBoost": 5,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52.54,
+    "finalScore": 53.802499999999995,
     "href": "/projects/metroplist?area=system-product-definition"
   },
   {
@@ -684,41 +1436,52 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "data-engineer",
+      "database-engineer",
+      "software-engineer",
+      "application-engineer",
+      "platform-engineer",
+      "web-design-engineer",
+      "metadata-engineer",
+      "meaning-architect",
+      "human-system-translator"
+    ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-metroplist-website",
-      "src": "/images/projects/metroplist/metroplist-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Metroplist.",
+      "src": "/images/projects/metroplist/web_development/metroplist-website-updated.webp",
+      "alt": "Updated public website presenting Metroplist as a geographical intelligence and spatial-data translation platform.",
       "evidenceType": "website"
     },
     "supportingVisuals": [
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-02-appsite",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
+        "alt": "Application interface translating place and density intelligence into an exploratory product surface.",
+        "evidenceType": "website"
       },
       {
-        "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-transparent-preview",
-        "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
-        "alt": "Development evidence showing the visual language, exploration or design evolution behind Metroplist.",
-        "evidenceType": "image"
+        "evidenceSlug": "metroplist-03-appsite-explore",
+        "src": "/images/projects/metroplist/web_development/metroplist-appsite-explore.webp",
+        "alt": "Exploration interface for navigating places, density relationships and geographic intelligence.",
+        "evidenceType": "website"
       }
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 73.59,
+    "relevanceScore": 78.64,
     "editorialBoost": 6,
-    "evidenceCompletenessScore": 24.7,
+    "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 57.3975,
+    "finalScore": 58.66,
     "href": "/projects/metroplist?area=software-web-engineering"
   },
   {
@@ -733,9 +1496,20 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "concept-engineer",
       "data-modeler",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "data-engineer",
+      "database-engineer",
+      "software-engineer",
+      "application-engineer",
+      "platform-engineer",
+      "web-design-engineer",
+      "metadata-engineer",
+      "meaning-architect",
+      "human-system-translator"
+    ],
     "primaryVisual": {
       "evidenceSlug": "metroplist-metroplist-branding-language-metroplist-concept-d-density-master-foundation-builds",
       "src": "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
@@ -758,14 +1532,14 @@ export const publicWorkCards = [
     ],
     "relevanceReasons": [
       "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contextual lead visual selected from 9 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "13 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 73.59,
+    "relevanceScore": 78.64,
     "editorialBoost": 0,
-    "evidenceCompletenessScore": 24.7,
-    "finalScore": 18.3975,
+    "evidenceCompletenessScore": 26,
+    "finalScore": 19.66,
     "href": "/projects/metroplist?area=brand-experience-systems"
   },
   {
@@ -779,11 +1553,22 @@ export const publicWorkCards = [
       "mickz-product-system"
     ],
     "leadHatSlugs": [
+      "media-engineer",
+      "media-workflow-designer",
+      "web-design-engineer",
+      "software-engineer"
+    ],
+    "supportingHatSlugs": [
       "brand-systems-engineer",
       "logo-systems-designer",
-      "visual-language-engineer"
+      "identity-architect",
+      "graphic-systems-designer",
+      "symbol-systems-designer",
+      "visual-language-engineer",
+      "systems-engineer",
+      "application-engineer",
+      "platform-engineer"
     ],
-    "supportingHatSlugs": [],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mickz-website",
       "src": "/images/projects/mickz/mickz-website.webp",
@@ -808,14 +1593,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 101.46,
+    "relevanceScore": 105.21,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 82.365,
+    "finalScore": 83.3025,
     "href": "/projects/mickz"
   },
   {
@@ -829,10 +1614,19 @@ export const publicWorkCards = [
       "mickz-product-system"
     ],
     "leadHatSlugs": [
-      "brand-systems-engineer",
-      "visual-language-engineer"
+      "media-engineer",
+      "media-workflow-designer",
+      "web-design-engineer",
+      "software-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "brand-systems-engineer",
+      "visual-language-engineer",
+      "systems-engineer",
+      "application-engineer",
+      "identity-architect",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mickz-website",
       "src": "/images/projects/mickz/mickz-website.webp",
@@ -857,12 +1651,12 @@ export const publicWorkCards = [
       "2 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal"
+      "10 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 89.34,
+    "relevanceScore": 92.84,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 22.335,
+    "finalScore": 23.21,
     "href": "/projects/mickz?area=media-production-distribution"
   },
   {
@@ -879,9 +1673,20 @@ export const publicWorkCards = [
     "leadHatSlugs": [
       "brand-systems-engineer",
       "logo-systems-designer",
-      "visual-language-engineer"
+      "identity-architect",
+      "graphic-systems-designer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "symbol-systems-designer",
+      "media-engineer",
+      "media-workflow-designer",
+      "web-design-engineer",
+      "software-engineer",
+      "visual-language-engineer",
+      "systems-engineer",
+      "application-engineer",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
       "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
@@ -906,14 +1711,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "13 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 95.9,
+    "relevanceScore": 99.64,
     "editorialBoost": 3,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 8,
-    "finalScore": 44.975,
+    "finalScore": 45.91,
     "href": "/projects/mickz?area=brand-experience-systems"
   },
   {
@@ -927,9 +1732,14 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "brand-systems-engineer",
-      "visual-language-engineer"
+      "visual-language-engineer",
+      "systems-engineer",
+      "application-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "identity-architect",
+      "platform-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "mickz-mickz-mock-ups-pickle-mickz",
       "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
@@ -954,14 +1764,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 12 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
+      "6 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 84.83,
+    "relevanceScore": 86.9,
     "editorialBoost": 9,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 2,
-    "finalScore": 78.2075,
+    "finalScore": 78.725,
     "href": "/projects/mickz?area=system-product-definition"
   },
   {
@@ -1801,16 +2611,23 @@ export const publicWorkCards = [
       "saveours-system-development"
     ],
     "leadHatSlugs": [
-      "software-engineer",
-      "web-design-engineer",
-      "human-system-translator",
-      "data-modeler"
+      "identity-architect",
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer"
     ],
     "supportingHatSlugs": [
       "symbol-systems-designer",
+      "meaning-architect",
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "permissions-identity-engineer",
+      "data-modeler",
       "systems-engineer",
       "platform-engineer",
-      "brand-systems-engineer"
+      "metadata-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
@@ -1836,12 +2653,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "8 evidenced capabilities contribute a capped distinctiveness signal"
+      "15 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 99.66,
+    "relevanceScore": 101.75,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 24.915,
+    "finalScore": 25.4375,
     "href": "/projects/saveours"
   },
   {
@@ -1856,16 +2673,23 @@ export const publicWorkCards = [
       "saveours-system-development"
     ],
     "leadHatSlugs": [
-      "software-engineer",
-      "web-design-engineer",
-      "human-system-translator",
-      "data-modeler"
+      "identity-architect",
+      "brand-systems-engineer",
+      "logo-systems-designer",
+      "graphic-systems-designer"
     ],
     "supportingHatSlugs": [
       "symbol-systems-designer",
+      "meaning-architect",
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "permissions-identity-engineer",
+      "data-modeler",
       "systems-engineer",
       "platform-engineer",
-      "brand-systems-engineer"
+      "metadata-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-design-evolutions-coded-language-sos-switch-coded-white",
@@ -1891,14 +2715,14 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "8 evidenced capabilities contribute a capped distinctiveness signal",
+      "15 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 96.09,
+    "relevanceScore": 98.18,
     "editorialBoost": 2,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 9,
-    "finalScore": 39.0225,
+    "finalScore": 39.545,
     "href": "/projects/saveours?area=brand-experience-systems"
   },
   {
@@ -1920,9 +2744,16 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "platform-engineer",
+      "metadata-engineer",
       "brand-systems-engineer",
+      "identity-architect",
+      "logo-systems-designer",
+      "graphic-systems-designer",
+      "meaning-architect",
+      "application-engineer",
       "web-design-engineer",
-      "human-system-translator"
+      "human-system-translator",
+      "permissions-identity-engineer"
     ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-web-development-savesite-website",
@@ -1948,12 +2779,12 @@ export const publicWorkCards = [
       "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "8 evidenced capabilities contribute a capped distinctiveness signal"
+      "15 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 96.09,
+    "relevanceScore": 98.18,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 26,
-    "finalScore": 24.0225,
+    "finalScore": 24.545,
     "href": "/projects/saveours?area=system-product-definition"
   },
   {
@@ -1967,10 +2798,13 @@ export const publicWorkCards = [
     ],
     "leadHatSlugs": [
       "software-engineer",
+      "application-engineer",
       "web-design-engineer",
       "human-system-translator"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "permissions-identity-engineer"
+    ],
     "primaryVisual": {
       "evidenceSlug": "saveours-saveours-saveours-website",
       "src": "/images/projects/saveours/web_development/saveours-website.webp",
@@ -1995,14 +2829,14 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
+      "5 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 79.46,
+    "relevanceScore": 80.47,
     "editorialBoost": 5,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 6,
-    "finalScore": 52.864999999999995,
+    "finalScore": 53.1175,
     "href": "/projects/saveours?area=software-web-engineering"
   },
   {
@@ -2022,6 +2856,7 @@ export const publicWorkCards = [
     ],
     "supportingHatSlugs": [
       "platform-engineer",
+      "metadata-engineer",
       "brand-systems-engineer"
     ],
     "primaryVisual": {
@@ -2048,15 +2883,194 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 8 relevant evidence records",
       "Documented stages or contextual summaries strengthen the projection",
-      "6 evidenced capabilities contribute a capped distinctiveness signal",
+      "7 evidenced capabilities contribute a capped distinctiveness signal",
       "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
     ],
-    "relevanceScore": 76.33,
+    "relevanceScore": 76.72,
     "editorialBoost": 6,
     "evidenceCompletenessScore": 26,
     "editorialSequence": 5,
-    "finalScore": 58.082499999999996,
+    "finalScore": 58.18,
     "href": "/projects/saveours?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "the-visionary-guide",
+    "projectName": "The Visionary Guide",
+    "contributionTitle": "The Visionary Guide system development",
+    "summary": "An application product in development around product definition, user experience and structured content.",
+    "relevantWorkSlugs": [
+      "the-visionary-guide-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "data-modeler",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "platform-engineer",
+      "data-engineer",
+      "database-engineer",
+      "backend-engineer",
+      "application-engineer",
+      "software-engineer",
+      "pipeline-engineer",
+      "automation-engineer",
+      "boundary-engineer",
+      "metadata-engineer",
+      "human-system-translator"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "15 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 82.44,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 20.61,
+    "href": "/projects/the-visionary-guide"
+  },
+  {
+    "projectSlug": "the-visionary-guide",
+    "lensId": "system-product-definition",
+    "projectName": "The Visionary Guide",
+    "contributionTitle": "The Visionary Guide system development",
+    "summary": "An application product in development around product definition, user experience and structured content.",
+    "relevantWorkSlugs": [
+      "the-visionary-guide-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "data-modeler",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "platform-engineer",
+      "data-engineer",
+      "database-engineer",
+      "backend-engineer",
+      "application-engineer",
+      "software-engineer",
+      "pipeline-engineer",
+      "automation-engineer",
+      "boundary-engineer",
+      "metadata-engineer",
+      "human-system-translator"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Contribution documentation is concise",
+      "15 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 82.44,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 20.61,
+    "href": "/projects/the-visionary-guide?area=system-product-definition"
+  },
+  {
+    "projectSlug": "the-visionary-guide",
+    "lensId": "software-web-engineering",
+    "projectName": "The Visionary Guide",
+    "contributionTitle": "The Visionary Guide system development",
+    "summary": "Software and web-engineering responsibility: An application product in development around product definition, user experience and structured content.",
+    "relevantWorkSlugs": [
+      "the-visionary-guide-system-development"
+    ],
+    "leadHatSlugs": [
+      "concept-engineer",
+      "data-modeler",
+      "web-design-engineer",
+      "systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "platform-engineer",
+      "data-engineer",
+      "database-engineer",
+      "backend-engineer",
+      "application-engineer",
+      "software-engineer",
+      "pipeline-engineer",
+      "automation-engineer",
+      "boundary-engineer",
+      "metadata-engineer",
+      "human-system-translator"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+      "alt": "Wide landing-page view presenting the annual personalised Guide as the organising product of the wider publication platform.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [
+      {
+        "evidenceSlug": "the-visionary-guide-02-website-app-live",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+        "alt": "Current web application surface connecting the public product story to the Guide platform experience.",
+        "evidenceType": "website"
+      },
+      {
+        "evidenceSlug": "the-visionary-guide-03-appsite-positions",
+        "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+        "alt": "Application view presenting resolved celestial positions as one input to the wider Guide-generation system.",
+        "evidenceType": "website"
+      }
+    ],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 6 relevant evidence records",
+      "Documented stages or contextual summaries strengthen the projection",
+      "15 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 77.88,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 24.7,
+    "finalScore": 19.47,
+    "href": "/projects/the-visionary-guide?area=software-web-engineering"
   },
   {
     "projectSlug": "vendfm",
@@ -2764,328 +3778,6 @@ export const publicWorkCards = [
     "href": "/projects/2xu-wetsuit-testing?area=physical-systems-engineering"
   },
   {
-    "projectSlug": "audiorii",
-    "projectName": "AudioRii",
-    "contributionTitle": "Branding-system development · Digital product assets · AudioRii system development · Website development",
-    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
-    "relevantWorkSlugs": [
-      "audiorii-branding-system",
-      "audiorii-digital-assets",
-      "audiorii-system-development",
-      "audiorii-website-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "logo-systems-designer",
-      "graphic-systems-designer",
-      "symbol-systems-designer"
-    ],
-    "supportingHatSlugs": [
-      "audio-engineer",
-      "media-engineer",
-      "media-distribution-engineer",
-      "media-workflow-designer",
-      "systems-engineer",
-      "platform-engineer",
-      "infrastructure-engineer",
-      "operations-engineer",
-      "devops-engineer",
-      "pipeline-engineer",
-      "software-engineer",
-      "web-design-engineer",
-      "backend-engineer"
-    ],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
-      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
-        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "4 directly relevant contributions with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Contribution documentation is concise",
-      "17 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 96,
-    "editorialBoost": 10,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 1,
-    "finalScore": 87,
-    "href": "/projects/audiorii"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "brand-experience-systems",
-    "projectName": "AudioRii",
-    "contributionTitle": "Branding-system development",
-    "summary": "A coherent AudioRii product and interaction system spanning brand identity, product language, naming architecture, interface direction, interaction design and signal-led visual language.",
-    "relevantWorkSlugs": [
-      "audiorii-branding-system"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "logo-systems-designer",
-      "graphic-systems-designer",
-      "symbol-systems-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
-      "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-      "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-03-circuit-path",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-05-diamond-layer",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-05-diamond-layer.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 80,
-    "editorialBoost": 10,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 1,
-    "finalScore": 83,
-    "href": "/projects/audiorii?area=brand-experience-systems"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "media-production-distribution",
-    "projectName": "AudioRii",
-    "contributionTitle": "Digital product assets",
-    "summary": "An audio-product and creator ecosystem covering professional audio software, plugins, sample and sound libraries, digital audio assets, creator tooling and audio-product delivery systems.",
-    "relevantWorkSlugs": [
-      "audiorii-digital-assets"
-    ],
-    "leadHatSlugs": [
-      "audio-engineer",
-      "media-engineer",
-      "media-distribution-engineer",
-      "media-workflow-designer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-box",
-      "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Box.webp",
-      "alt": "Supporting visual material recorded for AudioRii.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-flowarch-flat",
-        "src": "/images/projects/audiorii/digital_asset_creation/FlowArch-Flat.webp",
-        "alt": "Supporting visual material recorded for AudioRii.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-digital-asset-creation-riiform",
-        "src": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
-        "alt": "Supporting visual material recorded for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 80,
-    "editorialBoost": 7,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 4,
-    "finalScore": 65,
-    "href": "/projects/audiorii?area=media-production-distribution"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "system-product-definition",
-    "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development",
-    "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
-    "relevantWorkSlugs": [
-      "audiorii-system-development"
-    ],
-    "leadHatSlugs": [
-      "systems-engineer",
-      "platform-engineer",
-      "infrastructure-engineer",
-      "operations-engineer"
-    ],
-    "supportingHatSlugs": [
-      "devops-engineer",
-      "pipeline-engineer"
-    ],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
-      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
-        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "6 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 81.9,
-    "editorialBoost": 10,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 1,
-    "finalScore": 83.475,
-    "href": "/projects/audiorii?area=system-product-definition"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "infrastructure-operations",
-    "projectName": "AudioRii",
-    "contributionTitle": "AudioRii system development",
-    "summary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling.",
-    "relevantWorkSlugs": [
-      "audiorii-system-development"
-    ],
-    "leadHatSlugs": [
-      "systems-engineer",
-      "platform-engineer",
-      "infrastructure-engineer",
-      "operations-engineer"
-    ],
-    "supportingHatSlugs": [
-      "devops-engineer",
-      "pipeline-engineer"
-    ],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
-      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
-        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "6 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 76.33,
-    "editorialBoost": 9,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 2,
-    "finalScore": 76.0825,
-    "href": "/projects/audiorii?area=infrastructure-operations"
-  },
-  {
-    "projectSlug": "audiorii",
-    "lensId": "software-web-engineering",
-    "projectName": "AudioRii",
-    "contributionTitle": "Website development",
-    "summary": "Software and web engineering for a professional-audio platform, including public-facing website architecture, application and platform structure, product documentation, software interfaces and web technology foundations for audio software products and services.",
-    "relevantWorkSlugs": [
-      "audiorii-website-development"
-    ],
-    "leadHatSlugs": [
-      "software-engineer",
-      "web-design-engineer",
-      "backend-engineer",
-      "platform-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "audiorii-audiorii-mock-ups-website-mock",
-      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "audiorii-audiorii-web-development-audiorii-website",
-        "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "audiorii-audiorii-branding-systems-logo-audiorii-02-intersect",
-        "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-        "alt": "Identity-system evidence showing a logo or mark developed for AudioRii.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 20 relevant evidence records",
-      "Contribution documentation is concise",
-      "4 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 80,
-    "editorialBoost": 10,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 1,
-    "finalScore": 83,
-    "href": "/projects/audiorii?area=software-web-engineering"
-  },
-  {
     "projectSlug": "bamboograph",
     "projectName": "BambooGraph",
     "contributionTitle": "BambooGraph system development",
@@ -3368,149 +4060,6 @@ export const publicWorkCards = [
     "href": "/projects/best-indies?area=software-web-engineering"
   },
   {
-    "projectSlug": "bjorr",
-    "projectName": "Bjórr",
-    "contributionTitle": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
-    "relevantWorkSlugs": [
-      "bjorr-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "identity-architect"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bjorr-identity-system-presentation",
-      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
-        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
-        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
-        "evidenceType": "website"
-      },
-      {
-        "evidenceSlug": "bjorr-web-build-institution-institution-website",
-        "src": "/images/projects/bjorr/web_build/institution/institution-website.png",
-        "alt": "Institutional environment for academic authority, governance, standards, research and public record.",
-        "evidenceType": "website"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 12 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 84.83,
-    "editorialBoost": 7,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 4,
-    "finalScore": 66.2075,
-    "href": "/projects/bjorr"
-  },
-  {
-    "projectSlug": "bjorr",
-    "lensId": "system-product-definition",
-    "projectName": "Bjórr",
-    "contributionTitle": "Bjórr system development",
-    "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
-    "relevantWorkSlugs": [
-      "bjorr-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "identity-architect"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
-      "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
-      "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course-dark",
-        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course-dark.png",
-        "alt": "Dark-state course route demonstrating how the same adaptive learning structure persists across learner-controlled visual settings.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "bjorr-adaptive-learning-adaptive-ux-adaptive-learning-online-course",
-        "src": "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
-        "alt": "Course route showing reading, practice and connection-building activities within a visible sequence and progress model.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 12 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 84.83,
-    "editorialBoost": 7,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 4,
-    "finalScore": 66.2075,
-    "href": "/projects/bjorr?area=system-product-definition"
-  },
-  {
-    "projectSlug": "bjorr",
-    "lensId": "brand-experience-systems",
-    "projectName": "Bjórr",
-    "contributionTitle": "Bjórr system development",
-    "summary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge.",
-    "relevantWorkSlugs": [
-      "bjorr-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "identity-architect"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "bjorr-identity-system-presentation",
-      "src": "/images/projects/bjorr/identity_design/identity-design.webp",
-      "alt": "The approved identity board establishes the emblem and wordmark family across the School of Bjórr and Bjórr Institute, including light, dark and embossed applications and the foundation palette.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "bjorr-adaptive-learning-user-accounts-dashboard",
-        "src": "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
-        "alt": "Account home showing the learner’s current field, pathway, active course, mastery state, progress and bounded adaptive-support observations.",
-        "evidenceType": "image"
-      },
-      {
-        "evidenceSlug": "bjorr-web-build-bjorr-main-main-website",
-        "src": "/images/projects/bjorr/web_build/bjorr-main/main-website.png",
-        "alt": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
-        "evidenceType": "website"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 12 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "2 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 80.26,
-    "editorialBoost": 9,
-    "evidenceCompletenessScore": 26,
-    "editorialSequence": 2,
-    "finalScore": 77.065,
-    "href": "/projects/bjorr?area=brand-experience-systems"
-  },
-  {
     "projectSlug": "bonsai-tree-of-life",
     "projectName": "Bonsai Tree of Life",
     "contributionTitle": "Bonsai Tree of Life system development",
@@ -3713,175 +4262,6 @@ export const publicWorkCards = [
     "editorialSequence": 10,
     "finalScore": 32.364999999999995,
     "href": "/projects/bristow-operational-excellence?area=physical-systems-engineering"
-  },
-  {
-    "projectSlug": "community-supplies",
-    "projectName": "Community Supplies",
-    "contributionTitle": "Community Supplies system development",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "relevantWorkSlugs": [
-      "community-supplies-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 71.95,
-    "editorialBoost": 6,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 5,
-    "finalScore": 56.9875,
-    "href": "/projects/community-supplies"
-  },
-  {
-    "projectSlug": "community-supplies",
-    "lensId": "system-product-definition",
-    "projectName": "Community Supplies",
-    "contributionTitle": "Community Supplies system development",
-    "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "relevantWorkSlugs": [
-      "community-supplies-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 71.95,
-    "editorialBoost": 6,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 5,
-    "finalScore": 56.9875,
-    "href": "/projects/community-supplies?area=system-product-definition"
-  },
-  {
-    "projectSlug": "community-supplies",
-    "lensId": "software-web-engineering",
-    "projectName": "Community Supplies",
-    "contributionTitle": "Community Supplies system development",
-    "summary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "relevantWorkSlugs": [
-      "community-supplies-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-      "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-        "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-        "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-        "evidenceType": "image"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal",
-      "Editorial preference: Curated lens priority calibrated against the shared editorial rubric."
-    ],
-    "relevanceScore": 67.38,
-    "editorialBoost": 7,
-    "evidenceCompletenessScore": 18.49,
-    "editorialSequence": 4,
-    "finalScore": 61.845,
-    "href": "/projects/community-supplies?area=software-web-engineering"
-  },
-  {
-    "projectSlug": "community-supplies",
-    "lensId": "brand-experience-systems",
-    "projectName": "Community Supplies",
-    "contributionTitle": "Community Supplies system development",
-    "summary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
-    "relevantWorkSlugs": [
-      "community-supplies-system-development"
-    ],
-    "leadHatSlugs": [
-      "brand-systems-engineer",
-      "deployment-engineer",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "community-supplies-community-supplies-logo-design-logo-main",
-      "src": "/images/projects/community_supplies/logo_design/logo-main.webp",
-      "alt": "Identity-system evidence showing a logo or mark developed for Community Supplies.",
-      "evidenceType": "image"
-    },
-    "supportingVisuals": [
-      {
-        "evidenceSlug": "community-supplies-community-supplies-community-suuplies-website",
-        "src": "/images/projects/community_supplies/web_development/community-suuplies-website.webp",
-        "alt": "Homepage interface showing the public-facing digital system developed for Community Supplies.",
-        "evidenceType": "website"
-      }
-    ],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 2 relevant evidence records",
-      "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 67.38,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 18.49,
-    "finalScore": 16.845,
-    "href": "/projects/community-supplies?area=brand-experience-systems"
   },
   {
     "projectSlug": "delmatic-connected-lighting",
@@ -6127,91 +6507,72 @@ export const publicWorkCards = [
     "href": "/projects/bluedot-festival-the-orb?area=physical-systems-engineering"
   },
   {
-    "projectSlug": "the-visionary-guide",
-    "projectName": "The Visionary Guide",
-    "contributionTitle": "The Visionary Guide system development",
-    "summary": "An application product in development around product definition, user experience and structured content.",
+    "projectSlug": "thinquanauts",
+    "projectName": "Thinquanauts",
+    "contributionTitle": "Thinquanauts publishing-system development · Thinquanauts public web experience · Thinquanauts editorial and publication architecture",
+    "summary": "Definition of the parent speculative story and publishing universe, its audience routes, publication families, canon boundaries and relationships to connected ProtoSynthesis expressions.",
     "relevantWorkSlugs": [
-      "the-visionary-guide-system-development"
+      "thinquanauts-system-development",
+      "thinquanauts-web-experience",
+      "thinquanauts-editorial-architecture"
     ],
     "leadHatSlugs": [
-      "concept-engineer",
-      "data-modeler",
-      "web-design-engineer"
+      "systems-engineer",
+      "platform-engineer",
+      "meaning-architect",
+      "brand-systems-engineer"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "identity-architect",
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator",
+      "media-workflow-designer",
+      "metadata-engineer",
+      "media-engineer"
+    ],
     "primaryVisual": {
-      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
       "evidenceType": "website"
     },
     "supportingVisuals": [],
     "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
+      "3 directly relevant contributions with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "12 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 69.46,
+    "relevanceScore": 84.93,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/the-visionary-guide"
+    "finalScore": 21.2325,
+    "href": "/projects/thinquanauts"
   },
   {
-    "projectSlug": "the-visionary-guide",
-    "lensId": "system-product-definition",
-    "projectName": "The Visionary Guide",
-    "contributionTitle": "The Visionary Guide system development",
-    "summary": "An application product in development around product definition, user experience and structured content.",
+    "projectSlug": "thinquanauts",
+    "lensId": "media-production-distribution",
+    "projectName": "Thinquanauts",
+    "contributionTitle": "Thinquanauts editorial and publication architecture",
+    "summary": "Editorial, publication and distribution architecture for stories and connected publication families.",
     "relevantWorkSlugs": [
-      "the-visionary-guide-system-development"
+      "thinquanauts-editorial-architecture"
     ],
     "leadHatSlugs": [
-      "concept-engineer",
-      "data-modeler",
-      "web-design-engineer"
+      "media-workflow-designer",
+      "metadata-engineer",
+      "media-engineer",
+      "meaning-architect"
     ],
-    "supportingHatSlugs": [],
+    "supportingHatSlugs": [
+      "human-system-translator"
+    ],
     "primaryVisual": {
-      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
-      "evidenceType": "website"
-    },
-    "supportingVisuals": [],
-    "relevanceReasons": [
-      "1 directly relevant contribution with diminishing breadth weighting",
-      "Contextual lead visual selected from 1 relevant evidence record",
-      "Contribution documentation is concise",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
-    ],
-    "relevanceScore": 69.46,
-    "editorialBoost": 0,
-    "evidenceCompletenessScore": 16,
-    "finalScore": 17.365,
-    "href": "/projects/the-visionary-guide?area=system-product-definition"
-  },
-  {
-    "projectSlug": "the-visionary-guide",
-    "lensId": "software-web-engineering",
-    "projectName": "The Visionary Guide",
-    "contributionTitle": "The Visionary Guide system development",
-    "summary": "Software and web-engineering responsibility: An application product in development around product definition, user experience and structured content.",
-    "relevantWorkSlugs": [
-      "the-visionary-guide-system-development"
-    ],
-    "leadHatSlugs": [
-      "concept-engineer",
-      "data-modeler",
-      "web-design-engineer"
-    ],
-    "supportingHatSlugs": [],
-    "primaryVisual": {
-      "evidenceSlug": "the-visionary-guide-visionary-guide-visionary-guide-website",
-      "src": "/images/projects/visionary_guide/visionary-guide-website.webp",
-      "alt": "Homepage interface showing the public-facing digital system developed for The Visionary Guide.",
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
       "evidenceType": "website"
     },
     "supportingVisuals": [],
@@ -6219,13 +6580,134 @@ export const publicWorkCards = [
       "1 directly relevant contribution with diminishing breadth weighting",
       "Contextual lead visual selected from 1 relevant evidence record",
       "Documented stages or contextual summaries strengthen the projection",
-      "3 evidenced capabilities contribute a capped distinctiveness signal"
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
     ],
-    "relevanceScore": 64.9,
+    "relevanceScore": 71.47,
     "editorialBoost": 0,
     "evidenceCompletenessScore": 16,
-    "finalScore": 16.225,
-    "href": "/projects/the-visionary-guide?area=software-web-engineering"
+    "finalScore": 17.8675,
+    "href": "/projects/thinquanauts?area=media-production-distribution"
+  },
+  {
+    "projectSlug": "thinquanauts",
+    "lensId": "system-product-definition",
+    "projectName": "Thinquanauts",
+    "contributionTitle": "Thinquanauts publishing-system development · Thinquanauts editorial and publication architecture",
+    "summary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe.",
+    "relevantWorkSlugs": [
+      "thinquanauts-system-development",
+      "thinquanauts-editorial-architecture"
+    ],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "meaning-architect",
+      "brand-systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "identity-architect",
+      "media-workflow-designer",
+      "metadata-engineer",
+      "media-engineer",
+      "human-system-translator"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Documented stages or contextual summaries strengthen the projection",
+      "9 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 77.51,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 19.3775,
+    "href": "/projects/thinquanauts?area=system-product-definition"
+  },
+  {
+    "projectSlug": "thinquanauts",
+    "lensId": "brand-experience-systems",
+    "projectName": "Thinquanauts",
+    "contributionTitle": "Thinquanauts publishing-system development · Thinquanauts public web experience",
+    "summary": "Identity and meaning architecture for the wider Thinquanauts story world.",
+    "relevantWorkSlugs": [
+      "thinquanauts-system-development",
+      "thinquanauts-web-experience"
+    ],
+    "leadHatSlugs": [
+      "systems-engineer",
+      "platform-engineer",
+      "meaning-architect",
+      "brand-systems-engineer"
+    ],
+    "supportingHatSlugs": [
+      "identity-architect",
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "2 directly relevant contributions with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Documented stages or contextual summaries strengthen the projection",
+      "9 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 73.11,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 18.2775,
+    "href": "/projects/thinquanauts?area=brand-experience-systems"
+  },
+  {
+    "projectSlug": "thinquanauts",
+    "lensId": "software-web-engineering",
+    "projectName": "Thinquanauts",
+    "contributionTitle": "Thinquanauts public web experience",
+    "summary": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world.",
+    "relevantWorkSlugs": [
+      "thinquanauts-web-experience"
+    ],
+    "leadHatSlugs": [
+      "software-engineer",
+      "application-engineer",
+      "web-design-engineer",
+      "human-system-translator"
+    ],
+    "supportingHatSlugs": [
+      "identity-architect"
+    ],
+    "primaryVisual": {
+      "evidenceSlug": "thinquanauts-web-development-thinquanauts-website-landing-page",
+      "src": "/images/projects/thinquanauts/web-development/thinquanauts-website-landing-page.webp",
+      "alt": "Landing-page evidence for the reimagined mixed-age Thinquanauts publishing and story universe.",
+      "evidenceType": "website"
+    },
+    "supportingVisuals": [],
+    "relevanceReasons": [
+      "1 directly relevant contribution with diminishing breadth weighting",
+      "Contextual lead visual selected from 1 relevant evidence record",
+      "Documented stages or contextual summaries strengthen the projection",
+      "5 evidenced capabilities contribute a capped distinctiveness signal"
+    ],
+    "relevanceScore": 71.47,
+    "editorialBoost": 0,
+    "evidenceCompletenessScore": 16,
+    "finalScore": 17.8675,
+    "href": "/projects/thinquanauts?area=software-web-engineering"
   },
   {
     "projectSlug": "viisiioiiv",

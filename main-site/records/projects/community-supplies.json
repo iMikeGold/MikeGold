@@ -3,12 +3,12 @@
   "recordType": "project",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
   "slug": "community-supplies",
   "name": "Community Supplies",
-  "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+  "summary": "An independent commerce and distribution platform built around modular product, brand and range records, a responsive storefront and future fulfilment relationships.",
   "status": "live",
   "visibility": "public",
-  "featured": false,
+  "featured": true,
   "establishedYear": 2017
 }

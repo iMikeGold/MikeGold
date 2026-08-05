@@ -1,0 +1,24 @@
+{
+  "id": "d58fe5c1-8acd-4837-a73a-5b61c781a08e",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "community-supplies-03-shopsite-marketplace",
+  "title": "Community Supplies — marketplace structure",
+  "description": "Marketplace view showing how products, ranges and discovery routes are organised within the commerce system.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite-marketplace.webp",
+  "sourceTitle": "Community Supplies",
+  "phase": "Commerce interface",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}

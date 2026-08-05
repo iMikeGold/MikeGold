@@ -1,0 +1,24 @@
+{
+  "id": "0445e2f5-4c9a-413a-b4ea-019ab11c2593",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-05T13:18:00.000Z",
+  "slug": "community-supplies-04-shopsite-colour-language",
+  "title": "Community Supplies — commerce colour language",
+  "description": "Interface study documenting the colour and visual language carried across the shop experience.",
+  "evidenceType": "website",
+  "role": "process",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/community_supplies/web_development/community-supplies-shopsite-colour-language.webp",
+  "sourceTitle": "Community Supplies",
+  "phase": "Brand and interface system",
+  "placeholder": false,
+  "presentation": {
+    "facets": ["website", "web-interface", "application-interface"],
+    "displayRoles": ["supporting", "gallery"],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
+}
