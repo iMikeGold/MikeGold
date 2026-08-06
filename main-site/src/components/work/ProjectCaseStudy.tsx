@@ -36,9 +36,19 @@ export default function ProjectCaseStudy({
   const hasGallery = !!gallery.length;
 
   let nextChapter = 1;
-  const highlightChapter = hasHighlights ? nextChapter++ : 0;
-  const identityChapter = hasIdentity ? nextChapter++ : 0;
-  const galleryChapter = hasGallery ? nextChapter++ : 0;
+  let highlightChapter = 0;
+  let identityChapter = 0;
+  let galleryChapter = 0;
+
+  if (layout === "gallery-led") {
+    galleryChapter = hasGallery ? nextChapter++ : 0;
+    highlightChapter = hasHighlights ? nextChapter++ : 0;
+    identityChapter = hasIdentity ? nextChapter++ : 0;
+  } else {
+    highlightChapter = hasHighlights ? nextChapter++ : 0;
+    identityChapter = hasIdentity ? nextChapter++ : 0;
+    galleryChapter = hasGallery ? nextChapter++ : 0;
+  }
 
   const highlightsSection = hasHighlights ? (
     <section className={styles.highlights} aria-label="Project highlights">
