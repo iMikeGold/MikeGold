@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-05T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
   "slug": "thinquanauts-web-experience",
   "title": "Thinquanauts public web experience",
@@ -11,18 +11,9 @@
   "status": "in-progress",
   "visibility": "public",
   "sequence": 2,
+  "appliedHatSlugs": ["web-design-engineer", "application-engineer", "software-engineer", "information-architect", "human-system-translator"],
   "lensAssignments": [
-    {
-      "lensId": "software-web-engineering",
-      "role": "primary",
-      "rationale": "The responsibility centres on the public website, responsive reading experience, navigation and executable interface structure.",
-      "lensSummary": "Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "The interface communicates distinct audience and publication routes through a recognisable parent world.",
-      "lensSummary": "Audience-facing experience and identity structure across the Thinquanauts website."
-    }
+    {"lensId":"software-web-engineering","role":"primary","rationale":"The responsibility centres on the public website, responsive reading experience, navigation and executable interface structure.","lensSummary":"Responsive web and reading-experience engineering for the mixed-age Thinquanauts publishing world."},
+    {"lensId":"brand-experience-systems","role":"secondary","rationale":"The interface communicates distinct audience and publication routes through a recognisable parent world.","lensSummary":"Audience-facing experience and identity structure across the Thinquanauts website."}
   ]
 }

@@ -3,18 +3,13 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "2f2400df-b8ad-4c7d-ab59-2f290e2fa95c",
   "slug": "zenthapy-identity-development",
   "title": "Zenthapy identity design",
   "summary": "Development of the primary Zenthapy mark and its visual direction for a wellness-service concept.",
   "status": "documented",
   "visibility": "public",
-  "lensAssignments": [
-    {
-      "lensId": "brand-experience-systems",
-      "role": "primary",
-      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
-    }
-  ]
+  "appliedHatSlugs": ["identity-architect", "logo-systems-designer", "brand-systems-engineer", "visual-language-engineer"],
+  "lensAssignments": [{"lensId":"brand-experience-systems","role":"primary","rationale":"The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."}]
 }
