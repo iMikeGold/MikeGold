@@ -3,14 +3,14 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-08-06T04:05:00.000Z",
-  "updatedAt": "2026-08-06T04:05:00.000Z",
+  "updatedAt": "2026-08-06T04:20:00.000Z",
   "slug": "the-visionary-guide-06-appsite-landing-wide",
   "title": "The Visionary Guide — application landing experience",
-  "description": "Supporting application-development evidence showing the wider live guide environment and personalised interface direction.",
+  "description": "Application-development evidence retained in the internal registry while the public website remains the selected project cover.",
   "evidenceType": "website",
-  "role": "supporting",
+  "role": "interface",
   "sequence": 6,
-  "visibility": "public",
+  "visibility": "private",
   "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
   "sourceTitle": "The Visionary Guide",
   "phase": "Application development",
@@ -18,13 +18,13 @@
   "presentation": {
     "facets": [
       "website",
-      "web-interface"
+      "web-interface",
+      "application-interface"
     ],
     "displayRoles": [
-      "supporting",
-      "gallery"
+      "archive"
     ],
-    "visualQuality": "hero",
+    "visualQuality": "supporting",
     "aspectPreference": "landscape"
   }
 }
