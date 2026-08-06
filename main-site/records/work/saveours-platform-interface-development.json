@@ -3,11 +3,11 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-platform-interface-development",
-  "title": "SaveOurs social and personal-saving interfaces",
-  "summary": "Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
+  "title": "Social and personal-saving interfaces",
+  "summary": "Interface and platform development across the public experience, shared SaveSites and the signed-in My Saves collection view.",
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [
@@ -20,13 +20,13 @@
       "lensId": "system-product-definition",
       "role": "secondary",
       "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-      "lensSummary": "System and product-definition responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
+      "lensSummary": "System and product-definition responsibility: Interface and platform development across the public experience, shared SaveSites and the signed-in My Saves collection view."
     },
     {
       "lensId": "brand-experience-systems",
       "role": "secondary",
       "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
+      "lensSummary": "Brand and experience-system responsibility: Interface and platform development across shared and personal collection views."
     }
   ]
 }
