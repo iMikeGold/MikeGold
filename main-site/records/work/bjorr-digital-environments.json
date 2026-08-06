@@ -1,0 +1,45 @@
+{
+  "id": "52e7b403-c88d-4b37-8a9e-0d2fb7f9f7e2",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "projectId": "43e6c98b-bde8-4d13-b987-d7b68e21a5f0",
+  "slug": "bjorr-digital-environments",
+  "title": "Connected digital environments",
+  "summary": "Web and interface development across the connected Bjórr, Institution and learner-controlled study environments.",
+  "status": "in-progress",
+  "visibility": "public",
+  "appliedHatSlugs": [
+    "web-design-engineer",
+    "application-engineer",
+    "software-engineer",
+    "interface-systems-engineer",
+    "information-architect"
+  ],
+  "stages": [
+    {
+      "key": "public-routes",
+      "label": "Public Bjórr and Institution routes",
+      "status": "completed"
+    },
+    {
+      "key": "learner-environment",
+      "label": "Learner-controlled study environment",
+      "status": "in-progress"
+    }
+  ],
+  "lensAssignments": [
+    {
+      "lensId": "software-web-engineering",
+      "role": "primary",
+      "rationale": "The responsibility centres on implemented websites, responsive interfaces and connected digital environments."
+    },
+    {
+      "lensId": "brand-experience-systems",
+      "role": "secondary",
+      "rationale": "The interfaces apply the related School and Institution visual registers across distinct public and learner-facing contexts.",
+      "lensSummary": "Brand and experience-system responsibility: applying the Bjórr identity registers across connected public and learner-facing digital environments."
+    }
+  ]
+}
