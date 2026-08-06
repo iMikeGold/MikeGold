@@ -1,4 +1,9 @@
 export type ProjectCaseStudyMaturity = "full" | "developing" | "summary";
+export type ProjectCaseStudyLayout =
+  | "split"
+  | "media-led"
+  | "gallery-led"
+  | "editorial";
 
 export interface ProjectCaseStudyTextBlock {
   title: string;
@@ -18,6 +23,7 @@ export interface ProjectCaseStudyIdentityMark extends ProjectCaseStudyImage {
 export interface ProjectCaseStudyRecord {
   projectSlug: string;
   maturity: ProjectCaseStudyMaturity;
+  layout?: ProjectCaseStudyLayout;
   featuredOrder?: number;
   showcase?: boolean;
   eyebrow?: string;
@@ -25,9 +31,15 @@ export interface ProjectCaseStudyRecord {
   definition?: string;
   roleSummary?: string;
   responsibilities?: string[];
+  highlightEyebrow?: string;
+  highlightTitle?: string;
   highlights?: ProjectCaseStudyTextBlock[];
   heroImage?: ProjectCaseStudyImage;
+  galleryEyebrow?: string;
+  galleryTitle?: string;
   gallery?: ProjectCaseStudyImage[];
+  identityEyebrow?: string;
+  identityTitle?: string;
   identityMarks?: ProjectCaseStudyIdentityMark[];
   note?: string;
 }
