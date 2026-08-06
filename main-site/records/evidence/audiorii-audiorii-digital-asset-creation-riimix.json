@@ -3,15 +3,27 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-08-03T08:36:59.604Z",
-  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-06T04:20:00.000Z",
   "slug": "audiorii-audiorii-digital-asset-creation-riimix",
-  "title": "AudioRii — supporting visual 05",
-  "description": "Supporting visual material recorded for AudioRii.",
+  "title": "AudioRii — earlier RiiMix presentation study",
+  "description": "Earlier alignment study retained in the internal evidence registry. The revised RiiMix2 presentation is the selected public version.",
   "evidenceType": "image",
   "role": "reference",
   "sequence": 5,
-  "visibility": "public",
+  "visibility": "private",
   "assetPath": "/images/projects/audiorii/digital_asset_creation/RiiMix.webp",
   "sourceTitle": "AudioRii",
-  "placeholder": false
+  "phase": "Internal archive",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "product-model",
+      "process"
+    ],
+    "displayRoles": [
+      "archive"
+    ],
+    "visualQuality": "archive",
+    "aspectPreference": "any"
+  }
 }

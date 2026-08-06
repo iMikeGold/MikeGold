@@ -4,6 +4,16 @@ export type ProjectCaseStudyLayout =
   | "media-led"
   | "gallery-led"
   | "editorial";
+export type ProjectCaseStudyChapterKey =
+  | "highlights"
+  | "media"
+  | "identity"
+  | "gallery";
+export type ProjectCaseStudyMediaLayout =
+  | "grid"
+  | "feature"
+  | "split"
+  | "strip";
 
 export interface ProjectCaseStudyTextBlock {
   title: string;
@@ -20,6 +30,14 @@ export interface ProjectCaseStudyIdentityMark extends ProjectCaseStudyImage {
   tone?: "cream" | "light" | "dark";
 }
 
+export interface ProjectCaseStudyMediaSection {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  layout?: ProjectCaseStudyMediaLayout;
+  images: ProjectCaseStudyImage[];
+}
+
 export interface ProjectCaseStudyRecord {
   projectSlug: string;
   maturity: ProjectCaseStudyMaturity;
@@ -31,10 +49,12 @@ export interface ProjectCaseStudyRecord {
   definition?: string;
   roleSummary?: string;
   responsibilities?: string[];
+  chapterOrder?: ProjectCaseStudyChapterKey[];
   highlightEyebrow?: string;
   highlightTitle?: string;
   highlights?: ProjectCaseStudyTextBlock[];
   heroImage?: ProjectCaseStudyImage;
+  mediaSections?: ProjectCaseStudyMediaSection[];
   galleryEyebrow?: string;
   galleryTitle?: string;
   gallery?: ProjectCaseStudyImage[];

@@ -66,16 +66,18 @@ export default async function ProjectRecordPage({
   });
   const caseStudy = caseStudyByProjectSlug.get(project.slug);
   const currentMedia = projectMediaByProjectSlug.get(project.slug);
-  const presentedCaseStudy = caseStudy && currentMedia
+  const presentedCaseStudy = caseStudy
     ? {
         ...caseStudy,
-        heroImage: {
-          src: currentMedia.assetPath,
-          alt: caseStudy.heroImage?.alt ?? currentMedia.label,
-          caption: caseStudy.heroImage?.caption ?? currentMedia.label,
-        },
+        heroImage: caseStudy.heroImage ?? (currentMedia
+          ? {
+              src: currentMedia.assetPath,
+              alt: currentMedia.label,
+              caption: currentMedia.label,
+            }
+          : undefined),
       }
-    : caseStudy;
+    : undefined;
 
   return (
     <main>

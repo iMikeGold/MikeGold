@@ -1,9 +1,9 @@
 .caseStudy {
   --showcase-accent: #78aaff;
   display: grid;
-  gap: clamp(2.5rem, 7vw, 5.5rem);
-  margin: clamp(2.5rem, 6vw, 5rem) 0 clamp(4rem, 9vw, 7rem);
+  gap: clamp(2.75rem, 7vw, 5.5rem);
   min-width: 0;
+  margin: clamp(2.5rem, 6vw, 5rem) 0 clamp(4rem, 9vw, 7rem);
 }
 
 .caseStudy[data-project="audiorii"] { --showcase-accent: #d5b567; }
@@ -25,6 +25,7 @@
 .feature {
   display: grid;
   min-width: 0;
+  overflow: hidden;
   border: 1px solid #303030;
   background:
     radial-gradient(circle at 10% 8%, color-mix(in srgb, var(--showcase-accent) 15%, transparent), transparent 34%),
@@ -81,9 +82,11 @@
 
 .heroFigure,
 .galleryGrid figure,
-.identityGrid figure {
+.identityGrid figure,
+.mediaSectionGrid figure {
   min-width: 0;
   margin: 0;
+  overflow: hidden;
   border: 1px solid #303030;
   background: #080808;
 }
@@ -96,7 +99,8 @@
 
 .heroMedia,
 .galleryMedia,
-.identityMedia {
+.identityMedia,
+.mediaSectionMedia {
   display: grid;
   place-items: center;
   min-width: 0;
@@ -112,7 +116,8 @@
 
 .heroMedia img,
 .galleryMedia img,
-.identityMedia img {
+.identityMedia img,
+.mediaSectionMedia img {
   display: block;
   width: 100%;
   max-width: 100%;
@@ -127,7 +132,8 @@
 
 .heroFigure figcaption,
 .galleryGrid figcaption,
-.identityGrid figcaption {
+.identityGrid figcaption,
+.mediaSectionGrid figcaption {
   padding: .65rem .8rem;
   border-top: 1px solid #242424;
   color: #8f8f8f;
@@ -153,8 +159,8 @@
 .layoutMediaLed .featureCopy,
 .layoutGalleryLed .featureCopy {
   display: grid;
-  grid-template-columns: minmax(260px, .9fr) minmax(0, 1.1fr);
-  column-gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, .92fr);
+  column-gap: clamp(1.75rem, 4.5vw, 4rem);
   align-items: start;
 }
 
@@ -167,9 +173,9 @@
 .layoutGalleryLed .featureCopy h2 {
   grid-column: 1;
   grid-row: 2 / span 3;
-  max-width: 13ch;
+  max-width: 12ch;
   margin-bottom: 0;
-  font-size: clamp(2.7rem, 6vw, 4.7rem);
+  font-size: clamp(2.65rem, 4.8vw, 3.75rem);
 }
 
 .layoutMediaLed .definition,
@@ -198,11 +204,11 @@
 }
 
 .layoutMediaLed .heroMedia {
-  min-height: clamp(420px, 58vw, 760px);
+  min-height: clamp(380px, 52vw, 700px);
 }
 
 .layoutGalleryLed .heroMedia {
-  min-height: clamp(360px, 52vw, 700px);
+  min-height: clamp(340px, 48vw, 660px);
 }
 
 .layoutEditorial .feature {
@@ -240,7 +246,8 @@
 
 .highlights,
 .identitySection,
-.gallerySection {
+.gallerySection,
+.mediaSection {
   display: grid;
   gap: clamp(1.25rem, 3vw, 2rem);
   padding-top: clamp(1.5rem, 3vw, 2.25rem);
@@ -248,18 +255,28 @@
 }
 
 .chapterHeader {
-  max-width: 720px;
+  max-width: 760px;
+  min-width: 0;
 }
 
 .chapterHeader h3 {
-  max-width: 18ch;
+  max-width: 20ch;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 4.4vw, 3.65rem);
+  font-size: clamp(2rem, 4.1vw, 3.45rem);
   font-weight: 400;
   letter-spacing: -.03em;
   line-height: 1;
+  overflow-wrap: break-word;
   text-wrap: balance;
+}
+
+.chapterDescription {
+  max-width: 680px;
+  margin: 1rem 0 0;
+  color: #999;
+  font-size: .92rem;
+  line-height: 1.65;
 }
 
 .highlightGrid {
@@ -314,12 +331,15 @@
 }
 
 .layoutGalleryLed .highlights {
-  grid-template-columns: minmax(220px, .55fr) minmax(0, 1.45fr);
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.layoutGalleryLed .highlightGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .layoutGalleryLed .highlightGrid article {
-  grid-column: 1 / -1;
+  grid-column: auto;
   min-height: 0;
 }
 
@@ -351,17 +371,29 @@
   gap: .75rem;
 }
 
+.identityGrid[data-count="1"] {
+  grid-template-columns: minmax(0, min(100%, 520px));
+}
+
 .identityGrid figure {
   overflow: hidden;
 }
 
 .identityMedia {
-  min-height: 170px;
+  min-height: 160px;
   padding: clamp(1rem, 2.4vw, 1.7rem);
 }
 
 .identityMedia img {
   max-height: 132px;
+}
+
+.identityGrid[data-count="1"] .identityMedia {
+  min-height: 260px;
+}
+
+.identityGrid[data-count="1"] .identityMedia img {
+  max-height: 220px;
 }
 
 .identityCream { background: #eee7d8; }
@@ -370,9 +402,10 @@
 
 .identityCream .identityMedia { background: #eee7d8; }
 .identityLight .identityMedia { background: #f3f1eb; }
-.identityDark .identityMedia { background: #16191d; }
+.identityDark .identityMedia { background: #11161d; }
 
-.galleryGrid {
+.galleryGrid,
+.mediaSectionGrid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: .85rem;
@@ -380,48 +413,111 @@
 
 .galleryGrid figure {
   grid-column: span 6;
-  overflow: hidden;
 }
 
 .galleryMedia {
-  min-height: 260px;
+  min-height: 250px;
   padding: clamp(.35rem, 1vw, .75rem);
 }
 
 .galleryMedia img {
-  max-height: 680px;
+  max-height: 660px;
 }
 
 .layoutGalleryLed .galleryGrid figure:first-child {
   grid-column: 1 / -1;
 }
 
-.layoutMediaLed .galleryGrid figure:nth-child(1) {
-  grid-column: span 7;
-}
-
-.layoutMediaLed .galleryGrid figure:nth-child(2) {
-  grid-column: span 5;
-}
-
-.layoutMediaLed .galleryGrid figure:nth-child(3) {
-  grid-column: 1 / -1;
+.layoutMediaLed .galleryGrid figure {
+  grid-column: span 6;
 }
 
 .layoutSplit .galleryGrid figure {
   grid-column: span 4;
 }
 
-.caseStudy[data-project="mickz"] .galleryMedia {
+.mediaSectionGrid figure {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+}
+
+.mediaSectionMedia {
+  min-height: 230px;
+  padding: clamp(.5rem, 1.5vw, 1.1rem);
+}
+
+.mediaSectionMedia img {
+  max-height: 520px;
+}
+
+.mediaLayoutGrid .mediaSectionGrid figure {
+  grid-column: span 6;
+}
+
+.mediaLayoutFeature .mediaSectionGrid figure:first-child {
+  grid-column: 1 / -1;
+}
+
+.mediaLayoutFeature .mediaSectionGrid figure:first-child .mediaSectionMedia {
+  min-height: clamp(340px, 48vw, 620px);
+}
+
+.mediaLayoutFeature .mediaSectionGrid figure:first-child .mediaSectionMedia img {
+  max-height: 600px;
+}
+
+.mediaLayoutFeature .mediaSectionGrid figure:not(:first-child) {
+  grid-column: span 4;
+}
+
+.mediaLayoutFeature .mediaSectionGrid figure:not(:first-child) .mediaSectionMedia {
   min-height: 220px;
+}
+
+.mediaLayoutSplit {
+  grid-template-columns: minmax(240px, .78fr) minmax(0, 1.22fr);
+  align-items: start;
+}
+
+.mediaLayoutSplit .chapterHeader {
+  grid-column: 1;
+}
+
+.mediaLayoutSplit .mediaSectionGrid {
+  grid-column: 2;
+}
+
+.mediaLayoutSplit .mediaSectionGrid figure {
+  grid-column: 1 / -1;
+}
+
+.mediaLayoutSplit .mediaSectionMedia {
+  min-height: 320px;
+}
+
+.mediaLayoutSplit .mediaSectionMedia img {
+  max-height: 460px;
+}
+
+.mediaLayoutStrip .mediaSectionGrid figure {
+  grid-column: span 3;
+}
+
+.caseStudy[data-project="mickz"] .mediaSectionMedia {
   background: #111;
 }
 
-.caseStudy[data-project="mickz"] .galleryMedia img,
-.galleryMedia img[src*="coded"],
-.galleryMedia img[src*="branding_systems"] {
+.caseStudy[data-project="mickz"] .mediaSectionMedia img {
+  max-height: 430px;
+}
+
+.caseStudy[data-project="saveours"] .mediaLayoutSplit .mediaSectionMedia {
+  min-height: 280px;
+}
+
+.caseStudy[data-project="saveours"] .mediaLayoutSplit .mediaSectionMedia img {
+  max-width: 520px;
   max-height: 420px;
-  padding: clamp(.5rem, 1.5vw, 1.25rem);
 }
 
 .note {
@@ -434,16 +530,7 @@
   line-height: 1.55;
 }
 
-@media (max-width: 980px) {
-  .layoutSplit .feature {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .layoutSplit .heroFigure {
-    border-top: 1px solid #303030;
-    border-left: 0;
-  }
-
+@media (max-width: 1080px) {
   .layoutMediaLed .featureCopy,
   .layoutGalleryLed .featureCopy {
     grid-template-columns: minmax(0, 1fr);
@@ -465,19 +552,27 @@
   .layoutGalleryLed .featureCopy h2 {
     max-width: 14ch;
     margin-bottom: 1rem;
-    font-size: clamp(2.5rem, 8vw, 4.3rem);
+    font-size: clamp(2.5rem, 7vw, 4rem);
   }
+}
 
-  .layoutGalleryLed .highlights {
+@media (max-width: 980px) {
+  .layoutSplit .feature {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .layoutGalleryLed .highlightGrid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .layoutSplit .heroFigure {
+    border-top: 1px solid #303030;
+    border-left: 0;
   }
 
-  .layoutGalleryLed .highlightGrid article {
-    grid-column: auto;
+  .mediaLayoutSplit {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mediaLayoutSplit .chapterHeader,
+  .mediaLayoutSplit .mediaSectionGrid {
+    grid-column: 1;
   }
 }
 
@@ -544,29 +639,45 @@
     grid-column: 2;
   }
 
-  .identityGrid {
+  .identityGrid,
+  .identityGrid[data-count="1"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .galleryGrid {
+  .identityGrid[data-count="1"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .galleryGrid,
+  .mediaSectionGrid {
     grid-template-columns: minmax(0, 1fr);
   }
 
   .galleryGrid figure,
   .layoutGalleryLed .galleryGrid figure:first-child,
-  .layoutMediaLed .galleryGrid figure:nth-child(1),
-  .layoutMediaLed .galleryGrid figure:nth-child(2),
-  .layoutMediaLed .galleryGrid figure:nth-child(3),
-  .layoutSplit .galleryGrid figure {
+  .layoutMediaLed .galleryGrid figure,
+  .layoutSplit .galleryGrid figure,
+  .mediaLayoutGrid .mediaSectionGrid figure,
+  .mediaLayoutFeature .mediaSectionGrid figure:first-child,
+  .mediaLayoutFeature .mediaSectionGrid figure:not(:first-child),
+  .mediaLayoutSplit .mediaSectionGrid figure,
+  .mediaLayoutStrip .mediaSectionGrid figure {
     grid-column: auto;
   }
 
-  .galleryMedia {
+  .galleryMedia,
+  .mediaSectionMedia,
+  .mediaLayoutFeature .mediaSectionGrid figure:first-child .mediaSectionMedia,
+  .mediaLayoutFeature .mediaSectionGrid figure:not(:first-child) .mediaSectionMedia,
+  .mediaLayoutSplit .mediaSectionMedia {
     min-height: 0;
-    padding: .35rem;
+    padding: .4rem;
   }
 
-  .galleryMedia img {
+  .galleryMedia img,
+  .mediaSectionMedia img,
+  .mediaLayoutFeature .mediaSectionGrid figure:first-child .mediaSectionMedia img,
+  .mediaLayoutSplit .mediaSectionMedia img {
     max-height: none;
   }
 }
@@ -585,12 +696,14 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .identityMedia {
+  .identityMedia,
+  .identityGrid[data-count="1"] .identityMedia {
     min-height: 125px;
     padding: .9rem;
   }
 
-  .identityMedia img {
-    max-height: 100px;
+  .identityMedia img,
+  .identityGrid[data-count="1"] .identityMedia img {
+    max-height: 110px;
   }
 }

@@ -16,16 +16,21 @@
       "Infrastructure planning",
       "Digital product assets"
     ],
+    "chapterOrder": [
+      "highlights",
+      "media",
+      "identity"
+    ],
     "highlightEyebrow": "CONNECTED PRODUCT SYSTEM",
     "highlightTitle": "Products, platform and signal language",
     "highlights": [
       {
         "title": "Connected product family",
-        "description": "RiiSign, RiiSampl, RiiPulsiv, sound libraries and creator services are organised as one coherent product system."
+        "description": "Software instruments, effects, routing tools, sound libraries and creator services are organised as one coherent product system."
       },
       {
         "title": "Public digital experience",
-        "description": "Responsive web architecture presents the products, supporting services and documentation through one clear interface."
+        "description": "Responsive web architecture presents the wider product family, supporting services and documentation through one clear interface."
       },
       {
         "title": "Signal-led visual language",
@@ -37,32 +42,72 @@
       "alt": "AudioRii website and product presentation",
       "caption": "AudioRii public website and product system"
     },
+    "mediaSections": [
+      {
+        "eyebrow": "PRODUCT DEVELOPMENT",
+        "title": "Selected concepts from the wider product family",
+        "description": "A condensed set of product-facing interface, packaging and software studies. These examples represent the wider AudioRii family rather than attempting to display every product.",
+        "layout": "feature",
+        "images": [
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiMix2.webp",
+            "alt": "AudioRii mixing product interface and packaging study",
+            "caption": "Mixing-product interface and packaging study"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiSign.webp",
+            "alt": "AudioRii software instrument product concept",
+            "caption": "Software-instrument concept"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiSamplr.webp",
+            "alt": "AudioRii sampling product concept",
+            "caption": "Sampling-product concept"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiPulsiv.webp",
+            "alt": "AudioRii effects product concept",
+            "caption": "Effects-product concept"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiLinr.webp",
+            "alt": "AudioRii routing and recording product concept",
+            "caption": "Routing and recording concept"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiSpace.webp",
+            "alt": "AudioRii spatial audio product concept",
+            "caption": "Spatial-audio concept"
+          }
+        ]
+      }
+    ],
     "identityEyebrow": "SIGNAL-LED IDENTITY",
-    "identityTitle": "Four marks from one visual grammar",
+    "identityTitle": "A condensed mark family from one signal grammar",
     "identityMarks": [
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-flow-arc.svg",
         "alt": "AudioRii flow arc identity mark",
         "caption": "Flow arc",
-        "tone": "cream"
+        "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
         "alt": "AudioRii intersect identity study",
         "caption": "Intersect",
-        "tone": "cream"
+        "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
         "alt": "AudioRii circuit path identity study",
         "caption": "Circuit path",
-        "tone": "cream"
+        "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-signal-s-curve.svg",
         "alt": "AudioRii signal curve identity study",
         "caption": "Signal curve",
-        "tone": "cream"
+        "tone": "dark"
       }
     ]
   },
@@ -82,6 +127,10 @@
       "Interface engineering",
       "Visual data translation",
       "Website development"
+    ],
+    "chapterOrder": [
+      "gallery",
+      "highlights"
     ],
     "highlightEyebrow": "DATA TRANSLATION",
     "highlightTitle": "From source context to clear comparison",
@@ -141,27 +190,61 @@
       "Content structure",
       "Delivery workflow"
     ],
+    "chapterOrder": [
+      "highlights",
+      "media"
+    ],
     "highlightEyebrow": "GUIDE EXPERIENCE",
-    "highlightTitle": "One product across publication and application",
+    "highlightTitle": "The publication product and its digital delivery system",
     "highlights": [
       {
-        "title": "Product and publication architecture",
-        "description": "The annual guide, application and supporting delivery workflow are designed as one connected product experience."
+        "title": "Annual publication architecture",
+        "description": "The personalised 365-day physical Guide is the organising product, generated from a canonical annual dataset and publication workflow."
       },
       {
-        "title": "Responsive application experience",
-        "description": "The interface translates a complex personalised product into a calm, clear digital journey."
+        "title": "Public website and ordering journey",
+        "description": "The public website explains the product, establishes the annual Guide proposition and provides the route into ordering and account creation."
       },
       {
-        "title": "Connected guide experience",
-        "description": "Product structure, account journeys and publication delivery are brought together through one coherent experience."
+        "title": "Connected application experience",
+        "description": "The evolving application carries personal context, guide access and supporting digital experiences without replacing the printed Guide."
       }
     ],
     "heroImage": {
-      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
-      "alt": "Visionary Guide application landing experience",
-      "caption": "Visionary Guide application experience"
-    }
+      "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+      "alt": "Visionary Guide public website",
+      "caption": "Visionary Guide public website and product proposition"
+    },
+    "mediaSections": [
+      {
+        "eyebrow": "APPLICATION DEVELOPMENT",
+        "title": "The evolving personalised guide application",
+        "description": "The application is the deeper interactive layer: resolving personal context, celestial state, guide generation and results into a responsive experience. It remains ongoing development and supports the annual publication rather than becoming the main product image.",
+        "layout": "feature",
+        "images": [
+          {
+            "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
+            "alt": "Visionary Guide application landing experience",
+            "caption": "Application landing and live guide environment"
+          },
+          {
+            "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-positions-page.webp",
+            "alt": "Visionary Guide celestial positions interface",
+            "caption": "Resolved positions and current celestial state"
+          },
+          {
+            "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page.webp",
+            "alt": "Visionary Guide personalised results interface",
+            "caption": "Personalised results and interpretation"
+          },
+          {
+            "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page-comparison.webp",
+            "alt": "Visionary Guide comparison interface",
+            "caption": "Comparison and relationship view"
+          }
+        ]
+      }
+    ]
   },
   {
     "projectSlug": "bjorr",
@@ -189,6 +272,10 @@
       "Marketplace interface",
       "Brand application",
       "Deployment"
+    ],
+    "chapterOrder": [
+      "gallery",
+      "highlights"
     ],
     "highlightEyebrow": "COMMERCE ARCHITECTURE",
     "highlightTitle": "Catalogue structure carried into the interface",
@@ -248,8 +335,13 @@
       "Responsive web development",
       "Coded identity system"
     ],
+    "chapterOrder": [
+      "highlights",
+      "gallery",
+      "media"
+    ],
     "highlightEyebrow": "SOCIAL PRODUCT EXPERIENCE",
-    "highlightTitle": "Three ways SaveOurs supports personal collections",
+    "highlightTitle": "Public collections, personal cabinets and coded identity",
     "highlights": [
       {
         "title": "SaveSites",
@@ -261,7 +353,7 @@
       },
       {
         "title": "Coded identity",
-        "description": "The SOS rhythm, SaveOurS name and barcode construction form a recognisable visual language across the platform."
+        "description": "The original identity translated the SaveOurs name and SOS cadence into a recognisable signal system before the later visual redesign."
       }
     ],
     "heroImage": {
@@ -281,11 +373,21 @@
         "src": "/images/projects/saveours/web_development/saveours-mysaves-savesite.webp",
         "alt": "SaveOurs My Saves interface",
         "caption": "My Saves"
-      },
+      }
+    ],
+    "mediaSections": [
       {
-        "src": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
-        "alt": "SaveOurs coded identity",
-        "caption": "Coded identity"
+        "eyebrow": "CODED IDENTITY LANGUAGE",
+        "title": "An SOS rhythm translated through a Morse-code motif",
+        "description": "The original design mission was to encode SaveOurs as a repeating signal language. The SOS cadence, barcode-like lines and circular marks formed the first logo system before the identity was revisited and developed into its later form.",
+        "layout": "split",
+        "images": [
+          {
+            "src": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
+            "alt": "SaveOurs original coded identity study",
+            "caption": "Original coded-language identity study"
+          }
+        ]
       }
     ]
   },
@@ -306,6 +408,11 @@
       "Digital assets",
       "Website presentation"
     ],
+    "chapterOrder": [
+      "highlights",
+      "identity",
+      "media"
+    ],
     "highlightEyebrow": "PRODUCT FAMILY SYSTEM",
     "highlightTitle": "A flexible identity across categories",
     "highlights": [
@@ -314,8 +421,8 @@
         "description": "A recognisable central mark supports distinct treatments across the wider product range."
       },
       {
-        "title": "Food and drinks applications",
-        "description": "Individual products carry their own flavour and colour while remaining visibly part of MiCKz."
+        "title": "Category applications",
+        "description": "Packaging and product mock-ups can take on their own flavour and colour while remaining visibly part of MiCKz."
       },
       {
         "title": "Digital presentation",
@@ -327,23 +434,34 @@
       "alt": "MiCKz website and product presentation",
       "caption": "MiCKz public digital experience"
     },
-    "galleryEyebrow": "IDENTITY APPLICATIONS",
-    "galleryTitle": "Core mark, Pickle MiCKz and Hot MiCKz",
-    "gallery": [
+    "identityEyebrow": "CORE IDENTITY",
+    "identityTitle": "A flexible mark for a growing product family",
+    "identityMarks": [
       {
         "src": "/images/projects/mickz/branding_systems/miCKz.webp",
-        "alt": "MiCKz core identity",
-        "caption": "Core identity"
-      },
+        "alt": "MiCKz core identity development",
+        "caption": "Core identity development",
+        "tone": "light"
+      }
+    ],
+    "mediaSections": [
       {
-        "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
-        "alt": "Pickle MiCKz product concept",
-        "caption": "Pickle MiCKz"
-      },
-      {
-        "src": "/images/projects/mickz/mock_ups/hot-mickz.webp",
-        "alt": "Hot MiCKz product concept",
-        "caption": "Hot MiCKz"
+        "eyebrow": "PACKAGING AND PRODUCT MOCK-UPS",
+        "title": "Applying the identity across product categories",
+        "description": "Selected packaging concepts and mock-up designs show how the central identity can flex across different products without treating any one item as the defining or privileged product.",
+        "layout": "grid",
+        "images": [
+          {
+            "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
+            "alt": "MiCKz food packaging concept",
+            "caption": "Food-packaging concept"
+          },
+          {
+            "src": "/images/projects/mickz/mock_ups/hot-mickz.webp",
+            "alt": "MiCKz drinks packaging concept",
+            "caption": "Drinks-packaging concept"
+          }
+        ]
       }
     ]
   },
@@ -362,6 +480,9 @@
       "Editorial structure",
       "Website direction",
       "Reading experience"
+    ],
+    "chapterOrder": [
+      "highlights"
     ],
     "highlightEyebrow": "PUBLISHING STRUCTURE",
     "highlightTitle": "One story world with several reading routes",
