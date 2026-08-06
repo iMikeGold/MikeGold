@@ -2,6 +2,7 @@
   {
     "projectSlug": "audiorii",
     "maturity": "full",
+    "layout": "media-led",
     "featuredOrder": 1,
     "eyebrow": "AUDIO PRODUCT DEVELOPMENT",
     "title": "Product, platform and identity development",
@@ -15,6 +16,8 @@
       "Infrastructure planning",
       "Digital product assets"
     ],
+    "highlightEyebrow": "CONNECTED PRODUCT SYSTEM",
+    "highlightTitle": "Products, platform and signal language",
     "highlights": [
       {
         "title": "Connected product family",
@@ -34,6 +37,8 @@
       "alt": "AudioRii website and product presentation",
       "caption": "AudioRii public website and product system"
     },
+    "identityEyebrow": "SIGNAL-LED IDENTITY",
+    "identityTitle": "Four marks from one visual grammar",
     "identityMarks": [
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-flow-arc.svg",
@@ -64,6 +69,7 @@
   {
     "projectSlug": "metroplist",
     "maturity": "full",
+    "layout": "gallery-led",
     "featuredOrder": 2,
     "eyebrow": "SPATIAL DATA AND PLACE INTELLIGENCE",
     "title": "Complex place data made immediate",
@@ -77,6 +83,8 @@
       "Visual data translation",
       "Website development"
     ],
+    "highlightEyebrow": "DATA TRANSLATION",
+    "highlightTitle": "From source context to clear comparison",
     "highlights": [
       {
         "title": "Density translation",
@@ -96,6 +104,8 @@
       "alt": "Metroplist website",
       "caption": "Metroplist public website"
     },
+    "galleryEyebrow": "EXPLORE AND COMPARE",
+    "galleryTitle": "The platform in three working views",
     "gallery": [
       {
         "src": "/images/projects/metroplist/web_development/metroplist-appsite.webp",
@@ -117,6 +127,7 @@
   {
     "projectSlug": "the-visionary-guide",
     "maturity": "full",
+    "layout": "split",
     "featuredOrder": 3,
     "eyebrow": "PERSONALISED GUIDE PLATFORM",
     "title": "Personalised guide and publication development",
@@ -130,6 +141,8 @@
       "Content structure",
       "Delivery workflow"
     ],
+    "highlightEyebrow": "GUIDE EXPERIENCE",
+    "highlightTitle": "One product across publication and application",
     "highlights": [
       {
         "title": "Product and publication architecture",
@@ -163,6 +176,7 @@
   {
     "projectSlug": "community-supplies",
     "maturity": "full",
+    "layout": "gallery-led",
     "featuredOrder": 5,
     "eyebrow": "COMMERCE PLATFORM DEVELOPMENT",
     "title": "Catalogue, storefront and brand experience",
@@ -176,6 +190,8 @@
       "Brand application",
       "Deployment"
     ],
+    "highlightEyebrow": "COMMERCE ARCHITECTURE",
+    "highlightTitle": "Catalogue structure carried into the interface",
     "highlights": [
       {
         "title": "Modular catalogue",
@@ -195,6 +211,8 @@
       "alt": "Community Supplies website",
       "caption": "Community Supplies public storefront"
     },
+    "galleryEyebrow": "STOREFRONT SYSTEM",
+    "galleryTitle": "A commerce experience across key views",
     "gallery": [
       {
         "src": "/images/projects/community_supplies/web_development/community-supplies-shopsite.webp",
@@ -216,6 +234,7 @@
   {
     "projectSlug": "saveours",
     "maturity": "full",
+    "layout": "media-led",
     "featuredOrder": 6,
     "eyebrow": "SOCIAL SAVING PLATFORM",
     "title": "Saving, sharing and personal collections",
@@ -229,6 +248,8 @@
       "Responsive web development",
       "Coded identity system"
     ],
+    "highlightEyebrow": "SOCIAL PRODUCT EXPERIENCE",
+    "highlightTitle": "Three ways SaveOurs supports personal collections",
     "highlights": [
       {
         "title": "SaveSites",
@@ -248,6 +269,8 @@
       "alt": "SaveOurs website",
       "caption": "SaveOurs public experience"
     },
+    "galleryEyebrow": "INTERFACES IN USE",
+    "galleryTitle": "Saving and sharing in practice",
     "gallery": [
       {
         "src": "/images/projects/saveours/web_development/savesite-website.webp",
@@ -269,6 +292,7 @@
   {
     "projectSlug": "mickz",
     "maturity": "developing",
+    "layout": "split",
     "featuredOrder": 7,
     "eyebrow": "PRODUCT AND IDENTITY DEVELOPMENT",
     "title": "One identity across a growing product family",
@@ -282,6 +306,8 @@
       "Digital assets",
       "Website presentation"
     ],
+    "highlightEyebrow": "PRODUCT FAMILY SYSTEM",
+    "highlightTitle": "A flexible identity across categories",
     "highlights": [
       {
         "title": "Flexible core identity",
@@ -301,6 +327,8 @@
       "alt": "MiCKz website and product presentation",
       "caption": "MiCKz public digital experience"
     },
+    "galleryEyebrow": "IDENTITY APPLICATIONS",
+    "galleryTitle": "Core mark, Pickle MiCKz and Hot MiCKz",
     "gallery": [
       {
         "src": "/images/projects/mickz/branding_systems/miCKz.webp",
@@ -322,6 +350,7 @@
   {
     "projectSlug": "thinquanauts",
     "maturity": "developing",
+    "layout": "editorial",
     "eyebrow": "SPECULATIVE PUBLISHING WORLD",
     "title": "Stories, ideas and worlds for a mixed-age audience",
     "definition": "A mixed-age speculative and philosophical publishing world spanning mature fiction, accessible stories, serial work and a dedicated children's section.",
@@ -334,6 +363,8 @@
       "Website direction",
       "Reading experience"
     ],
+    "highlightEyebrow": "PUBLISHING STRUCTURE",
+    "highlightTitle": "One story world with several reading routes",
     "highlights": [
       {
         "title": "Story-world architecture",
