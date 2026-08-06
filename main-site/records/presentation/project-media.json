@@ -1,8 +1,8 @@
 [
   {
     "projectSlug": "audiorii",
-    "assetPath": "/images/projects/audiorii/mock_ups/website-mock.webp",
-    "label": "AudioRii website concept"
+    "assetPath": "/images/projects/audiorii/web_development/audiorii-website.webp",
+    "label": "AudioRii website and digital experience"
   },
   {
     "projectSlug": "viisiioiiv",
@@ -11,13 +11,13 @@
   },
   {
     "projectSlug": "the-visionary-guide",
-    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
-    "label": "Visionary Guide full landing experience"
+    "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-website-app-live.webp",
+    "label": "Visionary Guide public website"
   },
   {
     "projectSlug": "bjorr",
-    "assetPath": "/images/projects/bjorr/web_build/school_website/school-website-website.webp",
-    "label": "School of Bjórr website"
+    "assetPath": "/images/projects/bjorr/web_build/bjorr_main/main-website.webp",
+    "label": "Bjórr connected-system website"
   },
   {
     "projectSlug": "community-supplies",
