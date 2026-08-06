@@ -82,9 +82,11 @@ const explorerCards = publicWorkCards.map(({
     ? undefined
     : projectSlug === "audiorii"
       ? 1
-      : projectSlug === "metroplist"
+      : projectSlug === "the-visionary-guide"
         ? 2
-        : caseStudy?.featuredOrder;
+        : projectSlug === "metroplist"
+          ? 3
+          : caseStudy?.featuredOrder;
   const heroSrc = currentMedia?.assetPath ?? caseStudy?.heroImage?.src;
   const heroAlt = caseStudy?.heroImage?.alt ?? currentMedia?.label ?? `${projectName} project`;
 
