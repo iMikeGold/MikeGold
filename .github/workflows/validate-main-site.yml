@@ -10,9 +10,13 @@ on:
       - main
       - agent/featured-project-case-studies
       - agent/refine-project-showcases
+      - agent/remove-visionary-private-signposting
     paths:
       - "main-site/**"
       - ".github/workflows/validate-main-site.yml"
+
+permissions:
+  contents: write
 
 concurrency:
   group: validate-main-site-${{ github.ref }}
@@ -37,6 +41,60 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Remove Visionary Guide privacy signposting
+        if: github.event_name == 'push' && github.ref == 'refs/heads/agent/remove-visionary-private-signposting'
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from "node:fs";
+
+          const path = "records/presentation/project-case-studies.json";
+          const records = JSON.parse(readFileSync(path, "utf8"));
+          const record = records.find((item) => item.projectSlug === "the-visionary-guide");
+          if (!record) throw new Error("The Visionary Guide presentation record was not found.");
+
+          record.eyebrow = "PERSONALISED GUIDE PLATFORM";
+          record.title = "Personalised guide and publication development";
+          record.definition = "Product and application development for a personalised annual guide delivered across physical and digital formats.";
+          record.roleSummary = "Developed the product architecture, publication model, responsive application experience, account journeys and connected delivery workflow.";
+          record.responsibilities = [
+            "Product architecture",
+            "Publication modelling",
+            "Responsive application design",
+            "Account experience",
+            "Content structure",
+            "Delivery workflow"
+          ];
+          record.highlights = [
+            {
+              title: "Product and publication architecture",
+              description: "The annual guide, application and supporting delivery workflow are designed as one connected product experience."
+            },
+            {
+              title: "Responsive application experience",
+              description: "The interface translates a complex personalised product into a calm, clear digital journey."
+            },
+            {
+              title: "Connected guide experience",
+              description: "Product structure, account journeys and publication delivery are brought together through one coherent experience."
+            }
+          ];
+          record.heroImage = {
+            ...record.heroImage,
+            caption: "Visionary Guide application experience"
+          };
+          delete record.note;
+
+          writeFileSync(path, `${JSON.stringify(records, null, 2)}\n`);
+          NODE
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add records/presentation/project-case-studies.json
+          if ! git diff --cached --quiet; then
+            git commit -m "remove Visionary Guide privacy signposting"
+            git push
+          fi
 
       - name: Validate records and knowledge
         run: npm run records:check
