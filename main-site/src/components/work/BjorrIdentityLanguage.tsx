@@ -9,29 +9,29 @@ const institutionMark =
 
 const logoFamily = [
   {
+    src: schoolMark,
+    label: "School · master emblem",
+    tone: "light",
+  },
+  {
     src: "/images/projects/bjorr/logo_design/emblem/school/cream/gold-shadow/emblem-cream-gold-shadow.svg",
     label: "School · cream / gold shadow",
     tone: "warm",
   },
   {
+    src: "/images/projects/bjorr/logo_design/emblem/school/yellow/silver/yellow-stone-shadow300.webp",
+    label: "School · yellow / stone shadow",
+    tone: "dark",
+  },
+  {
+    src: institutionMark,
+    label: "Institution · master emblem",
+    tone: "light",
+  },
+  {
     src: "/images/projects/bjorr/logo_design/emblem/institution/crimson/steel/crimson-blue-steel-01.svg",
     label: "Institution · crimson blue / steel",
     tone: "light",
-  },
-  {
-    src: "/images/projects/bjorr/logo_design/emblem/institution/crimson_gold/crimson-blue-gold-01.svg",
-    label: "Institution · crimson blue / gold",
-    tone: "light",
-  },
-  {
-    src: "/images/projects/bjorr/logo_design/emblem/institution/white_steel/white-steel-01.svg",
-    label: "Institution · white / steel",
-    tone: "dark",
-  },
-  {
-    src: "/images/projects/bjorr/logo_design/emblem/institution/white-stone/white-stone-01.svg",
-    label: "Institution · white / stone",
-    tone: "dark",
   },
   {
     src: "/images/projects/bjorr/logo_design/emblem/institution/white_gold/white-gold-01.svg",
@@ -48,7 +48,7 @@ const learnerViews = [
     title: "A dashboard organised around state, not administration",
     description:
       "The account home returns each learner to their active field, pathway, course and mastery state, with adaptive observations kept visible but clearly bounded.",
-    src: "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.png",
+    src: "/images/projects/bjorr/adaptive_learning/user_accounts/dashboard.webp",
   },
   {
     key: "pathways",
@@ -57,7 +57,7 @@ const learnerViews = [
     title: "Courses stay attached to the learner’s evolving state",
     description:
       "Enrolments show mode, expected study time and progress together, making the relationship between current position and the next knowledge path legible.",
-    src: "/images/projects/bjorr/adaptive_learning/user_accounts/my-learning.png",
+    src: "/images/projects/bjorr/adaptive_learning/user_accounts/my-learning.webp",
   },
   {
     key: "course",
@@ -66,7 +66,7 @@ const learnerViews = [
     title: "Learning is structured as a sequence of active modes",
     description:
       "Reading, practice and connection-building sit inside a visible route through knowledge, with progress retained at both course and activity level.",
-    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.png",
+    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/adaptive_learning/online-course.webp",
   },
 ];
 
@@ -78,34 +78,34 @@ const colourStates = [
     description:
       "Institutional cream creates a calm reading field, with ink-blue structure and deliberate crimson accents guiding action.",
     swatch: "#eee7d8",
-    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-cream.png",
+    src: "/images/projects/bjorr/web_build/school/interface-cream.webp",
   },
   {
     key: "white",
-    label: "Soft white",
+    label: "Soft White",
     note: "Bright, low-friction field",
     description:
       "A brighter white-cream environment reduces visual weight while soft blue structure and warm contrast preserve hierarchy.",
     swatch: "#f4f2ec",
-    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-white.png",
+    src: "/images/projects/bjorr/web_build/school/interface-white.webp",
   },
   {
     key: "crimson",
-    label: "Dark crimson",
+    label: "Dark Crimson",
     note: "Deep blue and crimson",
     description:
       "Midnight-blue foundations support concentrated study, with crimson signals and warm cream typography maintaining orientation.",
     swatch: "#8f1e3d",
-    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-crimson-blue.png",
+    src: "/images/projects/bjorr/web_build/school/interface-crimson-blue.webp",
   },
   {
     key: "black",
-    label: "Soft black",
+    label: "Soft Black",
     note: "Reduced-glare study state",
     description:
       "Near-black surfaces reduce glare for sustained work, using restrained blue depth and quiet crimson signals for navigation.",
     swatch: "#11161b",
-    src: "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-black.png",
+    src: "/images/projects/bjorr/web_build/school/interface-black.webp",
   },
 ];
 
@@ -134,6 +134,27 @@ export default function BjorrIdentityLanguage() {
 
   return (
     <div className="bjorr-case-study">
+      <style>{`
+        .bjorr-case-study .bjorr-platform-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .bjorr-case-study .bjorr-platform-grid figure,
+        .bjorr-case-study .bjorr-platform-grid figure:last-child {
+          grid-column: auto;
+        }
+        .bjorr-case-study .bjorr-platform-grid img {
+          aspect-ratio: auto;
+          height: auto;
+          object-fit: contain;
+          object-position: center top;
+        }
+        @media (max-width: 760px) {
+          .bjorr-case-study .bjorr-platform-grid {
+            grid-template-columns: minmax(0, 1fr);
+          }
+        }
+      `}</style>
+
       <section className="bjorr-identity-language" aria-labelledby="bjorr-identity-title">
         <header>
           <p className="work-kicker">01 · IDENTITY ARCHITECTURE</p>
@@ -197,11 +218,11 @@ export default function BjorrIdentityLanguage() {
         <div className="bjorr-logo-family">
           <div>
             <p className="work-kicker">THE EMBLEM FAMILY</p>
-            <h3>Recognition across materials and contexts</h3>
+            <h3>Selected School and Institution treatments</h3>
             <p>
-              The family is recorded as a set of production assets rather than
-              repeated as full-size artwork. Each treatment preserves the
-              joined j-form, leaf structure and School/Institution distinction.
+              Three School treatments and three Institution treatments show the
+              design nuance across master marks, materials and colour registers
+              without enlarging every production variation into a separate case-study image.
             </p>
           </div>
           <div className="bjorr-logo-cluster">
@@ -215,9 +236,80 @@ export default function BjorrIdentityLanguage() {
         </div>
       </section>
 
+      <section className="bjorr-case-chapter" aria-labelledby="bjorr-platform-title">
+        <header>
+          <p className="work-kicker">02 · CONNECTED DIGITAL ENVIRONMENTS</p>
+          <h2 id="bjorr-platform-title">Two public environments in one connected system</h2>
+          <p>
+            The main Bjórr environment routes people into learning and institutional
+            knowledge, while the Institution environment carries governance,
+            standards, research and public record.
+          </p>
+        </header>
+        <div className="bjorr-platform-grid">
+          <figure>
+            <img
+              src="/images/projects/bjorr/web_build/bjorr_main/main-website.webp"
+              alt="Bjórr connected-system website"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>Bjórr</span>
+              <strong>Connected routes into learning and institutional knowledge</strong>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/images/projects/bjorr/web_build/institution/institution-website.webp"
+              alt="Bjórr Institution website"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>Institution</span>
+              <strong>Governance, standards, research and public record</strong>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section className="bjorr-case-chapter" aria-labelledby="bjorr-state-title">
+        <header>
+          <p className="work-kicker">03 · LEARNER-CONTROLLED ENVIRONMENT</p>
+          <h2 id="bjorr-state-title">Four colour states, one coherent study environment</h2>
+          <p>
+            The study environment can change with learner preference while
+            hierarchy, navigation and interaction remain stable. Select a state
+            below to compare the same interface system.
+          </p>
+        </header>
+        <div className="bjorr-state-selector" role="tablist" aria-label="Interface colour states">
+          {colourStates.map((state) => (
+            <button
+              aria-selected={colourState.key === state.key}
+              className={colourState.key === state.key ? "is-active" : ""}
+              key={state.key}
+              onClick={() => setColourState(state)}
+              role="tab"
+              type="button"
+            >
+              <span style={{ background: state.swatch }} />
+              <strong>{state.label}</strong>
+              <small>{state.note}</small>
+            </button>
+          ))}
+        </div>
+        <figure className="bjorr-state-stage">
+          <img src={colourState.src} alt={`Study interface in the ${colourState.label} colour state`} />
+          <figcaption>
+            <strong>{colourState.label}</strong>
+            <span>{colourState.description}</span>
+          </figcaption>
+        </figure>
+      </section>
+
       <section className="bjorr-case-chapter" aria-labelledby="bjorr-learning-title">
         <header>
-          <p className="work-kicker">02 · ADAPTIVE LEARNING EXPERIENCE</p>
+          <p className="work-kicker">04 · ADAPTIVE LEARNING EXPERIENCE</p>
           <h2 id="bjorr-learning-title">The interface remembers where learning is happening</h2>
           <p>
             Bjórr connects accounts, courses and progress into a learner-facing
@@ -249,79 +341,6 @@ export default function BjorrIdentityLanguage() {
             <img src={learnerView.src} alt={`${learnerView.label} interface`} />
           </figure>
         </article>
-      </section>
-
-      <section className="bjorr-case-chapter" aria-labelledby="bjorr-state-title">
-        <header>
-          <p className="work-kicker">03 · LEARNER-CONTROLLED ENVIRONMENT</p>
-          <h2 id="bjorr-state-title">Four colour states, one coherent school</h2>
-          <p>
-            The visual environment can change with learner preference while
-            hierarchy, navigation and interaction remain stable. Select a state
-            below to compare the same interface system.
-          </p>
-        </header>
-        <div className="bjorr-state-selector" role="tablist" aria-label="Interface colour states">
-          {colourStates.map((state) => (
-            <button
-              aria-selected={colourState.key === state.key}
-              className={colourState.key === state.key ? "is-active" : ""}
-              key={state.key}
-              onClick={() => setColourState(state)}
-              role="tab"
-              type="button"
-            >
-              <span style={{ background: state.swatch }} />
-              <strong>{state.label}</strong>
-              <small>{state.note}</small>
-            </button>
-          ))}
-        </div>
-        <figure className="bjorr-state-stage">
-          <img src={colourState.src} alt={`School interface in the ${colourState.label} colour state`} />
-          <figcaption>
-            <strong>{colourState.label}</strong>
-            <span>{colourState.description}</span>
-          </figcaption>
-        </figure>
-      </section>
-
-      <section className="bjorr-case-chapter" aria-labelledby="bjorr-platform-title">
-        <header>
-          <p className="work-kicker">04 · CONNECTED DIGITAL ENVIRONMENTS</p>
-          <h2 id="bjorr-platform-title">School, learner and Institution remain distinct</h2>
-          <p>
-            The architecture separates prospectus, authenticated learning and
-            institutional record, while the shared identity makes their
-            relationship immediately recognisable.
-          </p>
-        </header>
-        <div className="bjorr-platform-grid">
-          <figure>
-            <img
-              src="/images/projects/bjorr/web_build/school_website/school-website-website.webp"
-              alt="School of Bjórr public website"
-              loading="lazy"
-            />
-            <figcaption><span>Public school</span><strong>Learning proposition and prospectus</strong></figcaption>
-          </figure>
-          <figure>
-            <img
-              src="/images/projects/bjorr/web_build/bjorr-main/main-website.webp"
-              alt="Bjórr connected digital environment"
-              loading="lazy"
-            />
-            <figcaption><span>Connected system</span><strong>Routes into learning and institutional knowledge</strong></figcaption>
-          </figure>
-          <figure>
-            <img
-              src="/images/projects/bjorr/web_build/institution/institution-website.webp"
-              alt="Bjórr Institution website"
-              loading="lazy"
-            />
-            <figcaption><span>Institution</span><strong>Authority, governance and public record</strong></figcaption>
-          </figure>
-        </div>
       </section>
     </div>
   );
