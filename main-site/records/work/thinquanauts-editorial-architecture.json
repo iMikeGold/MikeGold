@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-05T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
   "slug": "thinquanauts-editorial-architecture",
   "title": "Thinquanauts editorial and publication architecture",
@@ -11,18 +11,9 @@
   "status": "in-progress",
   "visibility": "public",
   "sequence": 3,
+  "appliedHatSlugs": ["information-architect", "metadata-engineer", "media-workflow-designer", "format-standardisation-engineer", "narrative-systems-thinker"],
   "lensAssignments": [
-    {
-      "lensId": "media-production-distribution",
-      "role": "primary",
-      "rationale": "The work structures written media, publication formats, editorial routes and distribution across the Thinquanauts catalogue.",
-      "lensSummary": "Editorial, publication and distribution architecture for stories and connected publication families."
-    },
-    {
-      "lensId": "system-product-definition",
-      "role": "secondary",
-      "rationale": "Publication records, audience levels and thematic relationships are organised through a coherent information model.",
-      "lensSummary": "Structured publication and metadata model for the Thinquanauts story universe."
-    }
+    {"lensId":"media-production-distribution","role":"primary","rationale":"The work structures written media, publication formats, editorial routes and distribution across the Thinquanauts catalogue.","lensSummary":"Editorial, publication and distribution architecture for stories and connected publication families."},
+    {"lensId":"system-product-definition","role":"secondary","rationale":"Publication records, audience levels and thematic relationships are organised through a coherent information model.","lensSummary":"Structured publication and metadata model for the Thinquanauts story universe."}
   ]
 }

@@ -3,15 +3,29 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-08-03T08:36:59.604Z",
-  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "slug": "audiorii-audiorii-mock-ups-website-mock",
-  "title": "AudioRii — website and digital experience",
-  "description": "Homepage interface showing the public-facing digital system developed for AudioRii.",
-  "evidenceType": "website",
-  "role": "cover",
-  "sequence": 1,
+  "title": "AudioRii — website and digital experience concept development",
+  "description": "Early full-page concept study used to establish the product presentation, interface language and wider digital-experience direction before the actual public website was developed.",
+  "evidenceType": "image",
+  "role": "process",
+  "sequence": 2,
   "visibility": "public",
   "assetPath": "/images/projects/audiorii/mock_ups/website-mock.webp",
   "sourceTitle": "AudioRii",
-  "placeholder": false
+  "phase": "Concept development",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "process",
+      "website",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "landscape"
+  }
 }

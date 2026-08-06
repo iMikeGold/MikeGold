@@ -1,0 +1,13 @@
+{
+  "id": "1c4ba7aa-5e10-4a89-a6e2-92347415c452",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-digital-environments-evidenced-by-bjorr-adaptive-learning-adaptive-ux-school-interface-crimson-blue",
+  "sourceId": "52e7b403-c88d-4b37-8a9e-0d2fb7f9f7e2",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "1772acb7-7614-4b8f-9aef-96b6f549ab7e",
+  "targetType": "evidence"
+}

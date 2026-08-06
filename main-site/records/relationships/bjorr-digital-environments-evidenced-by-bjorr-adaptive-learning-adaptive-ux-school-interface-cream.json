@@ -1,0 +1,13 @@
+{
+  "id": "fdd883d4-f228-4497-8b81-c5aa3afc4083",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-digital-environments-evidenced-by-bjorr-adaptive-learning-adaptive-ux-school-interface-cream",
+  "sourceId": "52e7b403-c88d-4b37-8a9e-0d2fb7f9f7e2",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "88d4d3bc-45b5-48c8-8f08-367ab0db6c8a",
+  "targetType": "evidence"
+}

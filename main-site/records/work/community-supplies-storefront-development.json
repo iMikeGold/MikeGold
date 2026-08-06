@@ -1,0 +1,19 @@
+{
+  "id": "e3bdd73b-f200-4336-8926-b28d285801dd",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T09:45:00.000Z",
+  "updatedAt": "2026-08-06T11:50:00.000Z",
+  "projectId": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
+  "slug": "community-supplies-storefront-development",
+  "title": "Storefront development",
+  "summary": "Responsive public website, shop and product-discovery interface development.",
+  "sequence": 3,
+  "status": "documented",
+  "visibility": "public",
+  "appliedHatSlugs": ["web-design-engineer", "application-engineer", "software-engineer", "human-system-translator", "deployment-engineer"],
+  "lensAssignments": [
+    { "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on the responsive storefront, shop and product-discovery interfaces." },
+    { "lensId": "infrastructure-operations", "role": "secondary", "rationale": "The public storefront includes an independent deployment foundation.", "lensSummary": "Infrastructure and operations responsibility: deployment of the public commerce experience." }
+  ]
+}

@@ -3,30 +3,14 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-08-06T09:45:00.000Z",
   "projectId": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
   "slug": "community-supplies-system-development",
-  "title": "Community Supplies system development",
-  "summary": "Brand, commerce and digital-service architecture for a product catalogue and storefront experience.",
+  "title": "Commerce architecture",
+  "summary": "Catalogue, range and marketplace structure for the Community Supplies commerce system.",
+  "sequence": 2,
   "status": "documented",
   "visibility": "public",
-  "lensAssignments": [
-    {
-      "lensId": "system-product-definition",
-      "role": "primary",
-      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
-    },
-    {
-      "lensId": "software-web-engineering",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system.",
-      "lensSummary": "Software and web-engineering responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Brand, commerce and digital-service architecture for a product catalogue and storefront experience."
-    }
-  ]
+  "appliedHatSlugs": ["concept-engineer", "data-modeler", "systems-engineer", "information-architect"],
+  "lensAssignments": [{ "lensId": "system-product-definition", "role": "primary", "rationale": "The responsibility centres on catalogue modelling, range relationships, marketplace structure and commerce-system boundaries." }]
 }

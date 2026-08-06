@@ -1,0 +1,16 @@
+{
+  "id": "da0834fc-b4b2-4096-a11d-67d8e5b4741d",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T09:45:00.000Z",
+  "updatedAt": "2026-08-06T09:45:00.000Z",
+  "projectId": "1a8ff123-1cc5-45ef-b1b1-4c07fd81566e",
+  "slug": "metroplist-website-development",
+  "title": "Public website",
+  "summary": "Public web experience introducing Metroplist and its geographical-intelligence platform.",
+  "sequence": 4,
+  "status": "in-progress",
+  "visibility": "public",
+  "appliedHatSlugs": ["web-design-engineer", "software-engineer", "application-engineer"],
+  "lensAssignments": [{ "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on the public website and responsive product presentation." }]
+}

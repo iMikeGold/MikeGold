@@ -3,18 +3,13 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "ae57dde2-aaa7-47be-9fa4-e8839d81fd1f",
   "slug": "ourgani-identity-development",
   "title": "Ourgani identity design",
   "summary": "Logo development for Ourgani, using an organic yin-yang construction to express balance, exchange and the relationship between complementary natural systems.",
   "status": "documented",
   "visibility": "public",
-  "lensAssignments": [
-    {
-      "lensId": "brand-experience-systems",
-      "role": "primary",
-      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
-    }
-  ]
+  "appliedHatSlugs": ["identity-architect", "logo-systems-designer", "symbol-systems-designer", "graphic-design-engineer"],
+  "lensAssignments": [{"lensId":"brand-experience-systems","role":"primary","rationale":"The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."}]
 }

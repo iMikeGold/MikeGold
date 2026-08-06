@@ -1,0 +1,13 @@
+{
+  "id": "e0feeeed-6be0-4958-b35a-fd95883d6546",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-identity-development-evidenced-by-bjorr-logo-design-emblem-institution-white-gold-white-gold-01",
+  "sourceId": "78e4fad0-16eb-46fe-b11a-d1119025631e",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "c5f683ff-a1a4-4c60-933d-e46db2c17a3a",
+  "targetType": "evidence"
+}

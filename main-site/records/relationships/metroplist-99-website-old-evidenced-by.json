@@ -3,9 +3,9 @@
   "recordType": "relationship",
   "schemaVersion": 1,
   "createdAt": "2026-08-05T13:42:00.000Z",
-  "updatedAt": "2026-08-05T13:42:00.000Z",
-  "slug": "metroplist-system-development-evidenced-by-metroplist-99-website-old",
-  "sourceId": "6647f03d-7218-4b46-86c2-51dd90093222",
+  "updatedAt": "2026-08-06T09:45:00.000Z",
+  "slug": "metroplist-website-development-evidenced-by-previous-website",
+  "sourceId": "da0834fc-b4b2-4096-a11d-67d8e5b4741d",
   "sourceType": "work",
   "relationshipType": "evidenced-by",
   "targetId": "cf999738-cd05-47e8-9cf5-7397925ccd4c",
@@ -13,5 +13,5 @@
   "role": "supporting",
   "displayRoles": ["archive"],
   "priority": 99,
-  "note": "Previous Metroplist website retained only as archive evidence of the public product's development."
+  "note": "Previous website retained as archive evidence."
 }

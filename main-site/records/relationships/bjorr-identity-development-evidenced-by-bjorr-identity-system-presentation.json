@@ -1,0 +1,13 @@
+{
+  "id": "c1a62e0f-c6a4-4d67-8be1-4ec525773d75",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-identity-development-evidenced-by-bjorr-identity-system-presentation",
+  "sourceId": "78e4fad0-16eb-46fe-b11a-d1119025631e",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "a111e778-508a-4dd7-b012-615636b428e1",
+  "targetType": "evidence"
+}

@@ -3,44 +3,22 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
   "slug": "bjorr-system-development",
-  "title": "Bjórr system development",
-  "summary": "Development of an adaptive learning framework and its identity architecture: a warm gold-shadow language for the School of Bjórr, paired with a white, silver, steel and stone register for the wider institution.",
+  "title": "Adaptive learning system development",
+  "summary": "Learner, pathway, course, progress and adaptive-support development across the study environment.",
+  "sequence": 3,
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["concept-engineer", "systems-engineer", "data-modeler", "application-engineer", "platform-engineer"],
   "stages": [
-    {
-      "key": "learning-framework",
-      "label": "Adaptive learning framework",
-      "summary": "Defining the school, learner and pathway model.",
-      "status": "in-progress"
-    },
-    {
-      "key": "school-language",
-      "label": "School branding language",
-      "summary": "Gold-shadow identity for teaching, learning and school life.",
-      "status": "completed"
-    },
-    {
-      "key": "institution-register",
-      "label": "Institutional identity register",
-      "summary": "White, silver, steel and stone system for institutional use.",
-      "status": "completed"
-    }
+    { "key": "learning-framework", "label": "Adaptive learning framework", "summary": "Defining the learner, pathway, course and progress model.", "status": "in-progress" },
+    { "key": "learner-state", "label": "Learner state and progress", "summary": "Connecting current study position, active courses and recorded progress.", "status": "in-progress" },
+    { "key": "adaptive-support", "label": "Bounded adaptive support", "summary": "Making adaptive observations useful without replacing the learning structure.", "status": "in-progress" }
   ],
   "lensAssignments": [
-    {
-      "lensId": "system-product-definition",
-      "role": "primary",
-      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Development of an adaptive learning framework, online school and teaching platform designed around different learners, subjects and pathways through knowledge."
-    }
+    { "lensId": "system-product-definition", "role": "primary", "rationale": "The responsibility centres on defining the learner, pathway, course, progress and adaptive-support model." },
+    { "lensId": "software-web-engineering", "role": "secondary", "rationale": "The adaptive learning model is expressed through learner-facing application routes and interface behaviour.", "lensSummary": "Software and web-engineering responsibility: implementing learner state, course routes, progress and adaptive support." }
   ]
 }

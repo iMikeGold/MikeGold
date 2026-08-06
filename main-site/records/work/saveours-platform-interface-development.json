@@ -3,30 +3,18 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-platform-interface-development",
-  "title": "SaveOurs social and personal-saving interfaces",
-  "summary": "Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view.",
+  "title": "Saving interfaces",
+  "summary": "Public SaveSites and the signed-in My Saves collection experience.",
+  "sequence": 2,
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["application-engineer", "software-engineer", "web-design-engineer", "information-architect", "human-system-translator"],
   "lensAssignments": [
-    {
-      "lensId": "software-web-engineering",
-      "role": "primary",
-      "rationale": "The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."
-    },
-    {
-      "lensId": "system-product-definition",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation.",
-      "lensSummary": "System and product-definition responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Interface and platform development across the public SaveOurs experience, shared SaveSites and the signed-in My Saves collection view."
-    }
+    {"lensId":"software-web-engineering","role":"primary","rationale":"The responsibility centres on executable digital behaviour implemented in a website, application, interface or connected software system."},
+    {"lensId":"system-product-definition","role":"secondary","rationale":"The work defines the relationship between shared SaveSites and personal collections.","lensSummary":"System and product-definition responsibility: shared and personal saving interfaces."},
+    {"lensId":"brand-experience-systems","role":"secondary","rationale":"The interfaces establish the designed experience across shared and personal collections.","lensSummary":"Brand and experience-system responsibility: shared and personal collection views."}
   ]
 }

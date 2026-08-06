@@ -1,5 +1,6 @@
 import HatRegistry from "@/components/HatRegistry";
 import Footer from "@/components/sections/Footer";
+import { hats } from "@/system/registry";
 
 export const dynamic = "force-static";
 
@@ -10,41 +11,73 @@ export default function RegistryPage() {
         .registry-page > footer {
           margin-top: 0 !important;
         }
+
+        .registry-shell {
+          width: 100%;
+          max-width: 1500px;
+          margin: 0 auto;
+          padding: clamp(10px, 2vw, 22px) clamp(12px, 3vw, 34px) 0;
+        }
+
+        .registry-intro {
+          display: grid;
+          gap: 4px;
+          margin-bottom: 10px;
+        }
+
+        .registry-title-row {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: baseline;
+          gap: 7px 12px;
+        }
+
+        .registry-title-row h1 {
+          margin: 0;
+          font-size: clamp(1rem, 2vw, 1.12rem);
+          font-weight: 500;
+        }
+
+        .registry-live-count {
+          color: #777;
+          font-size: .68rem;
+          letter-spacing: .08em;
+          text-transform: uppercase;
+        }
+
+        .registry-intro p {
+          margin: 0;
+          color: #8d8d8d;
+          font-size: clamp(.78rem, 1.5vw, .9rem);
+        }
+
+        .registry-page #hat-registry-root {
+          height: max(620px, calc(100dvh - 158px));
+        }
+
+        .registry-page .hat-tile {
+          padding: 1px;
+        }
+
+        @media (max-width: 720px) {
+          .registry-shell {
+            padding-top: 9px;
+          }
+
+          .registry-intro {
+            margin-bottom: 8px;
+          }
+        }
       `}</style>
 
-      <div
-        style={{
-          width: "100%",
-          maxWidth: 1500,
-          margin: "0 auto",
-          padding: "clamp(16px, 3vw, 34px)",
-          paddingBottom: 0,
-        }}
-      >
-        <header style={{ marginBottom: 16 }}>
-          <h1 style={{ margin: 0 }}>HAT REGiSTRY</h1>
-          <p style={{ opacity: 0.7, margin: "8px 0 0" }}>
-            133 capabilities forming a connected system graph.
-          </p>
-          <p style={{ opacity: 0.5, margin: "4px 0 0" }}>
-            Expand nodes to explore relationships, overlap, and system strength.
-          </p>
+      <div className="registry-shell">
+        <header className="registry-intro">
+          <div className="registry-title-row">
+            <h1>HAT REGiSTRY</h1>
+            <span className="registry-live-count">{hats.length} Hats</span>
+          </div>
+          <p>Expand nodes to explore relationships, overlap, and system strength.</p>
         </header>
-
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "8px 14px",
-            marginBottom: 14,
-            fontSize: 12,
-            opacity: 0.6,
-          }}
-        >
-          <span>● ACTIVE SYSTEM</span>
-          <span>● GRAPH MODE</span>
-          <span>● 105 NODES LOADED</span>
-        </div>
 
         <HatRegistry />
       </div>

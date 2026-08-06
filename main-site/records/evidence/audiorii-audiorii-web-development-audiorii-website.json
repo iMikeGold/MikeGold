@@ -3,15 +3,31 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-08-03T08:36:59.604Z",
-  "updatedAt": "2026-08-03T08:36:59.604Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "slug": "audiorii-audiorii-web-development-audiorii-website",
   "title": "AudioRii — website and digital experience",
-  "description": "Homepage interface showing the public-facing digital system developed for AudioRii.",
+  "description": "The actual public-facing AudioRii website, presenting the product family, technology, services and signal-led visual system in its implemented digital environment.",
   "evidenceType": "website",
   "role": "cover",
-  "sequence": 2,
+  "sequence": 1,
   "visibility": "public",
   "assetPath": "/images/projects/audiorii/web_development/audiorii-website.webp",
   "sourceTitle": "AudioRii",
-  "placeholder": false
+  "phase": "Public website",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "website",
+      "web-interface"
+    ],
+    "displayRoles": [
+      "project-cover",
+      "lens-card",
+      "work-hero",
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "hero",
+    "aspectPreference": "landscape"
+  }
 }

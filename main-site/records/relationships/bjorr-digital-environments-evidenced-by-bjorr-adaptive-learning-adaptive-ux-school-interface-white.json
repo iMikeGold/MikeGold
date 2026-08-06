@@ -1,0 +1,13 @@
+{
+  "id": "9d842a7a-007e-4c8c-8068-ac88aeb179ad",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-digital-environments-evidenced-by-bjorr-adaptive-learning-adaptive-ux-school-interface-white",
+  "sourceId": "52e7b403-c88d-4b37-8a9e-0d2fb7f9f7e2",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "e476c967-7288-4b20-8c7a-012a03b57f50",
+  "targetType": "evidence"
+}

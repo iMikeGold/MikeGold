@@ -1,0 +1,30 @@
+{
+  "id": "95dd7ab7-cc3a-4a35-a97f-97ec46e83247",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "mickz-mickz-branding-systems-mickz-main-sun-yellow",
+  "title": "MiCKz identity 03 — Sun Yellow",
+  "description": "Sun Yellow colour treatment within the core MiCKz identity family.",
+  "evidenceType": "image",
+  "role": "identity",
+  "sequence": 3,
+  "visibility": "public",
+  "assetPath": "/images/projects/mickz/branding_systems/mickz-main-sun-yellow.webp",
+  "sourceTitle": "MiCKz",
+  "phase": "Identity system",
+  "placeholder": false,
+  "presentation": {
+    "facets": [
+      "identity-system",
+      "logo"
+    ],
+    "displayRoles": [
+      "supporting",
+      "gallery"
+    ],
+    "visualQuality": "standard",
+    "aspectPreference": "square"
+  }
+}

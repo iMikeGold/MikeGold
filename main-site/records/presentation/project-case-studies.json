@@ -38,46 +38,36 @@
       }
     ],
     "heroImage": {
-      "src": "/images/projects/audiorii/mock_ups/website-mock.webp",
-      "alt": "AudioRii website and product presentation",
-      "caption": "AudioRii public website and product system"
+      "src": "/images/projects/audiorii/web_development/audiorii-website.webp",
+      "alt": "AudioRii public website",
+      "caption": "AudioRii website and digital experience"
     },
     "mediaSections": [
       {
         "eyebrow": "PRODUCT DEVELOPMENT",
         "title": "Selected concepts from the wider product family",
-        "description": "A condensed set of product-facing interface, packaging and software studies. These examples represent the wider AudioRii family rather than attempting to display every product.",
+        "description": "A condensed selection of product-facing interface, packaging and software studies, led by RiiSign as the first and primary product concept.",
         "layout": "feature",
         "images": [
           {
-            "src": "/images/projects/audiorii/digital_asset_creation/RiiMix2.webp",
-            "alt": "AudioRii mixing product interface and packaging study",
-            "caption": "Mixing-product interface and packaging study"
-          },
-          {
             "src": "/images/projects/audiorii/digital_asset_creation/RiiSign.webp",
-            "alt": "AudioRii software instrument product concept",
-            "caption": "Software-instrument concept"
+            "alt": "RiiSign software instrument product concept",
+            "caption": "RiiSign"
           },
           {
-            "src": "/images/projects/audiorii/digital_asset_creation/RiiSamplr.webp",
-            "alt": "AudioRii sampling product concept",
-            "caption": "Sampling-product concept"
-          },
-          {
-            "src": "/images/projects/audiorii/digital_asset_creation/RiiPulsiv.webp",
-            "alt": "AudioRii effects product concept",
-            "caption": "Effects-product concept"
-          },
-          {
-            "src": "/images/projects/audiorii/digital_asset_creation/RiiLinr.webp",
-            "alt": "AudioRii routing and recording product concept",
-            "caption": "Routing and recording concept"
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiForm.webp",
+            "alt": "RiiForm audio product concept",
+            "caption": "RiiForm"
           },
           {
             "src": "/images/projects/audiorii/digital_asset_creation/RiiSpace.webp",
-            "alt": "AudioRii spatial audio product concept",
-            "caption": "Spatial-audio concept"
+            "alt": "RiiSpace spatial audio product concept",
+            "caption": "RiiSpace"
+          },
+          {
+            "src": "/images/projects/audiorii/digital_asset_creation/RiiPulsiv.webp",
+            "alt": "RiiPulsiv audio effects product concept",
+            "caption": "RiiPulsiv"
           }
         ]
       }
@@ -87,26 +77,26 @@
     "identityMarks": [
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-flow-arc.svg",
-        "alt": "AudioRii flow arc identity mark",
-        "caption": "Flow arc",
+        "alt": "AudioRii Flow Arc identity mark",
+        "caption": "Flow Arc",
         "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-02-intersect.svg",
-        "alt": "AudioRii intersect identity study",
+        "alt": "AudioRii Intersect identity study",
         "caption": "Intersect",
         "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-03-circuit-path.svg",
-        "alt": "AudioRii circuit path identity study",
-        "caption": "Circuit path",
+        "alt": "AudioRii Circuit Path identity study",
+        "caption": "Circuit Path",
         "tone": "dark"
       },
       {
         "src": "/images/projects/audiorii/branding_systems/Logo/audiorii-signal-s-curve.svg",
-        "alt": "AudioRii signal curve identity study",
-        "caption": "Signal curve",
+        "alt": "AudioRii Signal Curve identity study",
+        "caption": "Signal Curve",
         "tone": "dark"
       }
     ]
@@ -252,8 +242,8 @@
     "featuredOrder": 4,
     "showcase": false,
     "heroImage": {
-      "src": "/images/projects/bjorr/web_build/school_website/school-website-website.webp",
-      "alt": "School of Bjórr website"
+      "src": "/images/projects/bjorr/web_build/bjorr_main/main-website.webp",
+      "alt": "Bjórr connected-system website"
     }
   },
   {
@@ -353,7 +343,7 @@
       },
       {
         "title": "Coded identity",
-        "description": "The original identity translated the SaveOurs name and SOS cadence into a recognisable signal system before the later visual redesign."
+        "description": "The identity work moved from the original commissioned mark into an SOS / SaveOurS Morse-code construction containing a deliberate barcode."
       }
     ],
     "heroImage": {
@@ -378,14 +368,19 @@
     "mediaSections": [
       {
         "eyebrow": "CODED IDENTITY LANGUAGE",
-        "title": "An SOS rhythm translated through a Morse-code motif",
-        "description": "The original design mission was to encode SaveOurs as a repeating signal language. The SOS cadence, barcode-like lines and circular marks formed the first logo system before the identity was revisited and developed into its later form.",
+        "title": "From the original commission to an SOS / SaveOurS code",
+        "description": "The original commissioned logo established the historical starting point. The later coded identity expresses SOS through Morse code and incorporates an actual barcode as a second machine-readable construction.",
         "layout": "split",
         "images": [
           {
+            "src": "/images/projects/saveours/design_evolutions/first_generation_designs/15year-old-logo-og-saveours.webp",
+            "alt": "Original commissioned SaveOurs identity",
+            "caption": "Original commissioned identity"
+          },
+          {
             "src": "/images/projects/saveours/design_evolutions/coded_language/sos-switch-coded-white.webp",
-            "alt": "SaveOurs original coded identity study",
-            "caption": "Original coded-language identity study"
+            "alt": "SaveOurs Morse-code and barcode identity construction",
+            "caption": "SOS / SaveOurS Morse-code and barcode construction"
           }
         ]
       }
@@ -435,12 +430,30 @@
       "caption": "MiCKz public digital experience"
     },
     "identityEyebrow": "CORE IDENTITY",
-    "identityTitle": "A flexible mark for a growing product family",
+    "identityTitle": "A flexible mark and selected colour treatments",
     "identityMarks": [
       {
         "src": "/images/projects/mickz/branding_systems/miCKz.webp",
         "alt": "MiCKz core identity development",
-        "caption": "Core identity development",
+        "caption": "Core identity",
+        "tone": "light"
+      },
+      {
+        "src": "/images/projects/mickz/branding_systems/drinks-mickz-main.webp",
+        "alt": "MiCKz drinks identity treatment",
+        "caption": "Drinks identity",
+        "tone": "light"
+      },
+      {
+        "src": "/images/projects/mickz/branding_systems/mickz-main-sun-yellow.webp",
+        "alt": "MiCKz Sun Yellow identity treatment",
+        "caption": "Sun Yellow",
+        "tone": "light"
+      },
+      {
+        "src": "/images/projects/mickz/branding_systems/MiCKz-Main-Ocean-Blue.webp",
+        "alt": "MiCKz Ocean Blue identity treatment",
+        "caption": "Ocean Blue",
         "tone": "light"
       }
     ],
@@ -448,18 +461,23 @@
       {
         "eyebrow": "PACKAGING AND PRODUCT MOCK-UPS",
         "title": "Applying the identity across product categories",
-        "description": "Selected packaging concepts and mock-up designs show how the central identity can flex across different products without treating any one item as the defining or privileged product.",
+        "description": "Selected packaging concepts and mock-up designs show how the central identity can flex across different products without treating any one item as the defining product.",
         "layout": "grid",
         "images": [
           {
             "src": "/images/projects/mickz/mock_ups/pickle-mickz.webp",
-            "alt": "MiCKz food packaging concept",
-            "caption": "Food-packaging concept"
+            "alt": "MiCKz pickled-food packaging concept",
+            "caption": "Pickled-food packaging concept"
           },
           {
             "src": "/images/projects/mickz/mock_ups/hot-mickz.webp",
-            "alt": "MiCKz drinks packaging concept",
-            "caption": "Drinks-packaging concept"
+            "alt": "MiCKz hot-sauce packaging concept",
+            "caption": "Hot-sauce packaging concept"
+          },
+          {
+            "src": "/images/projects/mickz/mock_ups/mickz-hibiscus.webp",
+            "alt": "MiCKz hibiscus drink packaging concept",
+            "caption": "Hibiscus drink packaging concept"
           }
         ]
       }

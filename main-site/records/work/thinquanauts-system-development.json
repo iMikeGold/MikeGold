@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-05T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "a137f6c0-996f-4969-b039-b05ac1662a2e",
   "slug": "thinquanauts-system-development",
   "title": "Thinquanauts publishing-system development",
@@ -11,18 +11,9 @@
   "status": "in-progress",
   "visibility": "public",
   "sequence": 1,
+  "appliedHatSlugs": ["systems-engineer", "information-architect", "data-modeler", "world-building-engineer", "narrative-systems-thinker"],
   "lensAssignments": [
-    {
-      "lensId": "system-product-definition",
-      "role": "primary",
-      "rationale": "The work defines the parent publishing system, publication relationships, audience routes and intended operation.",
-      "lensSummary": "Publishing-system architecture for a mixed-age speculative and cognitive story universe."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "The work establishes the meaning, recognition and public framing shared across the Thinquanauts story world.",
-      "lensSummary": "Identity and meaning architecture for the wider Thinquanauts story world."
-    }
+    {"lensId":"system-product-definition","role":"primary","rationale":"The work defines the parent publishing system, publication relationships, audience routes and intended operation.","lensSummary":"Publishing-system architecture for a mixed-age speculative and cognitive story universe."},
+    {"lensId":"brand-experience-systems","role":"secondary","rationale":"The work establishes the meaning, recognition and public framing shared across the Thinquanauts story world.","lensSummary":"Identity and meaning architecture for the wider Thinquanauts story world."}
   ]
 }

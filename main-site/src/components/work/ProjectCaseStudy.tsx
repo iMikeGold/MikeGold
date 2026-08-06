@@ -195,12 +195,40 @@ export default function ProjectCaseStudy({
     return [renderGallery()];
   });
 
+  const projectSpecificStyles = caseStudy.projectSlug === "mickz" ? `
+    .${styles.caseStudy}[data-project="mickz"] .${styles.identityGrid} {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .${styles.caseStudy}[data-project="mickz"] .${styles.identityGrid} figure:first-child {
+      grid-column: 1 / -1;
+    }
+    .${styles.caseStudy}[data-project="mickz"] .${styles.identityGrid} figure:first-child .${styles.identityMedia} {
+      min-height: 250px;
+    }
+    .${styles.caseStudy}[data-project="mickz"] .${styles.mediaLayoutGrid} .${styles.mediaSectionGrid} {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .${styles.caseStudy}[data-project="mickz"] .${styles.mediaLayoutGrid} .${styles.mediaSectionGrid} figure {
+      grid-column: auto;
+    }
+    @media (max-width: 760px) {
+      .${styles.caseStudy}[data-project="mickz"] .${styles.identityGrid},
+      .${styles.caseStudy}[data-project="mickz"] .${styles.mediaLayoutGrid} .${styles.mediaSectionGrid} {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .${styles.caseStudy}[data-project="mickz"] .${styles.identityGrid} figure:first-child {
+        grid-column: auto;
+      }
+    }
+  ` : null;
+
   return (
     <div
       className={`${styles.caseStudy} ${layoutClasses[layout]}`}
       data-layout={layout}
       data-project={caseStudy.projectSlug}
     >
+      {projectSpecificStyles && <style>{projectSpecificStyles}</style>}
       <section className={styles.feature} aria-labelledby={`showcase-${caseStudy.projectSlug}`}>
         <div className={styles.featureCopy}>
           <p className="work-kicker">{caseStudy.eyebrow ?? "SELECTED PROJECT WORK"}</p>

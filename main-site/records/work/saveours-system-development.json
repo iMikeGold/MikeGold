@@ -3,30 +3,17 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-system-development",
-  "title": "SaveOurs system development",
-  "summary": "Product and platform architecture for a social saving experience built around the things people love, share and collect.",
+  "title": "Platform architecture",
+  "summary": "System definition for saving, sharing and organising personal collections.",
+  "sequence": 3,
   "status": "in-progress",
   "visibility": "public",
   "lensAssignments": [
-    {
-      "lensId": "system-product-definition",
-      "role": "primary",
-      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
-    },
-    {
-      "lensId": "media-production-distribution",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on creating, managing, transforming or delivering media to an audience.",
-      "lensSummary": "Media production and distribution responsibility: Product and platform architecture for a social saving experience built around the things people love, share and collect."
-    }
+    { "lensId": "system-product-definition", "role": "primary", "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation." },
+    { "lensId": "brand-experience-systems", "role": "secondary", "rationale": "The product architecture supports the designed saving and sharing experience.", "lensSummary": "Brand and experience-system responsibility: architecture for saving, sharing and personal collections." },
+    { "lensId": "media-production-distribution", "role": "secondary", "rationale": "The platform organises authored and collected media.", "lensSummary": "Media production and distribution responsibility: organising authored and collected media." }
   ]
 }

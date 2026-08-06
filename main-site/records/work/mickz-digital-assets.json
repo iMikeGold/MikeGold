@@ -3,24 +3,16 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-07-20T00:00:00.000Z",
+  "updatedAt": "2026-08-06T12:05:00.000Z",
   "projectId": "d093183a-9cf0-4ae4-b5b2-8d1b21e9c475",
   "slug": "mickz-digital-assets",
   "title": "Digital product assets",
   "summary": "Creation and preparation of product-facing visual assets for digital presentation and future commerce use.",
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": ["graphic-design-engineer", "media-engineer", "media-workflow-designer", "brand-systems-engineer"],
   "lensAssignments": [
-    {
-      "lensId": "media-production-distribution",
-      "role": "primary",
-      "rationale": "The responsibility centres on creating, managing, transforming or delivering media to an audience."
-    },
-    {
-      "lensId": "brand-experience-systems",
-      "role": "secondary",
-      "rationale": "This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.",
-      "lensSummary": "Brand and experience-system responsibility: Creation and preparation of product-facing visual assets for digital presentation and future commerce use."
-    }
+    {"lensId":"media-production-distribution","role":"primary","rationale":"The responsibility centres on creating, managing, transforming or delivering media to an audience."},
+    {"lensId":"brand-experience-systems","role":"secondary","rationale":"This is a distinct supporting responsibility: The responsibility centres on meaning, recognition, identity, visual language or the designed human experience.","lensSummary":"Brand and experience-system responsibility: Creation and preparation of product-facing visual assets for digital presentation and future commerce use."}
   ]
 }

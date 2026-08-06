@@ -36,6 +36,12 @@ export interface InternalWorkRecord extends BaseRecord<WorkId, "work"> {
   visibility: Visibility;
   sequence?: number;
   lensAssignments: WorkLensAssignment[];
+  /**
+   * Reviewed capability declarations owned by the Work record. During the
+   * relationship migration these are materialised into canonical Hat→Work
+   * `applied-in` relationships before indexes are generated.
+   */
+  appliedHatSlugs?: string[];
   startedAt?: string;
   completedAt?: string;
   stages?: WorkStage[];

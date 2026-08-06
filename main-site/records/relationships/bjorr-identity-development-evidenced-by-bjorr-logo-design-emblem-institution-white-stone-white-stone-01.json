@@ -1,0 +1,13 @@
+{
+  "id": "187711ed-ab77-444d-93fe-a37923ad67f7",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-identity-development-evidenced-by-bjorr-logo-design-emblem-institution-white-stone-white-stone-01",
+  "sourceId": "78e4fad0-16eb-46fe-b11a-d1119025631e",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "58a3f233-613d-441f-9208-cfff18b8bf75",
+  "targetType": "evidence"
+}
