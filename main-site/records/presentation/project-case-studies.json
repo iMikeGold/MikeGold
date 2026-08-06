@@ -118,17 +118,17 @@
     "projectSlug": "the-visionary-guide",
     "maturity": "full",
     "featuredOrder": 3,
-    "eyebrow": "PRIVATE PRODUCT PLATFORM",
+    "eyebrow": "PERSONALISED GUIDE PLATFORM",
     "title": "Personalised guide and publication development",
-    "definition": "Private product and application development for a personalised annual guide delivered across physical and digital formats.",
-    "roleSummary": "Work covers product architecture, data and publication modelling, responsive application design, account journeys and private technical infrastructure.",
+    "definition": "Product and application development for a personalised annual guide delivered across physical and digital formats.",
+    "roleSummary": "Developed the product architecture, publication model, responsive application experience, account journeys and connected delivery workflow.",
     "responsibilities": [
       "Product architecture",
       "Publication modelling",
       "Responsive application design",
       "Account experience",
-      "Data-system planning",
-      "Private infrastructure"
+      "Content structure",
+      "Delivery workflow"
     ],
     "highlights": [
       {
@@ -137,19 +137,18 @@
       },
       {
         "title": "Responsive application experience",
-        "description": "Public-facing interface work translates a complex personalised product into a calm, clear digital journey."
+        "description": "The interface translates a complex personalised product into a calm, clear digital journey."
       },
       {
-        "title": "Private systems planning",
-        "description": "Sensitive calculation, personalisation and production systems remain within the private project environment."
+        "title": "Connected guide experience",
+        "description": "Product structure, account journeys and publication delivery are brought together through one coherent experience."
       }
     ],
     "heroImage": {
       "src": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-landing-wide.webp",
       "alt": "Visionary Guide application landing experience",
-      "caption": "Selected public-facing application work"
-    },
-    "note": "Only the public-facing design and engineering contribution is presented here."
+      "caption": "Visionary Guide application experience"
+    }
   },
   {
     "projectSlug": "bjorr",
