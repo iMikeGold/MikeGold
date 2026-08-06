@@ -1,0 +1,16 @@
+{
+  "id": "712c0fd4-729c-4504-88d0-b017e2c97011",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T09:45:00.000Z",
+  "updatedAt": "2026-08-06T09:45:00.000Z",
+  "projectId": "ea248892-d3f6-4ff3-8909-e1442cc3fc43",
+  "slug": "community-supplies-brand-language",
+  "title": "Brand language",
+  "summary": "Identity, colour and visual-language development for the Community Supplies storefront.",
+  "sequence": 1,
+  "status": "documented",
+  "visibility": "public",
+  "appliedHatSlugs": ["brand-systems-engineer", "identity-architect", "graphic-systems-designer"],
+  "lensAssignments": [{ "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on identity, colour, visual language and the designed storefront experience." }]
+}

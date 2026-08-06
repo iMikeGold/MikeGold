@@ -1,0 +1,16 @@
+{
+  "id": "ac542ef8-9d6a-487e-b2ee-1a76535d5b00",
+  "recordType": "work",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T09:45:00.000Z",
+  "updatedAt": "2026-08-06T09:45:00.000Z",
+  "projectId": "1a8ff123-1cc5-45ef-b1b1-4c07fd81566e",
+  "slug": "metroplist-brand-language",
+  "title": "Brand language",
+  "summary": "Visual-language and identity development for translating density, geography and place relationships.",
+  "sequence": 1,
+  "status": "in-progress",
+  "visibility": "public",
+  "appliedHatSlugs": ["brand-systems-engineer", "graphic-systems-designer", "visual-language-engineer"],
+  "lensAssignments": [{ "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on the fold, layered-density grammar, identity and visual translation language." }]
+}
