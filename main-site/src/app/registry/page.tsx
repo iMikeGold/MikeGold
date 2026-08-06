@@ -56,7 +56,36 @@ export default function RegistryPage() {
         }
 
         .registry-page .hat-tile {
-          padding: 1px;
+          padding: 0;
+        }
+
+        .registry-page [data-hat-tile-face] > div {
+          inset: 1px !important;
+          width: auto !important;
+          height: auto !important;
+        }
+
+        .registry-page [data-hat-tile-face] > div:first-child > strong {
+          display: block;
+          max-width: 100%;
+          padding: 0 4px;
+          overflow: hidden;
+          overflow-wrap: anywhere;
+          line-height: 1.15 !important;
+        }
+
+        .registry-page .hat-tile > div:not([data-hat-tile-face]) {
+          inset: 1px !important;
+          padding: 7px !important;
+        }
+
+        .registry-page .hat-tile > div:not([data-hat-tile-face]) > span {
+          width: 100%;
+          min-width: 0;
+          max-width: 100%;
+          overflow-wrap: anywhere;
+          word-break: normal;
+          line-height: 1.2;
         }
 
         @media (max-width: 720px) {
