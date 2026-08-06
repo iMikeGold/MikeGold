@@ -3,26 +3,21 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-07-24T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-cream",
-  "title": "School interface state — Cream",
-  "description": "Warm School interface state using institutional cream, ink-blue text and deliberate crimson accents.",
+  "title": "Study environment — Cream",
+  "description": "Warm study state using institutional cream, ink-blue text and deliberate crimson accents.",
   "evidenceType": "image",
   "role": "interface",
-  "sequence": 13,
+  "sequence": 3,
   "visibility": "public",
-  "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-cream.png",
+  "assetPath": "/images/projects/bjorr/web_build/school/interface-cream.webp",
   "sourceTitle": "Bjórr",
-  "phase": "Adaptive learning experience",
+  "phase": "Learner-controlled study environment",
   "placeholder": false,
   "presentation": {
-    "facets": [
-      "application-interface",
-      "web-interface"
-    ],
-    "displayRoles": [
-      "archive"
-    ],
+    "facets": ["application-interface", "web-interface"],
+    "displayRoles": ["supporting", "gallery"],
     "visualQuality": "standard",
     "aspectPreference": "landscape"
   }

@@ -3,27 +3,21 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-07-24T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "slug": "bjorr-web-build-bjorr-main-main-website",
   "title": "Bjórr connected-system website",
-  "description": "Primary Bjórr environment establishing routes between the School, learner experience and institutional knowledge.",
+  "description": "Primary Bjórr environment establishing routes between learning, learner experience and institutional knowledge.",
   "evidenceType": "website",
-  "role": "interface",
-  "sequence": 26,
+  "role": "cover",
+  "sequence": 1,
   "visibility": "public",
-  "assetPath": "/images/projects/bjorr/web_build/bjorr-main/main-website.webp",
+  "assetPath": "/images/projects/bjorr/web_build/bjorr_main/main-website.webp",
   "sourceTitle": "Bjórr",
-  "phase": "Digital platform",
+  "phase": "Connected digital environments",
   "placeholder": false,
   "presentation": {
-    "facets": [
-      "website",
-      "web-interface"
-    ],
-    "displayRoles": [
-      "supporting",
-      "gallery"
-    ],
+    "facets": ["website", "web-interface"],
+    "displayRoles": ["project-cover", "lens-card", "work-hero", "supporting", "gallery"],
     "visualQuality": "hero",
     "aspectPreference": "landscape"
   }

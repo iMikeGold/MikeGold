@@ -3,26 +3,21 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-07-24T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
   "slug": "bjorr-adaptive-learning-adaptive-ux-school-interface-black",
-  "title": "School interface state — Soft Black",
-  "description": "Reduced-glare School interface state using near-black surfaces, restrained blue depth and quiet crimson signals.",
+  "title": "Study environment — Soft Black",
+  "description": "Reduced-glare study state using near-black surfaces, restrained blue depth and quiet crimson signals.",
   "evidenceType": "image",
   "role": "interface",
-  "sequence": 12,
+  "sequence": 6,
   "visibility": "public",
-  "assetPath": "/images/projects/bjorr/adaptive_learning/adaptive_ux/school/interface-black.png",
+  "assetPath": "/images/projects/bjorr/web_build/school/interface-black.webp",
   "sourceTitle": "Bjórr",
-  "phase": "Adaptive learning experience",
+  "phase": "Learner-controlled study environment",
   "placeholder": false,
   "presentation": {
-    "facets": [
-      "application-interface",
-      "web-interface"
-    ],
-    "displayRoles": [
-      "archive"
-    ],
+    "facets": ["application-interface", "web-interface"],
+    "displayRoles": ["supporting", "gallery"],
     "visualQuality": "standard",
     "aspectPreference": "landscape"
   }

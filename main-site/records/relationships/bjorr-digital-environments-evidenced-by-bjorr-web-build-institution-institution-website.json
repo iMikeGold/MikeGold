@@ -1,0 +1,13 @@
+{
+  "id": "049a501d-e134-4ba4-bfda-c2607df68a7f",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-digital-environments-evidenced-by-bjorr-web-build-institution-institution-website",
+  "sourceId": "52e7b403-c88d-4b37-8a9e-0d2fb7f9f7e2",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "ff46f399-5653-4004-9ff9-b6d3e4f60dad",
+  "targetType": "evidence"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "4d6f7b4a-2280-4b11-854f-91315ba8aa08",
+  "recordType": "relationship",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "slug": "bjorr-identity-development-evidenced-by-bjorr-emblem-lowercase-b-vector",
+  "sourceId": "78e4fad0-16eb-46fe-b11a-d1119025631e",
+  "sourceType": "work",
+  "relationshipType": "evidenced-by",
+  "targetId": "0ea5805c-a0ec-4cc3-8ee9-4e0e46e6f029",
+  "targetType": "evidence"
+}
