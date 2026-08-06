@@ -1,0 +1,72 @@
+{
+  "id": "3330c2e6-eda4-41be-adaf-165a791384e4",
+  "recordType": "hat",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-06T11:50:00.000Z",
+  "updatedAt": "2026-08-06T11:50:00.000Z",
+  "legacyKey": "information-architect",
+  "slug": "information-architect",
+  "name": "Information Architect",
+  "status": "published",
+  "category": "design",
+  "type": "interface",
+  "description": "Structures information so people can find, understand and move through it.",
+  "tags": {
+    "core": [
+      "information",
+      "hierarchy",
+      "navigation",
+      "structure"
+    ],
+    "adjacent": [
+      "taxonomy",
+      "content-model",
+      "interface"
+    ],
+    "meta": [
+      "findability",
+      "clarity"
+    ]
+  },
+  "weight": {
+    "base": 0.85,
+    "experience": 0.82,
+    "rarity": 0.7
+  },
+  "relationships": [
+    {
+      "targetId": "1c717927-9062-4833-b361-21f11d8953db",
+      "type": "overlap",
+      "strength": 0.75
+    },
+    {
+      "targetId": "f617b8e9-091b-4ce7-8ab4-fa92e6789e08",
+      "type": "overlap",
+      "strength": 0.7
+    },
+    {
+      "targetId": "31c8478c-0e17-44d4-9619-ce8868a0ae7b",
+      "type": "supports",
+      "strength": 0.8
+    },
+    {
+      "targetId": "038b0057-aeca-4120-8986-04bfe273cab7",
+      "type": "overlap",
+      "strength": 0.75
+    }
+  ],
+  "details": {
+    "overview": "Organises information around the way people need to understand and use it. Defines hierarchy, navigation, labels, grouping and routes between related material so complex content remains findable and coherent. Separates this human-facing structure from the underlying database or storage schema while ensuring the two can work together.",
+    "capabilities": [
+      "information hierarchy",
+      "navigation architecture",
+      "taxonomy and labelling",
+      "content relationship design"
+    ],
+    "usedFor": [
+      "websites and applications",
+      "knowledge systems",
+      "catalogues and learning environments"
+    ]
+  }
+}

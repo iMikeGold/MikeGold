@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-06T09:45:00.000Z",
-  "updatedAt": "2026-08-06T09:45:00.000Z",
+  "updatedAt": "2026-08-06T11:50:00.000Z",
   "projectId": "1a8ff123-1cc5-45ef-b1b1-4c07fd81566e",
   "slug": "metroplist-application-development",
   "title": "Explore and compare application",
@@ -11,7 +11,7 @@
   "sequence": 3,
   "status": "in-progress",
   "visibility": "public",
-  "appliedHatSlugs": ["application-engineer", "software-engineer", "interface-systems-engineer", "web-design-engineer"],
+  "appliedHatSlugs": ["application-engineer", "software-engineer", "human-system-translator", "web-design-engineer"],
   "lensAssignments": [
     { "lensId": "software-web-engineering", "role": "primary", "rationale": "The responsibility centres on executable exploration and comparison interfaces." },
     { "lensId": "system-product-definition", "role": "secondary", "rationale": "The application applies the shared place model and comparison rules.", "lensSummary": "System and product-definition responsibility: applying the place-data model through explore and compare workflows." }

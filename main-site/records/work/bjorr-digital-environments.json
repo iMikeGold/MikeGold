@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-06T08:30:00.000Z",
-  "updatedAt": "2026-08-06T09:30:00.000Z",
+  "updatedAt": "2026-08-06T11:50:00.000Z",
   "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
   "slug": "bjorr-digital-environments",
   "title": "Connected digital environments",
@@ -11,7 +11,7 @@
   "sequence": 2,
   "status": "in-progress",
   "visibility": "public",
-  "appliedHatSlugs": ["web-design-engineer", "application-engineer", "software-engineer", "interface-systems-engineer", "information-architect"],
+  "appliedHatSlugs": ["web-design-engineer", "application-engineer", "software-engineer", "human-system-translator", "information-architect"],
   "stages": [
     { "key": "public-routes", "label": "Public Bjórr and Institution routes", "status": "completed" },
     { "key": "learner-environment", "label": "Learner-controlled study environment", "status": "in-progress" }
