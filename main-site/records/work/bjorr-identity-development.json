@@ -3,42 +3,19 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-06T08:30:00.000Z",
-  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "projectId": "43e6a86a-bf4d-4223-9196-bbce298af792",
   "slug": "bjorr-identity-development",
   "title": "Identity architecture and branding language",
-  "summary": "Development of the related School and Institution identity registers, emblem construction, material treatments and production variations.",
+  "summary": "School and Institution identity registers, emblem construction and production variations.",
+  "sequence": 1,
   "status": "in-progress",
   "visibility": "public",
-  "appliedHatSlugs": [
-    "identity-architect",
-    "brand-systems-engineer",
-    "logo-systems-designer",
-    "graphic-systems-designer",
-    "symbol-systems-designer"
-  ],
+  "appliedHatSlugs": ["identity-architect", "brand-systems-engineer", "logo-systems-designer", "graphic-systems-designer", "symbol-systems-designer"],
   "stages": [
-    {
-      "key": "emblem-construction",
-      "label": "Emblem construction",
-      "status": "completed"
-    },
-    {
-      "key": "registers",
-      "label": "School and Institution registers",
-      "status": "completed"
-    },
-    {
-      "key": "production-variations",
-      "label": "Production variations",
-      "status": "in-progress"
-    }
+    { "key": "emblem-construction", "label": "Emblem construction", "status": "completed" },
+    { "key": "registers", "label": "School and Institution registers", "status": "completed" },
+    { "key": "production-variations", "label": "Production variations", "status": "in-progress" }
   ],
-  "lensAssignments": [
-    {
-      "lensId": "brand-experience-systems",
-      "role": "primary",
-      "rationale": "The responsibility centres on identity architecture, recognition, emblem systems, colour registers and designed brand experience."
-    }
-  ]
+  "lensAssignments": [{ "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on identity architecture, recognition, emblem systems, colour registers and designed brand experience." }]
 }

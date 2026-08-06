@@ -3,7 +3,7 @@
   "recordType": "evidence",
   "schemaVersion": 1,
   "createdAt": "2026-07-24T00:00:00.000Z",
-  "updatedAt": "2026-07-24T00:00:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "slug": "bjorr-logo-design-emblem-institution-white-gold-white-gold-01",
   "title": "Institution emblem — white and gold",
   "description": "Uppercase-B Institution emblem treatment for dark grounds, combining white clarity with shared gold.",
@@ -15,15 +15,5 @@
   "sourceTitle": "Bjórr",
   "phase": "Identity system",
   "placeholder": false,
-  "presentation": {
-    "facets": [
-      "identity-system",
-      "logo"
-    ],
-    "displayRoles": [
-      "archive"
-    ],
-    "visualQuality": "supporting",
-    "aspectPreference": "square"
-  }
+  "presentation": { "facets": ["identity-system", "logo"], "displayRoles": ["supporting", "gallery"], "visualQuality": "supporting", "aspectPreference": "square" }
 }

@@ -3,41 +3,21 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-21T00:00:00.000Z",
-  "updatedAt": "2026-08-06T08:30:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "projectId": "010e232b-83d9-4141-a8ac-3d889b802618",
   "slug": "saveours-identity-language-development",
-  "title": "Coded identity development",
-  "summary": "Development of the identity from the original commission into an SOS / SaveOurS Morse-code construction containing an actual barcode.",
+  "title": "Coded identity",
+  "summary": "Development from the original commissioned SOS Morse-code mark into a wider SaveOurS coded identity.",
+  "sequence": 1,
   "status": "in-progress",
   "visibility": "public",
   "stages": [
-    {
-      "key": "original",
-      "label": "Original commission",
-      "status": "historical"
-    },
-    {
-      "key": "revisit",
-      "label": "Identity development",
-      "status": "completed"
-    },
-    {
-      "key": "coded-language",
-      "label": "Morse-code and barcode construction",
-      "status": "in-progress"
-    }
+    { "key": "original", "label": "Original commission", "status": "historical" },
+    { "key": "revisit", "label": "Identity development", "status": "completed" },
+    { "key": "coded-language", "label": "SaveOurS coded language", "status": "in-progress" }
   ],
   "lensAssignments": [
-    {
-      "lensId": "brand-experience-systems",
-      "role": "primary",
-      "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience."
-    },
-    {
-      "lensId": "system-product-definition",
-      "role": "secondary",
-      "rationale": "The coded mark is defined as a repeatable visual system combining SOS in Morse code with a barcode construction.",
-      "lensSummary": "System and product-definition responsibility: Development of a repeatable coded identity combining an SOS / SaveOurS Morse-code construction with an actual barcode."
-    }
+    { "lensId": "brand-experience-systems", "role": "primary", "rationale": "The responsibility centres on meaning, recognition, identity, visual language or the designed human experience." },
+    { "lensId": "system-product-definition", "role": "secondary", "rationale": "The coded mark is defined as a repeatable visual system developing the original SOS Morse-code construction into SaveOurS.", "lensSummary": "System and product-definition responsibility: development of a repeatable SaveOurS coded identity from the original SOS Morse-code construction." }
   ]
 }

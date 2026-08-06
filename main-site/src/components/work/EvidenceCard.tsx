@@ -19,8 +19,10 @@ function youtubeId(url?: string) {
 
 export default function EvidenceCard({
   evidence,
+  compact = false,
 }: {
   evidence: PublicEvidenceProjection;
+  compact?: boolean;
 }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoId = evidence.evidenceType === "video" ? youtubeId(evidence.externalUrl) : null;
@@ -29,7 +31,7 @@ export default function EvidenceCard({
     : evidence.sourceAuthor ?? evidence.evidenceType;
 
   return (
-    <article className={`evidence-card evidence-card-${evidence.role ?? evidence.evidenceType}${videoId ? " evidence-card-video" : ""}`}>
+    <article className={`evidence-card evidence-card-${evidence.role ?? evidence.evidenceType}${videoId ? " evidence-card-video" : ""}${compact ? " is-compact" : ""}`}>
       {videoId && (
         <>
           <div className="evidence-media">
@@ -42,9 +44,7 @@ export default function EvidenceCard({
               />
             ) : (
               <button type="button" onClick={() => setIsPlaying(true)}>
-                {evidence.thumbnailUrl && (
-                  <img src={evidence.thumbnailUrl} alt="" loading="lazy" />
-                )}
+                {evidence.thumbnailUrl && <img src={evidence.thumbnailUrl} alt="" loading="lazy" />}
                 <span>PLAY EVIDENCE</span>
               </button>
             )}
@@ -67,7 +67,7 @@ export default function EvidenceCard({
           : [evidence.period, evidence.phase, evidenceLabel].filter(Boolean).join(" · ")}
       </span>
       <strong>{evidence.title}</strong>
-      {evidence.description && <p>{evidence.description}</p>}
+      {!compact && evidence.description && <p>{evidence.description}</p>}
     </article>
   );
 }

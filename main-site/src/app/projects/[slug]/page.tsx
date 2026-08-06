@@ -22,6 +22,80 @@ type ProjectMediaRecord = {
   label: string;
 };
 
+function refineCaseStudy(caseStudy: ProjectCaseStudyRecord): ProjectCaseStudyRecord {
+  if (caseStudy.projectSlug === "metroplist") {
+    return {
+      ...caseStudy,
+      chapterOrder: ["media", "highlights", "gallery"],
+      mediaSections: [
+        {
+          eyebrow: "BRAND LANGUAGE EVOLUTION",
+          title: "A visual language for translating density and place",
+          description: "Selected development studies record the fold, layered density and spatial grammar before that language is applied to data translation and comparison.",
+          layout: "grid",
+          images: [
+            {
+              src: "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-foundation-builds.webp",
+              alt: "Metroplist visual-language foundation studies",
+              caption: "Foundation studies",
+            },
+            {
+              src: "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master-transparent-preview.webp",
+              alt: "Metroplist transparent density language study",
+              caption: "Layered density study",
+            },
+            {
+              src: "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master1.webp",
+              alt: "Metroplist selected visual-language direction",
+              caption: "Selected direction",
+            },
+            {
+              src: "/images/projects/metroplist/branding_language/metroplist-concept-d-density-master2-language-explained.webp",
+              alt: "Metroplist visual language explained",
+              caption: "Language explained",
+            },
+          ],
+        },
+      ],
+    };
+  }
+  if (caseStudy.projectSlug === "community-supplies") {
+    return { ...caseStudy, chapterOrder: ["highlights", "gallery"] };
+  }
+  if (caseStudy.projectSlug === "saveours") {
+    return {
+      ...caseStudy,
+      highlights: caseStudy.highlights?.map((highlight) =>
+        highlight.title === "Coded identity"
+          ? {
+              ...highlight,
+              description: "The identity moves from the original commissioned SOS Morse-code mark into a wider SaveOurS coded language.",
+            }
+          : highlight,
+      ),
+      mediaSections: caseStudy.mediaSections?.map((section) =>
+        section.eyebrow === "CODED IDENTITY LANGUAGE"
+          ? {
+              ...section,
+              title: "From the original commissioned SOS Morse code to a SaveOurS code",
+              description: "The original commission established an SOS Morse-code mark. The later identity develops that construction into SaveOurS as a wider coded language.",
+              images: section.images.map((image, index) =>
+                index === 1
+                  ? {
+                      ...image,
+                      alt: "SaveOurS coded identity construction",
+                      caption: "SaveOurS coded construction",
+                    }
+                  : image,
+              ),
+            }
+          : section,
+      ),
+    };
+  }
+  return caseStudy;
+}
+
 const projectBySlug = new Map(publicProjects.map((project) => [project.slug, project]));
 const evidenceBySlug = new Map(publicEvidence.map((evidence) => [evidence.slug, evidence]));
 const hatBySlug = new Map(publicHats.map((hat) => [hat.slug, hat]));
@@ -35,7 +109,6 @@ for (const media of projectMediaRecords as ProjectMediaRecord[]) {
   }
 }
 const workByProjectSlug = new Map<string, Array<(typeof publicWork)[number]>>();
-
 for (const item of publicWork) {
   const projectWork = workByProjectSlug.get(item.projectSlug) ?? [];
   projectWork.push(item);
@@ -46,11 +119,7 @@ export function generateStaticParams() {
   return publicProjects.map((project) => ({ slug: project.slug }));
 }
 
-export default async function ProjectRecordPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function ProjectRecordPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const project = projectBySlug.get(slug);
   if (!project) notFound();
@@ -64,17 +133,14 @@ export default async function ProjectRecordPage({
     const item = evidenceBySlug.get(evidenceSlug);
     return item ? [item] : [];
   });
-  const caseStudy = caseStudyByProjectSlug.get(project.slug);
+  const rawCaseStudy = caseStudyByProjectSlug.get(project.slug);
+  const caseStudy = rawCaseStudy ? refineCaseStudy(rawCaseStudy) : undefined;
   const currentMedia = projectMediaByProjectSlug.get(project.slug);
   const presentedCaseStudy = caseStudy
     ? {
         ...caseStudy,
         heroImage: caseStudy.heroImage ?? (currentMedia
-          ? {
-              src: currentMedia.assetPath,
-              alt: currentMedia.label,
-              caption: currentMedia.label,
-            }
+          ? { src: currentMedia.assetPath, alt: currentMedia.label, caption: currentMedia.label }
           : undefined),
       }
     : undefined;
@@ -93,7 +159,6 @@ export default async function ProjectRecordPage({
         </header>
 
         {presentedCaseStudy && <ProjectCaseStudy caseStudy={presentedCaseStudy} />}
-
         {project.slug === "bjorr" && <BjorrIdentityLanguage />}
 
         <section>

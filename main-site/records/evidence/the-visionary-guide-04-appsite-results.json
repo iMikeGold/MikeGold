@@ -1,0 +1,19 @@
+{
+  "id": "0e8144f2-43fe-4104-a8a8-2862ee241bb3",
+  "recordType": "evidence",
+  "schemaVersion": 1,
+  "createdAt": "2026-08-05T13:18:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
+  "slug": "the-visionary-guide-04-appsite-results",
+  "title": "The Visionary Guide — generated results interface",
+  "description": "Results view demonstrating how resolved data and interpretation are presented within the digital Guide experience.",
+  "evidenceType": "website",
+  "role": "interface",
+  "sequence": 4,
+  "visibility": "public",
+  "assetPath": "/images/projects/visionary_guide/web_infrastructure/visionary-guide-appsite-results-page.webp",
+  "sourceTitle": "The Visionary Guide",
+  "phase": "Application development",
+  "placeholder": false,
+  "presentation": { "facets": ["website", "web-interface", "application-interface"], "displayRoles": ["supporting", "gallery"], "visualQuality": "standard", "aspectPreference": "landscape" }
+}

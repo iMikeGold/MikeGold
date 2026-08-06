@@ -3,16 +3,17 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-08-03T00:00:00.000Z",
-  "updatedAt": "2026-08-03T00:00:00.000Z",
+  "updatedAt": "2026-08-06T09:30:00.000Z",
   "projectId": "f0c8c4e7-9f9c-4a9e-8e9b-6c5d0e8c2b11",
   "slug": "audiorii-system-development",
-  "title": "AudioRii system development",
-  "summary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii.",
+  "title": "Product platform",
+  "summary": "Product, service, licensing and delivery architecture for the wider AudioRii ecosystem.",
+  "sequence": 3,
   "status": "in-progress",
   "visibility": "public",
   "appliedHatSlugs": ["systems-engineer", "platform-engineer", "infrastructure-engineer", "operations-engineer", "devops-engineer", "pipeline-engineer"],
   "lensAssignments": [
-    { "lensId": "system-product-definition", "role": "primary", "rationale": "AudioRii defines an ecosystem of products, services, platform relationships, licensing, creator structure, boundaries and delivery planning." , "lensSummary": "Product ecosystem architecture, service definition, platform relationships, licensing architecture, creator ecosystem structure, product strategy, system boundaries and lifecycle planning for AudioRii." },
-    { "lensId": "infrastructure-operations", "role": "secondary", "rationale": "The work establishes operational foundations for product and service delivery, including infrastructure, backend services, deployment, release and licensing systems." , "lensSummary": "Operational foundations for AudioRii, including VPS and cloud infrastructure, backend services, deployment architecture, build and release pipelines, CI/CD, licensing, updates, delivery systems and internal tooling." }
+    { "lensId": "system-product-definition", "role": "primary", "rationale": "AudioRii defines an ecosystem of products, services, platform relationships, licensing, creator structure, boundaries and delivery planning.", "lensSummary": "Product, service, licensing and delivery architecture for the wider AudioRii ecosystem." },
+    { "lensId": "infrastructure-operations", "role": "secondary", "rationale": "The work establishes operational foundations for product and service delivery.", "lensSummary": "Operational foundations for AudioRii product and service delivery." }
   ]
 }
