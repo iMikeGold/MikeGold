@@ -51,17 +51,38 @@ export default function EvidenceDisclosure({
   const available = evidence.filter(
     (item) =>
       !item.placeholder &&
-      !(item.presentation?.displayRoles.length === 1 && item.presentation.displayRoles[0] === "archive"),
+      !(
+        item.presentation?.displayRoles.length === 1 &&
+        item.presentation.displayRoles[0] === "archive"
+      ),
   );
   if (!available.length) return null;
 
   const roleCopy: Record<string, { title: string; description: string }> = {
-    cover: { title: "Website and digital experience", description: "The public-facing interface and visual system in context." },
-    interface: { title: "Interface development", description: "Selected screens and interaction studies from the digital experience." },
-    identity: { title: "Identity development", description: "Marks, directions and production variations developed as part of the identity system." },
-    process: { title: "Design language and evolution", description: "Exploration showing how the visual rules, structure and final direction developed." },
-    application: { title: "Applied identity", description: "Product, packaging and contextual mock-ups showing the system in use." },
-    reference: { title: "Supporting visuals", description: "Additional material that helps document the work and its context." },
+    cover: {
+      title: "Website and digital experience",
+      description: "The public-facing interface and visual system in context.",
+    },
+    interface: {
+      title: "Interface development",
+      description: "Selected screens and interaction studies from the digital experience.",
+    },
+    identity: {
+      title: "Identity development",
+      description: "Marks, directions and production variations developed as part of the identity system.",
+    },
+    process: {
+      title: "Design language and evolution",
+      description: "Exploration showing how the visual rules, structure and final direction developed.",
+    },
+    application: {
+      title: "Applied identity",
+      description: "Product, packaging and contextual mock-ups showing the system in use.",
+    },
+    reference: {
+      title: "Supporting visuals",
+      description: "Additional material that helps document the work and its context.",
+    },
   };
   const grouped = roleOrder
     .map((role) => ({
@@ -75,14 +96,70 @@ export default function EvidenceDisclosure({
   return (
     <div className="evidence-disclosure">
       <style>{`
-        .evidence-subgroups { display: grid; gap: 1rem; margin-top: 1rem; }
-        .evidence-subgroup { display: grid; gap: .65rem; }
-        .evidence-subgroup > h5 { margin: 0; color: #aaa; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
-        .evidence-grid.is-compact { grid-template-columns: repeat(auto-fit, minmax(min(100%, 135px), 1fr)); gap: .65rem; }
-        .evidence-card.is-compact { min-width: 0; }
-        .evidence-card.is-compact .evidence-image img { aspect-ratio: 1 / 1; max-height: 150px; object-fit: contain; }
-        .evidence-card.is-compact > span { font-size: .58rem; }
-        .evidence-card.is-compact > strong { font-size: .76rem; line-height: 1.3; }
+        .evidence-subgroups {
+          display: grid;
+          gap: 1rem;
+          margin-top: 1rem;
+        }
+
+        .evidence-subgroup {
+          display: grid;
+          gap: .65rem;
+        }
+
+        .evidence-subgroup > h5 {
+          margin: 0;
+          color: #aaa;
+          font-size: .72rem;
+          letter-spacing: .08em;
+          text-transform: uppercase;
+        }
+
+        .evidence-grid.is-compact {
+          grid-template-columns: repeat(auto-fit, minmax(min(100%, 135px), 1fr));
+          gap: .65rem;
+        }
+
+        .evidence-card.is-compact {
+          min-width: 0;
+        }
+
+        .evidence-card.is-compact .evidence-image img {
+          aspect-ratio: 1 / 1;
+          max-height: 150px;
+          object-fit: contain;
+        }
+
+        .evidence-card.is-compact .evidence-image-bjorr-emblem {
+          min-height: 174px;
+          display: grid;
+          place-items: center;
+          padding: 1rem;
+        }
+
+        .evidence-card.is-compact .evidence-image-bjorr-emblem img {
+          width: 100%;
+          height: 138px;
+          max-height: none;
+          aspect-ratio: auto;
+          object-fit: contain;
+          transform: scale(.9);
+          transform-origin: center;
+        }
+
+        .evidence-image-dark-stage {
+          background: #0b0d11 !important;
+          box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .04);
+        }
+
+        .evidence-card.is-compact > span {
+          font-size: .58rem;
+        }
+
+        .evidence-card.is-compact > strong {
+          font-size: .76rem;
+          line-height: 1.3;
+        }
       `}</style>
       <button type="button" aria-expanded={open} onClick={() => setOpen((value) => !value)}>
         {open ? "Hide supporting material" : `View supporting material (${available.length})`}
@@ -102,7 +179,11 @@ export default function EvidenceDisclosure({
                       <h5>{subgroup.title}</h5>
                       <div className={`evidence-grid${subgroup.compact ? " is-compact" : ""}`}>
                         {subgroup.items.map((item) => (
-                          <EvidenceCard evidence={item} compact={subgroup.compact} key={item.slug} />
+                          <EvidenceCard
+                            evidence={item}
+                            compact={subgroup.compact}
+                            key={item.slug}
+                          />
                         ))}
                       </div>
                     </section>
@@ -110,7 +191,9 @@ export default function EvidenceDisclosure({
                 </div>
               ) : (
                 <div className="evidence-grid">
-                  {group.items.map((item) => <EvidenceCard evidence={item} key={item.slug} />)}
+                  {group.items.map((item) => (
+                    <EvidenceCard evidence={item} key={item.slug} />
+                  ))}
                 </div>
               )}
             </section>

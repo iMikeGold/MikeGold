@@ -3,7 +3,7 @@
   "recordType": "work",
   "schemaVersion": 1,
   "createdAt": "2026-07-20T00:00:00.000Z",
-  "updatedAt": "2026-08-06T09:30:00.000Z",
+  "updatedAt": "2026-08-06T13:20:00.000Z",
   "projectId": "5747ebc1-99c7-430b-a232-f2ade111dc5f",
   "slug": "the-visionary-guide-system-development",
   "title": "Guide platform development",
@@ -11,8 +11,31 @@
   "sequence": 1,
   "status": "in-progress",
   "visibility": "public",
+  "appliedHatSlugs": [
+    "concept-engineer",
+    "systems-engineer",
+    "platform-engineer",
+    "data-modeler",
+    "schema-architect",
+    "workflow-engineer",
+    "application-engineer",
+    "software-engineer",
+    "web-design-engineer",
+    "information-architect",
+    "human-system-translator",
+    "media-workflow-designer"
+  ],
   "lensAssignments": [
-    { "lensId": "system-product-definition", "role": "primary", "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation." },
-    { "lensId": "software-web-engineering", "role": "secondary", "rationale": "The Guide platform includes a responsive public and account-based application experience.", "lensSummary": "Software and web-engineering responsibility: public, account and Guide application development." }
+    {
+      "lensId": "system-product-definition",
+      "role": "primary",
+      "rationale": "The responsibility centres on defining the system model, boundaries, structure, workflows or intended operation."
+    },
+    {
+      "lensId": "software-web-engineering",
+      "role": "secondary",
+      "rationale": "The Guide platform includes a responsive public and account-based application experience.",
+      "lensSummary": "Software and web-engineering responsibility: public, account and Guide application development."
+    }
   ]
 }

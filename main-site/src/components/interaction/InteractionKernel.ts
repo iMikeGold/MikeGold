@@ -14,10 +14,9 @@ type Mode = "mouse" | "touch";
 type LayoutMode = "desktop" | "compact" | "mobile";
 type Overlay = { id: string; text: string } | null;
 
-// Make layout optional + safe fallback
 export function useInteractionKernel(
   _flippedMap: Record<string, boolean>,
-  layout?: { isMobile: boolean; isCompact: boolean; isPortrait: boolean }
+  layout?: { isMobile: boolean; isCompact: boolean; isPortrait: boolean },
 ) {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlay, setOverlay] = useState<Overlay>(null);
@@ -27,7 +26,9 @@ export function useInteractionKernel(
     ? "desktop"
     : layout.isMobile || layout.isPortrait
       ? "mobile"
-      : layout.isCompact ? "compact" : "desktop";
+      : layout.isCompact
+        ? "compact"
+        : "desktop";
   const mode: Mode = layout?.isMobile ? "touch" : "mouse";
 
   const clear = () => {
@@ -37,13 +38,11 @@ export function useInteractionKernel(
 
   const enter = (id: string, hat: Hat) => {
     if (mode === "touch") return;
-    if (layoutMode === "desktop") {
-      setActiveId(id);
-      setOverlay({
-        id,
-        text: hat.description || hat.name
-      });
-    }
+    setActiveId(id);
+    setOverlay({
+      id,
+      text: hat.description || hat.name,
+    });
   };
 
   const leave = () => {
@@ -81,5 +80,15 @@ export function useInteractionKernel(
 
   const getOverlay = (id: string) => (overlay?.id === id ? overlay.text : null);
 
-  return { mode, layoutMode, enter, leave, touchStart, touchEnd, click, getTileState, getOverlay };
+  return {
+    mode,
+    layoutMode,
+    enter,
+    leave,
+    touchStart,
+    touchEnd,
+    click,
+    getTileState,
+    getOverlay,
+  };
 }
