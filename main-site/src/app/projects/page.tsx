@@ -87,7 +87,7 @@ const explorerCards = publicWorkCards.map(({
         : projectSlug === "metroplist"
           ? 3
           : caseStudy?.featuredOrder;
-  const heroSrc = currentMedia?.assetPath ?? caseStudy?.heroImage?.src;
+  const heroSrc = caseStudy?.heroImage?.src ?? currentMedia?.assetPath;
   const heroAlt = caseStudy?.heroImage?.alt ?? currentMedia?.label ?? `${projectName} project`;
 
   return {
